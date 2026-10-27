@@ -27,7 +27,7 @@ Macro F1 averages the three held-out contracts. Full per-contract tables are in 
 | Kimi K2.6, LoRA round 2 | 0.57 |
 | Jev, sentence selection | 0.64 |
 
-Claude found 27% to 52% of the real requirements, with high precision. Fine-tuning on 11 practice contracts lifted each open model to about Claude's level. The second round changed only the training labels, not the recipe.
+Claude found 27% to 52% of the real requirements, with 52% to 91% precision. Fine-tuning on 11 practice contracts lifted each open model to about Claude's level. The second round changed only the training labels, not the recipe.
 
 Jev works differently. Code splits the RFP into sentences, and Jev decides for each sentence whether it is a requirement and how to label it. A row's text is always a sentence from the document, so a row can be wrong but cannot be invented. Jev found 74% to 88% of the real requirements, with 45% to 60% precision. Its confidence scores did not pass the calibration check: in the top confidence bin, the share of real requirements was 12 points off the stated confidence, and the bar was 10.
 
