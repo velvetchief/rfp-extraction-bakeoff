@@ -1,0 +1,1582 @@
+[page 1]
+RFO No. HHS0015558v2 Page 1 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ 
+Stephanie Muth, Executive Commissioner 
+ 
+Request for Proposals (RFO) for 
+Video Directly Observed Therapy (“VDOT”) 
+RFO No. HHS0015558v2 
+ 
+Date of Release: July 16, 2026 
+Responses Due: August 26, 2026 by 10:30 a.m. Central Time 
+ 
+NIGP Class/Item Codes 
+Class/Item Code  Description 
+920-02 Access Services, Data 
+920-03 Application Services Provider (ASP), Web Based Hosted 
+920-07 Application Software for Microcomputer System: Business, Mathematical and 
+Statistical, Medical, Scientific, etc. 
+920-13 Advanced Authentication Software Services, Including Maintenance and Repair 
+920-39 Processing System Services, Data (Not Otherwise Classified) 
+920-45 Software Maintenance and Support Services and Updates and Data Hosting Services 
+920-46 Software Updating and Upgrading Services 
+920-66 System, Network, Database, DBA Administration Services 
+920-91 Training, Computer Based, Software Supported
+
+[page 2]
+RFO No. HHS0015558v2 Page 2 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+Table of Contents 
+Article I. Executive Summary, Definitions, and Authority ............................................................ 6 
+1.1 Introduction ..................................................................................................................... 6 
+1.2 Definitions....................................................................................................................... 7 
+1.3 Authority ....................................................................................................................... 10 
+Article II. Scope of Work.............................................................................................................. 11 
+2.1 Description of Services ................................................................................................. 11 
+2.1.1 Texas Risk and Authorization Management Plan ................................................. 11 
+2.1.2 Requirements Traceability Matrix ........................................................................ 11 
+2.1.3 Disaster Recovery Test ......................................................................................... 12 
+2.1.4 Invoicing ............................................................................................................... 12 
+2.2 Contract Award, Term, and Historical Compensation .................................................. 13 
+2.2.1 Contract Award and Execution ............................................................................. 13 
+2.2.2 Contract Term ....................................................................................................... 13 
+2.2.3 Historical Compensation ....................................................................................... 13 
+2.3 Data Use Agreement and Security Privacy Inquiry ...................................................... 13 
+2.4 No Guarantee of Volume, Usage, or Compensation..................................................... 14 
+Article III. Administrative Information ........................................................................................ 15 
+3.1 Schedule of Events ........................................................................................................ 15 
+3.2 Ambiguity, Conflict, or Discrepancy ............................................................................ 16 
+3.3 Inquiries ........................................................................................................................ 16 
+3.3.1 Sole Point of Contact ............................................................................................ 16 
+3.3.2 Prohibited Communication ................................................................................... 17 
+3.3.3 Exception to Sole Point of Contact ....................................................................... 17 
+3.3.4 Solicitation Questions ........................................................................................... 18 
+3.4 Pre-proposal Conference ............................................................................................... 18 
+3.4.1 Attendance ............................................................................................................ 18 
+3.4.2 Conference Logistical Information ....................................................................... 19 
+3.4.3 Questions at Pre-Proposal Conference.................................................................. 19 
+3.5 Solicitation Response Composition .............................................................................. 20 
+3.5.1 General Information .............................................................................................. 20
+
+[page 3]
+RFO No. HHS0015558v2 Page 3 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+3.5.2 Page Limit and Supporting Documentation .......................................................... 20 
+3.5.3 Discrepancies ........................................................................................................ 20 
+3.5.4 Exceptions ............................................................................................................. 20 
+3.5.5 Assumptions .......................................................................................................... 21 
+3.5.6 Binding Offer ........................................................................................................ 21 
+3.6 Solicitation Response Submission and Delivery .......................................................... 21 
+3.6.1 Deadline ................................................................................................................ 21 
+3.6.2 Submission Option ................................................................................................ 21 
+3.6.3 Submission Checklist ............................................................................................ 22 
+3.6.4 Labeling and Delivery for USB Submission and Other Materials ....................... 24 
+3.6.5 Modifications and Withdrawals ............................................................................ 25 
+Article IV. Solicitation Response Evaluation and Award Process ............................................... 26 
+4.1 Conformance with State Law........................................................................................ 26 
+4.2 Best Value Determination ............................................................................................. 26 
+4.2.1 Selection Methodology ......................................................................................... 26 
+4.2.2 Minimum Qualifications ....................................................................................... 26 
+4.2.3 Initial Compliance Screening ................................................................................ 27 
+4.2.4 Written Solicitation Response Evaluation ............................................................ 27 
+4.2.5  Written Response Evaluation Criteria .................................................................. 27 
+4.2.6 Best and Final Offer (BAFO) ............................................................................... 28 
+4.2.7 Final Written Response Score ............................................................................... 28 
+4.2.8 Summary of Best Value Determination ................................................................ 28 
+4.2.9 TX-RAMP Certification Assessment ................................................................... 29 
+4.3 Questions or Requests for Clarification ........................................................................ 29 
+4.4 Accessibility Scoring .................................................................................................... 29 
+Article V. Narrative/Technical Proposal ....................................................................................... 30 
+5.1 Narrative Proposal ........................................................................................................ 30 
+5.1.1 Executive Summary .............................................................................................. 30 
+5.1.2 Key Staffing Profile .............................................................................................. 30 
+5.2 Technical Proposal ........................................................................................................ 30 
+5.2.1 Technology Architecture ...................................................................................... 30
+
+[page 4]
+RFO No. HHS0015558v2 Page 4 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+5.2.2 System Availability and Capacity ......................................................................... 31 
+5.2.3 Software and Hardware Components ................................................................... 31 
+5.2.4 System Integration ................................................................................................ 31 
+5.2.5 System Administration, Support, and Maintenance ............................................. 31 
+5.2.6 System Security and Disaster Recovery ............................................................... 32 
+5.2.7 Performance Monitoring and Management .......................................................... 32 
+5.2.8 Transition Summary.............................................................................................. 33 
+5.2.9 Training Approach ................................................................................................ 33 
+5.2.10  Turnover Summary ............................................................................................... 33 
+Article VI. Required Respondent Information.............................................................................. 34 
+6.1 Company Information ................................................................................................... 34 
+6.1.1 Company Narrative ............................................................................................... 34 
+6.1.2 Company Profile ................................................................................................... 34 
+6.2 Franchise Tax – Right to Transact Business in Texas .................................................. 35 
+6.3 References ..................................................................................................................... 35 
+6.4 Major Subcontractor Information ................................................................................. 35 
+6.5 Affirmations and Certifications .................................................................................... 35 
+6.6 Other Reports ................................................................................................................ 36 
+6.6.1 Dun and Bradstreet Reports .................................................................................. 36 
+6.6.2 Financial Statements and Financial Solvency ....................................................... 36 
+6.6.3 Alternate Report .................................................................................................... 37 
+6.7 Corporate Guarantee ..................................................................................................... 37 
+6.8 Subcontracting Plan ...................................................................................................... 37 
+6.9 TX-RAMP Documentation ........................................................................................... 38 
+6.10 Accessibility/Voluntary Product Accessibility template (VPAT) Documentation ...... 38 
+6.11 Secretary of State Certification ..................................................................................... 39 
+Article VII. Cost Proposal............................................................................................................. 40 
+7.1 Cost Proposal ................................................................................................................ 40 
+Article VIII. General Terms and Conditions ................................................................................ 41 
+8.1 General Conditions ....................................................................................................... 41 
+8.1.1 Changes, Modifications, and Cancellation ........................................................... 41
+
+[page 5]
+RFO No. HHS0015558v2 Page 5 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+8.1.2 Offer Period .......................................................................................................... 41 
+8.1.3 Costs Incurred ....................................................................................................... 41 
+8.1.4 Contract Responsibility ......................................................................................... 41 
+8.1.5 Public Information Act - Respondent Requirements Regarding Disclosure ........ 42 
+8.1.6 Respondent Waiver – Intellectual Property .......................................................... 44 
+8.1.7 Standards of Conduct for Vendors ........................................................................ 44 
+8.1.8 Disclosure of Interested Parties ............................................................................ 45 
+8.2 Insurance ....................................................................................................................... 45 
+8.2.1 Required Coverage................................................................................................ 45 
+8.2.2 Alternative Insurability ......................................................................................... 45 
+8.3 Protest ........................................................................................................................... 45 
+Article IX. List of Exhibits ........................................................................................................... 46
+
+[page 6]
+RFO No. HHS0015558v2 Page 6 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE I. EXECUTIVE SUMMARY, DEFINITIONS, AND AUTHORITY 
+1.1 INTRODUCTION 
+The State of Texas, by and through the Texas Health and Human Services Commission (HHSC), 
+on behalf of the Texas Department of State Health Services (DSHS), is issuing this Solicitation 
+to solicit proposals from qualified vendors to provide Video Directly Observed Therapy (VDOT) 
+services. 
+VDOT enables DSHS staff to remotely observe Clients taking tuberculosis (TB) medications 
+using video technology as an alternative to in-person Directly Observed Therapy (DOT). The 
+VDOT solution must support both real-time video observation (Synchronous VDOT) and 
+recorded video submission for later review (Asynchronous VDOT). 
+The system must allow secure transmission of protected health information, support use on 
+mobile devices, and reduce the need for routine travel associated with in-person observation 
+while maintaining required treatment monitoring. VDOT will be used for eligible Clients in 
+accordance with program policies and will supplement, but not replace, in-person DOT services. 
+The use of VDOT decreases the amount of idle time spent driving to perform in-person DOT 
+Services. Provider can travel up to six (6) hours per workday to provide medication 
+administration to one (1) Client; with that interaction taking less than 30-minutes total. 
+Providers’ knowledge and abilities are not fully utilized when they travel so extensively. VDOT 
+allows the Provider the same interaction and observation for eligible Clients but decreases the 
+need for repetitive travel. It also evokes a Client-centered delivery method to give the Client 
+ownership and control over their treatment.  
+HHSC Procurement and Contracting Services (PCS) will administer the procurement process for 
+this Solicitation which includes Solicitation distribution, handling of communications from 
+vendors, as well as managing the receipt of communications from vendors, as well as managing 
+receipt of Responses for review and evaluation.  
+Prior to award of the Contract, Respondent must obtain TX-RAMP Level 2 certification. TX-
+RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement.  For 
+this Solicitation, HHSC shall not provide “agency-sponsored” TX-RAMP Provisional Status 
+certification to any Respondent. 
+Information regarding DSHS and its programs is available online and can currently be accessed 
+at https://www.dshs.texas.gov/.
+
+[page 7]
+RFO No. HHS0015558v2 Page 7 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+1.2 DEFINITIONS  
+Refer to Exhibit B, Health and Human Services (HHS) Uniform Terms and Conditions 
+(UTC) – Vendor, and Exhibit C, Health and Human Services (HHS) Additional Provisions, 
+for additional definitions. 
+As used in this Solicitation, unless a different definition is specified or the context clearly 
+indicates otherwise, the following terms and conditions have the meanings assigned below: 
+“Addendum” means a written clarification or revision to this Solicitation issued by HHSC PCS 
+and posted to the ESBD. 
+“Advancement Criteria” means the published criteria for Respondent to advance to the next 
+phase of evaluation if multiple evaluation methods are utilized. 
+“Application” means the Video Directly Observed Therapy (VDOT) software platform, 
+including its web-based interface accessible through a computer and its mobile application 
+accessible on compatible mobile devices, through which authorized users record, submit, review, 
+and manage VDOT sessions and related information. 
+“Award Consideration (AC) Documents” means documents Respondent must submit as part of 
+the Solicitation Response to be considered for negotiations or award. 
+“Asynchronous” means a type of VDOT process in which the Client uploads a video of their 
+treatment, which is later viewed by a Provider. 
+“Business Hour” means a clock hour during the standard Business Hours of a Business Day. 
+“Calendar Day” means every day on the calendar, i.e. all 365 days of the year (366 if it is a leap 
+year). 
+“Client” means TB patients using the system to receive care. 
+“Client Record” is a documented collection of information about a Client's health history, care, 
+and treatment. 
+“Contract” means the contract resulting from this SOLICITATION. 
+“Contractor” means the Party selected to provide the goods or Services to the State under this 
+Contract. 
+“Contract Effective Date” means the date when a contract becomes legally binding and 
+enforceable, and the terms of the agreement begin to apply.
+
+[page 8]
+RFO No. HHS0015558v2 Page 8 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+“Contract Term” means the period beginning with the commencement date or Effective Date of a 
+Contract and ending when the Contract expires in accordance with its terms, or when it has been 
+terminated. 
+“DSHS” means the Department of State Health Services. 
+“Effective Date” has the same meaning as the definition in Exhibit B, Health and Human 
+Services (HHS) Uniform Terms and Conditions – Vendor. 
+“ESBD” means the Electronic State Business Daily, the electronic marketplace where State of 
+Texas bid opportunities over $25,000 are posted. The ESBD may currently be accessed at 
+http://www.txsmartbuy.com/esbd.   
+“Final Written Response Score” refers to the final scoring of the written response as documented 
+in the Solicitation.  
+“HHSC” means the Health and Human Services Commission. 
+“HHSC PCS” means Procurement and Contracting Services (PCS), a division of HHSC. 
+“HUB” means Historically Underutilized Business, as defined by Section 2161.001(2) of the 
+Texas Government Code. 
+“Subcontracting Plan” means written documentation regarding the use of subcontractors, which 
+is required by Section 2161.252 of the Texas Government Code, for a purchase with an expected 
+value of $100,000 or more when the state agency has determined subcontracting opportunities 
+are probable. The Subcontracting Plan subsequently becomes a provision of the Contract and 
+Contractor’s compliance with the Subcontracting Plan will be monitored during the Contract 
+Term. 
+“Mobile Application” means software Application designed to run on a mobile device such as a 
+phone or tablet. 
+“Operations Start Date” means a specific date when the terms and obligations outlined in the 
+Contract officially begin to be enforced and put into action. 
+“Provider” means a group of healthcare professionals – who may be both DSHS employees and 
+contractors - who work together to provide care for a Client. The care team may include 
+doctors, nurses, therapists, social workers, and other specialists. 
+“Respondent” means the individual or entity responding to this Solicitation.
+
+[page 9]
+RFO No. HHS0015558v2 Page 9 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+“Software as a Service” or “SaaS” means a method of software delivery and licensing in which 
+software is accessed online via a subscription, rather than bought and installed on individual 
+computers. 
+“Services” means the tasks, functions, and responsibilities assigned and delegated to Contractor 
+under the Contract. 
+“Solicitation” means this RFO including all exhibits, attachments, forms, and Addenda, if any. 
+“Solicitation Consideration (SC) Documents” means documents that must be submitted by 
+Respondent with the Solicitation Response in order to be considered for evaluation and cannot be 
+resubmitted or have errors remedied after the submission due date and time in the Schedule of 
+Events has passed. 
+“Standing Delegation Order (SDO)” means written instructions, orders, rules, regulations, or 
+procedures prepared by a physician that provide authority and a plan for use with patients 
+presenting themselves prior to being examined or evaluated by a physician, or patients without 
+an indication to be examined or evaluated by a physician. SDOs are distinct from specific orders 
+written for an individual patient. 
+“Standing Medical Order (SMO)” means written instructions, orders, rules, regulations, or 
+procedures prepared by a physician that provide authority and direction for the performance of 
+certain prescribed acts for patients that have been examined or evaluated by a physician. SMOs 
+are distinct from specific orders written for an individual patient. 
+“State” means the State of Texas and its instrumentalities, including HHSC or DSHS, and any 
+other state agency, its officers, employees, or authorized agents. 
+“Synchronous” means a type of VDOT that is real-time video observation of Client treatment. 
+“Transition Plan” means a structured roadmap outlining the steps and responsibilities involved in 
+transferring a contract from incumbent contractor to the newly selected contractor.  
+“TX-RAMP” means the Texas Risk and Authorization Management Program established by DIR 
+that provides a standardized approach for security assessment, authorization, and continuous 
+monitoring of cloud computing services that process the data of a state agency. To become TX-
+RAMP certified, entities must submit prescribed documentation to DIR. Information regarding 
+TX-RAMP is currently located at: https://dir.texas.gov/texas-risk-and-authorization-
+management-program-tx-ramp. 
+“User” means DSHS personnel, Providers or Clients who will use the VDOT Application.
+
+[page 10]
+RFO No. HHS0015558v2 Page 10 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+“VDOT” means Video Directly Observed Therapy and is an alternative to DOT used to ensure 
+Clients are taking prescribed medications to control the TB virus. 
+“Visit” a scheduled appointment between a Client and Provider to receive care and to collect or 
+share health information.  
+“VPTS” means Vendor Performance Tracking System maintained by the Texas Comptroller of 
+Public Accounts. The VPTS may be currently accessed at 
+https://comptroller.texas.gov/purchasing/programs/vendor-performance-tracking/. 
+“Web-Based” or “Web-Application” is a software program that operates through a web browser 
+and is accessed over the internet. 
+1.3 AUTHORITY 
+HHSC is soliciting the services stated in this Solicitation under of the authority Texas 
+Government Code 2157.068.
+
+[page 11]
+RFO No. HHS0015558v2 Page 11 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE II. SCOPE OF WORK 
+2.1 DESCRIPTION OF SERVICES 
+DOT for the provision of TB medications to Clients is the standard of care in Texas. The Centers 
+for Disease Control and Prevention (CDC), recommend DOT as the only documented evidence-
+based intervention that ensures Clients are cured from TB using a supervised medication 
+adherence regimen. VDOT uses technology to achieve direct observation, allowing Providers to 
+allot more time to see more Clients. Implementing a VDOT program requires adherence to all 
+current, approved DSHS Standing Delegation Orders (SDOs), Standing Medical Orders (SMOs) 
+and must follow federal and state privacy and security laws. 
+2.1.1 Texas Risk and Authorization Management Plan 
+Commencing on the Effective Date and during the Contract Term, Contractor must 
+provide Services that comply with TX-RAMP Certification Level 2.  Contractor 
+acknowledges that TX-RAMP Provisional Status does not satisfy the TX-RAMP 
+Certification Level 2 requirement. 
+2.1.2 Requirements Traceability Matrix 
+The Contractor shall comply with Exhibit N, Requirements Traceability Matrix, that provides 
+a detailed Requirements Traceability Matrix (RTM) that defines and organizes all required 
+Services and technical requirements to be fulfilled by the Contractor. The RTM serves as a 
+foundational document for managing compliance, performance measurement, and deliverable 
+validation throughout the Contract lifecycle.  
+Non-compliance or failure to meet performance measures may result in enforcement of 
+liquidated damages or other contractual remedies.  
+In accordance with Exhibit N, Requirements Traceability Matrix, the following requirements 
+areas are included:  
+1. Transition Requirements, (Table 1); 
+2. Maintenance and Support Requirements, (Table 2); 
+3. Functional Requirements, (Table 3); 
+4. Training Requirements, (Table 4); 
+5. Reporting Requirements, (Table 5);
+
+[page 12]
+RFO No. HHS0015558v2 Page 12 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+6. Security Requirements, (Table 6); 
+7. Staffing Requirements, (Table 7); 
+8. Accessibility Requirements, (Table 8); 
+9. Turnover Phase Requirements, (Table 9); 
+10. Key Performance Measures and Liquidated Damages, (Table 10); and 
+11. Deliverables, (Table 11). 
+2.1.3 Disaster Recovery Test 
+The Contractor, for no additional compensation, shall conduct on an annual basis a Disaster 
+Recovery test to assess the effectiveness of the Contractor’s Disaster Recovery Plan. On or 
+before the ninetieth (90th) Calendar Day following each Disaster Recovery test, Contractor will 
+provide DSHS, with a written summary report detailing the results of the Disaster Recovery test. 
+Upon DSHS’s written request, Contractor shall make Contractor personnel available to discuss 
+with DSHS the results of the Disaster Recovery test. Contractor shall use commercially 
+reasonable efforts to resolve issues identified during the Disaster Recovery test and, for each 
+unsuccessful test, Contractor shall conduct an additional Disaster Recovery test in a timely 
+manner to validate the successful implementation of Contractor’s remediation activities. 
+2.1.4 Invoicing 
+The Contractor shall submit an invoice to DSHS in a format consistent with the line-item 
+descriptions of Exhibit M, Cost Proposal.  
+Each invoice submitted must identify: 
+a. The purchase order number; 
+b. HHSC’s Contract number; 
+c. The time period (e.g., month); and 
+d. Line-item description for Service or Deliverable. 
+Failure to submit required supporting documentation with the invoice may result in return of 
+invoices and delay of payment. 
+Invoices shall be sent to: 
+Health and Human Services Commission
+
+[page 13]
+RFO No. HHS0015558v2 Page 13 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+Attn: Invoice – HHSC MC2065 
+4601 W. Guadalupe St. 
+Austin, TX 78751 
+Fax: (512) 206-4854 
+E-mail: IT_invoicing@hhs.texas.gov  
+Chapter 2251 of the Texas Government Code shall govern remittance of payment and remedies 
+for late payment and non-payment. 
+2.2 CONTRACT AWARD, TERM, AND HISTORICAL COMPENSATION 
+2.2.1 Contract Award and Execution 
+DSHS intends to award one (1) Contract as a result of this Solicitation. Any award is contingent 
+upon approval of the DSHS executive commissioner or their designee.  
+If, for any reason, a final Contract cannot be executed with a Respondent selected for award 
+within sixty (60) days of DSHS’s determination to seek to contract with that Respondent, DSHS 
+may negotiate a Contract with the next highest-scoring Respondent or may withdraw, modify, or 
+partially award this Solicitation. 
+2.2.2 Contract Term 
+The initial term of any Contract resulting from this Solicitation will for one (1) year. DSHS, at its 
+sole option, may extend any Contract awarded pursuant to this Solicitation for up to four (4) one-
+year optional extensions.  
+Following the base term and any allowable renewals or extensions, DSHS may extend any 
+resulting Contract for not more than one (1) additional option period to address immediate 
+operational or Service delivery needs. If the resulting Contract does not include a defined option 
+period, the extension is limited to one (1) year. 
+2.2.3 Historical Compensation 
+Historical compensation under contracts with similar scope and size to this Solicitation has been 
+approximately $188,400.00 per fiscal year. Notwithstanding Section 2.2.3 (Historical 
+Compensation), DSHS reserves the right to adjust any projected amount based on state funding 
+during the term of a resulting Contract.  
+ 
+2.3 D
+ATA USE AGREEMENT AND SECURITY PRIVACY INQUIRY 
+By entering into a Contract with DSHS as a result of this Solicitation, Respondent agrees to be 
+bound by the terms of the Data Use Agreement (DUA), attached as Exhibit D.
+
+[page 14]
+RFO No. HHS0015558v2 Page 14 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+Respondents must complete and return with their Solicitation Response Exhibit D-1, 
+Attachment 2 to the DUA, Security and Privacy Inquiry (SPI). 
+2.4 NO GUARANTEE OF VOLUME, USAGE, OR COMPENSATION 
+DSHS makes no guarantee of volume, usage, or total compensation to be paid to the Contractor 
+under any awarded Contract, if any, resulting from this Solicitation. Any awarded Contract is 
+subject to appropriations and the continuing availability of funds.   
+DSHS reserves the right to cancel, make partial award, or decline to award a Contract under this 
+Solicitation at any time at its sole discretion.
+
+[page 15]
+RFO No. HHS0015558v2 Page 15 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE III. ADMINISTRATIVE INFORMATION 
+3.1 SCHEDULE OF EVENTS  
+EVENT DATE/TIME 
+Solicitation Posting Date to ESBD (Date of Release) JULY 16, 2026  
+Pre-proposal Conference and Subcontracting Plan 
+Training 
+Attendance is Optional 
+JULY 23, 2026, at 10:00 AM 
+Central Time 
+Deadline for Submitting Questions or Requests for 
+Clarification 
+JULY 24, 2026 at 5:00 PM Central 
+Time 
+Tentative Date Responses to Questions or Requests for 
+Clarification Posted on ESBD 
+A
+UGUST 5, 2026 
+Deadline for courtesy Subcontracting Plan review  AUGUST 12, 2026 at 2:00 PM 
+Central Time 
+Deadline for Submission of Solicitation Responses 
+[NOTE: Responses must be RECEIVED by HHSC by 
+the deadline.] 
+AUGUST 26, 2026 at 10:30 AM 
+Central Time 
+Evaluation Period AUGUST 2026 - OCTOBER 2026 
+Anticipated Notice of Award DECEMBER 2026 
+Anticipated Contract Start Date January 2027 
+ 
+Respondents must submit their Solicitation Responses to HHSC in accordance with the due date 
+and time indicated in this Schedule of Events or as changed via an Addendum posted to the 
+ESBD. 
+NOTE: All dates are tentative and HHSC reserves the right to modify these dates at any time.  At 
+the sole discretion of HHSC, events listed in the Schedule of Events are subject to scheduling 
+changes and cancellation. Scheduling changes or cancellation determinations made prior to the 
+deadline for submission will be published by posting an Addendum to the ESBD. After the
+
+[page 16]
+RFO No. HHS0015558v2 Page 16 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+deadline for submission, if there are delays that significantly impact the anticipated award date, 
+HHSC, at its sole discretion, may post updates regarding the anticipated award date to the 
+Procurement Forecast on the HHS Procurement Opportunities web page. Each Respondent is 
+responsible for checking the ESBD and Procurement Forecast for updates. 
+By submitting a Solicitation Response, Respondent represents and warrants that any individual 
+submitting the Solicitation Response and any related documents on behalf of the Respondent is 
+authorized to do so and to bind the Respondent under any Contract that may result from this 
+Solicitation. 
+3.2 A
+MBIGUITY, CONFLICT, OR DISCREPANCY 
+Respondent must notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, 
+discrepancy, exclusionary specification, omission, or other error in the Solicitation in the manner 
+and by the deadline described in Section 3.3.4 (Solicitation Questions).   
+Respondent submits a Solicitation Response at its own risk. 
+If Respondent fails to properly and timely notify the Sole Point of Contact (Section 3.3.1) of 
+any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the 
+Solicitation, Respondent, whether awarded a Contract or not:  
+a. Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;  
+b. Must not contest the interpretation by HHSC of such provision(s); and 
+c. Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, 
+discrepancy, exclusionary specification, omission, or other error or its later correction.  
+3.3 I
+NQUIRIES 
+3.3.1 Sole Point of Contact 
+All requests, questions, or other communication about this Solicitation shall be made in writing 
+to HHSC PCS, addressed to the person listed below (Sole Point of Contact). Additionally, a 
+phone number is provided for purposes such as instructing a potential Respondent through an IT 
+system or website referenced in this Solicitation. Communications via telephone are not binding. 
+The Sole Point of Contact will authorize a secondary Sole Point of Contact in the event of their 
+absence and, in such an event, will include the contact information for the secondary Sole Point 
+of Contact in their automatic reply out-of-office e-mail message. Respondents seeking to contact 
+the Sole Point of Contact should do so via e-mail in order to receive updated contact information.
+
+[page 17]
+RFO No. HHS0015558v2 Page 17 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+Name Chastity Marion, CTCD, CTCM 
+Title PCS Purchaser 
+Address Procurement and Contracting Services Building 
+1100 W 49th St. MC: 2020 
+Austin, TX 78756 
+Phone (512) 834-6719 
+Email chastity.marion@hhs.texas.gov 
+See also, Section 3.3.3 (Exception to Sole Point of Contact) below. 
+3.3.2 Prohibited Communication 
+Except as provided in Section 3.3.1 (Sole Point of Contact) and Section 3.3.3 (Exception to 
+Sole Point of Contact), potential Respondents and Respondents are prohibited from any 
+communication with HHSC regarding the Solicitation. HHSC, its representative(s), and partners 
+will not answer any questions or otherwise discuss the contents of this Solicitation with any 
+potential Respondent or its representative(s). Attempts to ask questions by phone or in person 
+will not be allowed or recognized as valid. Respondent shall rely only on written statements 
+issued by or through HHSC designated staff as provided by Section 3.3 (Inquiries). This 
+restriction does not preclude discussions between affected parties for the purposes of conducting 
+business unrelated to this Solicitation. Failure to comply with these restrictions may result in 
+disqualification of Respondent's Solicitation Response.  
+3.3.3 Exception to Sole Point of Contact 
+Exceptions to Section 3.3.1 (Sole Point of Contact) are as follows: 
+a. Respondents with questions relating to the Subcontracting Plan are permitted to direct 
+those questions to the VetHUB coordinator at cheryl.bradley@hhs.texas.gov. 
+b. Where it is expressly directed by the Sole Point of Contact that another designated HHSC 
+representative may speak to the Respondent, such as during Contract negotiations. 
+Respondents are required to ensure that communications have been authorized by the 
+Sole Point of Contact before engaging in such communication. Failure to comply with 
+this requirement may result in the disqualification of a Respondent’s Solicitation 
+Response.
+
+[page 18]
+RFO No. HHS0015558v2 Page 18 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+3.3.4 Solicitation Questions 
+HHSC will allow written questions and requests for clarification regarding this Solicitation. 
+Questions must be submitted by e-mail to the Sole Point of Contact (Section 3.3.1) by the 
+deadline established in Section 3.1 (Schedule of Events). Responses to questions or other 
+written requests for clarification will be consolidated and posted to the ESBD and will not be 
+provided individually to requestors. 
+HHSC reserves the right to amend answers previously posted, prior to the Solicitation response 
+deadline (Section 3.1). Amended answers will be posted on the ESBD. It is the Respondent's 
+responsibility to check the ESBD. HHSC also reserves the right to provide a single consolidated 
+response to all similar questions at the agency’s sole discretion. 
+a. All questions and requests for clarification must include the following information: 
+1. Solicitation number; 
+2. Solicitation package reference (page number, section, and exhibit or attachment, if 
+applicable;  
+3. Question topic (e.g., “Schedule of Events,” or “Exhibit M – Cost Proposal”); and 
+4. Question for HHSC. 
+b. Requestor contact information below must be included in the body of the e-mail and 
+submitted with the question(s): 
+1. Company name; 
+2. Company representative name; 
+3. Phone number; and 
+4. E-Mail address. 
+Questions or requests for clarification received after the deadline in Section 3.1 (Schedule of 
+Events), may be reviewed by HHSC but may not be answered. Only answers to questions 
+submitted to the Sole Point of Contact in writing, in accordance with this section, are binding. 
+3.4 PRE-PROPOSAL CONFERENCE 
+3.4.1 Attendance 
+HHSC PCS will conduct a pre-proposal conference. Attendance is optional but highly 
+recommended.
+
+[page 19]
+RFO No. HHS0015558v2 Page 19 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+Attendees to virtual pre-proposal conferences are required to send an email to the Sole Point of 
+Contact identified in Section 3.3.1 (Sole Point of Contact), advising of participation in the pre-
+proposal conference. Attendees must provide their name, phone number, and name of the 
+company they are representing regardless of whether the pre-proposal conference is in-person or 
+virtual. 
+3.4.2 Conference Logistical Information 
+HHSC PCS will hold the pre-proposal webinar on the date and time set out in Section 3.1 
+(Schedule of Events).   
+People with disabilities who wish to attend the meeting and require auxiliary aids or services 
+should contact the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), at 
+least seventy-two (72) hours before the meeting in order to have reasonable accommodations 
+made by HHSC. 
+Conference Call [or Webinar] Information: 
+https://attendee.gotowebinar.com/register/3745630851364732766 
+ 
+1 (562) 247-8422 
+At prompt enter passcode: 540-792-293  
+ 
+3.4.3 Questions at Pre-Proposal Conference 
+a. Reference Section 3.3.4 (Solicitation Questions) for the required format and information 
+to be provided for submission of questions and requests for clarification.  
+b. During the conference, HHSC or DSHS may provide responses to questions and requests 
+for clarification, but only written responses posted by HHSC PCS as an Addendum to the 
+Solicitation on the ESBD will be considered an official, binding update to the 
+Solicitation.  
+c. HHSC or DSHS reserves the right to amend, prior to the Solicitation Response Deadline, 
+answers previously posted. Amended answers will be posted on the ESBD. Notification 
+of posting will be in accordance with Section 3.1 (Schedule of Events). 
+d. Conversations with HHSC or DSHS program area staff before or after the pre-proposal 
+conference are prohibited.
+
+[page 20]
+RFO No. HHS0015558v2 Page 20 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+3.5 SOLICITATION RESPONSE COMPOSITION 
+3.5.1 General Information 
+Failure to submit all required Solicitation Response documents in the required format(s) may 
+result in disqualification of the Solicitation Response without further consideration (Section 
+3.6.3 (Submission Checklist)). Respondent shall prepare a Solicitation Response that clearly 
+and concisely represents its qualifications and capabilities. Expensive bindings, colored displays, 
+promotional materials, etc. are not necessary or desired. Respondent should focus on the 
+instructions and requirements of the Solicitation.  
+3.5.2 Page Limit and Supporting Documentation 
+The narrative/technical proposal should not exceed eighty (80) pages and should be formatted for 
+8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font. If 
+complete responses cannot be provided without referencing supporting documentation, such 
+documentation must be provided with the Solicitation Response, with specific reference made to 
+the file, page, section, and/or paragraph where the supporting information can be found.  
+3.5.3 Discrepancies 
+In the event of any discrepancies or variations between copies, HHSC is under no obligation to 
+resolve the inconsistencies and may make its scoring and selection decisions accordingly, 
+including the decision to potentially disqualify a Solicitation Response. If Respondent is required 
+to designate an “Original” Solicitation Response but fails to do so, HHSC, in its sole discretion, 
+will determine the version to be used as the original or may disqualify the Solicitation Response. 
+If the Respondent submits a redacted Solicitation Response as the “Original,” HHSC will 
+disqualify the Solicitation Response and it will not be evaluated. HHSC will not accept 
+submissions after the “Deadline for Submission of Solicitation Responses” in the Schedule of 
+Events (Section 3.1) to remedy discrepancies or variations in Solicitation Response submissions. 
+3.5.4 Exceptions  
+Respondents are highly encouraged, in lieu of including exceptions in their Solicitation 
+Responses, to address all issues that might be advanced by way of exception by submitting such 
+issues as questions or requests for clarification pursuant to Section 3.3.4 (Solicitation 
+Questions).  
+Any exception included in a Solicitation Response may result in a Respondent not being awarded 
+a Contract. If a Respondent includes exceptions in its Solicitation Response, Respondent is 
+required to use the Exceptions Form included as Exhibit E to this Solicitation and provide all
+
+[page 21]
+RFO No. HHS0015558v2 Page 21 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+information requested on the form. Any exception that does not provide all required information 
+in the format set forth in Exhibit E may be rejected without consideration.   
+No exception, nor any other term, condition, or provision in a Solicitation Response that differs, 
+varies from, or contradicts this Solicitation will be considered to be part of any Contract resulting 
+from this Solicitation unless expressly made a part of the Contract in writing by HHSC. 
+3.5.5 Assumptions  
+Respondent must identify on the Assumptions Form, Exhibit F any business, economic, legal, 
+programmatic, or practical assumptions that underlie the Respondent’s response to the 
+Solicitation. HHSC reserves the right to accept or reject any assumptions. All assumptions not 
+expressly identified and incorporated into any Contract resulting from this RFP are 
+deemed rejected by HHSC. 
+3.5.6 Binding Offer  
+A Solicitation Response should be responsive to the Solicitation as worded and without any 
+assumption that any or all terms, conditions, or provisions of the Solicitation will be negotiated. 
+Furthermore, all Solicitation Responses constitute binding offers. Any Solicitation Response 
+that includes any type of disclaimer or other statement indicating that the response does 
+not constitute a binding offer may be disqualified. 
+If a Respondent’s ability to enter into a Contract is contingent upon any exception or assumption 
+provided in accordance with Section 3.5.4 (Exceptions) or Section 3.5.5 (Assumptions), the 
+Respondent may be disqualified from further consideration for Contract award.  
+3.6 S
+OLICITATION RESPONSE SUBMISSION AND DELIVERY 
+3.6.1 Deadline 
+Solicitation Responses must be received at the address in Section 3.6.4 (Labeling and Delivery 
+for USB Submission and Other Materials) and time-stamped by HHSC PCS no later than the 
+date and time specified in Section 3.1 (Schedule of Events).  
+Solicitation Responses received after the deadline specified in Section 3.1 will be rejected 
+and not considered for Contract award. 
+3.6.2 Submission Option  
+a. Submission Option #1: Respondent shall submit two (2) USB drives—one (1) labeled 
+“Original Proposal” and one (1) labeled “Copy”—containing the following documents:
+
+[page 22]
+RFO No. HHS0015558v2 Page 22 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+1. Each USB must contain one file named “Original” that contains the Respondent’s 
+entire Solicitation Response (except the cost proposal and Subcontracting Plan) in 
+searchable portable document format (PDF), unless otherwise specified for a 
+particular attachment or exhibit. 
+2. If applicable in accordance with Section 8.1.5, (Public Information Act – 
+Respondent Requirement Regarding Disclosure), each USB must contain one 
+(1) file named “Public Information Act Copy” that contains the Respondent’s 
+entire Solicitation Response, including all exhibits and attachments, in searchable 
+PDF. 
+3. In accordance with Section 7.1, (Cost Proposal), each USB must contain one (1) 
+file named “Cost Proposal” that contains the Respondent’s cost proposal in Excel 
+format with active formulas (compatible with Microsoft Office 2016).  
+4. In accordance with Section 6.8, (Subcontracting Plan), each USB must contain 
+one (1) file named “Subcontracting Plan” in searchable PDF, that contains the 
+Respondent’s Subcontracting Plan and all supporting documentation. 
+c. Submission Option #2: Respondent shall submit the following through the Online Bid 
+Room utilizing the procedures in Exhibit J, HHS Online Bid Room Information:  
+1. One (1) file named “Original” that contains the Respondent’s entire Solicitation 
+Response (except the cost proposal and Subcontracting Plan) in searchable 
+portable document format (PDF), unless otherwise specified for a particular 
+attachment or exhibit. 
+2. If applicable in accordance with Section 8.1.5, (Public Information Act – 
+Respondent Requirements Regarding Disclosure), one (1) file named “Public 
+Information Act Copy” that contains the Respondent’s entire Solicitation 
+Response, including all exhibits and attachments, in searchable PDF. 
+3. In accordance with Section 7.1, (Cost Proposal), one (1) file named “Cost 
+Proposal” that contains the Respondent’s cost proposal in Excel format with 
+active formulas (compatible with Microsoft Office 2016).  
+4. In accordance with Section 6.8, (Subcontracting Plan), one (1) file named 
+“Subcontracting Plan” in searchable PDF, that contains the Respondent’s 
+Subcontracting Plan and all supporting documentation.  
+3.6.3 Submission Checklist 
+Solicitation Consideration and Award Consideration Documents, reference Section 1.2 
+(Definitions) must be submitted by the deadline for Solicitation Response submissions, reference 
+Section 3.1 (Schedule of Events). Solicitation Consideration Documents will be reviewed as 
+received, and Respondent will not have an opportunity to remedy missed requirements. At its
+
+[page 23]
+RFO No. HHS0015558v2 Page 23 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+sole discretion, HHSC may request some or all of the Respondents to remedy missing elements 
+of Award Consideration Documents. Those marked “SC” are Solicitation Consideration 
+Documents and those marked “AC” are Award Consideration Documents. 
+The Solicitation Response must be submitted using one of the approved methods identified in 
+Section 3.6, (Solicitation Response Submission and Delivery). Below are the documents 
+required to be submitted with the Solicitation Response. Where searchable PDF files are 
+required, submission of non-searchable (image only) PDF files may result in disqualification 
+from further consideration for Contract award.   
+A. Proposal and Respondent Information  
+1. Narrative Proposal (Section 5.1) SC ____ 
+2. Technical Proposal (Section 5.2) SC ____ 
+3. Company Information (Section 6.1) SC ____ 
+4. Franchise Tax Information (Section 6.2) AC ____ 
+5. References (Section 6.3) AC ____ 
+6. Major Subcontractor Information (Section 6.4) SC ____ 
+7. HHS Solicitation Affirmations (Section 6.5, 
+Exhibit A) 
+SC ____ 
+8. Assurances – Non-Construction Programs 
+(if applicable) 
+ 
+(Section 6.5, Exhibit 
+G) 
+ 
+AC 
+ 
+____ 
+9. Certification Regarding Lobbying (if 
+applicable) 
+(Section 6.5, Exhibit 
+H) 
+AC ____ 
+10. HHS Federal Funding Accountability and 
+Transparency Act (FFATA) Certification 
+Form  
+Section 6.5, Exhibit 
+K)  
+ 
+AC ____  
+11. Exceptions (if applicable) (Section 3.5.4, 
+Exhibit E) 
+AC ____ 
+12. Assumptions (if applicable) (Section 3.5.5, 
+Exhibit F) 
+AC ____ 
+13. Other Reports (Section 6.6) AC ____ 
+14. Corporate Guarantee (Section 6.7) 
+ 
+AC 
+ 
+____ 
+ 
+15. 
+ 
+SPI  (Section 2.3, 
+Exhibits D and D-1) 
+AC ____ 
+ 
+16. Certificate of Authority (Section 6.11) AC ____
+
+[page 24]
+RFO No. HHS0015558v2 Page 24 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+17. TX-RAMP Documentation  (Section 2.1.1, 6.9)  AC  ____  
+18. Accessibility (VPAT) (if applicable) (Section 6.10, 
+Exhibit O, Exhibit 
+O-1) 
+AC ____  
+ 
+19. Insurance (Section 8.2) AC ____  
+20. Addendum(s) (if applicable) (Section 8.1.1) AC ____  
+B. Cost Proposal  (Article VII) SC ____ 
+C. Subcontracting Plan Requirements
+  
+(Section 6.8 and 
+Exhibit Q) 
+SC ____ 
+ 
+3.6.4 Labeling and Delivery for USB Submission and Other Materials 
+Respondent must deliver Solicitation Responses submitted via USB by one of the methods 
+below.                              
+Overnight/Express/Priority Mail Hand Delivery 
+Health and Human Services Commission 
+ATTN: Response Coordinator 
+Tower Building Room 108 
+1100 W. 49th St., MC 2020 
+Austin, Texas 78756 
+Health and Human Services Commission 
+ATTN: Response Coordinator 
+Procurement & Contracting Services 
+Building 
+1100 W. 49th St., MC 2020 Austin, Texas 
+78756 
+BE ADVISED, all Solicitation Responses become the property of HHSC after submission 
+and will not be returned to the Respondent. It is the Respondent’s responsibility to 
+appropriately mark and deliver the Solicitation Response to HHSC PCS by the specified 
+date. A dated shipping label, invoice of receipt from a from USPS or commercial carrier, or 
+any other documentation in lieu of the on-site time stamp WILL NOT be accepted. 
+Each Respondent is solely responsible for ensuring its Solicitation Response is submitted in 
+accordance with all Solicitation requirements, including, but not limited to, proper labeling of 
+packages, sufficient postage or delivery fees, and ensuring timely receipt by HHSC. In no event 
+will HHSC be responsible or liable for any delay or error in delivery. Solicitation Response 
+must be RECEIVED by HHSC PCS by the Solicitation Response Deadline identified in 
+Section 3.1 (Schedule of Events).
+ 
+Solicitation Responses submitted via USB by mail or hand delivery shall be placed in a sealed 
+package. The sealed package and the USB drives shall be clearly labeled on the outside as 
+follows:
+
+[page 25]
+RFO No. HHS0015558v2 Page 25 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+SOLICITATION NO: HHS0015558v2 
+SOLICITATION NAME Video Directly Observed Therapy 
+SOLICITATION RESPONSE DEADLINE Refer to Section 3.1 (Schedule of Events) 
+PURCHASER NAME: Chastity Marion, CTCD, CTCM 
+RESPONDENT NAME: [Respondent Name] 
+It is Respondent’s sole responsibility to ensure that packaging is sufficient to prevent damage to 
+contents. HHSC will not be responsible or liable for any damage, and damaged Solicitation 
+Responses will not be considered at HHSC’s sole discretion. 
+HHSC will not be held responsible for any Solicitation Response that is mishandled prior to 
+receipt by HHSC PCS. It is the Respondent’s sole responsibility to mark appropriately and 
+deliver the Solicitation Response to HHSC PCS by the specified date and time. HHSC will not 
+be responsible for late delivery, inappropriately identified documents, or other submission 
+errors that may lead to disqualification or nonreceipt of the Respondent’s Solicitation 
+Response. 
+3.6.5 Modifications and Withdrawals 
+Prior to the Solicitation Response submission deadline in Section 3.1 (Schedule of Events), 
+Respondent may: (1) withdraw its Solicitation Response by submitting a written request to the 
+Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact); or (2) modify its 
+Solicitation Response by submitting a written amendment to the Sole Point of Contact identified 
+in Section 3.3.1 (Sole Point of Contact). When modifying its Solicitation Response, Respondent 
+must include in writing the section(s) of its submission that will be replaced or removed by the 
+amendment.
+
+[page 26]
+RFO No. HHS0015558v2 Page 26 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE IV. SOLICITATION RESPONSE EVALUATION AND AWARD 
+PROCESS 
+4.1 CONFORMANCE WITH STATE LAW 
+Solicitation Responses shall be evaluated in accordance with Texas Government Code Section 
+2157.003. HHSC shall not be obligated to select the lowest priced Solicitation Response but shall 
+make an award to the Respondent that provides the best value to the State of Texas. 
+4.2 BEST VALUE DETERMINATION 
+4.2.1 Selection Methodology 
+Solicitation Responses that meet the minimum qualifications will be submitted to the evaluation 
+team for review and scoring. Each member of the evaluation team will receive a copy of each 
+responsive Solicitation Response. The evaluators will review the Solicitation Responses 
+considering the criteria listed in Section 4.2.5 (Written Response Evaluation Criteria). 
+Evaluators will individually score the Responses. This procurement will utilize an aggregated 
+individual evaluation methodology as outlined by this section.  
+The following subsections describe the evaluation process, including any criteria for 
+advancement to the various phases of evaluation, if applicable.  
+4.2.2 Minimum Qualifications  
+Respondents must meet the minimum qualifications listed below.  
+a. Respondents must have at least four (4) years of recent experience providing VDOT 
+services and demonstrate experience implementing, monitoring, and maintaining a 
+VDOT system..  
+b. Respondents have submitted the Response in accordance with Section 3.6, (Solicitation 
+Response Submission and Delivery) including all Solicitation Consideration (SC) and 
+Award Consideration (AC) Documents, see Section 3.6.3 (Submission Checklist);  
+c. Respondents who receive an overall score on the VPTS of less than a “C” may be 
+disqualified from consideration for award.
+
+[page 27]
+RFO No. HHS0015558v2 Page 27 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+4.2.3 Initial Compliance Screening 
+HHSC will review Solicitation Responses for compliance with the Submission Checklist 
+(Section 3.6.3) and for demonstrated ability to meet the Minimum Qualifications (Section 
+4.2.2) required to advance to evaluations. Failure to meet the Minimum Qualifications (Section 
+4.2.2), will result in the disqualification of the Solicitation Response.  
+HHSC will automatically disqualify any Solicitation Response that does not include one or more 
+of the completed and signed (as applicable) Solicitation Consideration Documents listed in 
+Submission Checklist (Section 3.6.3). 
+At its sole discretion, HHSC may disqualify any Solicitation Response that does not include 
+all required Award Consideration Documents. Reference Section 3.6.3 (Submission 
+Checklist). 
+HHSC may contact references provided in response to this Solicitation.  HHSC may contact 
+Respondent’s clients, or solicit information from any available source, including the 
+Comptroller’s VPTS. Any information received may be grounds for disqualification if that 
+information, in HHSC’s sole discretion, suggests that the Respondent may perform poorly if 
+selected. 
+ 
+4.2.4 Written Solicitation Response Evaluation 
+Each member of the evaluation team will read the Solicitation Responses in preparation for 
+evaluation. The evaluation team will score all Solicitation Responses that pass initial screening 
+(Section 4.2.3 (Initial Compliance Screening)). Solicitation Responses will be scored against 
+the criteria in Section 4.2.5 (Written Response Evaluation Criteria). 
+Solicitation Responses will be evaluated utilizing aggregated individual scoring and any other 
+methods outlined in Article IV, Solicitation Response Evaluation and Award Process. The 
+individual evaluators’ scores will be aggregated and weighted, resulting in the Final Written 
+Response Scores, unless Interviews or BAFOs are conducted. 
+4.2.5  Written Response Evaluation Criteria 
+Solicitation Responses shall be consistently evaluated and scored in accordance with the 
+following criteria. See also, Exhibit I, Evaluation Tool.  
+a. Relevant Experience (30%) 
+b. Narrative and Technical Proposal (50%) 
+c. Cost (20%)
+
+[page 28]
+RFO No. HHS0015558v2 Page 28 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+4.2.6 Best and Final Offer (BAFO)  
+HHSC may, at its sole discretion, following the execution of Section 4.2.1 (Selection 
+Methodology) request BAFOs from all Respondents or, if applicable, only those Respondents 
+whose Solicitation Responses are ranked most highly by the evaluation committee. The request 
+for a BAFO will allow a Respondent the opportunity to revise its original Solicitation Response, 
+including pricing, or leave its Solicitation Responses originally submitted. Revisions must be 
+submitted in the manner and form prescribed by the BAFO request. Requests will be sent to the 
+point of contact provided by the Respondent. HHSC is not responsible for a Respondent’s 
+failure to timely receive the BAFO request. 
+HHSC reserves the right to request more than one (1) BAFO from each of the selected 
+Respondents. If a response is submitted to a request for a BAFO, the Final Written Response 
+Scores will be revised in accordance with the stated criteria in Section 4.2.5 (Written Response 
+Evaluation Criteria) as to any changes made to the Respondent’s original Solicitation 
+Response. A request for a BAFO does not guarantee an award or further negotiations. 
+If BAFOs are requested by HHSC and submitted by the Respondent, they will be evaluated using 
+the criteria stated in the BAFO invitation, scored, and ranked by the evaluation committee. The 
+award will then be granted to the highest scoring Respondent. However, a Respondent should 
+provide its best offer in its original Solicitation Response. Respondents should not expect or 
+assume that HHSC will request a BAFO. 
+4.2.7 Final Written Response Score  
+A Respondent’s Final Written Response Score is the score from the Written Solicitation 
+Response Evaluation (Section 4.2.4). If BAFOs are conducted, the Final Written Response 
+Score may be adjusted in accordance with Section 4.2.6 (Best and Final Offer). Final Written 
+Response Score may not always determine best value or selection for negotiation and award, see 
+Summary of Best Value Determination (Section 4.2.8) for more information. 
+4.2.8 Summary of Best Value Determination 
+The final selection for award will be based on best value, as determined by this section. This 
+includes any scoring adjustments for outliers, interviews, best and final offers, oral presentations, 
+demonstrations, site visits, or other additional considerations as specified by this Solicitation. 
+Respondents are encouraged to thoroughly review the processes outlined in this section, as it 
+documents the best value considerations to be made by HHSC when selecting a Respondent for 
+negotiation and Contract award.
+
+[page 29]
+RFO No. HHS0015558v2 Page 29 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+4.2.9 TX-RAMP Certification Assessment 
+Concurrent with the evaluation conducted in Section 4.2.4 (Written Solicitation Response 
+Evaluation) and Section 4.2.6 (Best and Final Offer), HHSC shall assess the documentation 
+required by Section 6.9 (TX-RAMP Documentation) on a pass/fail basis. HHSC reserves the 
+right to confirm TX-RAMP certification status on the DIR website and request additional 
+information from a Respondent to supplement the TX-RAMP documentation submitted in its 
+Response. 
+If Respondent’s submission demonstrates TX-RAMP Level 2 Certification at time of HHSC’s 
+review, the Response meets the requisite standard to be considered for contract award. 
+4.3 QUESTIONS OR REQUESTS FOR CLARIFICATION  
+By submitting a Solicitation Response, Respondent grants  HHSC the right to ask questions, 
+request clarifications and to obtain any information from any lawful source regarding the past 
+history, practices, conduct, ability, and eligibility of the Respondent to supply Goods or Services 
+and to fulfill requirements under this Solicitation, and the past history, practices, conduct, ability, 
+and eligibility of any director, officer, or key employee of the Respondent. By submitting a 
+Solicitation Response, the Respondent generally releases from liability and waives all claims 
+against any party providing information about the Respondent at the request of HHSC. Such 
+information may be taken into consideration in evaluating the Solicitation Response. 
+4.4 ACCESSIBILITY SCORING 
+Concurrent with the evaluation conducted in Section 4.2.4 (Written Response Evaluation) and 
+Section 4.2.6 (Best and Final Offer (BAFO), HHSC shall assess the documentation required by 
+Section 6.10 (Accessibility/Voluntary Product Accessibility Template (VPAT) 
+Documentation) on a pass/fail basis. 
+If Respondent’s submission demonstrates a passed score of Accessibility VPAT at time of 
+HHSC’s review, the Response meets the requisite standard to be considered for Contract award. 
+If Respondent’s submission does not receive a pass score of Accessibility VPAT at time of 
+HHSC’s review, the Response will be rejected, and the Respondent will not be further 
+considered for Contract award.
+
+[page 30]
+RFO No. HHS0015558v2 Page 30 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE V. NARRATIVE/TECHNICAL PROPOSAL 
+5.1 NARRATIVE PROPOSAL 
+5.1.1 Executive Summary 
+Respondents must provide an executive summary of their proposal (excluding cost information) 
+that asserts the Respondent is providing, in its Response, all the requirements of this Solicitation, 
+including Article II, Scope of Work. The summary must demonstrate Respondent’s 
+understanding of DSHS goals and objectives for this Solicitation.  
+If the Respondent is providing goods or Services beyond those specifically requested, those 
+goods or Services must be identified. If the Respondent is offering goods or Services that do not 
+meet the specific requirements of this Solicitation, but in the opinion of the Respondent are 
+equivalent or superior to those specifically requested, any such differences must be noted in the 
+executive summary. The Respondent should realize, however, that failure to provide the 
+Goods and Services specifically requested may result in disqualification. 
+The executive summary must not exceed thirty (30) pages and should represent a full and 
+concise summary of the contents of the proposal. 
+5.1.2 Key Staffing Profile 
+Respondents must provide key staffing profiles and resumes for all key staff who will be 
+responsible for the performance of the Services requested under this Solicitation (see Exhibit N, 
+Requirements Traceability Matrix – Table 7 (Staffing Requirements). 
+5.2 TECHNICAL PROPOSAL 
+Respondents must provide a detailed description of their proposed technical solution, which must 
+support all business activities and requirements described in this Solicitation. The Technical 
+Proposal must reflect Respondent’s clear understanding of the nature of the Work undertaken 
+and must include a detailed description of Respondent’s proposed system(s).  
+The Technical Proposal must include a description of the following system components, at a 
+minimum: 
+5.2.1 Technology Architecture 
+Respondents must provide a detailed description of the proposed technology architecture and 
+include one (1) or more diagrams that detail the relationships between key technical components.
+
+[page 31]
+RFO No. HHS0015558v2 Page 31 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+5.2.2 System Availability and Capacity 
+Respondents are responsible for delivering a cost-effective, high-availability environment that 
+minimizes the frequency and impact of system failures, reduces downtime, and minimizes 
+recovery time in the event of catastrophic failure. In this section, Respondents must provide 
+details on their approach to providing a highly available system. In addition, Respondents must 
+describe their proposed approach to monitoring system performance and use as well as planning, 
+sizing, and controlling the system as capacity needs change. 
+Respondents must describe how their system manages video uploads when internet connectivity 
+is unavailable or disrupted. The proposal must explain whether videos are stored locally and 
+automatically uploaded once a connection is reestablished, or if Users are required to manually 
+resubmit. Respondents should also describe any notifications or safeguards built into the system 
+to ensure no video submissions are lost. 
+5.2.3 Software and Hardware Components 
+Respondents must provide details on the software and hardware components they proposed for 
+their system. This includes, but is not limited to, the proposed server topology, specifications for 
+the hardware components, and data storage components. Respondents should also include details 
+on the tools and utilities used to design, build, test, deploy, report, monitor, and operate the 
+system and its components. 
+5.2.4 System Integration 
+Respondents must describe their approach to integrating the proposed system with other 
+information systems. 
+5.2.5 System Administration, Support, and Maintenance 
+Respondents must detail their approach to administering the system and system components. 
+This includes system support, including the levels of support offered and the process for 
+requesting support. In addition, Respondents must provide a summary of their proposed strategy 
+for maintaining and repairing the system. 
+Respondents must provide narrative descriptions of their approach to technical support Services, 
+including 24-hour online support, business-hours telephone support, and processes for handling 
+Service requests and optimization requests. Respondents must also explain how support staff will 
+be trained to meet HIPAA requirements and how training completion will be verified. In 
+addition, Respondents must provide a sample Corrective Action Plan template to demonstrate 
+their process for addressing operational deficiencies and system issues. The Respondent’s
+
+[page 32]
+RFO No. HHS0015558v2 Page 32 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+approach must clearly show how support and maintenance activities will ensure reliable Service 
+delivery, compliance, and effective issue resolution for both Providers and Clients. 
+5.2.6 System Security and Disaster Recovery 
+Respondents must detail their approach to security architecture, including the development and 
+implementation measures that will provide security and protection for the system. This includes 
+the proposed backup and recovery processing approach, and proposed virus protection strategy.  
+Respondents should describe their general approach to reestablishing operations in the event of a 
+catastrophe, as well as their approach to providing HHSC with a disaster recovery plan. 
+Respondents must provide specifications on any hardware and software components utilized by 
+the proposed security and disaster recovery solutions. See Exhibit L, Information Security and 
+Privacy Requirements.  
+5.2.7 Performance Monitoring and Management 
+Respondents must describe their proposed methodology for monitoring and reporting system 
+performance, as well as the proposed approach to technology management. This includes the 
+methods for centrally managing system resources such as servers, backup, archiving, and 
+recovery equipment, databases, and applications.  Respondents must address methods for 
+auditing, tracing, and scanning the system, and provide details on the specialized tools they will 
+use to automate and track monitoring and management activities. 
+Respondents must provide screenshots of the proposed Application to demonstrate system 
+functionality. Screenshots must illustrate core features such as the Client and Provider interfaces, 
+reporting dashboards, and dose-tracking functions. Respondents must show how the Application 
+supports medication adherence by allowing Providers to track Client doses, generate summary 
+reports highlighting missed doses, and run dashboards that display compliance information. 
+These materials must demonstrate that the solution is user-friendly, supports both Synchronous 
+and Asynchronous observation, and provides the tools necessary for monitoring and clinical 
+decision-making. 
+Respondents must provide at least one sample dashboard screenshot that illustrates how 
+reporting functionality will appear in the Application. The example should show the ability to 
+track Clients by condition and generate compliance data, including weekly or monthly reporting 
+views. Respondents must demonstrate how dashboards and reports will be refreshed with current 
+data, role-controlled for appropriate access, and designed to support program monitoring, clinical 
+oversight, and performance tracking.
+
+[page 33]
+RFO No. HHS0015558v2 Page 33 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+5.2.8 Transition Summary 
+Respondents must provide narrative descriptions of their proposed transition processes, including 
+how they will coordinate transition activities from Contract award through the Operations Start 
+Date, finalize and update the Transition Plan, and collaborate with the incumbent vendor to 
+ensure an orderly transfer of Services and knowledge. Respondents must also include a sample 
+Readiness Assessment Plan template to demonstrate how readiness will be measured, along with 
+a narrative description of the process for verifying that all Providers are fully trained on both the 
+mobile and Web-Based Applications prior to go-live. These submissions must demonstrate the 
+Respondent’s ability to ensure a seamless transition, readiness of systems, and training of end 
+users. 
+5.2.9 Training Approach 
+Respondents must provide examples of proposed training materials for both Clients and 
+Providers. Submissions should reflect multiple formats, including written guides, videos, and 
+web-based modules, and should demonstrate how training will meet accessibility needs, support 
+Users with limited literacy, and be available in multiple languages. Respondents must also 
+explain how training will be kept current, promptly updated when system changes occur, and 
+delivered in a way that ensures Providers and Clients are confident and proficient in using the 
+system. 
+5.2.10  Turnover Summary 
+Respondents must provide narrative descriptions of their approach to Turnover, including how 
+they will provide weekly status reports during the Turnover Phase, ensure uninterrupted 
+Operations while turnover tasks are carried out, and coordinate activities with DSHS and any 
+successor vendor. Proposals must describe strategies for providing documentation, artifacts, and 
+data to DSHS in a complete and accurate manner and must demonstrate the Respondent’s ability 
+to ensure continuity of Services during the transition out of the Contract.
+
+[page 34]
+RFO No. HHS0015558v2 Page 34 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE VI. REQUIRED RESPONDENT INFORMATION 
+6.1 COMPANY INFORMATION  
+In accordance with Article III, Administrative Information, Respondents must include the 
+following information with their responses:  
+6.1.1 Company Narrative 
+Respondents must provide a detailed narrative explaining why they are qualified to provide the 
+Services enumerated in Article II, Scope of Work, focusing on their key strengths and 
+competitive advantages.  
+6.1.2 Company Profile 
+Respondents must provide a company profile, including: 
+a. Their ownership structure (e.g., corporation, partnership, LLC, or sole proprietorship), 
+including any wholly-owned subsidiaries, affiliated companies, or joint ventures. (Please 
+provide this information in a narrative and as a graphical representation.) If Respondent 
+is an affiliate of, or has a joint venture or strategic alliance with, another company, 
+Respondent must identify the percentage of ownership of each joint venture member or 
+affiliate and the percentage of the parent’s ownership.  The entity performing the majority 
+of the Work under any Contract resulting from this Solicitation, throughout the duration 
+of the Contract, must be the primary bidder.  Finally, Respondents must provide their 
+proposed operating structure for the Services requested under this Solicitation and which 
+entities (i.e., parent company, affiliate, joint venture, subcontractor) will be performing 
+them; 
+b. The year the company was founded and/or incorporated.  If incorporated, please indicate 
+the state where the company is incorporated and the date of incorporation; 
+c. The location of company headquarters and any field office(s) that may provide Services 
+for any resulting Contract under this Solicitation; 
+d. The number of employees in the company, both locally and nationally, and the 
+location(s) from which employees will be assigned; 
+e. The name, address, and telephone number of Respondent’s point of contact for any 
+resulting Contract under this Solicitation; 
+f.  The name, address, and telephone number of Respondent’s point of contact for any 
+questions regarding the Solicitation Response; and
+
+[page 35]
+RFO No. HHS0015558v2 Page 35 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+g. Indicate whether the company has ever been in contract with any Texas state agency.  If 
+“Yes,” specify the contract term, for what duties, and for which agency. 
+6.2 FRANCHISE TAX – RIGHT TO TRANSACT BUSINESS IN TEXAS 
+The Texas franchise tax is imposed on each taxable entity formed or organized in Texas or doing 
+business in Texas. Respondent must provide their 11-digit Comptroller's Taxpayer Number or 
+the 9-digit Federal Employer's Identification Number. 
+Respondent must be set up in the Texas franchise tax system prior to Contract award. Texas 
+franchise tax information can be accessed at https://comptroller.texas.gov/taxes/franchise/ 
+6.3 REFERENCES 
+Respondents shall provide a minimum of three (3) references from similar contracts or projects 
+performed, preferably for state and/or local government, within the last five (5) years. 
+Respondents must verify current contracts and provide the following information: 
+a. Client name; 
+b. Contract/project description; 
+c. Total dollar amount of contract/project; 
+d. Key staff assigned to the referenced contract/project who will be designated for Work 
+under any Contract resulting from this Solicitation; and 
+e. Client contract/project manager name, telephone number, fax number, and email address. 
+6.4 MAJOR SUBCONTRACTOR INFORMATION  
+Respondents must identify any major subcontractors who will perform fifteen percent (15%) or 
+more of the Work under any Contract resulting from this Solicitation. Respondents must indicate 
+whether or not they hold any financial interest in any major subcontractor. As a condition of 
+award, an authorized officer or agent of each proposed major subcontractor may be required to 
+sign a statement to the effect that the Subcontractor has read, and will agree to abide by, 
+Respondent’s obligations under any Contract awarded pursuant to this Solicitation. 
+6.5 A
+FFIRMATIONS AND CERTIFICATIONS  
+Respondents must complete and return with their Solicitation Response all of the following 
+affirmations and certifications: 
+a. Exhibit A, HHS Solicitation Affirmations;
+
+[page 36]
+RFO No. HHS0015558v2 Page 36 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+b. Federal Assurances and Certifications:  
+1. Exhibit G, Assurances – Non-Construction Programs; and  
+2. Exhibit H, Certification Regarding Lobbying. 
+3. Exhibit K, HHS Federal Funding Accountability and Transparency Act 
+(FFATA) Certification Form 
+6.6 OTHER REPORTS 
+6.6.1 Dun and Bradstreet Reports  
+Respondents with a Dun and Bradstreet (D&B) number must include a D&B Credit Insights 
+Report with their Solicitation Response.  
+6.6.2 Financial Statements and Financial Solvency  
+a. Respondents must submit electronically in a searchable PDF an annual report for the 
+entity submitting the Solicitation Response, which must include:  
+1. For years 2023, 2024, and 2025, audited financial statements, including all 
+supplements, management discussion and analysis, and actuarial opinions;  
+2. If applicable, for years 2023, 2024, and 2025, consolidated statements for any 
+holding companies or affiliates; and  
+3. A full disclosure of any events, liabilities, or contingent liabilities that could affect 
+Respondent’s financial ability to perform this Contract. At a minimum, financial 
+statements must include:  
+i. Balance sheet;  
+ii. Income statement;  
+iii. Statement of changes in financial position;  
+iv. Statement of cash flows; and  
+v. Capital expenditures.  
+b. If the Respondent is a corporation that is required to report to the Securities and 
+Exchange Commission (SEC), Respondent must submit its three (3) most recent SEC 
+Form 10K, Annual Reports, pursuant to Section 13 or 15(d) of the Securities 
+Exchange Act of 1934, Title 15 of the United States Code Chapter 2B, Sections 78m 
+or 78o(d). Financial materials must be submitted electronically as a word searchable 
+PDF.  
+c. If audited financial statements are not available, the Respondent must submit 
+unaudited financial information and any other information of the entity submitting the 
+Solicitation Response that the Respondent believes meets the requirements of this 
+section. Reference Section 6.6.3 (Alternate Report). If the submitted documents do
+
+[page 37]
+RFO No. HHS0015558v2 Page 37 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+not provide adequate assurance of financial stability or solvency, HHSC reserves the 
+right to request additional information or to disqualify the Respondent.  
+d. If the Respondent is either substantially or wholly owned by another corporate (or 
+legal) entity, the Respondent must include the information required in this section for 
+each such entity, including the most recent detailed financial report for each such 
+entity.  
+e. If HHSC determines that an entity does not have sufficient financial resources to 
+guarantee the Respondent’s performance, HHSC may require the Respondent to 
+obtain another acceptable financial instrument or resource from such entity, or to 
+obtain an acceptable guarantee from another entity with sufficient financial resources 
+to guarantee Respondent’s performance. 
+ 
+6.6.3 Alternate Report 
+If the Solicitation Response does not contain the annual report specified in Section 6.6.2(a) 
+above, the Respondent must provide the following within its Solicitation Response: (1) a 
+statement that the Respondent does not have an audited annual report for the specified time 
+frame(s) and (2) an alternate report which contains the following:  
+ 
+a. For years 2023, 2024, and 2025, unaudited financial statements, including all 
+supplements, management discussion and analysis, and actuarial opinions;  
+b. Respondent’s unaudited financial statement of the most recent quarter of operation; 
+and  
+c. A full disclosure of any events, liabilities, or contingent liabilities that could affect 
+Respondent’s financial ability to perform the Contract.  
+At a minimum, such financial statements must include:  
+i. Balance sheet;  
+ii. Income statement;  
+iii. Statement of changes in financial position;  
+iv. Statement of cash flows; and  
+v. Capital expenditures. 
+6.7 C
+ORPORATE GUARANTEE 
+If the Respondent is substantially or wholly owned by another corporate (or other) entity, HHSC 
+reserves the right to request that such parent entity unconditionally guarantee performance by the 
+Respondent in each and every obligation, warranty, term, covenant, and condition of the 
+Contract. 
+6.8 SUBCONTRACTING PLAN  
+Respondents must submit the Subcontracting Plan in accordance with Section 3.6 (Solicitation 
+Response Submission and Delivery). The Subcontracting Plan should be labeled:
+
+[page 38]
+RFO No. HHS0015558v2 Page 38 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+“Subcontracting Plan,” and include all supporting documentation in accordance with Exhibit Q, 
+Subcontracting Plan Requirements, and the Subcontracting Plan. 
+A courtesy review of a Respondent’s completed Subcontracting Plan is optional and is available 
+upon request to assist in providing a compliant and responsive Subcontracting Plan. This 
+courtesy review may only identify possible deficiencies, but a final compliant determination 
+cannot be provided until the Solicitation Response is submitted. 
+To request a courtesy review, submit the completed Subcontracting Plan including all supporting 
+documentation in a PDF format by e-mail to the HHSC VetHUB Program Office by or before 
+the Courtesy Review of Subcontracting Plan Deadline in the Schedule of Events (Section 3.1).  
+E-Mail for Courtesy Review: Cheryl.Bradley@hhs.texas.gov. 
+E-mail Subject Line: Subcontracting Plan Courtesy Review, No. [HHS0015558v2]  
+Due Date: [Respondent to add Deadline for Submission of Solicitation Responses information 
+from Section 3.1 (Schedule of Events)]  
+SPs received after the courtesy review deadline in the Schedule of Events (Section 3.1), will not 
+be processed. A response regarding the Subcontracting Plan will be provided at least eight (8) 
+business days prior to the Solicitation Response deadline in the Schedule of Events (Section 
+3.1) from the VetHUB Office, allowing enough time to rectify any potential deficiencies for the 
+final Subcontracting Plan submission. 
+The final Subcontracting Plan must be submitted with the Solicitation Response by the deadline 
+in the Schedule of Events (Section 3.1). Solicitation Responses that do not include a completed 
+Subcontracting Plan shall be rejected due to material failure to comply with Texas Government 
+Code Section 2161.252(b). 
+6.9 TX-RAMP DOCUMENTATION 
+In its Solicitation Response, Respondent must provide the DIR issued TX-RAMP Level 2 
+Certification Identification Number. 
+6.10 ACCESSIBILITY/VOLUNTARY PRODUCT ACCESSIBILITY TEMPLATE (VPAT) 
+DOCUMENTATION  
+In its Solicitation Response, Respondent must provide documentation required by Exhibit O, 
+VPAT WCAG Edition and Exhibit O-1, VPAT Revised Section 508 Edition.
+
+[page 39]
+RFO No. HHS0015558v2 Page 39 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+6.11 SECRETARY OF STATE CERTIFICATION 
+The Respondent must be currently authorized to do business in the State of Texas as evidenced 
+by Certificate of Authority from the Texas Secretary of State submitted with the Solicitation 
+Response.
+
+[page 40]
+RFO No. HHS0015558v2 Page 40 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE VII. COST PROPOSAL 
+7.1 COST PROPOSAL 
+As noted above in Section 3.5 (Solicitation Response Composition), cost information must be 
+included as a separate document/file, the cost proposal, with the Respondent’s Solicitation 
+Response for the services listed in Article II, Scope of Work. 
+Respondents must state their pricing for all Goods and Services rendered during the course of 
+any Contract resulting from this Solicitation, including any and all costs involved that are to be 
+paid or reimbursed by DSHS. The pricing for the required Goods and Services is to be presented 
+only in the format set forth in Exhibit M, Cost Proposal of the RFO. Pricing information shall 
+include all costs associated with providing the required Goods and Services and must be 
+submitted and labeled as specified in Section 3.6 (Solicitation Response Submission and 
+Delivery). No reimbursement is available to the successful Respondent beyond the amount 
+agreed to be paid for the Goods and Services provided. Pricing agreed to in any resulting 
+Contract shall be firm and remain constant through the life of the Contract. 
+The cost proposal provided is for the Goods and/or Services as specified in this Solicitation and 
+shall include all labor, materials, tools, supplies, equipment, and personnel, including but not 
+limited to, travel expenses, associated costs, and incidental costs necessary to provide the 
+products and Services according to the minimum specifications, requirements, provisions, terms, 
+and conditions set forth in this RFO.
+
+[page 41]
+RFO No. HHS0015558v2 Page 41 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE VIII. GENERAL TERMS AND CONDITIONS 
+8.1 GENERAL CONDITIONS 
+8.1.1 Changes, Modifications, and Cancellation 
+HHSC reserves the right to make changes to and/or cancel this RFO and will post all changes 
+and modifications, whether made as a result of a potential Respondent’s written inquiries or 
+otherwise, and cancellation notices on the ESBD. It is the responsibility of the Respondent to 
+check the ESBD regularly for any additional information regarding this RFO. If the Respondent 
+fails to monitor the ESBD for any changes or modifications to the RFO, such failure will 
+not relieve the Respondent of its obligation to fulfill the requirements as posted. 
+8.1.2 Offer Period 
+Solicitation Responses shall be binding for a period of 240 days after the submission due date. A 
+Respondent may extend the time for which its Solicitation Response will be honored. Upon 
+Contract execution, prices agreed upon by the successful Respondent(s) are an irrevocable offer 
+for the term of the Contract and any Contract renewals or extension(s). No other costs, rates, or 
+fees shall be payable to the successful Respondent unless expressly agreed upon in writing by 
+HHSC.  
+8.1.3 Costs Incurred 
+Respondents understand that issuance of this Solicitation in no way constitutes a commitment by 
+HHSC to award a Contract or to pay any costs incurred by a Respondent in the preparation of a 
+response to this Solicitation. HHSC is not liable for any costs incurred by a Respondent. Costs of 
+developing Solicitation Responses, preparing for or participating in Oral Presentations, 
+Demonstrations, and Site Visits, or any other similar expenses incurred by a Respondent are 
+entirely the responsibility of the Respondent, and will not be reimbursed in any manner by the 
+State of Texas. 
+8.1.4 Contract Responsibility 
+HHSC will look solely to the successful Respondent for the performance of all contractual 
+obligations that may result from an award based on this Solicitation. The successful Respondent 
+shall not be relieved of its obligations for any nonperformance by its Subcontractors.
+
+[page 42]
+RFO No. HHS0015558v2 Page 42 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+8.1.5 Public Information Act - Respondent Requirements Regarding Disclosure 
+Proposals and contracts are subject to the Texas Public Information Act (PIA). Texas 
+Government Code Chapter 552, and may be disclosed to the public upon request. Other legal 
+authority also requires HHSC to post contracts and proposals on its public website and to provide 
+such information to the Legislative Budget Board for posting on its public website.  
+Under the PIA, certain information is protected from public release. If Respondent asserts that 
+information provided in its Solicitation Response is exempt from disclosure under the PIA, 
+Respondent must: 
+a. Mark Original Solicitation Response:  
+1. Mark the Original Solicitation Response, on the top of the front page, with the words 
+“CONTAINS CONFIDENTIAL INFORMATION” in large, bold, capitalized letters 
+(the size of, or equivalent to, 12-point Times New Roman font or larger);  
+1. Identify, adjacent to each portion of the Solicitation Response that Respondent 
+claims is exempt from public disclosure, the claimed exemption from disclosure 
+(NOTE: no redactions are to be made in the Original Solicitation Response); 
+b. Certify in Original Solicitation Response – HHS Solicitation Affirmations (attached 
+as Exhibit A to this Solicitation):   
+Certify, in the designated section of the HHS Solicitation Affirmations, Respondent’s 
+confidential information assertion and the filing of its Public Information Act Copy; and 
+c. Submit Public Information Act Copy of Solicitation Response:   
+Submit a separate “Public Information Act Copy” of the Original Solicitation Response 
+(in addition to the original and all copies otherwise required under the provisions of this 
+Solicitation). The Public Information Act Copy must meet the following requirements:  
+1. The copy must be clearly marked as “Public Information Act Copy” on the front page 
+in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New 
+Roman font or larger);  
+2. Each portion Respondent claims is exempt from public disclosure must be redacted 
+(blacked out); and  
+3. Respondent must identify, adjacent to each redaction, the claimed exemption from 
+disclosure. Each identification provided as required in Subsection (c) of this section 
+must be identical to those set forth in the Original Solicitation Response as required in 
+Subsection (a)(2), above. The only difference in required markings and information 
+between the Original Solicitation Response and the “Public Information Act Copy” of
+
+[page 43]
+RFO No. HHS0015558v2 Page 43 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+the Solicitation Response will be redactions - which can only be included in the 
+“Public Information Act Copy.” There must be no redactions in the Original 
+Solicitation Response. 
+By submitting a response to this Solicitation, Respondent agrees that, if Respondent does 
+not mark the Original Solicitation Response, provide the required certification in the 
+Affirmations and Solicitation Acceptance, and submit the Public Information Act Copy, 
+Respondent’s Solicitation Response will be considered to be public information that may be 
+released to the public without notice to the Respondent in any manner including, but not 
+limited to, in accordance with the Public Information Act, posted on HHSC’s public 
+website, and posted on the Legislative Budget Board’s public website. 
+If any or all Respondents submit partial, but not complete, information suggesting 
+inclusion of confidential information and failure to comply with the requirements set forth 
+in this section, HHSC, in its sole discretion and in any Solicitation, reserves the right to (1) 
+disqualify all Respondents that fail to fully comply with the requirements set forth in this 
+section, or (2) to offer all Respondents that fail to fully comply with the requirements set 
+forth in this section additional time to comply. 
+Respondent should not submit a Public Information Act Copy indicating that the entire 
+Solicitation Response is exempt from disclosure. Merely making a blanket claim that the entire 
+response is protected from disclosure because it contains any amount of confidential, proprietary, 
+trade secret, or privileged information is not acceptable, 
+and may make the entire proposal subject 
+to release under the PIA. 
+A Solicitation Response should not be marked or asserted as copyrighted material. If Respondent 
+asserts a copyright to any portion of its response, by submitting a response, Respondent agrees to 
+reproduction and posting on public websites by the State of Texas, including HHSC and all other 
+state agencies, without cost or liability.  
+HHSC will strictly adhere to the requirements of the PIA regarding the disclosure of public 
+information. As a result, by participating in this Solicitation process, Respondent acknowledges 
+that all information, documentation, and other materials submitted in the Solicitation Response in 
+response to this Solicitation may be subject to public disclosure under the PIA. HHSC does not 
+have authority to agree that any information submitted will not be subject to disclosure. 
+Disclosure is governed by the PIA and by rulings of the Office of the Texas Attorney General. 
+Respondents are advised to consult with their legal counsel concerning disclosure issues 
+resulting from this process and to take precautions to safeguard trade secrets and proprietary or 
+otherwise confidential information. HHSC no obligation or responsibility relating to the 
+disclosure or nondisclosure of information submitted by Respondents.  
+For more information concerning the types of information that may be withheld under the PIA or 
+questions about the PIA, please refer to the most current Public Information Act Handbook
+
+[page 44]
+RFO No. HHS0015558v2 Page 44 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+published by the Office of the Texas Attorney General or contact the attorney general’s Open 
+Government Hotline at (512) 478-OPEN (6736) or toll-free at (877) 673-6839 (877-OPEN 
+TEX). To access and download the current Public Information Act Handbook, please visit the 
+attorney general’s website at https://www.texasattorneygeneral.gov/open-government/members-
+pub 
+8.1.6 Respondent Waiver – Intellectual Property 
+SUBMISSION OF ANY DOCUMENT TO HHSC IN RESPONSE TO THIS 
+SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT 
+BY RESPONDENT TO FULLY INDEMNIFY THE STATE OF TEXAS, HHSC FROM 
+ANY CLAIM OF INFRINGEMENT BY HHSC REGARDING THE INTELLECTUAL 
+PROPERTY RIGHTS OF RESPONDENT OR ANY THIRD PARTY FOR ANY 
+MATERIALS SUBMITTED TO HHSC BY RESPONDENT. 
+8.1.7 Standards of Conduct for Vendors 
+Pursuant to Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule 
+§391.405(a), Contractors, Respondents, and vendors interested in working with HHSC are 
+required to implement standards of conduct for their own personnel and agents on terms at least 
+as restrictive as those applicable to HHSC. These standards must adhere to ethics requirements 
+adopted in rule, in addition to any ethics policy, or code of ethics approved by the HHSC 
+Executive Commissioner. A Respondent must sign and submit all ethics, disclosure, 
+confidentiality, and other forms required under the procurement and any resulting contract.
+ 
+ 
+The standards of conduct must include the ten standards of ethical conduct set forth in Section I 
+of the HHS Ethics Policy and requirements to comply with ethical standards set forth in federal 
+and state law (including, but not limited to, Title 1 of the Texas Administrative Code Part 15, 
+Chapter 391, Subchapter D, Rule §391.405(a)). 
+Standards of conduct of any Contractor, Respondent, or vendor may be reviewed and/or audited 
+by the State Auditor and HHSC, The Contractor, Respondent, or vendor must cooperate with the 
+review and/or audit. Additionally, pursuant to Title 1 of the Texas Administrative Code Part 15, 
+Chapter 391, Subchapter D, Rule §391.405(a), HHSC may examine a Respondent’s standards of 
+conduct in the evaluation of a bid, offer, proposal, quote, or other applicable expression of 
+interest in a proposed purchase of Goods or Services. 
+Any vendor, Contractor, or Subcontractor, that violates a provision of Title 1 of the Texas 
+Administrative Code Part 15, Chapter 391, Subchapter D may be barred from receiving future 
+contracts or have an existing contract canceled. Additionally, HHSC may report the vendor’s 
+actions to the Comptroller of Public Accounts for statewide debarment, or law enforcement.
+
+[page 45]
+RFO No. HHS0015558v2 Page 45 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+8.1.8 Disclosure of Interested Parties 
+Pursuant to Section 2252.908 of the Texas Government Code, a successful Respondent to be 
+awarded a Contract with a value of $1 million or more or awarded a Contract that would require 
+the successful Respondent to register as a lobbyist under Texas Government Code Chapter 305 
+must submit a disclosure of interested parties form to HHSC at the time the Respondent submits 
+the signed Contract. Rules and filing instructions may be found on the Texas Ethics 
+Commission's public website and additional instructions will be given by HHSC to the 
+successful Respondent.   
+8.2 INSURANCE 
+8.2.1 Required Coverage 
+For the duration of any Contract resulting from this Solicitation, the successful Respondent shall 
+acquire insurance, with financially sound and reputable independent insurers, in the type and 
+amount listed in Exhibit R, Insurance Requirements. If coverage expires during the term of the 
+Contract, renewal certificates for each type of coverage must be provided to System Agency. 
+Failure to maintain insurance coverage or acceptable alternative methods of insurance shall be 
+deemed a breach of Contract.   
+In the event that any policy is determined by the System Agency to be deficient to comply with 
+the terms of this Contract, System Agency may require additional policies or coverage as the 
+System Agency may reasonably request or that are required by law or regulation. 
+8.2.2 Alternative Insurability 
+Notwithstanding the preceding, HHSC reserves the right to consider reasonable alternative 
+methods of insuring the Contract in lieu of the insurance policies customarily required. It will be 
+the Respondent's responsibility to recommend to HHSC alternative methods of insuring the 
+Contract. Any alternatives proposed by Respondent should be accompanied by a detailed 
+explanation regarding Respondent's inability to obtain the required insurance and/or bonds. 
+HHSC shall be the sole and final judge as to the adequacy of any substitute form of insurance 
+coverage.  
+8.3 P
+ROTEST 
+Any protest shall be governed by the rules published by HHSC in the Texas Administrative Code 
+Title 1, Part 15, Chapter 391, Subchapter C (Protests).
+
+[page 46]
+RFO No. HHS0015558v2 Page 46 of 46
+Version 2.30  
+Revision Date 02/27/2026 
+ARTICLE IX. LIST OF EXHIBITS  
+ 
+EXHIBIT A HHS SOLICITATION AFFIRMATIONS, VERSION 2.10 
+EXHIBIT B HEALTH AND HUMAN SERVICES (HHS) UNIFORM TERMS AND CONDITIONS – 
+VENDOR, VERSION 3.4 
+EXHIBIT C HEALTH AND HUMAN SERVICES (HHS) ADDITIONAL PROVISIONS, VERSION 
+1.0 
+EXHIBIT D DATA USE AGREEMENT (DUA), VERSION 8.5 
+EXHIBIT D-1 ATTACHMENT 2 TO THE DUA, SECURITY AND PRIVACY INQUIRY, (VERSION 
+2.1) 
+EXHIBIT E EXCEPTIONS FORM 
+EXHIBIT F ASSUMPTIONS FORM 
+EXHIBIT G ASSURANCES – NON-CONSTRUCTION PROGRAMS 
+EXHIBIT H CERTIFICATION REGARDING LOBBYING 
+EXHIBIT I EVALUATION TOOL 
+EXHIBIT J HHS ONLINE BID ROOM INFORMATION 
+EXHIBIT K HHS FEDERAL FUNDING ACCOUNTABILITY AND TRANSPARENCY ACT 
+(FFATA) CERTIFICATION FORM 
+EXHIBIT L INFORMATION SECURITY AND PRIVACY REQUIREMENTS 
+EXHIBIT M COST PROPOSAL 
+EXHIBIT N REQUIREMENTS TRACEABILITY MATRIX 
+EXHIBIT O VPAT WCAG EDITION 
+EXHIBIT O-1 VPAT REVISED SECTION 508 EDITION 
+EXHIBIT O-2 HHS UNIFORM ELECTRONIC AND INFORMATION RESOURCES (EIR) 
+ACCESSIBILITY CLAUSE 
+EXHIBIT P HHSC IDENTITY AND ACCESS MANAGEMENT (IAM) GUIDE 
+EXHIBIT Q SUBCONTRACTING PLAN REQUIREMENTS 
+EXHIBIT R INSURANCE REQUIREMENTS

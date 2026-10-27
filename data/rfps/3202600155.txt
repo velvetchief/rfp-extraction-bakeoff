@@ -1,0 +1,1503 @@
+[page 1]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 1 of 50 
+Joe Esparza, Chairman and Commissioner Representing Employers 
+Alberto Treviño III, Commissioner Representing Labor 
+Brent Connett, Commissioner Representing the Public 
+Steve Pier, Executive Director 
+__________________________ 
+Open Enrollment (OE) 
+For 
+Orientation and Mobility Services 
+Open Enrollment No. 3202600155 
+Date of Release: May 28, 2026  
+Responses Due: November 24, 2026, by 10:00 a.m. CST 
+785-17 Blind Teaching and Training Equipment and Supplies 
+470-79 Vision Impaired Mobility Devices and Equipment 
+924-86 Vocational Training, All Types, Including Vocational Rehabilitation and Technical Education 
+952-90 Training and Instruction Services, Clients, Not Staff 
+_____________________________________ 
+Sole Point of Contact:  
+Meghan Osborn, CTCD 
+TWC Procurement Portal
+
+[page 2]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 2 of 50 
+Table of Contents 
+Article I Purpose ....................................................................................................... 9 
+Article II Scope of Work ......................................................................................... 10 
+2.1 Overview of Orientation and Mobility Services ................................................... 10 
+2.2 Provider Requirements, Responsibilities, and TWC Policies .................................. 11 
+2.3 VR Standards for Providers (VR-SFP) Manual ..................................................... 11 
+2.4 Requirements ................................................................................................ 12 
+2.5 Service Area .................................................................................................. 24 
+2.6 Background Checks ........................................................................................ 24 
+2.7 Transportation of VR Customers ...................................................................... 25 
+2.8 Provider’s Director ......................................................................................... 26 
+2.9 Provider Staff Providing Services to VR Customers ............................................. 26 
+Article III General Information ................................................................................. 27 
+3.1 Authority ...................................................................................................... 27 
+3.2 Schedule of Events ......................................................................................... 27 
+3.3 Contract Documents ....................................................................................... 28 
+3.4 Attachments and Forms .................................................................................. 29 
+3.5 Sole Point of Contact ...................................................................................... 34 
+3.6 Addenda ....................................................................................................... 35 
+Article IV Application Process .................................................................................. 35 
+4.1 Deadline ....................................................................................................... 35 
+4.2 General Information ....................................................................................... 35 
+4.3 Discrepancies ................................................................................................ 36 
+4.4 Submission Method ........................................................................................ 36 
+4.5 Required Application Documents ...................................................................... 37 
+4.6 Binding Offer ................................................................................................. 38
+
+[page 3]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 3 of 50 
+4.7 Franchise Tax – Right to transact business in Texas ........................................... 39 
+4.8 Ambiguity, Conflict, or Discrepancy .................................................................. 39 
+4.9 TWC Rights ................................................................................................... 39 
+Article V Application Evaluation ................................................................................. 41 
+5.1 Application Screening ..................................................................................... 41 
+5.2 Review of Applications .................................................................................... 41 
+5.3 Public Information Act .................................................................................... 42 
+Article VI Terms and Conditions .............................................................................. 45 
+6.1 Contract Award .............................................................................................. 45 
+6.2 Contract Term ............................................................................................... 46 
+6.3 Payments ...................................................................................................... 46 
+6.4 Contract Amendments .................................................................................... 46 
+6.5 No Guarantee of Volume, Usage or Compensation .............................................. 46 
+6.6 Governmental Entities .................................................................................... 47 
+6.7 Costs Incurred ............................................................................................... 47 
+6.8 Applicant Waiver-Intellectual Property .............................................................. 47 
+6.9 Required Insurance ........................................................................................ 48 
+6.10 FAILURE TO PERFORM .................................................................................... 48 
+6.11 Remedies ...................................................................................................... 49 
+6.12 Change of Ownership or Financial Condition ...................................................... 49 
+6.13 Severability ................................................................................................... 50
+
+[page 4]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 4 of 50 
+Definitions 
+Table 1: Definitions 
+Term/Acronym Definition 
+ACVREP Academy for Certification of Vision Rehabilitation and Education 
+Professionals. 
+Addendum; 
+Addenda; 
+Amendment 
+A written addition, change, or supplement to this Solicitation that 
+is posted to the ESBD and issued prior to the response due date. 
+Applicant An entity or individual who submits a Provider Enrollment Packet 
+in response to this Open Enrollment.  
+Business Day The day and hours (Monday through Friday, 7 a.m. to 6:00 p.m. 
+Central Time) at which TWC is open for business. 
+TWC is closed for business on the scheduled holidays indicated 
+by the State Auditor’s Office available at 
+https://hr.sao.texas.gov/holidays/. 
+The terms “Working Day” and “Business Day” may be used 
+interchangeably. All uncapitalized references to “day” shall mean 
+calendar day.
+
+[page 5]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 5 of 50 
+Term/Acronym Definition 
+Confidential 
+Information 
+Any communication or record (whether oral, written, 
+electronically stored or transmitted, or in any other form) 
+provided to or made available to Contractor or that Contractor 
+may create, receive, maintain, use, disclose or have access to on 
+behalf of TWC that consists of or includes any or all the following: 
+a. Customer Information;  
+b. Protected Health Information (PHI), in any form including, 
+without limitation, Electronic Protected Health Information 
+or Unsecured Protected Health Information;  
+c. Sensitive Personal Information, as defined by Texas 
+Business and Commerce Code, § 521.002(a)(2);  
+d. Federal Tax Information;  
+e. Personally Identifiable Information (PII) as defined by 
+Texas Business and Commerce Code § 521.002(a)(1);  
+f. Social Security Administration Data, including, without 
+limitation, Medicaid information;  
+g. All privileged work product; all information designated as 
+confidential under the constitution and laws of the State of 
+Texas and of the United States, including the Texas Health 
+and Safety Code and the Texas Public Information Act, 
+Texas Government Code, Chapter 552; 
+h. Personally Identifiable Information defined by 2 CFR 200.1; 
+and 
+i. Information deemed confidential under The Rehabilitation 
+Act of 1973, 29 U.S.C. Chapter 16, as amended, and 
+implementing regulations 34 C.F.R. Parts 361 through 396.
+
+[page 6]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 6 of 50 
+Term/Acronym Definition 
+Conflict of 
+Interest 
+A situation that creates a risk that professional judgment or 
+actions will be unduly influenced by a personal interest or 
+relationship and creates substantial conflicts with the proper 
+discharge of duties required by a contract and the public interest. 
+Each Applicant must comply with the content on Conflict of 
+Interest located in the VR-SFP Chapter 3: Basic Standards. 
+Contract The written agreement entered into by TWC and Provider, which 
+will incorporate the contents of this Open Enrollment and the 
+Provider’s Application, except as may be provided in the Contract 
+and any amendments thereto. 
+Contractor (also 
+Provider) 
+A legal entity or individual who TWC is contracted with to provide 
+goods and/or services for TWC Customers. Contractor can be 
+used interchangeably with Provider, Service Provider, or Vendor. 
+Contract Term The definite period of time that the Contract will remain in effect, 
+including all stated renewals and extensions. 
+Customer An individual that has met the TWC eligibility criteria and has 
+been approved to receive TWC Vocational Rehabilitation (VR) 
+services. 
+CTCD Certified Texas Contract Developer. 
+CTCM Certified Texas Contract Manager. 
+ESBD The Electronic State Business Daily. An online platform 
+administered by the Statewide Procurement Division (SPD) of the 
+Comptroller of Public Accounts (CPA). The ESBD may be 
+accessed as http://www.txsmartbuy.com/esbd.
+
+[page 7]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 7 of 50 
+Term/Acronym Definition 
+Fiscal Year (FY) Texas State Fiscal Year, September 1 through August 31. 
+ILS-OIB Independent Living Services for Older Individuals Who Are Blind. 
+OE Open Enrollment 
+Older Individuals 
+who are Blind 
+(OIB) 
+An individual age 55 or older whose significant visual impairment 
+makes competitive employment extremely difficult to attain but 
+for whom independent living goals are feasible. 
+PCS or 
+Procurement 
+and Contract 
+Services 
+A department within TWC’s Business Operations division. 
+PS Procurement Services, a section within TWC. 
+Provider The Applicant(s) with whom TWC executes a Contract to provide 
+the goods and/or services that this Solicitation requires. 
+SME Subject Matter Expert 
+Solicitation This Open Enrollment, including all exhibits, attachments, forms, 
+and Addenda, if any. 
+State The State of Texas and its instrumentalities, including TWC, its 
+officers, employees, or authorized agents, and any other state 
+agencies.
+
+[page 8]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 8 of 50 
+Term/Acronym Definition 
+Subcontractor Any entity(ies) or person(s) providing goods or services under 
+the Contract on Provider’s behalf, whether or not the entity(ies) 
+or person(s) has/have a written agreement with the Provider. 
+The term does not include a state agency; rather a subcontractor 
+may be an officer or employee of a state agency when the officer 
+or employee contracts with a vendor in a private capacity. 
+TWC Texas Workforce Commission. 
+Vocational 
+Rehabilitation 
+Division (VRD) 
+The TWC Vocational Rehabilitation Division (VRD) administers the 
+Vocational Rehabilitation Services Program, which is a joint state 
+and federally funded program to assess, plan, develop, and 
+provide VR services for eligible individuals with disabilities, 
+consistent with their unique strengths, resources, priorities, 
+concerns, abilities, capabilities, interests, and informed choice so 
+that these individuals can prepare for and engage in competitive 
+integrated employment and achieve economic self-sufficiency. In 
+accordance with the Rehabilitation Act of 1973, as amended by 
+Title IV of WIOA (29 U.S.C. § 720 et seq.). VRD is the single 
+designated state unit for the VR program. 
+Vocational 
+Rehabilitation 
+Standards for 
+Providers 
+Manual (VRSFP) 
+The VR Standards for Providers (VR-SFP) Manual focuses on the 
+business practices, processes, and policies that must be followed 
+for TWC and the Contractor to comply with federal and state laws 
+and TWC rules and requirements. The VR-SFP Manual ensures 
+TWC-VR Customers receive quality services. Each Contractor 
+should review the VR-SFP Manual and forms for changes every 
+thirty (30) calendar days. Each Contractor is expected to be 
+familiar with and comply with the most recently published VR-
+SFP Manual and use the most recently published forms applicable 
+to their Contract.
+
+[page 9]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 9 of 50 
+Term/Acronym Definition 
+VPTS Vendor Performance Tracking System, as described under Texas 
+Government Code § 2262.055 and 34 TAC § 20.115. Reporting 
+requirements and vendor performance factors considered in VPTS 
+are described in Texas Government Code § 2155.089 and 34 TAC 
+§ 20.509. The VPTS is available at: 
+https://www.txsmartbuy.gov/vpts. 
+ARTICLE I PURPOSE 
+The Texas Workforce Commission (TWC) is seeking Applications from qualified 
+Service Providers to deliver services to be provided to Vocational Rehabilitation 
+(VR) Customers served by TWC’s VR division. This is an Open Enrollment (OE) 
+opportunity solicited through an Open Enrollment. 
+Opportunities are available to provide Orientation and Mobility Services in all 
+areas of the state. Applicants must meet all requirements and specifications 
+outlined herein to be eligible to provide services. 
+The TWC Procurement Services (PS) section will administer the procurement 
+process for this Open Enrollment, which includes Open Enrollment publication, 
+handling of communications from Applicants, as well as managing the receipt 
+of Applications for review. 
+Information regarding TWC and its programs is available online and can be 
+currently accessed at www.twc.texas.gov.
+
+[page 10]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 10 of 50 
+ARTICLE II SCOPE OF WORK 
+2.1 OVERVIEW OF ORIENTATION AND MOBILITY SERVICES 
+TWC’s mission is to promote and support a workforce system that creates 
+value and offers employers, families, individuals and communities the 
+opportunity to achieve and sustain economic prosperity. 
+Orientation and Mobility (O&M) services prepare blind and visually impaired 
+customers to travel independently with competence and confidence. 
+This Open Enrollment is for O&M Services. O&M services prepare blind and 
+visually impaired customers to travel independently with competence and 
+confidence. 
+O&M specialists offer complex, interrelated services designed to develop 
+independent travel skills in individuals who are blind or visually impaired. O&M 
+services begin with an assessment and can include training held in 
+environments frequently visited by customers. 
+Orientation is the process of using the available senses to establish one's 
+position and relationship within the environment. 
+Mobility is the ability to travel in the environment with the help of an 
+established tool (including white canes, dog guides, and electronic travel aids). 
+O&M assessments and training can be provided in locations within the 
+customer's home or community. O&M assessments and training are provided 
+in person and cannot be provided remotely. 
+Examples of training locations include: 
+1. the customer's home (indoor and outdoor); 
+2. public areas, such as a bank, church, or doctor's office; 
+3. commercial areas, such as a grocery store or mall;
+
+[page 11]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 11 of 50 
+4. transit systems, such as public transportation, paratransit, and taxis; 
+5. rural areas; 
+6. residential areas (with light traffic and stop signs); 
+7. small business areas (with heavier traffic and simple traffic lights); 
+8. downtown areas (with heavy traffic and complex traffic lights); and 
+9. commercial modes of travel, such as trains and planes. 
+All fees for services described in this chapter can be found in VR-SFP 5.5 
+Orientation and Mobility Service Fees. 
+2.2 PROVIDER REQUIREMENTS, RESPONSIBILITIES, AND TWC 
+POLICIES 
+Providers must be knowledgeable about their responsibilities, the service 
+requirements, and TWC policies applicable to them. 
+2.3 VR STANDARDS FOR PROVIDERS (VR-SFP) MANUAL 
+The VR Standards for Providers (VR-SFP) Manual focuses on the business 
+practices, processes, and policies that must be followed for TWC and the 
+Provider to comply with federal and state laws and TWC rules and 
+requirements. Providers must adhere to the current VR-SFP Manual when 
+providing services to VR Customers. 
+An Applicant applying for a contract must comply with the following VR-SFP 
+Manual chapters in addition to the Solicitation. 
+• Chapter 1: Introduction to Vocational Rehabilitation 
+• Chapter 2: Obtaining a Contract for Goods and Services 
+• Chapter 3: Basic Standards 
+Notice of upcoming changes to the VR-SFP Manual are published on the
+
+[page 12]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 12 of 50 
+Vocational Rehabilitation Providers’ Resources page at least thirty (30) 
+calendar days in advance of the effective date of the changes. Each Provider is 
+contractually responsible for maintaining compliance with the most current VR-
+SFP Manual. 
+A revision list that summarizes any formal changes to the VR-SFP Manual can 
+be found on the Vocational Rehabilitation Standards for Providers Revision Log. 
+TWC GovDelivery notifies Providers every time revisions are posted to the VR-
+SFP Manual and other important information. All Providers should subscribe to 
+TWC GovDelivery list to gain these notifications. Visit the TWC GovDelivery 
+website, enter an email address, and select the topic “Vocational Rehabilitation 
+Contractors and Providers News” to subscribe. 
+For questions about the content in the VR-SFP email, contact 
+vr.standards@twc.texas.gov. 
+2.4 REQUIREMENTS 
+2.4.1 Qualifications and Training  
+Before services are provided, the service provider director must: 
+• approve VR3455, Provider Staff Information Form, which is completed by 
+each of the provider's staff members, such as specialists and interns (the 
+form must include the staff members' qualifications as stated in Section 
+2.4.2 Orientation and Mobility Specialist and provide evidence that 
+the staff member meets the qualifications); and 
+• submit the approved form to the provider's assigned contract manager 
+and assigned regional program specialist. 
+2.4.2 Orientation and Mobility Specialist  
+The O&M specialist must meet one of the following criteria:
+
+[page 13]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 13 of 50 
+• Be certified by the Academy for Certification of Vision Rehabilitation and 
+Education Professionals (ACVREP) or the National Blindness Professional 
+Certification Board (NBPCB); 
+• Have a degree in O&M from an accredited college or university with an 
+established O&M training curriculum and become certified by ACVREP or 
+NBPCB within one (1) year of being hired by a service provider; 
+• Have at least two (2) years of full-time experience teaching O&M skills 
+for an entity that VR recognizes, such as a rehabilitation center, a 
+Veterans Administration hospital, or an educational system, and: 
+o provide three (3) professional references indicating the candidate's 
+ability to teach O&M skills to blind or visually impaired individuals; 
+and 
+o be certified by ACVREP or NBPCB within one year of being hired by 
+the service provider. 
+2.4.2.1 REQUIRED TEXAS CONFIDENCE BUILDERS TRAINING FOR O&M 
+SPECIALISTS 
+In addition to meeting the requirements for education, training, and 
+experience described in Section 2.4.2 Orientation and Mobility Specialist, 
+all prospective O&M providers must successfully complete the Orientation and 
+Mobility Texas Confidence Builders training before becoming providers. 
+Texas Confidence Builders training is a two- to three-day training program 
+offered in Austin. While the training is provided free of cost, providers must 
+pay all costs associated with attending the training program. Contact the state 
+office O&M program specialist to schedule the training. 
+2.4.3 Annual Staff Training  
+To ensure that O&M specialists remain competent in their skills, VR
+
+[page 14]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 14 of 50 
+recommends that each O&M trainer complete a minimum of twenty (20) hours 
+of blindfold travel per fiscal year, so that the O&M trainer: 
+• practices his or her own independent travel skills; 
+• provides effective role modeling; and 
+• promotes independent travel as a confidence-building tool for customers. 
+Examples of recommended activities for blindfold travel include: 
+• traveling around a city block; 
+• traveling on an L-shaped sidewalk route; 
+• traveling to the grocery store; and 
+• exploring a new neighborhood. 
+VR also recommends O&M specialists: 
+• create a report like the Sample Orientation and Mobility Provider's 
+Independent Travel Activity Report; and 
+• send a copy of their travel activity report to the assigned regional 
+program specialist for VR. 
+2.4.4 Orientation and Mobility Interns 
+O&M service providers are ultimately responsible for the monitoring, 
+supervision, and follow-up of the O&M intern during the internship. 
+O&M service providers using interns to work with VR customers must: 
+• have an O&M specialist with ACVREP or NBPCB certification observe each 
+intern for a minimum of twelve (12) lessons during the internship and 
+document the observations on VR2922, Orientation and Mobility Weekly 
+Internship Observation; 
+• submit VR2922 to the regional program support specialist each month
+
+[page 15]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 15 of 50 
+during the internship; and 
+• submit VR2923, Orientation and Mobility Internship Performance 
+Evaluation to the designated regional program specialist within thirty-five 
+(35) days of completion of the internship. 
+The O&M intern must: 
+• attend Texas Confidence Builders training in Austin or attend another 
+approved training with the VR in-house O&M designee before working 
+with blind and visually impaired customers; 
+• be supervised by an approved VR-certified O&M provider for the duration 
+of the internship; 
+• be observed by a VR-certified O&M provider for a minimum of twelve 
+(12) lessons during the internship; and 
+• sign and then forward reports to the supervising O&M provider that 
+maintains either the ACVREP or NBPCB for his or her approval. 
+Note: VR does not pay for any expenses incurred by the intern during the 
+internship. 
+2.4.5 Orientation and Mobility Service Assessment  
+The following sections describe the O&M Service assessment and expectations. 
+2.4.5.1 ORIENTATION AND MOBILITY ASSESSMENT SERVICE DESCRIPTION  
+The assessment includes an evaluation of the customer's O&M skills in multiple 
+situations in person and cannot be conducted remotely. 
+Assessments may be conducted using the customer's functional vision. 
+Functional vision refers to the way in which an individual uses whatever vision 
+he or she has in a given travel situation. Assessments provide an opportunity 
+for customers to recognize that their vision might not meet all their travel
+
+[page 16]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 16 of 50 
+needs. 
+Locations for assessments include a combination of: 
+1. the customer's home and immediate surrounding area; 
+2. public areas, such as a church, park, or college campus; 
+3. commercial areas, such as a bank, store, or mall; 
+4. transit systems, such as paratransit or taxis (if available); 
+5. local buses and similar public transportation (if available); 
+6. rural areas (if applicable); 
+7. residential areas (those with light vehicle and foot traffic and some stop 
+signs); 
+8. small business areas (those with heavier traffic and simple traffic 
+lights); 
+9. downtown areas (those with heavy vehicle and foot traffic and complex 
+traffic lights); 
+10. commercial transportation systems, such as buses, trains, and 
+airplanes (if applicable); and 
+11. travel using low-vision devices (if applicable). 
+For Independent Living Services for Older Individuals Who Are Blind (OIB) 
+customers, the OIB worker authorizes a maximum of three (3) hours for the 
+initial assessment to be completed. 
+The O&M specialist must include in the initial assessment observations of and 
+recommendations on white cane skills. The recommended number of hours 
+allowed for training must include the customer's travel needs, regardless of the 
+mobility tool (dog or white cane). Training with a guide dog must not exceed 
+more than four hours and must be preapproved in writing by the VR counselor
+
+[page 17]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 17 of 50 
+or OIB worker. 
+Recommendations for training must be: 
+• documented under the summary section of VR2894, Orientation and 
+Mobility Assessment; and 
+• submitted to the VR counselor or OIB worker. 
+Following the assessment, it is recommended that the O&M specialist reviews 
+the results with the customer and answers any questions that the customer 
+might have about the recommended training. 
+2.4.5.2 PROCESS AND PROCEDURE 
+The VR counselor or OIB worker completes the VR2897, Orientation and 
+Mobility Referral, leaving no blanks and putting NA (not applicable) as needed. 
+After completion of the form, the VR counselor or OIB worker sends it to the 
+provider that has been chosen by the customer. Included with the referral is 
+information that helps the O&M specialist assess and recommend training for 
+the customer. 
+The VR counselor or OIB worker is responsible for authorizing an O&M 
+assessment and approving services, including approving the documentation for 
+payment when invoiced. 
+Based on the results of the O&M assessment, the VR counselor or OIB worker 
+determines the training goal and hours to be funded by VR or OIB. No 
+assessments or training sessions are completed before a service authorization 
+is issued. 
+After submitting VR2894, Orientation and Mobility Assessment, the O&M 
+specialist must contact the customer's VR counselor or OIB worker to discuss 
+the initial assessment. This discussion must be documented and filed in the 
+O&M provider's customer file.
+
+[page 18]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 18 of 50 
+The discussion includes: 
+• the O&M specialist's recommendations for training (if any), including the: 
+o O&M skills needed; 
+o proposed completion date; and 
+o number of training hours authorized by the customer's VR 
+counselor or OIB worker; 
+• anticipated delays in services, if any; 
+• special considerations or extended direct training dates, if any; 
+• the customer's readiness to begin nonvisual O&M skills training; and 
+• the customer's understanding of O&M skills training and its potential 
+benefits. 
+2.4.5.3 OUTCOMES REQUIRED FOR PAYMENT  
+The O&M provider documents in descriptive terms the information required on 
+the VR2894, Orientation and Mobility Assessment, including: 
+• the O&M specialist's observations and comments; 
+• recommendations for O&M skills training; 
+• the number of training hours recommended for each area of training and 
+the total number of training hours recommended; 
+• the anticipated beginning and ending dates for the recommended 
+training; 
+• the customer's response to the training recommendations; 
+• the height of the white cane that is most appropriate for the customer 
+(using the measurement between the customer's chin and nose when
+
+[page 19]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 19 of 50 
+the customer is standing up); and 
+• a description of all travel aids that the customer uses or would benefit 
+from using. 
+2.4.6 Orientation and Mobility Training 
+The following sections describe how O&M is provided to the client after an 
+evaluation. 
+2.4.6.1 ORIENTATION AND MOBILITY TRAINING SERVICE DESCRIPTION  
+O&M training prepares an individual who is blind or visually impaired to travel 
+independently with competence and confidence. 
+Based on the results of the evaluation, the VR counselor or OIB worker 
+determines the training goal and hours to be funded by VR or OIB. No training 
+is provided before a service authorization is issued. Training is provided in 
+person and cannot be conducted remotely. 
+All O&M training services for VR customers are conducted using: 
+• nonvisual (blindfold) techniques; and 
+• a rigid (non-folding) white cane with a metal tip. 
+All O&M training services for OIB customers are conducted using: 
+• either nonvisual (blindfold) or visual training, whichever better addresses 
+the customer's needs and circumstances; and 
+• a rigid (non-folding) white cane with a metal tip, unless an alternate 
+cane is needed. 
+The O&M specialist must discuss the benefits of nonvisual and visual training 
+with each customer. Role modeling and peer support for nonvisual training are 
+encouraged.
+
+[page 20]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 20 of 50 
+The O&M specialist may not conduct more than six (6) hours or fewer than two 
+(2) hours of O&M instruction per day. The O&M specialist cannot conduct more 
+than six (6) hours of training in a day, even if multiple customers are served 
+during that day. Billing for O&M services must not exceed six (6) hours per 
+day. Lessons are at least two (2) hours long unless approved by an obtained 
+VR3472, Contracted Service Modification Request for Blind and Visually 
+Impaired Services. 
+For Independent Living Services for Older Individuals Who Are Blind (ILS-OIB) 
+customers, the length of the training lesson will be determined by the 
+customer’s health, stamina, and ability to participate. 
+2.4.6.2 PROCESS AND PROCEDURE 
+The following details the specific processes and procedures involved in O&M 
+Training services. 
+2.4.6.2.1 GENERAL 
+The VR counselor or OIB worker is responsible for authorizing O&M training for 
+the customer and approving services, including approving the documentation 
+for payment when invoiced. 
+The provider must not bill for any services other than Orientation and Mobility 
+training, or Orientation and Mobility group training. 
+Based on the results of the assessment, the VR counselor or OIB worker 
+determines the training goals and hours to be funded by VR or OIB. No 
+training is provided before a service authorization is issued. 
+O&M training must not exceed the total number of training hours and type of 
+training authorized by the customer's VR counselor or OIB worker on the 
+service authorization. 
+Consistent and frequent scheduling is recommended to maximize learning.
+
+[page 21]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 21 of 50 
+One two-hour lesson a week is the minimum training allowable. Daily O&M 
+training is considered best practice. 
+Note: For OIB customers, if less than two (2) hours of training were provided 
+in one (1) session, the trainer must document on the VR2896 in the Brief 
+Description of how the training lesson affected the customer’s health, stamina, 
+and ability to participate. 
+Time spent transporting customers does not count toward training time. O&M 
+specialists are not reimbursed for time spent in the car, even when a customer 
+is present. 
+The O&M specialist must notify the customer's VR counselor or OIB worker 
+within 24 hours about all: 
+• missed, cancelled, or rescheduled appointments; 
+• issues, concerns, or circumstances that might impact or delay planned 
+services; and 
+• incidents or injuries that occur during training that might negatively 
+impact the customer's health and safety. 
+If services are interrupted and training cannot be completed as planned, or if 
+services are postponed indefinitely because of unexpected circumstances, the 
+O&M provider must notify the customer's VR counselor or OIB worker within 
+twenty-four (24) hours. 
+The O&M specialist must submit required forms and complete the required 
+training under the specifications of the referral and the service authorization. 
+2.4.6.2.2 GROUP TRAINING 
+VR and OIB encourages O&M specialists to coordinate group training sessions 
+(that is, sessions of up to three (3) customers) when it will benefit the 
+instruction process and better meet the needs of the customers.
+
+[page 22]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 22 of 50 
+The O&M specialist must get approval in writing from each customer's VR 
+counselor or OIB worker before providing group training. 
+An O&M specialist: 
+• must not enroll more than twenty-five (25) customers who are blind and 
+visually impaired in active training; and 
+• must keep all relevant counselors, OIB workers, and assigned regional 
+program specialist informed by email about the total number of 
+customers in active training. 
+Active training—Any customer who is receiving an O&M assessment or is 
+enrolled in O&M training is in active training. 
+2.4.6.2.3 TRAVEL AIDS 
+The VR counselor or OIB worker purchases one rigid, long white cane with a 
+metal tip and sleep shade (blindfold) for each customer who is approved to 
+receive an O&M training. 
+The O&M specialist gives each customer information about how to purchase a 
+white cane. Customers are responsible for replacing white canes and cane tips, 
+buying backup white canes, and making similar purchases. 
+VR or OIB does not reimburse the O&M service provider for any items provided 
+to a customer by the specialist. 
+The O&M specialist may recommend additional travel aids or other items to the 
+customer's VR counselor or OIB worker, but the decision to purchase additional 
+items rests solely with the VR counselor or OIB worker. 
+If a customer uses a guide dog, the customer is assessed by the O&M 
+specialist to determine whether the customer also has proficient white cane 
+skills. Once assessed, the customer may attend O&M training with either a 
+white cane or a guide dog.
+
+[page 23]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 23 of 50 
+If customers need further assessment of and direct training for a guide dog, 
+they must contact the school from which they obtained the dog. 
+2.4.6.3 OUTCOMES REQUIRED FOR PAYMENT 
+The O&M specialist documents in descriptive terms each customer's monthly 
+training progress and must include: 
+• the number of training hours provided in each training area; 
+• a detailed narrative on each skill area addressed during the reporting 
+period and the training location for each lesson; 
+• a detailed explanation of anticipated training for the upcoming month; 
+• an explanation of deviations from assessment recommendations, if any; 
+and 
+• a detailed narrative of cumulative progress, if training is complete. 
+2.4.7 Orientation and Mobility Service Fee  
+The following section outlines the approved service fees for O&M services. 
+O&M Services Unit Rate Comment 
+O&M 
+Assessment 
+$75.00 per hour 
+Limited to three (3) hours per 
+customer 
+O&M Training–
+Individualized 
+$75.00 per hour 
+• Training sessions must last at 
+least two (2) hours 
+• No more than six (6) hours of 
+training allowed per day 
+Note: For OIB customers, the length
+
+[page 24]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 24 of 50 
+O&M Services Unit Rate Comment 
+of the training lesson will be 
+determined by the customer’s health, 
+stamina, and ability to participate. 
+O&M Training–
+Group 
+• $75.00 per 
+hour for the 
+first customer 
+• $37.50 per 
+hour for each 
+additional 
+customer 
+• Limit of three (3) customers 
+per group 
+• Training sessions must last at 
+least two (2) hours 
+• No more than six (6) hours of 
+training allowed per day 
+2.5 SERVICE AREA 
+This is a statewide open enrollment solicitation procured through an Open 
+Enrollment. All Texas counties are included in this solicitation. If awarded a 
+contract for these services, the Provider(s) may serve VR Customers 
+throughout the state of Texas upon receipt of an approved service 
+authorization issued on behalf of a VR Customer. 
+2.6 BACKGROUND CHECKS 
+VR-SFP Manual Chapter 3: Basic Standards require each Provider to run 
+background checks on each Provider staff member who will interact with any 
+VR Customer. This includes any Provider staff who have any communication or 
+other contact whether in person, on paper, by voice, by sign language, 
+electronically or any other method. The only exception is for Provider staff who 
+never communicate with or are physically present with a VR Customer. 
+Background checks must be completed by the Provider before the Provider
+
+[page 25]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 25 of 50 
+staff interacts with any VR Customer. 
+Applicants and Providers are responsible for obtaining a background check for 
+all applicable Provider staff. A background check consists of running a name-
+based search from the Texas Department of Public Safety and checking the 
+National Public Sex Offender public website. 
+For more information on required background checks refer to the following 
+resources: 
+• VR-SFP Chapter 3, Section 3.2.18 Background Checks 
+o Convictions Barring Contractor Staff from Performing Services for 
+TWC 
+o Contracted Service Exempt from Background Checks 
+o Exception to Background Check Instructions 
+o Background Check FAQ 
+• Form VR1307 Background Checks Attestation and Release Form found at 
+https://www.twc.texas.gov/programs/vocational-rehabilitation/forms  
+• Webinar: Background and National Public Sex Offender Requirements 
+2.7 TRANSPORTATION OF VR CUSTOMERS  
+Transportation of VR Customers by a Provider (or Provider’s staff) is not 
+required. However, if a Provider (or Provider’s staff or Provider’s 
+subcontractors) do transport a VR Customer in the Provider’s vehicle or 
+Provider’s staff personal vehicle, they must meet the minimum liability 
+requirements of the Texas Department of Insurance. The Provider must 
+maintain current proof of insurance for any Provider staff who transports VR 
+Customers. When Provider staff transports VR Customers in personal vehicles, 
+the Provider staff must submit to VR proof of auto liability insurance as 
+required by the Texas Department of Insurance with Form VR3455.
+
+[page 26]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 26 of 50 
+Verification statements on Form VR3455 must be signed by the Provider staff 
+represented on the form and the Provider’s Director appointed by the legal 
+authorized representative. 
+2.8 PROVIDER’S DIRECTOR  
+Each Provider/Entity must have a Director who meets the qualification as 
+stated in the VR-SFP Manual, Chapter 3 Basic Standards. The 
+Provider’s/Entity’s legally authorized representative must appoint Director(s) 
+using Form VR3441A. The Provider’s/Entity’s Director must also have a VR 
+3455 included in the Application. Anytime the VR3455 is completed and/or 
+updated the Provider must keep a copy on file and submit it to VR. For 
+additional information refer to VR-SFP Manual Chapter 3. 
+2.9 PROVIDER STAFF PROVIDING SERVICES TO VR CUSTOMERS 
+For any service selected by the Applicant on VR3441B, the Applicant must 
+have at least one (1) person who meets the qualifications to provide the 
+service(s) as described in Section 2.4 Requirements. 
+Each Provider staff must have VR3455 with the supporting documentation 
+(resumes, transcripts, proof of insurance, and credentials) included in the 
+Application. 
+After contract award, a VR3455 with supporting documentation must be 
+submitted for each person who will be providing services under the Contract. 
+Each Provider must submit Form VR3455 and the supporting evidence that the 
+staff member meets the required qualifications within 30 days of: 
+• hiring new staff member; 
+• making a significant change to a staff member's job duties such as 
+fundamentally altering the nature of the job, requiring new skills, 
+responsibilities, or a substantial time commitment;
+
+[page 27]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 27 of 50 
+• changing staff qualifications and/or credentials; or 
+• terminating a staff member. 
+For additional information refer to the VR-SFP Manual. 
+ARTICLE III GENERAL INFORMATION 
+3.1 AUTHORITY 
+TWC is soliciting the services stated in this Solicitation under the statutory 
+authority of Texas Labor Code §352.060. 
+All official communication (including, but not limited to, Schedule of Event 
+changes, and Addenda will be posted to the Electronic State Business Daily 
+(ESBD). TWC has no responsibility to communicate personally with each 
+potential Applicant for this OE. Each interested party is solely responsible for 
+checking the ESBD for official TWC communication regarding this OE. 
+3.2 SCHEDULE OF EVENTS 
+The dates in this Schedule of Events are tentative, and TWC reserves the 
+right to modify these dates at any time. At the sole discretion of TWC, 
+events listed in the Schedule of Events are subject to changes and 
+cancellation. Scheduling changes or cancellation made prior to the Deadline 
+for Submission of Applications will be published as an Addendum posted to 
+the Electronic State Business Daily (ESBD) and the TWC Procurement Portal. 
+Applicant is required to sign and return all Addenda related to the Open 
+Enrollment.
+
+[page 28]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 28 of 50 
+Table 2: Schedule of Events 
+EVENT DATE and TIME 
+Open Enrollment Period Start Date: May 28, 2026 
+End Date: November 24, 2026, by 10 a.m. CST 
+NOTE: This solicitation may be closed sooner than 
+the published end date if TWC receives sufficient 
+applications to cover all required needs. 
+Applicant must submit their Application to TWC within the open enrollment 
+period in accordance with Schedule of Events shown above, or as changed via 
+a notification of an Addendum posted to the ESBD. 
+NOTE: TWC reserves the right to close this solicitation at any time prior to the 
+published deadline. If TWC determines that a sufficient number of applications 
+or awarded contracts exist, this solicitation will be closed. 
+3.3 CONTRACT DOCUMENTS 
+The Contract(s) resulting from this solicitation may consist of the provisions in 
+this Open Enrollment (including its attachments, forms, exhibits, and any 
+Addenda); the Provider’s Application, any TWC Request for Revised 
+Application, the Provider’s Response to the Request for Revised Application, 
+and TWC’s Service Authorization (SA). No prior agreement or understanding, 
+oral or otherwise, of the parties or their agents will be valid or enforceable 
+unless embodied in these documents. In the event of a conflict between the 
+provisions of these documents, the documents are given the following order of 
+priority: (1) TWC SA; (2) most recent Request for Revised Application (if any); 
+(3) Provider’s Response to the Request for Revised Application; (4) Invitation 
+for Application (OE); and (5) Provider’s Application. 
+TWC may elect to have the Contract(s) resulting from this Open Enrollment 
+consist of a single document. This document will contain all rights and duties of
+
+[page 29]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 29 of 50 
+the parties extracted from the relevant terms and conditions of the Open 
+Enrollment (including its attachments, forms, exhibits, and any Addenda), the 
+Provider’s Response, the Request for Revised Response, if any, and Provider’s 
+Response to the Request for Revised Response, if any. Prior to award, TWC will 
+prepare the Contract for review by the Provider. 
+Discussions may be had concerning possible revisions to the draft Contract to 
+clarify points, further define Contract text, or to correct minor technicalities. 
+These discussions are to be finalized and all requests for revisions resolved 
+within ten (10) Business Days after the Provider receives the draft Contract for 
+review or such additional time that may be agreed to by TWC. If discussions 
+are not finalized within such time frame, the Application/Enrollment Packet 
+may be rejected. 
+3.4 ATTACHMENTS AND FORMS 
+To ensure efficient and timely processing, please adhere to the following 
+guidelines for form submission: 
+1. Documentation Placement: All supporting documentation must be 
+collated directly behind its corresponding form. 
+2. Duplicate Forms: Duplicate forms must not be submitted. 
+3. Specific Example: For instance, if multiple Form 3455s are submitted, 
+the supporting documentation pertinent to each staff member must be 
+appended directly to their specific Form 3455. 
+Please be advised that improperly organized applications may be rejected or 
+experience significant processing delays.
+
+[page 30]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 30 of 50 
+Table 3: Attachments and Form 
+ 
+Attachment/Form Title 
+Attachment 01 VR OE T&Cs (12/18/25) 
+Attachment 02 OE Application Submission Checklist 
+Attachment 03 VR 2894, Orientation and Mobility Assessment 
+Attachment 04 VR 2896, Orientation and Mobility Training 
+Attachment 05 VR 2897, Orientation and Mobility Referral 
+Attachment 06 VR 2922, Orientation and Mobility Weekly 
+Internship Observation 
+Attachment 07 VR 2923, Orientation and Mobility Internship 
+Performance Evaluation 
+Attachment 08  VR3472, Contracted Service Modification Request 
+Form 01 Execution of Application 
+Name convention for submission: APPLICANT 
+Name_Execution of Application 
+Form 02 W-9 and Direct Deposit Form (VR 1020) 
+• Complete the Form VR1020, TWC 
+Substitute W-9 and Direct Deposit. 
+• Refer to the VR1020 instructions and to 
+TWC Substitute W-9 and Direct Deposit 
+Form video for guidance. 
+• If the TWC1020 shows a “Business Name” 
+(DBA) designation in Box 2, include a copy 
+of County DBA registry letter. 
+• If the TWC1020 uses an “EIN” in box 6, 
+include a copy of IRS letter assigning 
+Employer Identification Number. 
+Name convention for submission: APPLICANT 
+Name_W-9
+
+[page 31]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 31 of 50 
+Form 03 Child Support Certification (VR 1305) 
+• Complete Form VR1305, Child Support 
+Certification.   
+• Refer to the VR1305 instructions for 
+additional guidance. 
+• Provide the name and social security 
+number (SSN) of the individual or sole 
+proprietor, or if not a sole proprietorship, of 
+each partner, shareholder, or owner with an 
+ownership interest of at least 25 percent of 
+the business entity.  
+• If no one person owns 25 percent or more 
+of the business, state “Not Applicable 
+(N/A)” in the Name/SSN field and complete 
+the remaining sections. 
+• Form VR1305 must be signed by the 
+entity’s legal authorized representative. 
+Name convention for submission: 
+APPLICANTName_VR1305 
+Form 04 TWC VR Standards for Provider Certification (VR 
+3443) 
+• Complete Form VR3443, TWC VR Standards 
+for Provider Certification.  
+• Form VR3443 must be signed by the 
+entity’s legally authorized representative. 
+Name convention for submission: APPLICANT 
+Name_VR3443 
+Form 05 Conflict of Interest Certification (VR 3444) 
+• Complete the Form VR3444, Conflict of 
+Interest Certification. 
+• Form VR3444 must be signed by the 
+entity’s legally authorized representative. 
+Name convention for submission: Applicant’s 
+Name_VR3444
+
+[page 32]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 32 of 50 
+Form 06  Provider Insurance Verification (VR 3445) 
+• Applicants with or without insurance must 
+complete the form VR3445, Provider 
+Insurance Verification. 
+• When the Applicant has insurance, a current 
+and accurate certificate of insurance from the 
+Association for Cooperative Operations 
+Research and Development (ACORD) or its 
+equivalent must be attached to Form 
+VR3445.  
+Name convention for submission: APPLICANT 
+Name_VR3445 
+Form 07  Entity Headquarters Information Management 
+Form (VR 3441A) 
+• Complete the Form VR3441A Entity 
+Headquarters Information Management 
+Team to record the Applicant’s 
+management team information. 
+Name convention for submission: Applicant’s Legal 
+Name_VR3441A 
+Form 08 Entity Headquarters Information - Services (VR 
+3441B) 
+• Complete Form VR3441B, Entity 
+Headquarters 
+• Information- Part B -Services   form to 
+describe the Applicant’s staff experience and 
+to indicate what services the Applicant is 
+applying for to gain a contract.  
+• To be eligible to apply for a service the 
+Applicant must have at least one (1) person 
+who meets the qualifications to provide the 
+service at application 
+• Name convention for submission: 
+APPLICANT Name_VR3441B 
+ 
+Form 09  Entity Headquarters Information – Location(s)
+
+[page 33]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 33 of 50 
+(VR 3441C) 
+• Complete Form VR3441C, Entity Headquarters 
+Information - Location(s) form. 
+• Form VR3441C must be completed by all 
+Applicants to record the counties where the 
+Applicant is able to provide services with 
+the staff currently hired. Counties can be 
+added and removed without amending the 
+contract as staff availability changes by 
+completing and submitting a new Form VR3441C 
+to the assigned regional quality assurance 
+specialist. 
+Name convention for submission: APPLICANT 
+Name_VR3441C 
+Form 10 Entity’s Physical Location(s) – Part A – Service 
+Contracts Certification (VR 3442A) 
+• Complete the Form VR3442 A, Entity’s 
+Physical Location(s) - Part A - Service 
+Contracts Certification Statement. 
+• Form VR3442A must be completed by the  
+Applicant to indicate if the Applicant has a 
+physical location. The VR3442A form must 
+be submitted even if the Provider does not 
+have a physical location. 
+Name convention for submission: APPLICANT 
+Name_VR3442A 
+Form 11 Entity’s Physical Location(s) – Part B – General 
+Information Service Contracts (VR3442B) 
+• Complete Form VR3442 B - Entity’s Physical 
+Location(s)-Part B- General Information 
+Service Contracts when applicable. 
+• Form VR3442B must be completed for each 
+physical location the entity has. If the entity 
+does not have any physical locations, the 
+Form VR3442B is not required.  
+Name convention for submission: APPLICANT 
+Name_VR3442B
+
+[page 34]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 34 of 50 
+3.5 SOLE POINT OF CONTACT 
+All requests, questions, or other communication about this Open Enrollment 
+must be submitted through the TWC Procurement Portal and will be directed at 
+the Sole Point of Contact below: 
+Meghan Osborn, CTCD 
+TWC Procurement Portal 
+3.5.1 Prohibited Communication 
+Except as provided in Section 3.5, a potential Applicant and Applicant that has 
+submitted an Application is prohibited from any communication with TWC 
+regarding the Open Enrollment. Unless allowable, TWC, its representative(s), 
+Form 12 Provider Staff Information Form(s) with 
+Supporting Documentation (VR 3455) 
+• Complete a Form VR3455, Provider Staff 
+Information and attach required supporting 
+documentation (resumes, transcripts, proof 
+of insurance, and credentials) to 
+demonstrate the staff person, including the 
+Director, meets the required qualifications 
+as stated in the VR-SFP Manual.  
+• When a staff person will be transporting VR 
+customers in personal vehicles, the staff 
+person must submit proof of auto liability 
+insurance as required by the Texas 
+Department of Insurance with Form VR3455. 
+• Verification statements on Form VR3455 
+must be signed by the staff person 
+represented on the form and the Director 
+appointed by the legal authorized 
+representative.  
+Name convention for submission: APPLICANT 
+Name_ Staff Legal Last Name_VR3455
+
+[page 35]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 35 of 50 
+and partners will not answer any questions or otherwise discuss the contents 
+of this Open Enrollment with any potential Applicant or its representative(s). 
+Attempts to ask questions by phone or in person will not be allowed or 
+recognized as valid. Applicants shall rely only on written statements issued by 
+or through TWC designated staff as provided by the Sole Point of Contact in 
+Section 3.5. 
+Failure to comply with these restrictions may result in disqualification 
+of Applicant's Application. These restrictions do not preclude discussions 
+between affected parties for the purpose of conducting business unrelated to 
+this Open Enrollment. 
+3.6 ADDENDA 
+Should an addition or correction become necessary after the Open Enrollment 
+is issued, an Addendum relating the necessary information will be posted to 
+the ESBD. Applicants are responsible for periodically checking the ESBD for 
+addenda or additional information. Applicants are required to 
+acknowledge the Addenda by returning the signed Acknowledgment of 
+Addenda with the Application/Enrollment Packet. Failure to do so does 
+not absolve an Applicant from the requirements contained within any 
+Addenda. 
+ARTICLE IV APPLICATION PROCESS 
+4.1 DEADLINE 
+Applications must be received by TWC as prescribed no later than date and 
+time specified in Section 3.2 Schedule of Events. 
+4.2 GENERAL INFORMATION 
+Applicants must fully and completely address all requirements described in
+
+[page 36]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 36 of 50 
+this Open Enrollment. Incomplete or partial Applications will not be 
+considered. Applicants must provide all information that is required in 
+accordance with Section 4.5. Applicants shall prepare an Application that 
+clearly and concisely represents its qualifications. 
+4.3 DISCREPANCIES 
+In the event of any discrepancies or variations between copies, TWC is under 
+no obligation to resolve the inconsistencies and may make its selection 
+decision, accordingly, including the decision to potentially disqualify an 
+Application. If Applicant fails to designate an “Original” Application as required 
+by Section 4.4. TWC in its sole discretion, will determine the version to be 
+used as the original or may disqualify the Application. If the Applicant submits 
+a redacted Application as the “Original,” TWC will disqualify the Application, 
+and it will not be reviewed. 
+4.4 SUBMISSION METHOD 
+TWC has implemented the eProcurement platform referred to as the TWC 
+Procurement Portal. Applicants must upload all documentation indicated to the 
+TWC Procurement Portal link on the “Open Opportunities” tab. 
+Submissions by any other method will not be accepted. 
+To respond to this Open Enrollment, Applicants must register through the TWC 
+Procurement Portal website. There is no charge to register. 
+Step-by-step instructions are available at: Vendor Registration – 
+Procurement. 
+For step-by-step instructions about the submission process, visit: 
+Creating and Uploading a Submission – Procurement 
+Any issues with uploading must first be addressed with the TWC Procurement 
+Portal Technical Support at the contact information included in the
+
+[page 37]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 37 of 50 
+Procurement Information Summary and TWC Procurement Portal Instructions 
+to Applicants document.  
+Applicants must contact the Sole Point of Contact prior to the deadline if there 
+are issues with using the TWC Procurement Portal and an alternative 
+submission method may be required. Failure to contact the Sole Point of 
+Contact well before the deadline to make alternative arrangements will 
+disqualify any subsequent Application submission. 
+In no event will TWC be responsible or liable for any delay or error in delivery. 
+TWC is not responsible for electronic submissions that are captured, blocked, 
+filtered, quarantined or otherwise prevented from reaching the proper 
+destination server by any TWC anti-virus or other security software.  
+It is the Applicant’s responsibility to appropriately mark and upload the 
+Application to the TWC Procurement Portal by the specified date. Each 
+Applicant is solely responsible for ensuring its Application is submitted in 
+accordance with all Application requirements and ensuring timely receipt by 
+TWC. 
+Hard copies received will not be accepted or reviewed. 
+Application must be RECEIVED by TWC by the Application Deadline 
+identified in Section 3.2 Schedule of Events. 
+4.5 REQUIRED APPLICATION DOCUMENTS 
+The Completed Enrollment Packets may be submitted at any time during the 
+enrollment period. All forms listed below must be completed in their entirety 
+and uploaded to your Application as a separate document in Portable 
+Document Format (PDF). Do not submit encrypted or password 
+protected materials or TWC may eliminate such Applications from 
+consideration for contract award. The Application will be rejected if the 
+Applicant does not submit each form as a separate document with required
+
+[page 38]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 38 of 50 
+signatures and date, as applicable. All content added to forms must be typed 
+and cannot be handwritten. Signatures can be either handwritten or 
+electronic and not editable. A valid electronic signature must include a date 
+and time stamp or be accompanied by a certificate (technical log or report) 
+that documents the signing event with the signer's information, date, and 
+time. 
+For qualified Applicants that submit complete applications, Contracts will be 
+developed as they are approved. The volume of applications may vary during 
+the enrollment period, and Contracts may take three (3) months or more to 
+be finalized, depending upon volume and workload. 
+4.5.1 Modifications and Withdrawals 
+Prior to the Application submission deadline in Section 3.2 Schedule of 
+Events, Applicant may: (1) withdraw its Application by deleting the Application 
+in the TWC Procurement Portal; or (2) modify its Application via the TWC 
+Procurement Portal. When amending its Application, Applicant must follow the 
+instructions provided by the TWC Procurement Portal, revising the section(s) 
+intended, submit and finalize. 
+Note: TWC will reject the Enrollment Packet if its documents are not submitted 
+in the PDF format and name convention as described in this notice and/or if 
+the forms are submitted as encrypted or password protected. 
+4.6 BINDING OFFER 
+Applications shall be binding for a period of one hundred eighty (180) days 
+after the Application due date. An Applicant may extend the time for which 
+its Application will be honored.
+
+[page 39]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 39 of 50 
+4.7 FRANCHISE TAX – RIGHT TO TRANSACT BUSINESS IN TEXAS 
+If applicable, the Texas franchise tax is imposed on each taxable entity 
+formed or organized in Texas or doing business in Texas. 
+Applicant must be set up in the Texas franchise tax system prior to Contract 
+award if applicable. Texas franchise tax information can be accessed at 
+https://comptroller.texas.gov/taxes/franchise/. 
+4.8 AMBIGUITY, CONFLICT, OR DISCREPANCY 
+Applicants must notify the Sole Point of Contact listed in Section 3.5 of any 
+ambiguity, conflict, discrepancy, exclusionary specification, omission, or other 
+error in the Open Enrollment. 
+If Applicant fails to properly and timely notify the Sole Point of Contact listed 
+in Section 3.5, of any ambiguity, conflict, discrepancy, exclusionary 
+specification, omission or other error in the Open Enrollment, whether 
+awarded a Contract or not, the Applicant: 
+a. Waives any claim of error or ambiguity in the Open Enrollment and any 
+resulting Contract; 
+b. Submits an Application at its own risk; 
+c. May not contest the interpretation by TWC of such provision(s); and 
+d. Is not entitled to additional compensation, relief, or time by reason of 
+ambiguity, conflict, discrepancy, exclusionary specification, omission, or 
+other error or its later correction. 
+4.9 TWC RIGHTS 
+All materials submitted by an Applicant will become the property of TWC.  TWC 
+reserves the right to use any and all ideas presented in any Application to this 
+Open Enrollment. Selection or rejection of any Application does not affect this
+
+[page 40]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 40 of 50 
+right. 
+The rights of TWC include, but are not limited to: 
+a. Cancellation of this Open Enrollment at TWC’s sole discretion; 
+b. Suspension of the procurement process and issuance of Open 
+Enrollment Addenda; 
+c. Rejection, in whole or in part, of any and all Applications received for 
+this Open Enrollment; 
+d. Waiver of administrative deficiencies or minor technicalities in any of 
+the Applications; 
+e. Utilization of any and all ideas presented in the Applications; 
+f. Directing any Applicant to submit Application modifications addressing 
+subsequent Addenda; 
+g. Elimination of any requirements that are not met by all Applicants 
+upon notice to all parties submitting an Application; 
+h. Making typographical corrections to Applications, with the concurrence 
+of the Applicant; 
+i. Changing computational errors with the concurrence of the Applicant; 
+j. Requesting Applicants to clarify the Applications; 
+k. Requesting Applicants to submit additional information pertaining to 
+the Application; and 
+l. Awarding a Contract without: 
+1. Requesting clarification; 
+2. Allowing modification; 
+3. Discussing; 
+4. Negotiating; and/or 
+5. Requesting a revised Application/Enrollment Packet.
+
+[page 41]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 41 of 50 
+ARTICLE V APPLICATION EVALUATION 
+5.1 APPLICATION SCREENING 
+a. TWC will review Applications for initial compliance with the Submission 
+requirements in Article IV.  
+b. TWC will automatically disqualify any Application that does not include one 
+of more of the completed and signed (as applicable) documents. 
+c. Applications received after the deadline specified in Section 3.2 
+Schedule of Events will be rejected and will not be evaluated or 
+considered for acceptance. TWC is not responsible for Open Enrollment 
+applications that are submitted or received late, illegible, incomplete, or 
+otherwise disqualified due to failure of electronic equipment or operator 
+error. 
+d. In accordance with Texas Government Code § 2262.055(d), TWC will 
+consider Applicant performance as recorded in the CPA Texas Vendor 
+Performance Tracking System (VPTS), described in Texas Administrative 
+Code, 34 TAC § 20.115. 
+e. TWC reserves the right to ask questions or request clarification from any 
+Applicant at any time during the screening process. 
+5.2 REVIEW OF APPLICATIONS 
+a. TWC will determine whether the Applicant meets all requirements 
+of this Open Enrollment. To be considered responsive, the 
+Applicant must complete and submit all required forms in 
+accordance with Section 3.4 Attachments and Forms. 
+b. Disqualification of an application can occur when an Applicant fails to: 
+1. submit an application in accordance with the requirements of the
+
+[page 42]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 42 of 50 
+solicitation; or 
+2. submit requested corrections or additional documentation within 
+fourteen (14) days unless another timeframe is specified by TWC. 
+3. Disqualifications for conflicts of interest may occur if: 
+o The applicant is employed full-time with another employer; 
+o The applicant is employed by a school district as either full- 
+or part-time and is in a position to refer customers to the 
+applicant. 
+TWC reserves the right to ask questions to determine if a conflict 
+of interest may arise. 
+5.3 PUBLIC INFORMATION ACT 
+Information, documentation, and other materials submitted in connection 
+with this Solicitation or resulting Contract may be subject to public 
+disclosure pursuant to the Texas Public Information Act, Texas Government 
+Code, Chapter 552. See Attachment 1 Vendor OE T&Cs (12/18/25). 
+TWC may, in its sole discretion (1), disqualify all Applicants that fail to 
+fully comply with the requirements set forth in this section, or (2) 
+offer all Applicants that fail to fully comply with the requirements set 
+forth in this section additional time to comply. Submitting partial or 
+incomplete information that suggests inclusion of confidential 
+information constitutes failure to comply with the requirements set 
+forth in this section. 
+5.3.1 Applicant Response 
+If Applicant asserts that information provided in its Application is exempt 
+from disclosure under the Texas Public Information Act, Applicant must mark 
+and submit two separate, searchable Portable Document Format (PDF)
+
+[page 43]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 43 of 50 
+copies (Original Application and “Public Information Act Copy,” including 
+attachments, of the Original Application) as identified below. This copy is in 
+addition to the original and all copies otherwise required under the 
+provisions of this Solicitation. 
+a. Mark Original Proposal:  
+1. Mark the top of the front page with the words “CONTAINS 
+CONFIDENTIAL INFORMATION” in large, bold, capitalized letters (the 
+size of, or equivalent to, 12-point Verdana font or larger); 
+2. Mark the bottom of each page that contains information that Applicant 
+claims are exempt from public disclosure with the words “CONTAINS 
+CONFIDENTIAL INFORMATION”; 
+3. Identify, adjacent to each portion of the Response that Applicant 
+claims are exempt from public disclosure, the claimed exemption from 
+disclosure. Vague and general claims to confidentiality will not be 
+acceptable. 
+NOTE: No redactions are to be made in the Original Response. 
+b. Mark Public Information Act Copy of Response: 
+1. Mark the copy at the top of the front page with “Public Information 
+Act Copy” in large, bold, capitalized letters (the size of, or equivalent 
+to, 12-point Verdana font or larger); 
+2. Each portion Applicant claims are exempt from public disclosure must 
+be redacted (blacked out); and  
+3. Identify, adjacent to each redaction, the claimed exemption from 
+disclosure. Each identification provided as required by this subsection 
+(b) must be identical to the redactions identified in subsection (a)(3), 
+above. The only difference in required markings and information 
+between the Original Application and the “Public Information Act
+
+[page 44]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 44 of 50 
+Copy” of the Application will be redactions, which can only be made in 
+the “Public Information Act Copy.” There must be no redactions in the 
+Original Application. 
+Applicant should not submit a Public Information Act Copy indicating that the 
+entire Application is exempt from disclosure. Merely making a blanket claim 
+that the entire Application is protected from disclosure because it contains any 
+amount of confidential, proprietary, trade secret, or privileged information is 
+not acceptable, and this blanket claim will not be considered by TWC. 
+An Application should not be marked or asserted as copyrighted material. If 
+Applicant asserts a copyright to any portion of its Application, Applicant agrees 
+to reproduction and posting on public websites by the State of Texas, including 
+all other state agencies, without cost or liability and, additionally, agrees to 
+allow the State of Texas to provide a copy of the Application to individuals 
+making a Public Information Act request for the Application. 
+5.3.2 Contract 
+Within five (5) Business Days from Contract execution, if the Provider is 
+asserting that certain information in the application is exempt from public 
+disclosure, the Provider must submit a “Public Information Act Copy” of the 
+Original Executed Contract (in addition to the Original Executed Contract) to 
+the TWC Contract Manager by email. The Public Information Act Copy must 
+meet the following requirements:  
+a. The copy must be clearly marked as “Public Information Act Copy” on 
+the front page in large, bold, capitalized letters (the size of, or 
+equivalent to, 12-point Verdana font or larger). 
+b. Each portion Provider claims is exempt from public disclosure must be 
+redacted (blacked out); and 
+c. Provider must identify, adjacent to each redaction, the claimed
+
+[page 45]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 45 of 50 
+exemption from disclosure. Each identification provided as required in 
+Subsection b of this section must be identical to those set forth in the 
+Original Application. The only difference in required markings and 
+information between the Original Contract and the “Public Information 
+Act Copy” of the contract will be redactions, which can only be 
+included in the “Public Information Act Copy.” There must be no 
+redactions in the Original Executed Contract. 
+ARTICLE VI TERMS AND CONDITIONS 
+The Terms and Conditions identified in the Solicitation and Attachment 1 
+Vendor OE T&Cs (12/18/25) are applicable to this Solicitation and any 
+Contract resulting from this Solicitation. TWC reserves the right to 
+incorporate additional provisions in the Contract in the best interest of TWC. 
+In the event of a conflict between this Solicitation and applicable laws and 
+regulations, precedence shall be given to the laws and regulations. 
+6.1 CONTRACT AWARD 
+TWC intends to award Contract(s) to qualified Applicants throughout the 
+enrollment period and may award multiple Contracts within individual 
+counties or groups of counties. 
+Entities, Applicants, and/or individuals that are debarred or excluded by the 
+federal government are excluded from receiving federal contracts or certain 
+subcontracts, and certain types of financial and nonfinancial assistance and 
+benefits. Entities, Applicants and/or individuals that are debarred or 
+excluded by the State of Texas are excluded from doing business with the 
+state. 
+TWC may consider past performance, or any other factor it deems to be in 
+the best interest of TWC or the State of Texas, when determining whether to
+
+[page 46]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 46 of 50 
+award a contract to an Applicant. 
+Participation in a post-award orientation will be required before any services 
+related to the awarded Contract can be performed. 
+6.2 CONTRACT TERM 
+The Contract Term will commence on the fully executed Contract date 
+and expire five (5) years from date of contract execution. TWC 
+reserves the right to cancel for convenience in the event that the 
+Contract has had no expenditures in a twelve-month period during the 
+Contract Term. 
+The Contract is contingent upon the continued availability of funding. If funds 
+become unavailable through lack of appropriations, legislative budget cuts, 
+amendment of the General Appropriations Act, TWC consolidation of offices, or 
+any other disruption of current appropriations, Termination provisions of 
+Attachment 1 VR OE T&Cs (12/18/25) shall apply. 
+6.3 PAYMENTS 
+Provider(s) must comply with the Attachment 2 SOW, VR-SFP Chapter 3: 
+Basic Standards, and any other applicable sections of the VR-SFP Manual. 
+Payments made to Provider(s) will be based on the Fee Schedule shown in 
+Attachment 2 SOW when all requirements have been achieved. 
+6.4 CONTRACT AMENDMENTS 
+The Contract may be amended only by written agreement signed by both 
+the Provider and TWC. 
+6.5 NO GUARANTEE OF VOLUME, USAGE OR COMPENSATION 
+TWC makes no guarantee of volume, usage, or total compensation to be
+
+[page 47]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 47 of 50 
+paid to an Applicant under an awarded Contract, if any, resulting from this 
+Solicitation. 
+TWC reserves the right to cancel or decline to award a Contract under this 
+Solicitation at any time at its sole discretion. 
+6.6 GOVERNMENTAL ENTITIES 
+If Applicant is responding to this Solicitation in its capacity as a 
+governmental entity, certain Terms and Conditions found in this Solicitation, 
+including exhibits and attachments, may not be applicable. Furthermore, to 
+the extent permitted by law, if an Application is received from a 
+governmental entity, TWC reserves the right to enter into an interagency or 
+interlocal agreement with the governmental entity. 
+6.7 COSTS INCURRED 
+Applicant understands that issuance of this Solicitation in no way constitutes 
+a commitment by TWC to award a Contract. Additionally, TWC is not liable 
+for any costs incurred by an Applicant in the preparation of an Application to 
+this Solicitation. Costs of developing Applications, preparing for, or 
+participating in Oral Presentations and Site Visits, or any other similar 
+expenses incurred by an Applicant are entirely the responsibility of the 
+Applicant, and will not be reimbursed in any manner by the State of Texas. 
+6.8 APPLICANT WAIVER-INTELLECTUAL PROPERTY 
+SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS 
+SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND 
+AGREEMENT BY APPLICANT TO FULLY INDEMNIFY THE STATE OF 
+TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE 
+STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL 
+PROPERTY RIGHTS OF APPLICANT OR ANY THIRD PARTY FOR ANY
+
+[page 48]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 48 of 50 
+MATERIALS SUBMITTED TO TWC BY APPLICANT. 
+6.9 REQUIRED INSURANCE 
+Providers are responsible for their actions and the actions of their employees 
+and subcontractors. Insurance can provide protection to Providers from claims 
+of negligence made by VR Customers. 
+Providers must maintain insurance as described in VR-SFP Chapter 3 when 
+insurance requirements are applicable. Insurance requirements are subject to 
+change after proposed changes have been posted at least 30 days on the 
+Vocational Rehabilitation Providers’ Resources page. 
+6.10 FAILURE TO PERFORM 
+If the Provider fails to perform in accordance with the provisions of the 
+contract, TWC may upon written notice to the Provider, take adverse action 
+against the Provider, up to and including terminating the Contract in whole or 
+in part. If notice of termination is given, all work by the Provider shall cease on 
+the effective date of the termination, and TWC will not pay for work performed 
+on or after the effective date of termination. Such termination shall not be an 
+exclusive remedy to TWC but shall be in addition to any other rights and 
+remedies provided by law or under the contract. Adverse action, including 
+termination, may result from, but is not limited to:  
+1. Violation of the terms of the Contract, including but not limited to, failure 
+to perform any portion of the Contract; 
+2. Any evidence of abuse, neglect, or exploitation of TWC VR customers 
+receiving services from the Provider as substantiated by an investigation 
+conducted by the Provider, an external regulatory or law enforcement 
+agency, or TWC; 
+3. Any information giving TWC reason to believe that the health or safety of
+
+[page 49]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 49 of 50 
+TWC VR customers is compromised; 
+4. Any change in ownership or change in control that TWC believes would 
+adversely affect the delivery of services; 
+a. Bringing any individual who is debarred by TWC into the Contract 
+in any financial or legal way (such unacceptable arrangements to 
+include, without limitation, any employment, consulting, 
+contracting, subcontracting, partnership, sale, merger, successor, 
+association or joint venture with a debarred individual); 
+5. Any real or apparent conflict of interest giving TWC reason to believe 
+that continuation of the Contract is not in the best interest of TWC, the 
+state, or TWC VR customers; or  
+6. Any violation of state or federal law. 
+6.11 REMEDIES 
+The Provider and any of its subcontractors associated with the Contract will 
+remedy in a timely manner any weaknesses, deficiencies, or program 
+noncompliance found as a result of a review, audit or investigation, and any 
+performance or fiscal exceptions found by TWC, the SAO, the federal funding 
+agency, their successor agencies, or any of their duly authorized 
+representatives. TWC may withhold or recoup payments due or paid under the 
+contract, in whole or in part, in the event of the Vendor's noncompliance with 
+any term or provision of the contract, any federal or state law or regulation, or 
+any TWC rules or standards, including, but not limited to, the requirements 
+specifically stated in the contract, relating to the Vendor's performance under 
+the contract, as pursuant to Title 40 TAC § 858.9 or any other appropriate 
+remedies deemed necessary by TWC.  
+6.12 CHANGE OF OWNERSHIP OR FINANCIAL CONDITION
+
+[page 50]
+Open Enrollment for No. 3202600155 Orientation and Mobility v. 1.1 
+Page 50 of 50 
+During the term of the Contract or any extension or renewal thereof, the 
+Provider shall notify TWC in writing of any substantial change in the 
+ownership or control of the Provider as soon as possible, but no later than 
+thirty (30) days prior to its occurrence. Provider must also notify TWC in 
+writing of any change in financial condition as soon as possible, but no later 
+than ten (10) days after its occurrence. 
+The failure to notify TWC of a change of ownership or control or change in 
+financial condition will be sufficient grounds for rejecting the Application or 
+terminating the Contract. For the purposes of this section, examples of a 
+substantial change in financial condition are events such as insolvency, 
+bankruptcy, or receivership. 
+6.13 SEVERABILITY 
+If any provision or portion of this Solicitation is illegal, void, or 
+unenforceable, the other provisions will not be affected. 
+<End of Solicitation>

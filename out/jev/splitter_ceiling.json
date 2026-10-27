@@ -1,0 +1,316 @@
+[
+  {
+    "rfp": "3202600177",
+    "sentences": 625,
+    "gold": 203,
+    "reachable": 174,
+    "reachable_ignoring_section": 187,
+    "misses": [
+      {
+        "id": "R-010",
+        "section": "2.2.2",
+        "best_same": 0.13,
+        "best_any": 0.99,
+        "text": "The Successful Respondent must staff with Key Personnel identified in the Proposal which are considered by the Successfu"
+      },
+      {
+        "id": "R-011",
+        "section": "2.2.2",
+        "best_same": 0.09,
+        "best_any": 1.0,
+        "text": "Prior to substituting any of the proposed individuals, the Successful Respondent must notify TWC and obtain written appr"
+      },
+      {
+        "id": "R-012",
+        "section": "2.2.2",
+        "best_same": 0.04,
+        "best_any": 0.99,
+        "text": "The Successful Respondent must provide a minimum of one (1) dedicated Account Manager who is assigned full-time to the P"
+      },
+      {
+        "id": "R-013",
+        "section": "2.2.2",
+        "best_same": 0.06,
+        "best_any": 1.0,
+        "text": "Account Manager(s) must be accessible by telephone number and email, and extremely knowledgeable of all aspects of TWC\u2019s"
+      },
+      {
+        "id": "R-014",
+        "section": "2.2.2",
+        "best_same": 0.0,
+        "best_any": 1.0,
+        "text": "A minimum of one (1) Account Manager must be available Monday through Friday, between the hours of 8AM through 5PM, with"
+      },
+      {
+        "id": "R-015",
+        "section": "2.2.2",
+        "best_same": 0.0,
+        "best_any": 0.98,
+        "text": "The Successful Respondent must provide a minimum of three (3) dedicated staff members to act as liaisons with CPA\u2019s Stat"
+      },
+      {
+        "id": "R-016",
+        "section": "2.2.2",
+        "best_same": 0.0,
+        "best_any": 0.97,
+        "text": "The Successful Respondent SPD Liaisons must involve TWC\u2019s administration in all substantive communications with SPD."
+      },
+      {
+        "id": "R-017",
+        "section": "2.2.2",
+        "best_same": 0.06,
+        "best_any": 1.0,
+        "text": "SPD Liaisons must be accessible by telephone number and email, and extremely knowledgeable of all aspects of TWC\u2019s PPD S"
+      },
+      {
+        "id": "R-018",
+        "section": "2.2.2",
+        "best_same": 0.0,
+        "best_any": 1.0,
+        "text": "A minimum of three (3) SPD Liaisons must be available Monday through Friday, between the hours of 8AM through 5PM, with "
+      },
+      {
+        "id": "R-019",
+        "section": "2.2.2",
+        "best_same": 0.3,
+        "best_any": 1.0,
+        "text": "The Successful Respondent must provide designated highly qualified and experienced Key Personnel."
+      },
+      {
+        "id": "R-033",
+        "section": "2.4",
+        "best_same": 0.36,
+        "best_any": 0.36,
+        "text": "Successful Respondent must submit a quarterly report detailing the following items: 1. Item 1: (\u00a7806.31(g)(1)) - List of"
+      },
+      {
+        "id": "R-041",
+        "section": "2.4",
+        "best_same": 0.58,
+        "best_any": 0.58,
+        "text": "Successful Respondent must submit a report annually by October 31 detailing the following items: 1. Item 1: (\u00a7806.31(g)("
+      },
+      {
+        "id": "R-043",
+        "section": "2.4",
+        "best_same": 0.38,
+        "best_any": 0.38,
+        "text": "Purchaser Satisfaction \u2013 The report must utilize a 5-star rating system (or equivalent) to measure and summarize satisfa"
+      },
+      {
+        "id": "R-044",
+        "section": "2.4",
+        "best_same": 0.41,
+        "best_any": 0.41,
+        "text": "Community Rehabilitation Program (CRP) Satisfaction - The report must utilize a 5-star rating system (or equivalent) to "
+      },
+      {
+        "id": "R-045",
+        "section": "2.4",
+        "best_same": 0.49,
+        "best_any": 0.49,
+        "text": "Qualitative Analysis and Improvement Tracking - The report must include a narrative section addressing specific feedback"
+      },
+      {
+        "id": "R-117",
+        "section": "4.11.2",
+        "best_same": 0.59,
+        "best_any": 0.59,
+        "text": "The Respondent must provide the following information in an electronic file/document that is named in this format: \u201c[Org"
+      },
+      {
+        "id": "R-138",
+        "section": "5.5",
+        "best_same": 0.54,
+        "best_any": 0.54,
+        "text": "TWC shall consistently evaluate and score Responses in accordance with the following criteria. a. Ability to Perform Ser"
+      },
+      {
+        "id": "R-157",
+        "section": "Article VI",
+        "best_same": 0.0,
+        "best_any": 1.0,
+        "text": "In the event of a conflict between this Solicitation and applicable laws and regulations, precedence shall be given to t"
+      },
+      {
+        "id": "R-168",
+        "section": "6.9.3",
+        "best_same": 0.0,
+        "best_any": 0.74,
+        "text": "The failure of the Successful Respondent to notify TWC of a change of ownership or control or change in financial condit"
+      },
+      {
+        "id": "R-184",
+        "section": "2.2.1",
+        "best_same": 0.42,
+        "best_any": 0.42,
+        "text": "CRP Engagement and Development: 1. Educate potential CRPs on State Use Program participation requirements; 2. Recruit an"
+      },
+      {
+        "id": "R-185",
+        "section": "2.2.1",
+        "best_same": 0.22,
+        "best_any": 0.29,
+        "text": "Program Management and Administration: 1. Execute a contract agreement with the Statewide Procurement Division (SPD) to "
+      },
+      {
+        "id": "R-187",
+        "section": "2.2.1",
+        "best_same": 0.39,
+        "best_any": 0.4,
+        "text": "Marketing and Promotion: 1. Directly market products and services to consumers through advertising and public relations "
+      },
+      {
+        "id": "R-190",
+        "section": "2.2.1",
+        "best_same": 0.51,
+        "best_any": 0.51,
+        "text": "Compliance and Monitoring: 1. Monitor CRP compliance and promptly report violations to TWC, assisting CRPs in achieving "
+      },
+      {
+        "id": "R-196",
+        "section": "3.2",
+        "best_same": 0.43,
+        "best_any": 0.45,
+        "text": "Pre-Solicitation Conference Attendance is optional July 07, 2026 at 2:00 P.M. central time"
+      },
+      {
+        "id": "R-197",
+        "section": "3.2",
+        "best_same": 0.47,
+        "best_any": 0.47,
+        "text": "Deadline for Submitting Questions or Requests for Clarification July 07, 2026 at 5:00 P.M. Central Time"
+      },
+      {
+        "id": "R-200",
+        "section": "5.2",
+        "best_same": 0.37,
+        "best_any": 0.75,
+        "text": "c. Respondent must submit a complete and signed Form 1 Execution of Response, in accordance with Section 4.7.2 Execution"
+      },
+      {
+        "id": "R-201",
+        "section": "5.2",
+        "best_same": 0.38,
+        "best_any": 0.38,
+        "text": "d. Respondent must be financially solvent and adequately capitalized, as determined based on a review of documentation r"
+      },
+      {
+        "id": "R-202",
+        "section": "5.2",
+        "best_same": 0.38,
+        "best_any": 0.42,
+        "text": "e. Respondent has submitted the Response in accordance with Article IV Response Submission Instructions; see also Sectio"
+      },
+      {
+        "id": "R-203",
+        "section": "5.2",
+        "best_same": 0.34,
+        "best_any": 0.35,
+        "text": "f. Respondent who receives an overall score on the VPTS of \u201dD\u201d or below shall be disqualified from consideration for awa"
+      }
+    ]
+  },
+  {
+    "rfp": "3202600219",
+    "sentences": 179,
+    "gold": 54,
+    "reachable": 52,
+    "reachable_ignoring_section": 52,
+    "misses": [
+      {
+        "id": "R-004",
+        "section": "2.2",
+        "best_same": 0.26,
+        "best_any": 0.26,
+        "text": "a. Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-in connector. b. Successful Bidder must provid"
+      },
+      {
+        "id": "R-054",
+        "section": "5.1",
+        "best_same": 0.42,
+        "best_any": 0.42,
+        "text": "Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of \u201cD\u201d or be"
+      }
+    ]
+  },
+  {
+    "rfp": "HHS0015558v2",
+    "sentences": 532,
+    "gold": 181,
+    "reachable": 171,
+    "reachable_ignoring_section": 171,
+    "misses": [
+      {
+        "id": "R-026",
+        "section": "3.3.4",
+        "best_same": 0.47,
+        "best_any": 0.47,
+        "text": "All questions and requests for clarification must include the following information: 1. Solicitation number; 2. Solicita"
+      },
+      {
+        "id": "R-059",
+        "section": "4.2.2",
+        "best_same": 0.41,
+        "best_any": 0.41,
+        "text": "Respondents must have at least four (4) years of recent experience providing VDOT services and demonstrate experience im"
+      },
+      {
+        "id": "R-127",
+        "section": "6.5",
+        "best_same": 0.59,
+        "best_any": 0.59,
+        "text": "Respondents must complete and return with their Solicitation Response all of the following affirmations and certificatio"
+      },
+      {
+        "id": "R-130",
+        "section": "6.6.2",
+        "best_same": 0.55,
+        "best_any": 0.55,
+        "text": "At a minimum, financial statements must include: i. Balance sheet; ii. Income statement; iii. Statement of changes in fi"
+      },
+      {
+        "id": "R-135",
+        "section": "6.6.3",
+        "best_same": 0.57,
+        "best_any": 0.57,
+        "text": "At a minimum, such financial statements must include: i. Balance sheet; ii. Income statement; iii. Statement of changes "
+      },
+      {
+        "id": "R-151",
+        "section": "8.1.5",
+        "best_same": 0.51,
+        "best_any": 0.51,
+        "text": "If Respondent asserts that information provided in its Solicitation Response is exempt from disclosure under the PIA, Re"
+      },
+      {
+        "id": "R-173",
+        "section": "3.1",
+        "best_same": 0.31,
+        "best_any": 0.31,
+        "text": "Deadline for Submitting Questions or Requests for Clarification: JULY 24, 2026 at 5:00 PM Central Time"
+      },
+      {
+        "id": "R-175",
+        "section": "3.1",
+        "best_same": 0.28,
+        "best_any": 0.32,
+        "text": "Deadline for courtesy Subcontracting Plan review: AUGUST 12, 2026 at 2:00 PM Central Time"
+      },
+      {
+        "id": "R-180",
+        "section": "4.2.2",
+        "best_same": 0.52,
+        "best_any": 0.55,
+        "text": "Respondents have submitted the Response in accordance with Section 3.6, (Solicitation Response Submission and Delivery) "
+      },
+      {
+        "id": "R-181",
+        "section": "4.2.2",
+        "best_same": 0.37,
+        "best_any": 0.37,
+        "text": "Respondents who receive an overall score on the VPTS of less than a \u201cC\u201d may be disqualified from consideration for award"
+      }
+    ]
+  }
+]

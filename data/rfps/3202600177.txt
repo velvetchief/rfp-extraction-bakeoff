@@ -1,0 +1,2169 @@
+[page 1]
+Joe Esparza, Chairman and Commissioner 
+Representing Employers 
+Alberto Treviño III, Commissioner 
+Representing Labor 
+Brent Connett, Commissioner 
+Representing the Public 
+Steve Pier, Executive Director 
+____________________________________ 
+Request for Proposal (RFP) 
+For 
+Purchasing from People with Disabilities 
+State Use Program Administrative Services 
+Solicitation No. 3202600177 
+Date of Release: June 29, 2026 
+Responses Due: August 12, 2026, by 10:00 a.m. Central Time 
+958-77 Project Management Services 
+961-02 Administrative Services, All Kinds 
+961-53 Marketing Services (Incl. Distribution, Research, Sales Promotions, 
+etc.) 
+Sole Point of Contact for this RFP: 
+Taylor McCoy, CTCD/CTCM 
+Procurement Lead 
+TWC Procurement Portal
+
+[page 2]
+RFP No. 3202600177 ver. 1 Page 2 of 74 
+TABLE OF CONTENTS 
+ 
+Article I Purpose ......................................................................... 13 
+Article II Scope of Work ............................................................. 13 
+2.1 Overview/Background ............................................................... 13 
+2.2 Description of Services .............................................................. 14 
+2.3 Deliverables ............................................................................. 25 
+2.4 Deliverables Acceptance Criteria ................................................. 26 
+Article III Solicitation Process ..................................................... 32 
+3.1 Authority ................................................................................. 32 
+3.2 Schedule of Events .................................................................... 32 
+3.3 Contract Documents .................................................................. 33 
+3.4 Attachments and Forms ............................................................. 34 
+3.5 Sole Point of Contact ................................................................. 35 
+3.6 Pre-Solicitation Conference......................................................... 35 
+3.7 Questions/Requests for Clarification ............................................ 37 
+3.8 Addenda .................................................................................. 38 
+3.9 VetHUB Subcontracting Plan ....................................................... 38 
+Article IV Response Submission Instructions ............................. 38 
+4.1 Deadline .................................................................................. 38 
+4.2 General Information .................................................................. 38 
+4.3 Response Format ...................................................................... 39 
+4.4 Discrepancies ........................................................................... 39 
+4.5 Submission Method ................................................................... 40 
+4.6 Required Forms and Submission Documents ................................. 41 
+4.7 Narrative Proposal .................................................................... 41 
+4.8 References ............................................................................... 46 
+4.9 Cost Response .......................................................................... 48 
+4.10 Offered Options ..................................................................... 48 
+4.11 Financial Soundness ............................................................... 48
+
+[page 3]
+RFP No. 3202600177 ver. 1 Page 3 of 74 
+4.12 Corporate Guarantee .............................................................. 51 
+4.13 Exceptions ............................................................................ 52 
+4.14 Binding Offer ......................................................................... 53 
+4.15 Franchise Tax – Right to Transact Business in Texas ................... 53 
+4.16 Disclosure of Interested Parties ................................................ 53 
+4.17 Ambiguity, Conflict, or Discrepancy ........................................... 54 
+4.18 Response Irrevocability ........................................................... 55 
+4.19 Questions or Requests for Clarification ...................................... 55 
+4.20 Cost of Submission and Additional Evaluation Activities ............... 55 
+4.21 TWC Rights ........................................................................... 56 
+Article V Evaluation and Award .................................................... 57 
+5.1 Conformance With State Law ...................................................... 57 
+5.2 Minimum Qualifications (Pass/Fail) .............................................. 57 
+5.3 Initial Compliance Screening....................................................... 58 
+5.4 Response Evaluation ................................................................. 59 
+5.5 Evaluation Criteria .................................................................... 59 
+5.6 Competitive Range .................................................................... 60 
+5.7 Discussions and Revised Responses ............................................. 60 
+5.8 Best and Final Offer (BAFO) ........................................................ 61 
+5.9 Final Response Score and Total Score .......................................... 62 
+5.10 Summary of Best Value Determination ...................................... 62 
+5.11 Public Information Act ............................................................. 62 
+Article VI General Terms and Conditions .................................... 65 
+6.1 Contract Award ......................................................................... 66 
+6.2 Contract Term .......................................................................... 66 
+6.3 Price Adjustment ...................................................................... 66 
+6.4 Contract Amendments ............................................................... 67 
+6.5 No Guarantee of Volumes, Usage, or Compensation ....................... 67 
+6.6 Governmental Entities ............................................................... 67 
+6.7 Respondent Waiver – Intellectual Property ................................... 67 
+6.8 Insurance ................................................................................ 67
+
+[page 4]
+RFP No. 3202600177 ver. 1 Page 4 of 74 
+6.9 Remedies ................................................................................ 68 
+6.10 Liquidated Damages ............................................................... 70 
+6.11 Service Level Agreements ....................................................... 73 
+6.12 Changes in Ownership ............................................................ 74 
+6.13 Severability ........................................................................... 74
+
+[page 5]
+RFP No. 3202600177 ver. 1 Page 5 of 74 
+DEFINITIONS 
+As used in this Solicitation, unless a different definition is specified or the 
+context clearly indicates otherwise, the following terms have the meanings 
+assigned below: 
+Table 1: Definitions 
+Term/Acronym Definition 
+Addendum A written addition, change, or supplement to this 
+Solicitation that is posted to the ESBD and issued prior 
+to the response due date. 
+Additional 
+Evaluation 
+Activities 
+Include Oral Presentations, Clarifications, Discussions, 
+Proofs of Concept, Demonstrations, and/or Site Visits. 
+These Additional Evaluation Activities follow the 
+evaluation of the written Proposals and may be utilized 
+by TWC to evaluate and ensure specifications meet 
+TWC’s needs as outlined in the Solicitation. Additional 
+Evaluation Activities provide an opportunity for 
+Respondents to highlight the strengths and unique 
+aspects or clarify their Responses. These activities may 
+be scored, as indicated in RFP Section 5.7 Discussions 
+and Revised Responses. 
+Advisory 
+Committee 
+The Purchasing from People with Disabilities Advisory 
+Committee, established by the Texas Workforce 
+Commission, as described in Texas Human Resources 
+Code § 122.0057. 
+ATO Authorization to Operate.
+
+[page 6]
+RFP No. 3202600177 ver. 1 Page 6 of 74 
+Term/Acronym Definition 
+BAFO Best and Final Offer. 
+Business Day The day and hours (Monday through Friday, 7 a.m. to 
+6:00 p.m. Local Time) in which TWC is open for 
+business. 
+TWC is closed for business on the scheduled holidays 
+indicated by the State Auditor’s Office available at 
+https://hr.sao.texas.gov/holidays/. 
+The terms “Working Day” and “Business Day” may be 
+used interchangeably. All uncapitalized references to 
+“day” shall mean calendar day. 
+CISO Chief Information Security Officer. 
+CNA Central Nonprofit Agency. An entity designated as a 
+central nonprofit agency under contract with TWC 
+pursuant to Texas Human Resources Code § 122.019. 
+By statute, a CNA cannot operate a Community 
+Rehabilitation Program while under contract with TWC 
+as a CNA. 
+Competitive 
+Range 
+Consists of the Responses that have a reasonable 
+chance of being selected for award based on the 
+evaluation criteria and the best value criteria as stated 
+in this Solicitation.
+
+[page 7]
+RFP No. 3202600177 ver. 1 Page 7 of 74 
+Term/Acronym Definition 
+Contract Means the written agreement entered into by TWC and 
+Successful Respondent, which will incorporate the 
+contents of this Solicitation and the Successful 
+Respondent’s Response, except as may be provided in 
+the Contract and any amendments thereto. 
+Contract Term Means the definite period of time that the Contract will 
+remain in effect.  
+CRP Community Rehabilitation Program. A government or a 
+nonprofit private program operated under criteria 
+established by TWC and under which individuals with 
+severe disabilities produce products or perform 
+services for compensation. 
+CTCD Certified Texas Contract Developer. 
+CTCM Certified Texas Contract Manager. 
+Disability A disability recognized under the Americans with 
+Disabilities Act that impedes a person who is seeking, 
+entering, or maintaining gainful employment. 
+ESBD The Electronic State Business Daily. An online platform 
+administered by the Statewide Procurement Division 
+(SPD) of the Comptroller of Public Accounts (CPA). The 
+ESBD may be accessed as 
+http://www.txsmartbuy.gov/esbd.
+
+[page 8]
+RFP No. 3202600177 ver. 1 Page 8 of 74 
+Term/Acronym Definition 
+Final Written 
+Response Score 
+Refers to the final scoring of the Solicitation based on 
+the Scoring Matrix published in the Solicitation. 
+Fiscal Year (FY) Texas State Fiscal Year, September 1 through August 
+31. 
+Local Time Central Standard Time (CST) or Central Daylight Time 
+(CDT), as is then prevailing in Austin, Texas. 
+NIGP National Institute of Governmental Purchasing. 
+NIST National Institute of Standards and Technology. 
+Non-Uniformly 
+Priced Services 
+Services provided under the PPD Program for which 
+pricing cannot be standardized on a statewide master 
+contract due to site-specific operational variables, 
+unique scopes of work, or localized labor and material 
+costs (e.g., custodial, landscaping, and customized 
+facilities maintenance services), thereby requiring 
+individualized negotiation and TWC approval.
+
+[page 9]
+RFP No. 3202600177 ver. 1 Page 9 of 74 
+Term/Acronym Definition 
+Offered Option Options that are not requested in a response to this 
+Solicitation but may be identified by a Respondent and 
+included in its Response. A Respondent is not obligated 
+to include an Offered Option in its Response. This is an 
+opportunity for Respondents to offer options that TWC 
+may not have been aware of at the time this 
+Solicitation was written. TWC makes no commitment 
+to quantity or timing of acquisition of Offered Options 
+and Offered Options are not considered during 
+evaluation of Responses. 
+PO Purchase Order. 
+POA&M Plan of Action and Milestones. 
+POCN Purchase Order Change Notice. 
+PPD Purchasing from People with Disabilities Program. Also 
+referred to as State Use Program and Works Wonders 
+Program. 
+PS Procurement Services, a section within Procurement 
+and Contract Services (PCS), part of Business 
+Operations, a division of TWC. 
+Respondent The individual or entity that submits a Response to this 
+Solicitation. The term includes anyone acting on behalf 
+of the individual or entity that submits a Response, 
+such as an agent, employee, and representative. Also 
+referred to a “Vendor.”
+
+[page 10]
+RFP No. 3202600177 ver. 1 Page 10 of 74 
+Term/Acronym Definition 
+Response A Respondent’s response to this Solicitation. 
+RFP Request for Proposal. A formal solicitation document 
+issued by TWC to the vendor community requesting a 
+response for goods or services. (This document.) 
+Solicitation This RFP, including all exhibits, attachments, forms, 
+and Addenda, if any. May include Requests for Revised 
+Proposals (RFRP) or Best and Final Offer (BAFO) RFPs, 
+if issued. 
+State The State of Texas and its instrumentalities, including 
+TWC, its officers, employees, or authorized agents, 
+and any other state agencies. 
+State Use 
+Program 
+The statutorily authorized mandate that requires state 
+agencies to purchase, on a non-competitive basis, 
+products made and services performed by persons 
+with disabilities, which have been approved by TWC 
+pursuant to Texas Human Resources Code, Chapter 
+122 and which also meet the requirements of Texas 
+Government Code § 2155.138 and § 2155.069. This 
+program also makes approved products and services 
+available to be purchased on a noncompetitive basis by 
+any political subdivision of the state. Also referred to 
+as Purchasing from People with Disabilities Program 
+and Works Wonders Program.
+
+[page 11]
+RFP No. 3202600177 ver. 1 Page 11 of 74 
+Term/Acronym Definition 
+Subcontractor Any entity(ies) or person(s) providing goods or 
+services under the Contract on Respondent’s behalf, 
+whether or not the entity(ies) or person(s) has/have a 
+written agreement with the Respondent. The term 
+does not include a state agency. The term includes an 
+officer or employee of a state agency when the officer 
+or employee contracts with a vendor in a private 
+capacity. 
+Successful 
+Respondent 
+The Respondent with whom TWC executes a Contract 
+to provide the goods and/or services that this 
+Solicitation requires. 
+Total Score The Final Written Response Score that includes revised 
+points for additional evaluation activities if any, as 
+outlined by this Solicitation. 
+TWC Texas Workforce Commission. 
+TWC Procurement 
+Portal 
+The online platform used by TWC for publishing 
+solicitations informing vendors of procurement 
+opportunities and Response requirements and 
+providing public notice of contract awards. 
+VetHUB Veteran Heroes United in Business, as defined by 
+Chapter 2161 of the Texas Government Code and Title 
+34 of the Texas Administrative Code (TAC), § 20.282.
+
+[page 12]
+RFP No. 3202600177 ver. 1 Page 12 of 74 
+Term/Acronym Definition 
+VHSP VetHUB Subcontracting Plan. Written documentation 
+regarding the use of subcontractors, which is required 
+to be submitted with all solicitations for state agency 
+contracts with an expected value of $100,000 or more 
+and where TWC has determined subcontracting 
+opportunities are probable. The VHSP subsequently 
+becomes a provision of the awarded Contract and shall 
+be monitored for compliance by TWC during the term 
+of the Contract. 
+VPTS Vendor Performance Tracking System, as described 
+under Texas Government Code § 2262.055 and 34 
+TAC § 20.115. Reporting requirements and vendor 
+performance factors considered in VPTS are described 
+in Texas Government Code § 2155.089 and 34 TAC § 
+20.509. The VPTS is available at: 
+https://www.txsmartbuy.gov/vpts.
+
+[page 13]
+RFP No. 3202600177 ver. 1 Page 13 of 74 
+ARTICLE I PURPOSE 
+The Texas Workforce Commission (TWC) Purchasing Services (PS) section 
+will administer the procurement process for this Solicitation, which includes 
+Solicitation publication, handling of communications from Respondents, as 
+well as managing the receipt of Responses for review and evaluation. 
+Information regarding TWC and its programs is available online and can 
+currently be accessed at www.twc.texas.gov. 
+TWC is seeking to procure administration services for a Central Non-Profit 
+Agency (CNA) to organize and administer the State Use Program, as outlined 
+in Chapter 122 of the Texas Human Resources Code and Title 40 of the 
+Texas Administrative Code (TAC), Chapter 806. 
+ARTICLE II SCOPE OF WORK 
+2.1 OVERVIEW/BACKGROUND 
+a. The State Use Program, also known as Purchasing from People with 
+Disabilities and Works Wonders, was established by the State of Texas 
+to promote the independence of individuals with disabilities through 
+meaningful employment, while at the same time providing state 
+agencies and political subdivisions of the state with needed products 
+and services at a fair market price. 
+b. TWC’s mission is to provide leadership and direction for programs that 
+empower people with disabilities to achieve maximum personal 
+independence through productive employment. TWC operates under 
+the philosophy that individuals with disabilities who desire employment 
+should have equitable opportunities to participate in the workforce. 
+c. The Successful Respondent will report directly to TWC. TWC oversees 
+the State Use Program, which includes contracting with the Successful
+
+[page 14]
+RFP No. 3202600177 ver. 1 Page 14 of 74 
+Respondent (a CNA) to manage the daily operations of the State Use 
+Program and provide financial support, including oversight and 
+recruitment of Community Rehabilitation Programs (CRPs). CRPs 
+employ individuals with disabilities to produce products and services to 
+sell to state and local government entities. The Successful Respondent 
+will be responsible for recruiting and working with the CRPs, which can 
+be more than one hundred (100) at a time. 
+d. The 2025 Annual Report, submitted by the current CNA (WorkQuest), 
+indicated that more than $82.9 million in annual wages were paid to 
+people with disabilities, which represents approximately 6,137 people. 
+e. As required by Section 122.009 of the Texas Human Resources Code, to 
+the extent the records of the Successful Respondent (a CNA) pertain 
+specifically to state purchases of the products and services of persons 
+with disabilities, such records are considered to be open records for 
+purposes of the Public Information Act, Chapter 552 of the Texas 
+Government Code. 
+2.2 D
+ESCRIPTION OF SERVICES 
+2.2.1 Comprehensive CNA Services 
+The Successful Respondent must provide comprehensive CNA Services 
+necessary for the effective management and operation of the State Use 
+Program, which include, but are not limited to: 
+a. CRP Engagement and Development: 
+1. Educate potential CRPs on State Use Program participation 
+requirements; 
+2. Recruit and assist CRPs in developing and submitting applications 
+for suitable products and services aligned to customer needs; 
+3. Support CRPs with Integrated Competitive Employment efforts and 
+compliance with 40 TAC Chapter 806;
+
+[page 15]
+RFP No. 3202600177 ver. 1 Page 15 of 74 
+4. Assist the CRPs in soliciting and negotiating contracts; and 
+5. Provide training and resources to support outplacement/supported 
+employment and increase integrated employment opportunities for 
+individuals with disabilities. 
+b. Program Management and Administration: 
+1. Execute a contract agreement with the Statewide Procurement 
+Division (SPD) to establish and ensure adherence to appropriate 
+statewide terms and conditions for all procurements managed 
+under the State Use Program. 
+2. Manage and coordinate the day-to-day operation of the program 
+including the general administration of contracts with CRPs 
+operating pursuant to Chapter 122, Texas Human Resources Code 
+and 40 TAC Chapter 806; 
+3. Allocate service and product orders among the various CRPs; 
+4. Monitor CRPs to ensure compliance with requirements for 
+participation in the State Use Program; 
+5. Provide accounting services related to purchase orders, invoices, 
+and payments to CRPs; 
+6. Prepare reports and fulfill other duties as designated by TWC; 
+7. Provide general administration of the State Use Program, meet 
+performance criteria and submit timely reports required by 40 TAC 
+Chapter 806; 
+8. Maintain and dispose of records in accordance with applicable laws 
+and TWC directives and provide any or all records requested within 
+three (3) weeks of the request;
+
+[page 16]
+RFP No. 3202600177 ver. 1 Page 16 of 74 
+9. Resolve contract issues and/or problems as they arise between the 
+CRPs, the Successful Respondent, and/or customers, refer 
+unresolved issues to TWC, and submit quarterly status reports on 
+issues and referrals; 
+10. Maintain a system in accordance with generally accepted accounting 
+principles (GAAP) to record information related to purchase orders, 
+invoices, and payments to each CRP to facilitate the preparation 
+and submission of the annual report; 
+11. Demonstrate compliance with state and federal tax laws and payroll 
+laws by submitting quarterly reports of sales and taxes paid to CPA 
+and the Internal Revenue Service (IRS); and 
+12. Maintain expertise of governmental procurement and contracting 
+processes and laws. 
+c. Product and Service Delivery:  
+1. Maintain and operate a retail store and warehouse for use by state 
+agency customers, adhering to state statutes and the Comptroller’s 
+Statewide Procurement Division requirements; and 
+2. Conduct research to identify new products and services. 
+d. Marketing and Promotion: 
+1. Directly market products and services to consumers through 
+advertising and public relations activities as well as a retail business 
+operational plan; 
+2. Conduct public relations activities to promote the program; 
+3. Create a database of state agency and political subdivision 
+purchases to promote sales of State Use Program products and 
+services;
+
+[page 17]
+RFP No. 3202600177 ver. 1 Page 17 of 74 
+4. Provide quarterly regional information workshops to promote the 
+State Use Program throughout the year and across the state; 
+5. Provide customer relations support; and 
+6. Provide promotion of increased supported employment 
+opportunities for persons with disabilities. 
+e. Customer Relations and Service Delivery: 
+1. Provide superior customer relations by: 
+i. monitoring customer satisfaction with products and services,  
+ii. responding to customer complaints within one (1) Business 
+Day or less, and  
+iii. reporting quarterly on consumer satisfaction levels for each 
+CRP, based on complaints as to products or services provided, 
+with a goal of incurring no more than five (5) complaints per 
+year that have not been resolved to customer satisfaction; 
+2. Create and maintain automated tracking and monitoring of 
+product/service sales and submit quarterly reports to TWC 
+regarding delivery turnaround times and contract performance for 
+each CRP; and 
+3. Respond to inquiries about individual sales and/or total sales within 
+five (5) Business Days or sooner and submit quarterly reports 
+regarding the number of inquiries and average response time. 
+f. Financial Management: Provide sufficient financial resources and/or the 
+ability to maintain a line of credit to pay CRPs within thirty (30) Business 
+Days. Average weekly payment to CRPs in Fiscal Year 2025 was 
+approximately $4.4 million per week. 
+g. Compliance and Monitoring:
+
+[page 18]
+RFP No. 3202600177 ver. 1 Page 18 of 74 
+1. Monitor CRP compliance and promptly report violations to TWC, 
+assisting CRPs in achieving compliance as needed;  
+2. Conduct business ethically and submit detailed quarterly reports on 
+any conflicts between the CRPs and the Successful Respondent; and 
+3. Provide financial oversight and monitoring of the CRPs and report 
+material changes in the CRP status to TWC. 
+h. Training and Resources: Provide training programs to CRPs on the 
+requirements to participate in the state use program, governmental 
+contracting, and procurement procedures and laws. 
+i. Reporting and Transparency: Provide an annual report that includes 
+the CNA's audited financial statements, an updated strategic plan, and an 
+updated projected schedule of expenses detailing the amount and 
+percentage of management fees allocated to: 
+1. directly support the state use program, 
+2. expand direct services to programs that enhance the lives of 
+individuals with disabilities, and 
+3. administrative overhead, such as salaries. 
+j. Expanding Employment Opportunities for Individuals with 
+Disabilities: 
+1. Promote the development of person-centered planning to document 
+employment goals, provide employment counseling, and facilitate 
+placement services provided by CRPs, aiming for employment 
+paying minimum wage or higher; 
+2. Research new products, services, and markets and improve existing 
+products and services to increase employment opportunities 
+(including those paying minimum wage or higher) and report to 
+TWC quarterly on the status of these activities; and
+
+[page 19]
+RFP No. 3202600177 ver. 1 Page 19 of 74 
+3. Work with CRPs to develop employment opportunities. 
+k. Management of Non-Uniformly Priced Services Contracts: The CNA 
+shall have the following obligations in connection with Non-Uniformly 
+Pirce Services Contracts: 
+1. Negotiation Facilitation. The Successful Respondent shall act as the 
+primary facilitator between the applicable state agency and the CRP 
+to define the site-specific scope of work and pricing. 
+2. Pricing Validation. The Successful Respondent must review the 
+CRP’s proposed pricing prior to submission to ensure that it 
+represents a fair market price, complies with TWC guidelines, and 
+covers required wages and administrative fees. 
+3. TWC Submission and Approval. The Successful Respondent is solely 
+responsible for compiling the completed package (including 
+statement of work, pricing schedules, and compliance certifications) 
+and submitting it to TWC for statutory review and approval. 
+4. Contract Execution and Subcontracting. Upon receiving written 
+approval from TWC, the Successful Respondent shall promptly enter 
+into a direct contract with the applicable state agency. The 
+Successful Respondent shall subsequently execute a subcontract 
+with the approved CRP to perform the services, maintaining sole 
+prime contractor liability for the CRP’s performance, timely 
+payments for services to CRPs, and timely and accurately invoicing 
+the applicable state agency for reimbursement of the CNA’s 
+payments for the CRP’s services. 
+5. Timeliness Standard. The Successful Respondent must submit fully 
+validated pricing proposals to TWC within ten (10) Business Days of 
+reaching an agreement in principle between the applicable state 
+agency and the CRP.
+
+[page 20]
+RFP No. 3202600177 ver. 1 Page 20 of 74 
+6. Assignment. Contracts for Non-Uniformly Priced Services must 
+include a provision permitting assignment to a successor CNA with 
+notice to TWC.  
+2.2.2 Key Personnel and Proposed Organization 
+2.2.2.1 Staffing 
+1. The Successful Respondent must staff with Key Personnel identified in 
+the Proposal which are considered by the Successful Respondent to be 
+essential to administering the PPD State Use Program and fulfilling the 
+requirements of the resulting Contract. 
+2. Prior to substituting any of the proposed individuals, the Successful 
+Respondent must notify TWC and obtain written approval of the 
+proposed substitution as soon as possible, but no less than five (5) 
+Business Days prior to said substitution. 
+2.2.2.2 Account Manager 
+1. The Successful Respondent must provide a minimum of one (1) 
+dedicated Account Manager who is assigned full-time to the PPD State 
+Use Program and is primarily responsible for working with TWC on 
+resolving day-to-day issues.   
+2. The assignment of the dedicated Account Manager begins on the 
+effective date of the Contract resulting from this RFP and continues 
+uninterrupted throughout the duration of the Contract.   
+3. Account Manager(s) must be accessible by telephone number and 
+email, and extremely knowledgeable of all aspects of TWC’s PPD State 
+Use Program. A minimum of one (1) Account Manager must be 
+available Monday through Friday, between the hours of 8AM through 
+5PM, with the exception of the state of Texas holidays.  Unavailability 
+may result in the assessment of liquidated damages as set forth in 
+Section 6.10.3 Specific Liquidated Damage(s).
+
+[page 21]
+RFP No. 3202600177 ver. 1 Page 21 of 74 
+4. The minimum qualifications for Successful Respondent’s Account 
+Manager are: 
+i. Five (5) years’ account management experience; three (3) of the 
+past five (5) years as the account manager for the development, 
+implementation and/or operation of accounts of comparable size 
+and complexity to those defined within this RFP; 
+ii. Past management experience, including subcontractors, with 
+individuals having worked together as a unit in the past or 
+currently for the effective and successful delivery of quality 
+services; 
+iii. Successful management of the delivery for a customer(s) with a 
+similar scope of services; and 
+iv. Successful management of the delivery for a customer with 
+similar volumes of accounts and transactions. 
+2.2.2.3 Statewide Procurement Division (SPD) Liaison 
+1. The Successful Respondent must provide a minimum of three (3) 
+dedicated staff members to act as liaisons with CPA’s Statewide 
+Procurement Division (SPD). 
+2. The Successful Respondent SPD Liaisons must involve TWC’s 
+administration in all substantive communications with SPD. 
+3. The assignment of the dedicated SPD Liaisons begins on the effective 
+date of the Contract resulting from this RFP and continues 
+uninterrupted throughout the duration of the Contract.   
+4. SPD Liaisons must be accessible by telephone number and email, and 
+extremely knowledgeable of all aspects of TWC’s PPD State Use 
+Program.  A minimum of three (3) SPD Liaisons must be available 
+Monday through Friday, between the hours of 8AM through 5PM, with 
+the exception of the State of Texas holidays. Unavailability may result
+
+[page 22]
+RFP No. 3202600177 ver. 1 Page 22 of 74 
+in the assessment of liquidated damages as set forth in Section 6.10.3 
+Specific Liquidated Damage(s). 
+5. The minimum qualifications for Successful Respondent’s SPD Liaisons 
+are: 
+i. Five (5) years’ account management experience; three (3) of the 
+past five (5) years as the account manager for the development, 
+implementation and/or operation of accounts of comparable size 
+and complexity to those defined within this RFP; 
+ii. Past management experience, including subcontractors, with 
+individuals having worked together as a unit in the past or 
+currently for the effective and successful delivery of quality 
+services; 
+iii. Successful management of the delivery for a customer(s) with a 
+similar scope of services; and 
+iv. Successful management of the delivery for a customer with 
+similar volumes of accounts and transactions. 
+2.2.2.4 Other Key Personnel 
+1. The Successful Respondent must provide designated highly qualified 
+and experienced Key Personnel.  Designated is defined as a Successful 
+Respondent full time employee whose primary responsibility is this 
+Contract but may have other duties and/or customers.   
+2. “Key Personnel” for this Solicitation and resulting Contract are those 
+persons, including the Successful Respondent and subcontractor 
+personnel, considered integral to successfully implementing and 
+maintaining quality service delivery, and timely completing all key 
+deliverables.   
+3. The minimum qualifications for Successful Respondent’s Key Personnel 
+are:
+
+[page 23]
+RFP No. 3202600177 ver. 1 Page 23 of 74 
+i. Three (3) years’ experience in performing and providing the types 
+and level of services required in this RFP, preferably as an 
+employee or as a subcontractor or other authorized 
+representative of the Successful Respondent;  
+ii. Current or past experience working with other key personnel for 
+the effective and successful delivery of quality services; 
+iii. Demonstrated success, either current or past, in performing the 
+tasks assigned or in providing the services to a customer with a 
+similar scope of services; and  
+iv. Successful performance of assigned tasks or in the delivery of 
+services to a customer with similar volumes of accounts and 
+transactions. 
+2.2.3 Communication 
+The Successful Respondent must maintain consistent and effective 
+communication with TWC, SPD, and the CRPs. 
+2.2.4 Records 
+The Successful Respondent must maintain all necessary records for audit 
+purposes in accordance with state and federal law and directives set forth by 
+TWC. Additionally, as required by Section 122.009 of the Texas Human 
+Resources Code, to the extent the records of the Successful Respondent (a 
+CNA) pertain specifically to state purchases of the products and services of 
+persons with disabilities, such records are considered to be open records for 
+purposes of the Public Information Act, Chapter 552 of the Texas 
+Government Code. 
+2.2.5 Transition Services 
+In the event that a Successor Respondent is chosen at the end of the term 
+of the resulting Contract, the Successful Respondent must extend Services
+
+[page 24]
+RFP No. 3202600177 ver. 1 Page 24 of 74 
+to TWC for a period of one hundred and twenty (120) days or until such 
+reasonable time that services from the new Successor Respondent are 
+available and the CRPs and their customers have received notice of the 
+change, as determined by TWC. The Successful Respondent shall assist the 
+Successor Respondent by providing information and input as necessary to 
+ensure smooth transition wherein services are not disrupted.  
+Additionally, to the extent the Successful Respondent has any contracts for 
+Non-Uniformly Priced Services that have been approved under the PPD 
+Program, the Successful Respondent shall include in such contracts a 
+provision permitting assignment to a successor CNA and shall ensure all 
+such assignments occur (with notice to TWC) during the transition period. 
+2.2.6 Legislative Changes 
+The Successful Respondent must track Texas legislation and keep abreast of 
+changing factors that could impact the State Use Program and inform TWC 
+of such factors. 
+2.2.7 Advisory Committee Meetings and Support 
+The Successful Respondent must attend Purchasing from People with 
+Disabilities’ Advisory Committee meetings and provide support for the 
+Committee as requested by TWC. 
+2.2.8 Other Duties as Assigned. 
+The Successful Respondent must perform other duties as assigned by TWC 
+in support of this Contract.
+
+[page 25]
+RFP No. 3202600177 ver. 1 Page 25 of 74 
+2.3 DELIVERABLES 
+Table 2: Deliverables 
+Deliverable Description 
+Frequency 
+/ Due Date 
+Quarterly 
+Report 
+This report combines all required quarterly reporting 
+elements into a single, comprehensive document and 
+provides TWC with a holistic view of the State Use 
+Program's operations and performance, allowing for 
+timely intervention and strategic decision-making. 
+It must include, but is not limited to the following:  
+a. CRP performance,  
+b. financial data,  
+c. program promotion,  
+d. customer relations,  
+e. conflict resolution, and  
+f. compliance metrics.  
+(see Section 2.4 Deliverables Acceptance Criteria for 
+additional detail) 
+Quarterly
+
+[page 26]
+RFP No. 3202600177 ver. 1 Page 26 of 74 
+Deliverable Description 
+Frequency 
+/ Due Date 
+Annual 
+Report 
+It must include, but is not limited to the following:  
+a. the CNA's audited financial statements,  
+b. an updated strategic plan, and  
+c. an updated projected schedule of expenses that 
+details the amount and percentage of 
+management fees allocated to:  
+1. directly support the state use program, 
+2. expanding direct services to programs that 
+enhance the lives of individuals with 
+disabilities and  
+3. administrative overhead, such as salaries. 
+(see Section 2.4 Deliverables Acceptance Criteria for 
+additional detail) 
+Annually / 
+October 31 
+Semi-
+Annual 
+Customer 
+Satisfaction 
+Survey 
+Report 
+Submit the results in a formal report to TWC at least 
+semi-annually. The report should include trend 
+analysis and recommended actions to resolve 
+identified recurring problem. 
+Semi-
+Annually 
+2.4 DELIVERABLES ACCEPTANCE CRITERIA 
+Successful Respondent will be required to submit reports and adhere to 
+ongoing requirements as described in Texas Human Resources Code Chapter 
+122 and 40 TAC Chapter 806.  
+To be approved, the report must include each of the items detailed above, 
+and be reviewed and approved by TWC. If TWC determines the report is
+
+[page 27]
+RFP No. 3202600177 ver. 1 Page 27 of 74 
+incomplete, Successful Respondent will have one week to revise the report 
+and submit to TWC for review and approval. 
+In addition, the Awarded Vendor must provide deliverables as outlined 
+below: 
+Deliverable #1: Quarterly Report. Successful Respondent must 
+submit a quarterly report detailing the following items: 
+1. Item 1: (§806.31(g)(1)) - List of CRPs that did not meet the criteria 
+for participation in the State Use Program during the reporting 
+quarter, along with the specific reasons for each CRP's non-
+compliance. 
+2. Item 2: (§806.31(g)(3)) - Categories of expenditures in the reporting 
+format approved by TWC. This should provide a clear breakdown of 
+how funds are being utilized within the State Use Program. 
+3. Item 3: (§806.32(b)(2)) - A status update on activities related to 
+researching new products, services, and markets to increase 
+employment opportunities for individuals with disabilities. The report 
+must detail the specific new products, services, and markets 
+researched and any progress in improving existing offerings. 
+4. Item 4: (§806.32(b)(4)) - A comprehensive overview of customer 
+satisfaction levels for each CRP, based on complaints received. This 
+should include: a summary of satisfaction levels, details of all 
+complaints received, actions taken to resolve each complaint, and a 
+demonstration of progress toward the goal of no more than five 
+unresolved complaints per year. 
+5. Item 5: (§806.32(b)(5)) - A summary of the quarterly regional 
+information workshops conducted to promote the State Use Program. 
+Include information such as the location and date of each workshop,
+
+[page 28]
+RFP No. 3202600177 ver. 1 Page 28 of 74 
+the topics covered, the number of attendees, and any feedback 
+received. 
+6. Item 6: (§806.32(b)(7)) - A detailed status report on contract issues 
+and/or problems that have arisen between the CRPs, the CNA, and/or 
+customers. This should include: a description of each issue, the steps 
+taken to resolve it, whether the issue was resolved, and if not, 
+whether it was referred to TWC. 
+7. Item 7: (§806.32(b)(9)) - Quarterly report of state sales and federal 
+taxes paid to, respectively, the Texas Comptroller of Public Accounts 
+and the Internal Revenue Service (IRS). The report must accurately 
+reflect state sales and federal taxes paid to the Texas Comptroller of 
+Public Accounts and the Internal Revenue Service (IRS). 
+8. Item 8: (§806.32(b)(12)) - A detailed report of any conflicts between 
+CRPs and the CNA. This should provide a description of the conflict, 
+the parties involved, and the steps taken to resolve the conflict. 
+9. Item 9: (§806.32(b)(13)) - Report regarding delivery turnaround 
+times and contract performance for each CRP. This must include 
+tracking data for product and service sales, as well as identify CRPs 
+with underperforming delivery times or contract compliance issues. 
+10. Item 10: (§806.32(b)(14)) - A report regarding the number of 
+inquiries and average response time in conjunction with the report 
+described in item 8 of this subsection. Include the total number of 
+inquiries received and the average response time for inquiries. 
+Deliverable #2: Annual Report. Successful Respondent must submit 
+a report annually by October 31 detailing the following items: 
+1. Item 1: (§806.31(g)(2)(A)) – include updated marketing plan.
+
+[page 29]
+RFP No. 3202600177 ver. 1 Page 29 of 74 
+2. Item 2: (§806.31(g)(2)(B)) – include a proposed annual budget with 
+estimated sales, commissions, and expenses. 
+3. Item 3: (§806.31(g)(2)(C)) – include a program budget with details 
+on how the expected revenue and expenses will be allocated to 
+directly support and expand the state use program and other 
+programs that expand direct services and/or the enhancement of 
+employment opportunities for individuals with disabilities. 
+4. Item 4: (§806.31(g)(2)(D)) – include an audited annual financial 
+statement that shall include information on FDIC coverage of all cash 
+balances, earnings attributed to the management fee for the state 
+use program, accounts receivable, cash reserves, line of credit 
+borrowings, interest payments, bad debt, administrative overhead 
+and any detailed supporting documentation requested by TWC. 
+5. Item 5: (§806.31(f)(1)) - include the following information regarding 
+CRPs that have contracted with the CNA: a collective executive 
+summary of the CRPs annual state use program evaluations; the 
+number of individuals with disabilities, according to their type of 
+disability, who are employed in CRPs participating in the programs or 
+who are employed by businesses or workshops that receive 
+supportive employment from CRPs; the amount of annual wages paid 
+to each employee participating in the program in a format 
+determined by TWC; a summary of the sale of products offered by 
+the CRPs; a list of products and/or services offered by a CRP; the 
+geographic distribution of CRPs; the number of individuals without 
+disabilities who are employed in CRPs under this chapter; and the 
+average and range of weekly earnings for individuals with disabilities 
+and individuals without disabilities who are employed in CRPs under 
+this chapter.
+
+[page 30]
+RFP No. 3202600177 ver. 1 Page 30 of 74 
+6. Item 6: (§806.31(f)(2)) - include the following information from each 
+CRP data on individual outplacement or supported employment to 
+include: the number of individuals in outplacement employment; the 
+hourly wage range; the range of hours worked; and the number of 
+individuals with disabilities employed, listed by primary type of 
+disability. 
+Deliverable #3: Semi-Annual Customer Satisfaction Survey Report. 
+Successful Respondent must submit a semi-annual report detailing 
+the following items: 
+1. Item 1: Purchaser Satisfaction – The report must utilize a 5-star 
+rating system (or equivalent) to measure and summarize satisfaction 
+across the following specific categories: 
+a. Product/Service Quality: Satisfaction with the quality of 
+Products, Services, and Temporary Employment Services 
+purchased through the State Use Program. 
+b. CNA Performance: Satisfaction with CNA Customer Service staff 
+and Regional Marketing staff performance. 
+c. Operational Efficiency: Satisfaction with delivery timelines, 
+accuracy of product counts, and the delivery process (specifically 
+addressing delivery to correct addresses). 
+d. Financial Accuracy: Satisfaction with the timing and accuracy of 
+invoicing and service certification paperwork. 
+e. Training Accessibility: A summary of training received by 
+purchasers, categorized by source (CNA staff, Comptroller staff, 
+or internal agency training). 
+2. Item 2: Community Rehabilitation Program (CRP) Satisfaction - The 
+report must utilize a 5-star rating system (or equivalent) to measure
+
+[page 31]
+RFP No. 3202600177 ver. 1 Page 31 of 74 
+and summarize satisfaction among participating CRPs across the 
+following specific categories: 
+a. Financial Operations: Satisfaction with CNA billing, invoicing, and 
+payment processing. 
+b. Marketing Support: Satisfaction with assistance provided by 
+Regional Marketing Managers. 
+c. Resources and Outreach: Satisfaction with CNA publications, 
+website usability, tradeshows, and the Annual Expo. 
+d. Compliance and Advocacy: Satisfaction with training/compliance 
+opportunities and the CNA’s representation of CRP interests to 
+TWC. 
+3. Item 3: Qualitative Analysis and Improvement Tracking - The report 
+must include a narrative section addressing specific feedback and 
+"Areas of Opportunity" identified in the surveys, including but not 
+limited to: 
+a. Communication Response Times: Analysis of response times to 
+email and phone inquiries (specifically targeting the goal of 
+responding within one Business Day). 
+b. Logistical Support: For Central Store purchases, an analysis of 
+delivery options for small state agencies. 
+c. Pricing and Data Support: Efforts to provide additional pricing 
+support for specific service sectors (e.g., landscaping, custodial) 
+and the availability of data/spreadsheets showing product trends 
+by customer location. 
+4. Item 4: Trend Analysis - The report must include a comparative 
+analysis of current survey results against the previous three (3)
+
+[page 32]
+RFP No. 3202600177 ver. 1 Page 32 of 74 
+reporting periods to identify upward or downward trends in star ratings 
+and participation volume. 
+5. Item 5: Recommended Actions - The report must provide a formal 
+Corrective Action Plan (CAP) for any category receiving an average 
+rating below 4.0 stars, detailing the specific steps the CNA will take to 
+resolve recurring problems identified by Purchasers or CRPs. 
+ARTICLE III SOLICITATION PROCESS 
+3.1 AUTHORITY 
+TWC is soliciting the goods and/or services stated in this Solicitation under 
+the authority of Texas Human Resources Code Chapter 122 and 40 TAC 
+Chapter 806. 
+All official communication (including, but not limited to, Schedule of Event 
+changes, Addenda, and Questions and Answer documents) will be posted to 
+the Electronic State Business Daily (ESBD) and the TWC Procurement Portal. 
+TWC has no responsibility to communicate personally with each potential 
+Respondent for this procurement. Each interested party is solely responsible 
+for checking the ESBD for official TWC communication regarding this 
+procurement. 
+3.2 S
+CHEDULE OF EVENTS 
+The dates in this Schedule of Events are tentative, and TWC reserves the 
+right to modify these dates at any time. At the sole discretion of TWC, 
+events listed in the Schedule of Events are subject to changes and 
+cancellation. Scheduling changes or cancellations made prior to the Deadline 
+for Submission of Responses will be published as an Addendum posted to 
+the ESBD and the TWC Procurement Portal.
+
+[page 33]
+RFP No. 3202600177 ver. 1 Page 33 of 74 
+Table 3: Schedule of Events 
+Event Date and Time 
+Solicitation Posted to ESBD and the 
+TWC Procurement Portal 
+June 29, 2026 
+Pre-Solicitation Conference 
+Attendance is optional  
+July 07, 2026 at 2:00 P.M. central 
+time 
+Deadline for Submitting Questions 
+or Requests for Clarification 
+July 07, 2026 at 5:00 P.M. Central 
+Time 
+Deadline for Submission of 
+Response 
+NOTE: Responses must be 
+RECEIVED by TWC by the deadline. 
+August 12, 2026 at 10:00 A.M. 
+Central Time 
+Anticipated Contract Award November 2026 
+Respondent must submit its Response to TWC in accordance with the due 
+date and time as indicated in this Table 3: Schedule of Events or as changed 
+via an Addendum posted to the ESBD and the TWC Procurement Portal. 
+3.3 CONTRACT DOCUMENTS 
+The Contract(s) resulting from this solicitation may consist of the provisions 
+in this solicitation (including its attachments, forms, exhibits, and any 
+Addenda); the Successful Respondent’s Response, any TWC Request for 
+Revised Response, the Successful Respondent’s Response to the Request for 
+Revised Response, and TWC’s Purchase Order (PO). No prior agreement or 
+understanding, oral or otherwise, of the parties or their agents will be valid 
+or enforceable unless embodied in these documents. The Contract will
+
+[page 34]
+RFP No. 3202600177 ver. 1 Page 34 of 74 
+include a provision regarding the order of priority for the Contract 
+documents.  
+TWC may elect to have the Contract(s) resulting from this Solicitation 
+consist of a single document. This document will contain all rights and duties 
+of the parties extracted from the relevant terms and conditions of the 
+Solicitation (including its attachments, forms, exhibits, and any Addenda), 
+the Successful Respondent’s Response, the Request for Revised Response or 
+BAFO, if any, and Successful Respondent’s Response to the Request for 
+Revised Response or BAFO, if any. Prior to award, TWC will prepare the 
+Contract for review by the Successful Respondent. 
+Discussions may be had concerning possible revisions to the draft Contract 
+to clarify points, further define Contract text, or to correct minor 
+technicalities. These discussions are to be finalized and all requests for 
+revisions resolved within ten (10) Business Days after the Successful 
+Respondent receives the draft Contract for review or such additional time 
+that may be agreed to by TWC. If discussions are not finalized within such 
+time frame, the Response may be rejected, and discussions may be initiated 
+with the next highest scoring Respondent. 
+3.4 ATTACHMENTS AND FORMS 
+Table 4: Attachments and Forms 
+Attachment/Form Title 
+Attachment 1 TWC Terms and Conditions 
+Form 1 Execution of Response 
+Form 2 Cost Response 
+Form 3 References 
+Form 4 Questions and Answers 
+Form 5 Substitute W-9 and Direct Deposit Form
+
+[page 35]
+RFP No. 3202600177 ver. 1 Page 35 of 74 
+3.5 SOLE POINT OF CONTACT 
+All requests, questions, or other communication about this Solicitation must 
+be made in writing to Procurement Services, addressed to the person listed 
+below (Sole Point of Contact) with the Solicitation number in the subject line. 
+Taylor McCoy, CTCD/CTCM 
+Procurement Lead 
+TWC Procurement Portal 
+3.5.1 Prohibited Communication 
+Except as provided in Section 3.5 Sole Point of Contact, all communication 
+with TWC regarding this Solicitation is prohibited. Unless allowable, TWC, its 
+representative(s), and partners will not answer any questions or otherwise 
+discuss the contents of this Solicitation with any potential Respondent or its 
+representative(s). Attempts to ask questions by phone or in person will not 
+be allowed or recognized as valid. Respondent shall rely only on written 
+statements issued by or through TWC designated staff as provided by 
+Section 3.5 Sole Point of Contact. 
+Failure to comply with these restrictions may result in 
+disqualification of Respondent's Response. These restrictions do not 
+preclude discussions between affected parties for the purposes of conducting 
+business unrelated to this Solicitation. 
+3.6 P
+RE-SOLICITATION CONFERENCE 
+TWC will conduct a Pre-Solicitation Conference. A prospective Respondent 
+should plan to attend the Pre-Solicitation Conference. See Section 3.2 
+Schedule of Events for the date and time. The Pre-Solicitation Conference 
+will include an overview of the Solicitation. A question-and-answer session 
+will also take place regarding general and technical questions.
+
+[page 36]
+RFP No. 3202600177 ver. 1 Page 36 of 74 
+3.6.1 Attendance 
+Attendance at the Pre-Solicitation Conference is optional but highly 
+recommended. 
+Attendees to the virtual Pre-Solicitation Conference are required to register 
+for the conference utilizing the link provided in Section 3.6.2 Logistical 
+Information. 
+3.6.2 Logistical Information 
+PS will hold the Pre-Solicitation Conference on the date and time set out in 
+Section 3.2 Schedule of Events. 
+People with disabilities who wish to attend the Pre-Solicitation Conference 
+and require auxiliary aids or services should contact the Sole Point of 
+Contact identified in Section 3.5 Sole Point of Contact at least seventy-two 
+(72) hours before the Conference in order to have reasonable 
+accommodations made by TWC. 
+Pre-Solicitation Conference Registration Link: 
+https://zoom.us/webinar/register/WN_so69eBW1Qqu3o0DYJr7kKg 
+After registering, you will receive a confirmation email containing 
+information about joining the conference. 
+3.6.3 Questions at the Pre-Solicitation Conference 
+Attendees may submit questions in writing at the conference. All questions 
+must be in the required format and include the information as referenced in 
+Section 3.7 Questions/Requests for Clarification. 
+During the Pre-Solicitation Conference, TWC may provide responses to 
+questions and requests for clarification, but only written responses posted by 
+TWC as an Addendum to the Solicitation on the ESBD and TWC Procurement 
+Portal will be considered an official, binding update to the Solicitation.
+
+[page 37]
+RFP No. 3202600177 ver. 1 Page 37 of 74 
+TWC reserves the right to amend, prior to the Response Deadline, answers 
+previously posted. Amended answers will be posted on the ESBD and TWC 
+Procurement Portal.  
+Unauthorized communications with TWC program area staff regarding this 
+Solicitation before, during, or after the Pre-Solicitation Conference are 
+prohibited. Failure to comply with these restrictions may result in 
+disqualification of Respondent's Response. 
+3.7 QUESTIONS/REQUESTS FOR CLARIFICATION 
+TWC will allow written questions and requests for clarification regarding this 
+Solicitation. Questions must be submitted through the TWC Procurement 
+Portal to the Sole Point of Contact listed in Section 3.5 Sole Point of Contact 
+by the deadline established in Section 3.2 Schedule of Events using Form 5 
+Questions and Answers. Include the Solicitation section and page number 
+to which each question applies. 
+TWC will post all questions and answers and, if appropriate, an Amended 
+Solicitation to the ESBD and TWC Procurement Portal. Responses to 
+questions or other written requests for clarification will not be provided 
+individually to prospective Respondents submitting questions. 
+TWC reserves the right to amend answers previously posted. Amended 
+answers will be posted to the ESBD and TWC Procurement Portal. It is the 
+Respondent’s responsibility to check the ESBD and TWC Procurement Portal. 
+TWC also reserves the right to provide a single consolidated response to all 
+similar questions at the agency’s sole discretion. 
+Questions or requests for clarification received after the deadline in Section 
+3.2 Schedule of Events may be reviewed by TWC but may not be answered. 
+Only TWC's written answers posted on ESBD and TWC Procurement Portal, 
+in accordance with this section, are binding.
+
+[page 38]
+RFP No. 3202600177 ver. 1 Page 38 of 74 
+3.8 ADDENDA 
+Should an addition or correction become necessary after the Solicitation is 
+issued, an Addendum relating the necessary information will be posted to 
+the ESBD and TWC Procurement Portal. Respondents are responsible for 
+periodically checking the ESBD and TWC Procurement Portal for addenda or 
+additional information. Respondents are required to acknowledge the 
+Addenda by returning the signed Acknowledgment of Addenda with 
+the Response. Failure to do so may disqualify the Respondent and 
+does not absolve a Respondent from the requirements contained 
+within any Addenda. 
+3.9 VETHUB SUBCONTRACTING PLAN 
+Respondent is not required to submit a VetHUB Subcontracting Plan with its 
+Response. 
+ARTICLE IV RESPONSE SUBMISSION 
+INSTRUCTIONS 
+4.1 DEADLINE 
+Responses must be received by PS as prescribed no later than the date and 
+time specified in Section 3.2 Schedule of Events. 
+Responses received after the deadline specified in Section 3.2 Schedule of 
+Events will be rejected and will not be evaluated or considered for Contract 
+award. TWC is not responsible for Responses emailed late, illegible, 
+incomplete, or otherwise considered disqualified due to failure of electronic 
+equipment or operator error. 
+4.2 GENERAL INFORMATION 
+Respondent must fully and completely address all requirements described in 
+this Solicitation. Incomplete or partial Responses will not be considered. The
+
+[page 39]
+RFP No. 3202600177 ver. 1 Page 39 of 74 
+Respondent must provide all information that the Respondent believes would 
+be helpful to TWC in evaluating the Respondent’s ability to fulfill the 
+Solicitation requirements. Respondent shall prepare a Response that clearly 
+and concisely represents its qualifications and capabilities. 
+4.3 RESPONSE FORMAT 
+The Response to this Solicitation must: 
+a. Be responsive to all Solicitation requirements; 
+b. Be in the 8 1/2" by 11" paper layout; 
+c. Be clearly legible; and 
+d. Be presented using font type Verdana or Arial, font size 12-point, with 
+one (1) inch margins and 1.25 line spacing; the sole 12-point font size 
+exception is no less than size 10 point for tables, graphs, and 
+appendices. 
+4.4 DISCREPANCIES 
+In the event of any discrepancies or variations between copies, TWC is under 
+no obligation to resolve the inconsistencies and may make its scoring and 
+selection decision accordingly, including the decision to potentially disqualify 
+a Response. If Respondent fails to designate an “Original” Response as 
+required by Section 4.5 Submission Method, TWC in its sole discretion, will 
+determine the version to be used as the original or may disqualify the 
+Response. If the Respondent submits a redacted Response as the “Original,” 
+TWC will disqualify the Response, and it will not be evaluated. 
+TWC will not accept submissions after the Response due date in Section 3.2 
+Schedule of Events to remedy discrepancies or variations in Response 
+submissions.
+
+[page 40]
+RFP No. 3202600177 ver. 1 Page 40 of 74 
+4.5 SUBMISSION METHOD 
+TWC has implemented the eProcurement platform referred to as the TWC 
+Procurement Portal. Respondent must upload all documentation indicated to 
+the TWC Procurement Portal on the “Open Opportunities” tab. 
+Submissions by any other method will not be accepted. 
+To respond to this Solicitation, Respondents must register through the TWC 
+Procurement Portal website. There is no charge to register. 
+Step-by-step instructions are available at: Vendor Registration 
+For a quick tutorial through the registration and submission process, visit: 
+Creating and Uploading a Submission. 
+Respondents must contact the Sole Point of Contact prior to the deadline if 
+there are issues with using the TWC Procurement Portal and an alternative 
+submission method may be required. Failure to contact the Sole Point of 
+Contact well before the deadline to make alternative arrangements will 
+disqualify any subsequent Response submission. 
+In no event will TWC be responsible or liable for any delay or error in 
+delivery. TWC is not responsible for electronic submissions that are 
+captured, blocked, filtered, quarantined or otherwise prevented from 
+reaching the proper destination server by any TWC anti-virus or other 
+security software. 
+It is the Respondent’s responsibility to appropriately mark and upload the 
+Proposal to the TWC Procurement Portal by the specified date. Each 
+Respondent is solely responsible for ensuring its Proposal is submitted in 
+accordance with all Solicitation requirements and ensuring timely receipt by 
+TWC. TWC is not responsible for electronic submissions that are captured, 
+blocked, filtered, quarantined or otherwise prevented from reaching the 
+proper destination server by any TWC anti-virus or other security software.
+
+[page 41]
+RFP No. 3202600177 ver. 1 Page 41 of 74 
+To confirm receipt of all electronic submissions, Respondent should request a 
+confirmation by e-mail. 
+Hard copies received will not be accepted or reviewed. 
+It is the Respondent’s responsibility to appropriately mark and deliver the 
+Response to the TWC Procurement Portal by the specified date. Each 
+Respondent is solely responsible for ensuring its Response is submitted in 
+accordance with all Solicitation requirements and ensuring timely receipt by 
+TWC. In no event will TWC be responsible or liable for any delay or 
+error in delivery. Response must be RECEIVED by TWC by the 
+Response Deadline identified in Section 3.2 Schedule of Events.
+ 
+4.6 REQUIRED FORMS AND SUBMISSION DOCUMENTS  
+Table 5: Required Forms and Submission Documents 
+Document Name 
+Narrative Proposal (Section 4.7) 
+Form 1 Execution of Response (Section 4.7.2) 
+Form 2 Cost Response (Section 4.9) 
+Form 3 References (Section 4.8) 
+Financial Statements (Section 4.11)  
+Form 5 Substitute W-9 and Direct Deposit Form  
+Proof of designation as a nonprofit organization by the Internal Revenue 
+Service (IRS) (Section 5.2 b.) 
+4.7 NARRATIVE PROPOSAL 
+4.7.1 Executive Summary 
+Respondent must provide an Executive Summary of their Response 
+(excluding cost information) that asserts the Respondent is providing, in its 
+Response, all the requirements of this Solicitation, including Article II Scope 
+of Work. The Executive Summary must demonstrate Respondent’s 
+understanding of TWC goals and objectives for this Solicitation.
+
+[page 42]
+RFP No. 3202600177 ver. 1 Page 42 of 74 
+If the Respondent is providing goods and/or services beyond those 
+specifically requested, those goods and/or services must be identified. If the 
+Respondent is offering goods and/or services that do not meet the specific 
+requirements of this Solicitation, but in the opinion of the Respondent are 
+equivalent or superior to those specifically requested, any such differences 
+must be noted in the Executive Summary. The Respondent should realize, 
+however, that failure to provide the goods and/or services specifically 
+requested may result in disqualification. 
+The Executive Summary must not exceed five (5) pages and should 
+represent a full and concise summary of the contents of the Response. 
+4.7.2 Execution of Response 
+Respondent must complete, sign, and return Form 1 Execution of 
+Response. By signing, Respondent agrees to provide the goods and/or 
+services described in this Solicitation and agrees to abide by all TWC Terms 
+and Conditions as specified in this Solicitation and in resulting Contract. A 
+Response without the required signatures is not responsive to the 
+Solicitation and will be disqualified. 
+Unsigned Responses will not be evaluated; these Responses will be kept with 
+the procurement file and not be returned to the Respondent. 
+4.7.3 Respondent Organization Information 
+Respondent must include the following information with their Response. 
+4.7.3.1 Respondent Point of Contact 
+Respondent must provide the name, address, and telephone number of 
+Respondent’s point of contact for any questions regarding the Response and, 
+if different than the point of contact for questions about the Response, the 
+name, address, and telephone number of Respondent’s point of contact for 
+any resulting Contract.
+
+[page 43]
+RFP No. 3202600177 ver. 1 Page 43 of 74 
+4.7.3.2 Experience/Respondent Organization Narrative 
+Respondent must provide a detailed narrative explaining why it is qualified 
+to provide the services enumerated in Article II Scope of Work, focusing on 
+key strengths and competitive advantages. 
+Respondent must describe its knowledge and experience in providing 
+Program Management Services to comparable clients of similar size and 
+complexity to TWC, including how many years Respondent has been 
+managing the program. The Organization Narrative must not exceed two (2) 
+pages. 
+4.7.3.3 Organization Profile 
+NOTE: Texas governmental entities are exempt from this requirement. 
+Respondent must provide an organizational profile, including: 
+a. Ownership structure (e.g., corporation, partnership, LLC, or sole 
+proprietorship), including any wholly owned subsidiaries, affiliated 
+companies, or joint ventures. (Please provide this information both 
+in a narrative and as a graphical representation.) 
+1. If Respondent is an affiliate of or has a joint venture or 
+strategic alliance with another company, Respondent must 
+identify the percentage of ownership of each joint venture 
+member or affiliate and the percentage of the parent 
+company’s ownership. The entity performing the majority of 
+the work under any resulting Contract, throughout the duration 
+of the Contract, must be the primary Respondent. 
+2. Finally, Respondent must provide its proposed operating 
+structure for the services requested under this Solicitation and 
+which entities (i.e., parent company, affiliate, joint venture, 
+subcontractor) will be performing the services.
+
+[page 44]
+RFP No. 3202600177 ver. 1 Page 44 of 74 
+b. The year the company was founded and/or incorporated. If 
+incorporated, please indicate the state where the company is 
+incorporated and the date of incorporation; 
+c. The location of company headquarters and any field office(s) that 
+may provide services for any resulting Contract; 
+d. The number of employees in the company, both locally and 
+nationally, and the location(s) from which employees will be 
+assigned to TWC’s project; and 
+e. An indication of whether the company has ever been in contract 
+with any Texas state agency. If “Yes,” specify the agency name, 
+contract term, and the scope of work for that contract. 
+4.7.4 Response to Requirements  
+a. Description of Services.  Respondent must affirm its intent to comply with 
+the requirements as stated in Section 2.2 Description of Services, and 
+affirm that it will continue to comply with these requirements during the 
+term of the Contract issued as a result of this Solicitation, if any. 
+b. Comprehensive CNA Services. Respondent must affirm and document 
+how its Proposal meets the requirements as stated in Section 2.2.1 
+Comprehensive CNA Services, and affirm that it will continue to comply 
+with these requirements during the term of the Contract issued as a 
+result of this Solicitation, if any. 
+c. Key Personnel and Proposed Organization 
+1. Respondent must affirm how its Proposal meets the requirements as 
+stated in Section 2.2.2 Key Personnel and Proposed Organization, and 
+affirm that it will continue to comply with these requirements during 
+the term of the Contract issued as a result of this Solicitation, if any.
+
+[page 45]
+RFP No. 3202600177 ver. 1 Page 45 of 74 
+2. Respondent must provide staffing profiles and resumes for all 
+dedicated key personnel who will be assigned to the Contract that 
+demonstrates their ability to meet the requirements of their roles. 
+3. Respondent must also provide staffing profiles and resumes for all 
+other key personnel assigned to career counseling and staff 
+development training for disabled employees. Include the amount of 
+time each of these positions will have committed to the execution of 
+the contract. 
+d. Communication. Respondent must affirm and document how its Proposal 
+meets the requirements as stated in Section 2.2.3 Communication, and 
+affirm that it will continue to comply with these requirements during the 
+term of the Contract issued as a result of this Solicitation, if any. 
+e. Records. Respondent must affirm and document how its Proposal meets 
+the requirements as stated in Section 2.2.4 Records, and affirm that it 
+will continue to comply with these requirements during the term of the 
+Contract issued as a result of this Solicitation, if any. 
+f. Transition Services. Respondent must affirm and document how its 
+Proposal meets the requirements as stated in Section 2.2.5 Transition 
+Services, and affirm that it will continue to comply with these 
+requirements during the term of the Contract issued as a result of this 
+Solicitation, if any. 
+g. Legislative Changes. Respondent must affirm and document how its 
+Proposal meets the requirements as stated in Section 2.2.6 Legislative 
+Changes, and affirm that it will continue to comply with these 
+requirements during the term of the Contract issued as a result of this 
+Solicitation, if any. 
+h. Advisory Committee Meetings and Support. Respondent must affirm and 
+document how its Proposal meets the requirements as stated in Section
+
+[page 46]
+RFP No. 3202600177 ver. 1 Page 46 of 74 
+2.2.7 Advisory Committee Meetings and Support, and affirm that it will 
+continue to comply with these requirements during the term of the 
+Contract issued as a result of this Solicitation, if any. 
+4.8 REFERENCES 
+Respondent must provide a minimum of three (3) references in the format 
+set forth in Form 3 References and should also provide any canceled 
+contract reference as applicable.  
+a. One (1) reference must relate to similar contracts or projects 
+performed as described in Section 2.2 Description of Services within 
+the last five (5) years, and must be from state, federal, and/or local 
+governmental entities. Do not include TWC as a reference. 
+b. One (1) reference must verify your organization’s financial capacity to 
+operate a project in the total dollar amount requested in this 
+solicitation. 
+c. One (1) reference may be a general reference of your organization’s 
+qualifications and should include companies’ history, values, and 
+experience working with the organization. 
+4.8.1 Similar Contracts 
+Each Respondent shall provide descriptions for a minimum of one (1) 
+engagement of comparable complexity and sensitivity to the requirements of 
+this Solicitation that have been conducted within the past five (5) years. The 
+description of comparable engagements shall be detailed and cover the 
+contracts the Respondent and any Subcontractors have had and all 
+experience similar to this Contract that qualifies the Respondent to meet the 
+requirements of this Contract, including, but not limited to: 
+a. Size of contract (including value); 
+b. Reason for contract termination/expiration, if contract is no longer in 
+effect;
+
+[page 47]
+RFP No. 3202600177 ver. 1 Page 47 of 74 
+c. Types of services directly provided by the Respondent and whether the 
+Respondent was the contractor or Subcontractor; 
+d. Term and type of contract, including effective dates; and 
+e. Any problems encountered. 
+4.8.2 Contract Performance 
+The Respondent shall state whether or not any of the following have 
+occurred during the last five (5) years: 
+a. The Respondent has had a contract terminated, and, if so, shall 
+provide full details, including the other party’s name, address, and 
+telephone number on Form 3 References.  
+b. The Respondent has been assessed any remedies, including liquidated 
+damages or other such monetary remedies, under any existing or past 
+contracts, and, if so, note the reason for and the amount assessed or 
+paid for each incident. 
+c. The Respondent was the subject of (i) any threatened, pending, or 
+resolved disciplinary action for substandard work and/or unethical 
+practices; or (ii) any order, judgment or decree of any federal or state 
+authority barring, suspending or otherwise limiting the right of the 
+Respondent to engage in any business, practice, or activity. 
+d. The Respondent has been involved in any civil or criminal litigation 
+and/or entered into any compromise agreement, settlement 
+agreement, or resulting consent decree or judgements, if applicable, 
+related to contract performance, the goods and/or services sought by 
+this Solicitation, or that a reasonable person knowledgeable of the 
+applicable industry would consider relevant to the work under the 
+Contract. Respondents are not required to violate any confidentiality 
+provision but must provide information not prohibited from disclosure.
+
+[page 48]
+RFP No. 3202600177 ver. 1 Page 48 of 74 
+4.9 COST RESPONSE 
+In accordance with Section 4.9 Cost Response, the Respondent shall include 
+one file named “Cost Response” that contains the Respondent’s Cost 
+Response in the format included in Form 2 Cost Response. 
+Cost information must be included as a separate document and presented 
+only in the format set forth in Form 2 Cost Response. 
+Respondent must propose their fee to manage and coordinate the State Use 
+Program under the oversight and direction of TWC. The CNA reimburses 
+TWC for expenses incurred by the State Use program at TWC in accordance 
+with Texas Human Resources Code § 122.019(f). Pricing agreed to in any 
+resulting Contract shall be firm and remain constant through the life of the 
+Contract (unless a Price Adjustment is permitted in accordance with Section 
+6.3 Price Adjustment). 
+4.10 OFFERED OPTIONS 
+TWC does not intend to limit the creativity of Respondents from bringing 
+forward new suggestions or enhancements not described in this Solicitation. 
+Respondents are encouraged to describe any Offered Options. Offered 
+Options are not required and are not considered during evaluation of 
+Responses. TWC will not award additional options if not included in the 
+Response. 
+4.11 F
+INANCIAL SOUNDNESS 
+The Respondent must include the following items in its Response unless it is 
+a governmental entity. Failure to include any of the items listed for the 
+appropriate company type may result in disqualification of the Respondent’s 
+Response. If TWC learns of a failure to disclose after a Contract has been 
+awarded to the Successful Respondent, the Contract may be terminated. In 
+the event of such termination, the Successful Respondent shall be liable for
+
+[page 49]
+RFP No. 3202600177 ver. 1 Page 49 of 74 
+all costs associated with the re-procurement, including any increased costs 
+for the services originally awarded. 
+4.11.1 Proof of Ability to Pay CRPs 
+In addition to the Financial Statements provided under Section 4.11.2, the 
+Respondent must provide proof of sufficient financial resources to pay or 
+maintain a line of credit to pay CRPs within thirty (30) Business Days as 
+required by Section 2.2.1(f). 
+4.11.2 Financial Statements 
+The Respondent must provide the following information in an electronic 
+file/document that is named in this format: “[Organization Name] 
+_TWC_RFP_No. #3202600177 Financial_Information.docx”. (A PDF form is 
+acceptable in the event that is the only format available). TWC uses the last 
+three years of each applicant’s Financial Statements that have been either 
+audited, reviewed, or compiled by a Certified Public Accountant to assess 
+financial viability. The Current Ratio, the Debt-to-Equity Ratio, and the Notes 
+to the Financial Statements are collectively reviewed and scored on a 
+pass/fail basis. 
+TWC reserves the right to disqualify a Respondent that receives a failing 
+mark. 
+a. Respondent Unique Entity Identification number (SAM.gov); 
+b. For the last three (3) fiscal years most recently ended, audited 
+financial statements prepared in accordance with Generally Accepted 
+Accounting Practices (GAAP); 
+c. Respondent’s state and county of incorporation and its principal place 
+of business;
+
+[page 50]
+RFP No. 3202600177 ver. 1 Page 50 of 74 
+d. Statement describing all unasserted and asserted legal claims, current 
+status and expected outcomes and/or judgments and any off-balance 
+sheet liabilities or contingencies; 
+e. Any official document displaying current proof of authority to conduct 
+business in the State. Examples: State Franchise Tax Certification of 
+Account Status and State Sales Tax Permit, both available from the 
+State Comptroller of Public Accounts and the Certification of Fact, that 
+is available from the Secretary of State (SOS) available at: 
+https://www.sos.state.tx.us/index.shtml. 
+If any Respondent(s) is unable to provide the annual report specified above, 
+the Respondent(s) may, at the discretion of TWC, provide the following 
+alternate report as long as Respondent affirms that it is not required to have 
+its financial statements audited and therefore does not currently have 
+audited financial statements to provide in response to this Solicitation:  
+a. Last three (3) years of unaudited financial statements, including all 
+supplements, management discussion and analysis, and actuarial 
+opinions; 
+b. An unaudited financial statement compiled, reviewed and attested by 
+an independent certified public accountant or certified public 
+accountant of the most recent quarter of operation; and  
+c. A full disclosure of any events, liabilities, or contingent liabilities that 
+could affect Respondent’s financial ability to perform this Contract.  
+At a minimum, such financial statements must include:  
+a. Balance sheet; 
+b. Income statement; 
+c. Statement of changes in financial position; 
+d. Statement of cash flows; and
+
+[page 51]
+RFP No. 3202600177 ver. 1 Page 51 of 74 
+e. Capital expenditures. 
+4.11.3 Financial Statement Frequency 
+The Successful Respondent must provide the financial statements in Section 
+4.11.1 Financial Statements annually throughout the term of the Contract. 
+4.11.4 Change in Financial Condition – Duty to Notify 
+The Response must include a certification that the Respondent will notify 
+TWC of a change in financial condition during the Contract term and any 
+renewal thereof. If a Respondent experiences a substantial change in its 
+financial condition prior to the award of the Contract, or if the Successful 
+Respondent experiences a substantial change in its financial condition during 
+the term of the Contract or any extension thereof, TWC must be notified of 
+the change in writing at the time the change occurs or is identified. Failure 
+to notify TWC of such substantial change in financial condition will be 
+sufficient grounds for rejecting the Response or terminating the Contract. 
+For the purposes of this section, examples of a substantial change in 
+financial condition are events such as insolvency, bankruptcy or receivership. 
+4.12 C
+ORPORATE GUARANTEE 
+If the Respondent is substantially owned or controlled, in whole or in part, 
+by one or more other legal entities, the Respondent must submit the 
+information required under Section 4.11 Financial Soundness above for each 
+such entity, including the most recent financial statement for each such 
+entity. The Respondent must also include a statement from the entity or 
+entities with substantial ownership or control that the entity/ies will 
+unconditionally guarantee performance by the Respondent of each and every 
+obligation, warranty, covenant, term, and condition of any Contract resulting 
+from this Solicitation. If TWC determines that an entity does not have 
+sufficient financial resources to guarantee the Respondent’s performance, 
+TWC may require the Respondent to obtain another acceptable financial
+
+[page 52]
+RFP No. 3202600177 ver. 1 Page 52 of 74 
+instrument or resource from such entity, or to obtain an acceptable 
+guarantee from another entity with sufficient financial resources to 
+guarantee Respondent’s performance. 
+TWC reserves the right to request that such entity unconditionally guarantee 
+performance by the Respondent in each and every obligation, warranty, 
+term, covenant, and condition of any Contract resulting from this 
+Solicitation. 
+4.13 E
+XCEPTIONS 
+Each Respondent is highly encouraged, in lieu of including exceptions in a 
+Response, to address all issues that might be advanced by way of exception 
+by submitting such issues as questions or requests for clarification pursuant 
+to Section 3.7 Questions/Requests for Clarification. 
+Any exception included in a Response may result in a Respondent not being 
+awarded a Contract. If a Respondent includes exceptions in its Response, 
+Respondent is required to use Form 1 Execution of Response and provide 
+all information requested on the form. Any exception that does not provide 
+all required information in the format set forth in Form 1 Execution of 
+Response may be rejected without consideration. 
+Respondent must clearly identify the specific section and language to which 
+it takes exception, propose specific alternative language, and describe its 
+reasoning for requesting the exception. TWC will only consider exceptions 
+submitted on Form 1 Execution of Response. 
+No exception, nor any other term, condition, or provision in a Response that 
+differs from or contradicts this Solicitation will be considered to be part of 
+any resulting Contract unless expressly made a part of the Contract in 
+writing by TWC. 
+Any exceptions or deviations by the Respondent to Attachment 1 – TWC 
+Terms and Conditions may make the Response unacceptable for award
+
+[page 53]
+RFP No. 3202600177 ver. 1 Page 53 of 74 
+without discussion. If a Respondent proposes exceptions to Attachment 1 – 
+TWC Terms and Conditions, TWC may make an award without discussion 
+to the next highest scoring Respondent with no exceptions to Attachment 1 
+– TWC Terms and Conditions. 
+4.14 BINDING OFFER 
+A Response should be responsive to the Solicitation as worded and without 
+any assumption that any or all terms, conditions, or provisions of the 
+Solicitation will be negotiated. Furthermore, all Responses constitute binding 
+offers. Any Response that includes any type of disclaimer or other statement 
+indicating that the Response, or any portion of the Response, does not 
+constitute a binding offer may be disqualified, as determined by TWC in its 
+sole discretion. 
+If a Respondent’s ability to enter into a Contract is contingent upon any 
+exception or assumption provided in accordance with Section 4.13 
+Exceptions, the Respondent may be disqualified from further consideration 
+for Contract award. 
+4.15 FRANCHISE TAX – RIGHT TO TRANSACT BUSINESS IN TEXAS 
+If applicable, the Texas franchise tax is imposed on each taxable entity 
+formed or organized in Texas or doing business in Texas. 
+Respondent must be set up in the Texas franchise tax system prior to 
+Contract award if applicable. Texas franchise tax information can be 
+accessed at https://comptroller.texas.gov/taxes/franchise/. 
+4.16 DISCLOSURE OF INTERESTED PARTIES 
+If TWC determines that Texas Government Code § 2252.908 may apply to a 
+Contract award, TWC will instruct the Respondent to disclose interested 
+parties to the Texas Ethics Commission (TEC) and TWC. A Respondent 
+subject to this requirement must:
+
+[page 54]
+RFP No. 3202600177 ver. 1 Page 54 of 74 
+a. complete TEC Form 1295, Certificate of Interested Parties at 
+https://www.ethics.state.tx.us/filinginfo/1295/; 
+b. submit the form online to TEC,  
+c. print the completed form that includes the Certificate Number 
+automatically assigned by TEC, and  
+d. submit the form, signed by its authorized agency, by email to TWC.  
+If a Respondent does not timely submit a completed and signed TEC 
+Form 1295 to TWC, TWC is prohibited by law from executing a 
+contract, even if the potential awardee is otherwise eligible for 
+award. TWC may award the contract to another Respondent. TWC 
+may seek appropriate damages for Respondent’s failure to comply 
+with this requirement.  
+4.17 A
+MBIGUITY, CONFLICT, OR DISCREPANCY 
+Respondent must notify the Sole Point of Contact identified in Section 3.5 
+Sole Point of Contact of any ambiguity, conflict, discrepancy, exclusionary 
+specification, omission, or error in the Solicitation in the manner and by the 
+deadline described in Section 3.7 Questions/Requests for Clarification. 
+If Respondent fails to properly and timely notify the Sole Point of Contact of 
+any ambiguity, conflict, discrepancy, exclusionary specification, omission, 
+need for clarification, or other error in the Solicitation, Respondent: 
+a. Waives any claim of error or ambiguity in the Solicitation and any 
+resulting Contract; 
+b. Submits a Response at its own risk; 
+c. May not contest the interpretation by TWC of such provision(s); and 
+d. Is not entitled to additional compensation, relief, or time by reason of 
+ambiguity, conflict, discrepancy, exclusionary specification, omission, 
+or other error or TWC’s later correction.
+
+[page 55]
+RFP No. 3202600177 ver. 1 Page 55 of 74 
+4.18 RESPONSE IRREVOCABILITY 
+Responses submitted to the Solicitation are irrevocable for one hundred 
+eighty (180) calendar days following the solicitation closing date. This period 
+may be extended at TWC’s Procurement and Contract Services Director’s 
+request only by a Respondent’s written agreement. Upon Contract execution, 
+prices agreed upon by the Successful Respondent(s) are an irrevocable offer 
+for the term of the Contract and any Contract renewals or extension(s). No 
+other costs, rates, or fees shall be payable to the Successful Respondent 
+unless expressly agreed upon in writing by TWC. 
+4.19 QUESTIONS OR REQUESTS FOR CLARIFICATION  
+By submitting a Response, Respondent grants TWC the right to ask 
+questions and request clarification. As part of the initial evaluation, the 
+evaluation committee may request clarification. Clarifying questions to a 
+Respondent are to resolve conflicting information, apparent ambiguities, or 
+minor clerical errors within the Response. 
+4.20 COST OF SUBMISSION AND ADDITIONAL EVALUATION ACTIVITIES 
+TWC will not reimburse Respondents for any costs related to Response 
+preparation or submission. Additionally, Respondents will be responsible for 
+their own presentation equipment if invited to participate in additional 
+evaluation activities, such as in-person discussions, clarifications, or 
+negotiations. Failure to participate in the requested additional evaluation 
+activities may eliminate a Respondent from further consideration. 
+TWC is not responsible for any costs incurred by the Respondent in 
+preparation for any additional evaluation activities. All costs incurred by 
+Respondent are the responsibility of Respondent.
+
+[page 56]
+RFP No. 3202600177 ver. 1 Page 56 of 74 
+4.21 TWC RIGHTS 
+All submitted Responses become the property of TWC. TWC reserves the 
+right to use any and all ideas presented in any Response to this Solicitation. 
+Selection or rejection of any Response does not affect this right. 
+The rights of TWC include, but are not limited to: 
+a. Cancellation of this Solicitation at TWC’s sole discretion; 
+b. Suspension of the procurement process and issuance of Solicitation 
+Addenda; 
+c. Rejection, in whole or in part, of any and all Responses received for 
+this Solicitation; 
+d. Waiver of administrative deficiencies or minor technicalities in any of 
+the Responses; 
+e. Utilization of any and all ideas presented in the Responses; 
+f. Directing any Respondent to submit Response modifications 
+addressing subsequent Addenda; 
+g. Elimination of any requirements that are not met by all Respondents 
+upon notice to all parties submitting a Response; 
+h. Making typographical corrections to Responses, with the concurrence 
+of the Respondent; 
+i. Changing computational errors with the concurrence of the 
+Respondent; 
+j. Requesting Respondents to clarify the Responses; 
+k. Requesting Respondents to submit additional information pertaining to 
+the Response; and 
+l. Making an award without: 
+1. Requesting clarification;
+
+[page 57]
+RFP No. 3202600177 ver. 1 Page 57 of 74 
+2. Allowing modification; 
+3. Discussing; 
+4. Negotiating; and/or 
+5. Requesting a revised response. 
+ARTICLE V EVALUATION AND AWARD 
+TWC will award a Contract to the Respondent(s) that offers the best value to 
+the State and is in the State’s best interest as determined using the 
+evaluation criteria described in this Article V. 
+Responses that meet the minimum qualifications will be submitted to the 
+evaluation committee for review and scoring. Each member of the evaluation 
+committee will receive a copy of each responsive Response. The evaluators 
+will review the Responses considering the criteria listed in Section 5.5 
+Evaluation Criteria. 
+Evaluators will individually score the Responses. 
+5.1 CONFORMANCE WITH STATE LAW 
+Responses shall be evaluated in accordance with Texas Government Code § 
+2155.074(B). TWC shall not be obligated to select the lowest priced 
+Response but shall make an award to the Respondent that provides the best 
+value to the State of Texas. 
+5.2 MINIMUM QUALIFICATIONS (PASS/FAIL) 
+A Respondent must meet the minimum qualifications listed below. Failure to 
+meet any one of the minimum qualifications listed below may result in a 
+disqualification of that Response. 
+a. Respondent must have recently been in business for a minimum of five 
+(5) years, or the principals/owners must have had ownership/
+
+[page 58]
+RFP No. 3202600177 ver. 1 Page 58 of 74 
+executive management experience within the last five (5) in a previous 
+company that provided program management services; 
+b. Respondent must submit proof that they are designated as a nonprofit 
+organization by the Internal Revenue Service (IRS) such as: IRS 
+Determination Letter, State Registration Certificate or Form 990 
+Filings; 
+c. Respondent must submit a complete and signed Form 1 Execution of 
+Response, in accordance with Section 4.7.2 Execution of Response; 
+d. Respondent must be financially solvent and adequately capitalized, as 
+determined based on a review of documentation required by Section 
+4.11 Financial Soundness; 
+e. Respondent has submitted the Response in accordance with Article IV 
+Response Submission Instructions; see also Section 4.6 Required 
+Forms and Submission Documents; 
+f. Respondent who receives an overall score on the VPTS of ”D” or below 
+shall be disqualified from consideration for award. 
+5.3 I
+NITIAL COMPLIANCE SCREENING 
+TWC will review Responses for initial compliance with the Submission 
+requirements listed in Article IV and for demonstrated ability to meet Section 
+5.2 Minimum Qualifications (Pass/Fail) required to advance to evaluations. 
+Failure to meet the minimum qualifications will result in the disqualification 
+of the Response. 
+TWC will automatically disqualify any Response that does not include one or 
+more of the completed and signed (as applicable) documents. 
+All Responses will be screened for inclusion of all required information prior 
+to release to the evaluation team. TWC may exclude from further
+
+[page 59]
+RFP No. 3202600177 ver. 1 Page 59 of 74 
+consideration for selection any non-responsive Response or portion of a 
+Response. 
+5.4 RESPONSE EVALUATION 
+Each member of the evaluation committee will read the Responses in 
+preparation for evaluation. The evaluation committee will score all 
+Responses that pass initial screening in Section 5.3 Initial Compliance 
+Screening, even if there is only one viable Response. Responses will be 
+scored against the criteria in Section 5.5 Evaluation Criteria. 
+Responses will be evaluated utilizing aggregated individual scoring outlined 
+in this Article V Evaluation and Award. The individual evaluators’ scores will 
+be aggregated and weighted, resulting in the final Response Score, unless 
+TWC requests a Revised Response from those Respondents in the 
+Competitive Range. 
+5.5 EVALUATION CRITERIA 
+TWC shall consistently evaluate and score Responses in accordance with the 
+following criteria. 
+a. Ability to Perform Services (50%) 
+1. Section 4.7.4 Response to Requirements; 
+b. Past Performance, Experience, Qualifications, and References (40%)  
+1. Section 4.7.3.2 Experience/Respondent Organization Narrative; and 
+2. Form 3 References (including Cancelled Contract 
+References) (Section 4.8.1 Similar Contracts, and Section 4.8.2 
+Contract Performance). 
+c. Price or Reasonableness of Price Proposal (10%)
+
+[page 60]
+RFP No. 3202600177 ver. 1 Page 60 of 74 
+5.6 COMPETITIVE RANGE 
+The Competitive Range will consist of the Responses that receive the highest 
+scores, or most satisfactory ratings based on the published evaluation 
+criteria and procedures governing this procurement. Cutoff for the 
+Competitive Range will be based on the “natural break” in scores and on 
+reasoned judgment that Responses below the cutoff cannot be made 
+successful through clarification and negotiation. TWC is not obligated to 
+enforce a natural break in scores and reserves the right to advance as many 
+or as few Responses as qualified under these criteria to achieve the best 
+value for the state of Texas. 
+5.7 D
+ISCUSSIONS AND REVISED RESPONSES 
+After the written Response evaluation, Respondent may be selected for 
+invitation to additional evaluation activities that may include one or more of 
+the following: oral presentations, clarifications, discussions, Proof of 
+Concept, demonstrations, and site visits. Advancement will be determined 
+by the Competitive Range. 
+A Respondent that does not meet the advancement criteria in this Section 
+will not be invited to participate in additional evaluation activities. The Final 
+Written Response Score will be considered the Total Score, and the 
+Respondent may not be considered further for Contract award. 
+To further identify the Respondent providing the best value, Respondents 
+selected for additional evaluation activities will be the final group of 
+Respondents eligible for award. Additional evaluation activities will allow for 
+revised points for the Respondent’s Final Written Response Score to replace 
+the original technical score. This will be the Final Written Response Score 
+with any adjusted points received, if applicable. 
+TWC may require additional evaluation activities from any or all Respondents 
+to make a determination for award recommendation. Information from the
+
+[page 61]
+RFP No. 3202600177 ver. 1 Page 61 of 74 
+additional evaluation activities will be used in addition to the scoring of the 
+criteria in Section 5.5 Evaluation Criteria. TWC will provide Respondents with 
+advance notice of any such Additional Evaluation Activities. Advance notice 
+will include an agenda and specific scenarios or use cases for each category 
+or criteria listed in this Section. 
+5.8 BEST AND FINAL OFFER (BAFO) 
+A Respondent should provide its best offer in its original Response. 
+Respondents should not expect or assume that TWC will request a Revised 
+Response or a BAFO at any time. TWC reserves the right to request more 
+than one Revised Response from each of the Respondents in the Competitive 
+Range; however, multiple, successive Responses are not envisioned should 
+TWC issue a Request for BAFO as that is intended to be a “best and final 
+offer.” A Request for Revised Response or BAFO does not guarantee the 
+Respondent an award or that further negotiations will be conducted. 
+If a Response is submitted to a Request for a Revised Response or BAFO, the 
+Final Written Response Scores or Total Score (as outlined by Section 5.9 
+Final Response Score and Total Score) will be revised in accordance with the 
+stated criteria in Section 5.5 Evaluation Criteria as to any changes made to 
+the Respondent’s original Response.  
+The Request for Revised Response or BAFO will allow a Respondent the 
+opportunity to revise its original Response, including pricing. Revisions must 
+be submitted in the manner and form prescribed by the Request. Requests 
+will be sent to the point of contact provided by the Respondent. TWC is not 
+responsible for a Respondent’s failure to timely receive or respond to a 
+Request. 
+If a Request for Revised Response or BAFO is issued by TWC, it will be 
+evaluated by the Evaluation Committee based on the criteria listed in Section
+
+[page 62]
+RFP No. 3202600177 ver. 1 Page 62 of 74 
+5.5 Evaluation Criteria, rescored, and ranked. The award will then be 
+granted to the Respondent that represents the best value to the State. 
+5.9 FINAL RESPONSE SCORE AND TOTAL SCORE 
+A Respondent’s Final Response Score is based on the cumulative score of all 
+criteria in Section 5.5 Evaluation Criteria. If a Request for Revised Response 
+or BAFO is requested, the Final Response Score will be based on the Request 
+for Revised Response or BAFO score, and any previous scores will be 
+archived in the procurement record. 
+The Final Response Score may not always determine best value or selection 
+for negotiation and award. See Section 5.10 Summary of Best Value 
+Determination for more information. 
+5.10 SUMMARY OF BEST VALUE DETERMINATION 
+The final selection for award will be based on best value, as determined by 
+this section. This includes, but is not limited to, any scoring adjustments for 
+outliers, Requests for Revised Offers or BAFOs, or other additional 
+considerations as specified by this Solicitation. A Respondent is encouraged 
+to thoroughly review the processes outlined in this Article V, as it documents 
+the best value considerations to be made by TWC in selecting a Respondent 
+for negotiation and Contract award. 
+If, for any reason, a Contract cannot be executed with a Respondent 
+selected for award within a reasonable timeframe of TWC’s determination to 
+seek to contract with that Respondent, TWC may negotiate a Contract with 
+the next highest-scored Respondent or may cancel, withdraw, modify, or 
+partially award this Solicitation. 
+5.11 P
+UBLIC INFORMATION ACT 
+Information, documentation, and other materials submitted in connection 
+with this Solicitation or resulting Contract may be subject to public disclosure 
+pursuant to the Texas Public Information Act, Texas Government Code,
+
+[page 63]
+RFP No. 3202600177 ver. 1 Page 63 of 74 
+Chapter 552. See Attachment 1 – TWC Terms and Conditions, Section 
+2.4. 
+TWC may, in its sole discretion (1) disqualify all Respondents that 
+fail to fully comply with the requirements set forth in this section, or 
+(2) offer all Respondents that fail to fully comply with the 
+requirements set forth in this section additional time to comply. 
+Submitting partial or incomplete information that suggests inclusion 
+of confidential information constitutes failure to comply with the 
+requirements set forth in this section. 
+5.11.1 Responses 
+If Respondent asserts that information provided in its Response is exempt 
+from disclosure under the Texas Public Information Act, Respondent must 
+mark and submit two separate, searchable Portable Document Format (PDF) 
+copies (Original Response and “Public Information Act Copy,” including 
+attachments, of the Original Response) as identified below. This copy is in 
+addition to the original and all copies otherwise required under the 
+provisions of this Solicitation).  
+a. Mark Original Proposal:  
+1. Mark the top of the front page with the words “CONTAINS 
+CONFIDENTIAL INFORMATION” in large, bold, capitalized letters 
+(the size of, or equivalent to, 12-point Verdana font or larger); 
+2. Mark the bottom of each page that contains information that 
+Respondent claims is exempt from public disclosure with the words 
+“CONTAINS CONFIDENTIAL INFORMATION”; 
+3. Identify, adjacent to each portion of the Response that Respondent 
+claims is exempt from public disclosure, the claimed exemption 
+from disclosure. Vague and general claims to confidentiality will not 
+be acceptable.
+
+[page 64]
+RFP No. 3202600177 ver. 1 Page 64 of 74 
+NOTE: No redactions are to be made in the Original Response. 
+b. Mark Public Information Act Copy of Response: 
+1. Mark the copy at the top of the front page with “Public Information 
+Act Copy” in large, bold, capitalized letters (the size of, or 
+equivalent to, 12-point Verdana font or larger); 
+2. Each portion Respondent claims is exempt from public disclosure 
+must be redacted (blacked out); and  
+3. Identify, adjacent to each redaction, the claimed exemption from 
+disclosure. Each identification provided as required by this 
+subsection (b) must be identical to the redactions identified in 
+subsection (a)(3), above. The only difference in required markings 
+and information between the Original Response and the “Public 
+Information Act Copy” of the Response will be redactions, which can 
+only be made in the “Public Information Act Copy.” There must be 
+no redactions in the Original Response. 
+Respondent should not submit a Public Information Act Copy indicating that 
+the entire Response is exempt from disclosure. Merely making a blanket 
+claim that the entire Response is protected from disclosure because it 
+contains any amount of confidential, proprietary, trade secret, or privileged 
+information is not acceptable, and this blanket claim will not be considered 
+by TWC. 
+A Response should not be marked or asserted as copyrighted material. If 
+Respondent asserts a copyright to any portion of its Response, Respondent 
+agrees to reproduction and posting on public websites by the State of Texas, 
+including all other state agencies, without cost or liability and, additionally, 
+agrees to allow the State of Texas to provide a copy of the Response to 
+individuals making a Public Information Act request for the response.
+
+[page 65]
+RFP No. 3202600177 ver. 1 Page 65 of 74 
+5.11.2 Contract 
+Within five (5) days from Contract execution, the Successful Respondent 
+must submit a “Public Information Act Copy” of the Original Executed 
+Contract (in addition to the original executed contract) to the TWC contract 
+manager by email. The Public Information Act Copy must meet the following 
+requirements: 
+a. The copy must be clearly marked as “Public Information Act Copy” on 
+the front page in large, bold, capitalized letters (the size of, or 
+equivalent to, 12-point Verdana font or larger); 
+b. Each portion Successful Respondent claims is exempt from public 
+disclosure must be redacted (blacked out); and 
+c. Successful Respondent must identify, adjacent to each redaction, the 
+claimed exemption from disclosure. Each identification provided as 
+required in Subsection (b) of this section must be identical to those set 
+forth in the Original Response as required in Section 5.11.(a)(2) 
+above. The only difference in required markings and information 
+between the Original Contract and the “Public Information Act Copy” of 
+the contract will be redactions, which can only be included in the 
+“Public Information Act Copy.” There must be no redactions in the 
+Original Contract. 
+ARTICLE VI GENERAL TERMS AND 
+CONDITIONS 
+The Terms and Conditions identified in the Solicitation and Attachment 1 – 
+TWC Terms and Conditions are applicable to this Solicitation and any 
+Contract resulting from this Solicitation. TWC reserves the right to 
+incorporate additional provisions in the Contract in the best interest of TWC.
+
+[page 66]
+RFP No. 3202600177 ver. 1 Page 66 of 74 
+In the event of a conflict between this Solicitation and applicable laws and 
+regulations, precedence shall be given to the laws and regulations. 
+6.1 CONTRACT AWARD 
+TWC intends to award one (1) contract as a result of this Solicitation.  
+A written notice of Contract Award will be posted on the ESBD and sent to all 
+Respondents immediately following execution of the Contract. 
+6.2 CONTRACT TERM 
+The Contract Term will commence on the fully executed Contract date and 
+expire two (2) years after execution date. At the end of the initial Term, 
+TWC will have the sole option to renew the term of the Contract for three (3) 
+additional one-year (1-year) terms. 
+The Contract is contingent upon the continued availability of funding. If 
+funds become unavailable through lack of appropriations, legislative budget 
+cuts, amendment of the General Appropriations Act, TWC consolidation of 
+offices, or any other disruption of current appropriations, Termination 
+provisions of Attachment 1- TWC Terms and Conditions shall apply. 
+If the resulting Contract does not include a defined option period, the 
+extension is limited to one year. 
+6.3 PRICE ADJUSTMENT 
+TWC approves the Management Fee Rate charged by the CNA for its services 
+in accordance with § 122.019(e) of the Texas Human Resources Code. 
+Currently, the Management Fee Rate charged by a CNA for its services is 
+computed as a percentage of the selling price of the product or the contract 
+price of a service; it must be included in the selling price or contract price 
+and must be paid at the time of sale. The management fee rate must be 
+reviewed on an annual basis in accordance with § 122.030 of the Texas 
+Human Resources Code.
+
+[page 67]
+RFP No. 3202600177 ver. 1 Page 67 of 74 
+6.4 CONTRACT AMENDMENTS 
+The Contract may be amended only by written agreement signed by both 
+the Successful Respondent and TWC, except in the case of changes in state 
+of federal law. 
+6.5 NO GUARANTEE OF VOLUMES, USAGE, OR COMPENSATION 
+TWC makes no guarantee of volume, usage, or total compensation to be 
+paid to a Respondent under an awarded Contract, if any, resulting from this 
+Solicitation. 
+6.6 GOVERNMENTAL ENTITIES 
+If Respondent is responding to this Solicitation in its capacity as a 
+governmental entity, certain Terms and Conditions found in this Solicitation, 
+including exhibits and attachments, may not be applicable. Furthermore, to 
+the extent permitted by law, if a Response is received from a governmental 
+entity, TWC reserves the right to enter into an interagency or interlocal 
+agreement with the governmental entity. 
+6.7 R
+ESPONDENT WAIVER – INTELLECTUAL PROPERTY 
+SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS 
+SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND 
+AGREEMENT BY RESPONDENT TO FULLY INDEMNIFY THE STATE OF 
+TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE 
+STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL 
+PROPERTY RIGHTS OF RESPONDENT OR ANY THIRD PARTY FOR ANY 
+MATERIALS SUBMITTED TO TWC BY RESPONDENT. 
+6.8 I
+NSURANCE 
+For the duration of any Contract resulting from this Solicitation, the 
+Successful Respondent shall acquire insurance, bonds, or both, with 
+financially sound and reputable independent insurers, in the type and
+
+[page 68]
+RFP No. 3202600177 ver. 1 Page 68 of 74 
+amount listed in Attachment 1 – TWC Terms and Conditions, Section 
+3.19 Insurance Requirements. 
+Notwithstanding the preceding, TWC reserves the right to consider 
+reasonable alternative methods of ensuring the Contract in lieu of the 
+insurance policies customarily required. It will be the Respondent's 
+responsibility to recommend to TWC alternative methods of insuring the 
+Contract. Any alternatives proposed by Respondent should be accompanied 
+by a detailed explanation regarding Respondent's inability to obtain the 
+required insurance and/or bonds. TWC shall be the sole and final judge as to 
+the adequacy of any substitute form of insurance coverage. 
+Failure to maintain insurance coverage or acceptable alternative methods of 
+insurance shall be deemed a breach of Contract. 
+6.9 R
+EMEDIES 
+6.9.1 Assessment of Remedies 
+Once TWC has determined that Remedies are to be assessed, the Executive 
+Director or Executive Director’s designee shall notify the Successful 
+Respondent of the assessment(s). TWC will withhold Remedies from 
+payments to the Successful Respondent, or, if no payments are to be made, 
+TWC will make demand of payment of Remedies. The Successful Respondent 
+must make payment within thirty (30) days of the TWC’s demand. In the 
+event the Successful Respondent fails to pay within the thirty (30) 
+day period, TWC may make a claim for payment against the 
+performance bond, with or without notice to the Successful 
+Respondent, if applicable. 
+6.9.2 Failure to Assess Remedies 
+The failure of TWC to assess Remedies in any instance where TWC is entitled 
+to Remedies under the terms of this Solicitation, or the resulting Contract
+
+[page 69]
+RFP No. 3202600177 ver. 1 Page 69 of 74 
+shall not constitute waiver in any fashion of TWC’s rights to assess 
+Remedies. 
+6.9.3 Failure to Notify TWC of a Change of Ownership or Control or 
+Change in Financial Condition 
+The failure of the Successful Respondent to notify TWC of a change of 
+ownership or control or change in financial condition as required in Sections 
+6.12 Changes in Ownership and 4.11.3 Change in Financial Condition – Duty 
+to Notify may result in the Successful Respondent being assessed sanctions 
+in the amount of one thousand dollars ($1000) per incident. 
+6.9.4 Failure to Comply with Disclosure Requirement 
+The failure of the Successful Respondent to comply with the disclosure 
+requirement in Attachment 1 – TWC Terms and Conditions, Section 2.3 
+may result in the Successful Respondent being assessed sanctions in the 
+amount of one thousand dollars ($1000) per incident. 
+6.9.5 Failure to Produce Records or Information 
+6.9.5.1 As Part of Background Investigation 
+The failure of the Successful Respondent to cooperate with and/or produce 
+records or information as part of a background investigation conducted 
+pursuant to Attachment 1 – TWC Terms and Conditions, Section 2.31 
+may result in the Successful Respondent being assessed Remedies in the 
+amount of five thousand dollars ($5000) per day for each day the 
+records/information are not produced, or answers are not provided. 
+6.9.5.2 As Part of an Audit 
+The failure of the Successful Respondent to cooperate with and/or produce 
+records or information as part of an audit conducted pursuant to 
+Attachment 1 – TWC Terms and Conditions, Sections 2.15-2.17 or 
+requested pursuant to Attachment 1 – TWC Terms and Conditions,
+
+[page 70]
+RFP No. 3202600177 ver. 1 Page 70 of 74 
+Section 2.39 may result in the Successful Respondent being assessed 
+Remedies in the amount of five thousand dollars ($5000) per day for each 
+day the records/information are not produced, or answers are not provided. 
+6.10 LIQUIDATED DAMAGES 
+6.10.1 General 
+It is agreed by TWC and the Successful Respondent that: 
+a. If the Successful Respondent does not provide or perform the 
+requirements referred to or listed in this Solicitation or fulfill the 
+obligations of the Contract, damage to TWC will result; 
+b. establishing the precise measure of damages in the event of default by 
+the Successful Respondent may be (i) costly, (ii) time consuming, or 
+(iii) difficult or impossible to calculate; 
+c. the liquidated damage assessments contained herein represent a good 
+faith effort to quantify the damages that could reasonably be 
+anticipated at the time of execution of the Contract; 
+d. the damages set forth herein are just and reasonable; 
+e. nothing contained in this section shall be construed as relieving the 
+Successful Respondent from performing all Contract requirements 
+whether or not said requirements are set forth herein; and 
+f. TWC may, therefore, in its sole discretion, deduct damages from the 
+compensation otherwise due to the Successful Respondent. All 
+assessments of damages shall be within the sole discretion of TWC. 
+g. The Successful Respondent shall perform all services in accordance 
+with the RFP requirements, provisions, terms, and conditions. This 
+remedy is for failure to perform services according to a requirement, 
+provision, term, or condition not covered by another remedy. Subject 
+to the nature and extent of the non-compliance, TWC may assess a
+
+[page 71]
+RFP No. 3202600177 ver. 1 Page 71 of 74 
+ten percent (10%) remedy on each monthly invoice for all services 
+until compliance is achieved. 
+1. Before this remedy can be applied, TWC must issue a written 
+demand and provide the Successful Respondent a period of 
+thirty (30) calendar days to achieve compliance in most 
+circumstances. TWC, at its sole discretion, may reduce the time 
+period depending on the criticality of the non-compliance. 
+2. TWC may apply one (1) or more of the remedies in response to 
+non-compliance by the Successful Respondent. 
+3. In addition to the non-performance remedies above, TWC may 
+elect to exercise its options to include any available remedy at 
+law or in equity, up to and including termination of the Contract. 
+6.10.2 Liquidated Damages Assessment 
+Once TWC has determined that liquidated damages are to be assessed, TWC 
+shall notify the Successful Respondent of the assessment(s). Upon receipt of 
+written notice, the Successful Respondent will have ten (10) days to provide 
+a written explanation of any justification that may be applicable to the 
+liquidated damages being considered and a corrective action plan for 
+bringing the operations within the standards specified. TWC has the right to 
+amend the corrective action plan submitted by the Successful Respondent. 
+In all cases, the corrective action plan must be approved by TWC in writing 
+prior to implementation. The corrective action plan must be implemented by 
+the Successful Respondent at no cost to and upon approval by the TWC 
+Contract Manager. Liquidated damages will not be assessed during the 
+specified cure period for the activity in question. If the breach is not cured or 
+the Successful Respondent does not provide a written justification and/or 
+approved corrective action plan, TWC will withhold liquidated damages from 
+payments to the Successful Respondent, or, if no payments have been 
+made, TWC will make demand of payment of liquidated damages. The
+
+[page 72]
+RFP No. 3202600177 ver. 1 Page 72 of 74 
+Successful Respondent must make payment within thirty (30) days of TWC’s 
+demand. In the event the Successful Respondent fails to pay within the 
+thirty (30) day period, TWC may utilize the option to withhold any additional 
+payments. Failure to pay assessed liquidated damages within the designated 
+time frame may be deemed by TWC to be a breach of contract. 
+6.10.3 Specific Liquidated Damage(s) 
+6.10.3.1 Failure to resolve all issues reported by the TWC Program 
+Managers and/or Customers within three (3) Business Days from 
+the time the issue was originally reported to the Successful 
+Respondent, or upon agreed-upon time frame will result in an 
+assessment of five hundred dollars ($500) per day per instance 
+following a five (5) Business Day cure. 
+6.10.3.2 Failure to deliver ad hoc reports to TWC within ten (10) Business 
+Days from the day the report is requested will result in an 
+assessment of five hundred dollars ($500) per day per instance 
+following a five (5) Business Day cure. 
+6.10.3.3 Failure by the Successful Respondent’s Account Manager to 
+respond to email from the TWC Program Managers and/or 
+Customers within twenty-four (24) hours, or by close of business 
+of the next Business Day will result in an assessment of five 
+hundred dollars ($500) per day per instance following a five (5) 
+Business Day cure. 
+6.10.3.4  Failure by the Successful Respondent’s Account Manager to be 
+available Monday through Friday, between the hours of 8AM 
+through 5PM, with the exception of the state of Texas holidays, 
+will result in an assessment of five hundred dollars ($500) per 
+day per instance following a five (5) Business Day cure. 
+6.10.3.5  Failure by the Successful Respondent’s SPD Liaisons to be 
+available Monday through Friday, between the hours of 8AM
+
+[page 73]
+RFP No. 3202600177 ver. 1 Page 73 of 74 
+through 5PM, with the exception of the State of Texas holidays, 
+will result in an assessment of five hundred dollars ($500) per 
+day per instance following a five (5) Business Day cure. 
+6.11 SERVICE LEVEL AGREEMENTS  
+The Successful Respondent shall meet or exceed the service criteria and 
+timelines below. Ongoing failure to meet these timelines and criteria may be 
+considered a breach of contract. If TWC determines that any of the timelines 
+and criteria are not met for any given calendar month, TWC will provide 
+written notice to the Successful Respondent. 
+6.11.1  The Successful Respondent must resolve all issues reported by 
+the TWC Program Managers and/or customers within three (3) 
+Business Days from the time the issue was originally reported to 
+the Successful Respondent, or upon agreed-upon time frame. 
+6.11.2  The Successful Respondent must deliver ad hoc reports to TWC 
+within ten (10) Business Days from the day the report is 
+requested. 
+6.11.3  The Successful Respondent’s Account Manager must respond to 
+email from the TWC Program Managers and/or customers within 
+twenty-four (24) hours, or by close of business of the next 
+Business Day. 
+6.11.4  The Successful Respondent’s Account Manager must be available 
+Monday through Friday, between the hours of 8AM through 5PM, 
+with the exception of the state of Texas holidays. 
+6.11.5  The Successful Respondent’s SPD Liaisons must be available 
+Monday through Friday, between the hours of 8AM through 5PM, 
+with the exception of the state of Texas holidays.
+
+[page 74]
+RFP No. 3202600177 ver. 1 Page 74 of 74 
+6.12 CHANGES IN OWNERSHIP 
+The Response must include a certification that the entity is not for sale or to 
+become acquired by another business entity during the twelve (12) months 
+following the Response Deadline. 
+During the term of the Contract or any extension or renewal thereof, the 
+Successful Respondent shall notify TWC in writing of any substantial change 
+in the ownership or control of the Successful Respondent as soon as 
+possible, but no later than thirty (30) days prior to its occurrence. 
+6.13 SEVERABILITY 
+If any provision or portion of this Solicitation is illegal, void, or 
+unenforceable, the other provisions will not be affected. 
+END OF SOLICITATION

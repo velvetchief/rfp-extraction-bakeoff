@@ -1,0 +1,660 @@
+[page 1]
+Joe Esparza, Chairman and Commissioner 
+Representing Employers 
+Alberto Treviño III, Commissioner 
+Representing Labor 
+Brent Connett, Commissioner 
+Representing the Public 
+Steve Pier, Executive Director 
+___________________________________ 
+Invitation for Bids (IFB) 
+for  
+acSoft Inc ServiceNow Power BI Plug-In Connector 
+IFB No. 3202600219 
+Date of Release: July 10, 2026 
+Bids Due: July 24,2026 by 10:00 a.m. Central Time 
+*920-05 Application, Infrastructure, Hosting, Data Hosting and Cloud Computing 
+Services, Vendor Hosted and Internally Hosted 
+*920-45 Software Maintenance and Support Services and Updates and Data Hosting 
+Services 
+*208-11 Application Software, (Not Otherwise Classified), Microcomputer 
+ 
+Sole Point of Contact for this IFB (see Section 4.1) 
+Kelly Hall, CTCD 
+Procurement Lead 
+VendorProposals@twc.texas.gov
+
+[page 2]
+IFB No. 3202600219 Page 2 of 25 
+Table of Contents 
+DEFINITIONS.................................................................................... 4 
+Article I. Purpose, Authority, and Schedule of Events ............................. 7 
+1.1 Purpose ................................................................................. 7 
+1.2 Authority ............................................................................... 7 
+1.3 Schedule of Events .................................................................. 7 
+Article II. Scope of Work ................................................................... 8 
+2.1 Overview/Background.............................................................. 8 
+2.2 Description of Services/Scope of Work/Specifications .................. 8 
+Article III. General Information .......................................................... 10 
+3.1 Terms and Conditions ............................................................. 10 
+3.2 Contract Award ...................................................................... 10 
+3.3 Contract Execution ................................................................. 10 
+3.4 Contract Term ....................................................................... 10 
+3.5 Price Adjustment ................................................................... 11 
+3.6 Payments .............................................................................. 11 
+3.7 Contract Amendments ............................................................ 12 
+3.8 No Guarantee of Volume, Usage or Compensation ...................... 12 
+3.9 Governmental Entities ............................................................ 12 
+3.10 Offer Period ........................................................................... 12 
+3.11 Cost Incurred ........................................................................ 13 
+3.12 Public Information Act-Bidder Response .................................... 13 
+3.13 Public Information Action-Contract Award ................................. 13 
+3.14 Bidder Waiver-Intellectual Property .......................................... 14 
+3.15 Insurance ............................................................................. 14 
+3.16 Changes of Ownership or Financial Condition ............................. 15 
+3.17 Sanctions and Remedies ......................................................... 15 
+3.18 General ................................................................................ 17 
+3.19 Severability ........................................................................... 19 
+3.20 Franchise Tax - Right to Transact Business in Texas ................... 19 
+3.21 Subcontractor Requirements ................................................... 19 
+3.22 Historical Compensation.......................................................... 20 
+Article IV. Bid Process ...................................................................... 20 
+4.1 Sole Point of Contact .............................................................. 20 
+4.2 Bid Composition ..................................................................... 21 
+4.3 Bid Submission and Delivery ................................................... 22
+
+[page 3]
+IFB No. 3202600219 Page 3 of 25 
+Article V. Bid Tabulation and Award Process ....................................... 23 
+5.1 Screening of Responses .......................................................... 23 
+5.2 Evaluation ............................................................................. 23 
+Article VI. Required Bid Information ................................................... 24 
+6.1 Execution of Bid ..................................................................... 24 
+6.2 Cost Sheet ............................................................................ 24 
+LIST OF ATTACHMENTS AND FORMS ................................................ 25
+
+[page 4]
+IFB No. 3202600219 Page 4 of 25 
+DEFINITIONS 
+As used in this Solicitation, unless a different definition is specified or the 
+context clearly indicates otherwise, the following terms have the meanings 
+assigned below: 
+“Addendum” means a written addition, change, or supplement to this 
+Solicitation that is posted as a notification to the ESBD. 
+“Bidder” means the individual or entity that submits an offer or Bid. The term 
+includes anyone acting on behalf of the individual or entity that submits an 
+offer or Bid, such as an agent, employee, and representative.  
+“Business Day” means days occurring Monday through Friday except for the 
+legal holidays observed by the State of Texas. The terms “Working Days” and 
+“Business Days” may be used interchangeably. All uncapitalized references to 
+“days” shall be calendar days. 
+“Competitive Range” consists of the offers or Bids that have a reasonable 
+chance of being selected for award based on the evaluation criteria and basis 
+for award as stated in this Solicitation. 
+“Contract” means the written agreement entered into by TWC and Successful 
+Bidder, which will incorporate the contents of this IFB and the Successful 
+Bidder’s Bid, except as may be provided in the Contract and any amendments 
+thereto. 
+“Contract Term” means the definite period of time that the Contract will 
+remain in effect. 
+“ESBD” means the Electronic State Business Daily, an online platform, 
+administered by the Statewide Procurement Division (SPD) of the Comptroller 
+of Public Accounts, that publishes solicitations for the purpose of informing 
+vendors of procurement opportunities and provides public notice of contract
+
+[page 5]
+IFB No. 3202600219 Page 5 of 25 
+awards. The ESBD may currently be accessed at 
+http://www.txsmartbuy.com/esbd. 
+“HUB” means Historically Underutilized Business, as defined by Chapter 2161 
+of the Texas Government Code and Title 34 of the Texas Administrative Code 
+(TAC), § 20.282.  
+“IFB” means this document including all exhibits, attachments, forms, and 
+Addenda, if any. May also be referred to as Invitation for Bids. 
+“PCS” means Procurement and Contract Services, a department within TWC’s 
+Business Operations division. 
+“PS” means Procurement Services, a division of PCS. 
+“Solicitation” means this IFB, including all exhibits, attachments, forms, and 
+Addenda, if any. 
+“State” means the State of Texas and its instrumentalities, including TWC, its 
+officers, employees, or authorized agents, and any other state agencies. 
+“Subcontractor” refers to a person who contracts with a vendor to work or 
+continue toward completing work for a governmental entity. The term does not 
+include a state agency. The term includes an officer or employee of a state 
+agency when the officer or employee contracts with a vendor in a private 
+capacity. 
+“Successful Bidder” means the Bidder with whom TWC executes a Contract to 
+provide the goods and/or services that this Solicitation requires. 
+“VetHUB” means Veteran Heroes United in Business, as defined by Chapter 
+2161 of the Texas Government Code and Title 34 of the Texas Administrative 
+Code (TAC), § 20.282. 
+“TWC” means the Texas Workforce Commission. 
+“VPTS” means Vendor Performance Tracking System, as described under Texas 
+Government Code § 2262.055 and 34 TAC § 20.115. Reporting requirements
+
+[page 6]
+IFB No. 3202600219 Page 6 of 25 
+and vendor performance factors considered in VPTS are described in Texas 
+Government Code § 2155.089 and 34 TAC § 20.509.
+
+[page 7]
+IFB No. 3202600219 Page 7 of 25 
+ARTICLE I. PURPOSE, AUTHORITY, AND 
+SCHEDULE OF EVENTS 
+1.1 PURPOSE 
+Procurement Services (PS) , a section within Procurement and Contract 
+Services (PCS), will administer the procurement process for this Solicitation, 
+which includes this Invitation for Bid  (IFB) announcement and publication, 
+Respondent communications, receipt of Responses, screening of timely 
+received responses, and facilitating  the evaluation of qualified Responses. 
+PCS, in coordination with each TWC program, manages the execution of the 
+award, through issuance of Purchase Order(s) or other Contract document, 
+resulting from this IFB. 
+Information regarding TWC and its programs is available online and can 
+currently be accessed at www.twc.texas.gov. 
+TWC is seeking competitive bids for the acSoft Inc ServiceNow Power Business 
+Intelligence (BI) Plug-In Connector.  
+1.2 AUTHORITY 
+TWC is soliciting the goods and/or services stated in this Solicitation under 
+the authority Texas Government Code § 2157.006(a)(2). 
+1.3 SCHEDULE OF EVENTS 
+The dates in this Schedule of Events are tentative, and TWC reserves the 
+right to modify these dates at any time. At the sole discretion of TWC, 
+events listed in the Schedule of Events are subject to changes and 
+cancellation. Scheduling changes or cancellation made prior to the Deadline 
+for Submission of Bids will be published as an Addendum posted to the 
+ESBD. Bidder is required to sign and return an Addendum or Addenda with 
+the Bid.
+
+[page 8]
+IFB No. 3202600219 Page 8 of 25 
+EVENT DATE and TIME 
+Solicitation Notification posted to ESBD July 10, 2026  
+Deadline for Submission of Bids (NOTE: 
+Bids must be RECEIVED by TWC by the 
+deadline) 
+July 24,2026 at 10:00 AM 
+Central Time 
+Anticipated Notice of Intent August 2026  
+Anticipated Contract Start Date August 2026  
+Bidder must submit its Bid to TWC in accordance with the due date and time 
+as indicated in this Schedule of Events or as changed via a notification of an 
+Addendum posted to the ESBD.  
+ARTICLE II. SCOPE OF WORK 
+2.1 OVERVIEW/BACKGROUND 
+a. TWC is procuring the acSoft Inc ServiceNow Power BI plug-in connector.   
+b. This ServiceNow Microsoft Power BI plug-in connector is utilized to 
+facilitate seamless extraction, transformation, and loading (ETL) of data 
+from ServiceNow into Microsoft Power BI.  In addition, this ServiceNow 
+Power BI plug-in connector provides a robust, integrated bridge between 
+both platforms, allowing TWC to quickly generate comprehensive datasets 
+from any ServiceNow table within a single, unified data source. 
+2.2 DESCRIPTION OF SERVICES/SCOPE OF WORK/SPECIFICATIONS 
+These specifications are being advertised under Section 2155.067 of 
+the Texas Government Code. Only bids on items conforming exactly 
+to these specifications, which include proposing only the brand 
+name(s), make and model number(s) specified, will be considered in 
+determining an award.
+
+[page 9]
+IFB No. 3202600219 Page 9 of 25 
+a. Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-
+in connector. 
+b. Successful Bidder must provide key features of the acSoft Inc ServiceNow 
+Power BI plug-in connector which include: 
+1. The ability to export any ServiceNow tables and fields (including 
+Custom tables and fields); 
+2. The ability to include any amount of tables and fields to your Data 
+Source; 
+3. The ability to create any amount of Data Sources (data sets); 
+4. No limitations in exported data. To reduce the server load during the 
+export process, the application provides the server-side pagination of 
+data over the OData protocol (limited to 1.000 rows per page); 
+5. Advanced filtering options to manage data selection and export only 
+the relevant information; 
+6. Robust permission settings and access management for secure data 
+sharing; 
+7. Dot-walking mechanism for exporting Reference type data, allowing 
+easy access and inclusion of fields from related tables; 
+8. Incremental refresh support for efficient Power BI reports and 
+dashboards updates without reimporting the entire dataset; 
+9. Power Query support (merge ServiceNow with other data sources, 
+transform data and load it into Power BI Desktop with no-code 
+experience); and 
+10. Pre-typed data, eliminating the need for manual conversion to target 
+types such as integer, boolean, decimal, etc.
+
+[page 10]
+IFB No. 3202600219 Page 10 of 25 
+Article III. GENERAL INFORMATION 
+3.1 TERMS AND CONDITIONS 
+The Terms and Conditions identified in the Solicitation and Attachment 1 
+– TWC Terms and Conditions are applicable to this Solicitation and any 
+Contract resulting from this Solicitation. TWC reserves the right to 
+incorporate additional provisions in the Contract in the best interest of 
+TWC. 
+In the event of a conflict between this Solicitation and applicable laws and 
+regulations, precedence shall be given to the laws and regulations. 
+3.2 CONTRACT AWARD 
+TWC intends to award one (1) Contract as a result of this Solicitation.  
+A written notice of Contract Award will be posted on the ESBD, and 
+notification will be sent to all Bidders immediately following execution of 
+the Contract. 
+3.3 CONTRACT EXECUTION 
+If, for any reason, a Contract cannot be executed with a Bidder selected 
+for award within thirty (30) days of TWC’s determination to seek to 
+contract with that Bidder, TWC may negotiate a Contract with the next 
+lowest responsive Bidder or may withdraw, modify, or partially award this 
+Solicitation. 
+3.4 CONTRACT TERM 
+The Contract Term will commence on the later of August 15, 2026 or the 
+fully executed Contract date and expire twelve (12) months from that 
+date.
+
+[page 11]
+IFB No. 3202600219 Page 11 of 25 
+The Contract is contingent upon the continued availability of funding. If 
+funds become unavailable through lack of appropriations, legislative 
+budget cuts, amendment of the General Appropriations Act, TWC 
+consolidation of offices, or any other disruption of current appropriations, 
+Termination provisions of Attachment 1 - TWC Terms and Conditions 
+shall apply. 
+Following the base term and any allowable renewals or extensions, TWC 
+may extend any resulting Contract for not more than one additional option 
+period to address immediate operational or service delivery needs. If the 
+resulting Contract does not include a defined option period, the extension 
+is limited to one year. 
+3.5 P
+RICE ADJUSTMENT 
+Pricing agreed to in any resulting Contract shall be firm and remain 
+constant based on the price agreed upon at award through the life of the 
+Contract and any exercised optional renewal terms, if applicable. 
+3.6 P
+AYMENTS 
+Payment will be made by TWC in accordance with the pricing provided on 
+Form 2 – Cost Sheet. The pricing is considered all-inclusive, and no other 
+pricing may be provided on an invoice. 
+TWC must acknowledge that the services have been satisfactorily performed 
+and products received, if applicable, which are included on an invoice prior 
+to approving the invoice for payment. 
+Any additional expenses incurred by the Contractor are the responsibility of 
+the Contractor and will not be paid by TWC.
+
+[page 12]
+IFB No. 3202600219 Page 12 of 25 
+TWC will not pay any per diem, travel, hotel, equipment, phone calls, 
+paper, reproduction services, office space, or other incidental expenses 
+related to performing the services required by the Contract. 
+3.7 CONTRACT AMENDMENTS 
+The Contract may be amended only by written agreement signed by both 
+the Successful Bidder and TWC. 
+3.8 NO GUARANTEE OF VOLUME, USAGE OR COMPENSATION 
+TWC makes no guarantee of volume, usage, or total compensation to be 
+paid to a Bidder under an awarded Contract, if any, resulting from this 
+Solicitation.  
+TWC reserves the right to cancel, make partial award, or decline to award 
+a Contract under this Solicitation at any time at its sole discretion.  
+3.9 G
+OVERNMENTAL ENTITIES 
+If Bidder is responding to this Solicitation in its capacity as a governmental 
+entity, certain Terms and Conditions found in this Solicitation, including 
+exhibits and attachments, may not be applicable. Furthermore, to the 
+extent permitted by law, if a Bid is received from a governmental entity, 
+TWC reserves the right to enter into an interagency or interlocal 
+agreement with the governmental entity.  
+3.10 O
+FFER PERIOD 
+Bids shall be binding for a period of ninety (90) days after the submission 
+due date. A Bidder may extend the time for which its Bid will be honored. 
+Upon Contract execution, prices agreed upon by the Successful Bidders(s) 
+are an irrevocable offer for the term of the Contract and any Contract 
+renewals or extension(s). No other costs, rates, or fees shall be payable to 
+the Successful Bidder unless expressly agreed upon in writing by TWC.
+
+[page 13]
+IFB No. 3202600219 Page 13 of 25 
+3.11 COST INCURRED 
+Bidder understands that issuance of this Solicitation in no way constitutes 
+a commitment by TWC to award a Contract. Additionally, TWC is not liable 
+for any costs incurred by a Bidder in the preparation of a response to this 
+Solicitation. Costs of developing Bids, preparing for, or participating in 
+Oral Presentations and Site Visits, or any other similar expenses incurred 
+by a Bidder are entirely the responsibility of the Bidder, and will not be 
+reimbursed in any manner by the State of Texas. 
+3.12 PUBLIC INFORMATION ACT-BIDDER RESPONSE 
+Information, documentation, and other materials submitted in connection 
+with this Solicitation or resulting Contract may be subject to public 
+disclosure pursuant to the Texas Public Information Act, Texas 
+Government Code, Chapter 552. See Attachment 1 - Terms and 
+Conditions, Section 2.4.  
+If Bidder asserts that information provided in its Bid is exempt from 
+disclosure under the Texas Public Information Act, Bidder must mark and 
+submit two separate, searchable Portable Document Format (PDF) copies 
+(Original Bid and “Public Information Act Copy,” including attachments, of 
+the Original Bid) as identified below. This copy is in addition to the original 
+and all copies otherwise required under the provisions of this Solicitation.  
+3.13 P
+UBLIC INFORMATION ACTION-CONTRACT AWARD 
+Within five (5) Business days from Contract execution, the Successful 
+Bidder must submit a “Public Information Act Copy” of the Original 
+Executed Contract (in addition to the original executed contract) to the 
+TWC contract manager by email. The Public Information Act Copy must 
+meet the following requirements:
+
+[page 14]
+IFB No. 3202600219 Page 14 of 25 
+a. The copy must be clearly marked as “Public Information Act Copy” on 
+the front page in large, bold, capitalized letters (the size of, or 
+equivalent to, 12-point Arial font or larger); 
+b. Each portion Successful Bidder claims is exempt from public 
+disclosure must be redacted (blacked out); and 
+c. Successful Bidder must identify, adjacent to each redaction, the 
+claimed exemption from disclosure. Each identification provided as 
+required in Subsection (b) of this section must be identical to those 
+set forth in the Original Bid as required in Section 3.12 above. 
+The only difference in required markings and information between 
+the Original Contract and the “Public Information Act Copy” of the 
+contract will be redactions, which can only be included in the 
+“Public Information Act Copy.” There must be no redactions in the 
+Original Contract. 
+3.14 B
+IDDER WAIVER-INTELLECTUAL PROPERTY 
+SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS 
+SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND 
+AGREEMENT BY BIDDER TO FULLY INDEMNIFY THE STATE OF 
+TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST 
+THE STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL 
+PROPERTY RIGHTS OF BIDDER OR ANY THIRD PARTY FOR ANY 
+MATERIALS SUBMITTED TO TWC BY BIDDER. 
+3.15 INSURANCE 
+For the duration of any Contract resulting from this Solicitation, the 
+Successful Bidder shall acquire insurance, bonds, or both, with financially 
+sound and reputable independent insurers, in the type and amount listed 
+in Attachment 1 – TWC Terms and Conditions.
+
+[page 15]
+IFB No. 3202600219 Page 15 of 25 
+Notwithstanding the preceding, TWC reserves the right to consider 
+reasonable alternative methods of insuring the Contract in lieu of the 
+insurance policies customarily required. It will be the Bidder’s 
+responsibility to recommend to TWC alternative methods of insuring the 
+Contract. Any alternatives proposed by Bidder should be accompanied by 
+a detailed explanation regarding Bidder's inability to obtain the required 
+insurance and/or bonds. TWC shall be the sole and final judge as to the 
+adequacy of any substitute form of insurance coverage.  
+Failure to maintain insurance coverage or acceptable alternative methods 
+of insurance shall be deemed a breach of Contract.  
+3.16 C
+HANGES OF OWNERSHIP OR FINANCIAL CONDITION 
+During the term of the Contract or any extension or renewal thereof, the 
+Successful Bidder shall notify TWC in writing of any substantial change in 
+the ownership or control of the Successful Bidder as soon as possible, but 
+no later than thirty (30) days prior to its occurrence. Successful Bidder 
+must also notify TWC in writing of any change in financial condition as 
+soon as possible, but no later than ten (10) days after its occurrence. 
+The failure to notify TWC of a change of ownership or control or change in 
+financial condition will be sufficient grounds for rejecting the Bid or 
+terminating the Contract. For the purposes of this section, examples of a 
+substantial change in financial condition are events such as insolvency, 
+bankruptcy, or receivership. 
+3.17 S
+ANCTIONS AND REMEDIES 
+3.17.1 General 
+It is agreed by TWC and the Successful Bidder that: 
+a. If the Successful Bidder does not provide or perform the
+
+[page 16]
+IFB No. 3202600219 Page 16 of 25 
+requirements referred to or listed in this Solicitation or fulfill the 
+obligations of the Contract, damage to TWC will result; 
+b. establishing the precise measure of damages in the event of default 
+by the Successful Bidder may be (i) costly, (ii) time consuming, or 
+(iii) difficult or impossible to calculate; 
+c. the liquidated damage assessments contained herein represent a 
+good faith effort to quantify the damages that could reasonably be 
+anticipated at the time of execution of the Contract; 
+d. the damages set forth herein are just and reasonable; 
+e. nothing contained in this section shall be construed as relieving the 
+Successful Bidder from performing all Contract requirements 
+whether or not said requirements are set forth herein; and 
+f. TWC may, therefore, in its sole discretion, deduct damages from the 
+compensation otherwise due to the Successful Bidder. All 
+assessments of damages shall be within the sole discretion of TWC. 
+3.17.2 Assessment of Sanctions 
+Once TWC has determined that Sanctions are to be assessed, the 
+Executive Director or Executive Director’s designee shall notify the 
+Successful Bidder of the assessment(s). TWC will withhold Sanctions from 
+payments to the Successful Bidder or, if no payments are to be made, 
+TWC will make demand of payment of Sanctions. The Successful Bidder 
+must make payment within thirty (30) days of TWC’s demand. In the 
+event the Successful Bidder fails to pay within the thirty (30) day period, 
+TWC may make a claim for payment against the performance bond, with 
+or without notice to the Successful Bidder, if applicable. 
+3.17.3 Failure to Assess Sanctions 
+The failure of TWC to access Sanctions in any instance where TWC is 
+entitled to Sanctions under the terms of this Solicitation, or the resulting
+
+[page 17]
+IFB No. 3202600219 Page 17 of 25 
+Contract shall not constitute waiver in any fashion of TWC’s rights to 
+assess Sanctions. 
+3.18 GENERAL 
+It is agreed by TWC and the Successful Bidder that: 
+a. If the Successful Bidder does not provide or perform the requirements 
+referred to or listed in this Solicitation or fulfill the obligations of the 
+Contract, damage to TWC will result; 
+b. Establishing the precise measure of damages in the event of default by 
+the Successful Bidder may be (i) costly, (ii) time consuming, or (iii) 
+difficult or impossible to calculate; 
+c. The liquidated damage assessments contained herein represent a good 
+faith effort to quantify the damages that could reasonably be 
+anticipated at the time of execution of the Contract; 
+d. The damages set forth herein are just and reasonable; 
+e. Nothing contained in this section shall be construed as relieving the 
+Successful Bidder from performing all Contract requirements whether 
+or not said requirements are set forth herein; and 
+f. TWC may, therefore, in its sole discretion, deduct damages from 
+compensation otherwise due to the Successful Bidder. All assessments 
+of damages shall be within the sole discretion of TWC. 
+3.18.1 Assessment of Liquidated Damages 
+a. Once TWC has determined that liquidated damages are to be 
+assessed, the TWC shall notify the Successful Bidder of the 
+assessment(s).
+
+[page 18]
+IFB No. 3202600219 Page 18 of 25 
+b. Upon receipt of written notice, the Successful Bidder will have ten 
+(10) days to provide a written explanation of any justification that 
+may be applicable to the liquidated damages being considered and 
+a corrective action plan for bringing the operations within the 
+standards specified.  
+c. TWC has the right to amend the corrective action plan submitted 
+by the Successful Bidder.  
+d. In all cases, the corrective action plan must be approved by TWC 
+in writing prior to implementation. The corrective action plan must 
+be implemented by the Successful Bidder at no cost to and upon 
+approval by the TWC Contract Manager.  
+e. Liquidated damages will not be assessed during the specified cure 
+period for the activity in question.  
+f. If the breach is not cured or the Successful Bidder does not provide 
+a written justification and/or approved corrective action plan, TWC 
+will withhold liquidated damages from payments to the Successful 
+Bidder, or, if no payments have been made, TWC will make 
+demand of payment of liquidated damages.  
+g. The Successful Bidder must make payment within thirty (30) days 
+of TWC’s demand.  
+h. In the event the Successful Bidder fails to pay within the thirty 
+(30) day period, TWC may utilize the option to withhold any 
+additional payments.  
+i. Failure to pay assessed liquidated damages within the designated 
+time frame may be deemed by TWC to be a breach of contract.
+
+[page 19]
+IFB No. 3202600219 Page 19 of 25 
+3.19 SEVERABILITY 
+If any provision or portion of this Solicitation is illegal, void, or 
+unenforceable, the other provisions will not be affected. 
+3.20 FRANCHISE TAX - RIGHT TO TRANSACT BUSINESS IN TEXAS 
+If applicable, the Texas franchise tax is imposed on each taxable entity 
+formed or organized in Texas or doing business in Texas. 
+Bidder must be set up in the Texas franchise tax system prior to Contract 
+award if applicable. Texas franchise tax information can be accessed at 
+https://comptroller.texas.gov/taxes/franchise/. 
+3.21 SUBCONTRACTOR REQUIREMENTS 
+Bidder must indicate whether or not it holds any financial interest in any 
+Subcontractor. As a condition of award, an authorized officer or agent of 
+each proposed Subcontractor may be required to sign a statement to the 
+effect that the Subcontractor has read, and will agree to abide by, Bidder’s 
+obligations under any Contract awarded pursuant to this Solicitation. 
+The Successful Bidder must obtain prior written approval from TWC if any 
+part of the Contract between TWC and the Successful Bidder is to be 
+subcontracted, and the Subcontractor must comply with all applicable 
+requirements of TWC. TWC reserves the sole right to require the 
+Successful Bidder to terminate any Subcontractor with or without cause. 
+In the event TWC approves of the use of any Subcontractor, the 
+Successful Bidder is not relieved of its responsibility and obligation to meet 
+all the requirements of this Solicitation. 
+TWC will incur no additional obligations, and the obligations of the 
+Successful Bidder will not be reduced as a result of any such subcontracts.
+
+[page 20]
+IFB No. 3202600219 Page 20 of 25 
+The Successful Bidder’s obligation to pay Subcontractors is governed by 
+Texas Government Code § 2251.022 (Time for Payment by Vendor), and 
+any amendments thereto. 
+3.22 HISTORICAL COMPENSATION 
+Historical compensation under Contracts for similar goods or services and 
+similar scope and size to this Solicitation was $25,333.33 per fiscal year. 
+TWC reserves the right to adjust any projected amount based on funding 
+during the term of a resulting Contract. 
+Article IV. BID PROCESS 
+4.1 SOLE POINT OF CONTACT 
+4.1.1 Sole Point of Contact 
+The Sole Point of Contact for this Solicitation is: 
+Kelly Hall, CTCD 
+Procurement Lead 
+VendorProposals@twc.texas.gov 
+All requests, questions, or other communication about this Solicitation must 
+be directed to the Sole Point of Contact.  
+4.1.2 Prohibited Communication 
+Except as provided in Section 4.1.1 (Sole Point of Contact) a potential 
+Bidder and Bidder that has submitted a Bid is prohibited from any 
+communication with TWC regarding the Solicitation. Unless allowable, 
+TWC, its representative(s), and partners will not answer any questions or 
+otherwise discuss the contents of this Solicitation with any potential 
+Bidder or its representative(s). Attempts to ask questions by phone or in
+
+[page 21]
+IFB No. 3202600219 Page 21 of 25 
+person will not be allowed or recognized as valid. Bidder shall rely only on 
+written statements issued by or through TWC designated staff as 
+provided by Section 4.1 (Inquiries). Failure to comply with these 
+restrictions may result in disqualification of Bidder's Bid. These 
+restrictions do not preclude discussions between affected parties for the 
+purposes of conducting business unrelated to this Solicitation.  
+4.2 B
+ID COMPOSITION 
+4.2.1 General Information 
+Bidder must fully and completely address all requirements described in 
+this Solicitation. Incomplete or partial Bids will not be considered. The 
+Bidder must provide all information that the Bidder believes would be 
+helpful to TWC in evaluating the Bidder’s ability to fulfill the Solicitation 
+requirements. Bidder shall prepare a Bid that clearly and concisely 
+represents its qualifications and capabilities.  
+4.2.2 Ambiguity, Conflict, or Discrepancy 
+Bidders must notify the Sole Point of Contact, Section 4.1, of any 
+ambiguity, conflict, discrepancy, exclusionary specification, omission, or 
+other error in the IFB. 
+If Bidder fails to properly and timely notify the Sole Point of Contact, 
+Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary 
+specification, omission or other error in the IFB, the Bidder, whether 
+awarded a contract or not: 
+a) Waives any claim of error or ambiguity in the Solicitation and any 
+resulting Contract; 
+b) Submits a Bid at its own risk; 
+c) May not contest the interpretation by TWC of such provision(s); and
+
+[page 22]
+IFB No. 3202600219 Page 22 of 25 
+d) Is not entitled to additional compensation, relief, or time by reason 
+of ambiguity, conflict, discrepancy, exclusionary specification, 
+omission, or other error or its later correction. 
+4.2.3 Changes, Modifications, and Cancellations of Solicitation 
+TWC reserves the right to make changes to or cancel this Solicitation. 
+TWC will post all changes and modifications, whether made as a result of 
+a potential Bidder’s written inquiries or otherwise, and cancellation 
+notices on the ESBD. 
+4.3 BID SUBMISSION AND DELIVERY 
+4.3.1 Deadline 
+Bids must be received by PS as prescribed no later than date and time 
+specified in Section 1.3 (Schedule of Events).  
+4.3.2 Submission Method 
+You must submit your bid electronically by email to 
+VendorProposals@twc.texas.gov. Reference the IFB Title, IFB No., 
+and the Submission Deadline date and time, in the subject line. 
+In no event will TWC be responsible or liable for any delay or 
+error in delivery. TWC is not responsible for electronic submissions that 
+are captured, blocked, filtered, quarantined or otherwise prevented from 
+reaching the proper destination server by any TWC anti-virus or other 
+security software. 
+Hard copies received will not be accepted or reviewed. 
+Each Bidder is solely responsible for ensuring its Bid is submitted in 
+accordance with all Solicitation requirements and ensuring timely receipt 
+by TWC.
+
+[page 23]
+IFB No. 3202600219 Page 23 of 25 
+4.3.3 Ownership of Bids 
+All materials submitted by a Bidder will become the property of 
+TWC and may be used as TWC deems appropriate. A Bid will not 
+be returned to the Bidder. 
+ARTICLE V. BID TABULATION AND AWARD 
+PROCESS 
+5.1 SCREENING OF RESPONSES 
+An administrative screening of Responses timely received will be conducted 
+by TWC PCS to determine which Responses meet all IFB minimum 
+requirements and are deemed responsive and qualified for further 
+consideration:  
+a. Bidder has completed, signed and submitted Form 1 – Execution of 
+Bid in accordance with Section 6.1 Execution of Bid. 
+b. Bidder has completed and submitted Form 2 – Cost Sheet in 
+accordance with Section 6.3 Cost Sheet. 
+c. Bidder who receives an overall score as recorded in the CPA Texas 
+Vendor Performance Tracking System (VPTS) of “D” or below shall be 
+disqualified from consideration for award. 
+TWC reserves the right to ask questions or request clarification from any 
+Bidder at any time during the screening process. 
+5.2 E
+VALUATION  
+TWC will consider the purchase price and whether the Bidder meets all 
+requirements of this IFB.
+
+[page 24]
+IFB No. 3202600219 Page 24 of 25 
+Article VI. REQUIRED BID INFORMATION 
+SUBMITTING BID INFORMATION  
+ Form 1 - Execution of Bid 
+ Form 2- Cost Sheet 
+ Public Information Act -, if applicable. Reference Section 3.12 
+Public Information Act – Bidder Requirements Regarding 
+Disclosure 
+ Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form 
+6.1 EXECUTION OF BID 
+Bidder must complete, sign, and return Form 1 – Execution of Bid. By 
+signing, Bidder agrees to provide the goods and/or services described in this 
+Solicitation and agrees to abide by all TWC Terms and Conditions as 
+specified in this Solicitation and in any Contract resulting from an award. 
+6.2 C
+OST SHEET 
+Cost information must be included as a separate document and presented 
+only in the format set forth in Form 2 – Cost Sheet of this Solicitation. 
+Pricing agreed to in any resulting Contract shall be firm and remain constant 
+through the life of the Contract.
+
+[page 25]
+IFB No. 3202600219 Page 25 of 25 
+LIST OF ATTACHMENTS AND FORMS 
+Attachment 1 TWC Terms & Conditions 
+Form 1 Execution of Bid 
+Form 2 Cost Sheet  
+Form 3 TWC 1020 Substitute W-9

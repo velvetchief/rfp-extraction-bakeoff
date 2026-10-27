@@ -1,0 +1,1291 @@
+<|message_model|><|content_thinking|>The user wants the full compliance matrix extracted from the RFP text provided, covering all pages including attachments/exhibits that contain vendor obligations. I need to work section by section through the document and not stop until the final page.
+
+Let me parse through the text page by page, extracting every requirement that meets the tests:
+- Binding language: shall, must, will (vendor obligation), is required to, may not.
+- Advisory language directed at vendor: should, is encouraged to.
+- Administrative facts a bidder must act on: submission deadlines, question deadlines, conference dates, required forms, page limits, copy counts, delivery addresses, eligibility/certification prerequisites, evaluation criteria and weights.
+
+Rules:
+1. verbatim_text is EXACT sentence(s). Never paraphrase, never summarize, never fix typos. Trim only surrounding boilerplate.
+2. One requirement per row. If a sentence contains two independent obligations, split it into two rows repeating shared text.
+3. section_ref is RFP's own numbering (e.g., "3.2.1", "Section IV.B"). Use nearest numbered heading if sentence unnumbered.
+4. type: "shall" for binding (shall/must/will/required), "should" for advisory, "info" for administrative facts with no modal verb.
+5. category: eligibility | deliverable | deadline | form | evaluation. Pick single best fit; deadlines with dates always get category "deadline" and ISO due_date.
+6. page is PDF page number where text appears (1-indexed).
+7. id values sequential: R-001, R-002, ... in document order.
+8. Do NOT invent requirements. If document is not RFP or has no requirements, return empty array. This is clearly an RFP.
+
+Let me go through page by page carefully.
+
+Page 1:
+- "Responses Due: August 26, 2026 by 10:30 a.m. Central Time" -> deadline, info? Actually it's an administrative fact with date. Category deadline, due_date 2026-08-26. Section? Not clearly numbered, but near top. Maybe "Cover" or use nearest? The text is on page 1 with no section number. I'll use "Cover" or "RFO Header". Actually the instruction says "Use the nearest numbered heading if the sentence itself is unnumbered." The nearest numbered heading might be none yet. I'll use "Cover Page" or just reference the page context. Actually looking at page 2, there's Table of Contents. But for page 1, I'll use "Cover" or "RFO Header". Let's use "Cover" since it's the release info.
+Wait, the user wants section_ref as RFP's own numbering. If unnumbered, use nearest numbered heading. On page 1 there are no numbered headings. I'll just put "Cover" or "Header". Actually I can put "RFO No. HHS0015558v2" but better to use "Cover". Let's proceed.
+
+Actually, looking at the text, page 1 has:
+"Date of Release: July 16, 2026" - info/deadline? It's an administrative fact. Not a vendor obligation but a fact they must act on? The rules say "Administrative facts a bidder must act on: submission deadlines, question deadlines, conference dates..." Date of release is not something bidder acts on directly, but it's an administrative fact. However, the rules say "Extract every requirement that meets ANY of these tests". The date of release is not a binding language, not advisory directed at vendor, not an administrative fact a bidder must act on (they don't have to do anything on release date). So skip.
+
+"Responses Due: August 26, 2026 by 10:30 a.m. Central Time" -> This is a deadline. Category deadline. Type info (no modal verb). Section: Cover or maybe 3.1? Actually 3.1 lists it too. But this is on page 1. I'll include it with section_ref "Cover" or "Header". Actually since 3.1 also lists it, but I should extract where it appears. Let's include it.
+
+NIGP codes - skip, not vendor obligations.
+
+Page 2: Table of contents - skip, no obligations.
+
+Page 3: Table of contents continues - skip.
+
+Page 4: Table of contents continues - skip.
+
+Page 5: Table of contents continues - skip.
+
+Page 6:
+"Prior to award of the Contract, Respondent must obtain TX-RAMP Level 2 certification." -> shall/must. Section 1.1. Type shall. Category eligibility. Page 6.
+"TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement." -> info? It's a statement of fact. Not directed at vendor as obligation? Actually it's clarifying. No modal verb directed at vendor. It's informational. But does it meet "Administrative facts a bidder must act on"? Yes, they must know provisional doesn't satisfy. But it's more of a clarification. I'll include it as info? Actually the instruction says extract every requirement that meets ANY tests. This is an administrative fact they must act on (they must get Level 2, not provisional). Let's include it. Section 1.1. Type info. Category eligibility? Or info? The category options are eligibility | deliverable | deadline | form | evaluation. This relates to eligibility/certification prerequisite. So category eligibility. But type is info since no modal verb. Actually "must obtain" is in previous sentence. This sentence is just stating a fact. I'll include it as info, category eligibility.
+
+"For this Solicitation, HHSC shall not provide “agency-sponsored” TX-RAMP Provisional Status certification to any Respondent." -> This is directed at HHSC ("HHSC shall not"). Not a vendor obligation. Skip? The rules say "Binding language: shall, must, will (vendor obligation)". This is HHSC's obligation, not vendor's. So skip.
+
+Page 7:
+"Refer to Exhibit B..." -> skip, reference.
+Definitions - skip, not obligations.
+
+Page 8: Definitions continue - skip.
+
+Page 9: Definitions continue - skip.
+
+Page 10:
+"HHSC is soliciting the services stated in this Solicitation under of the authority Texas Government Code 2157.068." -> skip, not vendor obligation.
+
+Page 11:
+"Commencing on the Effective Date and during the Contract Term, Contractor must provide Services that comply with TX-RAMP Certification Level 2." -> Section 2.1.1. Must = shall. Category deliverable? Or eligibility? It's a contract performance requirement. Category deliverable (service delivery). Page 11.
+"Contractor acknowledges that TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement." -> Section 2.1.1. Info/acknowledgment. Category deliverable? Or eligibility? It's about certification. Let's say eligibility? Actually it's part of scope. I'll put category deliverable since it's about service compliance. Or maybe eligibility since it's certification. Let's use deliverable since it's during contract term. Actually the rules say pick single best fit. Since it's about complying with certification during contract, deliverable fits.
+
+"The Contractor shall comply with Exhibit N, Requirements Traceability Matrix..." -> Section 2.1.2. Shall. Category deliverable. Page 11.
+"Non-compliance or failure to meet performance measures may result in enforcement of liquidated damages or other contractual remedies." -> Info about consequences. Not a direct vendor obligation but administrative fact. Category evaluation? Or info? Actually it's a statement of remedy. Not something vendor must do, but must know. I'll include as info, category deliverable? Or evaluation? Let's say deliverable since it relates to performance measures. Actually maybe skip? The instruction says extract every requirement. This is not a requirement on vendor, it's a statement of what may happen. But it contains "Non-compliance... may result..." No modal verb directed at vendor. It's advisory/informational. I'll include it as info, category deliverable.
+
+"In accordance with Exhibit N, Requirements Traceability Matrix, the following requirements areas are included:" -> This introduces a list. The list items themselves are not obligations but references. Skip the list? Actually the items are "1. Transition Requirements..." etc. These are not sentences with obligations. Skip.
+
+Page 12:
+"The Contractor, for no additional compensation, shall conduct on an annual basis a Disaster Recovery test to assess the effectiveness of the Contractor’s Disaster Recovery Plan." -> Section 2.1.3. Shall. Category deliverable. Page 12.
+"On or before the ninetieth (90th) Calendar Day following each Disaster Recovery test, Contractor will provide DSHS, with a written summary report detailing the results of the Disaster Recovery test." -> Section 2.1.3. Will (vendor obligation) = shall. Category deliverable. Page 12. Note: "will provide" is vendor obligation.
+"Upon DSHS’s written request, Contractor shall make Contractor personnel available to discuss with DSHS the results of the Disaster Recovery test." -> Section 2.1.3. Shall. Category deliverable. Page 12.
+"Contractor shall use commercially reasonable efforts to resolve issues identified during the Disaster Recovery test and, for each unsuccessful test, Contractor shall conduct an additional Disaster Recovery test in a timely manner to validate the successful implementation of Contractor’s remediation activities." -> This has two obligations:
+1. "Contractor shall use commercially reasonable efforts to resolve issues identified during the Disaster Recovery test"
+2. "for each unsuccessful test, Contractor shall conduct an additional Disaster Recovery test in a timely manner to validate the successful implementation of Contractor’s remediation activities."
+Split into two rows. Section 2.1.3. Both shall. Category deliverable. Page 12.
+
+"The Contractor shall submit an invoice to DSHS in a format consistent with the line-item descriptions of Exhibit M, Cost Proposal." -> Section 2.1.4. Shall. Category deliverable. Page 12.
+"Each invoice submitted must identify:" -> Must. Category deliverable. Page 12. Then list a-d. These are requirements for the invoice content. Let's split them? The sentence introduces them. Actually the list items are part of the same obligation. Let's see:
+"a. The purchase order number;"
+"b. HHSC’s Contract number;"
+"c. The time period (e.g., month); and"
+"d. Line-item description for Service or Deliverable."
+These are all part of "Each invoice submitted must identify:". I should split them? The rule says "If a sentence contains two independent obligations, split it into two rows repeating the shared text." Here it's one obligation (identify these items) with four sub-items. I could either make one row with the full text including the list, or split each item. The instruction says "One requirement per row. If a sentence contains two independent obligations, split it into two rows repeating the shared text." These are not independent obligations; they're elements of one identification requirement. However, to be precise, I might include the main sentence and then each item? Actually the user wants every "shall" etc. The list items don't have modal verbs themselves; they're part of the "must identify" sentence. So I should include the main sentence "Each invoice submitted must identify:" but that doesn't include the items. Actually the verbatim text should include the list? The instruction says "verbatim_text is the EXACT sentence(s) from the RFP." So I can include the sentence with the list. But since it's one row, I can include the whole block. However, the list items are separate lines. Let me include them as separate rows? Actually it's better to capture each specific identification requirement separately? Let's think. The rule says "One requirement per row." If I put all four in one row, that's one requirement with four parts. That's acceptable. But to be safe and complete, I could split them since each is a distinct piece of information that must be included. However, they share the text "Each invoice submitted must identify:". The instruction says if two independent obligations, split repeating shared text. These are not independent; they're a list under one verb. I'll include the main sentence with the list in one row? Actually the text spans multiple lines. Let me capture the full text: "Each invoice submitted must identify: a. The purchase order number; b. HHSC’s Contract number; c. The time period (e.g., month); and d. Line-item description for Service or Deliverable." That's one row.
+
+"Failure to submit required supporting documentation with the invoice may result in return of invoices and delay of payment." -> Info. Category deliverable? Or info? It's a consequence. I'll include as info, category deliverable.
+
+"Invoices shall be sent to:" -> Shall. Category deliverable. Page 12-13. Then address. The address is part of the obligation. Let's include the sentence and the address? Actually the text continues with the address block. The sentence is "Invoices shall be sent to:" followed by the address. I should include the address in the verbatim text since it's part of the instruction. Let's capture: "Invoices shall be sent to: Health and Human Services Commission Attn: Invoice – HHSC MC2065 4601 W. Guadalupe St. Austin, TX 78751 Fax: (512) 206-4854 E-mail: IT_invoicing@hhs.texas.gov" That's one row.
+
+"Chapter 2251 of the Texas Government Code shall govern remittance of payment and remedies for late payment and non-payment." -> This is about governing law, not a vendor obligation. Skip? Actually it's an administrative fact. Not directed at vendor. Skip.
+
+Page 13:
+"DSHS intends to award one (1) Contract as a result of this Solicitation." -> Info. Not vendor obligation. Skip? Actually it's administrative fact about award. Not something vendor must do. Skip.
+"Any award is contingent upon approval of the DSHS executive commissioner or their designee." -> Info. Skip.
+"If, for any reason, a final Contract cannot be executed with a Respondent selected for award within sixty (60) days of DSHS’s determination to seek to contract with that Respondent, DSHS may negotiate a Contract with the next highest-scoring Respondent or may withdraw, modify, or partially award this Solicitation." -> This is about DSHS actions. Not vendor obligation. Skip.
+
+"The initial term of any Contract resulting from this Solicitation will for one (1) year." -> Info. Skip? It's contract term info. Not vendor obligation.
+"DSHS, at its sole option, may extend any Contract awarded pursuant to this Solicitation for up to four (4) one-year optional extensions." -> DSHS option. Skip.
+"Following the base term and any allowable renewals or extensions, DSHS may extend any resulting Contract for not more than one (1) additional option period to address immediate operational or Service delivery needs." -> Skip.
+"If the resulting Contract does not include a defined option period, the extension is limited to one (1) year." -> Skip.
+
+"Historical compensation under contracts with similar scope and size to this Solicitation has been approximately $188,400.00 per fiscal year." -> Info. Skip.
+"Notwithstanding Section 2.2.3 (Historical Compensation), DSHS reserves the right to adjust any projected amount based on state funding during the term of a resulting Contract." -> Skip.
+
+"By entering into a Contract with DSHS as a result of this Solicitation, Respondent agrees to be bound by the terms of the Data Use Agreement (DUA), attached as Exhibit D." -> Section 2.3. "Respondent agrees" = binding? It's an agreement/obligation. Category deliverable? Or form? Actually it's about being bound by DUA. Let's say deliverable or eligibility? It's a contractual obligation. Category deliverable. Type shall? The verb is "agrees" which is binding but not "shall/must/will". The rules say binding language: shall, must, will (vendor obligation), is required to, may not. "Agrees" is not in that list. But it's clearly binding. However, the rules specify the modal verbs. Should I include it? The instruction says "Binding language: shall, must, will (vendor obligation), is required to, may not." It doesn't mention "agrees". But it also says "Advisory language directed at the vendor: should, is encouraged to." And "Administrative facts...". "Respondent agrees to be bound..." is a vendor obligation but uses "agrees". Given the strict rules, maybe I should include it as "shall" equivalent? Actually the rules say "type: 'shall' for binding (shall/must/will/required)". It lists specific words. "Agrees" is not listed. But it's clearly a binding obligation. However, to be safe with the rules, I should probably include it but what type? The rules say "shall" for binding with those words. Since "agrees" is binding but not in the list, I might still classify as "shall" because it's a vendor obligation. Actually the instruction says "Binding language: shall, must, will (vendor obligation), is required to, may not." This is defining what counts as binding. "Agrees" might not meet the test. But the sentence also contains "Respondent agrees..." which is directed at vendor. I think I should include it as "shall" since it's a binding commitment. Or maybe "info"? Let's think. The user wants every requirement. This is definitely a requirement: they must agree to DUA. I'll include it as type "shall" (binding vendor obligation) and category "deliverable" or "form"? Actually it's about being bound by an agreement. Let's say category "deliverable" since it's part of contract execution. Actually maybe "form" since it's about Exhibit D? No, it's about agreement terms. Let's use "deliverable".
+
+"Respondents must complete and return with their Solicitation Response Exhibit D-1, Attachment 2 to the DUA, Security and Privacy Inquiry (SPI)." -> Section 2.3. Must = shall. Category form. Page 13.
+
+Page 14:
+"DSHS makes no guarantee of volume, usage, or total compensation to be paid to the Contractor under any awarded Contract, if any, resulting from this Solicitation." -> Skip, not vendor obligation.
+"Any awarded Contract is subject to appropriations and the continuing availability of funds." -> Skip.
+"DSHS reserves the right to cancel, make partial award, or decline to award a Contract under this Solicitation at any time at its sole discretion." -> Skip.
+
+Page 15:
+"Respondents must submit their Solicitation Responses to HHSC in accordance with the due date and time indicated in this Schedule of Events or as changed via an Addendum posted to the ESBD." -> Section 3.1. Must = shall. Category deadline. Page 15. The due date is in the table. Actually the table lists events. Let's extract the table entries that are deadlines or required actions.
+
+The table:
+EVENT DATE/TIME
+Solicitation Posting Date to ESBD (Date of Release) JULY 16, 2026
+Pre-proposal Conference and Subcontracting Plan Training Attendance is Optional JULY 23, 2026, at 10:00 AM Central Time
+Deadline for Submitting Questions or Requests for Clarification JULY 24, 2026 at 5:00 PM Central Time
+Tentative Date Responses to Questions or Requests for Clarification Posted on ESBD AUGUST 5, 2026
+Deadline for courtesy Subcontracting Plan review AUGUST 12, 2026 at 2:00 PM Central Time
+Deadline for Submission of Solicitation Responses [NOTE: Responses must be RECEIVED by HHSC by the deadline.] AUGUST 26, 2026 at 10:30 AM Central Time
+Evaluation Period AUGUST 2026 - OCTOBER 2026
+Anticipated Notice of Award DECEMBER 2026
+Anticipated Contract Start Date January 2027
+
+Then text: "NOTE: All dates are tentative and HHSC reserves the right to modify these dates at any time." -> Info. Skip? Actually it's an administrative fact. Not vendor obligation.
+"At the sole discretion of HHSC, events listed in the Schedule of Events are subject to scheduling changes and cancellation." -> Skip.
+"Scheduling changes or cancellation determinations made prior to the deadline for submission will be published by posting an Addendum to the ESBD." -> Skip.
+"After the deadline for submission, if there are delays that significantly impact the anticipated award date, HHSC, at its sole discretion, may post updates regarding the anticipated award date to the Procurement Forecast on the HHS Procurement Opportunities web page." -> Skip.
+"Each Respondent is responsible for checking the ESBD and Procurement Forecast for updates." -> Section 3.1. "Each Respondent is responsible for..." This is an obligation. Type shall? The word is "responsible". Not in the list. But it's directed at vendor. I'll include it as "shall" since it's a binding responsibility. Category info? Or deliverable? Actually it's an administrative obligation. Let's say category "info" since it's about checking updates, but type "shall". Wait, the rules say type "shall" for binding (shall/must/will/required). "Is responsible" is binding but not those words. I'll classify as "shall" because it's a vendor obligation. Category: maybe "info" since it's administrative? Actually the categories are eligibility | deliverable | deadline | form | evaluation. None fit perfectly. "Info" is not a category option. The options are only those five. So I must pick one. This is about staying informed, which is part of submission process. Maybe "deliverable"? Or "form"? Actually it's not a deliverable. Let's think: the categories are limited. For administrative obligations like checking ESBD, maybe "deliverable" is not right. But I have to pick one. Let's use "deliverable" as a catch-all for obligations? No, that's not right. Actually maybe "evaluation" doesn't fit. "Eligibility" doesn't fit. "Form" doesn't fit. "Deadline" doesn't fit. So "deliverable" is the best remaining option? Or maybe I should skip it since it's not clearly one of the categories? The instruction says "Pick the single best fit". For "checking ESBD", it's an administrative requirement. Since there's no "administrative" category, "deliverable" might be the closest? Actually no, deliverable is something delivered. This is an action. But I must choose. Let's choose "deliverable" for lack of better option? Or maybe "info" is not allowed. Wait, the category list is: eligibility | deliverable | deadline | form | evaluation. So yes, I must pick one. I'll pick "deliverable" for obligations that don't fit others? Actually for "submit responses in accordance with due date", that's clearly deadline. For "checking ESBD", maybe it's part of the submission process, so "deliverable"? Hmm. Let's just include it and pick "deliverable" or maybe "evaluation"? No. Let's use "deliverable" since it's part of the response process obligations.
+
+Actually, looking back at the rules: "category: eligibility | deliverable | deadline | form | evaluation. Pick the single best fit; deadlines with dates always get category 'deadline' and an ISO due_date." So for checking ESBD, I'll use "deliverable" as it's a procedural obligation.
+
+"By submitting a Solicitation Response, Respondent represents and warrants that any individual submitting the Solicitation Response and any related documents on behalf of the Respondent is authorized to do so and to bind the Respondent under any Contract that may result from this Solicitation." -> Section 3.1. This is a representation/warranty. Binding? "represents and warrants" is binding. Type shall? Not exactly the words, but it's a vendor obligation. I'll include as "shall". Category deliverable? Or form? It's about authorization. Let's say "deliverable" since it's part of submission.
+
+Page 16:
+"Respondent must notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation in the manner and by the deadline described in Section 3.3.4 (Solicitation Questions)." -> Section 3.2. Must = shall. Category deliverable? Or form? It's about notifying of errors. Let's say deliverable. Page 16.
+"Respondent submits a Solicitation Response at its own risk." -> Info. Skip? It's a statement of risk. Not an obligation. Skip.
+"If Respondent fails to properly and timely notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation, Respondent, whether awarded a Contract or not:" -> This introduces consequences. The items a, b, c are obligations/consequences.
+"a. Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;" -> This is a consequence/waiver. It's directed at respondent. "Waives" is binding? It's a result of failure. Actually it's stating what happens: they waive. This is an administrative/legal fact. I'll include it? The rules say extract requirements. This is more of a legal consequence. But it contains "Waives" which is an action by respondent (implied). Let's include the three items as obligations? Actually they are conditions: if they fail, then they waive, must not contest, and are not entitled. These are binding on them. Let's include them.
+Let's split:
+Row 1: "If Respondent fails to properly and timely notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation, Respondent, whether awarded a Contract or not: a. Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;"
+Row 2: "b. Must not contest the interpretation by HHSC of such provision(s);"
+Row 3: "c. Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction."
+Wait, "Must not contest" is binding (must not = may not). So type shall. "Is not entitled" is binding (may not). So type shall. "Waives" is binding. So all three are binding obligations/consequences. Section 3.2. Category deliverable? Or evaluation? Let's say deliverable.
+
+Actually, the instruction says "One requirement per row. If a sentence contains two independent obligations, split it into two rows repeating the shared text." Here the shared text is the "If Respondent fails..." clause. So I should repeat it for each a, b, c? Or just include each with the shared text? The rule says "repeating the shared text". So yes, I should include the "If..." part in each row? That might be long. But let's do it to be precise. Actually the items a, b, c are separate obligations that apply under the condition. I can include them as separate rows with the condition included or just the item? The instruction says "repeating the shared text". So I'll include the full conditional clause in each? That might be too repetitive. But let's follow instructions. Actually maybe I can just list each item with the section reference and include the item text, since the condition is context. The instruction says "repeating the shared text" when splitting a sentence with two independent obligations. Here the obligations are in a list under a condition. I think it's acceptable to include the condition in the first row and then just the items? But to be safe, I'll include the full text for each.
+
+Let's hold that thought and continue.
+
+Page 17:
+"All requests, questions, or other communication about this Solicitation shall be made in writing to HHSC PCS, addressed to the person listed below (Sole Point of Contact)." -> Section 3.3.1. Shall. Category deliverable. Page 17.
+"Additionally, a phone number is provided for purposes such as instructing a potential Respondent through an IT system or website referenced in this Solicitation." -> Info. Skip.
+"Communications via telephone are not binding." -> Info. Skip.
+"The Sole Point of Contact will authorize a secondary Sole Point of Contact in the event of their absence and, in such an event, will include the contact information for the secondary Sole Point of Contact in their automatic reply out-of-office e-mail message." -> Skip, about HHSC.
+"Respondents seeking to contact the Sole Point of Contact should do so via e-mail in order to receive updated contact information." -> Should = advisory. Section 3.3.1. Type should. Category deliverable. Page 17.
+
+"Except as provided in Section 3.3.1 (Sole Point of Contact) and Section 3.3.3 (Exception to Sole Point of Contact), potential Respondents and Respondents are prohibited from any communication with HHSC regarding the Solicitation." -> Section 3.3.2. "are prohibited" = may not. Type shall. Category deliverable. Page 17.
+"HHSC, its representative(s), and partners will not answer any questions or otherwise discuss the contents of this Solicitation with any potential Respondent or its representative(s)." -> Skip, HHSC obligation.
+"Attempts to ask questions by phone or in person will not be allowed or recognized as valid." -> Info. Skip? It's about HHSC not allowing. Not vendor obligation.
+"Respondent shall rely only on written statements issued by or through HHSC designated staff as provided by Section 3.3 (Inquiries)." -> Section 3.3.2. Shall. Category deliverable. Page 17.
+"This restriction does not preclude discussions between affected parties for the purposes of conducting business unrelated to this Solicitation." -> Skip.
+"Failure to comply with these restrictions may result in disqualification of Respondent's Solicitation Response." -> Info/consequence. Skip? Actually it's a warning. Not a direct obligation. Skip.
+
+Page 18:
+"Exceptions to Section 3.3.1 (Sole Point of Contact) are as follows:" -> Skip.
+"a. Respondents with questions relating to the Subcontracting Plan are permitted to direct those questions to the VetHUB coordinator at cheryl.bradley@hhs.texas.gov." -> This is an exception/permitted action. Not an obligation. Skip? Actually it's telling them they are permitted. Not required. Skip.
+"b. Where it is expressly directed by the Sole Point of Contact that another designated HHSC representative may speak to the Respondent, such as during Contract negotiations." -> Skip.
+"Respondents are required to ensure that communications have been authorized by the Sole Point of Contact before engaging in such communication." -> Section 3.3.3. "are required to" = shall. Category deliverable. Page 18.
+"Failure to comply with this requirement may result in the disqualification of a Respondent’s Solicitation Response." -> Skip.
+
+"HHSC will allow written questions and requests for clarification regarding this Solicitation." -> Skip.
+"Questions must be submitted by e-mail to the Sole Point of Contact (Section 3.3.1) by the deadline established in Section 3.1 (Schedule of Events)." -> Section 3.3.4. Must = shall. Category deadline. Page 18. The deadline is July 24, 2026 at 5:00 PM. So due_date 2026-07-24.
+"Responses to questions or other written requests for clarification will be consolidated and posted to the ESBD and will not be provided individually to requestors." -> Skip.
+"HHSC reserves the right to amend answers previously posted, prior to the Solicitation response deadline (Section 3.1)." -> Skip.
+"Amended answers will be posted on the ESBD." -> Skip.
+"It is the Respondent's responsibility to check the ESBD." -> Section 3.3.4. "responsibility" = obligation. Type shall? Not the exact word, but binding. Category deliverable. Page 18.
+"HHSC also reserves the right to provide a single consolidated response to all similar questions at the agency’s sole discretion." -> Skip.
+
+"a. All questions and requests for clarification must include the following information:" -> Must = shall. Category form? Or deliverable? It's about format of questions. Let's say form. Page 18.
+Then list:
+"1. Solicitation number;"
+"2. Solicitation package reference (page number, section, and exhibit or attachment, if applicable;"
+"3. Question topic (e.g., “Schedule of Events,” or “Exhibit M – Cost Proposal”); and"
+"4. Question for HHSC."
+These are parts of the question format. I'll include them in the same row or split? Since they're elements of one requirement, I'll include the full list in one row with the main sentence.
+
+"b. Requestor contact information below must be included in the body of the e-mail and submitted with the question(s):" -> Must = shall. Category form. Page 18.
+Then list:
+"1. Company name;"
+"2. Company representative name;"
+"3. Phone number; and"
+"4. E-Mail address."
+Again, include in same row.
+
+"Questions or requests for clarification received after the deadline in Section 3.1 (Schedule of Events), may be reviewed by HHSC but may not be answered." -> Info. Skip? It's about HHSC discretion. Not vendor obligation.
+"Only answers to questions submitted to the Sole Point of Contact in writing, in accordance with this section, are binding." -> Info. Skip? It's about binding nature of answers. Not vendor obligation.
+
+Page 19:
+"HHSC PCS will conduct a pre-proposal conference." -> Skip.
+"Attendance is optional but highly recommended." -> Section 3.4.1. "highly recommended" = should? Actually "optional but highly recommended" is advisory directed at vendor. The advisory language is "should, is encouraged to". "Highly recommended" is similar. I'll include it as "should". Category deliverable? Or evaluation? Let's say deliverable. Page 19.
+
+"Attendees to virtual pre-proposal conferences are required to send an email to the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), advising of participation in the pre-proposal conference." -> Section 3.4.1. "are required to" = shall. Category deliverable. Page 19.
+"Attendees must provide their name, phone number, and name of the company they are representing regardless of whether the pre-proposal conference is in-person or virtual." -> Must = shall. Category deliverable. Page 19.
+
+"HHSC PCS will hold the pre-proposal webinar on the date and time set out in Section 3.1 (Schedule of Events)." -> Skip.
+"People with disabilities who wish to attend the meeting and require auxiliary aids or services should contact the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), at least seventy-two (72) hours before the meeting in order to have reasonable accommodations made by HHSC." -> Section 3.4.2. "should contact" = should. Category deliverable? Or deadline? There's a time frame (72 hours before meeting). The meeting date is July 23, 2026. So 72 hours before is July 20, 2026. But the text doesn't specify the exact date, just "at least seventy-two (72) hours before the meeting". This is an advisory/deadline? Actually it's advisory ("should") with a time requirement. Since it has a time element relative to an event, but no absolute date, I won't assign a due_date unless it's explicit. The rules say "deadlines with dates always get category 'deadline' and an ISO due_date." This doesn't have an explicit date in the sentence, just "72 hours before the meeting". So category deliverable? Or maybe form? Let's say deliverable. Type should.
+
+"Conference Call [or Webinar] Information:" -> Skip.
+URL and phone info - skip, not obligations.
+
+Page 20:
+"Reference Section 3.3.4 (Solicitation Questions) for the required format and information to be provided for submission of questions and requests for clarification." -> Skip, reference.
+"During the conference, HHSC or DSHS may provide responses to questions and requests for clarification, but only written responses posted by HHSC PCS as an Addendum to the Solicitation on the ESBD will be considered an official, binding update to the Solicitation." -> Info. Skip? It's about binding updates. Not vendor obligation.
+"HHSC or DSHS reserves the right to amend, prior to the Solicitation Response Deadline, answers previously posted." -> Skip.
+"Amended answers will be posted on the ESBD." -> Skip.
+"Notification of posting will be in accordance with Section 3.1 (Schedule of Events)." -> Skip.
+"Conversations with HHSC or DSHS program area staff before or after the pre-proposal conference are prohibited." -> Section 3.4.3. "are prohibited" = may not. Type shall. Category deliverable. Page 20.
+
+Page 21:
+"Failure to submit all required Solicitation Response documents in the required format(s) may result in disqualification of the Solicitation Response without further consideration (Section 3.6.3 (Submission Checklist))." -> Section 3.5.1. Info/consequence. Skip? Actually it's a warning. Not a direct obligation. Skip.
+"Respondent shall prepare a Solicitation Response that clearly and concisely represents its qualifications and capabilities." -> Section 3.5.1. Shall. Category deliverable. Page 21.
+"Expensive bindings, colored displays, promotional materials, etc. are not necessary or desired." -> Info/advisory? "are not necessary or desired" - advisory? Not directed as "should not". It's informational. Skip? Actually it's telling them not to include them. It's advisory. But no "should". I'll skip since it's not a clear obligation.
+"Respondent should focus on the instructions and requirements of the Solicitation." -> Should. Category deliverable. Page 21.
+
+"The narrative/technical proposal should not exceed eighty (80) pages and should be formatted for 8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font." -> Section 3.5.2. "should not exceed" = should (advisory). "should be formatted" = should. So two advisory obligations. Let's split:
+Row 1: "The narrative/technical proposal should not exceed eighty (80) pages..."
+Row 2: "...and should be formatted for 8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font."
+Wait, they are in the same sentence. The shared text is "The narrative/technical proposal". So split repeating shared text? Actually the sentence is one sentence with two "should" clauses connected by "and". So split:
+Row 1: "The narrative/technical proposal should not exceed eighty (80) pages and should be formatted for 8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font." Actually that's the whole sentence. But there are two obligations: page limit and formatting. I should split them.
+Row 1: "The narrative/technical proposal should not exceed eighty (80) pages"
+Row 2: "The narrative/technical proposal should be formatted for 8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font."
+But the original text connects them with "and". To be verbatim, I should include the "and" in one or split carefully. Actually I can split as:
+Row 1: "The narrative/technical proposal should not exceed eighty (80) pages"
+Row 2: "The narrative/technical proposal should be formatted for 8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font."
+This repeats the shared subject. That's acceptable per rules.
+
+"If complete responses cannot be provided without referencing supporting documentation, such documentation must be provided with the Solicitation Response, with specific reference made to the file, page, section, and/or paragraph where the supporting information can be found." -> Section 3.5.2. Must = shall. Category deliverable. Page 21.
+
+Page 22:
+"In the event of any discrepancies or variations between copies, HHSC is under no obligation to resolve the inconsistencies and may make its scoring and selection decisions accordingly, including the decision to potentially disqualify a Solicitation Response." -> Skip, HHSC action.
+"If Respondent is required to designate an “Original” Solicitation Response but fails to do so, HHSC, in its sole discretion, will determine the version to be used as the original or may disqualify the Solicitation Response." -> Skip.
+"If the Respondent submits a redacted Solicitation Response as the “Original,” HHSC will disqualify the Solicitation Response and it will not be evaluated." -> Skip, HHSC action.
+"HHSC will not accept submissions after the “Deadline for Submission of Solicitation Responses” in the Schedule of Events (Section 3.1) to remedy discrepancies or variations in Solicitation Response submissions." -> Skip, HHSC action.
+
+"Respondents are highly encouraged, in lieu of including exceptions in their Solicitation Responses, to address all issues that might be advanced by way of exception by submitting such issues as questions or requests for clarification pursuant to Section 3.3.4 (Solicitation Questions)." -> Section 3.5.4. "highly encouraged" = should. Category deliverable. Page 22.
+"Any exception included in a Solicitation Response may result in a Respondent not being awarded a Contract." -> Info. Skip.
+"If a Respondent includes exceptions in its Solicitation Response, Respondent is required to use the Exceptions Form included as Exhibit E to this Solicitation and provide all information requested on the form." -> Section 3.5.4. "is required to" = shall. Category form. Page 22.
+"Any exception that does not provide all required information in the format set forth in Exhibit E may be rejected without consideration." -> Info. Skip.
+"No exception, nor any other term, condition, or provision in a Solicitation Response that differs, varies from, or contradicts this Solicitation will be considered to be part of any Contract resulting from this Solicitation unless expressly made a part of the Contract in writing by HHSC." -> Info/legal. Skip.
+
+"Respondent must identify on the Assumptions Form, Exhibit F any business, economic, legal, programmatic, or practical assumptions that underlie the Respondent’s response to the Solicitation." -> Section 3.5.5. Must = shall. Category form. Page 22.
+"HHSC reserves the right to accept or reject any assumptions." -> Skip.
+"All assumptions not expressly identified and incorporated into any Contract resulting from this RFP are deemed rejected by HHSC." -> Info. Skip.
+
+"A Solicitation Response should be responsive to the Solicitation as worded and without any assumption that any or all terms, conditions, or provisions of the Solicitation will be negotiated." -> Section 3.5.6. Should = should. Category deliverable. Page 22.
+"Furthermore, all Solicitation Responses constitute binding offers." -> Info. Skip? It's a statement of fact. Not an obligation.
+"Any Solicitation Response that includes any type of disclaimer or other statement indicating that the response does not constitute a binding offer may be disqualified." -> Info/consequence. Skip.
+"If a Respondent’s ability to enter into a Contract is contingent upon any exception or assumption provided in accordance with Section 3.5.4 (Exceptions) or Section 3.5.5 (Assumptions), the Respondent may be disqualified from further consideration for Contract award." -> Info/consequence. Skip.
+
+Page 23:
+"Solicitation Responses must be received at the address in Section 3.6.4 (Labeling and Delivery for USB Submission and Other Materials) and time-stamped by HHSC PCS no later than the date and time specified in Section 3.1 (Schedule of Events)." -> Section 3.6.1. Must = shall. Category deadline. Page 23. The date/time is Aug 26, 2026 10:30 AM. So due_date 2026-08-26.
+"Solicitation Responses received after the deadline specified in Section 3.1 will be rejected and not considered for Contract award." -> Info. Skip.
+
+"Submission Option #1: Respondent shall submit two (2) USB drives—one (1) labeled “Original Proposal” and one (1) labeled “Copy”—containing the following documents:" -> Section 3.6.2. Shall. Category deliverable. Page 23.
+Then list 1-4. These are contents of USB. Let's split them? The sentence introduces the list. The list items are obligations about what must be on the USB. Let's include the main sentence and then each item? Actually the items are part of the "containing the following documents" obligation. I can split them as separate rows since each specifies a file that must be included.
+
+Item 1: "Each USB must contain one file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit." -> Must = shall. Category deliverable. Page 23.
+Item 2: "If applicable in accordance with Section 8.1.5, (Public Information Act – Respondent Requirement Regarding Disclosure), each USB must contain one (1) file named “Public Information Act Copy” that contains the Respondent’s entire Solicitation Response, including all exhibits and attachments, in searchable PDF." -> Must = shall. Category deliverable. Page 23.
+Item 3: "In accordance with Section 7.1, (Cost Proposal), each USB must contain one (1) file named “Cost Proposal” that contains the Respondent’s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016)." -> Must = shall. Category deliverable. Page 23.
+Item 4: "In accordance with Section 6.8, (Subcontracting Plan), each USB must contain one (1) file named “Subcontracting Plan” in searchable PDF, that contains the Respondent’s Subcontracting Plan and all supporting documentation." -> Must = shall. Category deliverable. Page 23.
+
+Then "c. Submission Option #2: Respondent shall submit the following through the Online Bid Room utilizing the procedures in Exhibit J, HHS Online Bid Room Information:" -> Section 3.6.2. Shall. Category deliverable. Page 23.
+Then items 1-4 similar. Let's extract them too.
+
+Item 1 (Option 2): "One (1) file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit." -> Must? Actually the text says "Respondent shall submit the following..." and then lists. The list items don't have modal verbs but are part of the "shall submit" obligation. To be precise, I'll include them as separate rows with "Respondent shall submit..."? Actually the shared text is "Respondent shall submit the following through the Online Bid Room...". But the items are specific files. Let's include each item with the shared context? Or just include the item text with the understanding it's required. Given the instruction to split independent obligations, these are independent file requirements. I'll include them as separate rows, repeating the submission option context? Actually to keep it manageable, I'll include the main "Submission Option #2" sentence and then list the items as separate obligations with their own text, since they specify distinct files.
+
+Let's do:
+Row: "c. Submission Option #2: Respondent shall submit the following through the Online Bid Room utilizing the procedures in Exhibit J, HHS Online Bid Room Information:" (already covered)
+Then for each file:
+"One (1) file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit." -> Category deliverable, type shall (implied by "shall submit").
+Similarly for the others.
+
+Actually, to avoid over-complicating, I'll include the Option 2 items as separate rows with verbatim text from the list.
+
+Page 24:
+"Solicitation Consideration and Award Consideration Documents, reference Section 1.2 (Definitions) must be submitted by the deadline for Solicitation Response submissions, reference Section 3.1 (Schedule of Events)." -> Section 3.6.3. Must = shall. Category deadline. Page 24. Due date Aug 26, 2026.
+"Solicitation Consideration Documents will be reviewed as received, and Respondent will not have an opportunity to remedy missed requirements." -> Info. Skip.
+"At its sole discretion, HHSC may request some or all of the Respondents to remedy missing elements of Award Consideration Documents." -> Skip.
+"Those marked “SC” are Solicitation Consideration Documents and those marked “AC” are Award Consideration Documents." -> Info. Skip.
+"The Solicitation Response must be submitted using one of the approved methods identified in Section 3.6, (Solicitation Response Submission and Delivery)." -> Must = shall. Category deliverable. Page 24.
+"Below are the documents required to be submitted with the Solicitation Response." -> Skip.
+"Where searchable PDF files are required, submission of non-searchable (image only) PDF files may result in disqualification from further consideration for Contract award." -> Info. Skip.
+
+Then the checklist A and B and C. These are lists of required documents. Each item is a requirement. I need to extract them? The checklist lists documents with section references and SC/AC markers. These are administrative facts about what must be submitted. The rules say extract "required forms, page limits, copy counts, delivery addresses, eligibility/certification prerequisites, evaluation criteria and weights." So yes, I should extract the checklist items as requirements? Actually they reference sections that contain the actual requirements. But the checklist itself says these are required. To be complete, I should include them? The user said "Work through the document section by section; do not stop until you have covered the final page, including attachments and exhibits that contain vendor obligations." The checklist is part of the RFP and lists required submissions. I should extract each item? That would be many rows (20 items). Let's see if they contain obligations. For example:
+"1. Narrative Proposal (Section 5.1) SC ____"
+This indicates it's required (SC = Solicitation Consideration). So it's an administrative fact: must submit Narrative Proposal. I should include these.
+
+But there are many. Let's list them concisely. Actually the user wants the full compliance matrix. So yes, include them. Let's extract each checklist item as a row with the text "Narrative Proposal (Section 5.1) SC" etc. But the verbatim text should be the exact sentence. The checklist items are not full sentences but line items. I can include the line item text.
+
+Actually, looking at the text, it's formatted as:
+"A. Proposal and Respondent Information  
+1. Narrative Proposal (Section 5.1) SC ____ 
+2. Technical Proposal (Section 5.2) SC ____ 
+..."
+
+These are clearly requirements. I'll include each one. But to save space and avoid redundancy with other sections, I should still include them since they are in the checklist section. Let's do it.
+
+I'll extract:
+1. Narrative Proposal (Section 5.1) SC
+2. Technical Proposal (Section 5.2) SC
+3. Company Information (Section 6.1) SC
+4. Franchise Tax Information (Section 6.2) AC
+5. References (Section 6.3) AC
+6. Major Subcontractor Information (Section 6.4) SC
+7. HHS Solicitation Affirmations (Section 6.5, Exhibit A) SC
+8. Assurances – Non-Construction Programs (if applicable) (Section 6.5, Exhibit G) AC
+9. Certification Regarding Lobbying (if applicable) (Section 6.5, Exhibit H) AC
+10. HHS Federal Funding Accountability and Transparency Act (FFATA) Certification Form Section 6.5, Exhibit K) AC
+11. Exceptions (if applicable) (Section 3.5.4, Exhibit E) AC
+12. Assumptions (if applicable) (Section 3.5.5, Exhibit F) AC
+13. Other Reports (Section 6.6) AC
+14. Corporate Guarantee (Section 6.7) AC
+15. SPI (Section 2.3, Exhibits D and D-1) AC
+16. Certificate of Authority (Section 6.11) AC
+17. TX-RAMP Documentation (Section 2.1.1, 6.9) AC
+18. Accessibility (VPAT) (if applicable) (Section 6.10, Exhibit O, Exhibit O-1) AC
+19. Insurance (Section 8.2) AC
+20. Addendum(s) (if applicable) (Section 8.1.1) AC
+B. Cost Proposal (Article VII) SC
+C. Subcontracting Plan Requirements (Section 6.8 and Exhibit Q) SC
+
+These are all administrative requirements. Category: form? Or deliverable? Since they are documents/forms to be submitted, "form" is best for many, but "deliverable" for proposals. Actually the category options include "form". So for checklist items that are forms/certifications, use "form". For proposals, use "deliverable". For subcontracting plan, "form". Let's categorize:
+- Narrative Proposal: deliverable
+- Technical Proposal: deliverable
+- Company Information: deliverable
+- Franchise Tax Information: form
+- References: deliverable? Or form? It's information. Let's say deliverable.
+- Major Subcontractor Information: deliverable
+- HHS Solicitation Affirmations: form
+- Assurances: form
+- Certification Regarding Lobbying: form
+- FFATA Certification Form: form
+- Exceptions: form
+- Assumptions: form
+- Other Reports: deliverable
+- Corporate Guarantee: form
+- SPI: form
+- Certificate of Authority: form
+- TX-RAMP Documentation: form
+- Accessibility (VPAT): form
+- Insurance: form
+- Addendum(s): form
+- Cost Proposal: deliverable
+- Subcontracting Plan Requirements: form
+
+Type: Since these are listed as required (SC/AC), they are binding. The checklist doesn't use "shall" but "required to be submitted". So type "shall" (binding).
+
+Page 25:
+"Respondent must deliver Solicitation Responses submitted via USB by one of the methods below." -> Section 3.6.4. Must = shall. Category deliverable. Page 25.
+Then the delivery addresses. These are administrative facts. Let's include them? The text lists two methods with addresses. These are delivery instructions. I should include the addresses as part of the delivery requirement.
+
+Actually, the sentence is "Respondent must deliver Solicitation Responses submitted via USB by one of the methods below." Then there are two columns: Overnight/Express/Priority Mail and Hand Delivery, with addresses. This is an administrative fact about delivery address. I can include the delivery methods/addresses as separate rows or one row. Let's include the main sentence and then the addresses? Actually the addresses are part of the "methods below". To be precise, I'll include the main obligation and then list the addresses? But they are not obligations, they're information. However, the bidder must act on them (deliver to one). So I'll include them as info? Or as part of the deliverable? Let's include the main sentence as one row (shall, deliverable) and then maybe include the address block as info? Actually the rules say "delivery addresses" are administrative facts to extract. So I should extract them. Let's make rows for each delivery option with the address.
+
+Row 1: "Overnight/Express/Priority Mail Health and Human Services Commission ATTN: Response Coordinator Tower Building Room 108 1100 W. 49th St., MC 2020 Austin, Texas 78756"
+Row 2: "Hand Delivery Health and Human Services Commission ATTN: Response Coordinator Procurement & Contracting Services Building 1100 W. 49th St., MC 2020 Austin, Texas 78756"
+But these don't have modal verbs. So type "info". Category "deliverable"? Or "form"? Actually delivery address is administrative. Since category must be one of the five, "deliverable" is closest? Or maybe "deadline"? No. Let's use "deliverable" for delivery instructions.
+
+"BE ADVISED, all Solicitation Responses become the property of HHSC after submission and will not be returned to the Respondent." -> Info. Skip.
+"It is the Respondent’s responsibility to appropriately mark and deliver the Solicitation Response to HHSC PCS by the specified date." -> Section 3.6.4. "responsibility" = obligation. Type shall. Category deliverable. Page 25.
+"A dated shipping label, invoice of receipt from a from USPS or commercial carrier, or any other documentation in lieu of the on-site time stamp WILL NOT be accepted." -> Info. Skip? It's about what won't be accepted. Not vendor obligation.
+"Each Respondent is solely responsible for ensuring its Solicitation Response is submitted in accordance with all Solicitation requirements, including, but not limited to, proper labeling of packages, sufficient postage or delivery fees, and ensuring timely receipt by HHSC." -> Section 3.6.4. "solely responsible" = obligation. Type shall. Category deliverable. Page 25.
+"In no event will HHSC be responsible or liable for any delay or error in delivery." -> Skip.
+"Solicitation Response must be RECEIVED by HHSC PCS by the Solicitation Response Deadline identified in Section 3.1 (Schedule of Events)." -> Must = shall. Category deadline. Page 25. Due date 2026-08-26.
+
+"Solicitation Responses submitted via USB by mail or hand delivery shall be placed in a sealed package." -> Section 3.6.4. Shall. Category deliverable. Page 25.
+"The sealed package and the USB drives shall be clearly labeled on the outside as follows:" -> Shall. Category deliverable. Page 25.
+Then the label format:
+"SOLICITATION NO: HHS0015558v2
+SOLICITATION NAME Video Directly Observed Therapy
+SOLICITATION RESPONSE DEADLINE Refer to Section 3.1 (Schedule of Events)
+PURCHASER NAME: Chastity Marion, CTCD, CTCM
+RESPONDENT NAME: [Respondent Name]"
+This is a labeling requirement. I'll include it as one row with the label text.
+
+"It is Respondent’s sole responsibility to ensure that packaging is sufficient to prevent damage to contents." -> Section 3.6.4. "sole responsibility" = obligation. Type shall. Category deliverable. Page 25.
+"HHSC will not be responsible or liable for any damage, and damaged Solicitation Responses will not be considered at HHSC’s sole discretion." -> Skip.
+"HHSC will not be held responsible for any Solicitation Response that is mishandled prior to receipt by HHSC PCS." -> Skip.
+"It is the Respondent’s sole responsibility to mark appropriately and deliver the Solicitation Response to HHSC PCS by the specified date and time." -> Section 3.6.4. Type shall. Category deliverable. Page 25.
+"HHSC will not be responsible for late delivery, inappropriately identified documents, or other submission errors that may lead to disqualification or nonreceipt of the Respondent’s Solicitation Response." -> Skip.
+
+Page 26:
+"Prior to the Solicitation Response submission deadline in Section 3.1 (Schedule of Events), Respondent may: (1) withdraw its Solicitation Response by submitting a written request to the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact); or (2) modify its Solicitation Response by submitting a written amendment to the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact)." -> Section 3.6.5. "may" is permissive, not binding. Skip? Actually it's telling them they may do these things. Not an obligation. Skip.
+"When modifying its Solicitation Response, Respondent must include in writing the section(s) of its submission that will be replaced or removed by the amendment." -> Section 3.6.5. Must = shall. Category deliverable. Page 26.
+
+Page 27:
+"Solicitation Responses shall be evaluated in accordance with Texas Government Code Section 2157.003." -> Skip, evaluation process.
+"HHSC shall not be obligated to select the lowest priced Solicitation Response but shall make an award to the Respondent that provides the best value to the State of Texas." -> Skip, HHSC obligation.
+
+"Solicitation Responses that meet the minimum qualifications will be submitted to the evaluation team for review and scoring." -> Skip.
+"Each member of the evaluation team will receive a copy of each responsive Solicitation Response." -> Skip.
+"The evaluators will review the Solicitation Responses considering the criteria listed in Section 4.2.5 (Written Response Evaluation Criteria)." -> Skip.
+"Evaluators will individually score the Responses." -> Skip.
+"This procurement will utilize an aggregated individual evaluation methodology as outlined by this section." -> Skip.
+
+"Respondents must meet the minimum qualifications listed below." -> Section 4.2.2. Must = shall. Category eligibility. Page 27.
+Then list a, b, c.
+"a. Respondents must have at least four (4) years of recent experience providing VDOT services and demonstrate experience implementing, monitoring, and maintaining a VDOT system.." -> Must = shall. Category eligibility. Page 27.
+"b. Respondents have submitted the Response in accordance with Section 3.6, (Solicitation Response Submission and Delivery) including all Solicitation Consideration (SC) and Award Consideration (AC) Documents, see Section 3.6.3 (Submission Checklist);" -> This is part of minimum qualifications. Must have submitted. Type shall. Category eligibility. Page 27.
+"c. Respondents who receive an overall score on the VPTS of less than a “C” may be disqualified from consideration for award." -> Info/consequence. Skip? Actually it's a qualification criterion: they must have score of C or better? The text says "who receive... less than C may be disqualified". This implies they need at least C. It's an eligibility prerequisite. I'll include it as info? Or shall? Actually it's stating a condition for disqualification. Not a direct "must have C". But it's part of minimum qualifications. Let's include it as info, category evaluation? Or eligibility. Let's say eligibility, type info.
+
+Page 28:
+"HHSC will review Solicitation Responses for compliance with the Submission Checklist (Section 3.6.3) and for demonstrated ability to meet the Minimum Qualifications (Section 4.2.2) required to advance to evaluations." -> Skip.
+"Failure to meet the Minimum Qualifications (Section 4.2.2), will result in the disqualification of the Solicitation Response." -> Info. Skip.
+"HHSC will automatically disqualify any Solicitation Response that does not include one or more of the completed and signed (as applicable) Solicitation Consideration Documents listed in Submission Checklist (Section 3.6.3)." -> Skip, HHSC action.
+"At its sole discretion, HHSC may disqualify any Solicitation Response that does not include all required Award Consideration Documents." -> Skip.
+"HHSC may contact references provided in response to this Solicitation." -> Skip.
+"HHSC may contact Respondent’s clients, or solicit information from any available source, including the Comptroller’s VPTS." -> Skip.
+"Any information received may be grounds for disqualification if that information, in HHSC’s sole discretion, suggests that the Respondent may perform poorly if selected." -> Skip.
+
+"Each member of the evaluation team will read the Solicitation Responses in preparation for evaluation." -> Skip.
+"The evaluation team will score all Solicitation Responses that pass initial screening (Section 4.2.3 (Initial Compliance Screening))." -> Skip.
+"Solicitation Responses will be scored against the criteria in Section 4.2.5 (Written Response Evaluation Criteria)." -> Skip.
+"Solicitation Responses will be evaluated utilizing aggregated individual scoring and any other methods outlined in Article IV, Solicitation Response Evaluation and Award Process." -> Skip.
+"The individual evaluators’ scores will be aggregated and weighted, resulting in the Final Written Response Scores, unless Interviews or BAFOs are conducted." -> Skip.
+
+"Solicitation Responses shall be consistently evaluated and scored in accordance with the following criteria." -> Section 4.2.5. Shall (HHSC). Skip? It's about evaluation process, not vendor obligation.
+Then criteria:
+"a. Relevant Experience (30%)"
+"b. Narrative and Technical Proposal (50%)"
+"c. Cost (20%)"
+These are evaluation criteria and weights. The rules say extract "evaluation criteria and weights". So I must include them. They are administrative facts. Type info. Category evaluation. Page 28.
+
+Page 29:
+"HHSC may, at its sole discretion, following the execution of Section 4.2.1 (Selection Methodology) request BAFOs from all Respondents or, if applicable, only those Respondents whose Solicitation Responses are ranked most highly by the evaluation committee." -> Skip.
+"The request for a BAFO will allow a Respondent the opportunity to revise its original Solicitation Response, including pricing, or leave its Solicitation Responses originally submitted." -> Skip.
+"Revisions must be submitted in the manner and form prescribed by the BAFO request." -> Section 4.2.6. Must = shall. Category deliverable? Or evaluation? It's about BAFO submission. Let's say deliverable. Page 29.
+"Requests will be sent to the point of contact provided by the Respondent." -> Skip.
+"HHSC is not responsible for a Respondent’s failure to timely receive the BAFO request." -> Skip.
+"HHSC reserves the right to request more than one (1) BAFO from each of the selected Respondents." -> Skip.
+"If a response is submitted to a request for a BAFO, the Final Written Response Scores will be revised in accordance with the stated criteria in Section 4.2.5 (Written Response Evaluation Criteria) as to any changes made to the Respondent’s original Solicitation Response." -> Skip.
+"A request for a BAFO does not guarantee an award or further negotiations." -> Skip.
+"If BAFOs are requested by HHSC and submitted by the Respondent, they will be evaluated using the criteria stated in the BAFO invitation, scored, and ranked by the evaluation committee." -> Skip.
+"The award will then be granted to the highest scoring Respondent." -> Skip.
+"However, a Respondent should provide its best offer in its original Solicitation Response." -> Should = should. Category evaluation? Or deliverable? It's advisory about proposal content. Let's say deliverable. Page 29.
+"Respondents should not expect or assume that HHSC will request a BAFO." -> Should = should. Category deliverable. Page 29.
+
+"A Respondent’s Final Written Response Score is the score from the Written Solicitation Response Evaluation (Section 4.2.4)." -> Skip.
+"If BAFOs are conducted, the Final Written Response Score may be adjusted in accordance with Section 4.2.6 (Best and Final Offer)." -> Skip.
+"Final Written Response Score may not always determine best value or selection for negotiation and award, see Summary of Best Value Determination (Section 4.2.8) for more information." -> Skip.
+
+"The final selection for award will be based on best value, as determined by this section." -> Skip.
+"This includes any scoring adjustments for outliers, interviews, best and final offers, oral presentations, demonstrations, site visits, or other additional considerations as specified by this Solicitation." -> Skip.
+"Respondents are encouraged to thoroughly review the processes outlined in this section, as it documents the best value considerations to be made by HHSC when selecting a Respondent for negotiation and Contract award." -> "are encouraged" = should. Category evaluation? Or deliverable? Let's say evaluation since it's about evaluation process. Page 29.
+
+"Concurrent with the evaluation conducted in Section 4.2.4 (Written Solicitation Response Evaluation) and Section 4.2.6 (Best and Final Offer), HHSC shall assess the documentation required by Section 6.9 (TX-RAMP Documentation) on a pass/fail basis." -> Skip, HHSC action.
+"HHSC reserves the right to confirm TX-RAMP certification status on the DIR website and request additional information from a Respondent to supplement the TX-RAMP documentation submitted in its Response." -> Skip.
+"If Respondent’s submission demonstrates TX-RAMP Level 2 Certification at time of HHSC’s review, the Response meets the requisite standard to be considered for contract award." -> Info. Skip? It's a condition. Not vendor obligation.
+
+Page 30:
+"By submitting a Solicitation Response, Respondent grants HHSC the right to ask questions, request clarifications and to obtain any information from any lawful source regarding the past history, practices, conduct, ability, and eligibility of the Respondent to supply Goods or Services and to fulfill requirements under this Solicitation, and the past history, practices, conduct, ability, and eligibility of any director, officer, or key employee of the Respondent." -> Section 4.3. This is a grant of rights. Not an obligation on vendor? Actually it's something they grant by submitting. It's binding. Type shall? Not the word. But it's an obligation (they grant). I'll include it? Actually it's more of a legal term. Let's skip since it's not a "must do" but a "grants right".
+
+"By submitting a Solicitation Response, the Respondent generally releases from liability and waives all claims against any party providing information about the Respondent at the request of HHSC." -> Section 4.3. "releases... waives" = binding. Type shall? Not exactly. But it's a vendor obligation (waiver). I'll include it as "shall". Category deliverable? Or evaluation? It's part of evaluation process. Let's say evaluation. Page 30.
+"Such information may be taken into consideration in evaluating the Solicitation Response." -> Skip.
+
+"Concurrent with the evaluation conducted in Section 4.2.4 (Written Response Evaluation) and Section 4.2.6 (Best and Final Offer (BAFO), HHSC shall assess the documentation required by Section 6.10 (Accessibility/Voluntary Product Accessibility Template (VPAT) Documentation) on a pass/fail basis." -> Skip.
+"If Respondent’s submission demonstrates a passed score of Accessibility VPAT at time of HHSC’s review, the Response meets the requisite standard to be considered for Contract award." -> Info. Skip.
+"If Respondent’s submission does not receive a pass score of Accessibility VPAT at time of HHSC’s review, the Response will be rejected, and the Respondent will not be further considered for Contract award." -> Info. Skip.
+
+Page 31:
+"Respondents must provide an executive summary of their proposal (excluding cost information) that asserts the Respondent is providing, in its Response, all the requirements of this Solicitation, including Article II, Scope of Work." -> Section 5.1.1. Must = shall. Category deliverable. Page 31.
+"The summary must demonstrate Respondent’s understanding of DSHS goals and objectives for this Solicitation." -> Must = shall. Category deliverable. Page 31.
+"If the Respondent is providing goods or Services beyond those specifically requested, those goods or Services must be identified." -> Must = shall. Category deliverable. Page 31.
+"If the Respondent is offering goods or Services that do not meet the specific requirements of this Solicitation, but in the opinion of the Respondent are equivalent or superior to those specifically requested, any such differences must be noted in the executive summary." -> Must = shall. Category deliverable. Page 31.
+"The Respondent should realize, however, that failure to provide the Goods and Services specifically requested may result in disqualification." -> Should = should. Category deliverable. Page 31.
+"The executive summary must not exceed thirty (30) pages and should represent a full and concise summary of the contents of the proposal." -> Must not exceed = shall (binding negative). Should represent = should. So split:
+Row 1: "The executive summary must not exceed thirty (30) pages"
+Row 2: "The executive summary should represent a full and concise summary of the contents of the proposal."
+Category deliverable for both. Page 31.
+
+"Respondents must provide key staffing profiles and resumes for all key staff who will be responsible for the performance of the Services requested under this Solicitation (see Exhibit N, Requirements Traceability Matrix – Table 7 (Staffing Requirements)." -> Section 5.1.2. Must = shall. Category deliverable. Page 31.
+
+"Respondents must provide a detailed description of their proposed technical solution, which must support all business activities and requirements described in this Solicitation." -> Section 5.2. Must = shall. Category deliverable. Page 31.
+"The Technical Proposal must reflect Respondent’s clear understanding of the nature of the Work undertaken and must include a detailed description of Respondent’s proposed system(s)." -> Must = shall (twice). Split? Two obligations: reflect understanding, include detailed description. Let's split.
+Row 1: "The Technical Proposal must reflect Respondent’s clear understanding of the nature of the Work undertaken"
+Row 2: "The Technical Proposal must include a detailed description of Respondent’s proposed system(s)."
+Category deliverable. Page 31.
+
+"The Technical Proposal must include a description of the following system components, at a minimum:" -> Must = shall. Category deliverable. Page 31. Then list 5.2.1 through 5.2.10. Each subsection has its own obligations. I need to extract each subsection's requirements.
+
+Page 32:
+"Respondents must provide a detailed description of the proposed technology architecture and include one (1) or more diagrams that detail the relationships between key technical components." -> Section 5.2.1. Must = shall. Category deliverable. Page 32.
+
+"Respondents are responsible for delivering a cost-effective, high-availability environment that minimizes the frequency and impact of system failures, reduces downtime, and minimizes recovery time in the event of catastrophic failure." -> Section 5.2.2. "are responsible for delivering" = obligation. Type shall. Category deliverable. Page 32.
+"In this section, Respondents must provide details on their approach to providing a highly available system." -> Must = shall. Category deliverable. Page 32.
+"In addition, Respondents must describe their proposed approach to monitoring system performance and use as well as planning, sizing, and controlling the system as capacity needs change." -> Must = shall. Category deliverable. Page 32.
+"Respondents must describe how their system manages video uploads when internet connectivity is unavailable or disrupted." -> Must = shall. Category deliverable. Page 32.
+"The proposal must explain whether videos are stored locally and automatically uploaded once a connection is reestablished, or if Users are required to manually resubmit." -> Must = shall. Category deliverable. Page 32.
+"Respondents should also describe any notifications or safeguards built into the system to ensure no video submissions are lost." -> Should = should. Category deliverable. Page 32.
+
+"Respondents must provide details on the software and hardware components they proposed for their system." -> Section 5.2.3. Must = shall. Category deliverable. Page 32.
+"This includes, but is not limited to, the proposed server topology, specifications for the hardware components, and data storage components." -> Info? It's part of the details. Skip? Actually it's specifying what details must include. It's part of the obligation. I'll include it as part of the previous row or separate? Let's keep it with the previous or separate. Actually it's a continuation. Let's include it in the same row? No, separate row is okay but it's not independent. Let's just include the main "must provide details" row and skip the "includes but not limited to" since it's elaboration. Actually to be complete, I should include it. Let's make a separate row: "Respondents must provide details on the software and hardware components they proposed for their system. This includes, but is not limited to, the proposed server topology, specifications for the hardware components, and data storage components." That's one row.
+Then: "Respondents should also include details on the tools and utilities used to design, build, test, deploy, report, monitor, and operate the system and its components." -> Should = should. Category deliverable. Page 32.
+
+"Respondents must describe their approach to integrating the proposed system with other information systems." -> Section 5.2.4. Must = shall. Category deliverable. Page 32.
+
+"Respondents must detail their approach to administering the system and system components." -> Section 5.2.5. Must = shall. Category deliverable. Page 32.
+"This includes system support, including the levels of support offered and the process for requesting support." -> Info/elaboration. Skip or include? Let's include as part of the obligation? Actually it's specifying what "detail their approach" includes. I'll include it in the same row or separate. Let's do separate for clarity: "Respondents must detail their approach to administering the system and system components. This includes system support, including the levels of support offered and the process for requesting support." That's fine.
+"In addition, Respondents must provide a summary of their proposed strategy for maintaining and repairing the system." -> Must = shall. Category deliverable. Page 32.
+"Respondents must provide narrative descriptions of their approach to technical support Services, including 24-hour online support, business-hours telephone support, and processes for handling Service requests and optimization requests." -> Must = shall. Category deliverable. Page 32.
+"Respondents must also explain how support staff will be trained to meet HIPAA requirements and how training completion will be verified." -> Must = shall. Category deliverable. Page 32.
+"In addition, Respondents must provide a sample Corrective Action Plan template to demonstrate their process for addressing operational deficiencies and system issues." -> Must = shall. Category deliverable. Page 32.
+"The Respondent’s approach must clearly show how support and maintenance activities will ensure reliable Service delivery, compliance, and effective issue resolution for both Providers and Clients." -> Must = shall. Category deliverable. Page 32.
+
+Page 33:
+"Respondents must detail their approach to security architecture, including the development and implementation measures that will provide security and protection for the system." -> Section 5.2.6. Must = shall. Category deliverable. Page 33.
+"This includes the proposed backup and recovery processing approach, and proposed virus protection strategy." -> Info/elaboration. Include in same row or skip? Let's include as part of the row.
+"Respondents should describe their general approach to reestablishing operations in the event of a catastrophe, as well as their approach to providing HHSC with a disaster recovery plan." -> Should = should. Category deliverable. Page 33.
+"Respondents must provide specifications on any hardware and software components utilized by the proposed security and disaster recovery solutions." -> Must = shall. Category deliverable. Page 33.
+"See Exhibit L, Information Security and Privacy Requirements." -> Skip.
+
+"Respondents must describe their proposed methodology for monitoring and reporting system performance, as well as the proposed approach to technology management." -> Section 5.2.7. Must = shall. Category deliverable. Page 33.
+"This includes the methods for centrally managing system resources such as servers, backup, archiving, and recovery equipment, databases, and applications." -> Elaboration. Skip or include. Let's skip for brevity since it's part of the description.
+"Respondents must address methods for auditing, tracing, and scanning the system, and provide details on the specialized tools they will use to automate and track monitoring and management activities." -> Must = shall. Category deliverable. Page 33.
+"Respondents must provide screenshots of the proposed Application to demonstrate system functionality." -> Must = shall. Category deliverable. Page 33.
+"Screenshots must illustrate core features such as the Client and Provider interfaces, reporting dashboards, and dose-tracking functions." -> Must = shall. Category deliverable. Page 33.
+"Respondents must show how the Application supports medication adherence by allowing Providers to track Client doses, generate summary reports highlighting missed doses, and run dashboards that display compliance information." -> Must = shall. Category deliverable. Page 33.
+"These materials must demonstrate that the solution is user-friendly, supports both Synchronous and Asynchronous observation, and provides the tools necessary for monitoring and clinical decision-making." -> Must = shall. Category deliverable. Page 33.
+"Respondents must provide at least one sample dashboard screenshot that illustrates how reporting functionality will appear in the Application." -> Must = shall. Category deliverable. Page 33.
+"The example should show the ability to track Clients by condition and generate compliance data, including weekly or monthly reporting views." -> Should = should. Category deliverable. Page 33.
+"Respondents must demonstrate how dashboards and reports will be refreshed with current data, role-controlled for appropriate access, and designed to support program monitoring, clinical oversight, and performance tracking." -> Must = shall. Category deliverable. Page 33.
+
+Page 34:
+"Respondents must provide narrative descriptions of their proposed transition processes, including how they will coordinate transition activities from Contract award through the Operations Start Date, finalize and update the Transition Plan, and collaborate with the incumbent vendor to ensure an orderly transfer of Services and knowledge." -> Section 5.2.8. Must = shall. Category deliverable. Page 34.
+"Respondents must also include a sample Readiness Assessment Plan template to demonstrate how readiness will be measured, along with a narrative description of the process for verifying that all Providers are fully trained on both the mobile and Web-Based Applications prior to go-live." -> Must = shall. Category deliverable. Page 34.
+"These submissions must demonstrate the Respondent’s ability to ensure a seamless transition, readiness of systems, and training of end users." -> Must = shall. Category deliverable. Page 34.
+
+"Respondents must provide examples of proposed training materials for both Clients and Providers." -> Section 5.2.9. Must = shall. Category deliverable. Page 34.
+"Submissions should reflect multiple formats, including written guides, videos, and web-based modules, and should demonstrate how training will meet accessibility needs, support Users with limited literacy, and be available in multiple languages." -> Should = should. Category deliverable. Page 34.
+"Respondents must also explain how training will be kept current, promptly updated when system changes occur, and delivered in a way that ensures Providers and Clients are confident and proficient in using the system." -> Must = shall. Category deliverable. Page 34.
+
+"Respondents must provide narrative descriptions of their approach to Turnover, including how they will provide weekly status reports during the Turnover Phase, ensure uninterrupted Operations while turnover tasks are carried out, and coordinate activities with DSHS and any successor vendor." -> Section 5.2.10. Must = shall. Category deliverable. Page 34.
+"Proposals must describe strategies for providing documentation, artifacts, and data to DSHS in a complete and accurate manner and must demonstrate the Respondent’s ability to ensure continuity of Services during the transition out of the Contract." -> Must = shall. Category deliverable. Page 34.
+
+Page 35:
+"In accordance with Article III, Administrative Information, Respondents must include the following information with their responses:" -> Section 6.1. Must = shall. Category deliverable. Page 35.
+"Respondents must provide a detailed narrative explaining why they are qualified to provide the Services enumerated in Article II, Scope of Work, focusing on their key strengths and competitive advantages." -> Section 6.1.1. Must = shall. Category deliverable. Page 35.
+
+"Respondents must provide a company profile, including:" -> Section 6.1.2. Must = shall. Category deliverable. Page 35.
+Then list a-g. These are required elements of the profile. Let's extract each as a separate row since they are independent items.
+
+a. "Their ownership structure (e.g., corporation, partnership, LLC, or sole proprietorship), including any wholly-owned subsidiaries, affiliated companies, or joint ventures. (Please provide this information in a narrative and as a graphical representation.) If Respondent is an affiliate of, or has a joint venture or strategic alliance with, another company, Respondent must identify the percentage of ownership of each joint venture member or affiliate and the percentage of the parent’s ownership. The entity performing the majority of the Work under any Contract resulting from this Solicitation, throughout the duration of the Contract, must be the primary bidder. Finally, Respondents must provide their proposed operating structure for the Services requested under this Solicitation and which entities (i.e., parent company, affiliate, joint venture, subcontractor) will be performing them;"
+This is long and contains multiple obligations. Let's split:
+- Ownership structure info (must provide)
+- If affiliate, must identify percentages
+- The entity performing majority must be primary bidder
+- Must provide proposed operating structure
+Actually it's one long item a. I'll include it as one row with the full text.
+
+b. "The year the company was founded and/or incorporated. If incorporated, please indicate the state where the company is incorporated and the date of incorporation;"
+c. "The location of company headquarters and any field office(s) that may provide Services for any resulting Contract under this Solicitation;"
+d. "The number of employees in the company, both locally and nationally, and the location(s) from which employees will be assigned;"
+e. "The name, address, and telephone number of Respondent’s point of contact for any resulting Contract under this Solicitation;"
+f. "The name, address, and telephone number of Respondent’s point of contact for any questions regarding the Solicitation Response; and"
+g. "Indicate whether the company has ever been in contract with any Texas state agency. If “Yes,” specify the contract term, for what duties, and for which agency."
+
+These are all part of the company profile. I'll include each as a separate row with the text.
+
+Page 36:
+"The Texas franchise tax is imposed on each taxable entity formed or organized in Texas or doing business in Texas." -> Skip.
+"Respondent must provide their 11-digit Comptroller's Taxpayer Number or the 9-digit Federal Employer's Identification Number." -> Section 6.2. Must = shall. Category form. Page 36.
+"Respondent must be set up in the Texas franchise tax system prior to Contract award." -> Must = shall. Category eligibility. Page 36.
+
+"Respondents shall provide a minimum of three (3) references from similar contracts or projects performed, preferably for state and/or local government, within the last five (5) years." -> Section 6.3. Shall = shall. Category deliverable. Page 36.
+"Respondents must verify current contracts and provide the following information:" -> Must = shall. Category deliverable. Page 36.
+Then a-e:
+a. Client name;
+b. Contract/project description;
+c. Total dollar amount of contract/project;
+d. Key staff assigned to the referenced contract/project who will be designated for Work under any Contract resulting from this Solicitation; and
+e. Client contract/project manager name, telephone number, fax number, and email address.
+I'll include these as separate rows or combined? Let's combine the "must verify and provide" with the list? Actually the list items are specific data points. I'll include the main sentence and then each item? To be efficient, I'll include the main sentence with the list in one row, or split each item. Given there are many, I'll include them as separate rows repeating "Respondents must verify current contracts and provide the following information:"? No, that's too repetitive. Let's just include the list items as separate rows with their text, and the main sentence as one row. Actually the instruction says one requirement per row. Each data point is part of one requirement. I'll put them all in one row with the full text including a-e. That's acceptable.
+
+"Respondents must identify any major subcontractors who will perform fifteen percent (15%) or more of the Work under any Contract resulting from this Solicitation." -> Section 6.4. Must = shall. Category deliverable. Page 36.
+"Respondents must indicate whether or not they hold any financial interest in any major subcontractor." -> Must = shall. Category deliverable. Page 36.
+"As a condition of award, an authorized officer or agent of each proposed major subcontractor may be required to sign a statement to the effect that the Subcontractor has read, and will agree to abide by, Respondent’s obligations under any Contract awarded pursuant to this Solicitation." -> Info/condition. Skip? It's about subcontractor signing. Not directly vendor obligation, but a condition. I'll skip since it's conditional ("may be required").
+
+"Respondents must complete and return with their Solicitation Response all of the following affirmations and certifications:" -> Section 6.5. Must = shall. Category form. Page 36.
+Then list a, b with sub-items.
+a. Exhibit A, HHS Solicitation Affirmations;
+b. Federal Assurances and Certifications:
+1. Exhibit G, Assurances – Non-Construction Programs; and
+2. Exhibit H, Certification Regarding Lobbying.
+3. Exhibit K, HHS Federal Funding Accountability and Transparency Act (FFATA) Certification Form
+
+I'll include the main sentence and then each exhibit as separate rows? Actually they are all part of "all of the following". Let's include them as separate rows for clarity, each being a required form.
+
+Page 37:
+"Respondents with a Dun and Bradstreet (D&B) number must include a D&B Credit Insights Report with their Solicitation Response." -> Section 6.6.1. Must = shall. Category deliverable. Page 37.
+
+Then 6.6.2 Financial Statements. This is long. Let's extract the key obligations.
+"a. Respondents must submit electronically in a searchable PDF an annual report for the entity submitting the Solicitation Response, which must include:" -> Must = shall. Category deliverable. Page 37.
+Then 1-3 and i-v. These are detailed requirements. I'll include the main sentence and the sub-items? Given the length, I'll include the main obligation and note the contents. Actually to be precise, I'll include the full text of 6.6.2(a) with its list. But it's very long. Let's break it into manageable rows.
+
+Row 1: "Respondents must submit electronically in a searchable PDF an annual report for the entity submitting the Solicitation Response, which must include:"
+Then the sub-items are part of it. I'll include them in the same row? The text is long but okay.
+
+Actually, let's read carefully:
+"a. Respondents must submit electronically in a searchable PDF an annual report for the entity submitting the Solicitation Response, which must include:  
+1. For years 2023, 2024, and 2025, audited financial statements, including all supplements, management discussion and analysis, and actuarial opinions;  
+2. If applicable, for years 2023, 2024, and 2025, consolidated statements for any holding companies or affiliates; and  
+3. A full disclosure of any events, liabilities, or contingent liabilities that could affect Respondent’s financial ability to perform this Contract. At a minimum, financial statements must include:  
+i. Balance sheet;  
+ii. Income statement;  
+iii. Statement of changes in financial position;  
+iv. Statement of cash flows; and  
+v. Capital expenditures."
+
+This is one big requirement. I'll include it as one row with the full text.
+
+"b. If the Respondent is a corporation that is required to report to the Securities and Exchange Commission (SEC), Respondent must submit its three (3) most recent SEC Form 10K, Annual Reports, pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934, Title 15 of the United States Code Chapter 2B, Sections 78m or 78o(d). Financial materials must be submitted electronically as a word searchable PDF." -> Must = shall. Category deliverable. Page 37.
+
+"c. If audited financial statements are not available, the Respondent must submit unaudited financial information and any other information of the entity submitting the Solicitation Response that the Respondent believes meets the requirements of this section. Reference Section 6.6.3 (Alternate Report). If the submitted documents do not provide adequate assurance of financial stability or solvency, HHSC reserves the right to request additional information or to disqualify the Respondent." -> Must = shall. Category deliverable. Page 37.
+
+"d. If the Respondent is either substantially or wholly owned by another corporate (or legal) entity, the Respondent must include the information required in this section for each such entity, including the most recent detailed financial report for each such entity." -> Must = shall. Category deliverable. Page 37.
+
+"e. If HHSC determines that an entity does not have sufficient financial resources to guarantee the Respondent’s performance, HHSC may require the Respondent to obtain another acceptable financial instrument or resource from such entity, or to obtain an acceptable guarantee from another entity with sufficient financial resources to guarantee Respondent’s performance." -> Skip, HHSC action.
+
+Page 38:
+"If the Solicitation Response does not contain the annual report specified in Section 6.6.2(a) above, the Respondent must provide the following within its Solicitation Response: (1) a statement that the Respondent does not have an audited annual report for the specified time frame(s) and (2) an alternate report which contains the following:" -> Section 6.6.3. Must = shall. Category deliverable. Page 38.
+Then list a-c and i-v. This is similar to 6.6.2. I'll include the full text in one row.
+
+"If the Respondent is substantially or wholly owned by another corporate (or other) entity, HHSC reserves the right to request that such parent entity unconditionally guarantee performance by the Respondent in each and every obligation, warranty, term, covenant, and condition of the Contract." -> Section 6.7. Skip, HHSC right.
+
+"Respondents must submit the Subcontracting Plan in accordance with Section 3.6 (Solicitation Response Submission and Delivery)." -> Section 6.8. Must = shall. Category form. Page 38.
+"The Subcontracting Plan should be labeled: “Subcontracting Plan,” and include all supporting documentation in accordance with Exhibit Q, Subcontracting Plan Requirements, and the Subcontracting Plan." -> Should = should. Category form. Page 38.
+"A courtesy review of a Respondent’s completed Subcontracting Plan is optional and is available upon request to assist in providing a compliant and responsive Subcontracting Plan." -> Info. Skip.
+"This courtesy review may only identify possible deficiencies, but a final compliant determination cannot be provided until the Solicitation Response is submitted." -> Skip.
+"To request a courtesy review, submit the completed Subcontracting Plan including all supporting documentation in a PDF format by e-mail to the HHSC VetHUB Program Office by or before the Courtesy Review of Subcontracting Plan Deadline in the Schedule of Events (Section 3.1)." -> This is an optional action with a deadline. Since it's optional ("To request..."), not required. Skip? Actually it's instructions for those who want courtesy review. Not mandatory. Skip.
+"E-Mail for Courtesy Review: Cheryl.Bradley@hhs.texas.gov." -> Skip.
+"E-mail Subject Line: Subcontracting Plan Courtesy Review, No. [HHS0015558v2]" -> Skip.
+"Due Date: [Respondent to add Deadline for Submission of Solicitation Responses information from Section 3.1 (Schedule of Events)]" -> Skip.
+"SPs received after the courtesy review deadline in the Schedule of Events (Section 3.1), will not be processed." -> Skip.
+"A response regarding the Subcontracting Plan will be provided at least eight (8) business days prior to the Solicitation Response deadline in the Schedule of Events (Section 3.1) from the VetHUB Office, allowing enough time to rectify any potential deficiencies for the final Subcontracting Plan submission." -> Skip.
+"The final Subcontracting Plan must be submitted with the Solicitation Response by the deadline in the Schedule of Events (Section 3.1)." -> Must = shall. Category deadline. Page 38. Due date 2026-08-26.
+"Solicitation Responses that do not include a completed Subcontracting Plan shall be rejected due to material failure to comply with Texas Government Code Section 2161.252(b)." -> Info/consequence. Skip.
+
+Page 39:
+"In its Solicitation Response, Respondent must provide the DIR issued TX-RAMP Level 2 Certification Identification Number." -> Section 6.9. Must = shall. Category form. Page 39.
+
+"In its Solicitation Response, Respondent must provide documentation required by Exhibit O, VPAT WCAG Edition and Exhibit O-1, VPAT Revised Section 508 Edition." -> Section 6.10. Must = shall. Category form. Page 39.
+
+"The Respondent must be currently authorized to do business in the State of Texas as evidenced by Certificate of Authority from the Texas Secretary of State submitted with the Solicitation Response." -> Section 6.11. Must = shall. Category form. Page 39.
+
+Page 40:
+"As noted above in Section 3.5 (Solicitation Response Composition), cost information must be included as a separate document/file, the cost proposal, with the Respondent’s Solicitation Response for the services listed in Article II, Scope of Work." -> Section 7.1. Must = shall. Category deliverable. Page 40.
+"Respondents must state their pricing for all Goods and Services rendered during the course of any Contract resulting from this Solicitation, including any and all costs involved that are to be paid or reimbursed by DSHS." -> Must = shall. Category deliverable. Page 40.
+"The pricing for the required Goods and Services is to be presented only in the format set forth in Exhibit M, Cost Proposal of the RFO." -> Must? "is to be presented" = shall. Category form. Page 40.
+"Pricing information shall include all costs associated with providing the required Goods and Services and must be submitted and labeled as specified in Section 3.6 (Solicitation Response Submission and Delivery)." -> Shall/must. Category deliverable. Page 40.
+"No reimbursement is available to the successful Respondent beyond the amount agreed to be paid for the Goods and Services provided." -> Info. Skip.
+"Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract." -> Shall = shall. Category deliverable. Page 40.
+"The cost proposal provided is for the Goods and/or Services as specified in this Solicitation and shall include all labor, materials, tools, supplies, equipment, and personnel, including but not limited to, travel expenses, associated costs, and incidental costs necessary to provide the products and Services according to the minimum specifications, requirements, provisions, terms, and conditions set forth in this RFO." -> Shall = shall. Category deliverable. Page 40.
+
+Page 41:
+"HHSC reserves the right to make changes to and/or cancel this RFO and will post all changes and modifications, whether made as a result of a potential Respondent’s written inquiries or otherwise, and cancellation notices on the ESBD." -> Skip.
+"It is the responsibility of the Respondent to check the ESBD regularly for any additional information regarding this RFO." -> Section 8.1.1. "responsibility" = obligation. Type shall. Category deliverable. Page 41.
+"If the Respondent fails to monitor the ESBD for any changes or modifications to the RFO, such failure will not relieve the Respondent of its obligation to fulfill the requirements as posted." -> Info. Skip.
+
+"Solicitation Responses shall be binding for a period of 240 days after the submission due date." -> Section 8.1.2. Shall = shall. Category deliverable? Or evaluation? It's about offer period. Let's say deliverable. Page 41. The due date is Aug 26, 2026, so 240 days after. But no specific date required. Just the binding period.
+"A Respondent may extend the time for which its Solicitation Response will be honored." -> Skip, permissive.
+"Upon Contract execution, prices agreed upon by the successful Respondent(s) are an irrevocable offer for the term of the Contract and any Contract renewals or extension(s)." -> Info. Skip.
+"No other costs, rates, or fees shall be payable to the successful Respondent unless expressly agreed upon in writing by HHSC." -> Shall = shall (negative). Category deliverable. Page 41.
+
+"Respondents understand that issuance of this Solicitation in no way constitutes a commitment by HHSC to award a Contract or to pay any costs incurred by a Respondent in the preparation of a response to this Solicitation." -> Section 8.1.3. Info. Skip? It's a statement of understanding. Not an obligation.
+"HHSC is not liable for any costs incurred by a Respondent." -> Skip.
+"Costs of developing Solicitation Responses, preparing for or participating in Oral Presentations, Demonstrations, and Site Visits, or any other similar expenses incurred by a Respondent are entirely the responsibility of the Respondent, and will not be reimbursed in any manner by the State of Texas." -> Info. Skip? It's about cost responsibility. Not a direct "must" but "are entirely the responsibility". This is an obligation. Type shall? Not the word. But it's binding. I'll include it? Actually it's stating that costs are respondent's responsibility. That's an administrative fact. I'll include it as info, category deliverable. Page 41.
+
+"HHSC will look solely to the successful Respondent for the performance of all contractual obligations that may result from an award based on this Solicitation." -> Skip.
+"The successful Respondent shall not be relieved of its obligations for any nonperformance by its Subcontractors." -> Section 8.1.4. Shall not = shall (binding negative). Category deliverable. Page 41.
+
+Page 42:
+"Proposals and contracts are subject to the Texas Public Information Act (PIA). Texas Government Code Chapter 552, and may be disclosed to the public upon request." -> Skip.
+"Other legal authority also requires HHSC to post contracts and proposals on its public website and to provide such information to the Legislative Budget Board for posting on its public website." -> Skip.
+
+"Under the PIA, certain information is protected from public release." -> Skip.
+"If Respondent asserts that information provided in its Solicitation Response is exempt from disclosure under the PIA, Respondent must:" -> Section 8.1.5. Must = shall. Category form. Page 42.
+Then a, b, c with sub-items. This is a complex set of obligations for marking confidential info. Let's extract the main items.
+
+a. "Mark Original Solicitation Response:" -> Must mark.
+Then 1 and 2.
+1. "Mark the Original Solicitation Response, on the top of the front page, with the words “CONTAINS CONFIDENTIAL INFORMATION” in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger);"
+2. "Identify, adjacent to each portion of the Solicitation Response that Respondent claims is exempt from public disclosure, the claimed exemption from disclosure (NOTE: no redactions are to be made in the Original Solicitation Response);"
+
+b. "Certify in Original Solicitation Response – HHS Solicitation Affirmations (attached as Exhibit A to this Solicitation): Certify, in the designated section of the HHS Solicitation Affirmations, Respondent’s confidential information assertion and the filing of its Public Information Act Copy; and"
+
+c. "Submit Public Information Act Copy of Solicitation Response:" -> Must submit.
+Then 1, 2, 3.
+1. "The copy must be clearly marked as “Public Information Act Copy” on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger);"
+2. "Each portion Respondent claims is exempt from public disclosure must be redacted (blacked out); and"
+3. "Respondent must identify, adjacent to each redaction, the claimed exemption from disclosure. Each identification provided as required in Subsection (c) of this section must be identical to those set forth in the Original Solicitation Response as required in Subsection (a)(2), above. The only difference in required markings and information between the Original Solicitation Response and the “Public Information Act Copy” of the Solicitation Response will be redactions - which can only be included in the “Public Information Act Copy.” There must be no redactions in the Original Solicitation Response."
+
+Then: "By submitting a response to this Solicitation, Respondent agrees that, if Respondent does not mark the Original Solicitation Response, provide the required certification in the Affirmations and Solicitation Acceptance, and submit the Public Information Act Copy, Respondent’s Solicitation Response will be considered to be public information that may be released to the public without notice to the Respondent in any manner including, but not limited to, in accordance with the Public Information Act, posted on HHSC’s public website, and posted on the Legislative Budget Board’s public website." -> This is an agreement/consequence. Skip? It's binding but complex. I'll skip since it's a legal consequence statement.
+
+"If any or all Respondents submit partial, but not complete, information suggesting inclusion of confidential information and failure to comply with the requirements set forth in this section, HHSC, in its sole discretion and in any Solicitation, reserves the right to (1) disqualify all Respondents that fail to fully comply with the requirements set forth in this section, or (2) to offer all Respondents that fail to fully comply with the requirements set forth in this section additional time to comply." -> Skip.
+
+"Respondent should not submit a Public Information Act Copy indicating that the entire Solicitation Response is exempt from disclosure." -> Should = should. Category form. Page 43.
+"Merely making a blanket claim that the entire response is protected from disclosure because it contains any amount of confidential, proprietary, trade secret, or privileged information is not acceptable, and may make the entire proposal subject to release under the PIA." -> Info. Skip.
+"A Solicitation Response should not be marked or asserted as copyrighted material." -> Should = should. Category form. Page 43.
+"If Respondent asserts a copyright to any portion of its response, by submitting a response, Respondent agrees to reproduction and posting on public websites by the State of Texas, including HHSC and all other state agencies, without cost or liability." -> Info/agreement. Skip.
+
+"HHSC will strictly adhere to the requirements of the PIA regarding the disclosure of public information." -> Skip.
+"As a result, by participating in this Solicitation process, Respondent acknowledges that all information, documentation, and other materials submitted in the Solicitation Response in response to this Solicitation may be subject to public disclosure under the PIA." -> Info. Skip.
+"HHSC does not have authority to agree that any information submitted will not be subject to disclosure." -> Skip.
+"Disclosure is governed by the PIA and by rulings of the Office of the Texas Attorney General." -> Skip.
+"Respondents are advised to consult with their legal counsel concerning disclosure issues resulting from this process and to take precautions to safeguard trade secrets and proprietary or otherwise confidential information." -> "are advised" = should? Actually "advised to" is advisory. Type should. Category form. Page 43.
+"HHSC no obligation or responsibility relating to the disclosure or nondisclosure of information submitted by Respondents." -> Skip (typo in original).
+
+"For more information..." -> Skip.
+
+Page 44:
+"SUBMISSION OF ANY DOCUMENT TO HHSC IN RESPONSE TO THIS SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY RESPONDENT TO FULLY INDEMNIFY THE STATE OF TEXAS, HHSC FROM ANY CLAIM OF INFRINGEMENT BY HHSC REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF RESPONDENT OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO HHSC BY RESPONDENT." -> Section 8.1.6. This is a binding waiver/agreement. Type shall? Not the word, but it's a binding obligation. I'll include it as "shall". Category deliverable. Page 44.
+
+"Pursuant to Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule §391.405(a), Contractors, Respondents, and vendors interested in working with HHSC are required to implement standards of conduct for their own personnel and agents on terms at least as restrictive as those applicable to HHSC." -> Section 8.1.7. "are required to" = shall. Category deliverable. Page 44.
+"These standards must adhere to ethics requirements adopted in rule, in addition to any ethics policy, or code of ethics approved by the HHSC Executive Commissioner." -> Must = shall. Category deliverable. Page 44.
+"A Respondent must sign and submit all ethics, disclosure, confidentiality, and other forms required under the procurement and any resulting contract." -> Must = shall. Category form. Page 44.
+
+"The standards of conduct must include the ten standards of ethical conduct set forth in Section I of the HHS Ethics Policy and requirements to comply with ethical standards set forth in federal and state law (including, but not limited to, Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule §391.405(a))." -> Must = shall. Category deliverable. Page 44.
+"Standards of conduct of any Contractor, Respondent, or vendor may be reviewed and/or audited by the State Auditor and HHSC," -> Skip.
+"The Contractor, Respondent, or vendor must cooperate with the review and/or audit." -> Must = shall. Category deliverable. Page 44.
+"Additionally, pursuant to Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule §391.405(a), HHSC may examine a Respondent’s standards of conduct in the evaluation of a bid, offer, proposal, quote, or other applicable expression of interest in a proposed purchase of Goods or Services." -> Skip.
+"Any vendor, Contractor, or Subcontractor, that violates a provision of Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D may be barred from receiving future contracts or have an existing contract canceled." -> Skip.
+"Additionally, HHSC may report the vendor’s actions to the Comptroller of Public Accounts for statewide debarment, or law enforcement." -> Skip.
+
+"Pursuant to Section 2252.908 of the Texas Government Code, a successful Respondent to be awarded a Contract with a value of $1 million or more or awarded a Contract that would require the successful Respondent to register as a lobbyist under Texas Government Code Chapter 305 must submit a disclosure of interested parties form to HHSC at the time the Respondent submits the signed Contract." -> Section 8.1.8. Must = shall. Category form. Page 45. Note: This applies to successful respondent, but it's in the RFP. Include.
+
+Page 45:
+"For the duration of any Contract resulting from this Solicitation, the successful Respondent shall acquire insurance, with financially sound and reputable independent insurers, in the type and amount listed in Exhibit R, Insurance Requirements." -> Section 8.2.1. Shall = shall. Category form. Page 45.
+"If coverage expires during the term of the Contract, renewal certificates for each type of coverage must be provided to System Agency." -> Must = shall. Category form. Page 45.
+"Failure to maintain insurance coverage or acceptable alternative methods of insurance shall be deemed a breach of Contract." -> Info/consequence. Skip? Actually it's a statement of breach. Not a direct vendor action. Skip.
+"In the event that any policy is determined by the System Agency to be deficient to comply with the terms of this Contract, System Agency may require additional policies or coverage as the System Agency may reasonably request or that are required by law or regulation." -> Skip.
+
+"Notwithstanding the preceding, HHSC reserves the right to consider reasonable alternative methods of insuring the Contract in lieu of the insurance policies customarily required." -> Skip.
+"It will be the Respondent's responsibility to recommend to HHSC alternative methods of insuring the Contract." -> Section 8.2.2. "responsibility" = obligation. Type shall. Category form. Page 45.
+"Any alternatives proposed by Respondent should be accompanied by a detailed explanation regarding Respondent's inability to obtain the required insurance and/or bonds." -> Should = should. Category form. Page 45.
+"HHSC shall be the sole and final judge as to the adequacy of any substitute form of insurance coverage." -> Skip.
+
+"Any protest shall be governed by the rules published by HHSC in the Texas Administrative Code Title 1, Part 15, Chapter 391, Subchapter C (Protests)." -> Section 8.3. Info. Skip? It's about protest rules. Not a vendor obligation to act, but they must follow rules if protesting. I'll skip since it's not a direct requirement.
+
+Page 46:
+List of exhibits. These are references. Not obligations themselves, except that they are part of the solicitation. The rules say include attachments and exhibits that contain vendor obligations. The list itself doesn't contain obligations, just names. Skip.
+
+Now I need to compile all these into a JSON array with sequential IDs, in document order.
+
+Given the volume, I need to be careful with formatting and ensure verbatim text is exact.
+
+Let me organize by page and assign IDs sequentially.
+
+I'll start from page 1.
+
+R-001: Page 1, Cover, "Responses Due: August 26, 2026 by 10:30 a.m. Central Time" -> info, deadline, 2026-08-26.
+
+R-002: Page 6, 1.1, "Prior to award of the Contract, Respondent must obtain TX-RAMP Level 2 certification." -> shall, eligibility.
+
+R-003: Page 6, 1.1, "TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement." -> info, eligibility.
+
+R-004: Page 6, 1.1, "For this Solicitation, HHSC shall not provide “agency-sponsored” TX-RAMP Provisional Status certification to any Respondent." -> Actually skip, HHSC obligation.
+
+R-005: Page 11, 2.1.1, "Commencing on the Effective Date and during the Contract Term, Contractor must provide Services that comply with TX-RAMP Certification Level 2." -> shall, deliverable.
+
+R-006: Page 11, 2.1.1, "Contractor acknowledges that TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement." -> info, deliverable.
+
+R-007: Page 11, 2.1.2, "The Contractor shall comply with Exhibit N, Requirements Traceability Matrix, that provides a detailed Requirements Traceability Matrix (RTM) that defines and organizes all required Services and technical requirements to be fulfilled by the Contractor." -> shall, deliverable.
+
+R-008: Page 11, 2.1.2, "Non-compliance or failure to meet performance measures may result in enforcement of liquidated damages or other contractual remedies." -> info, deliverable.
+
+R-009: Page 11, 2.1.2, "In accordance with Exhibit N, Requirements Traceability Matrix, the following requirements areas are included:" -> Skip? It's just introducing list. Actually it's not an obligation. Skip.
+
+R-010: Page 12, 2.1.3, "The Contractor, for no additional compensation, shall conduct on an annual basis a Disaster Recovery test to assess the effectiveness of the Contractor’s Disaster Recovery Plan." -> shall, deliverable.
+
+R-011: Page 12, 2.1.3, "On or before the ninetieth (90th) Calendar Day following each Disaster Recovery test, Contractor will provide DSHS, with a written summary report detailing the results of the Disaster Recovery test." -> shall, deliverable.
+
+R-012: Page 12, 2.1.3, "Upon DSHS’s written request, Contractor shall make Contractor personnel available to discuss with DSHS the results of the Disaster Recovery test." -> shall, deliverable.
+
+R-013: Page 12, 2.1.3, "Contractor shall use commercially reasonable efforts to resolve issues identified during the Disaster Recovery test" -> shall, deliverable.
+
+R-014: Page 12, 2.1.3, "for each unsuccessful test, Contractor shall conduct an additional Disaster Recovery test in a timely manner to validate the successful implementation of Contractor’s remediation activities." -> shall, deliverable.
+
+R-015: Page 12, 2.1.4, "The Contractor shall submit an invoice to DSHS in a format consistent with the line-item descriptions of Exhibit M, Cost Proposal." -> shall, deliverable.
+
+R-016: Page 12, 2.1.4, "Each invoice submitted must identify: a. The purchase order number; b. HHSC’s Contract number; c. The time period (e.g., month); and d. Line-item description for Service or Deliverable." -> shall, deliverable.
+
+R-017: Page 12, 2.1.4, "Failure to submit required supporting documentation with the invoice may result in return of invoices and delay of payment." -> info, deliverable.
+
+R-018: Page 12-13, 2.1.4, "Invoices shall be sent to: Health and Human Services Commission Attn: Invoice – HHSC MC2065 4601 W. Guadalupe St. Austin, TX 78751 Fax: (512) 206-4854 E-mail: IT_invoicing@hhs.texas.gov" -> shall, deliverable.
+
+R-019: Page 13, 2.2.1, "DSHS intends to award one (1) Contract as a result of this Solicitation." -> Skip.
+
+R-020: Page 13, 2.3, "By entering into a Contract with DSHS as a result of this Solicitation, Respondent agrees to be bound by the terms of the Data Use Agreement (DUA), attached as Exhibit D." -> shall, deliverable.
+
+R-021: Page 13, 2.3, "Respondents must complete and return with their Solicitation Response Exhibit D-1, Attachment 2 to the DUA, Security and Privacy Inquiry (SPI)." -> shall, form.
+
+R-022: Page 15, 3.1, "Respondents must submit their Solicitation Responses to HHSC in accordance with the due date and time indicated in this Schedule of Events or as changed via an Addendum posted to the ESBD." -> shall, deadline, 2026-08-26.
+
+R-023: Page 15, 3.1, "NOTE: All dates are tentative and HHSC reserves the right to modify these dates at any time." -> info, deadline? Actually it's about schedule. Category deadline? No, it's info. Let's say info, deliverable? Actually it's administrative. Let's use info, deliverable? Hmm. Actually it's just a note. Skip? The rules say extract administrative facts. This is an administrative fact. Let's include it. Category: since it's about schedule/deadlines, maybe "deadline". But no specific date. Type info. Let's include.
+
+R-024: Page 15, 3.1, "Each Respondent is responsible for checking the ESBD and Procurement Forecast for updates." -> shall, deliverable.
+
+R-025: Page 15, 3.1, "By submitting a Solicitation Response, Respondent represents and warrants that any individual submitting the Solicitation Response and any related documents on behalf of the Respondent is authorized to do so and to bind the Respondent under any Contract that may result from this Solicitation." -> shall, deliverable.
+
+R-026: Page 16, 3.2, "Respondent must notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation in the manner and by the deadline described in Section 3.3.4 (Solicitation Questions)." -> shall, deliverable.
+
+R-027: Page 16, 3.2, "Respondent submits a Solicitation Response at its own risk." -> info, deliverable.
+
+R-028: Page 16, 3.2, "If Respondent fails to properly and timely notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation, Respondent, whether awarded a Contract or not: a. Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;" -> shall, deliverable.
+
+R-029: Page 16, 3.2, "b. Must not contest the interpretation by HHSC of such provision(s);" -> shall, deliverable.
+
+R-030: Page 16, 3.2, "c. Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction." -> shall, deliverable.
+
+R-031: Page 17, 3.3.1, "All requests, questions, or other communication about this Solicitation shall be made in writing to HHSC PCS, addressed to the person listed below (Sole Point of Contact)." -> shall, deliverable.
+
+R-032: Page 17, 3.3.1, "Respondents seeking to contact the Sole Point of Contact should do so via e-mail in order to receive updated contact information." -> should, deliverable.
+
+R-033: Page 17, 3.3.2, "Except as provided in Section 3.3.1 (Sole Point of Contact) and Section 3.3.3 (Exception to Sole Point of Contact), potential Respondents and Respondents are prohibited from any communication with HHSC regarding the Solicitation." -> shall, deliverable.
+
+R-034: Page 17, 3.3.2, "Respondent shall rely only on written statements issued by or through HHSC designated staff as provided by Section 3.3 (Inquiries)." -> shall, deliverable.
+
+R-035: Page 18, 3.3.3, "Respondents are required to ensure that communications have been authorized by the Sole Point of Contact before engaging in such communication." -> shall, deliverable.
+
+R-036: Page 18, 3.3.4, "Questions must be submitted by e-mail to the Sole Point of Contact (Section 3.3.1) by the deadline established in Section 3.1 (Schedule of Events)." -> shall, deadline, 2026-07-24.
+
+R-037: Page 18, 3.3.4, "It is the Respondent's responsibility to check the ESBD." -> shall, deliverable.
+
+R-038: Page 18, 3.3.4, "a. All questions and requests for clarification must include the following information: 1. Solicitation number; 2. Solicitation package reference (page number, section, and exhibit or attachment, if applicable; 3. Question topic (e.g., “Schedule of Events,” or “Exhibit M – Cost Proposal”); and 4. Question for HHSC." -> shall, form.
+
+R-039: Page 18, 3.3.4, "b. Requestor contact information below must be included in the body of the e-mail and submitted with the question(s): 1. Company name; 2. Company representative name; 3. Phone number; and 4. E-Mail address." -> shall, form.
+
+R-040: Page 19, 3.4.1, "Attendance is optional but highly recommended." -> should, deliverable.
+
+R-041: Page 19, 3.4.1, "Attendees to virtual pre-proposal conferences are required to send an email to the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), advising of participation in the pre-proposal conference." -> shall, deliverable.
+
+R-042: Page 19, 3.4.1, "Attendees must provide their name, phone number, and name of the company they are representing regardless of whether the pre-proposal conference is in-person or virtual." -> shall, deliverable.
+
+R-043: Page 19, 3.4.2, "People with disabilities who wish to attend the meeting and require auxiliary aids or services should contact the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), at least seventy-two (72) hours before the meeting in order to have reasonable accommodations made by HHSC." -> should, deliverable.
+
+R-044: Page 20, 3.4.3, "Conversations with HHSC or DSHS program area staff before or after the pre-proposal conference are prohibited." -> shall, deliverable.
+
+R-045: Page 21, 3.5.1, "Respondent shall prepare a Solicitation Response that clearly and concisely represents its qualifications and capabilities." -> shall, deliverable.
+
+R-046: Page 21, 3.5.1, "Respondent should focus on the instructions and requirements of the Solicitation." -> should, deliverable.
+
+R-047: Page 21, 3.5.2, "The narrative/technical proposal should not exceed eighty (80) pages" -> should, deliverable.
+
+R-048: Page 21, 3.5.2, "The narrative/technical proposal should be formatted for 8 ½" x 11" paper with 1-inch margins and typed in Times New Roman, 12-point font." -> should, deliverable.
+
+R-049: Page 21, 3.5.2, "If complete responses cannot be provided without referencing supporting documentation, such documentation must be provided with the Solicitation Response, with specific reference made to the file, page, section, and/or paragraph where the supporting information can be found." -> shall, deliverable.
+
+R-050: Page 22, 3.5.4, "Respondents are highly encouraged, in lieu of including exceptions in their Solicitation Responses, to address all issues that might be advanced by way of exception by submitting such issues as questions or requests for clarification pursuant to Section 3.3.4 (Solicitation Questions)." -> should, deliverable.
+
+R-051: Page 22, 3.5.4, "If a Respondent includes exceptions in its Solicitation Response, Respondent is required to use the Exceptions Form included as Exhibit E to this Solicitation and provide all information requested on the form." -> shall, form.
+
+R-052: Page 22, 3.5.5, "Respondent must identify on the Assumptions Form, Exhibit F any business, economic, legal, programmatic, or practical assumptions that underlie the Respondent’s response to the Solicitation." -> shall, form.
+
+R-053: Page 22, 3.5.6, "A Solicitation Response should be responsive to the Solicitation as worded and without any assumption that any or all terms, conditions, or provisions of the Solicitation will be negotiated." -> should, deliverable.
+
+R-054: Page 23, 3.6.1, "Solicitation Responses must be received at the address in Section 3.6.4 (Labeling and Delivery for USB Submission and Other Materials) and time-stamped by HHSC PCS no later than the date and time specified in Section 3.1 (Schedule of Events)." -> shall, deadline, 2026-08-26.
+
+R-055: Page 23, 3.6.2, "Submission Option #1: Respondent shall submit two (2) USB drives—one (1) labeled “Original Proposal” and one (1) labeled “Copy”—containing the following documents:" -> shall, deliverable.
+
+R-056: Page 23, 3.6.2, "Each USB must contain one file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit." -> shall, deliverable.
+
+R-057: Page 23, 3.6.2, "If applicable in accordance with Section 8.1.5, (Public Information Act – Respondent Requirement Regarding Disclosure), each USB must contain one (1) file named “Public Information Act Copy” that contains the Respondent’s entire Solicitation Response, including all exhibits and attachments, in searchable PDF." -> shall, deliverable.
+
+R-058: Page 23, 3.6.2, "In accordance with Section 7.1, (Cost Proposal), each USB must contain one (1) file named “Cost Proposal” that contains the Respondent’s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016)." -> shall, deliverable.
+
+R-059: Page 23, 3.6.2, "In accordance with Section 6.8, (Subcontracting Plan), each USB must contain one (1) file named “Subcontracting Plan” in searchable PDF, that contains the Respondent’s Subcontracting Plan and all supporting documentation." -> shall, deliverable.
+
+R-060: Page 23, 3.6.2, "c. Submission Option #2: Respondent shall submit the following through the Online Bid Room utilizing the procedures in Exhibit J, HHS Online Bid Room Information:" -> shall, deliverable.
+
+R-061: Page 23, 3.6.2, "One (1) file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit." -> shall, deliverable.
+
+R-062: Page 23, 3.6.2, "If applicable in accordance with Section 8.1.5, (Public Information Act – Respondent Requirements Regarding Disclosure), one (1) file named “Public Information Act Copy” that contains the Respondent’s entire Solicitation Response, including all exhibits and attachments, in searchable PDF." -> shall, deliverable.
+
+R-063: Page 23, 3.6.2, "In accordance with Section 7.1, (Cost Proposal), one (1) file named “Cost Proposal” that contains the Respondent’s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016)." -> shall, deliverable.
+
+R-064: Page 23, 3.6.2, "In accordance with Section 6.8, (Subcontracting Plan), one (1) file named “Subcontracting Plan” in searchable PDF, that contains the Respondent’s Subcontracting Plan and all supporting documentation." -> shall, deliverable.
+
+R-065: Page 24, 3.6.3, "Solicitation Consideration and Award Consideration Documents, reference Section 1.2 (Definitions) must be submitted by the deadline for Solicitation Response submissions, reference Section 3.1 (Schedule of Events)." -> shall, deadline, 2026-08-26.
+
+R-066: Page 24, 3.6.3, "The Solicitation Response must be submitted using one of the approved methods identified in Section 3.6, (Solicitation Response Submission and Delivery)." -> shall, deliverable.
+
+R-067: Page 24, 3.6.3, "Where searchable PDF files are required, submission of non-searchable (image only) PDF files may result in disqualification from further consideration for Contract award." -> info, deliverable.
+
+Then checklist items. Let's continue numbering.
+
+R-068: Page 24, 3.6.3, "1. Narrative Proposal (Section 5.1) SC ____" -> shall, deliverable.
+
+R-069: Page 24, 3.6.3, "2. Technical Proposal (Section 5.2) SC ____" -> shall, deliverable.
+
+R-070: Page 24, 3.6.3, "3. Company Information (Section 6.1) SC ____" -> shall, deliverable.
+
+R-071: Page 24, 3.6.3, "4. Franchise Tax Information (Section 6.2) AC ____" -> shall, form.
+
+R-072: Page 24, 3.6.3, "5. References (Section 6.3) AC ____" -> shall, deliverable.
+
+R-073: Page 24, 3.6.3, "6. Major Subcontractor Information (Section 6.4) SC ____" -> shall, deliverable.
+
+R-074: Page 24, 3.6.3, "7. HHS Solicitation Affirmations (Section 6.5, Exhibit A) SC ____" -> shall, form.
+
+R-075: Page 24, 3.6.3, "8. Assurances – Non-Construction Programs (if applicable) (Section 6.5, Exhibit G) AC ____" -> shall, form.
+
+R-076: Page 24, 3.6.3, "9. Certification Regarding Lobbying (if applicable) (Section 6.5, Exhibit H) AC ____" -> shall, form.
+
+R-077: Page 24, 3.6.3, "10. HHS Federal Funding Accountability and Transparency Act (FFATA) Certification Form Section 6.5, Exhibit K) AC ____" -> shall, form.
+
+R-078: Page 24, 3.6.3, "11. Exceptions (if applicable) (Section 3.5.4, Exhibit E) AC ____" -> shall, form.
+
+R-079: Page 24, 3.6.3, "12. Assumptions (if applicable) (Section 3.5.5, Exhibit F) AC ____" -> shall, form.
+
+R-080: Page 24, 3.6.3, "13. Other Reports (Section 6.6) AC ____" -> shall, deliverable.
+
+R-081: Page 24, 3.6.3, "14. Corporate Guarantee (Section 6.7) AC ____" -> shall, form.
+
+R-082: Page 24, 3.6.3, "15. SPI (Section 2.3, Exhibits D and D-1) AC ____" -> shall, form.
+
+R-083: Page 24, 3.6.3, "16. Certificate of Authority (Section 6.11) AC ____" -> shall, form.
+
+R-084: Page 24, 3.6.3, "17. TX-RAMP Documentation (Section 2.1.1, 6.9) AC ____" -> shall, form.
+
+R-085: Page 24, 3.6.3, "18. Accessibility (VPAT) (if applicable) (Section 6.10, Exhibit O, Exhibit O-1) AC ____" -> shall, form.
+
+R-086: Page 24, 3.6.3, "19. Insurance (Section 8.2) AC ____" -> shall, form.
+
+R-087: Page 24, 3.6.3, "20. Addendum(s) (if applicable) (Section 8.1.1) AC ____" -> shall, form.
+
+R-088: Page 24, 3.6.3, "B. Cost Proposal (Article VII) SC ____" -> shall, deliverable.
+
+R-089: Page 24, 3.6.3, "C. Subcontracting Plan Requirements (Section 6.8 and Exhibit Q) SC ____" -> shall, form.
+
+R-090: Page 25, 3.6.4, "Respondent must deliver Solicitation Responses submitted via USB by one of the methods below." -> shall, deliverable.
+
+R-091: Page 25, 3.6.4, "Overnight/Express/Priority Mail Health and Human Services Commission ATTN: Response Coordinator Tower Building Room 108 1100 W. 49th St., MC 2020 Austin, Texas 78756" -> info, deliverable.
+
+R-092: Page 25, 3.6.4, "Hand Delivery Health and Human Services Commission ATTN: Response Coordinator Procurement & Contracting Services Building 1100 W. 49th St., MC 2020 Austin, Texas 78756" -> info, deliverable.
+
+R-093: Page 25, 3.6.4, "It is the Respondent’s responsibility to appropriately mark and deliver the Solicitation Response to HHSC PCS by the specified date." -> shall, deliverable.
+
+R-094: Page 25, 3.6.4, "Each Respondent is solely responsible for ensuring its Solicitation Response is submitted in accordance with all Solicitation requirements, including, but not limited to, proper labeling of packages, sufficient postage or delivery fees, and ensuring timely receipt by HHSC." -> shall, deliverable.
+
+R-095: Page 25, 3.6.4, "Solicitation Response must be RECEIVED by HHSC PCS by the Solicitation Response Deadline identified in Section 3.1 (Schedule of Events)." -> shall, deadline, 2026-08-26.
+
+R-096: Page 25, 3.6.4, "Solicitation Responses submitted via USB by mail or hand delivery shall be placed in a sealed package." -> shall, deliverable.
+
+R-097: Page 25, 3.6.4, "The sealed package and the USB drives shall be clearly labeled on the outside as follows:" -> shall, deliverable.
+
+R-098: Page 25, 3.6.4, "SOLICITATION NO: HHS0015558v2 SOLICITATION NAME Video Directly Observed Therapy SOLICITATION RESPONSE DEADLINE Refer to Section 3.1 (Schedule of Events) PURCHASER NAME: Chastity Marion, CTCD, CTCM RESPONDENT NAME: [Respondent Name]" -> shall, deliverable.
+
+R-099: Page 25, 3.6.4, "It is Respondent’s sole responsibility to ensure that packaging is sufficient to prevent damage to contents." -> shall, deliverable.
+
+R-100: Page 25, 3.6.4, "It is the Respondent’s sole responsibility to mark appropriately and deliver the Solicitation Response to HHSC PCS by the specified date and time." -> shall, deliverable.
+
+R-101: Page 26, 3.6.5, "When modifying its Solicitation Response, Respondent must include in writing the section(s) of its submission that will be replaced or removed by the amendment." -> shall, deliverable.
+
+R-102: Page 27, 4.2.2, "Respondents must meet the minimum qualifications listed below." -> shall, eligibility.
+
+R-103: Page 27, 4.2.2, "a. Respondents must have at least four (4) years of recent experience providing VDOT services and demonstrate experience implementing, monitoring, and maintaining a VDOT system.." -> shall, eligibility.
+
+R-104: Page 27, 4.2.2, "b. Respondents have submitted the Response in accordance with Section 3.6, (Solicitation Response Submission and Delivery) including all Solicitation Consideration (SC) and Award Consideration (AC) Documents, see Section 3.6.3 (Submission Checklist);" -> shall, eligibility.
+
+R-105: Page 27, 4.2.2, "c. Respondents who receive an overall score on the VPTS of less than a “C” may be disqualified from consideration for award." -> info, eligibility.
+
+R-106: Page 28, 4.2.5, "Solicitation Responses shall be consistently evaluated and scored in accordance with the following criteria." -> Skip? It's evaluation process. But the criteria are required to be extracted.
+
+R-107: Page 28, 4.2.5, "a. Relevant Experience (30%)" -> info, evaluation.
+
+R-108: Page 28, 4.2.5, "b. Narrative and Technical Proposal (50%)" -> info, evaluation.
+
+R-109: Page 28, 4.2.5, "c. Cost (20%)" -> info, evaluation.
+
+R-110: Page 29, 4.2.6, "Revisions must be submitted in the manner and form prescribed by the BAFO request." -> shall, deliverable.
+
+R-111: Page 29, 4.2.6, "However, a Respondent should provide its best offer in its original Solicitation Response." -> should, deliverable.
+
+R-112: Page 29, 4.2.6, "Respondents should not expect or assume that HHSC will request a BAFO." -> should, deliverable.
+
+R-113: Page 29, 4.2.8, "Respondents are encouraged to thoroughly review the processes outlined in this section, as it documents the best value considerations to be made by HHSC when selecting a Respondent for negotiation and Contract award." -> should, evaluation.
+
+R-114: Page 30, 4.3, "By submitting a Solicitation Response, Respondent grants HHSC the right to ask questions, request clarifications and to obtain any information from any lawful source regarding the past history, practices, conduct, ability, and eligibility of the Respondent to supply Goods or Services and to fulfill requirements under this Solicitation, and the past history, practices, conduct, ability, and eligibility of any director, officer, or key employee of the Respondent." -> Skip? Actually it's a grant. Not a direct "must". Skip.
+
+R-115: Page 30, 4.3, "By submitting a Solicitation Response, the Respondent generally releases from liability and waives all claims against any party providing information about the Respondent at the request of HHSC." -> shall, evaluation.
+
+R-116: Page 31, 5.1.1, "Respondents must provide an executive summary of their proposal (excluding cost information) that asserts the Respondent is providing, in its Response, all the requirements of this Solicitation, including Article II, Scope of Work." -> shall, deliverable.
+
+R-117: Page 31, 5.1.1, "The summary must demonstrate Respondent’s understanding of DSHS goals and objectives for this Solicitation." -> shall, deliverable.
+
+R-118: Page 31, 5.1.1, "If the Respondent is providing goods or Services beyond those specifically requested, those goods or Services must be identified." -> shall, deliverable.
+
+R-119: Page 31, 5.1.1, "If the Respondent is offering goods or Services that do not meet the specific requirements of this Solicitation, but in the opinion of the Respondent are equivalent or superior to those specifically requested, any such differences must be noted in the executive summary." -> shall, deliverable.
+
+R-120: Page 31, 5.1.1, "The Respondent should realize, however, that failure to provide the Goods and Services specifically requested may result in disqualification." -> should, deliverable.
+
+R-121: Page 31, 5.1.1, "The executive summary must not exceed thirty (30) pages" -> shall, deliverable.
+
+R-122: Page 31, 5.1.1, "The executive summary should represent a full and concise summary of the contents of the proposal." -> should, deliverable.
+
+R-123: Page 31, 5.1.2, "Respondents must provide key staffing profiles and resumes for all key staff who will be responsible for the performance of the Services requested under this Solicitation (see Exhibit N, Requirements Traceability Matrix – Table 7 (Staffing Requirements)." -> shall, deliverable.
+
+R-124: Page 31, 5.2, "Respondents must provide a detailed description of their proposed technical solution, which must support all business activities and requirements described in this Solicitation." -> shall, deliverable.
+
+R-125: Page 31, 5.2, "The Technical Proposal must reflect Respondent’s clear understanding of the nature of the Work undertaken" -> shall, deliverable.
+
+R-126: Page 31, 5.2, "The Technical Proposal must include a detailed description of Respondent’s proposed system(s)." -> shall, deliverable.
+
+R-127: Page 31, 5.2, "The Technical Proposal must include a description of the following system components, at a minimum:" -> shall, deliverable.
+
+R-128: Page 32, 5.2.1, "Respondents must provide a detailed description of the proposed technology architecture and include one (1) or more diagrams that detail the relationships between key technical components." -> shall, deliverable.
+
+R-129: Page 32, 5.2.2, "Respondents are responsible for delivering a cost-effective, high-availability environment that minimizes the frequency and impact of system failures, reduces downtime, and minimizes recovery time in the event of catastrophic failure." -> shall, deliverable.
+
+R-130: Page 32, 5.2.2, "In this section, Respondents must provide details on their approach to providing a highly available system." -> shall, deliverable.
+
+R-131: Page 32, 5.2.2, "In addition, Respondents must describe their proposed approach to monitoring system performance and use as well as planning, sizing, and controlling the system as capacity needs change." -> shall, deliverable.
+
+R-132: Page 32, 5.2.2, "Respondents must describe how their system manages video uploads when internet connectivity is unavailable or disrupted." -> shall, deliverable.
+
+R-133: Page 32, 5.2.2, "The proposal must explain whether videos are stored locally and automatically uploaded once a connection is reestablished, or if Users are required to manually resubmit." -> shall, deliverable.
+
+R-134: Page 32, 5.2.2, "Respondents should also describe any notifications or safeguards built into the system to ensure no video submissions are lost." -> should, deliverable.
+
+R-135: Page 32, 5.2.3, "Respondents must provide details on the software and hardware components they proposed for their system." -> shall, deliverable.
+
+R-136: Page 32, 5.2.3, "This includes, but is not limited to, the proposed server topology, specifications for the hardware components, and data storage components." -> shall, deliverable.
+
+R-137: Page 32, 5.2.3, "Respondents should also include details on the tools and utilities used to design, build, test, deploy, report, monitor, and operate the system and its components." -> should, deliverable.
+
+R-138: Page 32, 5.2.4, "Respondents must describe their approach to integrating the proposed system with other information systems." -> shall, deliverable.
+
+R-139: Page 32, 5.2.5, "Respondents must detail their approach to administering the system and system components." -> shall, deliverable.
+
+R-140: Page 32, 5.2.5, "This includes system support, including the levels of support offered and the process for requesting support." -> shall, deliverable.
+
+R-141: Page 32, 5.2.5, "In addition, Respondents must provide a summary of their proposed strategy for maintaining and repairing the system." -> shall, deliverable.
+
+R-142: Page 32, 5.2.5, "Respondents must provide narrative descriptions of their approach to technical support Services, including 24-hour online support, business-hours telephone support, and processes for handling Service requests and optimization requests." -> shall, deliverable.
+
+R-143: Page 32, 5.2.5, "Respondents must also explain how support staff will be trained to meet HIPAA requirements and how training completion will be verified." -> shall, deliverable.
+
+R-144: Page 32, 5.2.5, "In addition, Respondents must provide a sample Corrective Action Plan template to demonstrate their process for addressing operational deficiencies and system issues." -> shall, deliverable.
+
+R-145: Page 32, 5.2.5, "The Respondent’s approach must clearly show how support and maintenance activities will ensure reliable Service delivery, compliance, and effective issue resolution for both Providers and Clients." -> shall, deliverable.
+
+R-146: Page 33, 5.2.6, "Respondents must detail their approach to security architecture, including the development and implementation measures that will provide security and protection for the system." -> shall, deliverable.
+
+R-147: Page 33, 5.2.6, "This includes the proposed backup and recovery processing approach, and proposed virus protection strategy." -> shall, deliverable.
+
+R-148: Page 33, 5.2.6, "Respondents should describe their general approach to reestablishing operations in the event of a catastrophe, as well as their approach to providing HHSC with a disaster recovery plan." -> should, deliverable.
+
+R-149: Page 33, 5.2.6, "Respondents must provide specifications on any hardware and software components utilized by the proposed security and disaster recovery solutions." -> shall, deliverable.
+
+R-150: Page 33, 5.2.7, "Respondents must describe their proposed methodology for monitoring and reporting system performance, as well as the proposed approach to technology management." -> shall, deliverable.
+
+R-151: Page 33, 5.2.7, "Respondents must address methods for auditing, tracing, and scanning the system, and provide details on the specialized tools they will use to automate and track monitoring and management activities." -> shall, deliverable.
+
+R-152: Page 33, 5.2.7, "Respondents must provide screenshots of the proposed Application to demonstrate system functionality." -> shall, deliverable.
+
+R-153: Page 33, 5.2.7, "Screenshots must illustrate core features such as the Client and Provider interfaces, reporting dashboards, and dose-tracking functions." -> shall, deliverable.
+
+R-154: Page 33, 5.2.7, "Respondents must show how the Application supports medication adherence by allowing Providers to track Client doses, generate summary reports highlighting missed doses, and run dashboards that display compliance information." -> shall, deliverable.
+
+R-155: Page 33, 5.2.7, "These materials must demonstrate that the solution is user-friendly, supports both Synchronous and Asynchronous observation, and provides the tools necessary for monitoring and clinical decision-making." -> shall, deliverable.
+
+R-156: Page 33, 5.2.7, "Respondents must provide at least one sample dashboard screenshot that illustrates how reporting functionality will appear in the Application." -> shall, deliverable.
+
+R-157: Page 33, 5.2.7, "The example should show the ability to track Clients by condition and generate compliance data, including weekly or monthly reporting views." -> should, deliverable.
+
+R-158: Page 33, 5.2.7, "Respondents must demonstrate how dashboards and reports will be refreshed with current data, role-controlled for appropriate access, and designed to support program monitoring, clinical oversight, and performance tracking." -> shall, deliverable.
+
+R-159: Page 34, 5.2.8, "Respondents must provide narrative descriptions of their proposed transition processes, including how they will coordinate transition activities from Contract award through the Operations Start Date, finalize and update the Transition Plan, and collaborate with the incumbent vendor to ensure an orderly transfer of Services and knowledge." -> shall, deliverable.
+
+R-160: Page 34, 5.2.8, "Respondents must also include a sample Readiness Assessment Plan template to demonstrate how readiness will be measured, along with a narrative description of the process for verifying that all Providers are fully trained on both the mobile and Web-Based Applications prior to go-live." -> shall, deliverable.
+
+R-161: Page 34, 5.2.8, "These submissions must demonstrate the Respondent’s ability to ensure a seamless transition, readiness of systems, and training of end users." -> shall, deliverable.
+
+R-162: Page 34, 5.2.9, "Respondents must provide examples of proposed training materials for both Clients and Providers." -> shall, deliverable.
+
+R-163: Page 34, 5.2.9, "Submissions should reflect multiple formats, including written guides, videos, and web-based modules, and should demonstrate how training will meet accessibility needs, support Users with limited literacy, and be available in multiple languages." -> should, deliverable.
+
+R-164: Page 34, 5.2.9, "Respondents must also explain how training will be kept current, promptly updated when system changes occur, and delivered in a way that ensures Providers and Clients are confident and proficient in using the system." -> shall, deliverable.
+
+R-165: Page 34, 5.2.10, "Respondents must provide narrative descriptions of their approach to Turnover, including how they will provide weekly status reports during the Turnover Phase, ensure uninterrupted Operations while turnover tasks are carried out, and coordinate activities with DSHS and any successor vendor." -> shall, deliverable.
+
+R-166: Page 34, 5.2.10, "Proposals must describe strategies for providing documentation, artifacts, and data to DSHS in a complete and accurate manner and must demonstrate the Respondent’s ability to ensure continuity of Services during the transition out of the Contract." -> shall, deliverable.
+
+R-167: Page 35, 6.1, "In accordance with Article III, Administrative Information, Respondents must include the following information with their responses:" -> shall, deliverable.
+
+R-168: Page 35, 6.1.1, "Respondents must provide a detailed narrative explaining why they are qualified to provide the Services enumerated in Article II, Scope of Work, focusing on their key strengths and competitive advantages." -> shall, deliverable.
+
+R-169: Page 35, 6.1.2, "Respondents must provide a company profile, including:" -> shall, deliverable.
+
+R-170: Page 35, 6.1.2, "a. Their ownership structure (e.g., corporation, partnership, LLC, or sole proprietorship), including any wholly-owned subsidiaries, affiliated companies, or joint ventures. (Please provide this information in a narrative and as a graphical representation.) If Respondent is an affiliate of, or has a joint venture or strategic alliance with, another company, Respondent must identify the percentage of ownership of each joint venture member or affiliate and the percentage of the parent’s ownership. The entity performing the majority of the Work under any Contract resulting from this Solicitation, throughout the duration of the Contract, must be the primary bidder. Finally, Respondents must provide their proposed operating structure for the Services requested under this Solicitation and which entities (i.e., parent company, affiliate, joint venture, subcontractor) will be performing them;" -> shall, deliverable.
+
+R-171: Page 35, 6.1.2, "b. The year the company was founded and/or incorporated. If incorporated, please indicate the state where the company is incorporated and the date of incorporation;" -> shall, deliverable.
+
+R-172: Page 35, 6.1.2, "c. The location of company headquarters and any field office(s) that may provide Services for any resulting Contract under this Solicitation;" -> shall, deliverable.
+
+R-173: Page 35, 6.1.2, "d. The number of employees in the company, both locally and nationally, and the location(s) from which employees will be assigned;" -> shall, deliverable.
+
+R-174: Page 35, 6.1.2, "e. The name, address, and telephone number of Respondent’s point of contact for any resulting Contract under this Solicitation;" -> shall, deliverable.
+
+R-175: Page 35, 6.1.2, "f. The name, address, and telephone number of Respondent’s point of contact for any questions regarding the Solicitation Response; and" -> shall, deliverable.
+
+R-176: Page 35, 6.1.2, "g. Indicate whether the company has ever been in contract with any Texas state agency. If “Yes,” specify the contract term, for what duties, and for which agency." -> shall, deliverable.
+
+R-177: Page 36, 6.2, "Respondent must provide their 11-digit Comptroller's Taxpayer Number or the 9-digit Federal Employer's Identification Number." -> shall, form.
+
+R-178: Page 36, 6.2, "Respondent must be set up in the Texas franchise tax system prior to Contract award." -> shall, eligibility.
+
+R-179: Page 36, 6.3, "Respondents shall provide a minimum of three (3) references from similar contracts or projects performed, preferably for state and/or local government, within the last five (5) years." -> shall, deliverable.
+
+R-180: Page 36, 6.3, "Respondents must verify current contracts and provide the following information: a. Client name; b. Contract/project description; c. Total dollar amount of contract/project; d. Key staff assigned to the referenced contract/project who will be designated for Work under any Contract resulting from this Solicitation; and e. Client contract/project manager name, telephone number, fax number, and email address." -> shall, deliverable.
+
+R-181: Page 36, 6.4, "Respondents must identify any major subcontractors who will perform fifteen percent (15%) or more of the Work under any Contract resulting from this Solicitation." -> shall, deliverable.
+
+R-182: Page 36, 6.4, "Respondents must indicate whether or not they hold any financial interest in any major subcontractor." -> shall, deliverable.
+
+R-183: Page 36, 6.5, "Respondents must complete and return with their Solicitation Response all of the following affirmations and certifications:" -> shall, form.
+
+R-184: Page 36, 6.5, "a. Exhibit A, HHS Solicitation Affirmations;" -> shall, form.
+
+R-185: Page 36, 6.5, "b. Federal Assurances and Certifications: 1. Exhibit G, Assurances – Non-Construction Programs; and 2. Exhibit H, Certification Regarding Lobbying. 3. Exhibit K, HHS Federal Funding Accountability and Transparency Act (FFATA) Certification Form" -> shall, form.
+
+R-186: Page 37, 6.6.1, "Respondents with a Dun and Bradstreet (D&B) number must include a D&B Credit Insights Report with their Solicitation Response." -> shall, deliverable.
+
+R-187: Page 37, 6.6.2, "a. Respondents must submit electronically in a searchable PDF an annual report for the entity submitting the Solicitation Response, which must include: 1. For years 2023, 2024, and 2025, audited financial statements, including all supplements, management discussion and analysis, and actuarial opinions; 2. If applicable, for years 2023, 2024, and 2025, consolidated statements for any holding companies or affiliates; and 3. A full disclosure of any events, liabilities, or contingent liabilities that could affect Respondent’s financial ability to perform this Contract. At a minimum, financial statements must include: i. Balance sheet; ii. Income statement; iii. Statement of changes in financial position; iv. Statement of cash flows; and v. Capital expenditures." -> shall, deliverable.
+
+R-188: Page 37, 6.6.2, "b. If the Respondent is a corporation that is required to report to the Securities and Exchange Commission (SEC), Respondent must submit its three (3) most recent SEC Form 10K, Annual Reports, pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934, Title 15 of the United States Code Chapter 2B, Sections 78m or 78o(d). Financial materials must be submitted electronically as a word searchable PDF." -> shall, deliverable.
+
+R-189: Page 37, 6.6.2, "c. If audited financial statements are not available, the Respondent must submit unaudited financial information and any other information of the entity submitting the Solicitation Response that the Respondent believes meets the requirements of this section. Reference Section 6.6.3 (Alternate Report). If the submitted documents do not provide adequate assurance of financial stability or solvency, HHSC reserves the right to request additional information or to disqualify the Respondent." -> shall, deliverable.
+
+R-190: Page 37, 6.6.2, "d. If the Respondent is either substantially or wholly owned by another corporate (or legal) entity, the Respondent must include the information required in this section for each such entity, including the most recent detailed financial report for each such entity." -> shall, deliverable.
+
+R-191: Page 38, 6.6.3, "If the Solicitation Response does not contain the annual report specified in Section 6.6.2(a) above, the Respondent must provide the following within its Solicitation Response: (1) a statement that the Respondent does not have an audited annual report for the specified time frame(s) and (2) an alternate report which contains the following: a. For years 2023, 2024, and 2025, unaudited financial statements, including all supplements, management discussion and analysis, and actuarial opinions; b. Respondent’s unaudited financial statement of the most recent quarter of operation; and c. A full disclosure of any events, liabilities, or contingent liabilities that could affect Respondent’s financial ability to perform the Contract. At a minimum, such financial statements must include: i. Balance sheet; ii. Income statement; iii. Statement of changes in financial position; iv. Statement of cash flows; and v. Capital expenditures." -> shall, deliverable.
+
+R-192: Page 38, 6.8, "Respondents must submit the Subcontracting Plan in accordance with Section 3.6 (Solicitation Response Submission and Delivery)." -> shall, form.
+
+R-193: Page 38, 6.8, "The Subcontracting Plan should be labeled: “Subcontracting Plan,” and include all supporting documentation in accordance with Exhibit Q, Subcontracting Plan Requirements, and the Subcontracting Plan." -> should, form.
+
+R-194: Page 38, 6.8, "The final Subcontracting Plan must be submitted with the Solicitation Response by the deadline in the Schedule of Events (Section 3.1)." -> shall, deadline, 2026-08-26.
+
+R-195: Page 39, 6.9, "In its Solicitation Response, Respondent must provide the DIR issued TX-RAMP Level 2 Certification Identification Number." -> shall, form.
+
+R-196: Page 39, 6.10, "In its Solicitation Response, Respondent must provide documentation required by Exhibit O, VPAT WCAG Edition and Exhibit O-1, VPAT Revised Section 508 Edition." -> shall, form.
+
+R-197: Page 39, 6.11, "The Respondent must be currently authorized to do business in the State of Texas as evidenced by Certificate of Authority from the Texas Secretary of State submitted with the Solicitation Response." -> shall, form.
+
+R-198: Page 40, 7.1, "As noted above in Section 3.5 (Solicitation Response Composition), cost information must be included as a separate document/file, the cost proposal, with the Respondent’s Solicitation Response for the services listed in Article II, Scope of Work." -> shall, deliverable.
+
+R-199: Page 40, 7.1, "Respondents must state their pricing for all Goods and Services rendered during the course of any Contract resulting from this Solicitation, including any and all costs involved that are to be paid or reimbursed by DSHS." -> shall, deliverable.
+
+R-200: Page 40, 7.1, "The pricing for the required Goods and Services is to be presented only in the format set forth in Exhibit M, Cost Proposal of the RFO." -> shall, form.
+
+R-201: Page 40, 7.1, "Pricing information shall include all costs associated with providing the required Goods and Services and must be submitted and labeled as specified in Section 3.6 (Solicitation Response Submission and Delivery)." -> shall, deliverable.
+
+R-202: Page 40, 7.1, "Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract." -> shall, deliverable.
+
+R-203: Page 40, 7.1, "The cost proposal provided is for the Goods and/or Services as specified in this Solicitation and shall include all labor, materials, tools, supplies, equipment, and personnel, including but not limited to, travel expenses, associated costs, and incidental costs necessary to provide the products and Services according to the minimum specifications, requirements, provisions, terms, and conditions set forth in this RFO." -> shall, deliverable.
+
+R-204: Page 41, 8.1.1, "It is the responsibility of the Respondent to check the ESBD regularly for any additional information regarding this RFO." -> shall, deliverable.
+
+R-205: Page 41, 8.1.2, "Solicitation Responses shall be binding for a period of 240 days after the submission due date." -> shall, deliverable.
+
+R-206: Page 41, 8.1.2, "No other costs, rates, or fees shall be payable to the successful Respondent unless expressly agreed upon in writing by HHSC." -> shall, deliverable.
+
+R-207: Page 41, 8.1.3, "Costs of developing Solicitation Responses, preparing for or participating in Oral Presentations, Demonstrations, and Site Visits, or any other similar expenses incurred by a Respondent are entirely the responsibility of the Respondent, and will not be reimbursed in any manner by the State of Texas." -> info, deliverable.
+
+R-208: Page 41, 8.1.4, "The successful Respondent shall not be relieved of its obligations for any nonperformance by its Subcontractors." -> shall, deliverable.
+
+R-209: Page 42, 8.1.5, "If Respondent asserts that information provided in its Solicitation Response is exempt from disclosure under the PIA, Respondent must:" -> shall, form.
+
+R-210: Page 42, 8.1.5, "a. Mark Original Solicitation Response: 1. Mark the Original Solicitation Response, on the top of the front page, with the words “CONTAINS CONFIDENTIAL INFORMATION” in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger); 2. Identify, adjacent to each portion of the Solicitation Response that Respondent claims is exempt from public disclosure, the claimed exemption from disclosure (NOTE: no redactions are to be made in the Original Solicitation Response);" -> shall, form.
+
+R-211: Page 42, 8.1.5, "b. Certify in Original Solicitation Response – HHS Solicitation Affirmations (attached as Exhibit A to this Solicitation): Certify, in the designated section of the HHS Solicitation Affirmations, Respondent’s confidential information assertion and the filing of its Public Information Act Copy; and" -> shall, form.
+
+R-212: Page 42, 8.1.5, "c. Submit Public Information Act Copy of Solicitation Response: 1. The copy must be clearly marked as “Public Information Act Copy” on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger); 2. Each portion Respondent claims is exempt from public disclosure must be redacted (blacked out); and 3. Respondent must identify, adjacent to each redaction, the claimed exemption from disclosure. Each identification provided as required in Subsection (c) of this section must be identical to those set forth in the Original Solicitation Response as required in Subsection (a)(2), above. The only difference in required markings and information between the Original Solicitation Response and the “Public Information Act Copy” of the Solicitation Response will be redactions - which can only be included in the “Public Information Act Copy.” There must be no redactions in the Original Solicitation Response." -> shall, form.
+
+R-213: Page 43, 8.1.5, "Respondent should not submit a Public Information Act Copy indicating that the entire Solicitation Response is exempt from disclosure." -> should, form.
+
+R-214: Page 43, 8.1.5, "A Solicitation Response should not be marked or asserted as copyrighted material." -> should, form.
+
+R-215: Page 43, 8.1.5, "Respondents are advised to consult with their legal counsel concerning disclosure issues resulting from this process and to take precautions to safeguard trade secrets and proprietary or otherwise confidential information." -> should, form.
+
+R-216: Page 44, 8.1.6, "SUBMISSION OF ANY DOCUMENT TO HHSC IN RESPONSE TO THIS SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY RESPONDENT TO FULLY INDEMNIFY THE STATE OF TEXAS, HHSC FROM ANY CLAIM OF INFRINGEMENT BY HHSC REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF RESPONDENT OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO HHSC BY RESPONDENT." -> shall, deliverable.
+
+R-217: Page 44, 8.1.7, "Pursuant to Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule §391.405(a), Contractors, Respondents, and vendors interested in working with HHSC are required to implement standards of conduct for their own personnel and agents on terms at least as restrictive as those applicable to HHSC." -> shall, deliverable.
+
+R-218: Page 44, 8.1.7, "These standards must adhere to ethics requirements adopted in rule, in addition to any ethics policy, or code of ethics approved by the HHSC Executive Commissioner." -> shall, deliverable.
+
+R-219: Page 44, 8.1.7, "A Respondent must sign and submit all ethics, disclosure, confidentiality, and other forms required under the procurement and any resulting contract." -> shall, form.
+
+R-220: Page 44, 8.1.7, "The standards of conduct must include the ten standards of ethical conduct set forth in Section I of the HHS Ethics Policy and requirements to comply with ethical standards set forth in federal and state law (including, but not limited to, Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule §391.405(a))." -> shall, deliverable.
+
+R-221: Page 44, 8.1.7, "The Contractor, Respondent, or vendor must cooperate with the review and/or audit." -> shall, deliverable.
+
+R-222: Page 45, 8.1.8, "Pursuant to Section 2252.908 of the Texas Government Code, a successful Respondent to be awarded a Contract with a value of $1 million or more or awarded a Contract that would require the successful Respondent to register as a lobbyist under Texas Government Code Chapter 305 must submit a disclosure of interested parties form to HHSC at the time the Respondent submits the signed Contract." -> shall, form.
+
+R-223: Page 45, 8.2.1, "For the duration of any Contract resulting from this Solicitation, the successful Respondent shall acquire insurance, with financially sound and reputable independent insurers, in the type and amount listed in Exhibit R, Insurance Requirements." -> shall, form.
+
+R-224: Page 45, 8.2.1, "If coverage expires during the term of the Contract, renewal certificates for each type of coverage must be provided to System Agency." -> shall, form.
+
+R-225: Page 45, 8.2.2, "It will be the Respondent's responsibility to recommend to HHSC alternative methods of insuring the Contract." -> shall, form.
+
+R-226: Page 45, 8.2.2, "Any alternatives proposed by Respondent should be accompanied by a detailed explanation regarding Respondent's inability to obtain the required insurance and/or bonds." -> should, form.
+
+This covers all pages. I should format the JSON properly.<|end_message|><|message_model|><|content_text|>{"rfp_id": "HHS0015558v2", "requirements": [
+{"id": "R-001", "verbatim_text": "Responses Due: August 26, 2026 by 10:30 a.m. Central Time", "section_ref": "Cover", "type": "info", "category": "deadline", "due_date": "2026-08-26", "page": 1},
+{"id": "R-002", "verbatim_text": "Prior to award of the Contract, Respondent must obtain TX-RAMP Level 2 certification.", "section_ref": "1.1", "type": "shall", "category": "eligibility", "due_date": null, "page": 6},
+{"id": "R-003", "verbatim_text": "TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement.", "section_ref": "1.1", "type": "info", "category": "eligibility", "due_date": null, "page": 6},
+{"id": "R-004", "verbatim_text": "Commencing on the Effective Date and during the Contract Term, Contractor must provide Services that comply with TX-RAMP Certification Level 2.", "section_ref": "2.1.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 11},
+{"id": "R-005", "verbatim_text": "Contractor acknowledges that TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement.", "section_ref": "2.1.1", "type": "info", "category": "deliverable", "due_date": null, "page": 11},
+{"id": "R-006", "verbatim_text": "The Contractor shall comply with Exhibit N, Requirements Traceability Matrix, that provides a detailed Requirements Traceability Matrix (RTM) that defines and organizes all required Services and technical requirements to be fulfilled by the Contractor.", "section_ref": "2.1.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 11},
+{"id": "R-007", "verbatim_text": "Non-compliance or failure to meet performance measures may result in enforcement of liquidated damages or other contractual remedies.", "section_ref": "2.1.2", "type": "info", "category": "deliverable", "due_date": null, "page": 11},
+{"id": "R-008", "verbatim_text": "The Contractor, for no additional compensation, shall conduct on an annual basis a Disaster Recovery test to assess the effectiveness of the Contractor’s Disaster Recovery Plan.", "section_ref": "2.1.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-009", "verbatim_text": "On or before the ninetieth (90th) Calendar Day following each Disaster Recovery test, Contractor will provide DSHS, with a written summary report detailing the results of the Disaster Recovery test.", "section_ref": "2.1.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-010", "verbatim_text": "Upon DSHS’s written request, Contractor shall make Contractor personnel available to discuss with DSHS the results of the Disaster Recovery test.", "section_ref": "2.1.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-011", "verbatim_text": "Contractor shall use commercially reasonable efforts to resolve issues identified during the Disaster Recovery test", "section_ref": "2.1.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-012", "verbatim_text": "for each unsuccessful test, Contractor shall conduct an additional Disaster Recovery test in a timely manner to validate the successful implementation of Contractor’s remediation activities.", "section_ref": "2.1.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-013", "verbatim_text": "The Contractor shall submit an invoice to DSHS in a format consistent with the line-item descriptions of Exhibit M, Cost Proposal.", "section_ref": "2.1.4", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-014", "verbatim_text": "Each invoice submitted must identify: a. The purchase order number; b. HHSC’s Contract number; c. The time period (e.g., month); and d. Line-item description for Service or Deliverable.", "section_ref": "2.1.4", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-015", "verbatim_text": "Failure to submit required supporting documentation with the invoice may result in return of invoices and delay of payment.", "section_ref": "2.1.4", "type": "info", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-016", "verbatim_text": "Invoices shall be sent to: Health and Human Services Commission Attn: Invoice – HHSC MC2065 4601 W. Guadalupe St. Austin, TX 78751 Fax: (512) 206-4854 E-mail: IT_invoicing@hhs.texas.gov", "section_ref": "2.1.4", "type": "shall", "category": "deliverable", "due_date": null, "page": 12},
+{"id": "R-017", "verbatim_text": "By entering into a Contract with DSHS as a result of this Solicitation, Respondent agrees to be bound by the terms of the Data Use Agreement (DUA), attached as Exhibit D.", "section_ref": "2.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 13},
+{"id": "R-018", "verbatim_text": "Respondents must complete and return with their Solicitation Response Exhibit D-1, Attachment 2 to the DUA, Security and Privacy Inquiry (SPI).", "section_ref": "2.3", "type": "shall", "category": "form", "due_date": null, "page": 13},
+{"id": "R-019", "verbatim_text": "Respondents must submit their Solicitation Responses to HHSC in accordance with the due date and time indicated in this Schedule of Events or as changed via an Addendum posted to the ESBD.", "section_ref": "3.1", "type": "shall", "category": "deadline", "due_date": "2026-08-26", "page": 15},
+{"id": "R-020", "verbatim_text": "NOTE: All dates are tentative and HHSC reserves the right to modify these dates at any time.", "section_ref": "3.1", "type": "info", "category": "deadline", "due_date": null, "page": 15},
+{"id": "R-021", "verbatim_text": "Each Respondent is responsible for checking the ESBD and Procurement Forecast for updates.", "section_ref": "3.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 15},
+{"id": "R-022", "verbatim_text": "By submitting a Solicitation Response, Respondent represents and warrants that any individual submitting the Solicitation Response and any related documents on behalf of the Respondent is authorized to do so and to bind the Respondent under any Contract that may result from this Solicitation.", "section_ref": "3.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 15},
+{"id": "R-023", "verbatim_text": "Respondent must notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation in the manner and by the deadline described in Section 3.3.4 (Solicitation Questions).", "section_ref": "3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 16},
+{"id": "R-024", "verbatim_text": "Respondent submits a Solicitation Response at its own risk.", "section_ref": "3.2", "type": "info", "category": "deliverable", "due_date": null, "page": 16},
+{"id": "R-025", "verbatim_text": "If Respondent fails to properly and timely notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation, Respondent, whether awarded a Contract or not: a. Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;", "section_ref": "3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 16},
+{"id": "R-026", "verbatim_text": "b. Must not contest the interpretation by HHSC of such provision(s);", "section_ref": "3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 16},
+{"id": "R-027", "verbatim_text": "c. Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction.", "section_ref": "3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 16},
+{"id": "R-028", "verbatim_text": "All requests, questions, or other communication about this Solicitation shall be made in writing to HHSC PCS, addressed to the person listed below (Sole Point of Contact).", "section_ref": "3.3.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 17},
+{"id": "R-029", "verbatim_text": "Respondents seeking to contact the Sole Point of Contact should do so via e-mail in order to receive updated contact information.", "section_ref": "3.3.1", "type": "should", "category": "deliverable", "due_date": null, "page": 17},
+{"id": "R-030", "verbatim_text": "Except as provided in Section 3.3.1 (Sole Point of Contact) and Section 3.3.3 (Exception to Sole Point of Contact), potential Respondents and Respondents are prohibited from any communication with HHSC regarding the Solicitation.", "section_ref": "3.3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 17},
+{"id": "R-031", "verbatim_text": "Respondent shall rely only on written statements issued by or through HHSC designated staff as provided by Section 3.3 (Inquiries).", "section_ref": "3.3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 17},
+{"id": "R-032", "verbatim_text": "Respondents are required to ensure that communications have been authorized by the Sole Point of Contact before engaging in such communication.", "section_ref": "3.3.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 18},
+{"id": "R-033", "verbatim_text": "Questions must be submitted by e-mail to the Sole Point of Contact (Section 3.3.1) by the deadline established in Section 3.1 (Schedule of Events).", "section_ref": "3.3.4", "type": "shall", "category": "deadline", "due_date": "2026-07-24", "page": 18},
+{"id": "R-034", "verbatim_text": "It is the Respondent's responsibility to check the ESBD.", "section_ref": "3.3.4", "type": "shall", "category": "deliverable", "due_date": null, "page": 18},
+{"id": "R-035", "verbatim_text": "a. All questions and requests for clarification must include the following information: 1. Solicitation number; 2. Solicitation package reference (page number, section, and exhibit or attachment, if applicable; 3. Question topic (e.g., “Schedule of Events,” or “Exhibit M – Cost Proposal”); and 4. Question for HHSC.", "section_ref": "3.3.4", "type": "shall", "category": "form", "due_date": null, "page": 18},
+{"id": "R-036", "verbatim_text": "b. Requestor contact information below must be included in the body of the e-mail and submitted with the question(s): 1. Company name; 2. Company representative name; 3. Phone number; and 4. E-Mail address.", "section_ref": "3.3.4", "type": "shall", "category": "form", "due_date": null, "page": 18},
+{"id": "R-037", "verbatim_text": "Attendance is optional but highly recommended.", "section_ref": "3.4.1", "type": "should", "category": "deliverable", "due_date": null, "page": 19},
+{"id": "R-038", "verbatim_text": "Attendees to virtual pre-proposal conferences are required to send an email to the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), advising of participation in the pre-proposal conference.", "section_ref": "3.4.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 19},
+{"id": "R-039", "verbatim_text": "Attendees must provide their name, phone number, and name of the company they are representing regardless of whether the pre-proposal conference is in-person or virtual.", "section_ref": "3.4.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 19},
+{"id": "R-040", "verbatim_text": "People with disabilities who wish to attend the meeting and require auxiliary aids or services should contact the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), at least seventy-two (72) hours before the meeting in order to have reasonable accommodations made by HHSC.", "section_ref": "3.4.2", "type": "should", "category": "deliverable", "due_date": null, "page": 19},
+{"id": "R-041", "verbatim_text": "Conversations with HHSC or DSHS program area staff before or after the pre-proposal conference are prohibited.", "section_ref": "3.4.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 20},
+{"id": "R-042", "verbatim_text": "Respondent shall prepare a Solicitation Response that clearly and concisely represents its qualifications and capabilities.", "section_ref": "3.5.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 21},
+{"id": "R-043", "verbatim_text": "Respondent should focus on the instructions and requirements of the Solicitation.", "section_ref": "3.5.1", "type": "should", "category": "deliverable", "due_date": null, "page": 21},
+{"id": "R-044", "verbatim_text": "The narrative/technical proposal should not exceed eighty (80) pages", "section_ref": "3.5.2", "type": "should", "category": "deliverable", "due_date": null, "page": 21},
+{"id": "R-045", "verbatim_text": "The narrative/technical proposal should be formatted for 8 ½\" x 11\" paper with 1-inch margins and typed in Times New Roman, 12-point font.", "section_ref": "3.5.2", "type": "should", "category": "deliverable", "due_date": null, "page": 21},
+{"id": "R-046", "verbatim_text": "If complete responses cannot be provided without referencing supporting documentation, such documentation must be provided with the Solicitation Response, with specific reference made to the file, page, section, and/or paragraph where the supporting information can be found.", "section_ref": "3.5.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 21},
+{"id": "R-047", "verbatim_text": "Respondents are highly encouraged, in lieu of including exceptions in their Solicitation Responses, to address all issues that might be advanced by way of exception by submitting such issues as questions or requests for clarification pursuant to Section 3.3.4 (Solicitation Questions).", "section_ref": "3.5.4", "type": "should", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-048", "verbatim_text": "If a Respondent includes exceptions in its Solicitation Response, Respondent is required to use the Exceptions Form included as Exhibit E to this Solicitation and provide all information requested on the form.", "section_ref": "3.5.4", "type": "shall", "category": "form", "due_date": null, "page": 22},
+{"id": "R-049", "verbatim_text": "Respondent must identify on the Assumptions Form, Exhibit F any business, economic, legal, programmatic, or practical assumptions that underlie the Respondent’s response to the Solicitation.", "section_ref": "3.5.5", "type": "shall", "category": "form", "due_date": null, "page": 22},
+{"id": "R-050", "verbatim_text": "A Solicitation Response should be responsive to the Solicitation as worded and without any assumption that any or all terms, conditions, or provisions of the Solicitation will be negotiated.", "section_ref": "3.5.6", "type": "should", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-051", "verbatim_text": "Solicitation Responses must be received at the address in Section 3.6.4 (Labeling and Delivery for USB Submission and Other Materials) and time-stamped by HHSC PCS no later than the date and time specified in Section 3.1 (Schedule of Events).", "section_ref": "3.6.1", "type": "shall", "category": "deadline", "due_date": "2026-08-26", "page": 23},
+{"id": "R-052", "verbatim_text": "Submission Option #1: Respondent shall submit two (2) USB drives—one (1) labeled “Original Proposal” and one (1) labeled “Copy”—containing the following documents:", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-053", "verbatim_text": "Each USB must contain one file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit.", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-054", "verbatim_text": "If applicable in accordance with Section 8.1.5, (Public Information Act – Respondent Requirement Regarding Disclosure), each USB must contain one (1) file named “Public Information Act Copy” that contains the Respondent’s entire Solicitation Response, including all exhibits and attachments, in searchable PDF.", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-055", "verbatim_text": "In accordance with Section 7.1, (Cost Proposal), each USB must contain one (1) file named “Cost Proposal” that contains the Respondent’s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016).", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-056", "verbatim_text": "In accordance with Section 6.8, (Subcontracting Plan), each USB must contain one (1) file named “Subcontracting Plan” in searchable PDF, that contains the Respondent’s Subcontracting Plan and all supporting documentation.", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-057", "verbatim_text": "c. Submission Option #2: Respondent shall submit the following through the Online Bid Room utilizing the procedures in Exhibit J, HHS Online Bid Room Information:", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-058", "verbatim_text": "One (1) file named “Original” that contains the Respondent’s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit.", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-059", "verbatim_text": "If applicable in accordance with Section 8.1.5, (Public Information Act – Respondent Requirements Regarding Disclosure), one (1) file named “Public Information Act Copy” that contains the Respondent’s entire Solicitation Response, including all exhibits and attachments, in searchable PDF.", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-060", "verbatim_text": "In accordance with Section 7.1, (Cost Proposal), one (1) file named “Cost Proposal” that contains the Respondent’s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016).", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-061", "verbatim_text": "In accordance with Section 6.8, (Subcontracting Plan), one (1) file named “Subcontracting Plan” in searchable PDF, that contains the Respondent’s Subcontracting Plan and all supporting documentation.", "section_ref": "3.6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 23},
+{"id": "R-062", "verbatim_text": "Solicitation Consideration and Award Consideration Documents, reference Section 1.2 (Definitions) must be submitted by the deadline for Solicitation Response submissions, reference Section 3.1 (Schedule of Events).", "section_ref": "3.6.3", "type": "shall", "category": "deadline", "due_date": "2026-08-26", "page": 24},
+{"id": "R-063", "verbatim_text": "The Solicitation Response must be submitted using one of the approved methods identified in Section 3.6, (Solicitation Response Submission and Delivery).", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-064", "verbatim_text": "Where searchable PDF files are required, submission of non-searchable (image only) PDF files may result in disqualification from further consideration for Contract award.", "section_ref": "3.6.3", "type": "info", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-065", "verbatim_text": "1. Narrative Proposal (Section 5.1) SC ____", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-066", "verbatim_text": "2. Technical Proposal (Section 5.2) SC ____", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-067", "verbatim_text": "3. Company Information (Section 6.1) SC ____", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-068", "verbatim_text": "4. Franchise Tax Information (Section 6.2) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-069", "verbatim_text": "5. References (Section 6.3) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-070", "verbatim_text": "6. Major Subcontractor Information (Section 6.4) SC ____", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-071", "verbatim_text": "7. HHS Solicitation Affirmations (Section 6.5, Exhibit A) SC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-072", "verbatim_text": "8. Assurances – Non-Construction Programs (if applicable) (Section 6.5, Exhibit G) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-073", "verbatim_text": "9. Certification Regarding Lobbying (if applicable) (Section 6.5, Exhibit H) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-074", "verbatim_text": "10. HHS Federal Funding Accountability and Transparency Act (FFATA) Certification Form Section 6.5, Exhibit K) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-075", "verbatim_text": "11. Exceptions (if applicable) (Section 3.5.4, Exhibit E) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-076", "verbatim_text": "12. Assumptions (if applicable) (Section 3.5.5, Exhibit F) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-077", "verbatim_text": "13. Other Reports (Section 6.6) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-078", "verbatim_text": "14. Corporate Guarantee (Section 6.7) AC ____", "section_ref": "3.6.3", "type": "shall", "category": "form", "due

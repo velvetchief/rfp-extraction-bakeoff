@@ -1,0 +1,38 @@
+{
+  "qwen": {
+    "base_model": "Qwen/Qwen3.5-4B",
+    "renderer": "qwen3_5_disable_thinking",
+    "sampler_path": "tinker://f192e1c9-0313-5c6b-9c8e-6915a8a3214f:train:0/sampler_weights/final",
+    "steps": 36
+  },
+  "kimi": {
+    "base_model": "moonshotai/Kimi-K2.6",
+    "renderer": "kimi_k26_disable_thinking",
+    "sampler_path": "tinker://12b4ef82-16ec-5a72-b6a8-af8c7aaea94e:train:0/sampler_weights/final",
+    "steps": 36
+  },
+  "inkling": {
+    "base_model": "thinkingmachines/Inkling",
+    "renderer": "tml_v0",
+    "sampler_path": "tinker://93baaf57-646d-580a-9595-80bacb8fa0f2:train:0/sampler_weights/final",
+    "steps": 36
+  },
+  "qwen2": {
+    "base_model": "Qwen/Qwen3.5-4B",
+    "renderer": "qwen3_5_disable_thinking",
+    "sampler_path": "tinker://4e57fa4c-ad0f-5577-b6a6-3702421ae48d:train:0/sampler_weights/final",
+    "steps": 36
+  },
+  "kimi2": {
+    "base_model": "moonshotai/Kimi-K2.6",
+    "renderer": "kimi_k26_disable_thinking",
+    "sampler_path": "tinker://7c91a831-c44d-5547-854b-b98e43dd5c12:train:0/sampler_weights/final",
+    "steps": 36
+  },
+  "inkling2": {
+    "base_model": "thinkingmachines/Inkling",
+    "renderer": "tml_v0",
+    "sampler_path": "tinker://5633281b-87b3-5756-bb8d-c43721fd22b0:train:0/sampler_weights/final",
+    "steps": 36
+  }
+}

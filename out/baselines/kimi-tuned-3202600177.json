@@ -1,0 +1,1922 @@
+{
+  "rfp_id": "3202600177",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Responses Due: August 12, 2026, by 10:00 a.m. Central Time",
+      "section_ref": "Cover Page",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-08-12",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "The Successful Respondent must provide comprehensive CNA Services necessary for the effective management and operation of the State Use Program, which include, but are not limited to:",
+      "section_ref": "2.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "Educate potential CRPs on State Use Program participation requirements;",
+      "section_ref": "2.2.1.a.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "Recruit and assist CRPs in developing and submitting applications for suitable products and services aligned to customer needs;",
+      "section_ref": "2.2.1.a.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "Support CRPs with Integrated Competitive Employment efforts and compliance with 40 TAC Chapter 806;",
+      "section_ref": "2.2.1.a.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "Assist the CRPs in soliciting and negotiating contracts; and",
+      "section_ref": "2.2.1.a.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "Provide training and resources to support outplacement/supported employment and increase integrated employment opportunities for individuals with disabilities.",
+      "section_ref": "2.2.1.a.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "Execute a contract agreement with the Statewide Procurement Division (SPD) to establish and ensure adherence to appropriate statewide terms and conditions for all procurements managed under the State Use Program.",
+      "section_ref": "2.2.1.b.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "Manage and coordinate the day-to-day operation of the program including the general administration of contracts with CRPs operating pursuant to Chapter 122, Texas Human Resources Code and 40 TAC Chapter 806;",
+      "section_ref": "2.2.1.b.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "Allocate service and product orders among the various CRPs;",
+      "section_ref": "2.2.1.b.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "Monitor CRPs to ensure compliance with requirements for participation in the State Use Program;",
+      "section_ref": "2.2.1.b.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "Provide accounting services related to purchase orders, invoices, and payments to CRPs;",
+      "section_ref": "2.2.1.b.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "Prepare reports and fulfill other duties as designated by TWC;",
+      "section_ref": "2.2.1.b.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "Provide general administration of the State Use Program, meet performance criteria and submit timely reports required by 40 TAC Chapter 806;",
+      "section_ref": "2.2.1.b.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "Maintain and dispose of records in accordance with applicable laws and TWC directives and provide any or all records requested within three (3) weeks of the request;",
+      "section_ref": "2.2.1.b.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "Resolve contract issues and/or problems as they arise between the CRPs, the Successful Respondent, and/or customers, refer unresolved issues to TWC, and submit quarterly status reports on issues and referrals;",
+      "section_ref": "2.2.1.b.9",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "Maintain a system in accordance with generally accepted accounting principles (GAAP) to record information related to purchase orders, invoices, and payments to each CRP to facilitate the preparation and submission of the annual report;",
+      "section_ref": "2.2.1.b.10",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "Demonstrate compliance with state and federal tax laws and payroll laws by submitting quarterly reports of sales and taxes paid to CPA and the Internal Revenue Service (IRS); and",
+      "section_ref": "2.2.1.b.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Maintain expertise of governmental procurement and contracting processes and laws.",
+      "section_ref": "2.2.1.b.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "Maintain and operate a retail store and warehouse for use by state agency customers, adhering to state statutes and the Comptroller's Statewide Procurement Division requirements; and",
+      "section_ref": "2.2.1.c.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "Conduct research to identify new products and services.",
+      "section_ref": "2.2.1.c.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "Directly market products and services to consumers through advertising and public relations activities as well as a retail business operational plan;",
+      "section_ref": "2.2.1.d.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "Conduct public relations activities to promote the program;",
+      "section_ref": "2.2.1.d.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "Create a database of state agency and political subdivision purchases to promote sales of State Use Program products and services;",
+      "section_ref": "2.2.1.d.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "Provide quarterly regional information workshops to promote the State Use Program throughout the year and across the state;",
+      "section_ref": "2.2.1.d.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "Provide customer relations support; and",
+      "section_ref": "2.2.1.d.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "Provide promotion of increased supported employment opportunities for persons with disabilities.",
+      "section_ref": "2.2.1.d.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "Provide superior customer relations by: monitoring customer satisfaction with products and services, responding to customer complaints within one (1) Business Day or less, and reporting quarterly on consumer satisfaction levels for each CRP, based on complaints as to products or services provided, with a goal of incurring no more than five (5) complaints per year that have not been resolved to customer satisfaction;",
+      "section_ref": "2.2.1.e.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "Create and maintain automated tracking and monitoring of product/service sales and submit quarterly reports to TWC regarding delivery turnaround times and contract performance for each CRP; and",
+      "section_ref": "2.2.1.e.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "Respond to inquiries about individual sales and/or total sales within five (5) Business Days or sooner and submit quarterly reports regarding the number of inquiries and average response time.",
+      "section_ref": "2.2.1.e.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "Financial Management: Provide sufficient financial resources and/or the ability to maintain a line of credit to pay CRPs within thirty (30) Business Days. Average weekly payment to CRPs in Fiscal Year 2025 was approximately $4.4 million per week.",
+      "section_ref": "2.2.1.f",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "Monitor CRP compliance and promptly report violations to TWC, assisting CRPs in achieving compliance as needed;",
+      "section_ref": "2.2.1.g.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "Conduct business ethically and submit detailed quarterly reports on any conflicts between the CRPs and the Successful Respondent; and",
+      "section_ref": "2.2.1.g.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "Provide financial oversight and monitoring of the CRPs and report material changes in the CRP status to TWC.",
+      "section_ref": "2.2.1.g.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "Training and Resources: Provide training programs to CRPs on the requirements to participate in the state use program, governmental contracting, and procurement procedures and laws.",
+      "section_ref": "2.2.1.h",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "Reporting and Transparency: Provide an annual report that includes the CNA's audited financial statements, an updated strategic plan, and an updated projected schedule of expenses detailing the amount and percentage of management fees allocated to: directly support the state use program, expand direct services to programs that enhance the lives of individuals with disabilities, and administrative overhead, such as salaries.",
+      "section_ref": "2.2.1.i",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Promote the development of person-centered planning to document employment goals, provide employment counseling, and facilitate placement services provided by CRPs, aiming for employment paying minimum wage or higher;",
+      "section_ref": "2.2.1.j.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Research new products, services, and markets and improve existing products and services to increase employment opportunities (including those paying minimum wage or higher) and report to TWC quarterly on the status of these activities; and",
+      "section_ref": "2.2.1.j.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Work with CRPs to develop employment opportunities.",
+      "section_ref": "2.2.1.j.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "The Successful Respondent shall act as the primary facilitator between the applicable state agency and the CRP to define the site-specific scope of work and pricing.",
+      "section_ref": "2.2.1.k.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "The Successful Respondent must review the CRP's proposed pricing prior to submission to ensure that it represents a fair market price, complies with TWC guidelines, and covers required wages and administrative fees.",
+      "section_ref": "2.2.1.k.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "The Successful Respondent is solely responsible for compiling the completed package (including statement of work, pricing schedules, and compliance certifications) and submitting it to TWC for statutory review and approval.",
+      "section_ref": "2.2.1.k.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "Upon receiving written approval from TWC, the Successful Respondent shall promptly enter into a direct contract with the applicable state agency. The Successful Respondent shall subsequently execute a subcontract with the approved CRP to perform the services, maintaining sole prime contractor liability for the CRP's performance, timely payments for services to CRPs, and timely and accurately invoicing the applicable state agency for reimbursement of the CNA's payments for the CRP's services.",
+      "section_ref": "2.2.1.k.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "The Successful Respondent must submit fully validated pricing proposals to TWC within ten (10) Business Days of reaching an agreement in principle between the applicable state agency and the CRP.",
+      "section_ref": "2.2.1.k.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Contracts for Non-Uniformly Priced Services must include a provision permitting assignment to a successor CNA with notice to TWC.",
+      "section_ref": "2.2.1.k.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "The Successful Respondent must staff with Key Personnel identified in the Proposal which are considered by the Successful Respondent to be essential to administering the PPD State Use Program and fulfilling the requirements of the resulting Contract.",
+      "section_ref": "2.2.2.1.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "Prior to substituting any of the proposed individuals, the Successful Respondent must notify TWC and obtain written approval of the proposed substitution as soon as possible, but no less than five (5) Business Days prior to said substitution.",
+      "section_ref": "2.2.2.1.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "The Successful Respondent must provide a minimum of one (1) dedicated Account Manager who is assigned full-time to the PPD State Use Program and is primarily responsible for working with TWC on resolving day-to-day issues.",
+      "section_ref": "2.2.2.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "The assignment of the dedicated Account Manager begins on the effective date of the Contract resulting from this RFP and continues uninterrupted throughout the duration of the Contract.",
+      "section_ref": "2.2.2.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "Account Manager(s) must be accessible by telephone number and email, and extremely knowledgeable of all aspects of TWC's PPD State Use Program. A minimum of one (1) Account Manager must be available Monday through Friday, between the hours of 8AM through 5PM, with the exception of the state of Texas holidays. Unavailability may result in the assessment of liquidated damages as set forth in Section 6.10.3 Specific Liquidated Damage(s).",
+      "section_ref": "2.2.2.2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "The minimum qualifications for Successful Respondent's Account Manager are: Five (5) years' account management experience; three (3) of the past five (5) years as the account manager for the development, implementation and/or operation of accounts of comparable size and complexity to those defined within this RFP; Past management experience, including subcontractors, with individuals having worked together as a unit in the past or currently for the effective and successful delivery of quality services; Successful management of the delivery for a customer(s) with a similar scope of services; and Successful management of the delivery for a customer with similar volumes of accounts and transactions.",
+      "section_ref": "2.2.2.2.4",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "The Successful Respondent must provide a minimum of three (3) dedicated staff members to act as liaisons with CPA's Statewide Procurement Division (SPD).",
+      "section_ref": "2.2.2.3.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "The Successful Respondent SPD Liaisons must involve TWC's administration in all substantive communications with SPD.",
+      "section_ref": "2.2.2.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "The assignment of the dedicated SPD Liaisons begins on the effective date of the Contract resulting from this RFP and continues uninterrupted throughout the duration of the Contract.",
+      "section_ref": "2.2.2.3.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "SPD Liaisons must be accessible by telephone number and email, and extremely knowledgeable of all aspects of TWC's PPD State Use Program. A minimum of three (3) SPD Liaisons must be available Monday through Friday, between the hours of 8AM through 5PM, with the exception of the State of Texas holidays. Unavailability may result in the assessment of liquidated damages as set forth in Section 6.10.3 Specific Liquidated Damage(s).",
+      "section_ref": "2.2.2.3.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "The minimum qualifications for Successful Respondent's SPD Liaisons are: Five (5) years' account management experience; three (3) of the past five (5) years as the account manager for the development, implementation and/or operation of accounts of comparable size and complexity to those defined within this RFP; Past management experience, including subcontractors, with individuals having worked together as a unit in the past or currently for the effective and successful delivery of quality services; Successful management of the delivery for a customer(s) with a similar scope of services; and Successful management of the delivery for a customer with similar volumes of accounts and transactions.",
+      "section_ref": "2.2.2.3.5",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "The Successful Respondent must provide designated highly qualified and experienced Key Personnel. Designated is defined as a Successful Respondent full time employee whose primary responsibility is this Contract but may have other duties and/or customers.",
+      "section_ref": "2.2.2.4.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "The minimum qualifications for Successful Respondent's Key Personnel are: Three (3) years' experience in performing and providing the types and level of services required in this RFP, preferably as an employee or as a subcontractor or other authorized representative of the Successful Respondent; Current or past experience working with other key personnel for the effective and successful delivery of quality services; Demonstrated success, either current or past, in performing the tasks assigned or in providing the services to a customer with a similar scope of services; and Successful performance of assigned tasks or in the delivery of services to a customer with similar volumes of accounts and transactions.",
+      "section_ref": "2.2.2.4.3",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "The Successful Respondent must maintain consistent and effective communication with TWC, SPD, and the CRPs.",
+      "section_ref": "2.2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "The Successful Respondent must maintain all necessary records for audit purposes in accordance with state and federal law and directives set forth by TWC.",
+      "section_ref": "2.2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "In the event that a Successor Respondent is chosen at the end of the term of the resulting Contract, the Successful Respondent must extend Services",
+      "section_ref": "2.2.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "The Successful Respondent shall assist the Successor Respondent by providing information and input as necessary to ensure smooth transition wherein services are not disrupted.",
+      "section_ref": "2.2.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "Additionally, to the extent the Successful Respondent has any contracts for Non-Uniformly Priced Services that have been approved under the PPD Program, the Successful Respondent shall include in such contracts a provision permitting assignment to a successor CNA and shall ensure all such assignments occur (with notice to TWC) during the transition period.",
+      "section_ref": "2.2.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "The Successful Respondent must track Texas legislation and keep abreast of changing factors that could impact the State Use Program and inform TWC of such factors.",
+      "section_ref": "2.2.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "The Successful Respondent must attend Purchasing from People with Disabilities' Advisory Committee meetings and provide support for the Committee as requested by TWC.",
+      "section_ref": "2.2.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "The Successful Respondent must perform other duties as assigned by TWC in support of this Contract.",
+      "section_ref": "2.2.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "Quarterly Report: This report combines all required quarterly reporting elements into a single, comprehensive document and provides TWC with a holistic view of the State Use Program's operations and performance, allowing for timely intervention and strategic decision-making. It must include, but is not limited to the following: a. CRP performance, b. financial data, c. program promotion, d. customer relations, e. conflict resolution, and f. compliance metrics.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "Annual Report: It must include, but is not limited to the following: a. the CNA's audited financial statements, b. an updated strategic plan, and c. an updated projected schedule of expenses that details the amount and percentage of management fees allocated to: 1. directly support the state use program, 2. expanding direct services to programs that enhance the lives of individuals with disabilities and 3. administrative overhead, such as salaries.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 26
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "Semi-Annual Customer Satisfaction Survey Report: Submit the results in a formal report to TWC at least semi-annually. The report should include trend analysis and recommended actions to resolve identified recurring problem.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "Successful Respondent will be required to submit reports and adhere to ongoing requirements as described in Texas Human Resources Code Chapter 122 and 40 TAC Chapter 806.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "To be approved, the report must include each of the items detailed above, and be reviewed and approved by TWC. If TWC determines the report is incomplete, Successful Respondent will have one week to revise the report and submit to TWC for review and approval.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "Deliverable #1: Quarterly Report. Successful Respondent must submit a quarterly report detailing the following items: 1. Item 1: (\u00a7806.31(g)(1)) - List of CRPs that did not meet the criteria for participation in the State Use Program during the reporting quarter, along with the specific reasons for each CRP's non-compliance.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "2. Item 2: (\u00a7806.31(g)(3)) - Categories of expenditures in the reporting format approved by TWC. This should provide a clear breakdown of how funds are being utilized within the State Use Program.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "3. Item 3: (\u00a7806.32(b)(2)) - A status update on activities related to researching new products, services, and markets to increase employment opportunities for individuals with disabilities. The report must detail the specific new products, services, and markets researched and any progress in improving existing offerings.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "4. Item 4: (\u00a7806.32(b)(4)) - A comprehensive overview of customer satisfaction levels for each CRP, based on complaints received. This should include: a summary of satisfaction levels, details of all complaints received, actions taken to resolve each complaint, and a demonstration of progress toward the goal of no more than five unresolved complaints per year.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "5. Item 5: (\u00a7806.32(b)(5)) - A summary of the quarterly regional information workshops conducted to promote the State Use Program. Include information such as the location and date of each workshop, the topics covered, the number of attendees, and any feedback received.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "6. Item 6: (\u00a7806.32(b)(7)) - A detailed status report on contract issues and/or problems that have arisen between the CRPs, the CNA, and/or customers. This should include: a description of each issue, the steps taken to resolve it, whether the issue was resolved, and if not, whether it was referred to TWC.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "7. Item 7: (\u00a7806.32(b)(9)) - Quarterly report of state sales and federal taxes paid to, respectively, the Texas Comptroller of Public Accounts and the Internal Revenue Service (IRS). The report must accurately reflect state sales and federal taxes paid to the Texas Comptroller of Public Accounts and the Internal Revenue Service (IRS).",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "8. Item 8: (\u00a7806.32(b)(12)) - A detailed report of any conflicts between CRPs and the CNA. This should provide a description of the conflict, the parties involved, and the steps taken to resolve the conflict.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "9. Item 9: (\u00a7806.32(b)(13)) - Report regarding delivery turnaround times and contract performance for each CRP. This must include tracking data for product and service sales, as well as identify CRPs with underperforming delivery times or contract compliance issues.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "10. Item 10: (\u00a7806.32(b)(14)) - A report regarding the number of inquiries and average response time in conjunction with the report described in item 8 of this subsection. Include the total number of inquiries received and the average response time for inquiries.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "Deliverable #2: Annual Report. Successful Respondent must submit a report annually by October 31 detailing the following items: 1. Item 1: (\u00a7806.31(g)(2)(A)) \u2013 include updated marketing plan.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 28
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "2. Item 2: (\u00a7806.31(g)(2)(B)) \u2013 include a proposed annual budget with estimated sales, commissions, and expenses.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 29
+    },
+    {
+      "id": "R-084",
+      "verbatim_text": "3. Item 3: (\u00a7806.31(g)(2)(C)) \u2013 include a program budget with details on how the expected revenue and expenses will be allocated to directly support and expand the state use program and other programs that expand direct services and/or the enhancement of employment opportunities for individuals with disabilities.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 29
+    },
+    {
+      "id": "R-085",
+      "verbatim_text": "4. Item 4: (\u00a7806.31(g)(2)(D)) \u2013 include an audited annual financial statement that shall include information on FDIC coverage of all cash balances, earnings attributed to the management fee for the state use program, accounts receivable, cash reserves, line of credit borrowings, interest payments, bad debt, administrative overhead and any detailed supporting documentation requested by TWC.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 29
+    },
+    {
+      "id": "R-086",
+      "verbatim_text": "5. Item 5: (\u00a7806.31(f)(1)) - include the following information regarding CRPs that have contracted with the CNA: a collective executive summary of the CRPs annual state use program evaluations; the number of individuals with disabilities, according to their type of disability, who are employed in CRPs participating in the programs or who are employed by businesses or workshops that receive supportive employment from CRPs; the amount of annual wages paid to each employee participating in the program in a format determined by TWC; a summary of the sale of products offered by the CRPs; a list of products and/or services offered by a CRP; the geographic distribution of CRPs; the number of individuals without disabilities who are employed in CRPs under this chapter; and the average and range of weekly earnings for individuals with disabilities and individuals without disabilities who are employed in CRPs under this chapter.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 29
+    },
+    {
+      "id": "R-087",
+      "verbatim_text": "6. Item 6: (\u00a7806.31(f)(2)) - include the following information from each CRP data on individual outplacement or supported employment to include: the number of individuals in outplacement employment; the hourly wage range; the range of hours worked; and the number of individuals with disabilities employed, listed by primary type of disability.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": "2026-10-31",
+      "page": 30
+    },
+    {
+      "id": "R-088",
+      "verbatim_text": "Deliverable #3: Semi-Annual Customer Satisfaction Survey Report. Successful Respondent must submit a semi-annual report detailing the following items: 1. Item 1: Purchaser Satisfaction \u2013 The report must utilize a 5-star rating system (or equivalent) to measure and summarize satisfaction across the following specific categories: a. Product/Service Quality: Satisfaction with the quality of Products, Services, and Temporary Employment Services purchased through the State Use Program.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-089",
+      "verbatim_text": "2. Item 2: Community Rehabilitation Program (CRP) Satisfaction - The report must utilize a 5-star rating system (or equivalent) to measure and summarize satisfaction among participating CRPs across the following specific categories: a. Financial Operations: Satisfaction with CNA billing, invoicing, and payment processing.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-090",
+      "verbatim_text": "3. Item 3: Qualitative Analysis and Improvement Tracking - The report must include a narrative section addressing specific feedback and \"Areas of Opportunity\" identified in the surveys, including but not limited to: a. Communication Response Times: Analysis of response times to email and phone inquiries (specifically targeting the goal of responding within one Business Day).",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-091",
+      "verbatim_text": "4. Item 4: Trend Analysis - The report must include a comparative analysis of current survey results against the previous three (3) reporting periods to identify upward or downward trends in star ratings and participation volume.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-092",
+      "verbatim_text": "5. Item 5: Recommended Actions - The report must provide a formal Corrective Action Plan (CAP) for any category receiving an average rating below 4.0 stars, detailing the specific steps the CNA will take to resolve recurring problems identified by Purchasers or CRPs.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-093",
+      "verbatim_text": "Solicitation Posted to ESBD and the TWC Procurement Portal \u2014 June 29, 2026",
+      "section_ref": "3.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-06-29",
+      "page": 33
+    },
+    {
+      "id": "R-094",
+      "verbatim_text": "Pre-Solicitation Conference Attendance is optional \u2014 July 07, 2026 at 2:00 P.M. central time",
+      "section_ref": "3.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-07-07",
+      "page": 33
+    },
+    {
+      "id": "R-095",
+      "verbatim_text": "Deadline for Submitting Questions or Requests for Clarification \u2014 July 07, 2026 at 5:00 P.M. Central Time",
+      "section_ref": "3.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-07-07",
+      "page": 33
+    },
+    {
+      "id": "R-096",
+      "verbatim_text": "Deadline for Submission of Response NOTE: Responses must be RECEIVED by TWC by the deadline. \u2014 August 12, 2026 at 10:00 A.M. Central Time",
+      "section_ref": "3.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-08-12",
+      "page": 33
+    },
+    {
+      "id": "R-097",
+      "verbatim_text": "Anticipated Contract Award \u2014 November 2026",
+      "section_ref": "3.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-11-01",
+      "page": 33
+    },
+    {
+      "id": "R-098",
+      "verbatim_text": "Respondent must submit its Response to TWC in accordance with the due date and time as indicated in this Table 3: Schedule of Events or as changed via an Addendum posted to the ESBD and the TWC Procurement Portal.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-099",
+      "verbatim_text": "These discussions are to be finalized and all requests for revisions resolved within ten (10) Business Days after the Successful Respondent receives the draft Contract for review or such additional time that may be agreed to by TWC.",
+      "section_ref": "3.3",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-100",
+      "verbatim_text": "All requests, questions, or other communication about this Solicitation must be made in writing to Procurement Services, addressed to the person listed below (Sole Point of Contact) with the Solicitation number in the subject line.",
+      "section_ref": "3.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-101",
+      "verbatim_text": "Except as provided in Section 3.5 Sole Point of Contact, all communication with TWC regarding this Solicitation is prohibited.",
+      "section_ref": "3.5.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-102",
+      "verbatim_text": "Failure to comply with these restrictions may result in disqualification of Respondent's Response.",
+      "section_ref": "3.5.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-103",
+      "verbatim_text": "Attendees to the virtual Pre-Solicitation Conference are required to register for the conference utilizing the link provided in Section 3.6.2 Logistical Information.",
+      "section_ref": "3.6.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-104",
+      "verbatim_text": "People with disabilities who wish to attend the Pre-Solicitation Conference and require auxiliary aids or services should contact the Sole Point of Contact identified in Section 3.5 Sole Point of Contact at least seventy-two (72) hours before the Conference in order to have reasonable accommodations made by TWC.",
+      "section_ref": "3.6.2",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-105",
+      "verbatim_text": "Attendees may submit questions in writing at the conference. All questions must be in the required format and include the information as referenced in Section 3.7 Questions/Requests for Clarification.",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-106",
+      "verbatim_text": "Unauthorized communications with TWC program area staff regarding this Solicitation before, during, or after the Pre-Solicitation Conference are prohibited. Failure to comply with these restrictions may result in disqualification of Respondent's Response.",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-107",
+      "verbatim_text": "Questions must be submitted through the TWC Procurement Portal to the Sole Point of Contact listed in Section 3.5 Sole Point of Contact by the deadline established in Section 3.2 Schedule of Events using Form 5 Questions and Answers. Include the Solicitation section and page number to which each question applies.",
+      "section_ref": "3.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-108",
+      "verbatim_text": "Respondents are required to acknowledge the Addenda by returning the signed Acknowledgment of Addenda with the Response. Failure to do so may disqualify the Respondent and does not absolve a Respondent from the requirements contained within any Addenda.",
+      "section_ref": "3.8",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-109",
+      "verbatim_text": "Respondent is not required to submit a VetHUB Subcontracting Plan with its Response.",
+      "section_ref": "3.9",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-110",
+      "verbatim_text": "Responses must be received by PS as prescribed no later than the date and time specified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-111",
+      "verbatim_text": "Responses received after the deadline specified in Section 3.2 Schedule of Events will be rejected and will not be evaluated or considered for Contract award.",
+      "section_ref": "4.1",
+      "type": "info",
+      "category": "deadline",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-112",
+      "verbatim_text": "Respondent must fully and completely address all requirements described in this Solicitation. Incomplete or partial Responses will not be considered.",
+      "section_ref": "4.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-113",
+      "verbatim_text": "The Response to this Solicitation must: a. Be responsive to all Solicitation requirements; b. Be in the 8 1/2\" by 11\" paper layout; c. Be clearly legible; and d. Be presented using font type Verdana or Arial, font size 12-point, with one (1) inch margins and 1.25 line spacing; the sole 12-point font size exception is no less than size 10 point for tables, graphs, and appendices.",
+      "section_ref": "4.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-114",
+      "verbatim_text": "If Respondent fails to designate an \"Original\" Response as required by Section 4.5 Submission Method, TWC in its sole discretion, will determine the version to be used as the original or may disqualify the Response.",
+      "section_ref": "4.4",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-115",
+      "verbatim_text": "If the Respondent submits a redacted Response as the \"Original,\" TWC will disqualify the Response, and it will not be evaluated.",
+      "section_ref": "4.4",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-116",
+      "verbatim_text": "TWC has implemented the eProcurement platform referred to as the TWC Procurement Portal. Respondent must upload all documentation indicated to the TWC Procurement Portal on the \"Open Opportunities\" tab. Submissions by any other method will not be accepted.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-117",
+      "verbatim_text": "To respond to this Solicitation, Respondents must register through the TWC Procurement Portal website.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-118",
+      "verbatim_text": "Respondents must contact the Sole Point of Contact prior to the deadline if there are issues with using the TWC Procurement Portal and an alternative submission method may be required. Failure to contact the Sole Point of Contact well before the deadline to make alternative arrangements will disqualify any subsequent Response submission.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-119",
+      "verbatim_text": "Hard copies received will not be accepted or reviewed.",
+      "section_ref": "4.5",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-120",
+      "verbatim_text": "Response must be RECEIVED by TWC by the Response Deadline identified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-121",
+      "verbatim_text": "Table 5: Required Forms and Submission Documents \u2014 Narrative Proposal (Section 4.7)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-122",
+      "verbatim_text": "Form 1 Execution of Response (Section 4.7.2)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-123",
+      "verbatim_text": "Form 2 Cost Response (Section 4.9)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-124",
+      "verbatim_text": "Form 3 References (Section 4.8)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-125",
+      "verbatim_text": "Financial Statements (Section 4.11)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-126",
+      "verbatim_text": "Form 5 Substitute W-9 and Direct Deposit Form",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-127",
+      "verbatim_text": "Proof of designation as a nonprofit organization by the Internal Revenue Service (IRS) (Section 5.2 b.)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-128",
+      "verbatim_text": "Respondent must provide an Executive Summary of their Response (excluding cost information) that asserts the Respondent is providing, in its Response, all the requirements of this Solicitation, including Article II Scope of Work. The Executive Summary must demonstrate Respondent's understanding of TWC goals and objectives for this Solicitation.",
+      "section_ref": "4.7.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-129",
+      "verbatim_text": "The Executive Summary must not exceed five (5) pages and should represent a full and concise summary of the contents of the Response.",
+      "section_ref": "4.7.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-130",
+      "verbatim_text": "Respondent must complete, sign, and return Form 1 Execution of Response. By signing, Respondent agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in resulting Contract. A Response without the required signatures is not responsive to the Solicitation and will be disqualified.",
+      "section_ref": "4.7.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-131",
+      "verbatim_text": "Unsigned Responses will not be evaluated; these Responses will be kept with the procurement file and not be returned to the Respondent.",
+      "section_ref": "4.7.2",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-132",
+      "verbatim_text": "Respondent must include the following information with their Response.",
+      "section_ref": "4.7.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-133",
+      "verbatim_text": "Respondent must provide the name, address, and telephone number of Respondent's point of contact for any questions regarding the Response and, if different than the point of contact for questions about the Response, the name, address, and telephone number of Respondent's point of contact for any resulting Contract.",
+      "section_ref": "4.7.3.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-134",
+      "verbatim_text": "Respondent must provide a detailed narrative explaining why it is qualified to provide the services enumerated in Article II Scope of Work, focusing on key strengths and competitive advantages.",
+      "section_ref": "4.7.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-135",
+      "verbatim_text": "Respondent must describe its knowledge and experience in providing Program Management Services to comparable clients of similar size and complexity to TWC, including how many years Respondent has been managing the program. The Organization Narrative must not exceed two (2) pages.",
+      "section_ref": "4.7.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-136",
+      "verbatim_text": "Respondent must provide an organizational profile, including: a. Ownership structure (e.g., corporation, partnership, LLC, or sole proprietorship), including any wholly owned subsidiaries, affiliated companies, or joint ventures. (Please provide this information both in a narrative and as a graphical representation.)",
+      "section_ref": "4.7.3.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-137",
+      "verbatim_text": "If Respondent is an affiliate of or has a joint venture or strategic alliance with another company, Respondent must identify the percentage of ownership of each joint venture member or affiliate and the percentage of the parent company's ownership. The entity performing the majority of the work under any resulting Contract, throughout the duration of the Contract, must be the primary Respondent.",
+      "section_ref": "4.7.3.3.a.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-138",
+      "verbatim_text": "Finally, Respondent must provide its proposed operating structure for the services requested under this Solicitation and which entities (i.e., parent company, affiliate, joint venture, subcontractor) will be performing the services.",
+      "section_ref": "4.7.3.3.a.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-139",
+      "verbatim_text": "The year the company was founded and/or incorporated. If incorporated, please indicate the state where the company is incorporated and the date of incorporation;",
+      "section_ref": "4.7.3.3.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-140",
+      "verbatim_text": "The location of company headquarters and any field office(s) that may provide services for any resulting Contract;",
+      "section_ref": "4.7.3.3.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-141",
+      "verbatim_text": "The number of employees in the company, both locally and nationally, and the location(s) from which employees will be assigned to TWC's project; and",
+      "section_ref": "4.7.3.3.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-142",
+      "verbatim_text": "An indication of whether the company has ever been in contract with any Texas state agency. If \"Yes,\" specify the agency name, contract term, and the scope of work for that contract.",
+      "section_ref": "4.7.3.3.e",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-143",
+      "verbatim_text": "Description of Services. Respondent must affirm its intent to comply with the requirements as stated in Section 2.2 Description of Services, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-144",
+      "verbatim_text": "Comprehensive CNA Services. Respondent must affirm and document how its Proposal meets the requirements as stated in Section 2.2.1 Comprehensive CNA Services, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-145",
+      "verbatim_text": "Respondent must affirm how its Proposal meets the requirements as stated in Section 2.2.2 Key Personnel and Proposed Organization, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.c.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-146",
+      "verbatim_text": "Respondent must provide staffing profiles and resumes for all dedicated key personnel who will be assigned to the Contract that demonstrates their ability to meet the requirements of their roles.",
+      "section_ref": "4.7.4.c.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-147",
+      "verbatim_text": "Respondent must also provide staffing profiles and resumes for all other key personnel assigned to career counseling and staff development training for disabled employees. Include the amount of time each of these positions will have committed to the execution of the contract.",
+      "section_ref": "4.7.4.c.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-148",
+      "verbatim_text": "Communication. Respondent must affirm and document how its Proposal meets the requirements as stated in Section 2.2.3 Communication, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-149",
+      "verbatim_text": "Records. Respondent must affirm and document how its Proposal meets the requirements as stated in Section 2.2.4 Records, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.e",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-150",
+      "verbatim_text": "Transition Services. Respondent must affirm and document how its Proposal meets the requirements as stated in Section 2.2.5 Transition Services, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.f",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-151",
+      "verbatim_text": "Legislative Changes. Respondent must affirm and document how its Proposal meets the requirements as stated in Section 2.2.6 Legislative Changes, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.g",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-152",
+      "verbatim_text": "Advisory Committee Meetings and Support. Respondent must affirm and document how its Proposal meets the requirements as stated in Section 2.2.7 Advisory Committee Meetings and Support, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "4.7.4.h",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-153",
+      "verbatim_text": "Respondent must provide a minimum of three (3) references in the format set forth in Form 3 References and should also provide any canceled contract reference as applicable.",
+      "section_ref": "4.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-154",
+      "verbatim_text": "One (1) reference must relate to similar contracts or projects performed as described in Section 2.2 Description of Services within the last five (5) years, and must be from state, federal, and/or local governmental entities. Do not include TWC as a reference.",
+      "section_ref": "4.8.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-155",
+      "verbatim_text": "One (1) reference must verify your organization's financial capacity to operate a project in the total dollar amount requested in this solicitation.",
+      "section_ref": "4.8.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-156",
+      "verbatim_text": "One (1) reference may be a general reference of your organization's qualifications and should include companies' history, values, and experience working with the organization.",
+      "section_ref": "4.8.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-157",
+      "verbatim_text": "Each Respondent shall provide descriptions for a minimum of one (1) engagement of comparable complexity and sensitivity to the requirements of this Solicitation that have been conducted within the past five (5) years.",
+      "section_ref": "4.8.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-158",
+      "verbatim_text": "The Respondent shall state whether or not any of the following have occurred during the last five (5) years: a. The Respondent has had a contract terminated, and, if so, shall provide full details, including the other party's name, address, and telephone number on Form 3 References.",
+      "section_ref": "4.8.2.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-159",
+      "verbatim_text": "The Respondent has been assessed any remedies, including liquidated damages or other such monetary remedies, under any existing or past contracts, and, if so, note the reason for and the amount assessed or paid for each incident.",
+      "section_ref": "4.8.2.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-160",
+      "verbatim_text": "The Respondent was the subject of (i) any threatened, pending, or resolved disciplinary action for substandard work and/or unethical practices; or (ii) any order, judgment or decree of any federal or state authority barring, suspending or otherwise limiting the right of the Respondent to engage in any business, practice, or activity.",
+      "section_ref": "4.8.2.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-161",
+      "verbatim_text": "The Respondent has been involved in any civil or criminal litigation and/or entered into any compromise agreement, settlement agreement, or resulting consent decree or judgements, if applicable, related to contract performance, the goods and/or services sought by this Solicitation, or that a reasonable person knowledgeable of the applicable industry would consider relevant to the work under the Contract.",
+      "section_ref": "4.8.2.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-162",
+      "verbatim_text": "In accordance with Section 4.9 Cost Response, the Respondent shall include one file named \"Cost Response\" that contains the Respondent's Cost Response in the format included in Form 2 Cost Response.",
+      "section_ref": "4.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-163",
+      "verbatim_text": "Cost information must be included as a separate document and presented only in the format set forth in Form 2 Cost Response.",
+      "section_ref": "4.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-164",
+      "verbatim_text": "Respondent must propose their fee to manage and coordinate the State Use Program under the oversight and direction of TWC.",
+      "section_ref": "4.9",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-165",
+      "verbatim_text": "Respondents are encouraged to describe any Offered Options. Offered Options are not required and are not considered during evaluation of Responses.",
+      "section_ref": "4.10",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-166",
+      "verbatim_text": "The Respondent must include the following items in its Response unless it is a governmental entity. Failure to include any of the items listed for the appropriate company type may result in disqualification of the Respondent's Response.",
+      "section_ref": "4.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-167",
+      "verbatim_text": "In addition to the Financial Statements provided under Section 4.11.2, the Respondent must provide proof of sufficient financial resources to pay or maintain a line of credit to pay CRPs within thirty (30) Business Days as required by Section 2.2.1(f).",
+      "section_ref": "4.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-168",
+      "verbatim_text": "The Respondent must provide the following information in an electronic file/document that is named in this format: \"[Organization Name] _TWC_RFP_No. #3202600177 Financial_Information.docx\". (A PDF form is acceptable in the event that is the only format available).",
+      "section_ref": "4.11.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-169",
+      "verbatim_text": "For the last three (3) fiscal years most recently ended, audited financial statements prepared in accordance with Generally Accepted Accounting Practices (GAAP);",
+      "section_ref": "4.11.2.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-170",
+      "verbatim_text": "Respondent's state and county of incorporation and its principal place of business;",
+      "section_ref": "4.11.2.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-171",
+      "verbatim_text": "Statement describing all unasserted and asserted legal claims, current status and expected outcomes and/or judgments and any off-balance sheet liabilities or contingencies;",
+      "section_ref": "4.11.2.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-172",
+      "verbatim_text": "Any official document displaying current proof of authority to conduct business in the State. Examples: State Franchise Tax Certification of Account Status and State Sales Tax Permit, both available from the State Comptroller of Public Accounts and the Certification of Fact, that is available from the Secretary of State (SOS) available at: https://www.sos.state.tx.us/index.shtml.",
+      "section_ref": "4.11.2.e",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-173",
+      "verbatim_text": "Last three (3) years of unaudited financial statements, including all supplements, management discussion and analysis, and actuarial opinions;",
+      "section_ref": "4.11.2.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-174",
+      "verbatim_text": "An unaudited financial statement compiled, reviewed and attested by an independent certified public accountant or certified public accountant of the most recent quarter of operation; and",
+      "section_ref": "4.11.2.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-175",
+      "verbatim_text": "A full disclosure of any events, liabilities, or contingent liabilities that could affect Respondent's financial ability to perform this Contract.",
+      "section_ref": "4.11.2.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-176",
+      "verbatim_text": "At a minimum, such financial statements must include: a. Balance sheet; b. Income statement; c. Statement of changes in financial position; d. Statement of cash flows; and e. Capital expenditures.",
+      "section_ref": "4.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-177",
+      "verbatim_text": "The Successful Respondent must provide the financial statements in Section 4.11.1 Financial Statements annually throughout the term of the Contract.",
+      "section_ref": "4.11.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-178",
+      "verbatim_text": "The Response must include a certification that the Respondent will notify TWC of a change in financial condition during the Contract term and any renewal thereof.",
+      "section_ref": "4.11.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-179",
+      "verbatim_text": "If the Respondent is substantially owned or controlled, in whole or in part, by one or more other legal entities, the Respondent must submit the information required under Section 4.11 Financial Soundness above for each such entity, including the most recent financial statement for each such entity.",
+      "section_ref": "4.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-180",
+      "verbatim_text": "The Respondent must also include a statement from the entity or entities with substantial ownership or control that the entity/ies will unconditionally guarantee performance by the Respondent of each and every obligation, warranty, covenant, term, and condition of any Contract resulting from this Solicitation.",
+      "section_ref": "4.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-181",
+      "verbatim_text": "If a Respondent includes exceptions in its Response, Respondent is required to use Form 1 Execution of Response and provide all information requested on the form.",
+      "section_ref": "4.13",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 52
+    },
+    {
+      "id": "R-182",
+      "verbatim_text": "Respondent must clearly identify the specific section and language to which it takes exception, propose specific alternative language, and describe its reasoning for requesting the exception. TWC will only consider exceptions submitted on Form 1 Execution of Response.",
+      "section_ref": "4.13",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 52
+    },
+    {
+      "id": "R-183",
+      "verbatim_text": "Respondent must be set up in the Texas franchise tax system prior to Contract award if applicable.",
+      "section_ref": "4.15",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 53
+    },
+    {
+      "id": "R-184",
+      "verbatim_text": "A Respondent subject to this requirement must: a. complete TEC Form 1295, Certificate of Interested Parties at https://www.ethics.state.tx.us/filinginfo/1295/; b. submit the form online to TEC, c. print the completed form that includes the Certificate Number automatically assigned by TEC, and d. submit the form, signed by its authorized agency, by email to TWC.",
+      "section_ref": "4.16",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 54
+    },
+    {
+      "id": "R-185",
+      "verbatim_text": "Respondent must notify the Sole Point of Contact identified in Section 3.5 Sole Point of Contact of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or error in the Solicitation in the manner and by the deadline described in Section 3.7 Questions/Requests for Clarification.",
+      "section_ref": "4.17",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 54
+    },
+    {
+      "id": "R-186",
+      "verbatim_text": "Responses submitted to the Solicitation are irrevocable for one hundred eighty (180) calendar days following the solicitation closing date.",
+      "section_ref": "4.18",
+      "type": "info",
+      "category": "deadline",
+      "due_date": null,
+      "page": 55
+    },
+    {
+      "id": "R-187",
+      "verbatim_text": "By submitting a Response, Respondent grants TWC the right to ask questions and request clarification.",
+      "section_ref": "4.19",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 55
+    },
+    {
+      "id": "R-188",
+      "verbatim_text": "TWC will not reimburse Respondents for any costs related to Response preparation or submission. Additionally, Respondents will be responsible for their own presentation equipment if invited to participate in additional evaluation activities, such as in-person discussions, clarifications, or negotiations. Failure to participate in the requested additional evaluation activities may eliminate a Respondent from further consideration.",
+      "section_ref": "4.20",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 55
+    },
+    {
+      "id": "R-189",
+      "verbatim_text": "All submitted Responses become the property of TWC. TWC reserves the right to use any and all ideas presented in any Response to this Solicitation.",
+      "section_ref": "4.21",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 56
+    },
+    {
+      "id": "R-190",
+      "verbatim_text": "Responses shall be evaluated in accordance with Texas Government Code \u00a7 2155.074(B). TWC shall not be obligated to select the lowest priced Response but shall make an award to the Respondent that provides the best value to the State of Texas.",
+      "section_ref": "5.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 57
+    },
+    {
+      "id": "R-191",
+      "verbatim_text": "Respondent must have recently been in business for a minimum of five (5) years, or the principals/owners must have had ownership/executive management experience within the last five (5) in a previous company that provided program management services;",
+      "section_ref": "5.2.a",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 57
+    },
+    {
+      "id": "R-192",
+      "verbatim_text": "Respondent must submit proof that they are designated as a nonprofit organization by the Internal Revenue Service (IRS) such as: IRS Determination Letter, State Registration Certificate or Form 990 Filings;",
+      "section_ref": "5.2.b",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-193",
+      "verbatim_text": "Respondent must submit a complete and signed Form 1 Execution of Response, in accordance with Section 4.7.2 Execution of Response;",
+      "section_ref": "5.2.c",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-194",
+      "verbatim_text": "Respondent must be financially solvent and adequately capitalized, as determined based on a review of documentation required by Section 4.11 Financial Soundness;",
+      "section_ref": "5.2.d",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-195",
+      "verbatim_text": "Respondent has submitted the Response in accordance with Article IV Response Submission Instructions; see also Section 4.6 Required Forms and Submission Documents;",
+      "section_ref": "5.2.e",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-196",
+      "verbatim_text": "Respondent who receives an overall score on the VPTS of \"D\" or below shall be disqualified from consideration for award.",
+      "section_ref": "5.2.f",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-197",
+      "verbatim_text": "TWC will automatically disqualify any Response that does not include one or more of the completed and signed (as applicable) documents.",
+      "section_ref": "5.3",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-198",
+      "verbatim_text": "TWC shall consistently evaluate and score Responses in accordance with the following criteria. a. Ability to Perform Services (50%)",
+      "section_ref": "5.5.a",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 59
+    },
+    {
+      "id": "R-199",
+      "verbatim_text": "Past Performance, Experience, Qualifications, and References (40%)",
+      "section_ref": "5.5.b",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 59
+    },
+    {
+      "id": "R-200",
+      "verbatim_text": "Price or Reasonableness of Price Proposal (10%)",
+      "section_ref": "5.5.c",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 59
+    },
+    {
+      "id": "R-201",
+      "verbatim_text": "The Competitive Range will consist of the Responses that receive the highest scores, or most satisfactory ratings based on the published evaluation criteria and procedures governing this procurement.",
+      "section_ref": "5.6",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 60
+    },
+    {
+      "id": "R-202",
+      "verbatim_text": "After the written Response evaluation, Respondent may be selected for invitation to additional evaluation activities that may include one or more of the following: oral presentations, clarifications, discussions, Proof of Concept, demonstrations, and site visits. Advancement will be determined by the Competitive Range.",
+      "section_ref": "5.7",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 60
+    },
+    {
+      "id": "R-203",
+      "verbatim_text": "If Respondent asserts that information provided in its Response is exempt from disclosure under the Texas Public Information Act, Respondent must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Response and \"Public Information Act Copy,\" including attachments, of the Original Response) as identified below.",
+      "section_ref": "5.11.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 63
+    },
+    {
+      "id": "R-204",
+      "verbatim_text": "Within five (5) days from Contract execution, the Successful Respondent must submit a \"Public Information Act Copy\" of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email.",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-205",
+      "verbatim_text": "For the duration of any Contract resulting from this Solicitation, the Successful Respondent shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 1 \u2013 TWC Terms and Conditions, Section 3.19 Insurance Requirements.",
+      "section_ref": "6.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 67
+    },
+    {
+      "id": "R-206",
+      "verbatim_text": "The Response must include a certification that the entity is not for sale or to become acquired by another business entity during the twelve (12) months following the Response Deadline.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 74
+    },
+    {
+      "id": "R-207",
+      "verbatim_text": "During the term of the Contract or any extension or renewal thereof, the Successful Respondent shall notify TWC in writing of any substantial change in the ownership or control of the Successful Respondent as soon as possible, but no later than thirty (30) days prior to its occurrence.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 74
+    },
+    {
+      "id": "R-208",
+      "verbatim_text": "The Successful Respondent shall meet or exceed the service criteria and timelines below. Ongoing failure to meet these timelines and criteria may be considered a breach of contract.",
+      "section_ref": "6.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-209",
+      "verbatim_text": "The Successful Respondent must resolve all issues reported by the TWC Program Managers and/or customers within three (3) Business Days from the time the issue was originally reported to the Successful Respondent, or upon agreed-upon time frame.",
+      "section_ref": "6.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-210",
+      "verbatim_text": "The Successful Respondent must deliver ad hoc reports to TWC within ten (10) Business Days from the day the report is requested.",
+      "section_ref": "6.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-211",
+      "verbatim_text": "The Successful Respondent's Account Manager must respond to email from the TWC Program Managers and/or customers within twenty-four (24) hours, or by close of business of the next Business Day.",
+      "section_ref": "6.11.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-212",
+      "verbatim_text": "The Successful Respondent's Account Manager must be available Monday through Friday, between the hours of 8AM through 5PM, with the exception of the state of Texas holidays.",
+      "section_ref": "6.11.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-213",
+      "verbatim_text": "The Successful Respondent's SPD Liaisons must be available Monday through Friday, between the hours of 8AM through 5PM, with the exception of the state of Texas holidays.",
+      "section_ref": "6.11.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    }
+  ]
+}

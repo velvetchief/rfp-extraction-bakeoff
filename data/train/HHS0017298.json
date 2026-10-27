@@ -1,0 +1,923 @@
+{
+  "rfp_id": "HHS0017298",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "By submitting a response to the RFQ, the Respondent certifies understanding of this RFQ and has full knowledge of the scope, nature, quality, and quantity of the work to be performed by the Respondent, the detailed requirements of the services to be provided, and the conditions under which the services are to be performed.",
+      "section_ref": "1.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "If selected for award by HHSC, the Respondent will notify HHSC immediately of any material change with regard to any statement, representation, or certification the Respondent has made in response to this Solicitation.",
+      "section_ref": "1.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "Respondents are cautioned to read the information contained in this RFQ carefully and to submit a complete response to all requirements and questions as directed.",
+      "section_ref": "1.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "The initial term of the Contract will be from the date of execution of the OCC through August 31, 2027 .",
+      "section_ref": "2.2.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "Total compensation under the Contract shall not exceed $150,000.",
+      "section_ref": "2.2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "Pre-proposal Conference Attendance is Optional \u2014 June 29, 2026, at 10:00 a.m. Central Time",
+      "section_ref": "3.1",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-06-29",
+      "page": 9
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "Deadline for Submitting Questions \u2014 June 30, 2026, at 5:00 p.m. Central Time",
+      "section_ref": "3.1",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-06-30",
+      "page": 9
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "Tentative Date Responses to Questions Posted on the ESBD \u2014 July 07, 2026, at 5:00 p.m. Central Time",
+      "section_ref": "3.1",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-07-07",
+      "page": 9
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "Deadline for Submission of Solicitation Responses [NOTE: Responses must be RECEIVED by HHSC by the deadline.] \u2014 July 21, 2026, at 10:30 a.m. Central Time",
+      "section_ref": "3.1",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-07-21",
+      "page": 9
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "Each Respondent is responsible for periodically checking the ESBD and the HHSC Procurement Forecast for updates.",
+      "section_ref": "3.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "Respondent must notify the individual specified in Section 3.3.1 (Sole Point of Contact) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation in the manner and by the deadline described in Section 3.3.4 (Solicitation Questions).",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "All requests, questions, or other communication regarding this Solicitation shall be made in writing to HHSC PCS and addressed to the person identified below (Sole Point of Contact), except as permitted in Section 3.3.2 (Exceptions to Sole Point of Contact).",
+      "section_ref": "3.3.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "Respondent shall rely only on written statements issued by or through HHSC PCS designated staff as provided by Section 3.3 (Inquiries).",
+      "section_ref": "3.3.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "Except as provided in Section 3.3.1 (Sole Point of Contact) and Section 3.3.2 (Exceptions to Sole Point of Contact), a Respondent or potential Respondent is prohibited from communicating with HHSC regarding this Solicitation. ... Failure to comply with this restriction may result in disqualification of Respondent's Solicitation Response.",
+      "section_ref": "3.3.3",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "Written questions regarding this Solicitation must be submitted by email to the individual specified in Section 3.3.1 (Sole Point of Contact) by the deadline specified in Section 3.1 (Schedule of Events).",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-06-30",
+      "page": 11
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "All questions regarding the Solicitation must include the following information: a. Solicitation number; b. Solicitation package reference (page number, section, and exhibit or attachment, if applicable...); c. Question topic (e.g., \"Schedule of Events,\"...); and d. Question.",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "In addition, the following contact information must be provided by the requestor with its submission of the Solicitation question(s): a. Business entity name; b. Business entity representative name; c. Phone number; and d. Email address.",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "People with disabilities who wish to attend the meeting and require auxiliary aids or services should contact the individual identified in Section 3.3.1 (Sole Point of Contact) at least seventy-two (72) hours before the pre-proposal conference in order to have reasonable accommodations made by HHSC.",
+      "section_ref": "3.4.2",
+      "type": "should",
+      "category": "deadline",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Failure of Respondent to submit all required information and documents within its Solicitation Response in the required format(s) may result in disqualification of the Solicitation Response without further consideration.",
+      "section_ref": "3.5.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "The Statement of Qualifications, described in Article V, must not exceed ten (10) pages, not including supporting documentation provided as appendices or attachments to the Statement of Qualifications.",
+      "section_ref": "3.5.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "The Statement of Qualifications must be properly paginated, formatted as an 8 \u00bd\" x 11\" page with 1-inch margins, and use a 12 point or larger font, except that a smaller font may be used for page headers and footers, footnotes, and illustrations such as tables, charts, diagrams, figures, graphs and other visual aids.",
+      "section_ref": "3.5.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "If a font smaller than 12 point is used, the text when printed on 8 \u00bd\" x 11\" paper must not require magnification to be legible. Times New Roman font is preferred.",
+      "section_ref": "3.5.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "The Statement of Qualifications must not include other documents embedded as electronic files within the text and must not include hypertext links.",
+      "section_ref": "3.5.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "The Statement of Qualifications, including supporting documentation, submitted as an electronic file should be pre-formatted for printing on 8 \u00bd\" x 11\" paper.",
+      "section_ref": "3.5.2",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "If the Respondent submits a redacted Solicitation Response as the \"Original,\" HHSC will disqualify the Solicitation Response and it will not be evaluated.",
+      "section_ref": "3.5.3",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "A Solicitation Response must be responsive to the Solicitation as worded and without any expectation that any or all terms, conditions, or provisions of the Solicitation will be negotiated.",
+      "section_ref": "3.5.4",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "Respondent is solely responsible for ensuring timely delivery of its Solicitation Response by the date and time specified in Section 3.1 (Schedule of Events). ... Solicitation Responses received after the deadline specified in Section 3.1 (Schedule of Events) will be rejected and not considered for contract award.",
+      "section_ref": "3.6.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-21",
+      "page": 14
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "It is the Respondent's responsibility to appropriately mark and deliver the Solicitation Response to HHSC PCS by the date and time specified in Section 3.1 (Schedule of Events).",
+      "section_ref": "3.6.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "Respondent shall submit its Solicitation Response in component parts as described below: a. One file/folder named \"Original\" that contains the Respondent's entire Solicitation Response in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit.",
+      "section_ref": "3.6.2.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "If applicable, one file/folder named \"Public Information Act Copy\" that contains the Respondent's entire Solicitation Response, including all exhibits and attachments, in searchable PDF prepared in accordance with Section 8.1.5 (Public Information Act \u2013 Respondent Requirements Regarding Disclosure).",
+      "section_ref": "3.6.2.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "Respondent must submit the Solicitation Response using one of the following submission options. A Solicitation Response submitted by any other method will not be considered.",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "Submission Option No. 1: HHS Online Bid Room. Respondent shall submit the Solicitation Response packet through the Online Bid Room utilizing the procedures below",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "Respondent should allow enough time for the registration process to ensure timely delivery of its Solicitation Response by the date and time specified in Section 3.1 (Schedule of Events).",
+      "section_ref": "3.6.2.3",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "Submission Option No. 2: USB Drive. Respondent shall submit the Solicitation Response using the procedures specified in this section.",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "Respondent must place the Solicitation Response on two USB drives. The content on each USB drive must be identical. One USB drive must be labeled \"Original\" The second USB drive must be labeled \"Copy.\"",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "Respondent must deliver the Solicitation Response by one of the methods specified below.",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "A Solicitation Response delivered by mail or hand delivery must be placed in a sealed package.",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "The sealed package and each USB drive must be clearly labeled on the outside as follows: SOLICITATION NO; SOLICITATION NAME; SOLICITATION RESPONSE DEADLINE; PURCHASER NAME; RESPONDENT NAME.",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Respondent is solely responsible for ensuring its Solicitation Response is submitted in accordance with all Solicitation requirements including, but not limited to, proper labeling of packages, sufficient postage or delivery fees, and ensuring timely receipt by HHSC. A dated shipping label, invoice of receipt from the delivery carrier, or any other documentation in lieu of the HHSC PCS time stamp WILL NOT be accepted.",
+      "section_ref": "3.6.2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "Solicitation Consideration and Award Consideration Documents, defined in Section 1.2 (Definitions), must be submitted by the deadline for Solicitation Response submissions specified in Section 3.1 (Schedule of Events).",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-21",
+      "page": 17
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "Statement of Qualifications (Article V) SC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "Minimum Qualification Documentation (Sections 4.2.2 and 5.2) SC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "Past Performance Template (Section 5.5 and Exhibit B) SC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "Company Information (Section 6.1) SC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Authorization to Conduct Business in Texas and Franchise Tax Exemption (Section 6.2) AC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "References (Section 6.3) AC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "HHS Solicitation Affirmations, Version 2.10 (Section 6.4, Exhibit A) SC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "Signed Addenda (if applicable) AC",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "When modifying its Solicitation Response, Respondent must provide written notice signed by an authorized representative that specifically identifies the portion(s) of the Solicitation Response that will be replaced or removed by the amendment.",
+      "section_ref": "3.6.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "Respondent's organization must have seven (7) consecutive years of experience with information technology and intellectual property legal matters, or the principals/owners have seven (7) years of recent ownership/management experience in a previous law firm that provided legal services related to information technology and intellectual property legal matters;",
+      "section_ref": "4.2.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "Respondent must designate a Lead Attorney. The Lead Attorney must be currently licensed in Texas. Documentation of the Lead Attorney's valid standing with the State Bar must be submitted as an attachment to the Solicitation Response;",
+      "section_ref": "4.2.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "The Lead Attorney must have minimum of five (5) consecutive years of current experience and specialization in information technology and intellectual property law;",
+      "section_ref": "4.2.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "Licensure information and resumes for the attorney's providing legal services in response to this Solicitation must be submitted as separate attachments to the Solicitation Response;",
+      "section_ref": "4.2.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "The Response must include three (3) complete submissions utilizing Exhibit B, Past Performance Template. The responses utilizing Exhibit B, Past Performance Template must include different information from the References; and",
+      "section_ref": "4.2.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "Respondent has submitted the Solicitation Response in accordance with Section 3.6, (Solicitation Response Submission and Delivery) including all Solicitation Consideration and Award Consideration Documents, see Section 3.6.3 (Submission Checklist).",
+      "section_ref": "4.2.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "Failure to meet the minimum qualifications specified in Section 4.2.2 (Minimum Qualifications), will result in the disqualification of the Solicitation Response.",
+      "section_ref": "4.2.3",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "HHSC will automatically disqualify any Solicitation Response that does not include one or more of the completed and signed (as applicable) Solicitation Consideration Documents listed in Section 3.6.3 (Submission Checklist).",
+      "section_ref": "4.2.3",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "A Solicitation Response shall be consistently evaluated and scored in accordance with the following criteria. See also, Exhibit D, Evaluation Tool a. Organization Experience (30%) b. Staff Qualification and Experience (45%) c. Demonstrated Competence (25%)",
+      "section_ref": "4.2.5",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "Solicitation Responses should not include any information regarding Respondent's fees, pricing, or other compensation. Pricing will not be considered during the evaluation process.",
+      "section_ref": "4.2.7",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "The Respondent will have three (3) business days from notification to submit a fee schedule that is fair and reasonable for the services being provided.",
+      "section_ref": "4.2.7",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "The Respondent will have three (3) business days from notification to submit a Conflict Disclosure Statement to HHSC. The statement must be in compliance with OAG, Letter to Agencies and Prospective Outside Counsel (July 31, 2025).",
+      "section_ref": "4.2.7",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "Respondent must provide an executive summary of its qualifications as well as a full and concise summary of the contents of the Solicitation Response.",
+      "section_ref": "5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "Respondent must include a statement in the executive summary that the Solicitation Response is responsive to all the requirements of this Solicitation, including Exhibit E, Scope of Work (SOW). The executive summary must not exceed two (2) pages.",
+      "section_ref": "5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "If Respondent is providing services beyond those specifically required by this Solicitation, those services must be identified in the Solicitation Response.",
+      "section_ref": "5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "If Respondent is offering services that do not meet the specific requirements of this Solicitation, but in the opinion of the Respondent are equivalent or superior to those specifically requested, any such differences must be noted in the executive summary.",
+      "section_ref": "5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "Respondent must provide documentation that demonstrates its compliance with the minimum qualifications set forth in Section 4.2.2 (Minimum Qualifications).",
+      "section_ref": "5.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "Respondent describes the firm's organizational experience providing legal support, advice, and legal services, working with clients and vendors on complex information technology and intellectual property law related matters; and Respondent describes the firm's experience with information technology compliance related to federal and state law matters.",
+      "section_ref": "5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "Respondent describes and documents the Lead Attorney's experience in information technology and intellectual property law related matters; Respondent describes and documents the attorney staff's experience and competence with information technology law related matters;",
+      "section_ref": "5.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "Respondent's documentation depicts the Lead Attorney and other attorney staff's experience and competence in advising on complex information technology, legal matters, including, but not limited to, agreements, intellectual property, data privacy and security, artificial intelligence, dispute resolution, and risk management; and Respondent describes staffs experience with information technology compliance related to federal and state laws, rules, and regulations.",
+      "section_ref": "5.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "Respondents Organization's must complete and submit Exhibit B, Past Performance Template for three (3) contracts or projects as attachments to the Statement of Qualifications, to provide information that demonstrates the Respondent's competence and experience advising clients in complex information technology matters.",
+      "section_ref": "5.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "Preferably, at least one of the submissions includes experience providing legal services to a federal, state, or local government entity.",
+      "section_ref": "5.5",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "The Respondents Organization must demonstrate commitment, understanding, experience, and competence in past performance with legal matters involving information technology, including intellectual property, security, data privacy, artificial intelligence, and risk management. Respondent must address competence in both the Solicitation Response and Exhibit B, Past Performance Template.",
+      "section_ref": "5.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "Respondent must provide staffing profiles, resumes, and licensing information for all key personnel who will be responsible for the performance of the Services as attachments to the Statement of Qualifications required by this Solicitation.",
+      "section_ref": "5.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "In its Solicitation Response, Respondent must include the information required by this section.",
+      "section_ref": "6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "Respondent must provide a detailed narrative explaining its experience and qualifications to provide the Services specified in Exhibit E, Scope of Work (SOW).",
+      "section_ref": "6.1.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "Respondent must provide a company profile that includes the following: a. Respondent's ownership structure ... Information must be provided in both a narrative and a graphical representation. If Respondent is an affiliate of, or has a joint venture or strategic alliance with, another company, Respondent must identify the percentage of ownership of each joint venture member or affiliate and the percentage of the parent's ownership;",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "Respondent's proposed operating structure for the Services requested under this Solicitation and which entities (e.g., parent company, affiliate, subcontractor) will be performing them must be identified. A Solicitation Response that proposes a joint venture of two or more business entities, a joint response from more than one business entity, or other similar group arrangement is not responsive to this Solicitation. ... The business entity performing the majority of the Work under the Contract, throughout the Contract Term, must be the Respondent;",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "The year the company was founded and/or incorporated. If incorporated, Respondent must indicate the state where the company is incorporated and the date of incorporation;",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "The location of company headquarters and any field office(s) that may provide Services under the Contract;",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "The number of employees in the company, both locally and nationally, and the location(s) from which employees will be assigned;",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "The name, address, and telephone number of Respondent's point of contact for the Contract;",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "The name, address, and telephone number of Respondent's point of contact for any questions regarding the Solicitation Response; and",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "Indicate whether the company has ever been in contract with any Texas state agency. If \"Yes,\" then provide a brief description of the scope of services and service period for each Texas state agency contract.",
+      "section_ref": "6.1.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-084",
+      "verbatim_text": "Respondent must be authorized to do business in the State of Texas prior to an award. Respondent must provide a Certificate of Fact from the Texas Secretary of State showing that it is authorized to do business in Texas.",
+      "section_ref": "6.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-085",
+      "verbatim_text": "Respondent must be set up in the Texas franchise tax system prior to Contract award unless subject to an exemption under Tax Code Chapter 171, Subchapter B. Respondent must submit in its Solicitation Response a copy of Respondent's exemption status with the Texas Comptroller.",
+      "section_ref": "6.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-086",
+      "verbatim_text": "Respondent must provide at least three (3) client references, preferably for state and/or local government, for Respondent's performance within the last three (3) years under contracts or projects performed by Respondent that are similar to the services required by this Solicitation.",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-087",
+      "verbatim_text": "Respondent is responsible for verifying that the contact information is current for each client reference. The following information must be provided for each reference: a. Client name; b. Contract/project description; c. Total dollar amount of contract/project; d. Key staff assigned to the referenced contract or project who will be designated for Work under a contract resulting from this Solicitation; and e. Client contract/project manager name, telephone number, fax number, and email address.",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-088",
+      "verbatim_text": "Respondent must complete, sign, and return Exhibit A, HHS Solicitation Affirmations, Version 2.10 with its Solicitation Response.",
+      "section_ref": "6.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-089",
+      "verbatim_text": "By submitting a Response to this Solicitation, Respondent certifies that it is financially capable and solvent and adequately capitalized to meet the requirements of this Solicitation.",
+      "section_ref": "6.5",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-090",
+      "verbatim_text": "A HUB Subcontracting Plan is not required for a Solicitation Response to this Solicitation.",
+      "section_ref": "7.1",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-091",
+      "verbatim_text": "A Solicitation Response shall be binding for a period of 240 days after the submission due date.",
+      "section_ref": "8.1.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-092",
+      "verbatim_text": "If Respondent asserts that information provided in its Solicitation Response is exempt from disclosure under the PIA, Respondent must: Mark the Original Solicitation Response, on the top of the front page, with the words \"CONTAINS CONFIDENTIAL INFORMATION\" in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger);",
+      "section_ref": "8.1.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-093",
+      "verbatim_text": "Mark the bottom of each page on the Solicitation Response that contains information that Respondent claims is exempt from public disclosure with the words \"CONTAINS CONFIDENTIAL INFORMATION\";",
+      "section_ref": "8.1.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-094",
+      "verbatim_text": "Identify, adjacent to each portion of the Solicitation Response that Respondent claims is exempt from public disclosure, the claimed exemption from disclosure; Do not redact any content in the Original Solicitation Response; and",
+      "section_ref": "8.1.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-095",
+      "verbatim_text": "Certify, in the designated section of the HHS Solicitation Affirmations, Respondent's confidential information assertion and the filing of its Public Information Act Copy;",
+      "section_ref": "8.1.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-096",
+      "verbatim_text": "Submit a separate \"Public Information Act Copy\" of the Original Solicitation Response ... The copy must be clearly marked as \"Public Information Act Copy\" on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger); Each portion of the Solicitation Response that Respondent claims is exempt from public disclosure must be redacted (blacked out); and Respondent must identify, adjacent to each redaction, the claimed exemption from disclosure.",
+      "section_ref": "8.1.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-097",
+      "verbatim_text": "Respondent should not submit a Public Information Act Copy indicating that the entire Solicitation Response is exempt from disclosure.",
+      "section_ref": "8.1.5",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-098",
+      "verbatim_text": "A Solicitation Response should not be marked or asserted as copyrighted material.",
+      "section_ref": "8.1.5",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-099",
+      "verbatim_text": "Contractors, Respondents, and Vendors interested in working with HHSC are required to implement standards of conduct for their own personnel and agents on terms at least as restrictive as those applicable to HHSC ... A Respondent must sign and submit all ethics, disclosure, confidentiality, and other forms required under the procurement and any resulting contract.",
+      "section_ref": "8.1.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-100",
+      "verbatim_text": "Pursuant to Section 2252.908 of the Texas Government Code, the Respondent to be awarded a contract with a value of $1 million or more or awarded a contract that would require the Respondent to register as a lobbyist under Chapter 305 of the Texas Government Code must submit a disclosure of interested parties form to HHSC at the time the Respondent submits the signed Contract.",
+      "section_ref": "8.1.8",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-101",
+      "verbatim_text": "For the Contract Term, the Contractor shall acquire insurance with financially sound and reputable independent insurers, in the type and amount listed in Exhibit C, Sample OAG Outside Counsel Contract. Failure to maintain insurance coverage or acceptable alternative methods of insurance shall be deemed a breach of contract.",
+      "section_ref": "8.2.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-102",
+      "verbatim_text": "RESPONDENT SHALL DEFEND, INDEMNIFY, AND HOLD HARMLESS THE STATE OF TEXAS AND HHSC, AND/OR THEIR OFFICERS, AGENTS, EMPLOYEES, REPRESENTATIVES, CONTRACTORS, ASSIGNEES, AND/OR DESIGNEES FROM ANY AND ALL LIABILITY, ACTIONS, CLAIMS, DEMANDS, OR SUITS, AND ALL RELATED COSTS, ATTORNEY FEES, AND EXPENSES ARISING OUT OF, OR RESULTING FROM ANY ACTS OR OMISSIONS OF RESPONDENT OR ITS AGENTS, EMPLOYEES, SUBCONTRACTORS, ORDER FULFILLERS, OR SUPPLIERS OF SUBCONTRACTORS IN THE EXECUTION OR PERFORMANCE OF THE CONTRACT AND ANY PURCHASE ORDERS ISSUED UNDER THE CONTRACT.",
+      "section_ref": "8.4",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 31
+    }
+  ]
+}

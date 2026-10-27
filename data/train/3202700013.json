@@ -1,0 +1,824 @@
+{
+  "rfp_id": "3202700013",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Responses Due: July 20, 2026, by 10:00 a.m. Central Time",
+      "section_ref": "Cover",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-20",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "Respondent must affirm its intent to comply with the requirements as stated in Article II, Scope of Work, and affirm that it will continue to comply with these requirements during the term of the Contract issued as a result of this Solicitation, if any.",
+      "section_ref": "2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "The Successful Respondent must provide conference event services in accordance with the requirements as stated in this RFP and all attachments and forms.",
+      "section_ref": "2.2.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "The Successful Respondent must have the capability to hold the conference as listed below as a two (2) half day and one (1) full day conference with setup on Monday and Tuesday, and the conference starting on Wednesday afternoon through Friday morning.",
+      "section_ref": "2.3.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "The Successful Respondent must have availability for TWC's preferred dates above, or TWC's alternate preferred dates above, or an alternate date that is agreed upon by both parties with Monday through Friday dates along with the required times as listed in Section 2.2.2 Conference Schedule below.",
+      "section_ref": "2.3.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "The Successful Respondent(s) must have the capability to hold two-day conference(s), avoiding major holidays, as detailed below.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "The SUCCESSFUL RESPONDENT MUST PROVIDE THE FOLLOWING EVENT SPACE REQUIREMENTS: a. One (1) General Session room with meeting room capacity for up to three hundred and fifty (350) people in crescent rounds of eight (8) seats per table, with linens and chairs.",
+      "section_ref": "2.5.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "Four (4) breakout rooms with meeting room capacity for up to one hundred twenty-five (125) people in each classroom.",
+      "section_ref": "2.5.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "Linen for all meeting room tables unless tables are designed to be linen-less (If proposing linen-less tables, Respondent must include sample pictures of linen-less tables with their Response).",
+      "section_ref": "2.5.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "Carpeted event space.",
+      "section_ref": "2.5.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "No columns obstructing seated participants from viewing the stage.",
+      "section_ref": "2.5.e",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "Sixteen foot (16') X twenty-four foot (24') X twenty-four inch (24\") stage(s)/riser(s) that are Americans with Disability Act (ADA) Compliant.",
+      "section_ref": "2.5.f",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "Standing podium in each meeting room.",
+      "section_ref": "2.5.g",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "Room dimensions including the ceiling height and a diagram of the intended space(s) for use by TWC along with a potential set-up diagram of all spaces.",
+      "section_ref": "2.5.h",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "THE SUCCESSFUL RESPONDENT MUST PROVIDE THE FOLLOWING REGISTRATION AND EXHIBITOR AREA REQUIREMENTS: a. The foyer must be able to hold four (4) skirted six-foot (6') tables for registration with two (2) chairs per table. The tables provided must be near an outlet or a power strip.",
+      "section_ref": "2.6.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "The foyer must also hold eighteen (18) skirted six-foot (6') tables for exhibitors along with all catering, including snacks. Each table must have two (2) chairs.",
+      "section_ref": "2.6.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "If the Successful Respondent's foyer is not able to support eighteen (18) tables for exhibitors, then the exhibitor area must be adjacent to the main conference space or within the main conference space. This space must allow for free movement of attendees with no restrictions that could potentially cause a safety issue between the catering and exhibitors' space.",
+      "section_ref": "2.6.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "A diagram or map for a separate exhibitor area, if applicable. The diagram or map must show how the main conference space relates to the exhibitor and catering space.",
+      "section_ref": "2.6.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Access to wired internet connection that is plug and play and does not require a portal for authentication for the Conference registration desk with a minimum speed of three (3) megabits per second (Mbps).",
+      "section_ref": "2.6.e",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "The Successful Respondent must provide sleeping rooms on the premises preferably close to the conference meeting rooms.",
+      "section_ref": "2.7.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "Rooms must be made available at the prevailing Government per diem rate or lower, as established by the U.S. General Services Administration.",
+      "section_ref": "2.7.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "The Successful Respondent must provide the following sleeping rooms as noted below:",
+      "section_ref": "2.7.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "The Successful Respondent must provide catering with menu options for the following functions listed below:",
+      "section_ref": "2.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "TWC encourages the Respondent to propose and include complimentary options offered with the required meeting space, room blocks and food and beverage package.",
+      "section_ref": "2.9.a",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "Please provide costs for the below based on contract with hotel partner audio-visual provider or outside audio-visual provider. Please include even if no cost due to TWC choosing partner audiovisual company.",
+      "section_ref": "2.10.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "The audio-visual vendor chosen by TWC is to be granted access to the event space as necessary.",
+      "section_ref": "2.10.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "Deadline for Submitting Questions or Requests for Clarification JUNE 22, 2026, at 5:00 PM Central Time",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-06-22",
+      "page": 17
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "Deadline for Submission of Response NOTE: Responses must be RECEIVED by TWC by the deadline. JULY 20, 2026, at 10:00 AM Central Time",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-20",
+      "page": 18
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "Respondent must submit its Response to TWC in accordance with the due date and time as indicated in this Table 5: Schedule of Events or as changed via an Addendum posted to the ESBD and TWC Procurement Portal.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "All requests, questions, or other communication about this Solicitation must be made in writing to PS, addressed to the person listed below (Sole Point of Contact) with the Solicitation number in the subject line.",
+      "section_ref": "3.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "Questions must be submitted through the TWC Procurement Portal to the Sole Point of Contact listed in Section 3.5 Sole Point of Contact by the deadline established in Section 3.2 Schedule of Events. using Form 4 - Questions and Answers. Include the Solicitation section and page number to which each question applies.",
+      "section_ref": "3.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "Respondents are required to acknowledge the Addenda by returning the signed Acknowledgment of Addenda with the Response. Failure to do so does not absolve a Respondent from the requirements contained within any Addenda of this Solicitation.",
+      "section_ref": "3.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "Responses must be received by PS as prescribed no later than the date and time specified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-20",
+      "page": 23
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "Respondents must fully and completely address all requirements described in this Solicitation. Incomplete or partial Responses will not be considered.",
+      "section_ref": "4.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "The Response to this Solicitation must: a. Be responsive to all Solicitation requirements;",
+      "section_ref": "4.3.a",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "Be in the 8 1/2\" by 11\" paper layout;",
+      "section_ref": "4.3.b",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Be clearly legible; and",
+      "section_ref": "4.3.c",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Be presented using font type Verdana or Arial, font size 12-point, with one (1) inch margins and 1.25 line spacing; the sole 12-point font size exception is no less than size 10 point for tables, graphs, and appendices.",
+      "section_ref": "4.3.d",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Respondent must upload all documentation indicated to the TWC PROCUREMENT PORTAL link on the \"Open Opportunities\" tab. Submissions by any other method will not be accepted.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "To respond to this Solicitation, Respondents must register through the TWC Procurement Portal website.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "Respondents must contact the Sole Point of Contact prior to the deadline if there are issues with using the TWC Procurement Portal and an alternative submission method may be required. Failure to contact the Sole Point of Contact well before the deadline to make alternative arrangements will disqualify any subsequent Response submission.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "Hard copies received will not be accepted or reviewed.",
+      "section_ref": "4.5",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "Response must be RECEIVED by TWC by the Response Deadline identified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-20",
+      "page": 26
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "Required Forms and Submission Documents: Narrative Proposal (Section 4.7); Form 1 - Execution of Response (Section 4.7.2); Form 2 - Cost Response (Section 4.9); Form 3 - References (Section 4.8); Form 5 - Financial Questionnaire (Section 4.11)",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Respondent must provide an Executive Summary of their Response (excluding cost information) that asserts the Respondent is providing, in its Response, all the requirements of this Solicitation, including Article II Scope of Work. The Executive Summary must demonstrate Respondent's understanding of TWC goals and objectives for this Solicitation.",
+      "section_ref": "4.7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "If the Respondent is providing goods and/or services beyond those specifically requested, those goods and/or services must be identified.",
+      "section_ref": "4.7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "The Executive Summary must not exceed TWO (2) pages and should represent a full and concise summary of the contents of the Response.",
+      "section_ref": "4.7.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "Respondent must complete, sign, date and return Form 1 - Execution of Response. By signing, Respondent agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in resulting Contract. A Response without the required signatures is not responsive to the Solicitation and will be disqualified.",
+      "section_ref": "4.7.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "Respondent must include the following information with its Response.",
+      "section_ref": "4.7.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "Respondent must provide the name, address, and telephone number of Respondent's point of contact for any questions regarding the Response and, if different than the point of contact for questions about the Response, the name, address, and telephone number of Respondent's point of contact for any resulting Contract.",
+      "section_ref": "4.7.3.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "Respondent must provide a detailed narrative explaining why it is qualified to provide the services enumerated in Article II Scope of Work, focusing on key strengths and competitive advantages.",
+      "section_ref": "4.7.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "Respondent must describe its knowledge and experience in providing Conference Services to comparable clients of similar size and complexity to TWC, including how many years Respondent has been providing Conference Services. The Organization Narrative must not exceed two (2) pages.",
+      "section_ref": "4.7.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "Respondent must provide an organizational profile, including: a. Ownership structure (e.g., corporation, partnership, LLC, or sole proprietorship), including any wholly owned subsidiaries, affiliated companies, or joint ventures. (Please provide this information both in a narrative and as a graphical representation.)",
+      "section_ref": "4.7.3.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "If Respondent is an affiliate of or has a joint venture or strategic alliance with another company, Respondent must identify the percentage of ownership of each joint venture member or affiliate and the percentage of the parent company's ownership. The entity performing the majority of the work under any resulting Contract, throughout the duration of the Contract, must be the primary Respondent.",
+      "section_ref": "4.7.3.3.a.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "Finally, Respondent must provide its proposed operating structure for the services requested under this Solicitation and which entities (i.e., parent company, affiliate, joint venture, subcontractor) will be performing the services.",
+      "section_ref": "4.7.3.3.a.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "The year the company was founded and/or incorporated. If incorporated, please indicate the state where the company is incorporated and the date of incorporation;",
+      "section_ref": "4.7.3.3.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "The location of company headquarters and any field office(s) that may provide services for any resulting Contract;",
+      "section_ref": "4.7.3.3.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "The number of employees in the company, both locally and nationally, and the location(s) from which employees will be assigned to TWC's project; and",
+      "section_ref": "4.7.3.3.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "An indication of whether the company has ever been in contract with any Texas state agency. If \"Yes,\" specify the agency name, contract term, and the scope of work for that contract.",
+      "section_ref": "4.7.3.3.e",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "Respondent must provide a minimum of THREE (3) references in the format set forth in Form 3 - References and should also provide any canceled contract reference as applicable. These references must relate to similar contracts or projects performed as described in Section 2.2 Description of Services/Scope of Work/Specifications within the last five (5) years, and it is preferable references be from state, federal, and/or local governmental entities.",
+      "section_ref": "4.8",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "Each Respondent shall provide descriptions for A MINIMUM of THREE (3) engagements of comparable complexity and sensitivity to the requirements of this Solicitation that have been conducted within the past five (5) years.",
+      "section_ref": "4.8.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "The Respondent shall state whether or not any of the following have occurred during the last five (5) years: a. The Respondent has had a contract terminated, and, if so, shall provide full details, including the other party's name, address, and telephone number on Form 3 - References.",
+      "section_ref": "4.8.2.a",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "The Respondent has assessed any remedies, including liquidated damages or other such monetary remedies, under any existing or past contracts, and, if so, note the reason for and the amount assessed or paid for each incident.",
+      "section_ref": "4.8.2.b",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "The Respondent was the subject of (i) any threatened, pending, or resolved disciplinary action for substandard work and/or unethical practices; or (ii) any order, judgment or decree of any federal or state authority barring, suspending or otherwise limiting the right of the Respondent to engage in any business, practice, or activity.",
+      "section_ref": "4.8.2.c",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "The Respondent has been involved in any civil or criminal litigation and/or entered into any compromise agreement, settlement agreement, or resulting consent decree or judgements, if applicable, related to contract performance, the goods and/or services sought by this Solicitation, or that a reasonable person knowledgeable of the applicable industry would consider relevant to the work under the Contract.",
+      "section_ref": "4.8.2.d",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "the Respondent shall include one file named \"Cost Response\" that contains the Respondent's Cost Response in the format included in Form 2 - Cost Response.",
+      "section_ref": "4.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "Cost information must be included as a separate document and presented only in the format set forth in Form 2 - Cost Response.",
+      "section_ref": "4.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "Respondent must state pricing for all goods and/or services rendered during the course of any awarded Contract, including any and all costs involved that are to be paid or reimbursed by TWC during the initial contract period and any renewal or extension periods.",
+      "section_ref": "4.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "Respondents are encouraged to describe any Offered Options. Offered Options are not required and are not considered during evaluation of Responses.",
+      "section_ref": "4.10",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "The Respondent must complete Form 5 - Financial Questionnaire unless it is a governmental entity. Failure to include any of the items listed for the appropriate company type may result in disqualification of the Respondent's Response.",
+      "section_ref": "4.11",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "The Response must include a certification that the Respondent will notify TWC of a change in financial condition during the Contract term and any renewal thereof.",
+      "section_ref": "4.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "If the Respondent is substantially owned or controlled, in whole or in part, by one or more other legal entities, the Respondent must submit the information required under Section 4.10 Financial Soundness above for each such entity, including the most recent financial statement for each such entity. The Respondent must also include a statement from the entity or entities with substantial ownership or control that the entity(ies) will unconditionally guarantee performance by the Respondent of each and every obligation, warranty, covenant, term, and condition of any Contract resulting from this Solicitation.",
+      "section_ref": "4.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "If a Respondent includes exceptions in its Response, Respondent is required to use Form 1 - Execution of Response and provide all information requested on the form. Any exception that does not provide all required information in the format set forth in Form 1 - Execution of Response may be rejected without consideration.",
+      "section_ref": "4.13",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "Respondent must clearly identify the specific section and language to which it takes exception, propose specific alternative language, and describe its reasoning for requesting the exception. TWC will only consider exceptions submitted on Form 1 - Execution of Response.",
+      "section_ref": "4.13",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "Respondent must notify the 3.5 Sole Point of Contact of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or error in the Solicitation in the manner and by the deadline described in Section 3.6 Questions/Requests for Clarification.",
+      "section_ref": "4.16",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "Responses submitted to the Solicitation are binding and irrevocable for one hundred eighty (180) calendar days following the solicitation closing date.",
+      "section_ref": "4.17",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "Respondent must be set up in the Texas franchise tax system prior to Contract award if applicable.",
+      "section_ref": "4.15",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "Respondent must have recently been in business for a minimum of THREE (3) years, or the principals/owners must have had ownership/executive management experience within the last FIVE (5) YEARS in a previous company that provided CONFERENCE SERVICES;",
+      "section_ref": "5.2.a",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "Respondent must be financially solvent and adequately capitalized, as determined based on a review of documentation required by Section 4.11 Financial Soundness, if applicable;",
+      "section_ref": "5.2.b",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "Respondent has submitted the Response in accordance with Article IV Response Submission Instructions.",
+      "section_ref": "5.2.c",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "Respondent who receives an overall score on the VPTS of \"D\" or below shall be disqualified from consideration for award.",
+      "section_ref": "5.2.d",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "Cost /Price or Reasonableness of Price, Section 4.8 Form 2 - Cost Response (40%)-Evaluate Proposer's price to provide the goods or services.",
+      "section_ref": "5.5.a",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "Past Performance, Qualifications, and Experience, Section 4.8.1, Executive Summary and Section 4.8, Form 3 - References, including Section 4.8.1 Similar Contracts, Section 4.8.2 Contract Performance (including Cancelled Contract References) (15%)- Respondent's past performance, quality, and experience in contracting with TWC, with other state entities, or with private sector entities.",
+      "section_ref": "5.5.b",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-084",
+      "verbatim_text": "Respondents' Technical Approach for Providing the Requested Goods and/or Services, Section 4.6 Required Forms and Submission Documents. (45%).",
+      "section_ref": "5.5.c",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-085",
+      "verbatim_text": "If Respondent asserts that information provided in its Response is exempt from disclosure under the Texas Public Information Act, Respondent must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Response and \"Public Information Act Copy,\" including attachments, of the Original Response) as identified below.",
+      "section_ref": "5.11.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-086",
+      "verbatim_text": "Within five (5) days from Contract execution, the Successful Respondent must submit a \"Public Information Act Copy\" of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email.",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-087",
+      "verbatim_text": "For the duration of any Contract resulting from this Solicitation, the Successful Respondent shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 2 - Insurance Requirements.",
+      "section_ref": "6.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-088",
+      "verbatim_text": "The Response must include a certification that the entity is not for sale or to become acquired by another business entity during the twelve (12) months following the Response Deadline.",
+      "section_ref": "6.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 53
+    },
+    {
+      "id": "R-089",
+      "verbatim_text": "During the term of the Contract or any extension or renewal thereof, the Successful Respondent shall notify TWC in writing of any substantial change in the ownership or control of the Successful Respondent as soon as possible, but no later than thirty (30) days prior to its occurrence.",
+      "section_ref": "6.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 53
+    },
+    {
+      "id": "R-090",
+      "verbatim_text": "Successful Respondent must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence.",
+      "section_ref": "6.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 53
+    },
+    {
+      "id": "R-091",
+      "verbatim_text": "The Contract Term will commence on the fully executed Contract date and expire on September 24, 2027, or October 1, 2027 (depending on which conference dates are selected).",
+      "section_ref": "6.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": null,
+      "page": 47
+    }
+  ]
+}

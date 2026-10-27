@@ -1,0 +1,878 @@
+{
+  "rfp_id": "3202600155",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Responses Due: November 24, 2026, by 10:00 a.m. CST",
+      "section_ref": "Cover",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-11-24",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "Applicants must meet all requirements and specifications outlined herein to be eligible to provide services.",
+      "section_ref": "Article I",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 9
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "Providers must be knowledgeable about their responsibilities, the service requirements, and TWC policies applicable to them.",
+      "section_ref": "2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "Providers must adhere to the current VR-SFP Manual when providing services to VR Customers.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "An Applicant applying for a contract must comply with the following VR-SFP Manual chapters in addition to the Solicitation. \u2022 Chapter 1: Introduction to Vocational Rehabilitation \u2022 Chapter 2: Obtaining a Contract for Goods and Services \u2022 Chapter 3: Basic Standards",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "Each Contractor should review the VR-SFP Manual and forms for changes every thirty (30) calendar days.",
+      "section_ref": "2.3",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "Before services are provided, the service provider director must: \u2022 approve VR3455, Provider Staff Information Form, which is completed by each of the provider's staff members, such as specialists and interns (the form must include the staff members' qualifications as stated in Section 2.4.2 Orientation and Mobility Specialist and provide evidence that the staff member meets the qualifications); and",
+      "section_ref": "2.4.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "Before services are provided, the service provider director must: \u2022 submit the approved form to the provider's assigned contract manager and assigned regional program specialist.",
+      "section_ref": "2.4.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "The O&M specialist must meet one of the following criteria: \u2022 Be certified by the Academy for Certification of Vision Rehabilitation and Education Professionals (ACVREP) or the National Blindness Professional Certification Board (NBPCB); \u2022 Have a degree in O&M from an accredited college or university with an established O&M training curriculum and become certified by ACVREP or NBPCB within one (1) year of being hired by a service provider; \u2022 Have at least two (2) years of full-time experience teaching O&M skills for an entity that VR recognizes...",
+      "section_ref": "2.4.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "In addition to meeting the requirements for education, training, and experience described in Section 2.4.2 Orientation and Mobility Specialist, all prospective O&M providers must successfully complete the Orientation and Mobility Texas Confidence Builders training before becoming providers.",
+      "section_ref": "2.4.2.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "While the training is provided free of cost, providers must pay all costs associated with attending the training program.",
+      "section_ref": "2.4.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "To ensure that O&M specialists remain competent in their skills, VR recommends that each O&M trainer complete a minimum of twenty (20) hours of blindfold travel per fiscal year",
+      "section_ref": "2.4.3",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "O&M service providers using interns to work with VR customers must: \u2022 have an O&M specialist with ACVREP or NBPCB certification observe each intern for a minimum of twelve (12) lessons during the internship and document the observations on VR2922, Orientation and Mobility Weekly Internship Observation;",
+      "section_ref": "2.4.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "O&M service providers using interns to work with VR customers must: \u2022 submit VR2922 to the regional program support specialist each month during the internship; and",
+      "section_ref": "2.4.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "O&M service providers using interns to work with VR customers must: \u2022 submit VR2923, Orientation and Mobility Internship Performance Evaluation to the designated regional program specialist within thirty-five (35) days of completion of the internship.",
+      "section_ref": "2.4.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "The O&M intern must: \u2022 attend Texas Confidence Builders training in Austin or attend another approved training with the VR in-house O&M designee before working with blind and visually impaired customers; \u2022 be supervised by an approved VR-certified O&M provider for the duration of the internship; \u2022 be observed by a VR-certified O&M provider for a minimum of twelve (12) lessons during the internship; and \u2022 sign and then forward reports to the supervising O&M provider that maintains either the ACVREP or NBPCB for his or her approval.",
+      "section_ref": "2.4.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "The O&M specialist must include in the initial assessment observations of and recommendations on white cane skills.",
+      "section_ref": "2.4.5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "Training with a guide dog must not exceed more than four hours and must be preapproved in writing by the VR counselor or OIB worker.",
+      "section_ref": "2.4.5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Recommendations for training must be: \u2022 documented under the summary section of VR2894, Orientation and Mobility Assessment; and \u2022 submitted to the VR counselor or OIB worker.",
+      "section_ref": "2.4.5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "No assessments or training sessions are completed before a service authorization is issued.",
+      "section_ref": "2.4.5.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "After submitting VR2894, Orientation and Mobility Assessment, the O&M specialist must contact the customer's VR counselor or OIB worker to discuss the initial assessment. This discussion must be documented and filed in the O&M provider's customer file.",
+      "section_ref": "2.4.5.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "The O&M provider documents in descriptive terms the information required on the VR2894, Orientation and Mobility Assessment, including: the O&M specialist's observations and comments; recommendations for O&M skills training; the number of training hours recommended for each area of training and the total number of training hours recommended; the anticipated beginning and ending dates for the recommended training; the customer's response to the training recommendations; the height of the white cane that is most appropriate for the customer...; and a description of all travel aids that the customer uses or would benefit from using.",
+      "section_ref": "2.4.5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "No training is provided before a service authorization is issued. Training is provided in person and cannot be conducted remotely.",
+      "section_ref": "2.4.6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "All O&M training services for VR customers are conducted using: \u2022 nonvisual (blindfold) techniques; and \u2022 a rigid (non-folding) white cane with a metal tip.",
+      "section_ref": "2.4.6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "The O&M specialist must discuss the benefits of nonvisual and visual training with each customer.",
+      "section_ref": "2.4.6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "The O&M specialist may not conduct more than six (6) hours or fewer than two (2) hours of O&M instruction per day.",
+      "section_ref": "2.4.6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "Billing for O&M services must not exceed six (6) hours per day. Lessons are at least two (2) hours long unless approved by an obtained VR3472, Contracted Service Modification Request for Blind and Visually Impaired Services.",
+      "section_ref": "2.4.6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "The provider must not bill for any services other than Orientation and Mobility training, or Orientation and Mobility group training.",
+      "section_ref": "2.4.6.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "O&M training must not exceed the total number of training hours and type of training authorized by the customer's VR counselor or OIB worker on the service authorization.",
+      "section_ref": "2.4.6.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "The O&M specialist must notify the customer's VR counselor or OIB worker within 24 hours about all: \u2022 missed, cancelled, or rescheduled appointments; \u2022 issues, concerns, or circumstances that might impact or delay planned services; and \u2022 incidents or injuries that occur during training that might negatively impact the customer's health and safety.",
+      "section_ref": "2.4.6.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "If services are interrupted and training cannot be completed as planned, or if services are postponed indefinitely because of unexpected circumstances, the O&M provider must notify the customer's VR counselor or OIB worker within twenty-four (24) hours.",
+      "section_ref": "2.4.6.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "The O&M specialist must submit required forms and complete the required training under the specifications of the referral and the service authorization.",
+      "section_ref": "2.4.6.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "The O&M specialist must get approval in writing from each customer's VR counselor or OIB worker before providing group training.",
+      "section_ref": "2.4.6.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "An O&M specialist: \u2022 must not enroll more than twenty-five (25) customers who are blind and visually impaired in active training; and \u2022 must keep all relevant counselors, OIB workers, and assigned regional program specialist informed by email about the total number of customers in active training.",
+      "section_ref": "2.4.6.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "The O&M specialist documents in descriptive terms each customer's monthly training progress and must include: \u2022 the number of training hours provided in each training area; \u2022 a detailed narrative on each skill area addressed during the reporting period and the training location for each lesson; \u2022 a detailed explanation of anticipated training for the upcoming month; \u2022 an explanation of deviations from assessment recommendations, if any; and \u2022 a detailed narrative of cumulative progress, if training is complete.",
+      "section_ref": "2.4.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "VR-SFP Manual Chapter 3: Basic Standards require each Provider to run background checks on each Provider staff member who will interact with any VR Customer.",
+      "section_ref": "2.6",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Background checks must be completed by the Provider before the Provider staff interacts with any VR Customer.",
+      "section_ref": "2.6",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Applicants and Providers are responsible for obtaining a background check for all applicable Provider staff. A background check consists of running a name-based search from the Texas Department of Public Safety and checking the National Public Sex Offender public website.",
+      "section_ref": "2.6",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "However, if a Provider (or Provider's staff or Provider's subcontractors) do transport a VR Customer in the Provider's vehicle or Provider's staff personal vehicle, they must meet the minimum liability requirements of the Texas Department of Insurance. The Provider must maintain current proof of insurance for any Provider staff who transports VR Customers.",
+      "section_ref": "2.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "When Provider staff transports VR Customers in personal vehicles, the Provider staff must submit to VR proof of auto liability insurance as required by the Texas Department of Insurance with Form VR3455.",
+      "section_ref": "2.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "Verification statements on Form VR3455 must be signed by the Provider staff represented on the form and the Provider's Director appointed by the legal authorized representative.",
+      "section_ref": "2.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "Each Provider/Entity must have a Director who meets the qualification as stated in the VR-SFP Manual, Chapter 3 Basic Standards. The Provider's/Entity's legally authorized representative must appoint Director(s) using Form VR3441A. The Provider's/Entity's Director must also have a VR 3455 included in the Application.",
+      "section_ref": "2.8",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "Anytime the VR3455 is completed and/or updated the Provider must keep a copy on file and submit it to VR.",
+      "section_ref": "2.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "For any service selected by the Applicant on VR3441B, the Applicant must have at least one (1) person who meets the qualifications to provide the service(s) as described in Section 2.4 Requirements.",
+      "section_ref": "2.9",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Each Provider staff must have VR3455 with the supporting documentation (resumes, transcripts, proof of insurance, and credentials) included in the Application.",
+      "section_ref": "2.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "After contract award, a VR3455 with supporting documentation must be submitted for each person who will be providing services under the Contract. Each Provider must submit Form VR3455 and the supporting evidence that the staff member meets the required qualifications within 30 days of: \u2022 hiring new staff member; \u2022 making a significant change to a staff member's job duties...; \u2022 changing staff qualifications and/or credentials; or \u2022 terminating a staff member.",
+      "section_ref": "2.9",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "Applicant is required to sign and return all Addenda related to the Open Enrollment.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "Applicant must submit their Application to TWC within the open enrollment period in accordance with Schedule of Events shown above, or as changed via a notification of an Addendum posted to the ESBD.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-11-24",
+      "page": 28
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "These discussions are to be finalized and all requests for revisions resolved within ten (10) Business Days after the Provider receives the draft Contract for review or such additional time that may be agreed to by TWC. If discussions are not finalized within such time frame, the Application/Enrollment Packet may be rejected.",
+      "section_ref": "3.3",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "Documentation Placement: All supporting documentation must be collated directly behind its corresponding form.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "Duplicate Forms: Duplicate forms must not be submitted.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "For instance, if multiple Form 3455s are submitted, the supporting documentation pertinent to each staff member must be appended directly to their specific Form 3455.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "Form 01 Execution of Application Name convention for submission: APPLICANT Name_Execution of Application",
+      "section_ref": "3.4",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "Form 02 W-9 and Direct Deposit Form (VR 1020) \u2022 Complete the Form VR1020, TWC Substitute W-9 and Direct Deposit.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "Form 03 Child Support Certification (VR 1305) \u2022 Complete Form VR1305, Child Support Certification. \u2022 Form VR1305 must be signed by the entity's legal authorized representative.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "Form 04 TWC VR Standards for Provider Certification (VR 3443) \u2022 Complete Form VR3443, TWC VR Standards for Provider Certification. \u2022 Form VR3443 must be signed by the entity's legally authorized representative.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "Form 05 Conflict of Interest Certification (VR 3444) \u2022 Complete the Form VR3444, Conflict of Interest Certification. \u2022 Form VR3444 must be signed by the entity's legally authorized representative.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "Form 06 Provider Insurance Verification (VR 3445) \u2022 Applicants with or without insurance must complete the form VR3445, Provider Insurance Verification. \u2022 When the Applicant has insurance, a current and accurate certificate of insurance from the Association for Cooperative Operations Research and Development (ACORD) or its equivalent must be attached to Form VR3445.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "Form 07 Entity Headquarters Information Management Form (VR 3441A) \u2022 Complete the Form VR3441A Entity Headquarters Information Management Team to record the Applicant's management team information.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "Form 08 Entity Headquarters Information - Services (VR 3441B) \u2022 Complete Form VR3441B... To be eligible to apply for a service the Applicant must have at least one (1) person who meets the qualifications to provide the service at application",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "Form 09 Entity Headquarters Information \u2013 Location(s) (VR 3441C) \u2022 Complete Form VR3441C, Entity Headquarters Information - Location(s) form. \u2022 Form VR3441C must be completed by all Applicants to record the counties where the Applicant is able to provide services with the staff currently hired.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "Form 10 Entity's Physical Location(s) \u2013 Part A \u2013 Service Contracts Certification (VR 3442A) \u2022 Complete the Form VR3442 A... \u2022 Form VR3442A must be completed by the Applicant to indicate if the Applicant has a physical location. The VR3442A form must be submitted even if the Provider does not have a physical location.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "Form 11 Entity's Physical Location(s) \u2013 Part B \u2013 General Information Service Contracts (VR3442B) \u2022 Complete Form VR3442 B... when applicable. \u2022 Form VR3442B must be completed for each physical location the entity has. If the entity does not have any physical locations, the Form VR3442B is not required.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "Form 12 Provider Staff Information Form(s) with Supporting Documentation (VR 3455) \u2022 Complete a Form VR3455, Provider Staff Information and attach required supporting documentation (resumes, transcripts, proof of insurance, and credentials) to demonstrate the staff person, including the Director, meets the required qualifications as stated in the VR-SFP Manual.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "All requests, questions, or other communication about this Open Enrollment must be submitted through the TWC Procurement Portal and will be directed at the Sole Point of Contact below: Meghan Osborn, CTCD",
+      "section_ref": "3.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "Except as provided in Section 3.5, a potential Applicant and Applicant that has submitted an Application is prohibited from any communication with TWC regarding the Open Enrollment.",
+      "section_ref": "3.5.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "Failure to comply with these restrictions may result in disqualification of Applicant's Application.",
+      "section_ref": "3.5.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "Applicants are required to acknowledge the Addenda by returning the signed Acknowledgment of Addenda with the Application/Enrollment Packet. Failure to do so does not absolve an Applicant from the requirements contained within any Addenda.",
+      "section_ref": "3.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "Applications must be received by TWC as prescribed no later than date and time specified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-11-24",
+      "page": 35
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "Applicants must fully and completely address all requirements described in this Open Enrollment. Incomplete or partial Applications will not be considered. Applicants must provide all information that is required in accordance with Section 4.5.",
+      "section_ref": "4.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "If the Applicant submits a redacted Application as the \"Original,\" TWC will disqualify the Application, and it will not be reviewed.",
+      "section_ref": "4.3",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "Applicants must upload all documentation indicated to the TWC Procurement Portal link on the \"Open Opportunities\" tab. Submissions by any other method will not be accepted.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "To respond to this Open Enrollment, Applicants must register through the TWC Procurement Portal website.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "Applicants must contact the Sole Point of Contact prior to the deadline if there are issues with using the TWC Procurement Portal and an alternative submission method may be required. Failure to contact the Sole Point of Contact well before the deadline to make alternative arrangements will disqualify any subsequent Application submission.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "Hard copies received will not be accepted or reviewed.",
+      "section_ref": "4.4",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "Application must be RECEIVED by TWC by the Application Deadline identified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-11-24",
+      "page": 37
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "All forms listed below must be completed in their entirety and uploaded to your Application as a separate document in Portable Document Format (PDF). Do not submit encrypted or password protected materials or TWC may eliminate such Applications from consideration for contract award.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "The Application will be rejected if the Applicant does not submit each form as a separate document with required signatures and date, as applicable. All content added to forms must be typed and cannot be handwritten.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "A valid electronic signature must include a date and time stamp or be accompanied by a certificate (technical log or report) that documents the signing event with the signer's information, date, and time.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "Applications shall be binding for a period of one hundred eighty (180) days after the Application due date.",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "Applicant must be set up in the Texas franchise tax system prior to Contract award if applicable.",
+      "section_ref": "4.7",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "Applicants must notify the Sole Point of Contact listed in Section 3.5 of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Open Enrollment.",
+      "section_ref": "4.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "TWC will automatically disqualify any Application that does not include one of more of the completed and signed (as applicable) documents.",
+      "section_ref": "5.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-084",
+      "verbatim_text": "Applications received after the deadline specified in Section 3.2 Schedule of Events will be rejected and will not be evaluated or considered for acceptance.",
+      "section_ref": "5.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-085",
+      "verbatim_text": "In accordance with Texas Government Code \u00a7 2262.055(d), TWC will consider Applicant performance as recorded in the CPA Texas Vendor Performance Tracking System (VPTS), described in Texas Administrative Code, 34 TAC \u00a7 20.115.",
+      "section_ref": "5.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-086",
+      "verbatim_text": "TWC will determine whether the Applicant meets all requirements of this Open Enrollment. To be considered responsive, the Applicant must complete and submit all required forms in accordance with Section 3.4 Attachments and Forms.",
+      "section_ref": "5.2",
+      "type": "shall",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-087",
+      "verbatim_text": "Disqualification of an application can occur when an Applicant fails to: submit requested corrections or additional documentation within fourteen (14) days unless another timeframe is specified by TWC.",
+      "section_ref": "5.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-088",
+      "verbatim_text": "If Applicant asserts that information provided in its Application is exempt from disclosure under the Texas Public Information Act, Applicant must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Application and \"Public Information Act Copy,\" including attachments, of the Original Application) as identified below.",
+      "section_ref": "5.3.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-089",
+      "verbatim_text": "Mark the top of the front page with the words \"CONTAINS CONFIDENTIAL INFORMATION\" in large, bold, capitalized letters (the size of, or equivalent to, 12-point Verdana font or larger);",
+      "section_ref": "5.3.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-090",
+      "verbatim_text": "Identify, adjacent to each portion of the Response that Applicant claims are exempt from public disclosure, the claimed exemption from disclosure. Vague and general claims to confidentiality will not be acceptable.",
+      "section_ref": "5.3.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-091",
+      "verbatim_text": "Within five (5) Business Days from Contract execution, if the Provider is asserting that certain information in the application is exempt from public disclosure, the Provider must submit a \"Public Information Act Copy\" of the Original Executed Contract (in addition to the Original Executed Contract) to the TWC Contract Manager by email.",
+      "section_ref": "5.3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-092",
+      "verbatim_text": "Participation in a post-award orientation will be required before any services related to the awarded Contract can be performed.",
+      "section_ref": "6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-093",
+      "verbatim_text": "Provider(s) must comply with the Attachment 2 SOW, VR-SFP Chapter 3: Basic Standards, and any other applicable sections of the VR-SFP Manual.",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-094",
+      "verbatim_text": "Providers must maintain insurance as described in VR-SFP Chapter 3 when insurance requirements are applicable.",
+      "section_ref": "6.9",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-095",
+      "verbatim_text": "The Provider and any of its subcontractors associated with the Contract will remedy in a timely manner any weaknesses, deficiencies, or program noncompliance found as a result of a review, audit or investigation, and any performance or fiscal exceptions found by TWC, the SAO, the federal funding agency, their successor agencies, or any of their duly authorized representatives.",
+      "section_ref": "6.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-096",
+      "verbatim_text": "During the term of the Contract or any extension or renewal thereof, the Provider shall notify TWC in writing of any substantial change in the ownership or control of the Provider as soon as possible, but no later than thirty (30) days prior to its occurrence.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    },
+    {
+      "id": "R-097",
+      "verbatim_text": "Provider must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 50
+    }
+  ]
+}

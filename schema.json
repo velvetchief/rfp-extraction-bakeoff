@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComplianceMatrix",
+  "description": "One extracted compliance matrix for a single RFP. Frozen 2026-07-17 — do not change after labeling begins.",
+  "type": "object",
+  "required": ["rfp_id", "requirements"],
+  "properties": {
+    "rfp_id": { "type": "string", "description": "Solicitation number, e.g. HHS0015558v2" },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "verbatim_text", "section_ref", "type", "category", "page"],
+        "properties": {
+          "id": { "type": "string", "description": "Sequential, e.g. R-001" },
+          "verbatim_text": { "type": "string", "description": "Exact requirement text from the RFP, no paraphrase" },
+          "section_ref": { "type": "string", "description": "RFP section number, e.g. 3.2.1" },
+          "type": { "enum": ["shall", "should", "info"] },
+          "category": { "enum": ["eligibility", "deliverable", "deadline", "form", "evaluation"] },
+          "due_date": { "type": ["string", "null"], "description": "ISO date if the requirement carries one" },
+          "page": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

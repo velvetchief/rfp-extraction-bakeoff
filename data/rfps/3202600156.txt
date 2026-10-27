@@ -1,0 +1,1794 @@
+[page 1]
+Joe Esparza, Chairman and Commissioner 
+Representing Employers 
+Alberto Treviño III, Commissioner 
+Representing Labor 
+Brent Connett, Commissioner 
+Representing the Public 
+Steve Pier, Executive Director 
+_____________________________________ 
+Open Enrollment (OE) For 
+Diabetes Self-Management Education Services 
+Open Enrollment No. 3202600156 
+ 
+Date of Release: May 14, 2026 
+Responses Due: November 10, 2026, by 10:00 a.m. CST 
+ 
+924-86 Vocational Training, All Types, Including Vocational Rehabilitation and 
+Technical Education 
+952-40 Elderly Assistance Services 
+952-90 Training and Instruction Services, Clients, Not Staff 
+_____________________________________ 
+Sole Point of Contact for this OE 
+Meghan Osborn, CTCD 
+TWC Procurement Portal
+
+[page 2]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 2 of 60 
+Table of Contents 
+Article I Purpose ..................................................................................................... 10 
+Article II Scope of Work ......................................................................................... 11 
+2.1 Overview/Background..................................................................................... 11 
+2.2 Provider Requirements, Responsibilities, and TWC Policies .................................. 12 
+2.3 VR Standards for Providers (VR-SFP) Manual ..................................................... 12 
+2.4 Staff Qualifications and Training....................................................................... 13 
+2.5 Assessment of Diabetes Self-Management ........................................................ 18 
+2.6 Diabetes Skills Training ................................................................................... 24 
+2.7 Post-Training Assessment ............................................................................... 28 
+2.8 Diabetes Self-Management Education Service Fees ............................................ 30 
+2.9 Service Area .................................................................................................. 31 
+2.10 Background Checks ........................................................................................ 31 
+2.11 Transportation of VR Customers ...................................................................... 35 
+2.12 Provider’s Director ......................................................................................... 35 
+2.13 Provider Staff Providing Services to VR Customers ............................................. 36 
+Article III General Information ................................................................................. 36 
+3.1 Authority ...................................................................................................... 36 
+3.2 Schedule of Events ......................................................................................... 37 
+3.3 Contract Documents ....................................................................................... 38 
+3.4 Attachments and Forms .................................................................................. 39 
+3.5 Sole Point of Contact ...................................................................................... 44 
+3.6 Addenda ....................................................................................................... 45 
+Article IV Application Process .................................................................................. 45 
+4.1 Deadline ....................................................................................................... 45 
+4.2 General Information ....................................................................................... 45
+
+[page 3]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 3 of 60 
+4.3 Discrepancies ................................................................................................ 46 
+4.4 Submission Method ........................................................................................ 46 
+4.5 Required Application Documents ...................................................................... 47 
+4.6 Binding Offer ................................................................................................. 48 
+4.7 Franchise Tax – Right to transact business in Texas ........................................... 49 
+4.8 Ambiguity, Conflict, or Discrepancy .................................................................. 49 
+4.9 TWC Rights ................................................................................................... 49 
+Article V Application Evaluation ................................................................................. 50 
+5.1 Application Screening ..................................................................................... 50 
+5.2 Review of Applications .................................................................................... 51 
+5.3 Public Information Act .................................................................................... 52 
+Article VI General Terms and Conditions ................................................................... 55 
+6.1 Contract Award .............................................................................................. 55 
+6.2 Contract Term ............................................................................................... 56 
+6.3 Payments ...................................................................................................... 56 
+6.4 Contract Amendments .................................................................................... 56 
+6.5 No Guarantee of Volume, Usage or Compensation .............................................. 56 
+6.6 Governmental Entities .................................................................................... 57 
+6.7 Costs Incurred ............................................................................................... 57 
+6.8 Applicant Waiver-Intellectual Property .............................................................. 57 
+6.9 Required Insurance ........................................................................................ 58 
+6.10 FAILURE TO PERFORM .................................................................................... 58 
+6.11 Remedies ...................................................................................................... 59 
+6.12 Change of Ownership or Financial Condition ...................................................... 59 
+6.13 Severability ................................................................................................... 60
+
+[page 4]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 4 of 60
+
+[page 5]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 5 of 60 
+Definitions 
+Table 1: Definitions 
+Term/Acronym Definition 
+Addendum; 
+Addenda; 
+Amendment 
+A written addition, change, or supplement to this Solicitation that 
+is posted to the ESBD and issued prior to the response due date. 
+Applicant An entity or individual who submits a Provider Enrollment Packet 
+in response to this Open Enrollment.  
+Business Day The day and hours (Monday through Friday, 7 a.m. to 6:00 p.m. 
+Central Time) at which TWC is open for business. 
+TWC is closed for business on the scheduled holidays indicated 
+by the State Auditor’s Office available at 
+https://hr.sao.texas.gov/holidays/. 
+The terms “Working Day” and “Business Day” may be used 
+interchangeably. All uncapitalized references to “day” shall mean 
+calendar day.
+
+[page 6]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 6 of 60 
+Term/Acronym Definition 
+Confidential 
+Information 
+Any communication or record (whether oral, written, 
+electronically stored or transmitted, or in any other form) 
+provided to or made available to Contractor or that Contractor 
+may create, receive, maintain, use, disclose or have access to on 
+behalf of TWC that consists of or includes any or all the following:
+ 
+a. Customer Information; 
+b. Protected Health Information (PHI), in any form including, 
+without limitation, Electronic Protected Health Information 
+or Unsecured Protected Health Information;  
+c. Sensitive Personal Information, as defined by Texas 
+Business and Commerce Code, § 521.002(a)(2);  
+d. Federal Tax Information;  
+e. Personally Identifiable Information (PII) as defined by 
+Texas Business and Commerce Code § 521.002(a)(1);  
+f. Social Security Administration Data, including, without 
+limitation, Medicaid information;  
+g. All privileged work product; all information designated as 
+confidential under the constitution and laws of the State of 
+Texas and of the United States, including the Texas Health 
+and Safety Code and the Texas Public Information Act, 
+Texas Government Code, Chapter 552; 
+h. Personally Identifiable Information defined by 2 CFR 200.1; 
+and 
+i. Information deemed confidential under The Rehabilitation 
+Act of 1973, 29 U.S.C. Chapter 16, as amended, and 
+implementing regulations 34 C.F.R. Parts 361 through 396.
+
+[page 7]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 7 of 60 
+Term/Acronym Definition 
+Conflict of 
+Interest 
+A situation that creates a risk that professional judgment or 
+actions will be unduly influenced by a personal interest or 
+relationship and creates substantial conflicts with the proper 
+discharge of duties required by a contract and the public interest. 
+Each Applicant must comply with the content on Conflict of 
+Interest located in the VR-SFP Manual, Chapter 3 Basic 
+Standards. 
+Contract The written agreement entered into by TWC and Provider, which 
+will incorporate the contents of this Open Enrollment and the 
+Provider’s Application, except as may be provided in the Contract 
+and any amendments thereto. 
+Contractor (also 
+Provider) 
+A legal entity or individual who TWC is contracted with to provide 
+goods and/or services for TWC Customers. Contractor can be 
+used interchangeably with Provider, Service Provider, or Vendor. 
+Contract Term The definite period of time that the Contract will remain in effect, 
+including all stated renewals and extensions. 
+Customer An individual that has met the TWC eligibility criteria and has 
+been approved to receive TWC Vocational Rehabilitation (VR) 
+services. 
+CTCD Certified Texas Contract Developer. 
+CTCM Certified Texas Contract Manager.
+
+[page 8]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 8 of 60 
+Term/Acronym Definition 
+ESBD The Electronic State Business Daily. An online platform 
+administered by the Statewide Procurement Division (SPD) of the 
+Comptroller of Public Accounts (CPA). The ESBD may be 
+accessed as http://www.txsmartbuy.com/esbd. 
+IFA or Invitation 
+for Applications 
+This document including all exhibits, attachments, forms, and 
+Addenda, if any. 
+Fiscal Year (FY) Texas State Fiscal Year, September 1 through August 31. 
+Older Individuals 
+who are Blind 
+(OIB) 
+An individual age 55 or older whose significant visual impairment 
+makes competitive employment extremely difficult to attain but 
+for whom independent living goals are feasible. 
+PCS or 
+Procurement 
+and Contract 
+Services 
+A department within TWC’s Business Operations division. 
+PS Procurement Services, a section within TWC. 
+Provider The Applicant(s) with whom TWC executes a Contract to provide 
+the goods and/or services that this Solicitation requires. 
+SME Subject Matter Expert 
+Solicitation This IFA (formerly Open Enrollment) including all exhibits, 
+attachments, forms, and Addenda, if any.
+
+[page 9]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 9 of 60 
+Term/Acronym Definition 
+State The State of Texas and its instrumentalities, including TWC, its 
+officers, employees, or authorized agents, and any other state 
+agencies. 
+Subcontractor Any entity(ies) or person(s) providing goods or services under 
+the Contract on Provider’s behalf, whether or not the entity(ies) 
+or person(s) has/have a written agreement with the Provider. 
+The term does not include a state agency; rather a subcontractor 
+may be an officer or employee of a state agency when the officer 
+or employee contracts with a vendor in a private capacity. 
+TWC Texas Workforce Commission. 
+Vocational 
+Rehabilitation 
+Division (VRD) 
+The TWC Vocational Rehabilitation Division (VRD) administers the 
+Vocational Rehabilitation Services Program, which is a joint state 
+and federally funded program to assess, plan, develop, and 
+provide VR services for eligible individuals with disabilities, 
+consistent with their unique strengths, resources, priorities, 
+concerns, abilities, capabilities, interests, and informed choice so 
+that these individuals can prepare for and engage in competitive 
+integrated employment and achieve economic self-sufficiency. In 
+accordance with the Rehabilitation Act of 1973, as amended by 
+Title IV of WIOA (29 U.S.C. § 720 et seq.). VRD is the single 
+designated state unit for the VR program.
+
+[page 10]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 10 of 60 
+Term/Acronym Definition 
+Vocational 
+Rehabilitation 
+Standards for 
+Providers 
+Manual (VRSFP) 
+The VR Standards for Providers (VR-SFP) Manual focuses on the 
+business practices, processes, and policies that must be followed 
+for TWC and the Contractor to comply with federal and state laws 
+and TWC rules and requirements. The VR-SFP Manual ensures 
+TWC-VR Customers receive quality services. Each Contractor 
+should review the VR-SFP Manual and forms for changes every 
+thirty (30) calendar days. Each Contractor is expected to be 
+familiar with and comply with the most recently published VR-
+SFP Manual and use the most recently published forms applicable 
+to their Contract. 
+VPTS Vendor Performance Tracking System, as described under Texas 
+Government Code § 2262.055 and 34 TAC § 20.115. Reporting 
+requirements and vendor performance factors considered in VPTS 
+are described in Texas Government Code § 2155.089 and 34 TAC 
+§ 20.509. The VPTS is available at: 
+https://www.txsmartbuy.gov/vpts. 
+ARTICLE I PURPOSE 
+The Texas Workforce Commission (TWC) is seeking Applications from qualified 
+Service Providers to deliver services to be provided to Vocational Rehabilitation 
+(VR) Customers served by TWC’s VR division. This is an Open Enrollment (OE) 
+opportunity. 
+Opportunities are available to provide Diabetes Self-Management Education 
+Services in the state of Texas. Applicants must meet all requirements and 
+specifications outlined herein to be eligible to provide Diabetes Self-
+Management services. 
+The TWC Procurement Services (PS) section will administer the procurement
+
+[page 11]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 11 of 60 
+process for this OE, which includes OE publication, handling of communications 
+from Applicants, as well as managing the receipt of Applications for review. 
+Information regarding TWC and its programs is available online and can be 
+currently accessed at www.twc.texas.gov. 
+ARTICLE II SCOPE OF WORK 
+2.1 OVERVIEW/BACKGROUND 
+TWC’s mission is to promote and support a workforce system that creates 
+value and offers employers, families, individuals and communities the 
+opportunity to achieve and sustain economic prosperity. 
+This Open Enrollment is for Diabetes Self-Management Education Services. 
+Diabetes self-management education is the process of developing the 
+customer's knowledge, skills, and abilities that are necessary to manage 
+diabetes and improve his or her health outcomes. Vocational Rehabilitation 
+(VR) customers might require education about diabetes to address the cause 
+of the disease. Diabetes self-management education provides adaptive 
+techniques and/or equipment to help the customer self-manage his or her 
+diabetes. 
+Assessment and teaching of blood sugar monitoring, medication delivery, and 
+other self-care skills related to diabetes self-management require close, 
+hands-on evaluation and training when working with individuals who are blind 
+or visually impaired. 
+Diabetes self-management education services are based on the Association of 
+Diabetes Care and Education Specialist’s 7 Self-Care Behaviors™, which are: 
+• healthy eating; 
+• being active;
+
+[page 12]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 12 of 60 
+• monitoring; 
+• taking medications; 
+• healthy coping; 
+• problem solving; and 
+• reducing risk. 
+Diabetes self-management education services are for customers who: 
+• are newly diagnosed; 
+• need surgery or a medical procedure and are at risk of further 
+complications because of poor diabetes management; 
+• are unable to maintain employment because of their diabetes; 
+• need additional training about diabetes management after losing their 
+sight; 
+• must self-manage diabetes for admittance to training programs and for 
+full participation in training such as that offered by the Criss Cole 
+Rehabilitation Center; 
+• cannot benefit from community-based educational programs; and/or 
+• have unique needs that cannot be met through medical providers paid 
+through the Maximum Affordable Payment Schedule. 
+2.2 PROVIDER REQUIREMENTS, RESPONSIBILITIES, AND TWC 
+POLICIES 
+Providers must be knowledgeable about their responsibilities, the service 
+requirements, and TWC policies applicable to them. 
+2.3 VR STANDARDS FOR PROVIDERS (VR-SFP) MANUAL 
+The VR Standards for Providers (VR-SFP) Manual focuses on the business
+
+[page 13]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 13 of 60 
+practices, processes, and policies that must be followed for TWC and the 
+Provider to comply with federal and state laws and TWC rules and 
+requirements. Providers must adhere to the current VR-SFP Manual when 
+providing services to VR Customers. 
+An Applicant applying for a contract must comply with the following VR-SFP 
+Manual chapters in addition to the OE SOW. 
+• Chapter 1: Introduction to Vocational Rehabilitation 
+• Chapter 2: Obtaining a Contract for Goods and Services 
+• Chapter 3: Basic Standards 
+Notice of upcoming changes to the VR-SFP Manual are published on the 
+Vocational Rehabilitation Providers’ Resources page at least thirty (30) 
+calendar days in advance of the effective date of the changes. Each Provider is 
+contractually responsible for maintaining compliance with the most current VR-
+SFP Manual. 
+2.4 STAFF QUALIFICATIONS AND TRAINING 
+Before any services are provided, the service provider director must approve 
+the VR3455, Provider Staff Information Form, completed by staff such as a 
+trainer and aides, and submit the approved form to the provider's assigned 
+contract manager and assigned regional program specialist. A sample VR3455 
+Provider Staff Information Form is included with this solicitation as 
+Attachment 7, VR3455 Provider Staff Information Form. The VR3455 
+documents the provider's qualifications and provides evidence of meeting 
+those qualifications by providing the: 
+• provider’s staff résumé demonstrating diabetes education experience as 
+an essential function of the job; and 
+• documentation of required continuing education hours on diabetes
+
+[page 14]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 14 of 60 
+education topics. 
+2.4.1 Diabetes Educators 
+A diabetes educator must have the following criteria: 
+• at least one year of paid experience or two years of documented 
+voluntary experience providing diabetes education as an essential 
+function of the job or responsibilities while holding a current, active, 
+unrestricted license in Texas as one of the following: 
+o A clinical psychologist; 
+o A Licensed Professional Counselor (LPC); 
+o An occupational therapist; 
+o An optometrist; 
+o A pharmacist; 
+o A physical therapist (PT); 
+o A physician (MD or DO); 
+o A podiatrist; 
+o A registered nurse (RN) (includes nurse practitioners and clinical 
+nurse specialists); 
+o A dietitian or dietitian nutritionist holding active registration with 
+the Commission on Dietetic Registration (CDR); 
+o A physician assistant (PA) holding active registration with the 
+National Commission on Certification of Physician Assistants 
+(NCCPA); 
+o An exercise physiologist holding active certification as an American 
+College of Sports Medicine Certified Clinical Exercise Physiologist
+
+[page 15]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 15 of 60 
+(ACSM-CEP®); 
+o A health educator holding active certification as a Master Certified 
+Health Education Specialist (MCHES®) from the National 
+Commission for Health Education Credentialing (NCHEC); 
+o A health professional with a minimum of a master’s degree in 
+social work; 
+o A certified diabetes care and education specialist (CDCES); or 
+o A holder of the Board Certified – Advanced Diabetes Management 
+(BC-ADM) credential; 
+• 15 hours of continuing education units (CEUs) within the 12 months 
+immediately preceding the application for contract and/or the submission 
+of the individual VR3455, Provider Staff Information Form as outlined in 
+VR-SFP Manual, 7.2.2; and 
+• Completed the Texas Confidence Builders as outlined in VR-SFP Manual, 
+7.2.3. 
+Note: In lieu of paid diabetes education experience, evidence of two years of 
+documented voluntary diabetes education experience will be considered. 
+Examples of appropriate documentation include training on an evidence-based 
+diabetes education curriculum; letters of recommendation describing the 
+volunteer work from two individuals who oversaw the diabetes education, 
+including the program leader; or evaluations of the diabetes education with the 
+volunteer’s name visible and the protected information redacted. 
+2.4.2 Annual Training 
+The diabetes educator must maintain the qualifications in VR-SFP Manual,7.2.1 
+and maintain continuing education units (CEUs) in diabetes self-management 
+education topics from an agency approved by the diabetes educator's licensing
+
+[page 16]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 16 of 60 
+or certifying body. The CEUs may not include the Texas Confidence Builder 
+training. 
+Table 2: Diabetes Educator Required CEUs 
+Diabetes Educator 
+CEUs 
+Required 
+Frequency 
+• Clinical psychologist 
+o Occupational 
+therapist 
+o Optometrist 
+o Pharmacist 
+o Physical Therapist 
+o Physician (MD or 
+DO) 
+o Podiatrist; 
+o RN (includes nurse 
+practitioners and 
+clinical nurse 
+specialists) 
+o Dietitian or dietitian 
+nutritionist holding 
+active registration 
+with the CDR 
+o PA holding active 
+registration with the 
+NCCPA 
+o Exercise physiologist 
+holding active 
+certification as an 
+ACSM-CEP® 
+15 
+• Within the 12 months 
+immediately preceding the 
+application for contract and/or 
+submission of the individual’s 
+VR3455, Provider Staff 
+Information Form; and 
+• 15 hours every 2 years 
+beginning on the date the 
+contract is awarded
+
+[page 17]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 17 of 60 
+Diabetes Educator 
+CEUs 
+Required 
+Frequency 
+o Health educator 
+holding active 
+certification as an 
+MCHES® from the 
+NCHEC 
+o A health professional 
+with a minimum of a 
+master’s degree in 
+social work 
+• CDCES 
+• BC-ADM 
+10 
+Within the 12 months immediately 
+preceding the contract date and an 
+additional 10 hours every two years 
+beginning on the date the contract is 
+awarded 
+2.4.3 Texas Confidence Builder Training 
+All diabetes educators must attend and participate in the VR Texas Confidence 
+Builder Training. This 14-hour training is completed before a contract is 
+awarded or before services are provided by the diabetes educator, and the 
+training must be retaken every two years. 
+If the Texas Confidence Builder training is not available at the two-year 
+renewal date, the VR diabetes program specialist and the contract manager 
+must request that the requirement be waived or postponed. The request must 
+be documented and approved by the VR director using VR3490, Temporary 
+Waiver of Qualifications. Attachment 9, VR3490 Temporary Waiver of 
+Qualifications is provided as an example to this solicitation.
+
+[page 18]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 18 of 60 
+VR does not pay the provider's travel costs for transportation, food, and 
+lodging to attend Texas Confidence Builder Training or other trainings. 
+2.5 ASSESSMENT OF DIABETES SELF-MANAGEMENT 
+The following sections detail Assessment of Diabetes Self-Management, 
+including the information gathered, the recommended equipment, and the 
+resulting education and support plan. 
+2.5.1 Assessment of Diabetes Self-Management Service Description 
+A diabetes self-management assessment is the diabetes educator's evaluation 
+of a customer's ability to manage the diabetes. The assessment must gather 
+information about the customers: 
+• medical history; 
+• age; 
+• cultural influences; 
+• beliefs and attitudes about maintaining good health; and 
+• knowledge about diabetes. 
+A diabetes self-management assessment is provided in person with the trainer 
+and customer at the same location. The diabetes self-management assessment 
+may be provided remotely only with a VR director approved VR3472, 
+Contracted Service Modification Request, which is provided as Attachment 8 
+to this solicitation. Remote services must follow VR-SFP 3.4.8 Remote Service 
+Delivery. 
+It is recommended that the diabetes educator use adaptive equipment and 
+disposable supplies for demonstration during the assessment. The suggested 
+items include: 
+• a talking blood-glucose meter;
+
+[page 19]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 19 of 60 
+• an insulin-measuring device, such as Count-A-Dose, which allows a blind 
+or vision-impaired individual with diabetes to fill an insulin syringe 
+without assistance; 
+• a syringe magnifier; 
+• a portion-control plate, such as Meal Measure; 
+• an insulin pen (or other injectable device for demonstration purposes); 
+• a talking blood-pressure monitor; and 
+• disposable supplies such as test strips, syringes, and insulin. 
+The customer and instructor develop an education and support plan that is 
+created from evidence-based approaches for effective health communication 
+and education while taking into consideration the customer's barriers to self-
+management, abilities, and expectations as well as information from the 
+diabetes self-management assessment. (ADA, 2016) 
+The initial diabetes self-management assessment helps the diabetes educator 
+recommend the skills training from which the customer would benefit. The 
+training areas include information and skills relating to: 
+• an overview of the pathophysiology of diabetes; 
+• nutrition; 
+• exercise and activity; 
+• blood-glucose monitoring and how to use the monitoring results; 
+• diabetes-related complications; 
+• management of sick days; 
+• medical treatment; 
+• medication; 
+• foot, skin, and dental care;
+
+[page 20]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 20 of 60 
+• preconception care, pregnancy, and gestational diabetes, if applicable; 
+• insulin; 
+• use of the health care system; 
+• community resources; 
+• stress and psychosocial adjustment; 
+• goal setting; 
+• employment aspects and/or barriers related to diabetes; and 
+• adaptive diabetes self-management equipment and tools. 
+The initial assessment should evaluate all the above topics. The training plan 
+should recognize the partial or complete deficits in self-management 
+knowledge and identify the specific deficits that should be addressed. If the 
+results of the initial diabetes self-management assessment warrant, training 
+may begin immediately if: 
+• an initial diabetes self-management assessment was conducted in the 
+previous 12 months; 
+• no significant change to the customer's medical status, including no new 
+medications or new complications, has occurred; 
+• a service authorization has been issued; and 
+• the service provider has adequate information to begin skills training 
+based on the results of the Initial Diabetes Self-Management 
+Assessment. 
+Should the provider of the diabetes education training be different from the 
+provider who conducted the initial assessment, the VR2888, Diabetes Self-
+Management Education Assessment (Attachment 4), and the VR2901, 
+Diabetes Self-Management Pre- and Post-Assessment (Attachment 6), should
+
+[page 21]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 21 of 60 
+be reviewed by the new provider prior to initiating diabetes education training. 
+If the new diabetes educator does not agree with the original assessment 
+recommendations, a consultation between the VR counselor, new diabetes 
+educator, and state office program specialist for diabetes education is 
+scheduled to establish an agreement on appropriate diabetes education for the 
+VR customer. 
+2.5.2 Process and Procedure 
+The initial diabetes self-management assessment may be conducted before or 
+after eligibility is determined. 
+The diabetes self-management assessment provider begins services once a 
+signed VR service authorization and a VR5000, Referral for Provider Services 
+form (Attachment 10), completed by the VR counselor, or the Independent 
+Living Services for Older Individuals Who Are Blind (ILS-OIB) worker, have 
+been received. 
+The VR5000, Referral for Provider Services form: 
+• indicates why the customer is referred for diabetes education evaluation; 
+and 
+• describes issues and/or questions that are addressed in the diabetes 
+educator's report. 
+The initial diabetes self-management assessment must not exceed two hours 
+and must be held for each customer individually. 
+The provider must discuss additional hours with the VR counselor or the ILS-
+OIB worker and the VR diabetes program specialist. The request must be 
+documented and approved by the VR director using VR3472, Contracted 
+Service Modification Request for Blind and Visually Impaired Services.
+
+[page 22]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 22 of 60 
+2.5.3 Education and Support Plan 
+The diabetes educator develops a written education and support plan in the 
+Overall Recommendations section of VR2888, Diabetes Self-Management 
+Education Assessment. 
+VR staff and the diabetes educator ensure that the education and support plan 
+is appropriate, based on the customers: 
+• age; 
+• type of diabetes (1 or 2); 
+• history of diabetes; 
+• cultural influences; 
+• learning abilities; and 
+• disability. 
+Diabetes educators must use the talking blood-glucose meter recommended by 
+the VR state office diabetes program specialist to: 
+• assess the customer's glucose (blood sugar) level; 
+• assess the customer's understanding of how to check blood sugar 
+properly; and 
+• provide skills training to the customer. 
+If the diabetes educator recommends using a different type of talking meter, 
+the VR diabetes program specialist must authorize the purchase before the 
+equipment is purchased, and skills training occurs. 
+The diabetes educator completes the assessment of the customer's ability to 
+manage the diabetes and makes recommendations for training, equipment, 
+and services using VR2888, Diabetes Self-Management Education Assessment. 
+The assessment report must be submitted to VR within 35 days of completion
+
+[page 23]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 23 of 60 
+of the assessment. 
+Behavior change goal setting empowers the customer to fully engage in 
+personal problem solving to change behavior and improve outcomes. Using 
+person centered, informed decision making, the diabetes educator guides the 
+customer in the skill of goal setting by assisting them to 
+• select an activity that best suits the customer’s self-management needs, 
+• help the customer identify strategies and resources for success as well 
+as barriers, and 
+• plan a course to achieve the goal. 
+An initial behavior change goal must be set at the initial assessment. This is 
+the customer’s goal and action plan. 
+If the diabetes educator cannot schedule the visit with the customer to initiate 
+the assessment within three calendar weeks, then the educator must notify the 
+VR counselor by email, paper mail, or fax. VR may determine that it is 
+necessary to cancel the service authorization and identify a new provider. 
+2.5.4 Outcomes Required for Payment 
+The diabetes educator documents the two-hour initial diabetes self-
+management assessment and other findings for each customer on the: 
+• VR2888, Diabetes Self-Management Education Assessment; and 
+• VR2901, Diabetes Pre- and Post-Assessment. 
+All forms must be completed in their entirety for the provider to be paid. As 
+appropriate, the provider uses the following notations: 
+• N/A for "not applicable" 
+• N/D for "not disclosed by customer" 
+• N/E for "not evaluated"
+
+[page 24]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 24 of 60 
+The initial assessment fields are completed on the VR2901. The form is saved 
+electronically so that the post-assessment fields can be completed later. 
+The VR2888, Diabetes Self-Management Education Assessment, reports the 
+information that the diabetes educator captured during the initial assessment 
+as well as the recommendations for equipment and training. 
+The VR2901, Diabetes Pre- and Post-Assessment, allows a comparison of the 
+customer's knowledge of diabetes management before and after training. 
+2.6 DIABETES SKILLS TRAINING 
+The following section describes the expectations of the Diabetes Skills training 
+after the client assessment. 
+2.6.1 Diabetes Skills Training Service Description 
+Diabetes skills training is provided by a diabetes educator who instructs and 
+counsels the customer and family by means of individual and/or group skills 
+training sessions that have been authorized by means of a service 
+authorization. 
+Initial Diabetes skills training is provided in person with the trainer and 
+customer at the same location and covers the following topics: 
+• Equipment training (whether purchased by TWC or using comparable 
+benefits) 
+• The first hour of healthy eating 
+• The first hour of discussing patterns and trends 
+• The first half hour of being active 
+• The first quarter hour of foot care 
+The initial diabetes skills training may be provided remotely only with a
+
+[page 25]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 25 of 60 
+VR3472, Contracted Service Modification Request for Blind and Visually 
+Impaired Services approved by the VR director before services begin. Remote 
+services must follow VR-SFP 3.4.8 Remote Service Delivery. 
+After initial diabetes skills training is provided, additional teaching for review or 
+reinforcement may be completed in person, by phone, or by video conference. 
+Training topics may include the following: 
+• Introduction to diabetes or prediabetes 
+• Healthy coping 
+• Taking medication 
+• Reducing risk 
+• Problem solving 
+Diabetes skills training is intended to: 
+• provide self-management education; 
+• identify best methods for managing diabetes medication(s); and 
+• help the customer identify barriers, solve problems, and develop coping 
+skills to achieve effective self-care and behavior changes. 
+Diabetes skills training helps customers set goals and make effective health 
+and care decisions that fit their values and lifestyles. Diabetes educators help 
+customers: 
+• develop a plan to improve their health; 
+• develop goals through individualized problem solving; 
+• provide motivation; and 
+• incorporate health recommendations into daily life. 
+The number of training hours recommended for individual diabetes self-
+management is based on:
+
+[page 26]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 26 of 60 
+• the initial assessment; and 
+• the topics covered that are related to the customer's vocational goals. 
+Up to 12 hours of skills training for diabetes self-management can be 
+provided: 
+• individually; 
+• in a group of two to eight customers; or 
+• as a combination of one-on-one and group training sessions 
+Diabetes educators are reimbursed only for the time spent teaching customers. 
+Trainers are not reimbursed for: 
+• planning time, such as attending meetings or talking with VR staff; or 
+• time spent completing and submitting the required paperwork. 
+2.6.2 Process and Procedure 
+The VR counselor or the Independent Living Services for Older Individuals Who 
+Are Blind (ILS-OIB) worker submits a referral and issues service authorizations 
+for diabetes skills training. 
+The diabetes educator must divide all diabetes skills training into one to two-
+hour segments to ensure that the segments do not fatigue the customer and 
+consequently reduce the benefit of the skills training. If a segment is less than 
+two hours, the provider must document on the VR2884, in the Observations 
+and Comments section, how this meets the customer’s individual needs. 
+The diabetes educator helps the customer develop specific, measurable, 
+achievable, realistic, and timely (SMART) goals. 
+A new behavior-change goal should be set at each visit between the educator 
+and the customer and achievements evaluated at the next visit. The diabetes 
+educator helps the customer overcome barriers to success and employ
+
+[page 27]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 27 of 60 
+problem-solving strategies. 
+It is recommended that the diabetes educator use adaptive equipment and 
+disposable supplies for demonstration during training such as: 
+• a talking blood-glucose meter; 
+• an insulin measuring device, such as Count-A-Dose, that allows a blind 
+or vision-impaired individual with diabetes to fill an insulin syringe 
+without assistance; 
+• a syringe magnifier; 
+• a portion-control plate, such as Meal Measure; 
+• an insulin pen (or other injectable device for demonstration purposes); 
+• a talking blood pressure monitor; and 
+• disposable supplies such as test strips, syringes, and insulin. 
+The diabetes educator documents the provision of education materials, 
+resources, and referrals on VR2884, Diabetes Self-Management Educator 
+Notes. 
+The VR counselor or the ILS-OIB worker is responsible for approving the 
+purchase of the recommended equipment or supplies. Documentation should 
+identify: 
+• what was taught; 
+• what the customer gained from the instruction; and 
+• any barriers or gaps in knowledge. 
+If the customer is unable to participate in skills training on diabetes self-
+management because of his or her health, the diabetes educator must inform 
+the VR counselor by email, paper mail, or fax within three business days. The 
+diabetes educator must document such notification in the customer's file.
+
+[page 28]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 28 of 60 
+2.6.3 Outcomes Required for Payment 
+Service providers must document each two-hour skills training session 
+provided to each customer using VR2884, Diabetes Self-Management Educator 
+Notes. 
+A complete and accurate invoice may be submitted after completion of the 
+services. All required documentation must be submitted within 35 calendar 
+days of the date that the service is provided, including initial assessment, skills 
+training, and post-training assessment. 
+If the diabetes self-management education services include providing the 
+customer with a talking blood-glucose meter or other diabetes equipment, the 
+diabetes educator must: 
+• coordinate receipt of the equipment with the local field office that 
+purchased the service; 
+• submit a VR2889, Diabetes Self-Management Education Services 
+Adaptive Diabetes Equipment Receipt; 
+• deliver the equipment or supplies to the customer; 
+• have the customer sign the VR2889 to acknowledge receipt of equipment 
+or supplies; 
+• fill out the manufacturer's warranty card by mail or online; and 
+• document on VR2889 that the warranty card has been submitted. 
+2.7 POST-TRAINING ASSESSMENT 
+The post-training assessment is the final meeting provided for diabetes 
+services. In this one-hour assessment, the customer and diabetes educator 
+develop a follow-up plan for ongoing support. The plan includes information 
+about goals, educational and equipment outcomes, and ongoing needs.
+
+[page 29]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 29 of 60 
+2.7.1 Post-Training Assessment Service Description 
+The diabetes educator conducts post-training assessments no sooner than 30 
+calendar days after the skills training is complete. 
+As part of the post-training assessment, the diabetes educator: 
+• reviews the skills training provided; and 
+• reinforces the behavioral changes. 
+The post-training assessment must be completed for all customers 30 days 
+after the last training session. The post-training assessment may be completed 
+in person, by phone, or by video conferencing with the customer as described 
+in VR-SFP 3.4.8 Remote Service Delivery. The preferred method to complete 
+the post-training assessment is in person. If a post-training assessment must 
+be provided sooner than 30 calendar days after the skills training, the trainer 
+must request approval from the referring VR counselor or the OIB worker 
+before the post assessment being completed. The VR counselor or OIB worker 
+requests approval from the VR director using VR3472, Contracted Service 
+Modification Request for Blind and Visually Impaired Services. 
+2.7.2 Post-Training Assessment Process and Procedure 
+To document the one-hour post-training assessment, the diabetes educator 
+completes the: 
+• VR2900, Diabetes Self-Management Education Post-Training 
+Assessment; and 
+• VR2901, Diabetes Pre- and Post-Assessment. 
+To evaluate the customer's progress, the post-assessment fields are completed 
+on the same VR2901, Diabetes Pre-and Post-Assessment that was submitted 
+at the initial assessment.
+
+[page 30]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 30 of 60 
+2.7.3 Outcomes Required for Payment 
+The following documentation must be submitted within 35 calendar days of 
+completion of the post-training assessment: 
+• Initial assessment 
+• Skills training 
+• Post-training assessment 
+The provider documents all conversations that he or she has had with the VR 
+counselor, the OIB worker, and other staff about customers whom that 
+provider is serving. 
+2.8 DIABETES SELF-MANAGEMENT EDUCATION SERVICE FEES 
+The following table outlines the approved service fees for Diabetes Self-
+Management Education Services. These fees are subject to change as updates 
+are made to the Vocational Rehabilitation Standards for Providers Manual. 
+Table 3: Diabetes Self-Management Education Services Fee Schedule 
+Diabetes Self-
+Management Education 
+Services 
+Unit Rate Comment 
+Diabetes Self-
+Management 
+Assessment 
+$117.00 
+per hour 
+• Two-hour initial assessment 
+• Includes only the time spent 
+assessing the customer 
+Diabetes Skills Training 
+(Individualized Services 
+Only) 
+$117.00 
+per hour 
+• Includes only the time spent 
+teaching skills to the customer 
+• Each session should be two hours
+
+[page 31]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 31 of 60 
+Diabetes Self-
+Management Education 
+Services 
+Unit Rate Comment 
+Diabetes Skills Training 
+(Group Services Only) 
+$60.00 
+per hour 
+• Includes only the time spent 
+teaching skills to the customer 
+• Group services require a 
+minimum of two customers and 
+no more than eight customers 
+per group 
+Post-training 
+Assessment 
+$117.00 
+per hour 
+• One-hour post-assessment 
+session 30 days after completion 
+of training 
+• Includes only the time spent 
+assessing the customer 
+2.9 SERVICE AREA 
+This is a statewide open enrollment solicitation. All Texas counties are included 
+in this solicitation. If awarded a contract for these services, the Provider(s) 
+may serve VR Customers throughout the state of Texas upon receipt of an 
+approved service authorization issued on behalf of a VR Customer. 
+2.10 BACKGROUND CHECKS 
+VR-SFP Manual, Chapter 3 Basic Standards requires each Provider to run 
+background checks on each Provider staff member who will interact with any 
+VR Customer. This includes any Provider staff who have any communication or 
+other contact whether in person, on paper, by voice, by sign language,
+
+[page 32]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 32 of 60 
+electronically or any other method. The only exception is for Provider staff who 
+never communicate with or are physically present with a VR Customer. 
+Background checks must be completed by the Provider before the Provider 
+staff interacts with any VR Customer. 
+Applicants and Providers are responsible for obtaining a background check for 
+all applicable Provider staff. A background check consists of running a name-
+based search from the Texas Department of Public Safety and checking the 
+National Public Sex Offender public website. 
+Contractors that will provide goods or services directly to VR customers must 
+run a criminal background check on each staff member who will interact with 
+any VR customer. This includes any staff who have any communication or 
+other contact whether in person, on paper, by voice, by sign language, 
+electronically or any other method. The only exception is for staff who never 
+communicate with or are physically present with a VR customer. Background 
+checks must be completed by the contractor before the employee interacts 
+with any VR customer. If a contractor elects not to conduct background check 
+on a staff member, the contractor must demonstrate that the staff member 
+has never interacted with any VR customer in any way on any subject. Refer to 
+the Background Check FAQ for additional questions. All provisions in this 
+section apply equally to any subcontractor. 
+Contractors are responsible for purchasing and conducting a background 
+check. A background check consists of running a name-based search from the 
+Texas Department of Public Safety and checking the National Public Sex 
+Offender public website. How To Use the Conviction Name Search - Criminal 
+History Conviction Name Search (texas.gov) provides instruction in how to use 
+the Texas Department of Public Safety website, and the National Public Sex 
+Offender website provides information on the program and use of the registry. 
+Contractors may also conduct a more comprehensive background check on
+
+[page 33]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 33 of 60 
+their staff. A more comprehensive background check may substitute for the 
+Texas DPS name-based search. 
+Contractors must maintain a record of all background checks conducted, 
+including a screenshot or printed copy from the Texas DPS name-based search 
+and from the National Public Sex offender registry if no results are found. 
+Contractors must also complete the Background Checks Attestation and 
+Release Form for all staff, which includes: 
+• The staff person’s first name and last name; 
+• Type of background search conducted; 
+• Date background search was conducted; 
+• If the search returns a conviction; 
+• Date the national public sex offender website search was conducted; and 
+• If the search returned a result. 
+If the background search returned a conviction, the contractor must also 
+document: 
+• If the conviction is barred per the Convictions Barring Vendor Staff from 
+Performing Services for TWC list; 
+• Whether an exception has been sought; 
+• If an exception was granted, by whom, and on what date. 
+Contractors must maintain the Background Checks Attestation and Release 
+Form and background check records on file for a minimum of 7-years. TWC 
+may request to review background check records at any time. If background 
+check records are not available to review at time of request, the contractor 
+must recreate the search. 
+Any contractor staff who appear in the National Public Sex Offender database
+
+[page 34]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 34 of 60 
+are immediately barred from providing services with TWC. 
+Any contractor staff member who has a conviction listed on the Convictions 
+Barring Vendor Staff from Performing Services for TWC list must not have any 
+interactions with TWC-VR customers. TWC will consider an exception in some 
+cases to offenses listed under subsection (b) and (c) of the list. Contractors 
+are responsible for requesting an exception. To request an exception, follow 
+the Exception to Background Check Instructions. Any exception must be 
+approved by the VR Director or designee before any interactions with VR 
+customers occur. 
+A background check is only valid for 3 years. An updated background check 
+must be obtained no later than the 3-year anniversary date of the original 
+background check, or the contractor must remove the employee from 
+interacting with VR customers on and after the date the background check 
+expires. 
+For a contractor to self-report noncompliance with background checks refer to 
+VR-SFP 3.2.11 Incident Reporting. 
+Limited contracted services are exempt from the background check 
+requirement, such as for certain types of entities, procurements, services, or 
+goods. See Contracted Services Exempt from Background Checks for a full list 
+of contracted services that are exempt from the background checks 
+requirement. 
+For more information on required background checks refer to the following 
+resources: 
+• VR-SFP Manual, Chapter 3 Basic Standards, Section 2.18 Background 
+Checks 
+o Convictions Barring Contractor Staff from Performing Services for 
+TWC
+
+[page 35]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 35 of 60 
+o Contracted Service Exempt from Background Checks 
+o Exception to Background Check Instructions 
+o Background Check FAQ 
+• Form VR1307 Background Checks Attestation and Release Form found at 
+https://www.twc.texas.gov/programs/vocational-rehabilitation/forms  
+• Webinar: Background and National Public Sex Offender Requirements 
+2.11 TRANSPORTATION OF VR CUSTOMERS  
+Transportation of VR Customers by a Provider (or Provider’s staff) is not 
+required. However, if a Provider (or Provider’s staff or Provider’s 
+subcontractors) do transport a VR Customer in the Provider’s vehicle or 
+Provider’s staff personal vehicle, they must meet the minimum liability 
+requirements of the Texas Department of Insurance. The Provider must 
+maintain current proof of insurance for any Provider staff who transports VR 
+Customers. When Provider staff transports VR Customers in personal vehicles, 
+the Provider staff must submit to VR proof of auto liability insurance as 
+required by the Texas Department of Insurance with Form VR3455. 
+Verification statements on Form VR3455 must be signed by the Provider staff 
+represented on the form and the Provider’s Director appointed by the legal 
+authorized representative. 
+2.12 PROVIDER’S DIRECTOR 
+Each Provider/Entity must have a Director who meets the qualification as 
+stated in the VR-SFP Manual, Chapter 3 Basic Standards. The 
+Provider’s/Entity’s legally authorized representative must appoint Director(s) 
+using Form VR3441A. The Provider’s/Entity’s Director must also have a VR 
+3455 included in the Application. Anytime the VR3455 is completed and/or
+
+[page 36]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 36 of 60 
+updated the Provider must keep a copy on file and submit it to VR. For 
+additional information refer to VR-SFP Manual, Chapter 3 Basic Standards. 
+2.13 PROVIDER STAFF PROVIDING SERVICES TO VR CUSTOMERS 
+For any service selected by the Applicant on VR3441B, the Applicant must 
+have at least one (1) person who meets the qualifications to provide the 
+service(s) as described in Article II Scope of Work.  
+Each Provider staff must have VR3455 with the supporting documentation 
+(resumes, transcripts, proof of insurance, and credentials) included in the 
+Application. 
+After contract award, a VR3455 with supporting documentation must be 
+submitted for each person who will be providing services under the Contract. 
+Each Provider must submit Form VR3455 and the supporting evidence that the 
+staff member meets the required qualifications within 30 days of: 
+• hiring new staff member; 
+• making a significant change to a staff member's job duties such as 
+fundamentally altering the nature of the job, requiring new skills, 
+responsibilities, or a substantial time commitment; 
+• changing staff qualifications and/or credentials; or 
+• terminating a staff member. 
+For additional information refer to the VR-SFP Manual. 
+ARTICLE III GENERAL INFORMATION 
+3.1 AUTHORITY 
+TWC is soliciting the services stated in this Solicitation under the statutory 
+authority of Texas Labor Code §352.060.
+
+[page 37]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 37 of 60 
+All official communication (including, but not limited to, Schedule of Event 
+changes, and Addenda will be posted to the Electronic State Business Daily 
+(ESBD). TWC has no responsibility to communicate personally with each 
+potential Applicant for this OE. Each interested party is solely responsible for 
+checking the ESBD for official TWC communication regarding this OE. 
+3.2 SCHEDULE OF EVENTS 
+The dates in this Schedule of Events are tentative, and TWC reserves the 
+right to modify these dates at any time. At the sole discretion of TWC, 
+events listed in the Schedule of Events are subject to changes and 
+cancellation. Scheduling changes or cancellation made prior to the Deadline 
+for Submission of Applications will be published as an Addendum posted to 
+the Electronic State Business Daily (ESBD) and the TWC Procurement Portal. 
+Applicant is required to sign and return all Addenda related to the Open 
+Enrollment. 
+Table 4: Schedule of Events 
+EVENT DATE and TIME 
+Open Enrollment Period Start Date: May 14, 2026 
+End Date: November 10, 2026, by 10 a.m. CST 
+NOTE: This solicitation may be closed sooner than 
+the published end date if TWC receives sufficient 
+applications to cover all required needs. 
+Applicant must submit their Application to TWC within the open enrollment 
+period in accordance with Schedule of Events shown above, or as changed via 
+a notification of an Addendum posted to the ESBD. 
+NOTE: TWC reserves the right to close this solicitation at any time prior to the 
+published deadline. If TWC determines that a sufficient number of applications
+
+[page 38]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 38 of 60 
+or awarded contracts exist, this solicitation will be closed. 
+3.3 CONTRACT DOCUMENTS 
+The Contract(s) resulting from this solicitation may consist of the provisions in 
+this OE (including its attachments, forms, exhibits, and any Addenda); the 
+Provider’s Application, any TWC Request for Revised Application, the Provider’s 
+Response to the Request for Revised Application, and TWC’s Service 
+Authorization (SA). No prior agreement or understanding, oral or otherwise, of 
+the parties or their agents will be valid or enforceable unless embodied in 
+these documents. In the event of a conflict between the provisions of these 
+documents, the documents are given the following order of priority: (1) TWC 
+SA; (2) most recent Request for Revised Application (if any); (3) Provider’s 
+Response to the Request for Revised Application; (4) Request for Application 
+(OE); and (5) Provider’s Application. 
+TWC may elect to have the Contract(s) resulting from this OE consist of a 
+single document. This document will contain all rights and duties of the parties 
+extracted from the relevant terms and conditions of the OE (including its 
+attachments, forms, exhibits, and any Addenda), the Provider’s Response, the 
+Request for Revised Response, if any, and Provider’s Response to the Request 
+for Revised Response, if any. Prior to award, TWC will prepare the Contract for 
+review by the Provider. 
+Discussions may be had concerning possible revisions to the draft Contract to 
+clarify points, further define Contract text, or to correct minor technicalities. 
+These discussions are to be finalized and all requests for revisions resolved 
+within ten (10) Business Days after the Provider receives the draft Contract for 
+review or such additional time that may be agreed to by TWC. If discussions 
+are not finalized within such time frame, the Application/Enrollment Packet 
+may be rejected.
+
+[page 39]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 39 of 60 
+3.4 ATTACHMENTS AND FORMS 
+To ensure efficient and timely processing, please adhere to the following 
+guidelines for form submission: 
+1. Documentation Placement: All supporting documentation must be 
+collated directly behind its corresponding form. 
+2. Duplicate Forms: Duplicate forms must not be submitted. 
+3. Specific Example: For instance, if multiple Form 3455s are submitted, 
+the supporting documentation pertinent to each staff member must be 
+appended directly to their specific Form 3455. 
+Please be advised that improperly organized applications may be rejected or 
+experience significant processing delays. 
+Table 5: Attachments and Forms 
+Attachment/Form Title 
+Attachment 1 VR OE T&Cs (12/18/2025) 
+Attachment 2 OE Application Submission Checklist 
+Attachment 3 VR2884, Diabetes Self-Management Educator Notes 
+Attachment 4 VR2888, Diabetes Self-Management Education 
+Assessment 
+Attachment 5 VR2900, Diabetes Self-Management Education 
+Post-Training Assessment 
+Attachment 6 VR2901, Diabetes Self-Management Pre- and Post-
+Assessment 
+Attachment 7 VR3455, Provider Staff Information Form 
+Attachment 8 VR3472, Contracted Service Modification Request  
+Attachment 9 VR3490, Temporary Waiver of Qualifications 
+Attachment 10 VR5000, Referral for Provider Services 
+Form 1 Execution of Application 
+Name convention for submission: APPLICANT 
+Name_Execution of Application
+
+[page 40]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 40 of 60 
+Form 2 W-9 and Direct Deposit Form (VR 1020) 
+• Complete the Form VR1020, TWC Substitute 
+W-9 and Direct Deposit. 
+• Refer to the VR1020 instructions and to TWC 
+Substitute W-9 and Direct Deposit Form video 
+for guidance. 
+• If the TWC1020 shows a “Business Name” 
+(DBA) designation in Box 2, include a copy of 
+County DBA registry letter. 
+• If the TWC1020 uses an “EIN” in box 6, 
+include a copy of IRS letter assigning 
+Employer Identification Number. 
+Name convention for submission: APPLICANT 
+Name_W-9 
+Form 3 Child Support Certification (VR 1305) 
+• Complete Form VR1305, Child Support 
+Certification.   
+• Refer to the VR1305 instructions for 
+additional guidance. 
+• Provide the name and social security number 
+(SSN) of the individual or sole proprietor, or if 
+not a sole proprietorship, of each partner, 
+shareholder, or owner with an ownership 
+interest of at least 25 percent of the business 
+entity.  
+• If no one person owns 25 percent or more of 
+the business, state “Not Applicable (N/A)” in 
+the Name/SSN field and complete the 
+remaining sections. 
+• Form VR1305 must be signed by the entity’s 
+legal authorized representative. 
+Name convention for submission: 
+APPLICANTName_VR1305
+
+[page 41]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 41 of 60 
+Form 4 TWC VR Standards for Provider Certification (VR 
+3443) 
+• Complete Form VR3443, TWC VR Standards 
+for Provider Certification.  
+• Form VR3443 must be signed by the entity’s 
+legally authorized representative. 
+Name convention for submission: APPLICANT 
+Name_VR3443 
+Form 5 Conflict of Interest Certification (VR 3444) 
+• Complete the Form VR3444, Conflict of 
+Interest Certification. 
+• Form VR3444 must be signed by the entity’s 
+legally authorized representative. 
+Name convention for submission: Applicant’s 
+Name_VR3444 
+Form 6  Provider Insurance Verification (VR 3445) 
+• Applicants with or without insurance must 
+complete the form 
+VR3445, Provider Insurance 
+Verification. 
+• When the Applicant has insurance, a current 
+and accurate certificate of insurance from the 
+Association for Cooperative Operations 
+Research and Development (ACORD) or its 
+equivalent must be attached to Form VR3445. 
+ 
+Name convention for submission: APPLICANT 
+Name_VR3445 
+Form 7  Entity Headquarters Information Management Form 
+(VR 3441A) 
+• Complete the Form VR3441A Entity 
+Headquarters Information Management Team 
+to record the Applicant’s management team 
+information. 
+Name convention for submission: Applicant’s Legal 
+Name_VR3441A
+
+[page 42]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 42 of 60 
+Form 8 Entity Headquarters Information - Services (VR 
+3441B) 
+• Complete Form VR3441B, Entity 
+Headquarters 
+• Information- Part B-Services   form to describe 
+the Applicant’s staff experience and to indicate 
+what services the Applicant is applying for to 
+gain a contract.  
+• To be eligible to apply for a service the 
+Applicant must have at least one  (1) person 
+who meets the qualifications to provide the 
+service at application 
+• Name convention for submission: APPLICANT 
+Name_VR3441B 
+Form 9  Entity Headquarters Information – Location(s) (VR 
+3441C) 
+• Complete Form VR3441C, Entity Headquarters 
+Information - Location(s) form. 
+• Form VR3441C  must be completed by all 
+Applicants to record the counties where the 
+Applicant is able to provide services with the 
+staff currently hired. Counties can be added and 
+removed without amending the contract as staff 
+availability changes by completing and submitting 
+a new Form VR3441C to the assigned regional 
+quality assurance specialist. 
+Name convention for submission: APPLICANT 
+Name_VR3441C
+
+[page 43]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 43 of 60 
+Form 10 Entity’s Physical Location(s) – Part A – Service 
+Contracts Certification (VR 3442A) 
+• Complete the Form VR3442 A, Entity’s Physical 
+Location(s)- Part A - Service Contracts 
+Certification Statement. 
+• Form VR3442A must be completed by the  
+Applicant to indicate if the Applicant has a 
+physical location. The VR3442A form must be 
+submitted even if the Provider does not have a 
+physical location. 
+Name convention for submission: APPLICANT 
+Name_VR3442A 
+Form 11 Entity’s Physical Location(s) – Part B – General 
+Information Service Contracts (VR3442B) 
+• Complete Form VR3442 B - Entity’s Physical 
+Location(s)-Part B- General Information 
+Service Contracts when applicable. 
+• Form VR3442B must be completed for each 
+physical location the entity has. If the entity 
+does not have any physical locations, the 
+Form VR3442B is not required.  
+Name convention for submission: APPLICANT 
+Name_VR3442B
+
+[page 44]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 44 of 60 
+Form 12 Provider Staff Information Form(s) with Supporting 
+Documentation (VR 3455) 
+• Complete a Form VR3455, Provider Staff 
+Information and attach required supporting 
+documentation (resumes, transcripts, proof of 
+insurance, and credentials) to demonstrate 
+the staff person, including the Director, meets 
+the required qualifications as stated in the 
+VR-SFP Manual. 
+• When a staff person will be transporting VR 
+customers in personal vehicles, the staff 
+person must submit proof of auto liability 
+insurance as required by the Texas 
+Department of Insurance with Form VR3455. 
+• Verification statements on Form VR3455 must 
+be signed by the staff person represented on 
+the form and the Director appointed by the 
+legal authorized representative.  
+Name convention for submission: APPLICANT 
+Name_ Staff Legal Last Name_VR3455 
+3.5 SOLE POINT OF CONTACT 
+All requests, questions, or other communication about this OE must be 
+submitted through the TWC Procurement Portal and will be directed to the Sole 
+Point of Contact below: 
+Meghan Osborn, CTCD 
+Procurement Lead 
+TWC Procurement Portal 
+3.5.1 Prohibited Communication 
+Except as provided in Section 3.5 Sole Point of Contact, a potential Applicant 
+and Applicant that has submitted an Application is prohibited from any 
+communication with TWC regarding the OE. Unless allowable, TWC, its
+
+[page 45]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 45 of 60 
+representative(s), and partners will not answer any questions or otherwise 
+discuss the contents of this OE with any potential Applicant or its 
+representative(s). Attempts to ask questions by phone or in person will not be 
+allowed or recognized as valid. Applicants shall rely only on written statements 
+issued by or through TWC designated staff as provided by the Sole Point of 
+Contact in Section 3.5 Sole Point of Contact. 
+Failure to comply with these restrictions may result in disqualification 
+of Applicant's Application. These restrictions do not preclude discussions 
+between affected parties for the purpose of conducting business unrelated to 
+this OE. 
+3.6 ADDENDA 
+Should an addition or correction become necessary after the OE is issued, an 
+Addendum relating the necessary information will be posted to the ESBD. 
+Applicants are responsible for periodically checking the ESBD for addenda or 
+additional information. Applicants are required to acknowledge the 
+Addenda by returning the signed Acknowledgment of Addenda with 
+the Application/Enrollment Packet. Failure to do so does not absolve 
+an Applicant from the requirements contained within any Addenda. 
+ARTICLE IV APPLICATION PROCESS 
+4.1 DEADLINE 
+Applications must be received by TWC as prescribed no later than date and 
+time specified in Section 3.2 Schedule of Events. 
+4.2 GENERAL INFORMATION 
+Applicants must fully and completely address all requirements described in
+
+[page 46]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 46 of 60 
+this OE. Incomplete or partial Applications will not be considered. Applicants 
+must provide all information that is required in accordance with Section 4.5 
+Required Application Documents. Applicants shall prepare an Application that 
+clearly and concisely represents its qualifications. 
+4.3 DISCREPANCIES 
+In the event of any discrepancies or variations between copies, TWC is under 
+no obligation to resolve the inconsistencies and may make its selection 
+decision, accordingly, including the decision to potentially disqualify an 
+Application. If Applicant fails to designate an “Original” Application as required 
+by Section 4.4 Submission Method, WC in its sole discretion, will determine the 
+version to be used as the original or may disqualify the Application. If the 
+Applicant submits a redacted Application as the “Original,” TWC will disqualify 
+the Application, and it will not be reviewed. 
+4.4 SUBMISSION METHOD 
+TWC has implemented the eProcurement platform referred to as the TWC 
+Procurement Portal. Applicants must upload all documentation indicated to the 
+TWC Procurement Portal link on the “Open Opportunities” tab. 
+Submissions by any other method will not be accepted. 
+To respond to this OE, Applicants must register through the TWC Procurement 
+Portal website. There is no charge to register. 
+Step-by-step instructions are available at: Vendor Registration – 
+Procurement  
+For step-by-step instructions about the submission process, visit: 
+Creating and Uploading a Submission – Procurement 
+Any issues with uploading must first be addressed with the TWC Procurement
+
+[page 47]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 47 of 60 
+Portal Technical Support at the contact information included in the 
+Procurement Information Summary and TWC Procurement Portal Instructions 
+to Applicants document.  
+Applicants must contact the Sole Point of Contact prior to the deadline if there 
+are issues with using the TWC Procurement Portal and an alternative 
+submission method may be required. Failure to contact the Sole Point of 
+Contact well before the deadline to make alternative arrangements will 
+disqualify any subsequent Application submission. 
+In no event will TWC be responsible or liable for any delay or error in delivery. 
+TWC is not responsible for electronic submissions that are captured, blocked, 
+filtered, quarantined or otherwise prevented from reaching the proper 
+destination server by any TWC anti-virus or other security software.  
+It is the Applicant’s responsibility to appropriately mark and upload the 
+Application to the TWC Procurement Portal by the specified date. Each 
+Applicant is solely responsible for ensuring its Application is submitted in 
+accordance with all Application requirements and ensuring timely receipt by 
+TWC. 
+Hard copies received will not be accepted or reviewed. 
+Application must be RECEIVED by TWC by the Application Deadline 
+identified in Section 3.2 Schedule of Events. 
+4.5 REQUIRED APPLICATION DOCUMENTS 
+The Completed Enrollment Packets may be submitted at any time during the 
+enrollment period. All forms listed below must be completed in their entirety 
+and uploaded to your Application as a separate document in Portable 
+Document Format (PDF). Do not submit encrypted or password 
+protected materials or TWC may eliminate such Applications from 
+consideration for contract award. The Application will be rejected if the
+
+[page 48]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 48 of 60 
+Applicant does not submit each form as a separate document with required 
+signatures and date, as applicable. All content added to forms must be typed 
+and cannot be handwritten. Signatures can be either handwritten or 
+electronic and not editable. A valid electronic signature must include a date 
+and time stamp or be accompanied by a certificate (technical log or report) 
+that documents the signing event with the signer's information, date, and 
+time. 
+For qualified Applicants that submit complete applications, Contracts will be 
+developed as they are approved. The volume of applications may vary during 
+the enrollment period, and Contracts may take three (3) months or more to 
+be finalized, depending upon volume and workload. 
+4.5.1 Modifications and Withdrawals 
+Prior to the Application submission deadline in Section 3.2 Schedule of Events, 
+Applicant may: (1) withdraw its Application by deleting the Application in the 
+TWC Procurement Portal; or (2) modify its Application via the TWC 
+Procurement Portal. When amending its Application, Applicant must follow the 
+instructions provided by the TWC Procurement Portal, revising the section(s) 
+intended, submit and finalize. 
+Note: TWC will reject the Enrollment Packet if its documents are not submitted 
+in the PDF format and name convention as described in this notice and/or if 
+the forms are submitted as encrypted or password protected. 
+4.6 BINDING OFFER 
+Applications shall be binding for a period of one hundred eighty (180) days 
+after the Application due date. An Applicant may extend the time for which 
+its Application will be honored.
+
+[page 49]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 49 of 60 
+4.7 FRANCHISE TAX – RIGHT TO TRANSACT BUSINESS IN TEXAS 
+If applicable, the Texas franchise tax is imposed on each taxable entity 
+formed or organized in Texas or doing business in Texas. 
+Applicant must be set up in the Texas franchise tax system prior to Contract 
+award if applicable. Texas franchise tax information can be accessed at 
+https://comptroller.texas.gov/taxes/franchise/. 
+4.8 AMBIGUITY, CONFLICT, OR DISCREPANCY 
+Applicants must notify the Sole Point of Contact listed in Section 3.5, of any 
+ambiguity, conflict, discrepancy, exclusionary specification, omission, or other 
+error in the OE. 
+If Applicant fails to properly and timely notify the Sole Point of Contact listed 
+in Section 3.5, of any ambiguity, conflict, discrepancy, exclusionary 
+specification, omission or other error in the OE, whether awarded a Contract 
+or not, the Applicant: 
+a. Waives any claim of error or ambiguity in the OE and any resulting 
+Contract; 
+b. Submits an Application at its own risk; 
+c. May not contest the interpretation by TWC of such provision(s); and 
+d. Is not entitled to additional compensation, relief, or time by reason of 
+ambiguity, conflict, discrepancy, exclusionary specification, omission, or 
+other error or its later correction. 
+4.9 TWC RIGHTS 
+All materials submitted by an Applicant will become the property of TWC. TWC 
+reserves the right to use any and all ideas presented in any Application to this 
+OE. Selection or rejection of any Application does not affect this right.
+
+[page 50]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 50 of 60 
+The rights of TWC include, but are not limited to: 
+a. Cancellation of this OE at TWC’s sole discretion; 
+b. Suspension of the procurement process and issuance of OE Addenda; 
+c. Rejection, in whole or in part, of any and all Applications received for 
+this OE 
+d. Waiver of administrative deficiencies or minor technicalities in any of 
+the Applications; 
+e. Utilization of any and all ideas presented in the Applications; 
+f. Directing any Applicant to submit Application modifications addressing 
+subsequent Addenda; 
+g. Elimination of any requirements that are not met by all Applicants 
+upon notice to all parties submitting an Application; 
+h. Making typographical corrections to Applications, with the concurrence 
+of the Applicant; 
+i. Changing computational errors with the concurrence of the Applicant; 
+j. Requesting Applicants to clarify the Applications; 
+k. Requesting Applicants to submit additional information pertaining to 
+the Application; and 
+l. Awarding a Contract without: 
+1. Requesting clarification; 
+2. Allowing modification; 
+3. Discussing; 
+4. Negotiating; and/or 
+5. Requesting a revised Application/Enrollment Packet. 
+ARTICLE V APPLICATION EVALUATION 
+5.1 APPLICATION SCREENING
+
+[page 51]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 51 of 60 
+a. TWC will review Applications for initial compliance with the Submission 
+requirements in Article IV.  
+b. TWC will automatically disqualify any Application that does not include one 
+of more of the completed and signed (as applicable) documents. 
+c. Applications received after the deadline specified in Section 3.2 Schedule 
+of Events will be rejected and will not be evaluated or considered for 
+acceptance. TWC is not responsible for Open Enrollment applications that 
+are submitted or received late, illegible, incomplete, or otherwise 
+disqualified due to failure of electronic equipment or operator error. 
+d. In accordance with Texas Government Code § 2262.055(d), TWC will 
+consider Applicant performance as recorded in the CPA Texas Vendor 
+Performance Tracking System (VPTS), described in Texas Administrative 
+Code, 34 TAC § 20.115. 
+e. TWC reserves the right to ask questions or request clarification from any 
+Applicant at any time during the screening process. 
+5.2 REVIEW OF APPLICATIONS 
+a. TWC will determine whether the Applicant meets all requirements 
+of this OE. To be considered responsive, the Applicant must 
+complete and submit all required forms in accordance with 
+Section 3.4 Attachments and Forms. 
+b. Disqualification of an application can occur when an Applicant fails to: 
+1. submit an application in accordance with the requirements of the 
+solicitation; or 
+2. submit requested corrections or additional documentation within 
+fourteen (14) days unless another timeframe is specified by TWC. 
+3. Disqualifications for conflicts of interest may occur if:
+
+[page 52]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 52 of 60 
+o The applicant is employed full-time with another employer; 
+o The applicant is employed by a school district as either full- 
+or part-time and is in a position to refer customers to the 
+applicant. 
+TWC reserves the right to ask questions to determine if a conflict 
+of interest may arise. 
+5.3 PUBLIC INFORMATION ACT 
+Information, documentation, and other materials submitted in connection 
+with this Solicitation or resulting Contract may be subject to public 
+disclosure pursuant to the Texas Public Information Act, Texas Government 
+Code, Chapter 552. See Attachment 1 VR OE T&Cs (12/18/25). TWC 
+may, in its sole discretion (1), disqualify all Applicants that fail to 
+fully comply with the requirements set forth in this section, or (2) 
+offer all Applicants that fail to fully comply with the requirements 
+set forth in this section additional time to comply. Submitting partial 
+or incomplete information that suggests inclusion of confidential 
+information constitutes failure to comply with the requirements set 
+forth in this section. 
+5.3.1 Applicant Response 
+If Applicant asserts that information provided in its Application is exempt 
+from disclosure under the Texas Public Information Act, Applicant must mark 
+and submit two separate, searchable Portable Document Format (PDF) 
+copies (Original Application and “Public Information Act Copy,” including 
+attachments, of the Original Application) as identified below. This copy is in 
+addition to the original and all copies otherwise required under the 
+provisions of this Solicitation.
+
+[page 53]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 53 of 60 
+a. Mark Original Proposal:  
+1. Mark the top of the front page with the words “CONTAINS 
+CONFIDENTIAL INFORMATION” in large, bold, capitalized letters (the 
+size of, or equivalent to, 12-point Verdana font or larger); 
+2. Mark the bottom of each page that contains information that Applicant 
+claims is exempt from public disclosure with the words “CONTAINS 
+CONFIDENTIAL INFORMATION”; 
+3. Identify, adjacent to each portion of the Response that Applicant 
+claims are exempt from public disclosure, the claimed exemption from 
+disclosure. Vague and general claims to confidentiality will not be 
+acceptable. 
+NOTE: No redactions are to be made in the Original Response. 
+b. Mark Public Information Act Copy of Response: 
+1. Mark the copy at the top of the front page with “Public Information 
+Act Copy” in large, bold, capitalized letters (the size of, or equivalent 
+to, 12-point Verdana font or larger); 
+2. Each portion Applicant claims is exempt from public disclosure must 
+be redacted (blacked out); and  
+3. Identify, adjacent to each redaction, the claimed exemption from 
+disclosure. Each identification provided as required by this subsection 
+(b) must be identical to the redactions identified in subsection (a)(3), 
+above. The only difference in required markings and information 
+between the Original Application and the “Public Information Act 
+Copy” of the Application will be redactions, which can only be made in 
+the “Public Information Act Copy.” There must be no redactions in the 
+Original Application. 
+Applicant should not submit a Public Information Act Copy indicating that the
+
+[page 54]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 54 of 60 
+entire Application is exempt from disclosure. Merely making a blanket claim 
+that the entire Application is protected from disclosure because it contains any 
+amount of confidential, proprietary, trade secret, or privileged information is 
+not acceptable, and this blanket claim will not be considered by TWC. 
+An Application should not be marked or asserted as copyrighted material. If 
+Applicant asserts a copyright to any portion of its Application, Applicant agrees 
+to reproduction and posting on public websites by the State of Texas, including 
+all other state agencies, without cost or liability and, additionally, agrees to 
+allow the State of Texas to provide a copy of the Application to individuals 
+making a Public Information Act request for the Application. 
+5.3.2 Contract 
+Within five (5) Business Days from Contract execution, if the Provider is 
+asserting that certain information in the application is exempt from public 
+disclosure, the Provider must submit a “Public Information Act Copy” of the 
+Original Executed Contract (in addition to the Original Executed Contract) to 
+the TWC Contract Manager by email. The Public Information Act Copy must 
+meet the following requirements:  
+a. The copy must be clearly marked as “Public Information Act Copy” on 
+the front page in large, bold, capitalized letters (the size of, or 
+equivalent to, 12-point Verdana font or larger). 
+b. Each portion Provider claims is exempt from public disclosure must be 
+redacted (blacked out); and 
+c. Provider must identify, adjacent to each redaction, the claimed 
+exemption from disclosure. Each identification provided as required in 
+Subsection b of this section must be identical to those set forth in the 
+Original Application. The only difference in required markings and 
+information between the Original Contract and the “Public Information
+
+[page 55]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 55 of 60 
+Act Copy” of the contract will be redactions, which can only be 
+included in the “Public Information Act Copy.” There must be no 
+redactions in the Original Executed Contract. 
+ARTICLE VI GENERAL TERMS AND 
+CONDITIONS 
+The Terms and Conditions identified in the Solicitation and Attachment 1 
+VR OE T&Cs (12/18/2025) are applicable to this Solicitation and any 
+Contract resulting from this Solicitation. TWC reserves the right to 
+incorporate additional provisions in the Contract in the best interest of TWC. 
+In the event of a conflict between this Solicitation and applicable laws and 
+regulations, precedence shall be given to the laws and regulations. 
+6.1 CONTRACT AWARD 
+TWC intends to award Contract(s) to qualified Applicants throughout the 
+enrollment period and may award multiple Contracts within individual 
+counties or groups of counties. 
+Entities, Applicants, and/or individuals that are debarred or excluded by the 
+federal government are excluded from receiving federal contracts or certain 
+subcontracts, and certain types of financial and nonfinancial assistance and 
+benefits. Entities, Applicants and/or individuals that are debarred or 
+excluded by the State of Texas are excluded from doing business with the 
+state. 
+TWC may consider past performance, or any other factor it deems to be in 
+the best interest of TWC or the State of Texas, when determining whether to 
+award a contract to an Applicant. 
+Participation in a post-award orientation will be required before any services
+
+[page 56]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 56 of 60 
+related to the awarded Contract can be performed. 
+6.2 CONTRACT TERM 
+The Contract Term will commence on the fully executed Contract date 
+and expire five (5) years from date of contract execution. TWC 
+reserves the right to cancel for convenience in the event that the 
+Contract has had no expenditures in a twelve-month period during the 
+Contract Term. 
+The Contract is contingent upon the continued availability of funding. If funds 
+become unavailable through lack of appropriations, legislative budget cuts, 
+amendment of the General Appropriations Act, TWC consolidation of offices, or 
+any other disruption of current appropriations, Termination provisions of 
+Attachment 1 VR OE T&Cs (1/23/26) shall apply. 
+6.3 PAYMENTS 
+Provider(s) must comply with the Article II Scope of Work, VR-SFP Manual, 
+Chapter 3 Basic Standards, and any other applicable sections of the VR-SFP 
+Manual. 
+Payments made to Provider(s) will be based on the Fee Schedule shown in 
+Article II Scope of Work when all requirements have been achieved. 
+6.4 CONTRACT AMENDMENTS 
+The Contract may be amended only by written agreement signed by both 
+the Provider and TWC. 
+6.5 NO GUARANTEE OF VOLUME, USAGE OR COMPENSATION 
+TWC makes no guarantee of volume, usage, or total compensation to be 
+paid to an Applicant under an awarded Contract, if any, resulting from this
+
+[page 57]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 57 of 60 
+Solicitation. 
+TWC reserves the right to cancel or decline to award a Contract under this 
+Solicitation at any time at its sole discretion. 
+6.6 GOVERNMENTAL ENTITIES 
+If Applicant is responding to this Solicitation in its capacity as a 
+governmental entity, certain Terms and Conditions found in this Solicitation, 
+including exhibits and attachments, may not be applicable. Furthermore, to 
+the extent permitted by law, if an Application is received from a 
+governmental entity, TWC reserves the right to enter into an interagency or 
+interlocal agreement with the governmental entity. 
+6.7 COSTS INCURRED 
+Applicant understands that issuance of this Solicitation in no way constitutes 
+a commitment by TWC to award a Contract. Additionally, TWC is not liable 
+for any costs incurred by an Applicant in the preparation of an Application to 
+this Solicitation. Costs of developing Applications, preparing for, or 
+participating in Oral Presentations and Site Visits, or any other similar 
+expenses incurred by an Applicant are entirely the responsibility of the 
+Applicant, and will not be reimbursed in any manner by the State of Texas. 
+6.8 APPLICANT WAIVER-INTELLECTUAL PROPERTY 
+SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS 
+SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND 
+AGREEMENT BY APPLICANT TO FULLY INDEMNIFY THE STATE OF 
+TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE 
+STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL 
+PROPERTY RIGHTS OF APPLICANT OR ANY THIRD PARTY FOR ANY
+
+[page 58]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 58 of 60 
+MATERIALS SUBMITTED TO TWC BY APPLICANT. 
+6.9 REQUIRED INSURANCE  
+Providers are responsible for their actions and the actions of their employees 
+and subcontractors. Insurance can provide protection to Providers from claims 
+of negligence made by VR Customers. 
+Providers must maintain insurance as described in VR-SFP Manual, Chapter 3 
+Basic Standards when insurance requirements are applicable. Insurance 
+requirements are subject to change after proposed changes have been posted 
+at least 30 days on the Vocational Rehabilitation Providers’ Resources page. 
+6.10 FAILURE TO PERFORM 
+If the Provider fails to perform in accordance with the provisions of the 
+contract, TWC may upon written notice to the Provider, take adverse action 
+against the Provider, up to and including terminating the Contract in whole or 
+in part. If notice of termination is given, all work by the Provider shall cease on 
+the effective date of the termination, and TWC will not pay for work performed 
+on or after the effective date of termination. Such termination shall not be an 
+exclusive remedy to TWC but shall be in addition to any other rights and 
+remedies provided by law or under the contract. Adverse action, including 
+termination, may result from, but is not limited to: 
+1. Violation of the terms of the Contract, including but not limited to, failure 
+to perform any portion of the Contract; 
+2. Any evidence of abuse, neglect, or exploitation of TWC VR customers 
+receiving services from the Provider as substantiated by an investigation 
+conducted by the Provider, an external regulatory or law enforcement 
+agency, or TWC; 
+3. Any information giving TWC reason to believe that the health or safety of
+
+[page 59]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 59 of 60 
+TWC VR customers is compromised; 
+4. Any change in ownership or change in control that TWC believes would 
+adversely affect the delivery of services; 
+a. Bringing any individual who is debarred by TWC into the Contract 
+in any financial or legal way (such unacceptable arrangements to 
+include, without limitation, any employment, consulting, 
+contracting, subcontracting, partnership, sale, merger, successor, 
+association or joint venture with a debarred individual); 
+5. Any real or apparent conflict of interest giving TWC reason to believe 
+that continuation of the Contract is not in the best interest of TWC, the 
+state, or TWC VR customers; or  
+6. Any violation of state or federal law. 
+6.11 REMEDIES 
+The Provider and any of its subcontractors associated with the Contract will 
+remedy in a timely manner any weaknesses, deficiencies, or program 
+noncompliance found as a result of a review, audit or investigation, and any 
+performance or fiscal exceptions found by TWC, the SAO, the federal funding 
+agency, their successor agencies, or any of their duly authorized 
+representatives. TWC may withhold or recoup payments due or paid under the 
+contract, in whole or in part, in the event of the Vendor's noncompliance with 
+any term or provision of the contract, any federal or state law or regulation, or 
+any TWC rules or standards, including, but not limited to, the requirements 
+specifically stated in the contract, relating to the Vendor's performance under 
+the contract, as pursuant to Title 40 TAC § 858.9 or any other appropriate 
+remedies deemed necessary by TWC. 
+6.12 CHANGE OF OWNERSHIP OR FINANCIAL CONDITION
+
+[page 60]
+Open Enrollment No. 3202600156 OE for Diabetes Self-Management v. 1.1 
+Page 60 of 60 
+During the term of the Contract or any extension or renewal thereof, the 
+Provider shall notify TWC in writing of any substantial change in the 
+ownership or control of the Provider as soon as possible, but no later than 
+thirty (30) days prior to its occurrence. Provider must also notify TWC in 
+writing of any change in financial condition as soon as possible, but no later 
+than ten (10) days after its occurrence. 
+The failure to notify TWC of a change of ownership or control or change in 
+financial condition will be sufficient grounds for rejecting the Application or 
+terminating the Contract. For the purposes of this section, examples of a 
+substantial change in financial condition are events such as insolvency, 
+bankruptcy, or receivership. 
+6.13 SEVERABILITY 
+If any provision or portion of this Solicitation is illegal, void, or 
+unenforceable, the other provisions will not be affected. 
+<End of Solicitation>

@@ -1,0 +1,752 @@
+{
+  "rfp_id": "3202600177",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Responses Due: August 12, 2026, by 10:00 a.m. Central Time",
+      "section_ref": "Cover",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-08-12",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "The Successful Respondent will report directly to TWC.",
+      "section_ref": "2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "The Successful Respondent must provide comprehensive CNA Services necessary for the effective management and operation of the State Use Program, which include, but are not limited to:",
+      "section_ref": "2.2.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "Educate potential CRPs on State Use Program participation requirements;",
+      "section_ref": "2.2.1.a.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "Recruit and assist CRPs in developing and submitting applications for suitable products and services aligned to customer needs;",
+      "section_ref": "2.2.1.a.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "Support CRPs with Integrated Competitive Employment efforts and compliance with 40 TAC Chapter 806;",
+      "section_ref": "2.2.1.a.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "Assist the CRPs in soliciting and negotiating contracts; and",
+      "section_ref": "2.2.1.a.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "Provide training and resources to support outplacement/supported employment and increase integrated employment opportunities for individuals with disabilities.",
+      "section_ref": "2.2.1.a.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "Execute a contract agreement with the Statewide Procurement Division (SPD) to establish and ensure adherence to appropriate statewide terms and conditions for all procurements managed under the State Use Program.",
+      "section_ref": "2.2.1.b.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "Manage and coordinate the day-to-day operation of the program including the general administration of contracts with CRPs operating pursuant to Chapter 122, Texas Human Resources Code and 40 TAC Chapter 806;",
+      "section_ref": "2.2.1.b.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "Allocate service and product orders among the various CRPs;",
+      "section_ref": "2.2.1.b.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "Monitor CRPs to ensure compliance with requirements for participation in the State Use Program;",
+      "section_ref": "2.2.1.b.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "Provide accounting services related to purchase orders, invoices, and payments to CRPs;",
+      "section_ref": "2.2.1.b.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "Prepare reports and fulfill other duties as designated by TWC;",
+      "section_ref": "2.2.1.b.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "Provide general administration of the State Use Program",
+      "section_ref": "2.2.1.b.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "meet performance criteria",
+      "section_ref": "2.2.1.b.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "submit timely reports required by 40 TAC Chapter 806;",
+      "section_ref": "2.2.1.b.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "Maintain and dispose of records in accordance with applicable laws and TWC directives",
+      "section_ref": "2.2.1.b.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "provide any or all records requested within three (3) weeks of the request;",
+      "section_ref": "2.2.1.b.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "Resolve contract issues and/or problems as they arise between the CRPs, the Successful Respondent, and/or customers",
+      "section_ref": "2.2.1.b.9",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "refer unresolved issues to TWC",
+      "section_ref": "2.2.1.b.9",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "submit quarterly status reports on issues and referrals;",
+      "section_ref": "2.2.1.b.9",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "Maintain a system in accordance with generally accepted accounting principles (GAAP) to record information related to purchase orders, invoices, and payments to each CRP to facilitate the preparation and submission of the annual report;",
+      "section_ref": "2.2.1.b.10",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "Demonstrate compliance with state and federal tax laws and payroll laws by submitting quarterly reports of sales and taxes paid to CPA and the Internal Revenue Service (IRS);",
+      "section_ref": "2.2.1.b.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "Maintain expertise of governmental procurement and contracting processes and laws.",
+      "section_ref": "2.2.1.b.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "Maintain and operate a retail store and warehouse for use by state agency customers, adhering to state statutes and the Comptroller\u2019s Statewide Procurement Division requirements; and",
+      "section_ref": "2.2.1.c.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "Conduct research to identify new products and services.",
+      "section_ref": "2.2.1.c.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "Directly market products and services to consumers through advertising and public relations activities as well as a retail business operational plan;",
+      "section_ref": "2.2.1.d.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "Conduct public relations activities to promote the program;",
+      "section_ref": "2.2.1.d.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "Create a database of state agency and political subdivision purchases to promote sales of State Use Program products and services;",
+      "section_ref": "2.2.1.d.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "Provide quarterly regional information workshops to promote the State Use Program throughout the year and across the state;",
+      "section_ref": "2.2.1.d.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "A Respondent should provide its best offer in its original Response.",
+      "section_ref": "5.8",
+      "type": "should",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 61
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "Respondents should not expect or assume that TWC will request a Revised Response or a BAFO at any time.",
+      "section_ref": "5.8",
+      "type": "should",
+      "category": "info",
+      "due_date": null,
+      "page": 61
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "Revisions must be submitted in the manner and form prescribed by the Request.",
+      "section_ref": "5.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 61
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "A Respondent is encouraged to thoroughly review the processes outlined in this Article V, as it documents the best value considerations to be made by TWC in selecting a Respondent for negotiation and Contract award.",
+      "section_ref": "5.10",
+      "type": "should",
+      "category": "info",
+      "due_date": null,
+      "page": 62
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "If Respondent asserts that information provided in its Response is exempt from disclosure under the Texas Public Information Act, Respondent must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Response and \u201cPublic Information Act Copy,\u201d including attachments, of the Original Response) as identified below.",
+      "section_ref": "5.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 63
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Mark the top of the front page with the words \u201cCONTAINS CONFIDENTIAL INFORMATION\u201d in large, bold, capitalized letters (the size of, or equivalent to, 12-point Verdana font or larger);",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 63
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Mark the bottom of each page that contains information that Respondent claims is exempt from public disclosure with the words \u201cCONTAINS CONFIDENTIAL INFORMATION\u201d;",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 63
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Identify, adjacent to each portion of the Response that Respondent claims is exempt from public disclosure, the claimed exemption from disclosure.",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 63
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "Submitting partial or incomplete information that suggests inclusion of confidential information constitutes failure to comply with the requirements set forth in this section.",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 63
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "NOTE: No redactions are to be made in the Original Response.",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "Mark the copy at the top of the front page with \u201cPublic Information Act Copy\u201d in large, bold, capitalized letters (the size of, or equivalent to, 12-point Verdana font or larger);",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "Each portion Respondent claims is exempt from public disclosure must be redacted (blacked out); and",
+      "section_ref": "5.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "Identify, adjacent to each redaction, the claimed exemption from disclosure.",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Each identification provided as required by this subsection (b) must be identical to the redactions identified in subsection (a)(3), above.",
+      "section_ref": "5.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "The only difference in required markings and information between the Original Response and the \u201cPublic Information Act Copy\u201d of the Response will be redactions, which can only be made in the \u201cPublic Information Act Copy.\u201d",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "There must be no redactions in the Original Response.",
+      "section_ref": "5.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "Respondent should not submit a Public Information Act Copy indicating that the entire Response is exempt from disclosure.",
+      "section_ref": "5.11.1",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "A Response should not be marked or asserted as copyrighted material.",
+      "section_ref": "5.11.1",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "If Respondent asserts a copyright to any portion of its Response, Respondent agrees to reproduction and posting on public websites by the State of Texas, including all other state agencies, without cost or liability",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "If Respondent asserts a copyright to any portion of its Response, Respondent additionally, agrees to allow the State of Texas to provide a copy of the Response to individuals making a Public Information Act request for the response.",
+      "section_ref": "5.11.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 64
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "Within five (5) days from Contract execution, the Successful Respondent must submit a \u201cPublic Information Act Copy\u201d of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email.",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "The copy must be clearly marked as \u201cPublic Information Act Copy\u201d on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Verdana font or larger);",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "Each portion Successful Respondent claims is exempt from public disclosure must be redacted (blacked out); and",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "Successful Respondent must identify, adjacent to each redaction, the claimed exemption from disclosure.",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "Each identification provided as required in Subsection (b) of this section must be identical to those set forth in the Original Response as required in Section 5.11.(a)(2) above.",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "The only difference in required markings and information between the Original Contract and the \u201cPublic Information Act Copy\u201d of the contract will be redactions, which can only be included in the \u201cPublic Information Act Copy.\u201d",
+      "section_ref": "5.11.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "There must be no redactions in the Original Contract.",
+      "section_ref": "5.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 65
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "In the event of a conflict between this Solicitation and applicable laws and regulations, precedence shall be given to the laws and regulations.",
+      "section_ref": "ARTICLE VI",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 66
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "If funds become unavailable through lack of appropriations, legislative budget cuts, amendment of the General Appropriations Act, TWC consolidation of offices, or any other disruption of current appropriations, Termination provisions of Attachment 1- TWC Terms and Conditions shall apply.",
+      "section_ref": "6.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 66
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "Currently, the Management Fee Rate charged by a CNA for its services is computed as a percentage of the selling price of the product or the contract price of a service; it must be included in the selling price or contract price.",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 67
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "Currently, the Management Fee Rate charged by a CNA for its services is computed as a percentage of the selling price of the product or the contract price of a service; it must be paid at the time of sale.",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 67
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "The Contract may be amended only by written agreement signed by both the Successful Respondent and TWC, except in the case of changes in state of federal law.",
+      "section_ref": "6.4",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 67
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "The management fee rate must be reviewed on an annual basis in accordance with \u00a7 122.030 of the Texas Human Resources Code.",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 67
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "For the duration of any Contract resulting from this Solicitation, the Successful Respondent shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 1 \u2013 TWC Terms and Conditions, Section 3.19 Insurance Requirements.",
+      "section_ref": "6.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 68
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "It will be the Respondent's responsibility to recommend to TWC alternative methods of insuring the Contract.",
+      "section_ref": "6.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 68
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "Any alternatives proposed by Respondent should be accompanied by a detailed explanation regarding Respondent's inability to obtain the required insurance and/or bonds.",
+      "section_ref": "6.8",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 68
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "The Successful Respondent must make payment within thirty (30) days of the TWC\u2019s demand.",
+      "section_ref": "6.9.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 69
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "nothing contained in this section shall be construed as relieving the Successful Respondent from performing all Contract requirements whether or not said requirements are set forth herein;",
+      "section_ref": "6.10.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 71
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "The Successful Respondent shall perform all services in accordance with the RFP requirements, provisions, terms, and conditions.",
+      "section_ref": "6.10.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 71
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "Upon receipt of written notice, the Successful Respondent will have ten (10) days to provide a written explanation of any justification that may be applicable to the liquidated damages being considered",
+      "section_ref": "6.10.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 72
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "Upon receipt of written notice, the Successful Respondent will have ten (10) days to provide a corrective action plan for bringing the operations within the standards specified.",
+      "section_ref": "6.10.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 72
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "In all cases, the corrective action plan must be approved by TWC in writing prior to implementation.",
+      "section_ref": "6.10.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 72
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "The corrective action plan must be implemented by the Successful Respondent at no cost to and upon approval by the TWC Contract Manager.",
+      "section_ref": "6.10.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 72
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "The Successful Respondent must make payment within thirty (30) days of TWC\u2019s demand.",
+      "section_ref": "6.10.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 72
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "The Successful Respondent shall meet or exceed the service criteria and timelines below.",
+      "section_ref": "6.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "The Successful Respondent must resolve all issues reported by the TWC Program Managers and/or customers within three (3) Business Days from the time the issue was originally reported to the Successful Respondent, or upon agreed-upon time frame.",
+      "section_ref": "6.11.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "The Successful Respondent must deliver ad hoc reports to TWC within ten (10) Business Days from the day the report is requested.",
+      "section_ref": "6.11.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "The Successful Respondent\u2019s Account Manager must respond to email from the TWC Program Managers and/or customers within twenty-four (24) hours, or by close of business of the next Business Day.",
+      "section_ref": "6.11.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "The Successful Respondent\u2019s Account Manager must be available Monday through Friday, between the hours of 8AM through 5PM, with the exception of the state of Texas holidays.",
+      "section_ref": "6.11.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "The Successful Respondent\u2019s SPD Liaisons must be available Monday through Friday, between the hours of 8AM through 5PM, with the exception of the state of Texas holidays.",
+      "section_ref": "6.11.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 73
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "The Response must include a certification that the entity is not for sale or to become acquired by another business entity during the twelve (12) months following the Response Deadline.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 74
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "During the term of the Contract or any extension or renewal thereof, the Successful Respondent shall notify TWC in writing of any substantial change in the ownership or control of the Successful Respondent as soon as possible, but no later than thirty (30) days prior to its occurrence.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 74
+    }
+  ]
+}

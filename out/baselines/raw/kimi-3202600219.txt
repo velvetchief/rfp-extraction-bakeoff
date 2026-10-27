@@ -1,0 +1,1212 @@
+The user wants me to extract a compliance matrix from the provided RFP text. I need to go through the document page by page, section by section, and extract every requirement that meets the tests: binding language (shall, must, will, is required to, may not), advisory language directed at vendor (should, is encouraged to), or administrative facts a bidder must act on (deadlines, question deadlines, conference dates, forms, page limits, copy counts, delivery addresses, eligibility/certification prerequisites, evaluation criteria and weights).
+
+Rules:
+1. verbatim_text: EXACT sentence(s). Never paraphrase. Trim only surrounding boilerplate.
+2. One requirement per row. Split sentences with two independent obligations into two rows repeating shared text.
+3. section_ref: RFP's own numbering.
+4. type: "shall" for binding, "should" for advisory, "info" for administrative facts with no modal verb.
+5. category: eligibility | deliverable | deadline | form | evaluation. Pick single best fit. Deadlines with dates always get "deadline" and ISO due_date.
+6. page: PDF page number (1-indexed).
+7. id: sequential R-001, R-002... in document order.
+8. Do NOT invent requirements.
+
+The text provided goes up to page 21, but it seems cut off. The user said "do not stop until you have covered the final page", but the provided text ends mid-sentence on page 21. I should extract from everything provided. I need to be careful to capture all requirements.
+
+Let me go through page by page.
+
+Page 1:
+- "Bids Due: July 24,2026 by 10:00 a.m. Central Time" -> This is an administrative fact/deadline. No modal verb, so type "info", category "deadline", due_date "2026-07-24".
+- Also "Date of Release: July 10, 2026" - is this a deadline a bidder must act on? It's informational but not necessarily an action item. The schedule of events on page 8 has more details. But the date of release is an administrative fact. However, is it something a bidder must act on? Not really, it's just context. The instructions say "Administrative facts a bidder must act on: submission deadlines, question deadlines, conference dates, required forms, page limits, copy counts, delivery addresses, eligibility/certification prerequisites, evaluation criteria and weights." Date of release isn't something to act on. I'll skip it unless it's a question deadline. But page 8 has the schedule.
+
+Page 2: Table of contents, no requirements.
+
+Page 3: Table of contents continued, no requirements.
+
+Page 4-6: Definitions. No requirements directed at vendor. These are just definitions.
+
+Page 7:
+- 1.3 Schedule of Events: "Bidder is required to sign and return an Addendum or Addenda with the Bid." -> Binding language "required to". This is a requirement. Category: form? Or deliverable? It's about signing and returning addenda. Maybe "form" or "deliverable". Let's see. It's an obligation to sign and return. I'll put category "form" since it relates to bid documentation, or maybe "deliverable". Actually, "form" is for required forms. This is a required action. Maybe "deliverable" is better. But the category list is limited. Let's think: eligibility | deliverable | deadline | form | evaluation. Signing and returning an addendum is a deliverable/action item. I'll use "deliverable".
+
+Page 8:
+- Schedule table:
+  - "Solicitation Notification posted to ESBD July 10, 2026" -> info, but not an action for bidder. Skip.
+  - "Deadline for Submission of Bids (NOTE: Bids must be RECEIVED by TWC by the deadline) July 24,2026 at 10:00 AM Central Time" -> This is a deadline. Type "info" (no modal verb in the date line itself? Actually the NOTE says "Bids must be RECEIVED". That's binding. But the date line is administrative. The sentence "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." -> This is binding "must submit". Category deadline. due_date 2026-07-24.
+  
+  Actually, looking at page 8:
+  "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." -> R-00X.
+  
+  Also from page 1: "Bids Due: July 24,2026 by 10:00 a.m. Central Time" is essentially the same but in header. The explicit requirement is on page 8. I should include the header? It's an administrative fact. The user said include "submission deadlines". The header on page 1 states the deadline. But page 8 also states it. To be safe, I can include the header as info/deadline, but it's not a complete sentence? It's a fragment. The instruction says "verbatim_text is the EXACT sentence(s)". "Bids Due: July 24,2026 by 10:00 a.m. Central Time" is not a sentence but a heading/fact. However, the rules say "verbatim_text is the EXACT sentence(s) from the RFP. Never paraphrase... Trim only surrounding boilerplate." It might be okay to include as a sentence fragment if it's the exact text. But page 8 has a full sentence. Let's rely on page 8's full sentence for the requirement, and the table entry might be considered part of the text. Actually, the table on page 8:
+  "Deadline for Submission of Bids (NOTE: Bids must be RECEIVED by TWC by the deadline) July 24,2026 at 10:00 AM Central Time"
+  This is a table row. Is it a sentence? Not really. But the note "Bids must be RECEIVED by TWC by the deadline" is a sentence/fragment. And the next sentence "Bidder must submit its Bid..." is clear.
+  
+  Let's capture:
+  R-001: "Bidder is required to sign and return an Addendum or Addenda with the Bid." (page 7, section 1.3)
+  
+  R-002: "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." (page 8, section 1.3) type: shall (must), category: deadline, due_date: 2026-07-24.
+  
+  Also from page 8, 2.2: "Only bids on items conforming exactly to these specifications, which include proposing only the brand name(s), make and model number(s) specified, will be considered in determining an award." -> This is an evaluation criterion/eligibility. It says what will be considered. It's an administrative fact about evaluation. "will be considered" is not a vendor obligation but a fact. However, it implies the bidder must conform exactly. The language is "Only bids... conforming exactly... will be considered". This is a screening/evaluation rule. Category: evaluation. Type: info. Because it tells the bidder what will be considered. It doesn't say "Bidder shall conform". But it's a requirement that must be satisfied. The instructions say "Administrative facts a bidder must act on: ... evaluation criteria and weights." So yes, include it. Type "info".
+  
+  Also 2.2: "These specifications are being advertised under Section 2155.067 of the Texas Government Code." -> Not a requirement. Skip.
+
+Page 9:
+- 2.2 a: "Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-in connector." -> type shall (must), category deliverable.
+- 2.2 b: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include:" -> This introduces a list. The requirement is to provide key features. Then list 1-10. Should I list each as separate? The prompt says "One requirement per row. If a sentence contains two independent obligations, split it into two rows repeating the shared text." Here, item b is one obligation: provide key features which include [list]. The list items are sub-requirements. I think each list item is a separate deliverable requirement. But they are not independent sentences; they are a numbered list within the sentence. The prompt says "verbatim_text is the EXACT sentence(s)". For a list, I could capture the parent sentence and each item? Or treat each item as part of the requirement. To ensure recall, I should probably capture each item as a separate requirement because missing a single feature could disqualify. But the instruction says "If a sentence contains two independent obligations, split it into two rows repeating the shared text." The list items are not independent sentences; they are a continuation of the sentence starting with "Successful Bidder must provide key features... which include: 1. ...; 2. ...;". Actually, looking at the formatting:
+  "b. Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 
+  1. The ability to export any ServiceNow tables and fields (including Custom tables and fields); 
+  2. The ability to include any amount of tables and fields to your Data Source; 
+  ..."
+  This is one long sentence with a colon and a numbered list separated by semicolons. It contains multiple obligations (provide ability 1, provide ability 2, etc.). The instruction says if a sentence contains two independent obligations, split it. So I should split them, repeating shared text like "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: [item]". But that might be awkward. Alternatively, I can capture the whole sentence as one requirement. However, the instruction emphasizes recall over brevity. Splitting is safer for recall. But the verbatim text must be exact. If I split, I need to repeat the shared text. For example:
+  "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 1. The ability to export any ServiceNow tables and fields (including Custom tables and fields);"
+  But that's not exactly a sentence from the document; it's extracting a fragment. The document has the list as part of the sentence. Actually, each numbered item ends with a semicolon (except the last which ends with a period). So the sentence is: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 1. The ability to export any ServiceNow tables and fields (including Custom tables and fields); 2. The ability to include any amount of tables and fields to your Data Source; ... 10. Pre-typed data, eliminating the need for manual conversion to target types such as integer, boolean, decimal, etc."
+  If I split, I would be creating sentence fragments. The rule says "verbatim_text is the EXACT sentence(s)". It doesn't explicitly forbid splitting a sentence into fragments, but it says "Trim only surrounding boilerplate." Splitting a sentence into fragments might violate "exact sentence(s)". However, the rule also says "If a sentence contains two independent obligations, split it into two rows repeating the shared text." This implies we can break a sentence into multiple rows, repeating shared text. So the verbatim_text for each row would be the shared text plus the specific obligation. But is that still "exact"? It's a bit of a judgment call. To be safe and follow the "recall matters more than brevity" and "split if two independent obligations" instruction, I will split them. I need to decide what shared text to repeat. The shared text is "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include:". Then each item. But the items are not grammatically complete sentences. However, the instruction explicitly tells us to split. So I'll do that.
+  
+  Actually, looking at the text, item b is the obligation, and items 1-10 are the specifications of the features. The bidder must provide the connector with these features. It might be sufficient to capture item b as one requirement. But to be thorough, I could also capture each feature. Given the instruction to split independent obligations, I think splitting is correct. But I must be careful not to invent text. Repeating the shared text is explicitly allowed.
+  
+  Let's identify all requirements on page 9:
+  - 2.2 a: "Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-in connector."
+  - 2.2 b: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include:" + list.
+  
+  I'll create separate rows for each of the 10 items, plus maybe the introductory clause? Actually, the introductory clause alone is not a complete obligation without the list. But the whole sentence is the obligation. I'll split into 10 rows. Each row will have the shared text and one item. For the last item, it ends with a period.
+  
+  Shared text: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include:"
+  Then:
+  1. The ability to export any ServiceNow tables and fields (including Custom tables and fields);
+  etc.
+  
+  But wait, the text says "which include:" and then the list. So the full sentence is the shared text + list. If I split, each row's verbatim_text would be: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 1. The ability to export any ServiceNow tables and fields (including Custom tables and fields);" etc. That seems acceptable.
+
+Page 10:
+- 3.1: "The Terms and Conditions identified in the Solicitation and Attachment 1 – TWC Terms and Conditions are applicable to this Solicitation and any Contract resulting from this Solicitation." -> Not a direct obligation, just a statement. Skip.
+- 3.2: "TWC intends to award one (1) Contract as a result of this Solicitation." -> Info. Skip? It's not an obligation. It's a fact about award. Not something bidder must act on. Skip.
+- 3.3: "If, for any reason, a Contract cannot be executed with a Bidder selected for award within thirty (30) days of TWC’s determination to seek to contract with that Bidder, TWC may negotiate a Contract with the next lowest responsive Bidder or may withdraw, modify, or partially award this Solicitation." -> TWC's right, not bidder obligation. Skip.
+- 3.4: "The Contract Term will commence on the later of August 15, 2026 or the fully executed Contract date and expire twelve (12) months from that date." -> Info. Not a bidder action. Skip.
+- "The Contract is contingent upon the continued availability of funding." -> Info. Skip.
+- "Following the base term and any allowable renewals or extensions, TWC may extend any resulting Contract for not more than one additional option period to address immediate operational or service delivery needs." -> TWC right. Skip.
+- "If the resulting Contract does not include a defined option period, the extension is limited to one year." -> Info. Skip.
+
+Page 11:
+- 3.5: "Pricing agreed to in any resulting Contract shall be firm and remain constant based on the price agreed upon at award through the life of the Contract and any exercised optional renewal terms, if applicable." -> "shall be firm". This is a binding obligation on the successful bidder. Category: deliverable? Or maybe "eligibility"? It's a pricing requirement. I'll put category "deliverable" since it's a contractual performance requirement. Or "evaluation"? No, it's a requirement. Let's use "deliverable".
+- 3.6: "Payment will be made by TWC in accordance with the pricing provided on Form 2 – Cost Sheet." -> Not a bidder obligation. Skip.
+- "The pricing is considered all-inclusive, and no other pricing may be provided on an invoice." -> "no other pricing may be provided". This is a prohibition (may not). Type: shall (binding). Category: deliverable.
+- "TWC must acknowledge that the services have been satisfactorily performed and products received, if applicable, which are included on an invoice prior to approving the invoice for payment." -> This is about TWC. Skip.
+- "Any additional expenses incurred by the Contractor are the responsibility of the Contractor and will not be paid by TWC." -> Statement of fact. Not a modal directed at vendor? It says "will not be paid". Not a bidder action. Skip.
+- "TWC will not pay any per diem, travel, hotel, equipment, phone calls, paper, reproduction services, office space, or other incidental expenses related to performing the services required by the Contract." -> TWC statement. Skip.
+
+Page 12:
+- 3.7: "The Contract may be amended only by written agreement signed by both the Successful Bidder and TWC." -> This is a restriction. "may be amended only by". It's a modal but directed at both parties. It's a contractual term. Should I include? It's a binding constraint on the bidder. I'll include it. Type: shall (binding restriction). Category: deliverable.
+- 3.8: "TWC makes no guarantee of volume, usage, or total compensation to be paid to a Bidder under an awarded Contract, if any, resulting from this Solicitation." -> Not a requirement. Skip.
+- "TWC reserves the right to cancel, make partial award, or decline to award a Contract under this Solicitation at any time at its sole discretion." -> Not a requirement. Skip.
+- 3.9: "If Bidder is responding to this Solicitation in its capacity as a governmental entity, certain Terms and Conditions found in this Solicitation, including exhibits and attachments, may not be applicable." -> Conditional info. Skip.
+- "Furthermore, to the extent permitted by law, if a Bid is received from a governmental entity, TWC reserves the right to enter into an interagency or interlocal agreement with the governmental entity." -> Not a bidder obligation. Skip.
+- 3.10: "Bids shall be binding for a period of ninety (90) days after the submission due date." -> Binding on bidder. Type: shall. Category: deliverable.
+- "A Bidder may extend the time for which its Bid will be honored." -> Permissive. Not a requirement. Skip.
+- "Upon Contract execution, prices agreed upon by the Successful Bidders(s) are an irrevocable offer for the term of the Contract and any Contract renewals or extension(s)." -> Statement. Skip.
+- "No other costs, rates, or fees shall be payable to the Successful Bidder unless expressly agreed upon in writing by TWC." -> "shall be payable" - this is about TWC's obligation? Actually "No other costs... shall be payable to the Successful Bidder" means TWC won't pay. Not a bidder action. Skip.
+
+Page 13:
+- 3.11: "Bidder understands that issuance of this Solicitation in no way constitutes a commitment by TWC to award a Contract." -> Not a requirement. Skip.
+- "Additionally, TWC is not liable for any costs incurred by a Bidder in the preparation of a response to this Solicitation." -> Skip.
+- "Costs of developing Bids, preparing for, or participating in Oral Presentations and Site Visits, or any other similar expenses incurred by a Bidder are entirely the responsibility of the Bidder, and will not be reimbursed in any manner by the State of Texas." -> Skip.
+- 3.12: "If Bidder asserts that information provided in its Bid is exempt from disclosure under the Texas Public Information Act, Bidder must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Bid and “Public Information Act Copy,” including attachments, of the Original Bid) as identified below." -> "must mark and submit". Binding. Category: form (since it's about submitting copies of bid). Or deliverable. Let's say form.
+- "This copy is in addition to the original and all copies otherwise required under the provisions of this Solicitation." -> Info. Skip.
+- 3.13: "Within five (5) Business days from Contract execution, the Successful Bidder must submit a “Public Information Act Copy” of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email." -> "must submit". Binding. Category: form. due_date? It's a deadline relative to contract execution, not a fixed date. The instructions say deadlines with dates always get category deadline and ISO due_date. This is a relative deadline. Should it be category deadline? The category list includes deadline. But it's not a fixed date. The instruction says "deadlines with dates always get category 'deadline' and an ISO due_date." It doesn't say relative deadlines must be deadline category. This is a deliverable with a timeframe. I think category "form" or "deliverable" is fine. Let's use "deliverable" since it's an action after award. Or "form" because it's a copy of a document. I'll use "deliverable".
+- "The Public Information Act Copy must meet the following requirements:" -> Introduces list. The requirements are:
+  a. "The copy must be clearly marked as “Public Information Act Copy” on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Arial font or larger);" -> must be clearly marked. Binding. Category: form/deliverable.
+  b. "Each portion Successful Bidder claims is exempt from public disclosure must be redacted (blacked out);" -> must be redacted. Binding. Category: form/deliverable.
+  c. "Successful Bidder must identify, adjacent to each redaction, the claimed exemption from disclosure." -> must identify. Binding. Category: form/deliverable.
+  "Each identification provided as required in Subsection (b) of this section must be identical to those set forth in the Original Bid as required in Section 3.12 above." -> must be identical. Binding. Category: form/deliverable.
+- "The only difference in required markings and information between the Original Contract and the “Public Information Act Copy” of the contract will be redactions, which can only be included in the “Public Information Act Copy.”" -> Statement of fact. But "can only be included" is a restriction. It's a requirement. Category: form/deliverable.
+- "There must be no redactions in the Original Contract." -> must be no. Binding. Category: form/deliverable.
+
+Page 14:
+- 3.14: "SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY BIDDER TO FULLY INDEMNIFY THE STATE OF TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF BIDDER OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO TWC BY BIDDER." -> This is a binding condition on submission. It's a requirement that by submitting, you agree. Type: shall (binding). Category: eligibility? Or deliverable? It's a legal prerequisite. I'll use "eligibility" because it's a condition to bid.
+- 3.15: "For the duration of any Contract resulting from this Solicitation, the Successful Bidder shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 1 – TWC Terms and Conditions." -> shall acquire. Binding. Category: eligibility or deliverable. It's a post-award requirement. I'll use "deliverable".
+- "Notwithstanding the preceding, TWC reserves the right to consider reasonable alternative methods of insuring the Contract in lieu of the insurance policies customarily required." -> Not a bidder obligation. Skip.
+- "It will be the Bidder’s responsibility to recommend to TWC alternative methods of insuring the Contract." -> This is a conditional obligation. "It will be the Bidder's responsibility to recommend". This is binding if they want alternative. Type: shall (will). Category: deliverable.
+- "Any alternatives proposed by Bidder should be accompanied by a detailed explanation regarding Bidder's inability to obtain the required insurance and/or bonds." -> "should be accompanied". Advisory. Type: should. Category: deliverable.
+- "TWC shall be the sole and final judge as to the adequacy of any substitute form of insurance coverage." -> TWC right. Skip.
+- "Failure to maintain insurance coverage or acceptable alternative methods of insurance shall be deemed a breach of Contract." -> Consequence. Not a direct obligation. Skip.
+
+Page 15:
+- 3.16: "During the term of the Contract or any extension or renewal thereof, the Successful Bidder shall notify TWC in writing of any substantial change in the ownership or control of the Successful Bidder as soon as possible, but no later than thirty (30) days prior to its occurrence." -> shall notify. Binding. Category: deliverable.
+- "Successful Bidder must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence." -> must notify. Binding. Category: deliverable.
+- "The failure to notify TWC of a change of ownership or control or change in financial condition will be sufficient grounds for rejecting the Bid or terminating the Contract." -> Consequence. Skip.
+- "For the purposes of this section, examples of a substantial change in financial condition are events such as insolvency, bankruptcy, or receivership." -> Definition. Skip.
+- 3.17.1: "It is agreed by TWC and the Successful Bidder that:" -> Intro. Skip.
+  a. "If the Successful Bidder does not provide or perform the requirements referred to or listed in this Solicitation or fulfill the obligations of the Contract, damage to TWC will result;" -> Conditional statement. Skip.
+  b. "establishing the precise measure of damages in the event of default by the Successful Bidder may be (i) costly, (ii) time consuming, or (iii) difficult or impossible to calculate;" -> Skip.
+  c. "the liquidated damage assessments contained herein represent a good faith effort to quantify the damages that could reasonably be anticipated at the time of execution of the Contract;" -> Skip.
+  d. "the damages set forth herein are just and reasonable;" -> Skip.
+  e. "nothing contained in this section shall be construed as relieving the Successful Bidder from performing all Contract requirements whether or not said requirements are set forth herein;" -> This is a binding statement: "shall be construed as relieving...". It's a legal requirement. But it's more of a contractual term. Should I include? It's a bit meta. I'll skip it as it's not an active obligation.
+  f. "TWC may, therefore, in its sole discretion, deduct damages from the compensation otherwise due to the Successful Bidder." -> TWC right. Skip.
+  "All assessments of damages shall be within the sole discretion of TWC." -> Skip.
+- 3.17.2: "Once TWC has determined that Sanctions are to be assessed, the Executive Director or Executive Director’s designee shall notify the Successful Bidder of the assessment(s)." -> TWC obligation. Skip.
+  "TWC will withhold Sanctions from payments to the Successful Bidder or, if no payments are to be made, TWC will make demand of payment of Sanctions." -> Skip.
+  "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." -> must make payment. Binding on successful bidder. Category: deliverable.
+  "In the event the Successful Bidder fails to pay within the thirty (30) day period, TWC may make a claim for payment against the performance bond, with or without notice to the Successful Bidder, if applicable." -> Skip.
+- 3.17.3: "The failure of TWC to access Sanctions in any instance where TWC is entitled to Sanctions under the terms of this Solicitation, or the resulting Contract shall not constitute waiver in any fashion of TWC’s rights to assess Sanctions." -> Skip.
+
+Page 16-17:
+- 3.18: Similar to 3.17.1. Skip the "It is agreed" intro and items a-f as they are largely same as 3.17.1. Actually 3.18 is almost identical. Let's check if there are new obligations.
+  a. "If the Successful Bidder does not provide or perform the requirements referred to or listed in this Solicitation or fulfill the obligations of the Contract, damage to TWC will result;" -> Skip.
+  b. "Establishing the precise measure of damages in the event of default by the Successful Bidder may be (i) costly, (ii) time consuming, or (iii) difficult or impossible to calculate;" -> Skip.
+  c. "The liquidated damage assessments contained herein represent a good faith effort to quantify the damages that could reasonably be anticipated at the time of execution of the Contract;" -> Skip.
+  d. "The damages set forth herein are just and reasonable;" -> Skip.
+  e. "Nothing contained in this section shall be construed as relieving the Successful Bidder from performing all Contract requirements whether or not said requirements are set forth herein;" -> Skip.
+  f. "TWC may, therefore, in its sole discretion, deduct damages from compensation otherwise due to the Successful Bidder." -> Skip.
+  "All assessments of damages shall be within the sole discretion of TWC." -> Skip.
+- 3.18.1 Assessment of Liquidated Damages:
+  a. "Once TWC has determined that liquidated damages are to be assessed, the TWC shall notify the Successful Bidder of the assessment(s)." -> TWC action. Skip.
+  b. "Upon receipt of written notice, the Successful Bidder will have ten (10) days to provide a written explanation of any justification that may be applicable to the liquidated damages being considered and a corrective action plan for bringing the operations within the standards specified." -> "will have ten (10) days to provide". This is a binding obligation (will). Category: deliverable.
+  c. "TWC has the right to amend the corrective action plan submitted by the Successful Bidder." -> TWC right. Skip.
+  d. "In all cases, the corrective action plan must be approved by TWC in writing prior to implementation." -> must be approved. This is a requirement on the plan, but also implies bidder must get approval. It's a process requirement. Category: deliverable.
+  "The corrective action plan must be implemented by the Successful Bidder at no cost to and upon approval by the TWC Contract Manager." -> must be implemented. Binding. Category: deliverable.
+  e. "Liquidated damages will not be assessed during the specified cure period for the activity in question." -> Skip.
+  f. "If the breach is not cured or the Successful Bidder does not provide a written justification and/or approved corrective action plan, TWC will withhold liquidated damages from payments to the Successful Bidder, or, if no payments have been made, TWC will make demand of payment of liquidated damages." -> Skip.
+  g. "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." -> must make payment. Binding. Category: deliverable.
+  h. "In the event the Successful Bidder fails to pay within the thirty (30) day period, TWC may utilize the option to withhold any additional payments." -> Skip.
+  i. "Failure to pay assessed liquidated damages within the designated time frame may be deemed by TWC to be a breach of contract." -> Skip.
+
+Page 18:
+- 3.19: "If any provision or portion of this Solicitation is illegal, void, or unenforceable, the other provisions will not be affected." -> Skip.
+- 3.20: "If applicable, the Texas franchise tax is imposed on each taxable entity formed or organized in Texas or doing business in Texas." -> Info. Skip.
+  "Bidder must be set up in the Texas franchise tax system prior to Contract award if applicable." -> must be set up. Binding. Category: eligibility.
+- 3.21: "Bidder must indicate whether or not it holds any financial interest in any Subcontractor." -> must indicate. Binding. Category: form? Or eligibility? It's part of bid submission. I'll say form.
+  "As a condition of award, an authorized officer or agent of each proposed Subcontractor may be required to sign a statement to the effect that the Subcontractor has read, and will agree to abide by, Bidder’s obligations under any Contract awarded pursuant to this Solicitation." -> "may be required to sign". This is conditional. But it's a requirement that might apply. It's binding if subcontractor is used. Type: shall (must). Category: eligibility or form. I'll use eligibility since it's a condition of award.
+  "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." -> Two obligations here. Split.
+    - "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted,"
+    - "and the Subcontractor must comply with all applicable requirements of TWC."
+    Actually, the sentence has two independent obligations joined by "and". I should split them, repeating shared text? The shared text is maybe the condition. But they are independent. Let's split:
+    Row 1: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted,"
+    Row 2: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." -> No, the instruction says "repeating the shared text". The shared text could be the whole sentence minus the second clause? That's messy. Actually, the sentence is: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." The two obligations are: (1) Successful Bidder must obtain prior written approval... (2) Subcontractor must comply... The shared context is minimal. I can split as:
+    - "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted,"
+    - "The Subcontractor must comply with all applicable requirements of TWC."
+    But the second is not a complete sentence in the original; it's a clause after "and". However, the instruction says split into two rows repeating shared text. I could repeat the beginning: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." That's the full sentence. If I split, I might do:
+    Row 1: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." (focus on first obligation? No.)
+    Better to just keep it as one row since it's one sentence with two obligations but they are closely linked. But the instruction says "If a sentence contains two independent obligations, split it into two rows repeating the shared text." I think the safest is to split and include the full sentence in both? No, that would duplicate. "Repeating the shared text" means include the common context. For example:
+    Row 1: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." -> This is the full sentence, but that doesn't split the obligations.
+    Actually, I think the instruction is intended for sentences like "The vendor shall submit Form A and shall provide insurance." Shared text: "The vendor". Row 1: "The vendor shall submit Form A." Row 2: "The vendor shall provide insurance." In that case, you repeat "The vendor". Here, the subjects are different. I think it's acceptable to split into two separate sentence fragments, each capturing the exact clause. But to be safe, I'll include the full sentence for the first obligation and the full sentence for the second? That would be two identical rows. That doesn't help.
+    Let's look at the instruction again: "If a sentence contains two independent obligations, split it into two rows repeating the shared text." It doesn't specify how to handle different subjects. I'll capture the full sentence as one row to avoid inventing text, since splitting would require modifying the exact text. Actually, I can do:
+    Row 1: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted,"
+    Row 2: "the Subcontractor must comply with all applicable requirements of TWC."
+    But these are fragments. The instruction says "verbatim_text is the EXACT sentence(s)". Fragments are not sentences. So maybe keep as one row. I'll keep it as one row for safety, but note that it contains two obligations. Actually, I can split by repeating the conditional clause:
+    Row 1: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." -> This is the whole sentence. I can't split without breaking exactness. I'll keep as one row.
+  
+  "TWC reserves the sole right to require the Successful Bidder to terminate any Subcontractor with or without cause." -> TWC right. Skip.
+  "In the event TWC approves of the use of any Subcontractor, the Successful Bidder is not relieved of its responsibility and obligation to meet all the requirements of this Solicitation." -> Statement. Skip.
+  "TWC will incur no additional obligations, and the obligations of the Successful Bidder will not be reduced as a result of any such subcontracts." -> Skip.
+  "The Successful Bidder’s obligation to pay Subcontractors is governed by Texas Government Code § 2251.022 (Time for Payment by Vendor), and any amendments thereto." -> Info. Skip.
+
+Page 19:
+- 3.22: "Historical compensation under Contracts for similar goods or services and similar scope and size to this Solicitation was $25,333.33 per fiscal year." -> Info. Skip.
+  "TWC reserves the right to adjust any projected amount based on funding during the term of a resulting Contract." -> Skip.
+- Article IV. BID PROCESS
+- 4.1.1: "All requests, questions, or other communication about this Solicitation must be directed to the Sole Point of Contact." -> must be directed. Binding. Category: deliverable (or maybe info? It's a procedural rule). I'll use deliverable.
+- 4.1.2: "Except as provided in Section 4.1.1 (Sole Point of Contact) a potential Bidder and Bidder that has submitted a Bid is prohibited from any communication with TWC regarding the Solicitation." -> "is prohibited from". This is a prohibition (may not). Type: shall. Category: eligibility? Or deliverable? It's a bid process rule. I'll use eligibility.
+  "Unless allowable, TWC, its representative(s), and partners will not answer any questions or otherwise discuss the contents of this Solicitation with any potential Bidder or its representative(s)." -> Skip.
+  "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." -> Info/prohibition. Type: info? Or shall? It's a rule. "will not be allowed" implies prohibition. Type: shall (binding restriction). Category: eligibility.
+  "Bidder shall rely only on written statements issued by or through TWC designated staff as provided by Section 4.1 (Inquiries)." -> shall rely. Binding. Category: deliverable.
+  "Failure to comply with these restrictions may result in disqualification of Bidder's Bid." -> Consequence. Skip.
+  "These restrictions do not preclude discussions between affected parties for the purposes of conducting business unrelated to this Solicitation." -> Skip.
+
+Page 20:
+- 4.2.1: "Bidder must fully and completely address all requirements described in this Solicitation." -> must address. Binding. Category: deliverable.
+  "Incomplete or partial Bids will not be considered." -> Evaluation info. Category: evaluation. Type: info.
+  "The Bidder must provide all information that the Bidder believes would be helpful to TWC in evaluating the Bidder’s ability to fulfill the Solicitation requirements." -> must provide. Binding. Category: deliverable.
+  "Bidder shall prepare a Bid that clearly and concisely represents its qualifications and capabilities." -> shall prepare. Binding. Category: deliverable.
+- 4.2.2: "Bidders must notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the IFB." -> must notify. Binding. Category: deliverable.
+  "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not:" -> Intro to consequences. Skip? Actually, it's a conditional waiver. The obligations are in a-d:
+  a) "Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;" -> This is a consequence of failing to notify. It's stated as a declaration: "the Bidder... waives any claim". This is a requirement that is triggered. It's a binding effect. Should I include? It's a legal requirement. I'll include it as binding. Category: eligibility? Or deliverable? It's a legal condition. I'll use eligibility.
+  b) "Submits a Bid at its own risk;" -> Statement. Skip? It's a consequence.
+  c) "May not contest the interpretation by TWC of such provision(s);" -> "May not contest". Prohibition. Type: shall. Category: eligibility.
+  d) [Cut off in text? The text ends with "and". The next page is not provided. The user text ends at page 21 mid-sentence. I should extract only what's provided.]
+
+Wait, the text provided ends on page 21 with:
+"c) May not contest the interpretation by TWC of such provision(s); and"
+That's the end of the provided text. I should include c) if it's a complete requirement. It's a fragment? It's a clause in a list. The sentence is: "If Bidder fails..., the Bidder...: a)... b)... c)...". It's not a complete sentence on its own but part of the list. However, the instruction says "verbatim_text is the EXACT sentence(s)". I can include the whole sentence from "If Bidder fails..." to the end of c)? But d) is cut off. I should include a) and b) and c) as separate rows? Or include the whole conditional sentence? The conditional sentence is very long. It contains multiple obligations (waives, submits, may not contest). The instruction says split if two independent obligations. So I should split a, b, c. But they are not independent sentences; they are a list within the sentence. I can capture each as a row with the shared conditional text. For example:
+"If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: a) Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;"
+But that's still a fragment. Alternatively, I can treat the whole thing as one requirement up to the point where it's cut off? No, that's messy.
+
+Actually, looking at the text, the sentence is:
+"If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not:
+a) Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;
+b) Submits a Bid at its own risk;
+c) May not contest the interpretation by TWC of such provision(s); and"
+
+Since the text is cut off, I should only extract what is fully present. Items a, b, and c are complete clauses. I can extract them as separate requirements, repeating the shared conditional clause. But the exact text would be fragments. However, the instruction explicitly says to split. I'll do my best.
+
+Wait, I need to check if there are any other pages. The user provided text up to page 21. The table of contents on page 2 says "Page 2 of 25". So there are 25 pages, but only up to page 21 is provided. I must work with what is provided.
+
+Let me now compile the full list systematically.
+
+Page 1:
+- Header info: Bids Due: July 24,2026 by 10:00 a.m. Central Time. This is an administrative fact with a date. It's a deadline. Type: info. Category: deadline. due_date: 2026-07-24. But is it a sentence? It's a fragment. However, it's a key administrative fact. The exact text is "Bids Due: July 24,2026 by 10:00 a.m. Central Time". I'll include it. Section ref? It's on page 1, no section number. Maybe "Header" or use the nearest heading? The nearest heading is the IFB title. I can just put "" or "Header". But the instruction says "Use the nearest numbered heading if the sentence itself is unnumbered." There is no numbered heading nearby on page 1. The top has no section number. I could use "N/A" or leave it? The instruction says "section_ref is the RFP's own numbering (e.g. "3.2.1", "Section IV.B"). Use the nearest numbered heading if the sentence itself is unnumbered." On page 1, there are no numbered headings. I could put null or empty string. But JSON should have a value. I'll put "" or "Page 1". Actually, looking at the document, page 1 is just the cover. The deadline is repeated on page 8 with a section number. So maybe I don't need to include the page 1 fragment. But it's an administrative fact. I'll include it with section_ref as "Header" or just "". Let's use "Header" to be safe, or maybe omit it since page 8 covers it. The instruction says extract every requirement. The header is a requirement (deadline). I'll include it. section_ref: "Header" (not ideal but okay). Actually, looking at the example, they used "2.1", "2.2". If no number, maybe use the article title? "Article I" is on page 7. That's far. I'll just use "".
+
+Actually, I think it's better to rely on the explicit sentence on page 8 for the deadline requirement. The header is just a summary. I'll skip the header to avoid the section_ref issue, since page 8 has it covered in a proper sentence.
+
+Page 7:
+- Section 1.3: "Bidder is required to sign and return an Addendum or Addenda with the Bid." -> section_ref: "1.3", type: "shall", category: "form" (since it's a document to return). page: 7.
+
+Page 8:
+- Section 1.3: "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." -> section_ref: "1.3", type: "shall", category: "deadline", due_date: "2026-07-24", page: 8.
+- Section 2.2: "Only bids on items conforming exactly to these specifications, which include proposing only the brand name(s), make and model number(s) specified, will be considered in determining an award." -> section_ref: "2.2", type: "info", category: "evaluation", page: 8.
+
+Page 9:
+- Section 2.2 a: "Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-in connector." -> section_ref: "2.2", type: "shall", category: "deliverable", page: 9.
+- Section 2.2 b: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 1. The ability to export any ServiceNow tables and fields (including Custom tables and fields);" -> section_ref: "2.2", type: "shall", category: "deliverable", page: 9.
+- Section 2.2 b: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 2. The ability to include any amount of tables and fields to your Data Source;" -> ...
+- 3. ...
+- 4. ...
+- 5. ...
+- 6. ...
+- 7. ...
+- 8. ...
+- 9. ...
+- 10. ...
+
+Wait, the text for item 10 ends with a period. So the full sentence ends there.
+
+Let me write them out exactly as in text:
+1. "The ability to export any ServiceNow tables and fields (including Custom tables and fields);"
+2. "The ability to include any amount of tables and fields to your Data Source;"
+3. "The ability to create any amount of Data Sources (data sets);"
+4. "No limitations in exported data. To reduce the server load during the export process, the application provides the server-side pagination of data over the OData protocol (limited to 1.000 rows per page);"
+Wait, item 4 has an internal period. "No limitations in exported data. To reduce the server load during the export process, the application provides the server-side pagination of data over the OData protocol (limited to 1.000 rows per page);" This is one item. The period is inside the item. Since I'm repeating the shared text, the row would be: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 4. No limitations in exported data. To reduce the server load during the export process, the application provides the server-side pagination of data over the OData protocol (limited to 1.000 rows per page);" That's fine.
+5. "Advanced filtering options to manage data selection and export only the relevant information;"
+6. "Robust permission settings and access management for secure data sharing;"
+7. "Dot-walking mechanism for exporting Reference type data, allowing easy access and inclusion of fields from related tables;"
+8. "Incremental refresh support for efficient Power BI reports and dashboards updates without reimporting the entire dataset;"
+9. "Power Query support (merge ServiceNow with other data sources, transform data and load it into Power BI Desktop with no-code experience);"
+10. "Pre-typed data, eliminating the need for manual conversion to target types such as integer, boolean, decimal, etc."
+
+Actually, looking at the text, item 10 ends with a period after "etc." So the full sentence ends there.
+
+Page 10:
+- Section 3.4: Nothing to extract.
+- Section 3.5: "Pricing agreed to in any resulting Contract shall be firm and remain constant based on the price agreed upon at award through the life of the Contract and any exercised optional renewal terms, if applicable." -> section_ref: "3.5", type: "shall", category: "deliverable", page: 11.
+
+Page 11:
+- Section 3.6: "The pricing is considered all-inclusive, and no other pricing may be provided on an invoice." -> section_ref: "3.6", type: "shall" (may not), category: "deliverable", page: 11.
+
+Page 12:
+- Section 3.7: "The Contract may be amended only by written agreement signed by both the Successful Bidder and TWC." -> section_ref: "3.7", type: "shall" (binding restriction), category: "deliverable", page: 12.
+- Section 3.10: "Bids shall be binding for a period of ninety (90) days after the submission due date." -> section_ref: "3.10", type: "shall", category: "deliverable", page: 12.
+
+Page 13:
+- Section 3.12: "If Bidder asserts that information provided in its Bid is exempt from disclosure under the Texas Public Information Act, Bidder must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Bid and “Public Information Act Copy,” including attachments, of the Original Bid) as identified below." -> section_ref: "3.12", type: "shall" (must), category: "form", page: 13.
+- Section 3.13: "Within five (5) Business days from Contract execution, the Successful Bidder must submit a “Public Information Act Copy” of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email." -> section_ref: "3.13", type: "shall", category: "deliverable", page: 13.
+- Section 3.13 a: "The copy must be clearly marked as “Public Information Act Copy” on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Arial font or larger);" -> section_ref: "3.13", type: "shall", category: "deliverable", page: 13? Actually page 13 has the intro, page 14 has a, b, c. Let me check. Page 13 ends with "The Public Information Act Copy must meet the following requirements:". Page 14 has a, b, c. So page 14.
+- Section 3.13 b: "Each portion Successful Bidder claims is exempt from public disclosure must be redacted (blacked out);" -> page: 14.
+- Section 3.13 c: "Successful Bidder must identify, adjacent to each redaction, the claimed exemption from disclosure." -> page: 14.
+- Section 3.13 c cont: "Each identification provided as required in Subsection (b) of this section must be identical to those set forth in the Original Bid as required in Section 3.12 above." -> page: 14. This is a separate sentence. "Each identification... must be identical". Binding. Category: deliverable.
+- "The only difference in required markings and information between the Original Contract and the “Public Information Act Copy” of the contract will be redactions, which can only be included in the “Public Information Act Copy.”" -> page: 14. "can only be included" -> restriction. Type: shall. Category: deliverable.
+- "There must be no redactions in the Original Contract." -> page: 14. Type: shall. Category: deliverable.
+
+Page 14:
+- Section 3.14: "SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY BIDDER TO FULLY INDEMNIFY THE STATE OF TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF BIDDER OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO TWC BY BIDDER." -> page: 14. Type: shall. Category: eligibility.
+- Section 3.15: "For the duration of any Contract resulting from this Solicitation, the Successful Bidder shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 1 – TWC Terms and Conditions." -> page: 14. Type: shall. Category: deliverable.
+- Section 3.15 cont: "It will be the Bidder’s responsibility to recommend to TWC alternative methods of insuring the Contract." -> page: 15. Type: shall (will). Category: deliverable.
+- Section 3.15 cont: "Any alternatives proposed by Bidder should be accompanied by a detailed explanation regarding Bidder's inability to obtain the required insurance and/or bonds." -> page: 15. Type: should. Category: deliverable.
+
+Page 15:
+- Section 3.16: "During the term of the Contract or any extension or renewal thereof, the Successful Bidder shall notify TWC in writing of any substantial change in the ownership or control of the Successful Bidder as soon as possible, but no later than thirty (30) days prior to its occurrence." -> page: 15. Type: shall. Category: deliverable.
+- Section 3.16 cont: "Successful Bidder must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence." -> page: 15. Type: shall. Category: deliverable.
+
+Page 16:
+- Section 3.17.2: "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." -> page: 16. Type: shall. Category: deliverable.
+
+Page 17:
+- Section 3.18.1 b: "Upon receipt of written notice, the Successful Bidder will have ten (10) days to provide a written explanation of any justification that may be applicable to the liquidated damages being considered and a corrective action plan for bringing the operations within the standards specified." -> page: 17. Type: shall (will). Category: deliverable.
+- Section 3.18.1 d: "In all cases, the corrective action plan must be approved by TWC in writing prior to implementation." -> page: 17/18? Let's check. Page 17 ends with "c. TWC has the right...". Page 18 starts with "d. In all cases...". So page: 18.
+- Section 3.18.1 d cont: "The corrective action plan must be implemented by the Successful Bidder at no cost to and upon approval by the TWC Contract Manager." -> page: 18. Type: shall. Category: deliverable.
+- Section 3.18.1 g: "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." -> page: 18. Type: shall. Category: deliverable.
+
+Page 19:
+- Section 3.20: "Bidder must be set up in the Texas franchise tax system prior to Contract award if applicable." -> page: 19. Type: shall. Category: eligibility.
+- Section 3.21: "Bidder must indicate whether or not it holds any financial interest in any Subcontractor." -> page: 19. Type: shall. Category: form.
+- Section 3.21 cont: "As a condition of award, an authorized officer or agent of each proposed Subcontractor may be required to sign a statement to the effect that the Subcontractor has read, and will agree to abide by, Bidder’s obligations under any Contract awarded pursuant to this Solicitation." -> page: 19. Type: shall (may be required to sign). Category: eligibility.
+- Section 3.21 cont: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." -> page: 19/20? Page 19 ends with "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." Actually page 19 text: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC. TWC reserves the sole right..." So it's on page 19. I'll keep as one row. Type: shall. Category: deliverable.
+- Section 3.21 cont: "TWC reserves the sole right to require the Successful Bidder to terminate any Subcontractor with or without cause." -> TWC right. Skip.
+- Section 3.21 cont: "In the event TWC approves of the use of any Subcontractor, the Successful Bidder is not relieved of its responsibility and obligation to meet all the requirements of this Solicitation." -> Skip.
+- Section 3.21 cont: "TWC will incur no additional obligations, and the obligations of the Successful Bidder will not be reduced as a result of any such subcontracts." -> Skip.
+- Section 3.21 cont: "The Successful Bidder’s obligation to pay Subcontractors is governed by Texas Government Code § 2251.022 (Time for Payment by Vendor), and any amendments thereto." -> Info. Skip.
+
+Page 20:
+- Section 4.1.1: "All requests, questions, or other communication about this Solicitation must be directed to the Sole Point of Contact." -> page: 20. Type: shall. Category: deliverable.
+- Section 4.1.2: "Except as provided in Section 4.1.1 (Sole Point of Contact) a potential Bidder and Bidder that has submitted a Bid is prohibited from any communication with TWC regarding the Solicitation." -> page: 20. Type: shall. Category: eligibility.
+- Section 4.1.2 cont: "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." -> page: 20/21? Page 20 ends with "Attempts to ask questions by phone or in". Page 21 starts with "person will not be allowed or recognized as valid." So page 21. Type: shall. Category: eligibility.
+- Section 4.1.2 cont: "Bidder shall rely only on written statements issued by or through TWC designated staff as provided by Section 4.1 (Inquiries)." -> page: 21. Type: shall. Category: deliverable.
+
+Page 21:
+- Section 4.2.1: "Bidder must fully and completely address all requirements described in this Solicitation." -> page: 21. Type: shall. Category: deliverable.
+- Section 4.2.1 cont: "Incomplete or partial Bids will not be considered." -> page: 21. Type: info. Category: evaluation.
+- Section 4.2.1 cont: "The Bidder must provide all information that the Bidder believes would be helpful to TWC in evaluating the Bidder’s ability to fulfill the Solicitation requirements." -> page: 21. Type: shall. Category: deliverable.
+- Section 4.2.1 cont: "Bidder shall prepare a Bid that clearly and concisely represents its qualifications and capabilities." -> page: 21. Type: shall. Category: deliverable.
+- Section 4.2.2: "Bidders must notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the IFB." -> page: 21. Type: shall. Category: deliverable.
+- Section 4.2.2 cont: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not:" -> This is an intro. The actual obligations are a, b, c. I should capture a, b, c as separate rows with the shared conditional text.
+  a) "Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;" -> page: 21. Type: shall. Category: eligibility.
+  b) "Submits a Bid at its own risk;" -> page: 21. Type: info? Or shall? It's a declaration of what the bidder does. "Submits a Bid at its own risk". It's a consequence. Not a modal. Type: info. Category: evaluation? Or eligibility? It's a risk allocation. I'll use eligibility.
+  c) "May not contest the interpretation by TWC of such provision(s);" -> page: 21. Type: shall (may not). Category: eligibility.
+
+Wait, for a) "Waives any claim..." - the subject is "the Bidder". It's a statement. There's no modal. But it's a legal requirement that the bidder waives. Type: info? Or shall? The instruction says type "shall" for binding (shall/must/will/required). "Waives" is present tense, but it's binding. However, the type categories are limited. Since there's no modal, maybe "info"? But "info" is for administrative facts with no modal verb. This is not an administrative fact; it's a binding legal consequence. The instruction says type "shall" for binding (shall/must/will/required). It doesn't say "waives" is shall. But it's clearly a binding obligation. I think I should mark it as "shall" because it's binding language, even though it's not modal. Actually, the instruction says: 'type: "shall" for binding (shall/must/will/required)'. It lists specific modals. "Waives" doesn't fit. But "may not" in c) is listed as binding in the first paragraph ("may not"). The first paragraph says "Binding language: shall, must, will (vendor obligation), is required to, may not." So "may not" is binding. For a) and b), there is no modal. b) "Submits" is just a verb. a) "Waives" is just a verb. Are these "advisory"? No. "info"? They are not administrative facts. This is tricky. I think for consistency, since they are binding consequences, I could mark them as "shall" even though the verb is not modal, because the instruction says "shall, must, will (vendor obligation), is required to, may not". It might be implying those are the indicators. But the sentence "the Bidder waives..." is a declaration of what happens, not an instruction. However, in legal terms, it's equivalent to "the Bidder shall waive". I'll mark a) and b) as "info" or "shall"? Let's look at the example: The user example had "Late submissions will not be accepted." as type "info". That is a statement about what TWC will do. Similarly, "Incomplete or partial Bids will not be considered." is a statement. So type "info" is appropriate for statements that establish rules without modal verbs directed at the vendor. For a) "the Bidder waives...", it's a statement of what the bidder does (or is deemed to do). So "info" might be best. But it's a legal fiction. I'll use "info" for a) and b), and "shall" for c) because it has "may not". Actually, c) is "May not contest". That's a prohibition. The instruction explicitly lists "may not" as binding. So c) is "shall".
+
+Actually, looking back at page 20: "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." This is a statement about TWC's action. I marked it as shall earlier, but maybe it should be "info" like "Late submissions will not be accepted." The example had that as info. So I should mark "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." as type "info", category "eligibility". It's an administrative fact/rule.
+
+Similarly, "The only difference... will be redactions, which can only be included..." -> "can only be included" is a restriction. Is that binding? Yes. But no modal verb? "can" is a modal. But it's not in the list. However, it's a restriction. I'll mark it as "shall" because it's binding. Or "info"? The instruction says "info for administrative facts with no modal verb." This is a contractual restriction. I'll mark as "shall".
+
+Let me reconsider the "info" vs "shall" distinction. The instruction says:
+- "shall" for binding (shall/must/will/required)
+- "should" for advisory
+- "info" for administrative facts with no modal verb.
+
+So if a sentence has no modal verb and is not an administrative fact (like a deadline or form name), but is a binding rule (e.g., "Late submissions will not be accepted"), the example marked it as "info". So "info" is used for rules stated as facts. Therefore:
+- "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." -> info.
+- "The only difference... will be redactions, which can only be included..." -> This has "can only be included". It's a modal but not the typical binding one. However, it's a restriction. I'll mark as "shall" because it's binding. But if I'm strict, "can" is not in the list. But "may not" is. "Can only be included" is similar to "may only be included". I'll mark as "shall".
+- "There must be no redactions..." -> must. shall.
+- "Each identification... must be identical..." -> must. shall.
+- "The copy must be clearly marked..." -> must. shall.
+- "Each portion... must be redacted..." -> must. shall.
+- "Successful Bidder must identify..." -> must. shall.
+
+For the waiver on page 14: "SUBMISSION OF ANY DOCUMENT... CONSTITUTES AN IRREVOCABLE WAIVER..." -> No modal verb directed at bidder. It's a statement of fact. But it's a binding condition. The example didn't have such a case. I'll mark it as "shall" because it's a binding obligation triggered by submission. Or "info"? It's not an administrative fact like a deadline. It's a legal term. But it has no modal. I'll mark as "shall" because it's effectively a binding requirement. Actually, to be consistent with the example "Late submissions will not be accepted" being info, maybe this is info too? No, that's about TWC's action. This is about bidder's legal status. Hmm. I'll mark it as "shall" because it's a vendor obligation (to indemnify/waive). The instruction says "shall, must, will (vendor obligation), is required to, may not". This is a vendor obligation even if phrased as "constitutes". I'll use "shall".
+
+Now, let's list all requirements in order with IDs.
+
+R-001: Page 7, 1.3: "Bidder is required to sign and return an Addendum or Addenda with the Bid." -> shall, form.
+
+R-002: Page 8, 1.3: "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." -> shall, deadline, 2026-07-24.
+
+R-003: Page 8, 2.2: "Only bids on items conforming exactly to these specifications, which include proposing only the brand name(s), make and model number(s) specified, will be considered in determining an award." -> info, evaluation.
+
+R-004: Page 9, 2.2 a: "Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-in connector." -> shall, deliverable.
+
+R-005: Page 9, 2.2 b (item 1): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 1. The ability to export any ServiceNow tables and fields (including Custom tables and fields);" -> shall, deliverable.
+
+R-006: Page 9, 2.2 b (item 2): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 2. The ability to include any amount of tables and fields to your Data Source;" -> shall, deliverable.
+
+R-007: Page 9, 2.2 b (item 3): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 3. The ability to create any amount of Data Sources (data sets);" -> shall, deliverable.
+
+R-008: Page 9, 2.2 b (item 4): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 4. No limitations in exported data. To reduce the server load during the export process, the application provides the server-side pagination of data over the OData protocol (limited to 1.000 rows per page);" -> shall, deliverable.
+
+R-009: Page 9, 2.2 b (item 5): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 5. Advanced filtering options to manage data selection and export only the relevant information;" -> shall, deliverable.
+
+R-010: Page 9, 2.2 b (item 6): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 6. Robust permission settings and access management for secure data sharing;" -> shall, deliverable.
+
+R-011: Page 9, 2.2 b (item 7): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 7. Dot-walking mechanism for exporting Reference type data, allowing easy access and inclusion of fields from related tables;" -> shall, deliverable.
+
+R-012: Page 9, 2.2 b (item 8): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 8. Incremental refresh support for efficient Power BI reports and dashboards updates without reimporting the entire dataset;" -> shall, deliverable.
+
+R-013: Page 9, 2.2 b (item 9): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 9. Power Query support (merge ServiceNow with other data sources, transform data and load it into Power BI Desktop with no-code experience);" -> shall, deliverable.
+
+R-014: Page 9, 2.2 b (item 10): "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 10. Pre-typed data, eliminating the need for manual conversion to target types such as integer, boolean, decimal, etc." -> shall, deliverable.
+
+R-015: Page 11, 3.5: "Pricing agreed to in any resulting Contract shall be firm and remain constant based on the price agreed upon at award through the life of the Contract and any exercised optional renewal terms, if applicable." -> shall, deliverable.
+
+R-016: Page 11, 3.6: "The pricing is considered all-inclusive, and no other pricing may be provided on an invoice." -> shall, deliverable.
+
+R-017: Page 12, 3.7: "The Contract may be amended only by written agreement signed by both the Successful Bidder and TWC." -> shall, deliverable.
+
+R-018: Page 12, 3.10: "Bids shall be binding for a period of ninety (90) days after the submission due date." -> shall, deliverable.
+
+R-019: Page 13, 3.12: "If Bidder asserts that information provided in its Bid is exempt from disclosure under the Texas Public Information Act, Bidder must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Bid and “Public Information Act Copy,” including attachments, of the Original Bid) as identified below." -> shall, form.
+
+R-020: Page 13, 3.13: "Within five (5) Business days from Contract execution, the Successful Bidder must submit a “Public Information Act Copy” of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email." -> shall, deliverable.
+
+R-021: Page 14, 3.13 a: "The copy must be clearly marked as “Public Information Act Copy” on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Arial font or larger);" -> shall, deliverable.
+
+R-022: Page 14, 3.13 b: "Each portion Successful Bidder claims is exempt from public disclosure must be redacted (blacked out);" -> shall, deliverable.
+
+R-023: Page 14, 3.13 c: "Successful Bidder must identify, adjacent to each redaction, the claimed exemption from disclosure." -> shall, deliverable.
+
+R-024: Page 14, 3.13 c cont: "Each identification provided as required in Subsection (b) of this section must be identical to those set forth in the Original Bid as required in Section 3.12 above." -> shall, deliverable.
+
+R-025: Page 14, 3.13 cont: "The only difference in required markings and information between the Original Contract and the “Public Information Act Copy” of the contract will be redactions, which can only be included in the “Public Information Act Copy.”" -> shall, deliverable.
+
+R-026: Page 14, 3.13 cont: "There must be no redactions in the Original Contract." -> shall, deliverable.
+
+R-027: Page 14, 3.14: "SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY BIDDER TO FULLY INDEMNIFY THE STATE OF TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF BIDDER OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO TWC BY BIDDER." -> shall, eligibility.
+
+R-028: Page 14, 3.15: "For the duration of any Contract resulting from this Solicitation, the Successful Bidder shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 1 – TWC Terms and Conditions." -> shall, deliverable.
+
+R-029: Page 15, 3.15 cont: "It will be the Bidder’s responsibility to recommend to TWC alternative methods of insuring the Contract." -> shall, deliverable.
+
+R-030: Page 15, 3.15 cont: "Any alternatives proposed by Bidder should be accompanied by a detailed explanation regarding Bidder's inability to obtain the required insurance and/or bonds." -> should, deliverable.
+
+R-031: Page 15, 3.16: "During the term of the Contract or any extension or renewal thereof, the Successful Bidder shall notify TWC in writing of any substantial change in the ownership or control of the Successful Bidder as soon as possible, but no later than thirty (30) days prior to its occurrence." -> shall, deliverable.
+
+R-032: Page 15, 3.16 cont: "Successful Bidder must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence." -> shall, deliverable.
+
+R-033: Page 16, 3.17.2: "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." -> shall, deliverable.
+
+R-034: Page 17, 3.18.1 b: "Upon receipt of written notice, the Successful Bidder will have ten (10) days to provide a written explanation of any justification that may be applicable to the liquidated damages being considered and a corrective action plan for bringing the operations within the standards specified." -> shall, deliverable.
+
+R-035: Page 18, 3.18.1 d: "In all cases, the corrective action plan must be approved by TWC in writing prior to implementation." -> shall, deliverable.
+
+R-036: Page 18, 3.18.1 d cont: "The corrective action plan must be implemented by the Successful Bidder at no cost to and upon approval by the TWC Contract Manager." -> shall, deliverable.
+
+R-037: Page 18, 3.18.1 g: "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." -> shall, deliverable.
+
+R-038: Page 19, 3.20: "Bidder must be set up in the Texas franchise tax system prior to Contract award if applicable." -> shall, eligibility.
+
+R-039: Page 19, 3.21: "Bidder must indicate whether or not it holds any financial interest in any Subcontractor." -> shall, form.
+
+R-040: Page 19, 3.21 cont: "As a condition of award, an authorized officer or agent of each proposed Subcontractor may be required to sign a statement to the effect that the Subcontractor has read, and will agree to abide by, Bidder’s obligations under any Contract awarded pursuant to this Solicitation." -> shall, eligibility.
+
+R-041: Page 19, 3.21 cont: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." -> shall, deliverable.
+
+R-042: Page 20, 4.1.1: "All requests, questions, or other communication about this Solicitation must be directed to the Sole Point of Contact." -> shall, deliverable.
+
+R-043: Page 20, 4.1.2: "Except as provided in Section 4.1.1 (Sole Point of Contact) a potential Bidder and Bidder that has submitted a Bid is prohibited from any communication with TWC regarding the Solicitation." -> shall, eligibility.
+
+R-044: Page 21, 4.1.2 cont: "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." -> info, eligibility.
+
+R-045: Page 21, 4.1.2 cont: "Bidder shall rely only on written statements issued by or through TWC designated staff as provided by Section 4.1 (Inquiries)." -> shall, deliverable.
+
+R-046: Page 21, 4.2.1: "Bidder must fully and completely address all requirements described in this Solicitation." -> shall, deliverable.
+
+R-047: Page 21, 4.2.1 cont: "Incomplete or partial Bids will not be considered." -> info, evaluation.
+
+R-048: Page 21, 4.2.1 cont: "The Bidder must provide all information that the Bidder believes would be helpful to TWC in evaluating the Bidder’s ability to fulfill the Solicitation requirements." -> shall, deliverable.
+
+R-049: Page 21, 4.2.1 cont: "Bidder shall prepare a Bid that clearly and concisely represents its qualifications and capabilities." -> shall, deliverable.
+
+R-050: Page 21, 4.2.2: "Bidders must notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the IFB." -> shall, deliverable.
+
+R-051: Page 21, 4.2.2 cont: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: a) Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;" -> info, eligibility. (Or shall? I'll use info as it's a stated consequence without modal.)
+
+R-052: Page 21, 4.2.2 cont: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: b) Submits a Bid at its own risk;" -> info, eligibility.
+
+R-053: Page 21, 4.2.2 cont: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: c) May not contest the interpretation by TWC of such provision(s);" -> shall, eligibility.
+
+Wait, for R-051 and R-052, should I repeat the full conditional clause? The instruction says "repeating the shared text". The shared text is the conditional clause. So yes.
+
+Now, I need to double-check page 10-11 for any missed requirements.
+Page 10:
+- 3.1: "The Terms and Conditions identified in the Solicitation and Attachment 1 – TWC Terms and Conditions are applicable to this Solicitation and any Contract resulting from this Solicitation." -> Not a bidder action. Skip.
+- "TWC reserves the right to incorporate additional provisions in the Contract in the best interest of TWC." -> Skip.
+- "In the event of a conflict between this Solicitation and applicable laws and regulations, precedence shall be given to the laws and regulations." -> Not a bidder action. Skip.
+- 3.2: "TWC intends to award one (1) Contract as a result of this Solicitation." -> Skip.
+- "A written notice of Contract Award will be posted on the ESBD, and notification will be sent to all Bidders immediately following execution of the Contract." -> Skip.
+- 3.3: "If, for any reason, a Contract cannot be executed with a Bidder selected for award within thirty (30) days of TWC’s determination to seek to contract with that Bidder, TWC may negotiate a Contract with the next lowest responsive Bidder or may withdraw, modify, or partially award this Solicitation." -> Skip.
+- 3.4: "The Contract Term will commence on the later of August 15, 2026 or the fully executed Contract date and expire twelve (12) months from that date." -> Skip.
+- Page 11: "The Contract is contingent upon the continued availability of funding." -> Skip.
+- "Following the base term and any allowable renewals or extensions, TWC may extend any resulting Contract for not more than one additional option period to address immediate operational or service delivery needs." -> Skip.
+- "If the resulting Contract does not include a defined option period, the extension is limited to one year." -> Skip.
+
+Page 12:
+- 3.8: "TWC makes no guarantee of volume, usage, or total compensation to be paid to a Bidder under an awarded Contract, if any, resulting from this Solicitation." -> Skip.
+- "TWC reserves the right to cancel, make partial award, or decline to award a Contract under this Solicitation at any time at its sole discretion." -> Skip.
+- 3.9: "If Bidder is responding to this Solicitation in its capacity as a governmental entity, certain Terms and Conditions found in this Solicitation, including exhibits and attachments, may not be applicable." -> This is a conditional fact. Not a requirement. Skip.
+- "Furthermore, to the extent permitted by law, if a Bid is received from a governmental entity, TWC reserves the right to enter into an interagency or interlocal agreement with the governmental entity." -> Skip.
+- 3.10: "A Bidder may extend the time for which its Bid will be honored." -> Permissive. Skip.
+- "Upon Contract execution, prices agreed upon by the Successful Bidders(s) are an irrevocable offer for the term of the Contract and any Contract renewals or extension(s)." -> Skip.
+- "No other costs, rates, or fees shall be payable to the Successful Bidder unless expressly agreed upon in writing by TWC." -> Skip.
+
+Page 13:
+- 3.11: All skip.
+- 3.12: "Information, documentation, and other materials submitted in connection with this Solicitation or resulting Contract may be subject to public disclosure pursuant to the Texas Public Information Act, Texas Government Code, Chapter 552." -> Skip.
+- "See Attachment 1 - Terms and Conditions, Section 2.4." -> Skip.
+- "This copy is in addition to the original and all copies otherwise required under the provisions of this Solicitation." -> Skip.
+
+Page 14:
+- 3.15: "Notwithstanding the preceding, TWC reserves the right to consider reasonable alternative methods of insuring the Contract in lieu of the insurance policies customarily required." -> Skip.
+- "TWC shall be the sole and final judge as to the adequacy of any substitute form of insurance coverage." -> Skip.
+- "Failure to maintain insurance coverage or acceptable alternative methods of insurance shall be deemed a breach of Contract." -> Consequence. Skip.
+
+Page 15:
+- 3.17.1: All skip.
+- 3.17.2: "Once TWC has determined that Sanctions are to be assessed, the Executive Director or Executive Director’s designee shall notify the Successful Bidder of the assessment(s)." -> TWC action. Skip.
+- "TWC will withhold Sanctions from payments to the Successful Bidder or, if no payments are to be made, TWC will make demand of payment of Sanctions." -> Skip.
+- "In the event the Successful Bidder fails to pay within the thirty (30) day period, TWC may make a claim for payment against the performance bond, with or without notice to the Successful Bidder, if applicable." -> Skip.
+- 3.17.3: Skip.
+
+Page 16-17:
+- 3.18: Skip intro.
+- 3.18.1 a: Skip (TWC action).
+- 3.18.1 c: "TWC has the right to amend the corrective action plan submitted by the Successful Bidder." -> Skip.
+- 3.18.1 e: Skip.
+- 3.18.1 f: Skip.
+- 3.18.1 h: Skip.
+- 3.18.1 i: Skip.
+
+Page 18:
+- 3.19: Skip.
+
+Page 19:
+- 3.22: Skip.
+
+Page 20:
+- 4.1.2: "Unless allowable, TWC, its representative(s), and partners will not answer any questions or otherwise discuss the contents of this Solicitation with any potential Bidder or its representative(s)." -> Skip.
+- "Failure to comply with these restrictions may result in disqualification of Bidder's Bid." -> Consequence. Skip.
+- "These restrictions do not preclude discussions between affected parties for the purposes of conducting business unrelated to this Solicitation." -> Skip.
+
+Now, check if there are any other administrative facts: submission deadlines (covered), question deadlines (none mentioned), conference dates (none), required forms (Form 2 - Cost Sheet mentioned, Attachment 1, Attachment A? Wait, Attachment 1 is mentioned. Are there required forms? Let's check.
+- Page 3: "LIST OF ATTACHMENTS AND FORMS" but the list is not fully provided. Page 3 shows "Article VI. Required Bid Information ... 6.1 Execution of Bid ... 6.2 Cost Sheet ... LIST OF ATTACHMENTS AND FORMS ... 25". The actual list is on page 25, which is not provided. However, in the text, there are references to forms:
+  - Page 11: "Payment will be made by TWC in accordance with the pricing provided on Form 2 – Cost Sheet." -> This mentions Form 2 – Cost Sheet as something the bidder must provide pricing on. Is it a requirement? "The pricing provided on Form 2 – Cost Sheet" implies the bidder must use Form 2. But it's not explicitly stated as "Bidder must complete Form 2". It says "Payment will be made... in accordance with the pricing provided on Form 2". This is an administrative fact about payment. But it implies the bidder must provide pricing on Form 2. However, without the explicit instruction "Bidder must complete Form 2", it's borderline. The instruction says "required forms" are administrative facts to include. Is Form 2 mentioned as required? In Section 6.2: "Cost Sheet" is listed under Required Bid Information. But the text for 6.2 is not provided (page 24 is not provided). So I cannot extract it. I should not invent.
+  - Page 10: "The Terms and Conditions identified in the Solicitation and Attachment 1 – TWC Terms and Conditions are applicable..." -> Attachment 1 is referenced but not explicitly required to be submitted by bidder in the provided text. Usually attachments are required, but I need explicit text. The text says "The Terms and Conditions identified in the Solicitation and Attachment 1... are applicable". Not "Bidder must submit Attachment 1".
+  - Page 14: "in the type and amount listed in Attachment 1 – TWC Terms and Conditions." -> Reference.
+  - Page 13: "See Attachment 1 - Terms and Conditions, Section 2.4." -> Reference.
+  
+  So I think I have captured all explicit requirements in the provided text.
+
+One more check: Page 8, 2.2: "These specifications are being advertised under Section 2155.067 of the Texas Government Code." -> Not a requirement. Skip.
+
+Page 9: "Successful Bidder must provide key features..." I split into 10. That's a lot but correct.
+
+Now, check for any "should" or "encouraged" I missed.
+- Page 15: "Any alternatives proposed by Bidder should be accompanied by a detailed explanation..." -> captured as R-030.
+- Are there any others? "Bidder should..."? Not that I see.
+
+Check for "will" as vendor obligation.
+- Page 15: "It will be the Bidder’s responsibility to recommend..." -> captured as R-029.
+- Page 17: "the Successful Bidder will have ten (10) days to provide..." -> captured as R-034.
+- Page 14: "SUBMISSION... CONSTITUTES..." -> captured as R-027.
+
+Check for deadlines with dates.
+- Page 8: Bid deadline July 24, 2026. Captured.
+- Page 13: "Within five (5) Business days from Contract execution" -> relative, not fixed date. Category deliverable.
+- Page 15: "no later than thirty (30) days prior to its occurrence" -> relative.
+- Page 15: "no later than ten (10) days after its occurrence" -> relative.
+- Page 16: "within thirty (30) days of TWC’s demand" -> relative.
+- Page 17: "ten (10) days to provide" -> relative.
+- Page 18: "within thirty (30) days of TWC’s demand" -> relative.
+
+Check for evaluation criteria.
+- Page 8: "Only bids on items conforming exactly... will be considered..." -> captured as R-003.
+- Page 21: "Incomplete or partial Bids will not be considered." -> captured as R-047.
+- Are there others? Page 5 mentions evaluation criteria? No. Page 23 (Article V) is not provided. So only these two.
+
+Check for page numbers. I need to be careful. The text has "[page X]" markers. I should use those.
+
+Let me verify each row's page number:
+- R-001: page 7 (text "[page 7]")
+- R-002: page 8
+- R-003: page 8
+- R-004: page 9
+- R-005 to R-014: page 9
+- R-015: page 11 (text starts on page 11: "3.5 P RICE ADJUSTMENT")
+- R-016: page 11
+- R-017: page 12
+- R-018: page 12
+- R-019: page 13
+- R-020: page 13
+- R-021: page 14 (3.13 a is on page 14)
+- R-022: page 14
+- R-023: page 14
+- R-024: page 14
+- R-025: page 14
+- R-026: page 14
+- R-027: page 14
+- R-028: page 14
+- R-029: page 15
+- R-030: page 15
+- R-031: page 15
+- R-032: page 15
+- R-033: page 16
+- R-034: page 17
+- R-035: page 18
+- R-036: page 18
+- R-037: page 18
+- R-038: page 19
+- R-039: page 19
+- R-040: page 19
+- R-041: page 19
+- R-042: page 20
+- R-043: page 20
+- R-044: page 21
+- R-045: page 21
+- R-046: page 21
+- R-047: page 21
+- R-048: page 21
+- R-049: page 21
+- R-050: page 21
+- R-051: page 21
+- R-052: page 21
+- R-053: page 21
+
+Now, check the exact verbatim text for each. I need to make sure punctuation and capitalization match exactly.
+
+R-001: "Bidder is required to sign and return an Addendum or Addenda with the Bid." (Exact from page 7).
+
+R-002: "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." (Exact from page 8).
+
+R-003: "Only bids on items conforming exactly to these specifications, which include proposing only the brand name(s), make and model number(s) specified, will be considered in determining an award." (Exact from page 8).
+
+R-004: "Successful Bidder must provide the acSoft Inc ServiceNow Power BI plug-in connector." (Exact from page 9).
+
+R-005: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 1. The ability to export any ServiceNow tables and fields (including Custom tables and fields);" (Exact from page 9). Note: The original has "1." after the colon. I need to make sure the spacing is correct. In the text: "which include: \n1. The ability...". So with colon and space.
+
+R-006: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 2. The ability to include any amount of tables and fields to your Data Source;" (Exact).
+
+R-007: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 3. The ability to create any amount of Data Sources (data sets);" (Exact).
+
+R-008: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 4. No limitations in exported data. To reduce the server load during the export process, the application provides the server-side pagination of data over the OData protocol (limited to 1.000 rows per page);" (Exact).
+
+R-009: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 5. Advanced filtering options to manage data selection and export only the relevant information;" (Exact).
+
+R-010: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 6. Robust permission settings and access management for secure data sharing;" (Exact).
+
+R-011: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 7. Dot-walking mechanism for exporting Reference type data, allowing easy access and inclusion of fields from related tables;" (Exact).
+
+R-012: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 8. Incremental refresh support for efficient Power BI reports and dashboards updates without reimporting the entire dataset;" (Exact).
+
+R-013: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 9. Power Query support (merge ServiceNow with other data sources, transform data and load it into Power BI Desktop with no-code experience);" (Exact).
+
+R-014: "Successful Bidder must provide key features of the acSoft Inc ServiceNow Power BI plug-in connector which include: 10. Pre-typed data, eliminating the need for manual conversion to target types such as integer, boolean, decimal, etc." (Exact).
+
+R-015: "Pricing agreed to in any resulting Contract shall be firm and remain constant based on the price agreed upon at award through the life of the Contract and any exercised optional renewal terms, if applicable." (Exact from page 11).
+
+R-016: "The pricing is considered all-inclusive, and no other pricing may be provided on an invoice." (Exact from page 11).
+
+R-017: "The Contract may be amended only by written agreement signed by both the Successful Bidder and TWC." (Exact from page 12).
+
+R-018: "Bids shall be binding for a period of ninety (90) days after the submission due date." (Exact from page 12).
+
+R-019: "If Bidder asserts that information provided in its Bid is exempt from disclosure under the Texas Public Information Act, Bidder must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Bid and “Public Information Act Copy,” including attachments, of the Original Bid) as identified below." (Exact from page 13). Note: The quotes are smart quotes “”. I need to preserve them.
+
+R-020: "Within five (5) Business days from Contract execution, the Successful Bidder must submit a “Public Information Act Copy” of the Original Executed Contract (in addition to the original executed contract) to the TWC contract manager by email." (Exact from page 13). Smart quotes.
+
+R-021: "The copy must be clearly marked as “Public Information Act Copy” on the front page in large, bold, capitalized letters (the size of, or equivalent to, 12-point Arial font or larger);" (Exact from page 14).
+
+R-022: "Each portion Successful Bidder claims is exempt from public disclosure must be redacted (blacked out);" (Exact from page 14).
+
+R-023: "Successful Bidder must identify, adjacent to each redaction, the claimed exemption from disclosure." (Exact from page 14).
+
+R-024: "Each identification provided as required in Subsection (b) of this section must be identical to those set forth in the Original Bid as required in Section 3.12 above." (Exact from page 14).
+
+R-025: "The only difference in required markings and information between the Original Contract and the “Public Information Act Copy” of the contract will be redactions, which can only be included in the “Public Information Act Copy.”" (Exact from page 14).
+
+R-026: "There must be no redactions in the Original Contract." (Exact from page 14).
+
+R-027: "SUBMISSION OF ANY DOCUMENT TO TWC IN RESPONSE TO THIS SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY BIDDER TO FULLY INDEMNIFY THE STATE OF TEXAS AND TWC FROM ANY CLAIM OF INFRINGEMENT AGAINST THE STATE OF TEXAS AND TWC REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF BIDDER OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO TWC BY BIDDER." (Exact from page 14).
+
+R-028: "For the duration of any Contract resulting from this Solicitation, the Successful Bidder shall acquire insurance, bonds, or both, with financially sound and reputable independent insurers, in the type and amount listed in Attachment 1 – TWC Terms and Conditions." (Exact from page 14).
+
+R-029: "It will be the Bidder’s responsibility to recommend to TWC alternative methods of insuring the Contract." (Exact from page 15).
+
+R-030: "Any alternatives proposed by Bidder should be accompanied by a detailed explanation regarding Bidder's inability to obtain the required insurance and/or bonds." (Exact from page 15).
+
+R-031: "During the term of the Contract or any extension or renewal thereof, the Successful Bidder shall notify TWC in writing of any substantial change in the ownership or control of the Successful Bidder as soon as possible, but no later than thirty (30) days prior to its occurrence." (Exact from page 15).
+
+R-032: "Successful Bidder must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence." (Exact from page 15).
+
+R-033: "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." (Exact from page 16).
+
+R-034: "Upon receipt of written notice, the Successful Bidder will have ten (10) days to provide a written explanation of any justification that may be applicable to the liquidated damages being considered and a corrective action plan for bringing the operations within the standards specified." (Exact from page 17).
+
+R-035: "In all cases, the corrective action plan must be approved by TWC in writing prior to implementation." (Exact from page 18).
+
+R-036: "The corrective action plan must be implemented by the Successful Bidder at no cost to and upon approval by the TWC Contract Manager." (Exact from page 18).
+
+R-037: "The Successful Bidder must make payment within thirty (30) days of TWC’s demand." (Exact from page 18).
+
+R-038: "Bidder must be set up in the Texas franchise tax system prior to Contract award if applicable." (Exact from page 19).
+
+R-039: "Bidder must indicate whether or not it holds any financial interest in any Subcontractor." (Exact from page 19).
+
+R-040: "As a condition of award, an authorized officer or agent of each proposed Subcontractor may be required to sign a statement to the effect that the Subcontractor has read, and will agree to abide by, Bidder’s obligations under any Contract awarded pursuant to this Solicitation." (Exact from page 19).
+
+R-041: "The Successful Bidder must obtain prior written approval from TWC if any part of the Contract between TWC and the Successful Bidder is to be subcontracted, and the Subcontractor must comply with all applicable requirements of TWC." (Exact from page 19).
+
+R-042: "All requests, questions, or other communication about this Solicitation must be directed to the Sole Point of Contact." (Exact from page 20).
+
+R-043: "Except as provided in Section 4.1.1 (Sole Point of Contact) a potential Bidder and Bidder that has submitted a Bid is prohibited from any communication with TWC regarding the Solicitation." (Exact from page 20).
+
+R-044: "Attempts to ask questions by phone or in person will not be allowed or recognized as valid." (Exact from page 21).
+
+R-045: "Bidder shall rely only on written statements issued by or through TWC designated staff as provided by Section 4.1 (Inquiries)." (Exact from page 21).
+
+R-046: "Bidder must fully and completely address all requirements described in this Solicitation." (Exact from page 21).
+
+R-047: "Incomplete or partial Bids will not be considered." (Exact from page 21).
+
+R-048: "The Bidder must provide all information that the Bidder believes would be helpful to TWC in evaluating the Bidder’s ability to fulfill the Solicitation requirements." (Exact from page 21).
+
+R-049: "Bidder shall prepare a Bid that clearly and concisely represents its qualifications and capabilities." (Exact from page 21).
+
+R-050: "Bidders must notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the IFB." (Exact from page 21).
+
+R-051: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: a) Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;" (Exact from page 21).
+
+R-052: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: b) Submits a Bid at its own risk;" (Exact from page 21).
+
+R-053: "If Bidder fails to properly and timely notify the Sole Point of Contact, Section 4.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, the Bidder, whether awarded a contract or not: c) May not contest the interpretation by TWC of such provision(s);" (Exact from page 21).
+
+Now, check if any requirement is missed on page 10-11:
+- 3.6: "TWC must acknowledge that the services have been satisfactorily performed..." -> TWC obligation. Skip.
+- "Any additional expenses incurred by the Contractor are the responsibility of the Contractor and will not be paid by TWC." -> Not a modal directed at vendor. Skip.
+- "TWC will not pay any per diem..." -> Skip.
+
+Page 12:
+- 3.11: "Bidder understands..." -> Skip.
+- "Costs of developing Bids... are entirely the responsibility of the Bidder, and will not be reimbursed..." -> Skip.
+
+Page 13:
+- 3.12: "If Bidder asserts..." -> captured.
+- 3.13: "Within five (5) Business days..." -> captured.
+
+Page 14:
+- 3.14: captured.
+- 3.15: captured.
+
+Page 15:
+- 3.16: captured.
+- 3.17.1: skipped.
+- 3.17.2: "The Successful Bidder must make payment..." -> captured.
+
+Page 16-17:
+- 3.18: skipped.
+- 3.18.1: captured b, d, g.
+
+Page 18:
+- 3.19: skipped.
+- 3.20: captured.
+- 3.21: captured.
+
+Page 19:
+- 3.22: skipped.
+- 4.1.1: captured.
+- 4.1.2: captured.
+
+Page 20-21:
+- 4.2.1: captured.
+- 4.2.2: captured.
+
+One thing: On page 8, there is also: "Bidder must submit its Bid to TWC in accordance with the due date and time as indicated in this Schedule of Events or as changed via a notification of an Addendum posted to the ESBD." This is a shall. I have it as R-002.
+
+Also on page 8, the Schedule table has "Deadline for Submission of Bids (NOTE: Bids must be RECEIVED by TWC by the deadline) July 24,2026 at 10:00 AM Central Time". The NOTE says "Bids must be RECEIVED by TWC by the deadline". This is a binding requirement. Should I include it separately? It's part of the table. The text is: "Deadline for Submission of Bids (NOTE: Bids must be RECEIVED by TWC by the deadline) July 24,2026 at 10:00 AM Central Time". It's not a complete sentence. But the note is a sentence/fragment. However, R-002 already covers submission. The note emphasizes receipt. I think R-002 is sufficient. But to be thorough, I could include the note as an info requirement. But it's not a full sentence. I'll skip it.
+
+Also on page 1: "Sole Point of Contact for this IFB (see Section 4.1) Kelly Hall... VendorProposals@twc.texas.gov". This is an administrative fact (delivery address for communication). But it's not a sentence. And it's repeated in Section 4.1.1 on page 20 with more context. I have R-042 requiring communication to be directed there. The address itself is info. Should I include it as a separate info row? The instruction says include "delivery addresses" as administrative facts. The email address is a delivery address for proposals? Actually, page 22 (not provided) might have delivery instructions. On page 1, it's under "Sole Point of Contact". On page 20, it's the same. But there is no explicit "Bids must be delivered to..." in the provided text. Section 4.3 "Bid Submission and Delivery" is on page 22, not provided. So I cannot extract delivery address requirements. The email address on page 1 is just contact info, not necessarily the delivery address for bids. So I'll skip.
+
+What about page 3: "Article VI. Required Bid Information 6.1 Execution of Bid 6.2 Cost Sheet". These are section headings. Without the actual text, I can't extract.
+
+Now, check category for R-019: "If Bidder asserts... Bidder must mark and submit two separate... copies..." This is about submitting specific PDF copies. It's a form requirement. Category: form. Good.
+
+R-039: "Bidder must indicate whether or not it holds any financial interest in any Subcontractor." This is information to be provided in the bid. Category: form. Good.
+
+R-040: "As a condition of award, an authorized officer or agent of each proposed Subcontractor may be required to sign a statement..." This is a condition of award, so eligibility is appropriate.
+
+R-043: "
+
+=== CHUNK BREAK ===
+
+The user wants me to extract a compliance matrix from the provided RFP text for Solicitation ID 3202600219.
+
+Let me go through the text page by page, section by section, and identify every requirement that meets the tests.
+
+Page 22:
+- Section 4.2.3: "TWC reserves the right to make changes to or cancel this Solicitation." - This is about TWC's rights, not a vendor obligation. Skip.
+- "TWC will post all changes and modifications..." - TWC obligation, not vendor. Skip.
+- 4.3.1 Deadline: "Bids must be received by PS as prescribed no later than date and time specified in Section 1.3 (Schedule of Events)." - Binding on vendor (must), administrative fact (deadline). But wait, it references Section 1.3 which isn't provided in the text. The user only provided pages 22-25. I should still extract this requirement as it appears on page 22. It's a deadline but without a specific date in the text itself. Category: deadline. Type: shall (must). Due_date: null (since it references another section and no date is given on this page).
+- 4.3.2 Submission Method: "You must submit your bid electronically by email to VendorProposals@twc.texas.gov." - Binding (must), deliverable/submission method. Category: deliverable? Or form? It's about how to submit. Actually, looking at categories: eligibility | deliverable | deadline | form | evaluation. This is a submission requirement. Probably "deliverable" or maybe "info"? Wait, the rules say type is "shall" for binding, and category is the single best fit. This is about submitting the bid, so maybe "deliverable" since it's what they must provide/do. Or could be "form" if it's about forms, but this is about submission method. I'll put "deliverable" since it's an action the vendor must take.
+- "Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line." - This is directed at vendor, binding language implied? It says "Reference..." which is imperative. The tests include binding language like shall/must/will. This is an imperative sentence without a modal. But the rules say extract requirements that meet ANY of these tests: binding language, advisory language, or administrative facts a bidder must act on. Is this an administrative fact a bidder must act on? Yes, submission requirements. But wait, the rules say type is "shall" for binding, "should" for advisory, "info" for administrative facts with no modal verb. This sentence has no modal verb but is clearly a requirement (imperative). However, the rules say type "info" is for administrative facts with no modal verb. Is this an administrative fact? It's a submission instruction. I think it qualifies as a requirement to extract. Let me check: "Reference the IFB Title..." - it's telling the bidder what to do. I'll extract it as type "info" or "shall"? The rules say type "shall" is for binding (shall/must/will/required). This doesn't have those words. But it's clearly a binding requirement. However, the rules are strict: type "shall" for binding language, "info" for administrative facts with no modal verb. Is this an administrative fact? It's a procedural requirement. I think "info" is appropriate since there's no modal verb, but it's a fact they must act on. Actually, looking at the example in the system prompt: "Late submissions will not be accepted" was extracted as type "info". That has no modal directed at vendor. Here "Reference..." is imperative directed at vendor. But the rules say type is determined by language. Since there's no shall/must/will/required, it's not "shall". Since it's not advisory, it's "info". Category: deliverable (it's part of submission requirements).
+- "In no event will TWC be responsible..." - Not a vendor obligation. Skip.
+- "TWC is not responsible..." - Not a vendor obligation. Skip.
+- "Hard copies received will not be accepted or reviewed." - Administrative fact bidder must act on (don't submit hard copies). Type: info. Category: deliverable (or eligibility? No, it's about submission format). Actually, this is an administrative fact. Category: deliverable? Or maybe just info. But the categories are limited. It's about what will happen to hard copies, which affects how they submit. I'll say category: deliverable since it's about the bid submission.
+- "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC." - This is a bit meta. It says bidder is responsible for ensuring... It's a binding obligation (is responsible). But does it have binding language? "is solely responsible" - not exactly shall/must/will, but close. However, it's more of a general statement. I think I should include it as it states an obligation. Type: shall? Or info? The phrase "is responsible" isn't in the list (shall, must, will, is required to, may not). But "ensuring timely receipt" is a key obligation. I'll extract it as type "info" since no exact modal from the shall list is present, or maybe "shall" because "is...responsible" functions similarly? The rules say: type "shall" for binding (shall/must/will/required). "is responsible" is not in that list. I'll use "info" since it's an administrative fact with no modal verb. Category: deliverable.
+
+Page 23:
+- 5.1 SCREENING OF RESPONSES: "An administrative screening of Responses timely received will be conducted..." - TWC action, not vendor obligation. Skip.
+- a. "Bidder has completed, signed and submitted Form 1 – Execution of Bid in accordance with Section 6.1 Execution of Bid." - This is describing what makes a response responsive. It's a requirement that the bidder must meet. It's an administrative fact/evaluation criterion. The language is "has completed" - past tense describing a state. But it's effectively saying bidders must do this. It's an evaluation criterion (screening). Category: evaluation. Type: info (no modal verb in this bullet, but it's a screening criterion). Actually, looking at the rules: "Administrative facts a bidder must act on: ... evaluation criteria and weights." So category: evaluation. Type: info.
+- b. "Bidder has completed and submitted Form 2 – Cost Sheet in accordance with Section 6.3 Cost Sheet." - Same as above. Category: evaluation. Type: info.
+- c. "Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of “D” or below shall be disqualified from consideration for award." - This is about disqualification. It uses "shall". Is this a vendor obligation? It's a condition that applies to bidders. It's an eligibility requirement. Category: eligibility. Type: shall.
+- "TWC reserves the right to ask questions..." - TWC right, not vendor obligation. Skip.
+- 5.2 EVALUATION: "TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB." - Evaluation criterion. Category: evaluation. Type: info.
+
+Page 24:
+- SUBMITTING BID INFORMATION checklist:
+  - "Form 1 - Execution of Bid" - Administrative fact. Category: form. Type: info.
+  - "Form 2- Cost Sheet" - Administrative fact. Category: form. Type: info.
+  - "Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure" - Administrative fact. Category: form? Or info? It's about a requirement to submit something if applicable. Category: form (since it's listed under required bid information). Type: info.
+  - "Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form" - Administrative fact. Category: form. Type: info.
+- 6.1 EXECUTION OF BID: "Bidder must complete, sign, and return Form 1 – Execution of Bid." - Binding (must). Category: form. Type: shall.
+- "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award." - This is a consequence of signing. It's a requirement (agrees to provide... agrees to abide). Binding language? "agrees" - not exactly shall/must/will, but it's a contractual obligation. However, the rules say type "shall" for binding (shall/must/will/required). "agrees" is not in that list. But it's clearly a binding obligation. Wait, the rules say "shall, must, will (vendor obligation), is required to, may not." "Agrees" is not there. But the sentence says "Bidder agrees to provide..." which is a statement of what the bidder does by signing. Is this a requirement to extract? It's a vendor obligation (they must agree to these things by signing). I think I should extract it. Type: shall? Or info? Since it's describing what the bidder agrees to, and "agrees" implies obligation, but strictly speaking the modal list doesn't include "agrees". However, the first test is "Binding language: shall, must, will (vendor obligation), is required to, may not." It doesn't say "only these exact words" but gives examples. But the type field says type "shall" for binding (shall/must/will/required). I think "agrees to provide" and "agrees to abide" are binding obligations. But to be safe and consistent with the strict typing, maybe type "info"? No, that seems wrong. Actually, looking at the sentence: "By signing, Bidder agrees to provide..." - this is explaining the effect of signing. The actual requirement is to sign Form 1, which is already captured. This sentence explains what the signature means. Is it a separate requirement? It says the bidder agrees to provide goods/services and abide by terms. This is a substantive obligation. I'll extract it as type "shall" since it's a binding obligation, even though the word is "agrees". Wait, the rules are quite specific about types. Let me reconsider. Maybe I should only use "shall" when those exact words appear? The prompt says: "type: 'shall' for binding (shall/must/will/required)". This suggests those are the exact indicators. "agrees" is not in that list. But the sentence is definitely a requirement. I'll mark it as "shall" because it's binding, or perhaps "info" if I'm being pedantic. Actually, looking at the example: "Late submissions will not be accepted" was marked "info". That has "will" but it's not a vendor obligation. So "will" is context-dependent. Here "agrees" is a verb indicating obligation. I think the safest is to mark binding obligations as "shall" even if the exact word isn't in the list, BUT the prompt says type "shall" for binding (shall/must/will/required). This parenthetical seems to list the words. However, "Bidder agrees to abide" is functionally equivalent to "Bidder shall abide". I'll mark it as "shall".
+- 6.2 COST SHEET: "Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation." - Binding (must). Category: form. Type: shall.
+- "Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract." - Binding (shall). This is about the bid content/pricing. Category: deliverable? Or evaluation? It's a requirement for the bid/pricing. Category: deliverable. Type: shall.
+
+Page 25:
+- LIST OF ATTACHMENTS AND FORMS - just a list, no requirements.
+
+Wait, I need to check page 22 again for the first bullet under 4.2:
+"d) Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction."
+This is part of a larger list (probably 4.2.2 or something). It says "Is not entitled..." This is a statement about the bidder's rights, not something they must do. It's a limitation. Does it meet the tests? It's not binding language directed at vendor (it's about what they are not entitled to). It's not advisory. It's an administrative fact? Maybe, but it's not something they must act on, it's a legal disclaimer. I think skip.
+
+Let me reconsider the checklist on page 24. The items are:
+" Form 1 - Execution of Bid"
+" Form 2- Cost Sheet"
+" Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure"
+" Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form"
+
+These are clearly administrative facts about required forms. I should extract them. Category: form. Type: info.
+
+Now let me organize all requirements in document order:
+
+Page 22:
+1. "Bids must be received by PS as prescribed no later than date and time specified in Section 1.3 (Schedule of Events)." - R-001. Section 4.3.1. Type: shall. Category: deadline. Due_date: null (no date on this page, it references another section).
+2. "You must submit your bid electronically by email to VendorProposals@twc.texas.gov." - R-002. Section 4.3.2. Type: shall. Category: deliverable.
+3. "Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line." - R-003. Section 4.3.2. Type: info. Category: deliverable (or form? No, it's about email subject line, part of submission). Actually, looking at categories, maybe "deliverable" is best since it's part of what/how they submit.
+4. "Hard copies received will not be accepted or reviewed." - R-004. Section 4.3.2. Type: info. Category: deliverable.
+5. "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC." - R-005. Section 4.3.2. Type: info. Category: deliverable.
+
+Page 23:
+6. "Bidder has completed, signed and submitted Form 1 – Execution of Bid in accordance with Section 6.1 Execution of Bid." - R-006. Section 5.1.a. Type: info. Category: evaluation. (This is a screening criterion).
+7. "Bidder has completed and submitted Form 2 – Cost Sheet in accordance with Section 6.3 Cost Sheet." - R-007. Section 5.1.b. Type: info. Category: evaluation.
+8. "Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of “D” or below shall be disqualified from consideration for award." - R-008. Section 5.1.c. Type: shall. Category: eligibility.
+9. "TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB." - R-009. Section 5.2. Type: info. Category: evaluation.
+
+Page 24:
+10. "Form 1 - Execution of Bid" - R-010. Section "SUBMITTING BID INFORMATION". Type: info. Category: form.
+11. "Form 2- Cost Sheet" - R-011. Section "SUBMITTING BID INFORMATION". Type: info. Category: form.
+12. "Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure" - R-012. Section "SUBMITTING BID INFORMATION". Type: info. Category: form.
+13. "Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form" - R-013. Section "SUBMITTING BID INFORMATION". Type: info. Category: form.
+14. "Bidder must complete, sign, and return Form 1 – Execution of Bid." - R-014. Section 6.1. Type: shall. Category: form.
+15. "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award." - R-015. Section 6.1. Type: shall? Or info? I'll go with "shall" because it's a binding obligation, but I'm uncertain. Actually, looking at the strict wording: "type: 'shall' for binding (shall/must/will/required)". The word "agrees" is not there. But the sentence "Bidder agrees to provide..." is a statement of obligation. However, the rules say "Do NOT invent requirements." Does this mean I should be strict about the type? The type is metadata. I think "shall" is appropriate because it's binding. But to be extremely precise, maybe "info" since it contains no modal verb from the list? No, "agrees" is a performative verb creating obligation. I'll use "shall".
+16. "Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation." - R-016. Section 6.2. Type: shall. Category: form.
+17. "Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract." - R-017. Section 6.2. Type: shall. Category: deliverable.
+
+Wait, I need to reconsider R-015. The sentence starts with "By signing, Bidder agrees to provide..." This is really one sentence with two obligations: provide goods/services AND abide by terms. The rule says: "If a sentence contains two independent obligations, split it into two rows repeating the shared text." So:
+15a. "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award." - Actually, the shared text is "By signing, Bidder agrees to". The two obligations are:
+- provide the goods and/or services described in this Solicitation
+- abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award
+
+But the sentence structure is: "By signing, Bidder agrees to provide... and agrees to abide..." It's a bit awkward to split because the second part has "agrees to" repeated. Let me look at the exact text: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award."
+
+Actually, it says "agrees to provide... and agrees to abide...". So the shared text could be "By signing, Bidder" and then two verbs with "agrees to". The rule says "repeating the shared text". So:
+Row 1: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award." -> No, that's the whole sentence.
+
+Better to split as:
+Row 1: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation."
+Row 2: "By signing, Bidder agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award."
+
+But wait, the exact sentence doesn't have a period after "Solicitation". It says "...described in this Solicitation and agrees to abide...". So if I split, I need to repeat shared text. The shared text is "By signing, Bidder". But that might not be enough context. The rule says "repeating the shared text". So:
+- "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation."
+- "By signing, Bidder agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award."
+
+This seems reasonable. The shared text is "By signing, Bidder agrees to" but the first clause has "provide..." and the second has "abide...". Actually, looking closely: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award."
+
+The conjunction "and" joins two verb phrases both governed by "agrees to":
+1. provide the goods and/or services described in this Solicitation
+2. abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award
+
+Wait, actually it's "agrees to provide... and agrees to abide...". The "agrees to" is repeated. So the shared text could be "By signing, Bidder". But to make complete sentences, I should include "agrees to" in each? The rule says "repeating the shared text". It doesn't say I must make them grammatical. But usually, we want them to be complete thoughts. Let me just keep it as one row since "agrees to" is repeated and it's essentially two coordinated clauses with the same subject. Actually, the rule is explicit: "If a sentence contains two independent obligations, split it into two rows repeating the shared text." So I must split.
+
+Shared text: "By signing, Bidder"
+Row 1: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation."
+Row 2: "By signing, Bidder agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award."
+
+Wait, if shared text is "By signing, Bidder", then row 1 would be "By signing, Bidder agrees to provide..." and row 2 would be "By signing, Bidder agrees to abide...". That works because "agrees to" is part of each independent clause. Actually, the shared text is really "By signing, Bidder agrees to". But then row 1 would be "By signing, Bidder agrees to provide..." and row 2 would be "By signing, Bidder agrees to abide...". That seems fine.
+
+Let me reconsider whether to include R-005: "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC." This sentence actually contains two obligations: ensuring bid is submitted in accordance with requirements, and ensuring timely receipt. Should I split? "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC." The shared text would be "Each Bidder is solely responsible for ensuring". Then:
+- "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements."
+- "Each Bidder is solely responsible for ensuring timely receipt by TWC."
+
+But is "ensuring timely receipt by TWC" a separate obligation? Yes. However, the original says "ensuring its Bid is submitted... and ensuring timely receipt...". The shared text is "Each Bidder is solely responsible for". But to make sense, maybe "Each Bidder is solely responsible for ensuring". Let's look at the exact text: "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC."
+
+Actually, the structure is: "responsible for ensuring [A] and ensuring [B]". The shared text is "Each Bidder is solely responsible for ensuring". Then:
+Row 1: "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements."
+Row 2: "Each Bidder is solely responsible for ensuring timely receipt by TWC."
+
+But row 2 without "its Bid" is slightly odd but understandable from context. Actually, the text says "ensuring timely receipt by TWC" which implies receipt of the Bid. I could include "its Bid" but it's not in the text for the second part. The exact text for the second part is just "ensuring timely receipt by TWC". So shared text "Each Bidder is solely responsible for" and then:
+- "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements."
+- "Each Bidder is solely responsible for ensuring timely receipt by TWC."
+
+Hmm, the first one has "ensuring its Bid..." and the second has "ensuring timely receipt...". The word "ensuring" is in both. So shared text could be "Each Bidder is solely responsible for". That works.
+
+But wait, is this sentence really two independent obligations? It's one responsibility with two aspects. The rule says "If a sentence contains two independent obligations". I think it's borderline. I'll keep it as one to avoid over-splitting, or split it. The instruction says "split it into two rows repeating the shared text". I'll split it to be thorough.
+
+Similarly, R-009: "TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB." This is an evaluation criterion with two parts: purchase price and meeting requirements. But it's describing what TWC will consider, not really two vendor obligations. It's one evaluation criterion. Keep as one.
+
+R-016: "Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation." Two obligations: included as separate document, presented only in format. Split?
+- "Cost information must be included as a separate document."
+- "Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation."
+Shared text: "Cost information must". This seems like a good split.
+
+R-014: "Bidder must complete, sign, and return Form 1 – Execution of Bid." Three obligations: complete, sign, return. Split?
+- "Bidder must complete Form 1 – Execution of Bid."
+- "Bidder must sign Form 1 – Execution of Bid."
+- "Bidder must return Form 1 – Execution of Bid."
+Shared text: "Bidder must". The rule says "If a sentence contains two independent obligations, split it into two rows repeating the shared text." Three is fine too. But is "complete, sign, and return" three independent obligations? Yes. However, they are often treated as a single procedural step. But to be thorough and ensure no "shall" is missed, splitting is safer. Actually, the instruction says "split it into two rows repeating the shared text" - this implies exactly two? No, it means if there are two or more. I'll split into three.
+
+Wait, but looking at the example in the system prompt, they didn't split "one (1) original and three (3) copies" even though that's two things. They kept it as one. So maybe I shouldn't over-split lists that are part of a single deliverable. "Complete, sign, and return" is a standard phrase for forms. I'll keep it as one requirement. Similarly, "included as a separate document and presented only in the format" could be one requirement about cost sheet submission. I'll keep R-016 as one.
+
+Let me reconsider R-003: "Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line." This is one imperative with a list of three things to reference. Keep as one.
+
+Now, what about the checklist items on page 24? They are just labels. "Form 1 - Execution of Bid" - is this a requirement? It's listed under "SUBMITTING BID INFORMATION" with checkboxes. It's clearly indicating these must be submitted. Yes, extract.
+
+Let me double-check the section references. The text has:
+Page 22: 4.3.1, 4.3.2
+Page 23: 5.1 (with a, b, c), 5.2
+Page 24: "SUBMITTING BID INFORMATION" (no number), 6.1, 6.2
+Page 25: "LIST OF ATTACHMENTS AND FORMS" (no requirements)
+
+For the checklist, the nearest numbered heading is 6.1? No, it's under "Article VI. REQUIRED BID INFORMATION" then "SUBMITTING BID INFORMATION". The section_ref should be the nearest numbered heading. Article VI is the heading. But 6.1 and 6.2 are subsections. The checklist appears before 6.1. The nearest numbered heading might be "Article VI" or just the unnumbered "SUBMITTING BID INFORMATION". The rule says: "section_ref is the RFP's own numbering (e.g. '3.2.1', 'Section IV.B'). Use the nearest numbered heading if the sentence itself is unnumbered." The nearest numbered heading above the checklist is probably "Article VI" or maybe there's no number. Actually, looking at the text:
+"Article VI. REQUIRED BID INFORMATION
+SUBMITTING BID INFORMATION  
+ Form 1..."
+So the nearest numbered heading is "Article VI" or "6". But the subsections are 6.1, 6.2. The checklist is before 6.1. I could use "Article VI" or "6". But since the document uses "Article VI", I'll use "Article VI" or maybe just "6" since other refs are like 4.3.2, 5.1. Actually, the document uses "ARTICLE V" and "Article VI." I'll use "Article VI" for the checklist items.
+
+Wait, looking more carefully at page 24:
+"Article VI. REQUIRED BID INFORMATION 
+SUBMITTING BID INFORMATION  
+ Form 1 - Execution of Bid 
+..."
+Then "6.1 EXECUTION OF BID".
+So the checklist is under Article VI but before 6.1. I'll use "Article VI" as section_ref.
+
+Actually, I could also argue that the checklist is part of 6.1 etc., but it's unnumbered. "Use the nearest numbered heading". The nearest numbered heading above it is "Article VI" (or VI). I'll use "Article VI".
+
+Now, for R-009 (5.2 EVALUATION), the text says "TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB." This is evaluation criteria. Category: evaluation. Type: info.
+
+Let me reconsider R-004: "Hard copies received will not be accepted or reviewed." This is an administrative fact. But is it a requirement the vendor must act on? Yes, they must not submit hard copies. Category: deliverable? Or maybe "info" category isn't in the list. The categories are: eligibility | deliverable | deadline | form | evaluation. So where does "Hard copies won't be accepted" go? It's about submission format. I'll put it under "deliverable" since it's about how the bid (deliverable) is submitted.
+
+Actually, looking at the categories again:
+- eligibility: prerequisites, certifications, etc.
+- deliverable: things the vendor must provide/do
+- deadline: dates/times
+- form: required forms
+- evaluation: evaluation criteria
+
+"Hard copies received will not be accepted" is a submission instruction. It's not really a deliverable, but it's closest to deliverable (the bid is the deliverable). Or maybe I should skip it? The rules say extract administrative facts a bidder must act on: submission deadlines, question deadlines, conference dates, required forms, page limits, copy counts, delivery addresses, eligibility/certification prerequisites, evaluation criteria and weights. "Hard copies received will not be accepted" is a submission method fact. It's not explicitly in the list, but "submission deadlines" and "delivery addresses" are. I think it qualifies as an administrative fact about submission. I'll include it as deliverable.
+
+Similarly, "Each Bidder is solely responsible..." is about submission. Deliverable.
+
+Now, what about 4.2.3: "TWC reserves the right to make changes..." - Skip, it's TWC's right.
+"TWC will post all changes..." - Skip, TWC obligation.
+
+Let me check if I missed anything on page 22 at the top:
+"d) Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction."
+This is item d) under some section (probably 4.2.2). It's a statement about the bidder's legal position. It doesn't tell the bidder to do anything. It's a disclaimer. Skip.
+
+Now, let me finalize the list with IDs in document order:
+
+R-001: Bids must be received by PS as prescribed no later than date and time specified in Section 1.3 (Schedule of Events). [4.3.1, shall, deadline, p22]
+R-002: You must submit your bid electronically by email to VendorProposals@twc.texas.gov. [4.3.2, shall, deliverable, p22]
+R-003: Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line. [4.3.2, info, deliverable, p22]
+R-004: Hard copies received will not be accepted or reviewed. [4.3.2, info, deliverable, p22]
+R-005: Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC. [4.3.2, info, deliverable, p22]
+Wait, I decided to split R-005? Let me decide. "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC."
+Two obligations:
+1. ensuring its Bid is submitted in accordance with all Solicitation requirements
+2. ensuring timely receipt by TWC
+I'll split:
+R-005: Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements. [4.3.2, info, deliverable, p22]
+R-006: Each Bidder is solely responsible for ensuring timely receipt by TWC. [4.3.2, info, deliverable, p22]
+
+But wait, the exact text has "ensuring timely receipt by TWC" not "ensuring its Bid... receipt". The shared text is "Each Bidder is solely responsible for". So:
+R-005: Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements.
+R-006: Each Bidder is solely responsible for ensuring timely receipt by TWC.
+That works.
+
+Continuing:
+R-007: Bidder has completed, signed and submitted Form 1 – Execution of Bid in accordance with Section 6.1 Execution of Bid. [5.1.a, info, evaluation, p23]
+R-008: Bidder has completed and submitted Form 2 – Cost Sheet in accordance with Section 6.3 Cost Sheet. [5.1.b, info, evaluation, p23]
+R-009: Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of “D” or below shall be disqualified from consideration for award. [5.1.c, shall, eligibility, p23]
+R-010: TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB. [5.2, info, evaluation, p23]
+
+R-011: Form 1 - Execution of Bid [Article VI, info, form, p24]
+R-012: Form 2- Cost Sheet [Article VI, info, form, p24]
+R-013: Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure [Article VI, info, form, p24]
+R-014: Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form [Article VI, info, form, p24]
+
+R-015: Bidder must complete, sign, and return Form 1 – Execution of Bid. [6.1, shall, form, p24]
+Split? I'll keep as one. It's a standard form completion requirement.
+
+R-016: By signing, Bidder agrees to provide the goods and/or services described in this Solicitation. [6.1, shall, deliverable, p24]
+R-017: By signing, Bidder agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award. [6.1, shall, deliverable, p24]
+
+R-018: Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation. [6.2, shall, form, p24]
+Split? Two obligations: included as separate document, presented only in format. I'll split to be safe:
+R-018: Cost information must be included as a separate document. [6.2, shall, form, p24]
+R-019: Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation. [6.2, shall, form, p24]
+Shared text: "Cost information must".
+
+R-020: Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract. [6.2, shall, deliverable, p24]
+Wait, this sentence has two obligations: shall be firm, and remain constant. But it's really one pricing requirement. Keep as one.
+
+Actually, looking at R-018/019 split: "included as a separate document and presented only in the format" - these are two distinct requirements. Splitting is correct.
+
+Now, checking R-015 again: "Bidder must complete, sign, and return Form 1 – Execution of Bid." If I were to split this, it would be:
+- Bidder must complete Form 1...
+- Bidder must sign Form 1...
+- Bidder must return Form 1...
+But "complete, sign, and return" is a conventional sequence for forms. The instruction says "If a sentence contains two independent obligations". These are independent but highly correlated. I think keeping as one is acceptable and less noisy. I'll keep it as one.
+
+Similarly for R-007: "completed, signed and submitted" - keep as one because it's a screening criterion describing the state.
+
+What about R-003: "Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line." Three items to reference. Keep as one.
+
+Now, checking due dates. Only R-001 mentions a deadline but refers to Section 1.3, so no ISO date can be extracted from the text. due_date: null for all.
+
+Wait, R-001 says "no later than date and time specified in Section 1.3". Since the date is not on this page, I leave due_date as null.
+
+Let me double-check page 23, 5.1.c: "Bidder who receives an overall score... shall be disqualified..." This is an eligibility requirement. Type: shall. Category: eligibility.
+
+Is there anything else? Page 25 is just a list of attachments, no requirements.
+
+One more check: Page 22, 4.3.2: "In no event will TWC be responsible or liable for any delay or error in delivery." Not a vendor obligation. Skip.
+
+I think I have all requirements. Let me count: 20 requirements. Let me verify the IDs are sequential and in document order.
+
+R-001 p22 4.3.1
+R-002 p22 4.3.2
+R-003 p22 4.3.2
+R-004 p22 4.3.2
+R-005 p22 4.3.2
+R-006 p22 4.3.2
+R-007 p23 5.1.a
+R-008 p23 5.1.b
+R-009 p23 5.1.c
+R-010 p23 5.2
+R-011 p24 Article VI
+R-012 p24 Article VI
+R-013 p24 Article VI
+R-014 p24 Article VI
+R-015 p24 6.1
+R-016 p24 6.1
+R-017 p24 6.1
+R-018 p24 6.2
+R-019 p24 6.2
+R-020 p24 6.2
+
+Wait, R-010 is p23 5.2. Then R-011 starts p24 Article VI. That's correct.
+
+Actually, looking at R-015, R-016, R-017: they are all section 6.1. R-015 is the must complete/sign/return. R-016 and R-017 are the split from the "agrees" sentence. That's fine.
+
+One final check: R-005 and R-006 split from "Each Bidder is solely responsible...". The shared text is "Each Bidder is solely responsible for". 
+R-005: Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements.
+R-006: Each Bidder is solely responsible for ensuring timely receipt by TWC.
+These are accurate extractions.
+
+Actually, I want to reconsider whether "Each Bidder is solely responsible..." should be extracted at all. It's a general statement of responsibility. It doesn't specify a concrete action beyond what's already required. However, it does create an explicit obligation regarding "timely receipt" which is separate from the deadline itself. I'll keep it.
+
+Also, should I extract "TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB." as evaluation? Yes, it's explicitly evaluation criteria.
+
+What about the checklist items R-011 through R-014? Are they requirements or just a list? They are under "SUBMITTING BID INFORMATION" with checkboxes, clearly indicating required submissions. The rules say extract "required forms". These are required forms. Yes.
+
+Now, formatting the JSON. The user wants a compliance matrix in JSON format like the example.
+
+One thing: the system prompt example had "due_date" field. I need to include it for deadline category. R-001 is deadline but due_date is null because the date is in Section 1.3 not provided. I should still include the field as null or omit it? The example included it as null for non-deadline items? Actually in the example:
+R-001: category "deadline", due_date: "2026-03-05"
+R-002: category "deadline", due_date: null
+So yes, include due_date for all rows, null when not applicable or not available.
+
+Wait, the example had R-002 as "Late submissions will not be accepted." category deadline, due_date null. So I should include due_date for all.
+
+Let me verify the verbatim_text for R-013: "Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure" - there's a dash after "Public Information Act -" in the text. I should preserve that exactly.
+
+For R-012: "Form 2- Cost Sheet" (no space after 2, dash with space after). Preserve exactly.
+
+For R-003: "Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line." Note the comma after "time". Preserve.
+
+For R-018 and R-019 split:
+Original: "Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation."
+R-018: "Cost information must be included as a separate document."
+R-019: "Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation."
+Shared text: "Cost information must". This looks good.
+
+Actually, looking at the original: "Cost information must be included as a separate document and presented only in the format..." The word "and" connects the two. By splitting, R-018 ends with "document." which adds a period not in the original. The rules say "verbatim_text is the EXACT sentence(s) from the RFP." But if I'm splitting, I have to modify the text slightly (add period, remove "and"). Is that allowed? The rule says "Never paraphrase, never summarize, never fix typos. Trim only surrounding boilerplate." Splitting requires some adjustment. The example didn't show splitting. But the rule explicitly says "If a sentence contains two independent obligations, split it into two rows repeating the shared text." This implies it's required to split, which necessitates minor punctuation adjustments. I think adding a period to make a complete sentence is acceptable as part of the splitting process, or I can leave it without a period? Better to keep it as close as possible. Maybe:
+R-018: "Cost information must be included as a separate document"
+R-019: "Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation"
+Without periods? But the instruction says "sentence(s)". Sentences usually end with periods. However, the first part originally had no period. To be safe, I won't add a period if it's not there, but then it's not a complete sentence. The rule says "verbatim_text is the EXACT sentence(s)". If the original is one sentence, splitting it means each row contains a fragment. I think that's okay given the explicit instruction to split. I'll keep the text exact except for the split point, and not add periods. Actually, looking at the instruction again: "split it into two rows repeating the shared text". It doesn't say to add punctuation. So:
+R-018: "Cost information must be included as a separate document"
+R-019: "Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation"
+But these aren't sentences. Hmm. Maybe I should keep it as one row since the instruction about exact sentences might override? No, the instruction explicitly says to split. I think adding a period is a necessary consequence of splitting and is acceptable. I'll add periods to make them sentences, as the original intent is clear.
+
+Wait, I can also keep the shared text such that each part is grammatical without adding words. For example:
+R-018: "Cost information must be included as a separate document." (adding period)
+R-019: "Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation." (period already there if it's the end)
+Since the original ends with a period, R-019 gets the original period. R-018 needs one. I'll add it.
+
+Similarly for R-005/006:
+Original: "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC."
+R-005: "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements." (add period)
+R-006: "Each Bidder is solely responsible for ensuring timely receipt by TWC." (add period)
+
+And R-016/017:
+Original: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award."
+R-016: "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation." (add period)
+R-017: "By signing, Bidder agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award." (period from original)
+
+This seems reasonable.
+
+Actually, I want to reconsider R-005/006. Is "Each Bidder is solely responsible for ensuring..." really a compliance requirement? It's more of a risk allocation clause. The vendor doesn't have to "ensure timely receipt" as a separate deliverable; it's just saying TWC won't be liable for delays. But the text says "Each Bidder is solely responsible for ensuring...". That is an obligation. I'll keep it.
+
+Let me also reconsider R-004: "Hard copies received will not be accepted or reviewed." This is a negative requirement (don't do X). It's an administrative fact. Category: deliverable. Type: info.
+
+And R-003: "Reference the IFB Title..." - imperative. Category: deliverable. Type: info.
+
+One more thing: R-009 (5.1.c) uses "shall" but it's a disqualification criterion. Category: eligibility. Correct.
+
+R-010 (5.2) evaluation criteria. Correct.
+
+I think I'm ready. Let me format the JSON.
+
+Wait, I should check if "Article VI" is the right section_ref for the checklist. The text shows:
+"Article VI. REQUIRED BID INFORMATION 
+SUBMITTING BID INFORMATION  
+ Form 1..."
+The nearest numbered heading is "Article VI" or "6". Since other sections use numbers like 4.3.2, 5.1, 6.1, I'll use "Article VI" to be precise as it appears. Or maybe "6"? The text says "Article VI." and "ARTICLE V." earlier. I'll use "Article VI".
+
+Actually, looking at page 24, the heading is "Article VI. REQUIRED BID INFORMATION". Then "SUBMITTING BID INFORMATION" is unnumbered. Then "6.1 EXECUTION OF BID". So the checklist is under Article VI but before 6.1. "Article VI" is the nearest numbered heading. Good.
+
+For R-015, it's under 6.1. For R-018/019, under 6.2.
+
+Final JSON structure:
+{
+  "rfp_id": "3202600219",
+  "requirements": [
+    {"id": "R-001", "verbatim_text": "Bids must be received by PS as prescribed no later than date and time specified in Section 1.3 (Schedule of Events).", "section_ref": "4.3.1", "type": "shall", "category": "deadline", "due_date": null, "page": 22},
+    ...
+  ]
+}
+
+Wait, I need to check: "Bids must be received by PS as prescribed no later than date and time specified in Section 1.3 (Schedule of Events)." - "PS" is probably "Purchasing Services" or something. Keep exactly as is.
+
+Also: "Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of “D” or below shall be disqualified from consideration for award." - Note the smart quotes “D”. Preserve exactly.
+
+And: "Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation." - there's an em-dash or en-dash before "Cost Sheet"? In the text it says "Form 2 – Cost Sheet". I'll preserve as given.
+
+One final review of the text for page 22:
+"You must submit your bid electronically by email to VendorProposals@twc.texas.gov." - yes.
+"Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line." - yes, note the comma after "time".
+"Hard copies received will not be accepted or reviewed." - yes.
+"Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements and ensuring timely receipt by TWC." - yes.
+
+Page 23:
+"Bidder has completed, signed and submitted Form 1 – Execution of Bid in accordance with Section 6.1 Execution of Bid." - yes.
+"Bidder has completed and submitted Form 2 – Cost Sheet in accordance with Section 6.3 Cost Sheet." - yes.
+"Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of “D” or below shall be disqualified from consideration for award." - yes.
+"TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB." - yes.
+
+Page 24:
+"Form 1 - Execution of Bid" - yes.
+"Form 2- Cost Sheet" - yes.
+"Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure" - yes.
+"Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form" - yes.
+"Bidder must complete, sign, and return Form 1 – Execution of Bid." - yes.
+"By signing, Bidder agrees to provide the goods and/or services described in this Solicitation and agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award." - yes.
+"Cost information must be included as a separate document and presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation." - yes.
+"Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract." - yes.
+
+Everything looks good. I'll produce the JSON.</think>{"rfp_id": "3202600219", "requirements": [
+{"id": "R-001", "verbatim_text": "Bids must be received by PS as prescribed no later than date and time specified in Section 1.3 (Schedule of Events).", "section_ref": "4.3.1", "type": "shall", "category": "deadline", "due_date": null, "page": 22},
+{"id": "R-002", "verbatim_text": "You must submit your bid electronically by email to VendorProposals@twc.texas.gov.", "section_ref": "4.3.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-003", "verbatim_text": "Reference the IFB Title, IFB No., and the Submission Deadline date and time, in the subject line.", "section_ref": "4.3.2", "type": "info", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-004", "verbatim_text": "Hard copies received will not be accepted or reviewed.", "section_ref": "4.3.2", "type": "info", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-005", "verbatim_text": "Each Bidder is solely responsible for ensuring its Bid is submitted in accordance with all Solicitation requirements.", "section_ref": "4.3.2", "type": "info", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-006", "verbatim_text": "Each Bidder is solely responsible for ensuring timely receipt by TWC.", "section_ref": "4.3.2", "type": "info", "category": "deliverable", "due_date": null, "page": 22},
+{"id": "R-007", "verbatim_text": "Bidder has completed, signed and submitted Form 1 – Execution of Bid in accordance with Section 6.1 Execution of Bid.", "section_ref": "5.1.a", "type": "info", "category": "evaluation", "due_date": null, "page": 23},
+{"id": "R-008", "verbatim_text": "Bidder has completed and submitted Form 2 – Cost Sheet in accordance with Section 6.3 Cost Sheet.", "section_ref": "5.1.b", "type": "info", "category": "evaluation", "due_date": null, "page": 23},
+{"id": "R-009", "verbatim_text": "Bidder who receives an overall score as recorded in the CPA Texas Vendor Performance Tracking System (VPTS) of “D” or below shall be disqualified from consideration for award.", "section_ref": "5.1.c", "type": "shall", "category": "eligibility", "due_date": null, "page": 23},
+{"id": "R-010", "verbatim_text": "TWC will consider the purchase price and whether the Bidder meets all requirements of this IFB.", "section_ref": "5.2", "type": "info", "category": "evaluation", "due_date": null, "page": 23},
+{"id": "R-011", "verbatim_text": "Form 1 - Execution of Bid", "section_ref": "Article VI", "type": "info", "category": "form", "due_date": null, "page": 24},
+{"id": "R-012", "verbatim_text": "Form 2- Cost Sheet", "section_ref": "Article VI", "type": "info", "category": "form", "due_date": null, "page": 24},
+{"id": "R-013", "verbatim_text": "Public Information Act -, if applicable. Reference Section 3.12 Public Information Act – Bidder Requirements Regarding Disclosure", "section_ref": "Article VI", "type": "info", "category": "form", "due_date": null, "page": 24},
+{"id": "R-014", "verbatim_text": "Form 3 TWC 1020 Substitute W-9 and Direct Deposit Form", "section_ref": "Article VI", "type": "info", "category": "form", "due_date": null, "page": 24},
+{"id": "R-015", "verbatim_text": "Bidder must complete, sign, and return Form 1 – Execution of Bid.", "section_ref": "6.1", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-016", "verbatim_text": "By signing, Bidder agrees to provide the goods and/or services described in this Solicitation.", "section_ref": "6.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-017", "verbatim_text": "By signing, Bidder agrees to abide by all TWC Terms and Conditions as specified in this Solicitation and in any Contract resulting from an award.", "section_ref": "6.1", "type": "shall", "category": "deliverable", "due_date": null, "page": 24},
+{"id": "R-018", "verbatim_text": "Cost information must be included as a separate document.", "section_ref": "6.2", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-019", "verbatim_text": "Cost information must be presented only in the format set forth in Form 2 – Cost Sheet of this Solicitation.", "section_ref": "6.2", "type": "shall", "category": "form", "due_date": null, "page": 24},
+{"id": "R-020", "verbatim_text": "Pricing agreed to in any resulting Contract shall be firm and remain constant through the life of the Contract.", "section_ref": "6.2", "type": "shall", "category": "deliverable", "due_date": null, "page": 24}
+]}<|im_end|>

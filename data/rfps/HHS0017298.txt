@@ -1,0 +1,1098 @@
+[page 1]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 1 of 32 
+Version 2.0 (09/20/2023) 
+ 
+Stephanie Muth, Executive Commissioner 
+ 
+Request for Qualifications (RFQ) 
+for 
+Outside Legal Counsel for Information Technology Matters 
+RFQ No. HHS0017298 
+ 
+Date of Release: June 22, 2026 
+See Section 3.1 for Schedule of Events 
+ 
+NIGP Class/Item Codes 
+961-49  Miscellaneous Services – Legal Services, Attorneys
+
+[page 2]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 2 of 32 
+Version 2.0 (09/20/2023) 
+Table of Contents 
+Article I. Introduction, Definitions, and Authority ......................................................................... 5 
+1.1 Introduction ...................................................................................................................... 5 
+1.2 Definitions ........................................................................................................................ 6 
+1.3 Authority .......................................................................................................................... 7 
+Article II. Scope of Work................................................................................................................ 7 
+2.1 Description of Services .................................................................................................... 7 
+2.2 Contract Award, Term, and Historical Compensation ..................................................... 8 
+2.2.1 Contract Award and Reservation of Rights .............................................................. 8 
+2.2.2 Contract Term ........................................................................................................... 8 
+2.2.3 Historical Compensation ........................................................................................... 8 
+2.3 No Guarantee of Volume, Usage, or Compensation ........................................................ 8 
+Article III. Administrative Information .......................................................................................... 9 
+3.1 Schedule of Events ........................................................................................................... 9 
+3.2 Ambiguity, Conflict, or Discrepancy ............................................................................. 10 
+3.3 Inquiries .......................................................................................................................... 10 
+3.3.1 Sole Point of Contact .............................................................................................. 10 
+3.3.2 Exceptions to Sole Point of Contact ....................................................................... 11 
+3.3.3 Prohibited Communication ..................................................................................... 11 
+3.3.4 Solicitation Questions ............................................................................................. 11 
+3.4 Pre-proposal Conference ................................................................................................ 12 
+3.4.1 Attendance .............................................................................................................. 12 
+3.4.2 Pre-proposal Conference Logistical Information.................................................... 12 
+3.5 Solicitation Response Composition ............................................................................... 13 
+3.5.1 General Information ................................................................................................ 13 
+3.5.2 Page Limit and Supporting Documentation ............................................................ 13 
+3.5.3 Discrepancies .......................................................................................................... 14 
+3.5.4 Binding Offer .......................................................................................................... 14 
+3.6 Solicitation Response Submission and Delivery ............................................................ 14 
+3.6.1 Deadline .................................................................................................................. 14 
+3.6.2 Delivery................................................................................................................... 14 
+3.6.2.1 General Instructions ........................................................................................................ 14 
+3.6.2.2 Solicitation Response – Component Parts ...................................................................... 15 
+3.6.2.3 Submission Options ........................................................................................................ 15 
+3.6.3 Submission Checklist .............................................................................................. 17
+
+[page 3]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 3 of 32 
+Version 2.0 (09/20/2023) 
+3.6.4 Modifications and Withdrawals of Solicitation Response ...................................... 18 
+3.6.5 Retention of Solicitation Responses ....................................................................... 18 
+Article IV. Solicitation Response Evaluation and Award Process ............................................... 18 
+4.1 Conformance with State Law ......................................................................................... 18 
+4.2 Best Value Determination .............................................................................................. 18 
+4.2.1 Selection Methodology ........................................................................................... 18 
+4.2.2 Minimum Qualifications ......................................................................................... 19 
+4.2.3 Initial Compliance Screening .................................................................................. 19 
+4.2.3.1 Verification of Past Vendor Performance ....................................................................... 20 
+4.2.4 Written Solicitation Response Evaluation .............................................................. 21 
+4.2.5 Written Response Evaluation Criteria .................................................................... 21 
+4.2.6 Final Written Response Score ................................................................................. 21 
+4.2.7 Additional Selection Considerations....................................................................... 21 
+4.2.8 Summary of Best Value Determination .................................................................. 22 
+4.3 Questions or Requests for Clarification ......................................................................... 22 
+Article V. Statement of Qualifications.......................................................................................... 22 
+5.1 Executive Summary ....................................................................................................... 22 
+5.2 Minimum Qualification Documentation ........................................................................ 23 
+5.3 Organization Experience ................................................................................................ 23 
+5.4 Staff Experience and Competence ................................................................................. 23 
+5.5 Demonstrated Competence ............................................................................................ 23 
+5.6 Staffing Profile ............................................................................................................... 24 
+Article VI. Required Respondent Information.............................................................................. 24 
+6.1 Company Information .................................................................................................... 24 
+6.1.1 Company Narrative ................................................................................................. 24 
+6.1.2 Company Profile ..................................................................................................... 24 
+6.2 Authorization to Conduct Business in Texas ................................................................. 25 
+6.3 References ...................................................................................................................... 25 
+6.4 Affirmations and Certifications ...................................................................................... 25 
+6.5 Financial Capacity .......................................................................................................... 26 
+6.6 Corporate Guarantee ...................................................................................................... 26 
+Article VII. HSP Requirement ...................................................................................................... 26 
+7.1 HSP Submission Instructions ......................................................................................... 26 
+Article VIII. General Terms and Conditions ................................................................................ 26
+
+[page 4]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 4 of 32 
+Version 2.0 (09/20/2023) 
+8.1 General Conditions ......................................................................................................... 26 
+8.1.1 Changes, Modifications, and Cancellation of the Solicitation ................................ 26 
+8.1.2 Offer Period ............................................................................................................ 26 
+8.1.3 Costs Incurred ......................................................................................................... 26 
+8.1.4 Contract Responsibility ........................................................................................... 27 
+8.1.5 Public Information Act - Respondent Requirements Regarding Disclosure .......... 27 
+8.1.6 Respondent Waiver – Intellectual Property ............................................................ 29 
+8.1.7 Standards of Conduct for Vendors .......................................................................... 29 
+8.1.8 Disclosure of Interested Parties .............................................................................. 30 
+8.2 Insurance ........................................................................................................................ 30 
+8.2.1 Required Coverage.................................................................................................. 30 
+8.3 Protest ............................................................................................................................. 30 
+8.4 Indemnification .............................................................................................................. 30 
+Article IX. List of Exhibits ........................................................................................................... 32
+
+[page 5]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 5 of 32 
+Version 2.0 (09/20/2023) 
+ARTICLE I. INTRODUCTION, DEFINITIONS, AND AUTHORITY 
+1.1 INTRODUCTION 
+The Health and Human Services Commission (HHSC) is soliciting responses from qualified law 
+firms interested in representing the Health and Human Services Commission (HHSC) in complex 
+information technology matters in accordance with the requirements stated in this Request for 
+Qualifications (RFQ). 
+ 
+HHSC seeks Outside Counsel specializing in information technology and intellectual property law 
+to provide representation, advice, and assistance regarding information technology and intellectual 
+property matters. Upon selection of Outside Counsel and the negotiation of a fair and reasonable 
+fee schedule, HHSC will seek the approval of the Texas Office of the Attorney General (OAG) to 
+enter into an Outside Counsel Contract (the Contract or OCC) as required by statute, Texas 
+Government Code Section 402.0212.  Pursuant to Texas Administrative Code Title 1, Part 3, 
+Section 57.4(b)(5), this paragraph serves as notice that selection of and contracting with Outside 
+Counsel is subject to approval of the OAG. Further, pursuant to Texas Administrative Code Title 
+1, Part 3, Section 57.5(b), HHSC and Outside Counsel will use the OCC template provided by the 
+OAG for the Contract. All terms and conditions and other requirements contained in the final OCC 
+shall govern any agreement issued as a result of this RFQ. A sample of the current OCC template 
+is attached to this RFQ as Exhibit C, Sample OAG Outside Counsel Contract . If the OAG 
+revises the OCC template prior to Contract execution, HHSC and Outside Counsel shall use the 
+revised template.  
+ 
+This RFQ provides sufficient information for interested parties to prepare and submit 
+qualifications for consideration by HHSC. By submitting a response to the RFQ, the Respondent 
+certifies understanding of this RFQ and has full knowledge of the scope, nat ure, quality, and 
+quantity of the work to be performed by the Respondent, the detailed requirements of the services 
+to be provided, and the conditions under which the services are to be performed. The Respondent 
+also understands that all costs relating to preparing and responding to this RFQ will be the sole 
+responsibility of the Respondent. If selected for award by HHSC, the Respondent will notify 
+HHSC immediately of any material change with regard to any statement, representation, or 
+certification the Respondent has made in response to this Solicitation. Respondents are cautioned 
+to read the information contained in this RFQ carefully and to submit a complete response to all 
+requirements and questions as directed. 
+ 
+Information regarding HHSC and its programs is available online and may be accessed at 
+https://hhs.texas.gov. 
+HHSC PCS will administer the procurement process for this Solicitation and will manage 
+Respondent communications as well as the receipt of Solicitation Responses for review and 
+evaluation.
+
+[page 6]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 6 of 32 
+Version 2.0 (09/20/2023) 
+1.2 DEFINITIONS  
+As used in this Solicitation, unless a different definition is specified or the context clearly indicates 
+otherwise, the terms and conditions have the meanings assigned below. 
+“Addendum” means a written clarification or revision to this Solicitation posted on the ESBD. 
+“Advancement Criteria” means the published criteria for Respondent to advance to the next phase 
+of evaluation if multiple evaluation methods are utilized. 
+“Award Consideration (AC) Documents” means documents Respondent must submit as part of 
+the Solicitation Response to be considered for negotiations or award. 
+“Company” means the law firm submitting a Solicitation Response. 
+“Contract” means an Outside Counsel Contract OCC. 
+“Contract Term” means the duration of the Contract, including any exercised extensions or 
+renewals, commencing on the Effective Date and ending when the Contract expires in accordance 
+with its terms, or when it has been terminated. 
+“Contractor” means the law firm or Outside Counsel selected to provide services to HHSC under 
+the Contract. 
+“Deliverable” means a work product(s), including all invoices, reports, and project documentation 
+prepared, developed, or procured by Outside Counsel as part of the services under the Contract for 
+the use or benefit of HHSC or the State of Texas. 
+“Effective Date” means the date on which Contract takes effect. 
+“ESBD” means the Electronic Business Daily , an online directory where State of Texas 
+solicitations over $25,000 are posted. The ESBD may currently be accessed at 
+http://www.txsmartbuy.com/esbd.  
+“Final Written Response Score” refers to the final scoring of the written response as documented 
+in the Solicitation.  
+“HHSC” means the Texas Health and Human Services Commission. 
+“HHSC PCS” means the Procurement and Contracting Services division of HHSC . HHSC PCS 
+provides purchasing support services to DSHS and the Department of Family and Protective 
+Services pursuant to Section 531.00553 of the Texas Government Code.  
+“Lead Attorney”  means the Contractor’s primary attorney and point of contact for services 
+performed under the Contract.
+
+[page 7]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 7 of 32 
+Version 2.0 (09/20/2023) 
+“Outside Counsel” means the law firm selected by HHSC to provide legal services. This term does 
+not include employees from HHSC or the OAG. The selected Outside Counsel must be approved 
+by the OAG. (See Texas administrative Code, Title1, Part 3, §57.1(7)) 
+“Respondent” means the individual or entity responding to this Solicitation. 
+“Solicitation” means this RFQ including all exhibits, attachments, forms, and Addenda, if any. 
+“Solicitation Consideration (SC) Documents”  means documents that must be submitted  by 
+Respondent with the Solicitation Response in order to be considered for evaluation and cannot be 
+resubmitted or have errors remedied after the submission due date and time  in the Schedule of 
+Events has passed.  
+“Solicitation Response”  means Respondent’s full and complete response (including any 
+attachments and addenda) to the Solicitation. 
+“State” means the State of Texas and its instrumentalities, including [HHSC, as well as any other 
+state agency, its officers, employees, or authorized agents. 
+“Statement of Qualifications ” means the portion of the Solicitation R esponse that comprises a 
+Respondent’s qualifications and skills as set out in Article V of the Solicitation. 
+“Vendor” means a potential provider of goods or services to the State. 
+“VPTS” means the Vendor Performance Tracking System  maintained by the Texas Comptroller 
+of Public Accounts. The VPTS may be currently accessed at 
+https://comptroller.texas.gov/purchasing/programs/vendor-performance-tracking/. 
+“Work” means all services to be performed, goods to be deliver ed, and any appurtenant actions 
+performed, and items produced, conceived, or developed. 
+1.3 AUTHORITY 
+This Solicitation is issued pursuant to the authority of  Texas Government Code Sections 402.0212 
+and 2254.153 and Title 1, Chapter 57 of the Texas Administrative Code, Section 57.4. 
+ARTICLE II. SCOPE OF WORK 
+2.1 DESCRIPTION OF SERVICES 
+The Scope of Work for this Solicitation is located in Exhibit E, Scope of Work (SOW).
+
+[page 8]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 8 of 32 
+Version 2.0 (09/20/2023) 
+2.2  CONTRACT AWARD, TERM, AND HISTORICAL COMPENSATION 
+2.2.1 Contract Award and Reservation of Rights 
+ As a result of this Solicitation, HHSC intends to award one (1) Contract. Any award is contingent 
+upon approval of the HHSC executive commissioner or their designee. 
+If, for any reason, a contract cannot be executed with a Respondent selected for award within five 
+(5) business days of HHSC’s determination to seek to contract with that Respondent, HHSC may 
+avail itself of any option permissible under applicable law including, but not limited to, negotiate 
+a contract with the next highest scoring Respondent, make a partial award, or withdraw the 
+Solicitation. 
+ HHSC reserves the right to cancel, make partial award, or decline to award a Contract under this 
+Solicitation at any time at its sole discretion. 
+2.2.2 Contract Term 
+The initial term of the Contract will be from the date of execution of the OCC through August 31, 
+2027 . 
+Notwithstanding the limitation in the preceding paragraph and with at least thirty (30) calendar 
+days’ advance written notice to Contractor, at the end of the initial term or any extension period, 
+HHSC, in consultation with OAG, may extend the Contract as necessary to ensure continuity of 
+service, for purposes of transition, or as otherwise determined by HHSC to serve the best interest 
+of the State. Any extension would continue at the then-current contract rate or rates (if applicable) 
+as modified during the Contract Term. Any extension beyond the initial term of the Contract is at 
+the discretion of OAG. Contract extensions, if approved, must be by written amendment to the 
+Contract and signed by all parties.  
+2.2.3 Historical Compensation 
+Total compensation under the Contract shall not exceed $150,000. Notwithstanding the preceding, 
+HHSC reserves the right to increase this amount if additional state or federal funding becomes 
+available during the Contract Term. 
+2.3 NO GUARANTEE OF VOLUME, USAGE, OR COMPENSATION 
+HHSC makes no guarantee of volume, usage, or total compensation to be paid under the Contract. 
+The Contract is subject to appropriations and the continuing availability of funds.
+
+[page 9]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 9 of 32 
+Version 2.0 (09/20/2023) 
+ARTICLE III. ADMINISTRATIVE INFORMATION 
+3.1 SCHEDULE OF EVENTS  
+ EVENT DATE/TIME 
+Solicitation Posting Date on the ESBD See Date of Release on Page 1 of 
+the Solicitation  
+Pre-proposal Conference 
+Attendance is Optional  
+June 29 , 2026, at 10:00 a.m. 
+Central Time 
+Deadline for Submitting Questions June 30, 2026,  at 5:00 p.m. 
+Central Time 
+Tentative Date Responses to Questions Posted on the 
+ESBD 
+July 07, 2026, at 5:00 p.m. Central 
+Time  
+Deadline for Submission of Solicitation Responses 
+[NOTE: Responses must be RECEIVED by HHSC by 
+the deadline.] 
+July 21, 2026,  at 10:30 a.m. 
+Central Time 
+Evaluation Period August 2026 
+Tentative Date for Notice of Award Posted on the ESBD September 2026 
+Anticipated Contract Effective Date September 2026 
+ 
+All dates specified in the Schedule of Events are tentative and HHSC reserves the right to modify 
+the dates or cancel the scheduled events at any time. Scheduling changes or cancellation 
+determinations made by HHSC prior to the Solicitation Response deadline will be posted as an 
+Addendum on the ESBD. If, after the Solicitation Response deadline, there are delays that 
+significantly impact the anticipated award date, HHSC, at its sole discretion, may publish updates 
+regarding the anticipated award date in the Procurement Forecast  
+(https://apps.hhs.texas.gov/procurement-calendar/procurement-forecast.pdf) located on the HHS 
+Procurement Opportunities webpage currently accessed at 
+https://www.hhs.texas.gov/business/contracting-hhs/procurement-opportunities.
+
+[page 10]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 10 of 32 
+Version 2.0 (09/20/2023) 
+In accordance with Texas Administrative Code, Title 1, Part 15, Chapter 391, Subchapter C, Rule 
+§391.305, HHSC will issue a Notice of Intent to Award in the Procurement Forecast located on 
+the HHS Procurement Opportunities webpage under Future Opportunities, Intent to Award Notices 
+& Delayed Procurements. 
+Each Respondent is responsible for periodically checking the ESBD and the HHSC Procurement 
+Forecast for updates. 
+3.2 AMBIGUITY, CONFLICT, OR DISCREPANCY 
+Respondent must notify the individual specified in Section 3.3.1 (Sole Point of Contact ) of any 
+ambiguity, conflict, discrepancy, exclusionary  specification, omission , or other error in the 
+Solicitation in the manner and by the deadline described in Section 3.3.4 (Solicitation Questions). 
+Respondent submits a Solicitation Response at its own risk. 
+If Respondent fails to properly and timely notify the  individual specified in Section 3.3.1 (Sole 
+Point of Contact) of any ambiguity, conflict, discrepancy, exclusionary specification, omission , 
+or other error in the Solicitation, Respondent, whether awarded a contract or not: 
+a. Waives any claim of error or ambiguity in the Solicitation and any resulting contract; 
+b. Must not contest the interpretation by HHSC of such provision(s); and 
+c. Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, 
+discrepancy, exclusionary specification, omission, or other error or its later correction. 
+3.3 INQUIRIES 
+3.3.1 Sole Point of Contact 
+All requests, questions, or other communication regarding this Solicitation shall be made in writing 
+to HHSC PCS and addressed to the person identified below (Sole Point of Contact), except as 
+permitted in Section 3. 3.2 ( Exceptions to Sole Point of Contact ). If a telephone number is 
+provided by the Sole Point of Contact, its use is limited to administerial matters such as instructing 
+a potential Respondent on accessing  an IT system or locating a website referenced in th e 
+Solicitation. Communications via telephone are not binding. Respondent shall rely only on written 
+statements issued by or through HHSC PCS designated staff as provided by Section 3.3 
+(Inquiries).
+
+[page 11]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 11 of 32 
+Version 2.0 (09/20/2023) 
+Name Amanda Herrera CTCD, CTCM 
+Title PCS Purchaser 
+Address 
+Procurement and Contracting Services Building 
+1100 W 49th St. MC: 2020 
+Austin, TX 78756 
+Phone 512-406-2482 
+Email Amanda.Herrera@hhs.texas.gov 
+3.3.2 Exceptions to Sole Point of Contact 
+Exceptions to Section 3.3.1 (Sole Point of Contact) are as follows: 
+a. The Sole Point of Contact may expressly direct another designated HHSC representative 
+to speak to the Respond ent, such as during contract negotiations. It is the Respondent’s 
+responsibility to ensure that communications with an individual other than the Sole Point 
+of Contact have been authorized by the Sole Point of Contact before engaging in such 
+communication. Failure to comply with this requirement may result in the disqualification 
+of a Respondent’s Solicitation Response  as provided in Section 3.3. 3 (Prohibited 
+Communication). 
+b. The Sole Point of Contact will authorize a n alternate or backup  Sole Point of Contact in 
+the event of their extended absence from the office and, in such an event, the contact 
+information for the secondary Sole Point of Contact will be in placed in an automatic reply 
+out-of-office email message. A Respondent seeking to contact the Sole Point of Contact 
+should do so via email in order to timely receive updated contact information. 
+3.3.3 Prohibited Communication 
+Except as provided in Section 3.3.1 (Sole Point of Contact)  and Section 3.3.2 (Exceptions to 
+Sole Point of Contact), a Respondent or potential Respondent is prohibited from communicating 
+with HHSC regarding this Solicitation. HHSC, including its representative(s) and partners, will 
+not answer any verbal or written questions or otherwise discuss the contents of this Solicitation 
+with any Respondent, potential Respondent, or their associated representative(s). This restriction 
+does not preclude discussions between affected parties for the purposes of conducting business 
+unrelated to this Solicitation. Failure to comply with th is restriction may result in 
+disqualification of Respondent's Solicitation Response.  
+3.3.4 Solicitation Questions 
+Written questions regarding this Solicitation must be submitted by email to the individual specified 
+in Section 3.3.1 (Sole Point of Contact ) by the deadline specified in Section 3.1 ( Schedule of
+
+[page 12]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 12 of 32 
+Version 2.0 (09/20/2023) 
+Events). Responses to the Solicitation questions will not be emailed to the individual requestors. 
+Responses to all Solicitation questions timely received will be posted on the ESBD by the deadline 
+specified in Section 3.1 (Schedule of Events). If same or similar Solicitation questions are 
+submitted, a single consolidated answer may be posted on the ESBD. 
+All questions regarding the Solicitation must include the following information: 
+a. Solicitation number; 
+b. Solicitation package reference (page number, section, and exhibit or attachment, if 
+applicable; may also reference Procurement Library documents in this manner, if 
+applicable).  
+c. Question topic (e.g., “Schedule of Events,” or “Exhibit A, HHS Solicitation 
+Affirmations, Version 2.10 “); and 
+d. Question. 
+In addition, the following contact information must be provided by the requestor with its 
+submission of the Solicitation question(s): 
+a. Business entity name; 
+b. Business entity representative name; 
+c. Phone number; and 
+d. Email address. 
+Solicitation questions received after the  deadline specified in Section 3.1 (Schedule of Events ) 
+may not be answered.  Prior to the Solicitation Response  deadline specified in Section 3.1 
+(Schedule of Events), HHSC PCS reserves the right to amend answers previously posted  on the 
+ESBD. Amended answers will be posted on the ESBD. It is the Respondent's responsibility to 
+periodically check the ESBD. 
+3.4 PRE-PROPOSAL CONFERENCE 
+3.4.1 Attendance 
+HHSC PCS will conduct a pre -proposal conference . Attendance is optional but highly 
+recommended. 
+3.4.2 Pre-proposal Conference Logistical Information 
+HHSC PCS will hold the pre -proposal conference by webinar on the date and time s pecified in 
+Section 3.1 (Schedule of Events). 
+People with disabilities who wish to attend the meeting and require auxiliary aids or services 
+should contact the individual identified in Section 3.3.1 (Sole Point of Contact) at least seventy-
+
+[page 13]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 13 of 32 
+Version 2.0 (09/20/2023) 
+two (72) hours before the pre-proposal conference in order to have reasonable accommodations 
+made by HHSC. 
+Webinar Information: 
+ 
+https://events.teams.microsoft.com/event/b5b443ac-9e25-482b-bbe3-082cbfc20414@9bf97732-
+82b9-499b-b16a-a93e8ebd536b 
+3.5 SOLICITATION RESPONSE COMPOSITION 
+3.5.1 General Information 
+Respondent should focus on the instructions and requirements of the Solicitation. Respondent 
+should prepare a Solicitation Response that clearly and concisely represents its qualifications and 
+capabilities. Expensive bindings, colored displays, promotional materials, etc. are not necessary or 
+desired. Failure of Respondent to submit all required information and documents within its 
+Solicitation Response in the required format(s) may result in disqualification of the Solicitation 
+Response without further consideration. 
+3.5.2 Page Limit and Supporting Documentation 
+The Statement of Qualifications, described in Article V, must not exceed ten (10) pages, not 
+including supporting documentation provided as appendices or attachments to the Statement  of 
+Qualifications. A Statement of Qualifications may be submitted with supporting documentation if 
+(1) complete and concise responses cannot be provided within the Statement of Qualifications 
+without referencing the supporting documentation, (2) the Statement of Qualifications clearly 
+specifies the location (e.g., file, page, section, and/or paragraph) where the supporting information 
+can be found , and (3) such supporting documentation is submitted as part of the Solicitation 
+Response. 
+The Statement of Qualifications must be properly paginated, formatted as an 8 ½" x 11" page with 
+1-inch margins, and use a 12 point or larger font, except that a smaller font may be used for page 
+headers and footers, footnotes, and illustrations such as tables, charts, diagrams, figures, graphs 
+and other visual aids. If a font smaller than 12 point is used,  the text when printed on 8 ½" x 11" 
+paper must not require magnification to be legible. Times New Roman font is preferred. 
+The Statement of Qualifications must not include other documents embedded as electronic files 
+within the text and must not include hypertext links. The Statement of Qualifications, including 
+supporting documentation, submitted as an electronic file should be pre-formatted for printing on 
+8 ½" x 11" paper.
+
+[page 14]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 14 of 32 
+Version 2.0 (09/20/2023) 
+3.5.3 Discrepancies 
+In the event of any discrepancies or variations between copies, HHSC  is under no obligation to 
+resolve the inconsistencies and may make its scoring and selection decisions accordingly, 
+including the decision to potentially disqualify a Solicitation Response. If Respondent is required 
+to designate an “Original” Solicitation Response but fails to do so, HHSC, in its sole discretion, 
+will determine the version to be used as the original or may disqualify the Solicitation Response. 
+If the Respondent submits a redacted Solicitation Response as the “Original,” HHSC  will 
+disqualify the Solicitation Response and it will not be evaluated. HHSC] will not accept 
+submissions after the “Deadline for Submission of Solicitation Responses” specified in the Section 
+3.1 (Schedule of Events (Section 3.1) to remedy discrepancies or variations in Solicitation 
+Response submissions. 
+3.5.4 Binding Offer  
+A Solicitation Response constitutes a binding offer to contract based upon the terms, conditions, 
+and specifications set forth in this Solicitation. By submitting a Solicitation Response, Respondent 
+represents and warrants that any individual submitting the Solicitation Response and any related 
+documents on behalf of the Respondent is authorized to do so and to bind the Respondent under 
+any contract that may result from this Solicitation. 
+A Solicitation Response  must be responsive to the Solicitation as worded and without any 
+expectation that any or all terms, conditions, or provisions of the Solicitation will be negotiated. A 
+Solicitation Response may be disqualified as non-responsive to the Solicitation if it includes any 
+disclaimer asserting a conditional offer (e.g., Respondent’s ability to contract is contingent on an 
+exception or assumption provided) or other similar statement indicating that the Solicitation does 
+not constitute a binding offer. 
+3.6 SOLICITATION RESPONSE SUBMISSION AND DELIVERY 
+3.6.1 Deadline 
+Respondent is solely responsible for ensuring timely delivery of its Solicitation Response by the 
+date and time specified in Section 3.1 (Schedule of Events) . HHSC PCS will time stamp each 
+Solicitation Response. Solicitation Responses received after the deadline specified in Section 
+3.1 (Schedule of Events) will be rejected and not considered for contract award. 
+3.6.2 Delivery 
+3.6.2.1 General Instructions 
+It is the Respondent’s responsibility to appropriately mark and deliver the Solicitation Response 
+to HHSC PCS by the date and time specified in Section 3.1 (Schedule of Events). HHSC will not 
+be responsible for submission errors that may lead to disqualification  due to nonreceipt or late
+
+[page 15]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 15 of 32 
+Version 2.0 (09/20/2023) 
+delivery of a Solicitation Response. In no event will HHSC be responsible or liable for any 
+delay or error in delivery. 
+3.6.2.2 Solicitation Response – Component Parts 
+Respondent shall submit its Solicitation Response in component parts as described below:   
+a.  One file/folder named “Original” that contains the Respondent’s entire Solicitation 
+Response in searchable portable document format (PDF), unless otherwise specified for a 
+particular attachment or exhibit. 
+b. If applicable, one file/folder named “Public Information Act Copy” that contains the 
+Respondent’s entire Solicitation Response, including all exhibits and attachments, in 
+searchable PDF prepared in accordance with Section 8.1.5 (Public Information Act – 
+Respondent Requirements Regarding Disclosure). 
+3.6.2.3 Submission Options 
+Respondent must submit the Solicitation Response using one of the following submission options. 
+A Solicitation Response submitted by any other method will not be considered.  
+a. Submission Option No. 1 : HHS Online Bid Room. Respondent shall submit the 
+Solicitation Response pack et through the Online Bid Room utilizing the procedures 
+below:  
+1. Use of the HHS Online Bid Room requires r egistration for the Enterprise Portal using 
+the IAMOnline Portal Link located at https://iamonline.hhs.state.tx.us. Respondent 
+should allow up to five business days to receive a username and password. If username 
+and password is not  received within five (5) days, Respondent should email 
+pcsbids@hhsc.state.tx.us. 
+Note: A Respondent  who already has access to the Enterprise Portal for other 
+applications, must complete a new registration to receive access to the HHS Online 
+Bid Room. The new registration must be completed with a different email than the 
+original account as the Enterprise Portal does not allow the same email address to be 
+used for two different accounts. 
+2.  After the Enterprise Portal login credentials have been received via email, Respondent 
+can request the necessary HHS Online Bid Room username and password. This second 
+username and password is require d to electronically submit a Solicitation Response 
+through the HHS Online Bid Room. 
+3. Additional information  including a tutorial, guidebook, and other resources can be 
+found on the  HHS Online Bid Room  webpage located at 
+https://www.hhs.texas.gov/business/contracting-hhs/hhs-online-bid-room.
+
+[page 16]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 16 of 32 
+Version 2.0 (09/20/2023) 
+4. Respondent should a llow enough time for the registration process to ensure timely 
+delivery of its Solicitation Response by the date and time specified in Section 3.1 
+(Schedule of Events). 
+5. The use of the HHS Online Bid Room and any resulting technical difficulties which 
+may prevent a successful, responsive electronic submission of a Solicitation Response 
+shall not be sufficient basis for a protest of a contract award. 
+ 
+b. Submission Option No. 2: USB Drive. Respondent shall submit the Solicitation Response 
+using the procedures specified in this section. 
+1. Respondent must place the Solicitation Response on two USB drives. The content on 
+each USB drive must be identical. One USB drive must be labeled “Original” The 
+second USB drive must be labeled “Copy.” 
+2. Respondent must deliver the Solicitation Response by one of the methods specified 
+below. 
+Overnight/Express/Priority Mail Hand Delivery 
+Health and Human Services Commission 
+ATTN: Response Coordinator 
+Tower Building Room 108 
+1100 W. 49th St., MC 2020 
+Austin, Texas 78756 
+Health and Human Services Commission 
+ATTN: Response Coordinator 
+Procurement & Contracting Services 
+Building 
+1100 W. 49th St., MC 2020 
+Austin, Texas 78756 
+A Solicitation Response delivered by mail or hand delivery must be placed in a sealed 
+package. It is Respondent’s sole responsibility to ensure that packaging is sufficient to 
+prevent damage to contents. HHSC will not be held responsible for any Solicitation 
+Response that is mishandled prior to receipt by HHSC PCS. 
+The sealed package and each USB drive must be clearly labeled on the outside as follows: 
+SOLICITATION NO: [Respondent to include Solicitation Number 
+from Page 1 of this Solicitation.] 
+SOLICITATION NAME [Respondent to include Solicitation Name 
+from Page 1 of this Solicitation.]  
+SOLICITATION RESPONSE DEADLINE [Respondent to include Date and Time  from 
+Section 3.1 (Schedule of Events).]
+
+[page 17]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 17 of 32 
+Version 2.0 (09/20/2023) 
+PURCHASER NAME: [Respondent to include purchaser name from 
+Section 3.3.1 (Sole Point of Contact).]  
+RESPONDENT NAME: [Respondent to include its name.] 
+Respondent is solely responsible for ensuring its Solicitation Response is submitted in 
+accordance with all Solicitation requirements including, but not limited to, proper labeling 
+of packages, sufficient postage or delivery fees, and ensuring timely recei pt by HHSC.  A 
+dated shipping label, invoice of receipt from  the delivery  carrier, or any other 
+documentation in lieu of the HHSC PCS time stamp WILL NOT be accepted. 
+3.6.3 Submission Checklist 
+Solicitation Consideration and Award Consideration Documents, defined in  Section 1.2 
+(Definitions), must be submitted by the deadline for Solicitation Response submissions specified 
+in Section 3.1 (Schedule of Events). Solicitation Consideration Documents will be reviewed as 
+received, and Respondent will not have an opportunity to remedy missed requirements. At its sole 
+discretion, HHSC may request some , or all of , the Respondents to remedy missing elements of 
+Award Consideration Documents. Those marked “SC” are Solicitation Consideration Documents 
+and those marked “AC” are Award Consideration Documents. 
+ 
+ Below are the documents required to be submitted with the Solicitation Response.  Where 
+searchable PDF files are required, submission of non-searchable (image only) PDF files may result 
+in disqualification of the Solicitation Response. 
+ 
+ 
+a. Statement of Qualifications and Respondent Information  
+  1. Statement of Qualifications (Article V) SC ____ 
+  2. Minimum Qualification 
+Documentation  
+(Sections 4.2.2 and 5.2) SC ____ 
+  3. Past Performance Template (Section 5.5  and Exhibit 
+B) 
+SC ____ 
+  4. Company Information (Section 6.1) SC ____ 
+  5. Authorization to Conduct Business in 
+Texas and Franchise Tax Exemption 
+(Section 6.2) AC ____ 
+  6. References (Section 6.3) AC ____
+
+[page 18]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 18 of 32 
+Version 2.0 (09/20/2023) 
+  7. HHS Solicitation Affirmations , 
+Version 2.10  
+(Section 6.4, Exhibit A) SC ____ 
+  8. Signed Addenda (if applicable)  AC ____ 
+3.6.4 Modifications and Withdrawals of Solicitation Response 
+Prior to the Solicitation Response submission deadline specified in Section 3.1 (Schedule of 
+Events), Respondent may  either (1) withdraw its Solicitation Response by submitting a written 
+request to the individual identified in Section 3.3.1 (Sole Point of Contact ), or (2) modify its 
+Solicitation Response by submitting a written amendment to the individual identified in Section 
+3.3.1 (Sole Point of Contact) . When modifying its Solicitation Response, Respondent must 
+provide written notice signed by an authori zed representative that specifically identifies the 
+portion(s) of the Solicitation Response that will be replaced or removed by the amendment. 
+3.6.5 Retention of Solicitation Responses 
+A Solicitation Response becomes the property of HHSC after submission and will not be returned 
+to the Respondent. 
+ARTICLE IV. SOLICITATION RESPONSE EVALUATION AND AWARD 
+PROCESS 
+4.1 CONFORMANCE WITH STATE LAW 
+Solicitation Responses shall be evaluated in accordance with Texas Government Code, Chapter 
+2254, Subchapter D, and Title 1 Texas Administrative Code Part 3, Chapter 57, §57.4(c). 
+ 
+HHSC will make the selection of one (1) Respondent (if any) to contract with HHSC on the basis 
+of demonstrated competence and qualifications to perform the required Services and for a fair and 
+reasonable price. 
+4.2  BEST VALUE DETERMINATION 
+4.2.1 Selection Methodology 
+ Solicitation Responses that meet the minimum qualifications will be submitted to the evaluation 
+team for review and scoring. Each member of the evaluation team will receive a copy of each 
+responsive Solicitation Response. The evaluators will review the Sol icitation Responses 
+considering the criteria listed in Section 4.2.5 (Written Response Evaluation Criteria). 
+ 
+ Evaluators will individually  score the Solicitation Responses. This procurement will utilize an  
+aggregated individual evaluation methodology as outlined by this section.
+
+[page 19]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 19 of 32 
+Version 2.0 (09/20/2023) 
+The following subsections describe the evaluation process, including any criteria for advancement 
+to the various phases of evaluation, if applicable. 
+4.2.2 Minimum Qualifications  
+ Respondent must meet the minimum qualifications listed below: 
+a. Respondent’s organization must have seven (7) consecutive years of experience with 
+information technology and intellectual property legal matters, or the principals/owners 
+have seven (7) years of recent ownership/management experience in a previous law fir m 
+that provided legal services related to information technology and intellectual property 
+legal matters; 
+b. Respondent must designate a Lead Attorney. The Lead Attorney must be currently licensed 
+in Texas. Documentation of the Lead Attorney’s valid standing with the State Bar must be 
+submitted as an attachment to the Solicitation Response; 
+c. The Lead Attorney must have minimum of five (5) consecutive years of current experience 
+and specialization in information technology and intellectual property law; 
+d. Licensure information and resumes for the attorney’s providing legal services in response 
+to this Solicitation must be submitted as separate attachments to the Solicitation Response; 
+e. The Response must include three (3) complete submissions utilizing Exhibit B, Past 
+Performance Template. The responses utilizing Exhibit B, Past Performance Template 
+must include different information from the References; and 
+f. Respondent has submitted the Solicitation Response in accordance with Section 3. 6, 
+(Solicitation Response Submission and Delivery)  including all  Solicitation 
+Consideration and A ward Consideration  Documents, see Section 3.6.3 (Submission 
+Checklist). 
+4.2.3 Initial Compliance Screening 
+HHSC will review Solicitation Responses for compliance with  Section 3.6.3 ( Submission 
+Checklist) and for demonstrated ability to meet the minimum qualifications specified in Section 
+4.2.2 (Minimum Qualifications) required to advance to evaluations. Failure to meet the minimum 
+qualifications specified in Section 4.2.2 ( Minimum Qualification s), will result in  the 
+disqualification of the Solicitation Response. 
+HHSC will automatically disqualify any Solicitation Response that does not include one or more 
+of the completed and signed (as applicable) Solicitation Consideration Documents listed in Section 
+3.6.3 (Submission Checklist). 
+At its sole discretion, HHSC may disqualify any Solicitation Response that does not include all 
+required Award Consideration Documents. Reference Section 3.6.3 (Submission Checklist). 
+HHSC may contact references provided in response to this Solicitation. HHSC may contact 
+Respondent’s clients, or solicit information from any available source, including the Comptroller’s
+
+[page 20]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 20 of 32 
+Version 2.0 (09/20/2023) 
+VPTS. Any information received may be grounds for disqualification if that information, in 
+HHSC’s sole discretion, suggests that the Respondent may perform poorly if selected. 
+4.2.3.1 Verification of Past Vendor Performance 
+By submitting a Solicitation Response, Respondent generally releases from liability and waives 
+all claims against any party providing information about Respondent at the request of HHSC. 
+At HHSC’s sole discretion, Respondent may be rejected as a result of unsatisfactory past 
+performance under any contract(s) as reflected in vendor performance reports, reference checks, 
+or other sources. 
+Respondent’s past performance may be considered prior to making an award determination. 
+a. Reasons for which a Respondent may be denied a contract include, but are not limited to: 
+1. Respondent has unfavorable reports or grade less than a “C” on the CPA Vendor 
+Performance Tracking System (VPTS);  
+2. Respondent is currently under a corrective action plan through HHSC; 
+3. Respondent has had repeated, negative vendor performance reports for the same 
+reason; 
+4. Respondent has a record of repeated non-responsiveness to vendor performance issues; 
+or 
+5. Respondent has contracts or purchase orders that have been cancelled in the previous 
+12 months for non-performance or sub-standard performance. 
+b. HHSC may examine other sources of vendor performance, which may include information 
+provided by any governmental entity, whether an agency or political subdivision of the State 
+of Texas, another state, or the federal government. The performance informat ion may 
+include, but is not limited to: 
+1. Notices of termination; 
+2. Cure notices; 
+3. Assessments of liquidated damages; 
+4. Litigation; 
+5. Audit reports; and
+
+[page 21]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 21 of 32 
+Version 2.0 (09/20/2023) 
+6. Non-renewals of contracts. 
+c. HHSC, at its sole discretion, may initiate investigations or examinations of vendor 
+performance based upon media reports. Any negative findings, as determined by HHSC in 
+its sole discretion, may result in HHSC’s removing Respondent from further consider ation 
+for award. 
+4.2.4 Written Solicitation Response Evaluation 
+Each member of the evaluation team will read the Solicitation Responses in preparation for 
+evaluation. The evaluation team will score all Solicitation Responses that pass initial screening , 
+Section 4.2.3 (Initial Compliance Screening). Solicitation Responses will be scored against the 
+criteria in Section 4.2.5 (Written Response Evaluation Criteria) 
+Solicitation Responses will be evaluated utilizing aggregated individual scoring and any other 
+methods outlined in  Article IV, Solicitation Response Evaluation and Award Process . The 
+individual evaluator s’ scores will be aggregated and weighted, resulting in the Final Written 
+Response Scores. 
+4.2.5 Written Response Evaluation Criteria 
+A Solicitation Response  shall be consistently evaluated and scored in accordance with the 
+following criteria. See also, Exhibit D, Evaluation Tool 
+a. Organization Experience (30%) 
+b. Staff Qualification and Experience (45%) 
+c.  Demonstrated Competence (25%) 
+4.2.6 Final Written Response Score 
+A Respondent’s Final Written Response Score is the score from  Section 4.2.4 ( Written 
+Solicitation Response Evaluation). Final Written Response Score may not always determine best 
+value or selection for negotiation and award, see  Section 4.2.7  (Additional Selection 
+Considerations) and Section 4.2.8 (Summary of Best Value Determination ) for more 
+information. 
+4.2.7 Additional Selection Considerations 
+Solicitation Responses should not include any information regarding Respondent's fees, pricing , 
+or other compensation. Pricing will not be considered during the evaluation process. 
+A fair and reasonable price will be negotiated with the highest scoring Respondent after 
+evaluations are complete. HHSC will request a fee schedule from the successful Respondent. 
+The Respondent will have three (3) business days from notification to submit a fee schedule
+
+[page 22]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 22 of 32 
+Version 2.0 (09/20/2023) 
+that is fair and reasonable for the services being provided. HHSC reserves the right to move to 
+the next highest scoring Respondent if the Respondent fails to comply with the given time period. 
+The Respondent will have three (3) business days from notification to submit a Conflict 
+Disclosure Statement to HHSC. The statement must be in compliance with OAG, Letter to 
+Agencies and Prospective Outside Counsel (July 31, 2025) which can be accessed at Outside 
+Counsel Contracts | Office of the Attorney General (texasattorneygeneral.gov). 
+4.2.8 Summary of Best Value Determination 
+The final selection for award will be based on best value, as determined by this section. This 
+includes any scoring adjustments for outliers or other additional considerations as specified by this 
+Solicitation. Respondents are encouraged to thoroughly review the processes outlined in this 
+section, as it documents the best value considerations to be made by HHSC when selecting a 
+Respondent for negotiation and Contract award. 
+4.3 QUESTIONS OR REQUESTS FOR CLARIFICATION 
+By submitting a Solicitation Response, Respondent grants HHSC the right to ask questions, request 
+clarifications and to obtain any information from any lawful source regarding the past history, 
+practices, conduct,  ability, and eligibility of the Respondent to supply Services and to fulfill 
+requirements under this Solicitation, and the past history, practices, conduct, ability, and eligibility 
+of any director, officer, or key employee of the Respondent. By submitting a Solicitation Response, 
+the Respondent generally releases from liability and waives all claims against any party providing 
+information about the Respondent at the request of HHSC . Such information may be taken into 
+consideration in evaluating the Solicitation Response. 
+ARTICLE V. STATEMENT OF QUALIFICATIONS 
+5.1 EXECUTIVE SUMMARY 
+Respondent must provide an executive summary of its qualifications as well as a full and concise 
+summary of the contents of the Solicitation Response. The overview should highlight key aspects 
+of the Solicitation Response including Respondent’s understanding of any stated goals or 
+objectives for this Solicitation. Respondent must include a statement in the executive summary 
+that the Solicitation Response is responsive to all the requirements of this Solicitation, including  
+Exhibit E, Scope of Work (SOW). The executive summary must not exceed two (2) pages. 
+If Respondent is providing services beyond those specifically req uired by this Solicitation, those 
+services must be identified in the Solicitation Response. If Respondent is offering services that do 
+not meet the specific requirements of this Solicitation, but in the opinion of the Respondent are 
+equivalent or superior to those specifically requested, any such differences must be noted in the
+
+[page 23]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 23 of 32 
+Version 2.0 (09/20/2023) 
+executive summary . Failure to submit a Solicitation Response that is responsive to the  
+requirements of the Solicitation may result in disqualification of the Solicitation Response. 
+5.2 MINIMUM QUALIFICATION DOCUMENTATION 
+Respondent must provide documentation that demonstrates its compliance with the minimum 
+qualifications set forth in Section 4.2.2 (Minimum Qualifications). 
+5.3 ORGANIZATION EXPERIENCE 
+a. Respondent describes the firm’s organizational experience providing legal support, advice, 
+and legal services, working with clients and vendors on complex information technology 
+and intellectual property law related matters; and 
+b. Respondent describes the firm’s experience with information technology compliance 
+related to federal and state law matters. 
+5.4 STAFF EXPERIENCE AND COMPETENCE 
+a. Respondent describes and documents the Lead Attorney’s experience in information 
+technology and intellectual property law related matters; 
+b.  Respondent describes and documents the attorney staff’s  experience and competence with 
+information technology law related matters; 
+c.  Respondent’s documentation depicts the Lead Attorney and other attorney staff’s experience 
+and competence in advising on complex information technology, legal matters, including, but 
+not limited to, agreements, intellectual property, data privacy and security, artificial 
+intelligence, dispute resolution, and risk management; and 
+d. Respondent describes staffs experience with information technology compliance related to 
+federal and state laws, rules, and regulations. 
+5.5 DEMONSTRATED COMPETENCE 
+Respondents Organization’s must complete and submit Exhibit B, Past Performance Template 
+for three (3) contracts or projects as attachments to the Statement of Qualifications, to provide 
+information that demonstrates the Respondent’s competence and experience advising clients in 
+complex information technology matters. Preferably , at least one of the submissions includes 
+experience providing legal services to a federal, state , or local government entity. HHSC may 
+contact clients listed in Exhibit B, Past Performance Template  submissions provided in the 
+Solicitation Response. 
+ 
+*Please note that Exhibit B, Past Performance Template is separate from the references 
+required to be submitted per Section 6.3 (References). 
+ 
+The Respondents Organization must demonstrate commitment, understanding, experience, and 
+competence in past performance with legal matters involving information technology, including 
+intellectual property, security, data privacy, artificial intelligence, a nd risk management.
+
+[page 24]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 24 of 32 
+Version 2.0 (09/20/2023) 
+Respondent must address competence in both the Solicitation Response and Exhibit B, Past 
+Performance Template. 
+5.6 STAFFING PROFILE 
+Respondent must provide staffing profiles , resumes, and licensing information  for all key 
+personnel who will be responsible for the performance of the Services as attachments to the 
+Statement of Qualifications required by this Solicitation. 
+ARTICLE VI. REQUIRED RESPONDENT INFORMATION 
+6.1 COMPANY INFORMATION 
+In its Solicitation Response, Respondent must include the information required by this section. 
+6.1.1 Company Narrative 
+Respondent must p rovide a detailed narrative explaining its experience and qualifications to 
+provide the Services specified in Exhibit E , Scope of Work  (SOW). Respondent’s narrative 
+should focus on key strengths and competitive advantages. 
+6.1.2 Company Profile 
+Respondent must provide a company profile that includes the following: 
+a. Respondent’s ownership structure ( e.g., corporation, partnership, LLC, or sole 
+proprietorship), including any wholly -owned subsidiaries, affiliated companies, or joint 
+ventures. Information must be provided in both a narrative and a graphical representation. 
+If Respondent is an affiliate of, or has a joint venture or strategic alliance with, another 
+company, Respondent must identify the percentage of ownership  of each joint venture 
+member or affiliate and the percentage of the parent’s ownership; 
+b. Respondent’s proposed operating structure for the Services requested under this 
+Solicitation and which entities ( e.g., parent company, affiliate, subcontractor) will be 
+performing them must be identified. A Solicitation Response that proposes a joint venture 
+of two or more business entities, a joint response from more than one business entity, or 
+other similar group arrangement is not responsive to this Solicitation. A Respondent may 
+team with multiple busi ness entities to provide the requested services under a prime 
+vendor-subcontractor arrangement. The business entity performing the majority of the 
+Work under the Contract, throughout the Contract Term, must be the Respondent; 
+c. The year the company was founded and/or incorporated. If incorporated, Respondent must 
+indicate the state where the company is incorporated and the date of incorporation; 
+d. The location of  company headquarters and any field office(s) that may prov ide Services 
+under the Contract;
+
+[page 25]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 25 of 32 
+Version 2.0 (09/20/2023) 
+e. The number of employees in the company, both locally and nationally, and the location(s) 
+from which employees will be assigned; 
+f. The name, address, and telephone number of Respondent’s poin t of contact for the 
+Contract; 
+g.  The name, address, and telephone number of Respondent’s point of contact for any 
+questions regarding the Solicitation Response; and 
+h. Indicate whether the  company has ever been in contract with any  Texas state agency. If 
+“Yes,” then provide a brief description of the scope of services and service period for each 
+Texas state agency contract. 
+6.2  AUTHORIZATION TO CONDUCT BUSINESS IN TEXAS 
+Respondent must be authorized to do business in the State of Texas prior to an award. Respondent 
+must provide a Certificate of Fact from the Texas Secretary of State showing that it is authorized 
+to do business in Texas. 
+Respondent must be set up in the Texas franchise tax system prior to Contract award unless subject 
+to an exemption under Tax Code Chapter 171, Subchapter B . Re spondent must submit in its 
+Solicitation Response a copy of Respondent’s exemption status with the Texas Comptroller. Texas 
+franchise tax information can be currently accessed 
+at https://comptroller.texas.gov/taxes/franchise/. 
+6.3  REFERENCES 
+Respondent must provide at least three (3) client references, preferably for state and/or local 
+government, for Respondent’s performance within the last three (3) years under contracts or 
+projects performed by Respondent that are similar to the services required by this Solicitation . 
+Respondent is responsible for verifying that the contact information is current for each client 
+reference. The following information must be provided for each reference: 
+a. Client name; 
+b. Contract/project description; 
+c. Total dollar amount of contract/project; 
+d. Key staff assigned to the referenced contract  or project who will be designated for Work 
+under a contract resulting from this Solicitation; and 
+e. Client contract/project manager name, telephone number, fax number, and email address. 
+6.4 AFFIRMATIONS AND CERTIFICATIONS 
+Respondent must complete, sign, and return Exhibit A, HHS Solicitation Affirmations, Version 
+2.10 with its Solicitation Response.
+
+[page 26]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 26 of 32 
+Version 2.0 (09/20/2023) 
+6.5 FINANCIAL CAPACITY 
+By submitting a Response to this Solicitation, Respondent certifies that it is financially capable 
+and solvent and adequately capitalized to meet the requirements of this Solicitation. 
+6.6 CORPORATE GUARANTEE 
+If Respondent is substantially or wholly owned by another corporate (or other) entity, HHSC 
+reserves the right to request that such entity unconditionally guarantee performance by the 
+Respondent in each and every obligation, warranty, term, covenant, and condition of the Contract. 
+ARTICLE VII. HSP REQUIREMENT 
+7.1 HSP SUBMISSION INSTRUCTIONS 
+A HUB Subcontracting Plan is not required for a Solicitation Response to this Solicitation. 
+ARTICLE VIII. GENERAL TERMS AND CONDITIONS 
+8.1 GENERAL CONDITIONS 
+8.1.1 Changes, Modifications, and Cancellation of the Solicitation 
+HHSC PCS reserves the right to make changes to and/or cancel this Solicitation at any time. HHSC 
+PCS will p ost notices of all changes and modifications, whether made as a result of written 
+inquiries by potential Respondents or otherwise, and cancellation notices on the ESBD. It is the 
+responsibility of the Respondent to periodically check the ESBD for any additional information 
+regarding this Solicitation. If the Respondent fails to monitor the ESBD for any changes or 
+modifications to the Solicitation, such failure will not relieve the Respondent of its obligation to 
+fulfill the requirements of the Solicitation as posted on the ESBD. 
+8.1.2 Offer Period 
+A Solicitation Response shall be binding for a period of 240 days after the submission due date. A 
+Respondent may extend the time for which its Solicitation Response will be honored. Upon 
+Contract execution, prices agreed by the Contractor constitute an irrevocable offer for the Contract 
+Term. No other costs, rates, or fees shall be payable to the Contractor unless expressly agreed in 
+writing by HHSC. 
+8.1.3 Costs Incurred 
+Respondent understands that issuance of this Solicitation in no way constitutes a commitment b y 
+HHSC. to award a contract or to pay any costs incurred by a Respondent in the preparation of a 
+response to this Solicitation. HHSC is not liable for any costs incurred by a Respondent. Costs of
+
+[page 27]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 27 of 32 
+Version 2.0 (09/20/2023) 
+developing a Solicitation Response, or any other similar expenses incurred by a Respondent are 
+entirely the responsibility of the Respondent and will not be reimbursed in any manner by the State 
+of Texas. 
+8.1.4 Contract Responsibility 
+HHSC will look solely to the Contractor for the performance of all contractual obligations of the 
+Contract. The Contractor shall not be relieved of its obligations for any nonperformance by its 
+Subcontractors. 
+8.1.5 Public Information Act - Respondent Requirements Regarding Disclosure 
+Solicitation Responses and contracts are subject to the Texas Public Information Act (PIA), Texas 
+Government Code Chapter 552, and may be disclosed to the public upon request. Other legal 
+authority also requires HHSC to post contracts and Solicitation Responses on its public website 
+and to provide such information to the Legislative Budget Board for posting on its public website. 
+Under the PIA, certain information is protected from public release. If Respondent asserts that 
+information provided in its Solicitation R esponse is exempt from disclosure under the PIA, 
+Respondent must: 
+a. Mark Original Solicitation Response: 
+1. Mark the Original Solicitation Response, on the top of the front page, with the words 
+“CONTAINS CONFIDENTIAL INFORMATION” in large, bold, capitalized letters 
+(the size of, or equivalent to, 12-point Times New Roman font or larger); 
+2. Mark the bottom of each page on the Solicitation Response that contains information 
+that Respondent claims is exempt from public disclosure with the words “CONTAINS 
+CONFIDENTIAL INFORMATION”; 
+3. Identify, adjacent to each portion of the Solicitation Response that Respondent claims 
+is exempt from public disclosure, the claimed exemption from disclosure; 
+4.  Do not redact any content in the Original Solicitation Response; and 
+b. Certify in Original Solicitation Response – Exhibit A, HHS Solicitation Affirmations, 
+Version 2.10:  
+Certify, in the designated section of the HHS Solicitation Affirmations, Respondent’s 
+confidential information assertion and the filing of its Public Information Act Copy; and 
+c. Submit Public Information Act Copy of the Solicitation Response:
+
+[page 28]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 28 of 32 
+Version 2.0 (09/20/2023) 
+Submit a separate “Public Information Act Copy” of the Original Solicitation Response (in 
+addition to the original and all copies otherwise required under the provisions of this 
+Solicitation). The Public Information Act Copy must meet the following requirements: 
+1. The copy must be clearly marked as “Public Information Act Copy” on the front page 
+in large, bold, capitalized letters (the size of, or equivalent to, 12 -point Times New 
+Roman font or larger); 
+2. Each portion of the Solicitation Response that Respondent claims is exempt from 
+public disclosure must be redacted (blacked out); and 
+3. Respondent must identify, adjacent to each redaction, the claimed exemption from 
+disclosure. Each identification provided as required in Subsection (c) of this section 
+must be identical to those set forth in the Original Solicitation Response as required in 
+Subsection (a)(3), above. The only difference in required markings and information 
+between the Original Solicitation Response and the “Public Information Act Copy” of 
+the Solicitation Response will be redactions - which can only be included in the “Public 
+Information Act Copy.” (There must be no redactions in the Original Solicitation 
+Response). 
+By submitting a Solicitation Response, Respondent agrees that, if Respondent does not mark 
+the Original Solicitation Response, provide the required certification in the Exhibit A, HHS 
+Solicitation Affirmations, Version 2.10, and submit the Public Information Act Copy, 
+Respondent’s Solicitation Response will be considered to be public information that may be 
+released to the public without notice to the Respondent  in any manner including, but not 
+limited to, in accordance with the Public Information Act, posted on HHSC’ public website, 
+and posted on the Legislative Budget Board’s public website. 
+If a Respondent submit s partial, but not complete, information suggesting inclusion of 
+confidential information and failure to comply with the requirements set forth in this section, 
+HHSC PCS, in its sole discretion and in any Solicitation, reserves the right to ( request a new 
+“Public Information Act Copy” or clarification concerning potentially confidential 
+information during contract negotiations. 
+Respondent should not submit a Public Information Act Copy indicating that the entire Solicitation 
+Response is exempt from disclosure. Merely making a blanket claim that the entire Solicitation 
+Response is protected from disclosure because it contains any amount of confidential, proprietary, 
+trade secret, or privileged information is not acceptable. 
+A Solicitation Response should not be marked or asserted as copyrighted material. If Respondent 
+asserts a copyright to any portion of its response, by submitting a response, Respondent agrees to 
+reproduction and posting on public websites by the State of Texas, including all other state
+
+[page 29]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 29 of 32 
+Version 2.0 (09/20/2023) 
+agencies, without cost or liability and, additionally, agrees to allow the State of Texas to provide 
+a copy of the Solicitation Response to individuals making a PIA request for the response. 
+HHSC will strictly adhere to the requirements of the PIA regarding the disclosure of public 
+information. As a result, by participating in this solicitation process, Respondent acknowledges 
+that all information, documentation, and other materials submitted in the Solicitation Response 
+may be subject to public disclosure under the PIA. HHSC does not have authority to agree that 
+any information submitted will not be subject to disclosure. Disclosure is governed by the PIA and 
+by rulings of the Office of the Te xas Attorney General. Respondents are advised to consult with 
+their legal counsel concerning disclosure issues resulting from this process and to take precautions 
+to safeguard trade secrets and proprietary or otherwise confidential information. HHSC assumes 
+no obligation or responsibility relating to the disclosure or nondisclosure of information submitted 
+by Respondents. 
+For more information concerning the types of information that may be withheld under the PIA or 
+questions about the PIA, please refer to the Public Information Act Handbook published by the 
+Office of the Texas Attorney General or contact the attorney general’s Open Government Hotline 
+at (512) 478-OPEN (6736) or toll-free at (877) 673-6839 (877-OPEN TEX). To access the Public 
+Information Act Handbook, please visit the attorney general’s website at 
+http://www.texasattorneygeneral.gov. 
+8.1.6 Respondent Waiver – Intellectual Property 
+SUBMISSION OF ANY DOCUMENT TO HHSC. IN RESPONSE TO THIS 
+SOLICITATION CONSTITUTES AN IRREVOCABLE WAIVER  AND AGREEMENT 
+BY RESPONDENT TO FULLY INDEMNIFY THE STATE OF TEXAS, HHSC FROM 
+ANY CLAIM OF INFRINGEMENT BY HHSC . REGARDING THE INTELLECTUAL 
+PROPERTY RIGHTS OF RESPONDENT OR ANY THIRD PARTY FOR ANY 
+MATERIALS SUBMITTED TO HHSC BY RESPONDENT. 
+8.1.7 Standards of Conduct for Vendors 
+Pursuant to Title 1 of the Texas Administrative Code Part 15, Chapter 391, Subchapter D, Rule 
+§391.405(a), Contractors, Respondents, and Vendors interested in working with HHSC are 
+required to implement standards of conduct for their own personnel and agents on terms at least 
+as restrictive as those applicable to  HHSC These standards must adhere to ethics requirements 
+adopted in rule, in addition to any ethics policy, or code of ethics approved by the HHSC Executive 
+Commissioner. A Respondent must sign and submit all ethics, disclosure, confidentiality, and 
+other forms required under the procurement and any resulting contract. 
+The standards of conduct must include the ten standards of ethical conduct set forth in Section I of 
+the HHS Ethics Policy, located at https://www.hhs.texas.gov/sites/default/files/documents/about-
+hhs/hhs-ethics-policy.pdf and requirements to comply with ethical standards set forth in federal
+
+[page 30]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 30 of 32 
+Version 2.0 (09/20/2023) 
+and state law (including, but not limited to, Title 1 of the Texas Administrative Code Part 15, 
+Chapter 391, Subchapter D, Rule §391.405(a)). 
+Standards of conduct of any Contractor, Respondent, or Vendor may be reviewed and/or audited 
+by the State Auditor and HHSC, The Contractor, Respondent, or Vendor must cooperate with the 
+review and/or audit. Additionally, pursuant to Title 1 of the Texas Administrative Code Part 15, 
+Chapter 391, Subchapter D, Rule §391.405(a), HHSC may examine a Respondent’s standards of 
+conduct in the evaluation of a bid, offer, proposal, quote, or other applicable expression of interest 
+in a proposed purchase of Goods or Services. 
+Any Vendor, Contractor, or Subcontractor, that violates a provision of Title 1 of the Texas 
+Administrative Code Part 15, Chapter 391, Subchapter D may be barred from receiving future 
+contracts or have an existing contract canceled. Additionally, HHSC may report the Vendor’s 
+actions to the Comptroller of Public Accounts for statewide debarment, or law enforcement. 
+8.1.8 Disclosure of Interested Parties 
+Pursuant to Section 2252.908 of the Texas Government Code, the Respondent to be awarded a 
+contract with a value of $1 million or more or awarded a contract that would require the 
+Respondent to register as a lobbyist under Chapter 305 of the Texas Government Code must submit 
+a disclosure of interested parties form to HHSC at the time the Respondent submits the signed 
+Contract. Rules and filing instructions may be found on the Texas Ethics Commission's public 
+website and additional instructions will be given by HHSC to the successful Respondent. 
+8.2 INSURANCE 
+8.2.1 Required Coverage 
+For the Contract Term, the Contractor shall acquire insurance with financially sound and reputable 
+independent insurers, in the type and amount listed in Exhibit C, Sample OAG Outside Counsel 
+Contract. Failure to maintain insurance coverage or acceptable alternative methods of insurance 
+shall be deemed a breach of contract. 
+8.3 PROTEST 
+Any protest shall be governed by the rules published by HHSC in the Texas Administrative Code, 
+Title 1, Part 15, Chapter 391, Subchapter C, Protests. 
+8.4 INDEMNIFICATION 
+RESPONDENT SHALL DEFEND, INDEMNIFY, AND HOLD HARMLESS THE STATE OF 
+TEXAS AND HHSC, AND/OR THEIR OFFICERS, AGENTS, EMPLOYEES, 
+REPRESENTATIVES, CONTRACTORS, ASSIGNEES, AND/OR DESIGNEES FROMANY 
+AND ALL LIABILITY, ACTIONS, CLAIMS, DEMANDS, OR SUITS, AND ALL RE LATED
+
+[page 31]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 31 of 32 
+Version 2.0 (09/20/2023) 
+COSTS, ATTORNEY FEES, AND EXPENSES ARISING OUT OF, OR RESULTING FROM 
+ANY ACTS OR OMISSIONS OF RESPONDENT OR ITS AGENTS, EMPLOYEES, 
+SUBCONTRACTORS, ORDER FULFILLERS, OR SUPPLIERS OF SUBCONTRACTORS IN 
+THE EXECUTION OR PERFORMANCE OF THE CONTRACT AND ANY PURCHASE 
+ORDERS ISSUED UNDER THE CONTRACT. THE DEFENSE SHALL BE COORDINAT ED 
+BY RESPONDENT WITH THE OFFICE OF THE TEXAS ATTORNEY GENERAL WHEN 
+TEXAS STATE AGENCIES ARE NAMED DEFENDANTS IN ANY LAWSUIT AND 
+RESPONDENT MAY NOT AGREE TO ANY SETTLEMENT WITHOUT FIRST OBTAINING 
+THE CONCURRENCE FROM THE OFFICE OF THE TEXAS ATTORNEY GENERAL. 
+RESPONDENT AND HHSC AGREE TO FURNISH TIMELY WRITTEN NOTICE TO EACH 
+OTHER OF ANY SUCH CLAIM.  
+THE PARAGRAPH ABOVE IS NOT INTENDED TO AND SHALL NOT BE CONSTRUED 
+TO REQUIRE RESPONDENT TO INDEMNIFY OR HOLD HARMLESS THE STATE OR 
+HHSC FOR ANY CLAIMS OR LIABILITIES RESULTING FROM THE NEGLIGENT ACTS 
+OR OMISSIONS OF HHSC OR ITS EMPLOYEES.
+
+[page 32]
+PCS 570 HHS RFQ,   RFQ No. HHS0017298      Page 32 of 32 
+Version 2.0 (09/20/2023) 
+ARTICLE IX. LIST OF EXHIBITS 
+The following Exhibits are attached to and incorporated into this Solicitation for all purposes. 
+EXHIBIT A HHS SOLICITATION AFFIRMATIONS, VERSION 2.10 
+EXHIBIT B PAST PERFORMANCE TEMPLATE 
+EXHIBIT C SAMPLE OAG OUTSIDE COUNSEL CONTRACT 
+EXHIBIT D EVALUATION TOOL 
+EXHIBIT E SCOPE OF WORK (SOW)

@@ -1,0 +1,1526 @@
+[page 1]
+PCS 137 - SERVICES 
+Version 2.10 Page 1 of 42 Revised 03/18/2026 
+ 
+Stephanie Muth, Executive Commissioner 
+ 
+Invitation for Bids (IFB) 
+for 
+Armed Security Guard Services, Lubbock TX  
+IFB No.  HHS0017355 
+NIGP Class/Item No(s): 990-46 Guard and Security Service 
+ 
+Procurement Schedule - All Times are Central Time 
+Reference Section 2 for further information 
+IFB Date Posted to ESBD  June 26, 2026 
+Questions or Clarifications Submission Deadline  July 9, 2026, at 5:00 PM 
+Responses to Questions or Clarifications - Addendum posted 
+on the ESBD July 13, 2026 
+Response Deadline: Responses to this IFB must be received July 21, 2026, 10:30 AM 
+Anticipated Contract Start Date  September 1, 2026
+
+[page 2]
+PCS 137 - SERVICES 
+Version 2.10 Page 2 of 42 Revised 03/18/2026 
+Table of Contents 
+1 Introduction and Purpose of IFB ............................................................................................................................ 4 
+1.1 Authority ...................................................................................................................................................... 4 
+1.2 Historical Monetary Value............................................................................................................................ 4 
+1.3 No Guarantee of Volume, Usage or Compensation ..................................................................................... 4 
+1.4 Negotiation, Exceptions or Assumptions ..................................................................................................... 4 
+1.5 IFB Components ........................................................................................................................................... 5 
+2 Procurement Schedule .......................................................................................................................................... 5 
+3 Withdrawal or Amendment of Response .............................................................................................................. 5 
+4 HHSC Overview ...................................................................................................................................................... 6 
+5 Definitions.............................................................................................................................................................. 6 
+6 General IFB Information ........................................................................................................................................ 8 
+6.1 Sole Point of Contact and Communications ................................................................................................. 8 
+6.2 Exception to the Sole Point of Contact ........................................................................................................ 9 
+6.3 Binding Offer Period ..................................................................................................................................... 9 
+6.4 Costs Incurred .............................................................................................................................................. 9 
+6.5 Changes, Modifications and Cancellation .................................................................................................... 9 
+6.6 Ambiguity, Conflict, Discrepancy.................................................................................................................. 9 
+6.7 IFB Questions or Clarifications ................................................................................................................... 10 
+6.8 Notification of Addenda or Cancellation .................................................................................................... 10 
+7 Scope of Work (SOW) .......................................................................................................................................... 11 
+7.1 Scope of Services to be Performed ............................................................................................................ 11 
+8 HUB Subcontracting Plan (HSP) Requirements.................................................................................................... 21 
+8.1 HUB Subcontracting Plan (HSP) .................................................................................................................. 21 
+9 Pricing Information .............................................................................................................................................. 21 
+9.1 Pricing Structure ......................................................................................................................................... 21 
+9.2 Price Adjustments ...................................................................................................................................... 21 
+10 Changes to The Contract ..................................................................................................................................... 23 
+11 Contract Term ...................................................................................................................................................... 23 
+11.1 Term of Contract ........................................................................................................................................ 23 
+11.2 Initial Contract Term: ................................................................................................................................. 24 
+11.3 Renewal Option(s) ...................................................................................................................................... 24 
+11.4 Extension Option ........................................................................................................................................ 24 
+12 Contract Administration/ Purchase Order Administration .................................................................................. 24 
+12.1 Contract Manager/Program Lead .............................................................................................................. 24 
+12.2 Performed Services Monitoring ................................................................................................................. 24 
+12.3 Performance Reporting .............................................................................................................................. 25
+
+[page 3]
+PCS 137 - SERVICES 
+Version 2.10 Page 3 of 42 Revised 03/18/2026 
+12.4 Contractor Response to Notification of Non-Material Deficiency ............................................................. 25 
+12.5 Corrective Action Plan (The Plan) ............................................................................................................... 25 
+12.6 Performance Issues .................................................................................................................................... 26 
+12.7 Public Information Act – Bidder Requirements Regarding Disclosure ....................................................... 26 
+12.8 Bidder Waiver – Intellectual Property ........................................................................................................ 28 
+13 Invoicing and Payment ........................................................................................................................................ 28 
+13.1 Bill-to Address ............................................................................................................................................ 28 
+13.2 Invoice Information .................................................................................................................................... 28 
+13.3 Payment ..................................................................................................................................................... 29 
+13.4 Invoice Submission ..................................................................................................................................... 29 
+13.5 Disputed Invoice(s) ..................................................................................................................................... 29 
+14 Insurance Requirements ...................................................................................................................................... 29 
+14.1 Specific Insurance Requirements ............................................................................................................... 31 
+14.2 Alternative Insurability ............................................................................................................................... 32 
+15 Screening of Responses ....................................................................................................................................... 33 
+15.1 Administrative Screening ........................................................................................................................... 33 
+15.2 Irregularities ............................................................................................................................................... 33 
+16 Evaluation ............................................................................................................................................................ 34 
+16.1 Evaluation of Responses............................................................................................................................. 34 
+16.2 Conformance with State Law for Evaluation .............................................................................................. 34 
+16.3 Specific Evaluation Criteria ......................................................................................................................... 34 
+17 Award .................................................................................................................................................................. 36 
+18 Standards of Conduct for Vendors ...................................................................................................................... 36 
+19 Disclosure of Interested Parties ........................................................................................................................... 36 
+20 Protest Procedures .............................................................................................................................................. 37 
+Appendix A – Submission Instructions and Response Checklist .................................................................................. 38
+
+[page 4]
+PCS 137 - SERVICES 
+Version 2.10 Page 4 of 42 Revised 03/18/2026 
+1 Introduction and Purpose of IFB 
+The Texas Health and Human Services Commission (HHSC) is an agency within the Texas Health 
+and Human Services (HHS) system. The Procurement and Contracting Services (PCS) division of 
+HHSC administers IFBs for HHS. 
+HHSC PCS is seeking competitive bids to establish contract(s) for armed security guard services, 
+1716 Parkway Dr Lubbock, TX 79403.   
+Both HHS Agencies, HHSC and DSHS, will be entitled to use any contract awarded as a result of 
+this IFB. 
+To be considered for award, Bidders must submit a comprehensive Response which includes all 
+required information and documentation as outlined in this IFB to ensure the Bidder meets all 
+requirements, possesses the required experience and qualifications, and has the capacity to 
+provide the services described in this IFB. See Appendix A, Submission Instructions and 
+Response Checklist. 
+1.1 Authority 
+HHSC is soliciting the services stated in this IFB under Texas Government Code 2156.063. 
+1.2 Historical Monetary Value  
+ Historical spending for the same or similar services is $195,000.00 for the period 9/1/2023 to 
+8/31/2026. 
+1.3 No Guarantee of Volume, Usage or Compensation 
+HHS Agency does not guarantee any volume, usage, or compensation to be paid to any 
+Contractor under any Contract resulting from this IFB. Additionally, all HHS Agency contracts 
+are subject to appropriations, the availability of funds, and termination.  
+The estimated historical spend included in Section 1.2 is provided only as a guideline for 
+preparing the pricing response and should not be construed as representing anticipated or 
+actual quantities that will be required.  
+1.4 Negotiation, Exceptions or Assumptions 
+Negotiations are prohibited under the IFB procurement method under most circumstances, and 
+even then, the scope of permissible negotiations is limited  and may not result in a material 
+change to the scope of work or specifications as advertised in this IFB .  
+Bidders should NOT submit exceptions to this IFB which could result in disqualification of a 
+Response. No changes to a Response can be made after the submission deadline.
+
+[page 5]
+PCS 137 - SERVICES 
+Version 2.10 Page 5 of 42 Revised 03/18/2026 
+No assumptions should be included in a Response. The inclusion of assumptions could result in 
+disqualification of a Response. Instead, a Bidder should advance assumptions and seek 
+clarification of a section of this IFB, any Exhibits or attachments, in the form and manner 
+required in Section 6.7 IFB Questions or Clarification s.   
+1.5  IFB Components 
+This IFB includes the following items:  
+• PCS 137 IFB (this document)  
+• Exhibit A – HHS Solicitation Affirmations 
+• Exhibit B – PCS 111-Contract Affirmations and HHS Uniform Terms and Conditions 
+(UTCs)  
+• Exhibit C – Pricing Sheet 
+• Exhibit D – Bidder Reference and Contractor Qualifications  Form 
+• Exhibit E – HHS Online Bid Room Information  
+• Exhibit E-1- PCS Map 
+• Exhibit F – Form 4109 Application for Texas Identification Number   
+2 Procurement Schedule 
+The Procurement Schedule dates on the cover page of this IFB are subject to change. HHSC 
+reserves the right to modify these dates at any time by issuing an addendum. Any events listed 
+in the Procurement Schedule after the Response Deadline will occur at the discretion of HHSC.  
+Responses must be received by HHSC prior to the Response Deadline as indicated in the 
+Procurement Schedule. Every Bidder is solely responsible for ensuring its Response is received  
+by HHSC before the Response Deadline  in accordance with all requirements regarding 
+submission. HHSC is not responsible for lost, misdirected or late Responses.  
+By submitting a Response, the Bidder represents and warrants that the individual submitting 
+the Response, inclusive of the documents made part of the Response, is authorized to sign on 
+behalf of the Bidder, and to bind the Bidder under any Contract that may result from this IFB.  
+3 Withdrawal or Amendment of Response 
+Bidders may withdraw or amend their Responses at any time prior to the Response Deadline by 
+e-mailing the point of contact listed in Section 6.1 (Sole Point of Contact and Communications) . 
+The e-mail subject line for withdrawal or response amendment should contain the IFB 
+number as indicated on the cover page of this IFB. The Bidder is solely responsible for ensuring
+
+[page 6]
+PCS 137 - SERVICES 
+Version 2.10 Page 6 of 42 Revised 03/18/2026 
+the email is received by HHSC before the Response Deadline. HHSC is not responsible for lost or 
+misdirected e-mails. 
+4 HHSC Overview 
+The Health and Human Services Commission (HHSC) was created in 1991 to oversee and 
+coordinate the planning and delivery of health and human services in Texas. It is established 
+pursuant to Chapter 523, Texas Government Code  and is responsible for oversight of Texas 
+Health and Human Services agencies.  
+PCS administers the procurement process, which include s IFB announcement and publication, 
+Bidder communications, receipt of Responses, screening of timely received responses, and 
+facilitating the evaluation of qualified Responses. PCS, in coordination with each HHS program, 
+manages the execution of the award, thro ugh issuance of Purchase Order(s) or other Contract 
+document, resulting from this IFB. 
+5 Definitions 
+Unless the context clearly indicates otherwise, throughout this IFB, the definition given to a 
+term below applies whenever the term appears in this IFB, in any Response (Bid) submitted in 
+response to this IFB, and in any Contract awarded as a result of this IFB. All other terms have 
+their ordinary and common meaning.  
+a) Addendum – A written clarification or revision to this IFB issued by HHSC. 
+b) Bidder – The entity or individual that submits a response to this IFB. Includes anyone 
+acting on behalf of the entity or individual that submits a response, such as an agent, 
+employee, or representative. See also Respondent below. 
+c) Contract –The signed Purchase Order or Signature Document, the Uniform Terms and 
+Conditions, Affirmations, along with any Attachments,  Exhibits and any Amendments, 
+purchase orders, or Work Orders that may be issued by HHSC, to be incorporated by 
+reference for all purposes as a result of this IFB . 
+d) Contractor - Each Bidder, business entity or individual, if any, awarded a Purchase Order 
+or other Contract to provide the services or goods as a result of this IFB.  
+e) Contract Term – The period of time during which the Purchase Order or Contract is in 
+effect from the start date through the end date and may include renewal or extension 
+periods. 
+f) Debarment – An exclusion from contracting or subcontracting with state agencies on 
+the basis of cause pursuant to Title 34, Part 1, Chapter 20, Subchapter G of the Texas 
+Administrative Code, and the Federal System for Award Management (SAM).  
+g) Deliverables – The services or goods specified in this IFB and any resulting Contract that 
+the Contractor shall perform or deliver to the HHS Agency.
+
+[page 7]
+PCS 137 - SERVICES 
+Version 2.10 Page 7 of 42 Revised 03/18/2026 
+h) Electronic State Business Daily (ESBD)  - The electronic online directory, administered by 
+the Comptroller of Public Accounts, Statewide Procurement Division (SPD), for 
+publishing procurement opportunities which exceed $25,000 in total estimated value 
+and for providing public notice of contract  awards. The ESBD may be accessed through 
+the CPA web site at: https://www.txsmartbuy.gov/esbd . 
+Note: The Texas Comptroller of Public Accounts (CPA) recommends utilizing Google 
+Chrome when navigating CPA websites.  
+i) Exhibit – A document, included as an attachment to this IFB, which provides terms and 
+conditions, additional requirements and information related to this IFB. 
+j) HHS Agency - HHSC or any of the agencies of the State of Texas that are overseen by 
+HHSC under authority granted under state law and the officers, employees, authorized 
+representatives, and designees of those agencies. These agencies include: HHSC and the 
+Department of State Health Services (DSHS), separately or combined. May also be 
+referred to as System Agency. 
+k) IFB - This document, including all exhibits, attachments, appendices, or Addenda (if 
+applicable). May also be referred to as Invitation for Bid s. 
+l) NIGP (The National Institute of Governmental Purchasing (NIGP) Commodity Book ) –  
+The Class-Item numbering and descriptions used by state agencies to properly code 
+services or products for a procurement.  
+m) Purchase Order – A legally enforceable agreement issued by HHSC indicating types, 
+quantities, and agreed pricing for services and goods the Contractor will provide  under 
+any Contract resulting from this IFB . 
+n) Response – All information and materials submitted by a Bidder in response to this IFB. 
+May also be referred to as Bid or Bid Response.  
+o) Respondent – A term interchangeable with Bidder.  
+p) Scope of Work – The description of requirements, services, specifications for goods 
+which may be required, and deliverables as provided in this IFB and any resulting 
+Contract which the Contractor is required to provide.  
+q) Subcontractor - Any entity or individual that enters into a contract with the Contractor 
+to perform part or all of the obligations of the Contractor under the Contract.  
+r) Texas Identification Number (TIN)  – The 11-digit identification number set up through 
+the Texas Comptroller of Public Accounts which is required for any entity or individual to 
+receive payment under a Contract with the State of Texas. Also known as Texas Payee ID 
+Number. Further information regarding this number may be accessed via the CPA Fiscal 
+Management TexPayment Resource web page at:  
+https://fmx.cpa.texas.gov/fm/pubs/payment/gen_prov/index.php?s=payee_numreq&p
+=payee_numreq.
+
+[page 8]
+PCS 137 - SERVICES 
+Version 2.10 Page 8 of 42 Revised 03/18/2026 
+s) Unit of Measure – The set unit of measure (UOM), included on the Pric ing Sheet, used 
+for payment of the services under the Contract or Purchase Order. May be hourly, daily, 
+weekly, monthly, etc. 
+t) Unit Rate – The set rate per the unit of measure (UOM) used for payment of the 
+services, included on the Price Sheet , under the Contract or Purchase Order. May be 
+hourly, daily, weekly, monthly, etc. 
+u) Vendor – A business entity or individual that supplies services or goods and may be a 
+potential Bidder to this IFB. 
+6 General IFB Information 
+6.1 Sole Point of Contact and Communications 
+The HHSC PCS Sole Point of Contact for inquiries concerning this IFB is: 
+Katrinia Ender, CTCD, CTCM  
+Procurement and Contracting Services Building  
+1100 W 49th St. MC: 2020  
+Austin, TX 78756 
+512-406-2428 
+katrinia.ender@hhs.texas.gov  
+Bidders shall NOT use the e-mail address above for submission of a Response to this IFB. See 
+Appendix A for submission requirements.  
+Bidders shall direct all communications, including questions or clarifications relating to this IFB, 
+by e-mail to the HHSC PCS Sole Point of Contact named in Section 6.1 (Sole Point of Contact 
+and Communications); communications by phone will not be accepted  except for purposes 
+such as instructing a potential Respondent through an IT system or website referenced in this 
+Solicitation.  
+All other communications between a Bidder and HHS agency staff concerning this IFB are 
+prohibited. In no instance is a Bidder to discuss cost information regarding this IFB with the 
+HHSC PCS Sole Point of Contact or any other HHS staff. Failure to comply with these 
+requirements may result in disqualification of the Response.  
+The Sole Point of Contact will authorize a secondary Sole Point of Contact in the event of their 
+absence and, in such an event, will include the contact information for the secondary Sole Point 
+of Contact in their automatic reply out -of-office e-mail message. See also Section 6.2 
+(Exception to Sole Point of Contact)  below. 
+This restriction (as to only communicating in writing with the HHSC Sole Point of Contact 
+identified above) does not preclude discussions between Bidder and agency personnel for the 
+purposes of conducting business unrelated to this IFB.
+
+[page 9]
+PCS 137 - SERVICES 
+Version 2.10 Page 9 of 42 Revised 03/18/2026 
+6.2 Exception to the Sole Point of Contact  
+The only exceptions to the Sole Point of Contact are the HUB Coordinator, or, if expressly 
+directed by the Sole Point of Contact, another designated System Agency representative .  
+6.3 Binding Offer Period 
+By submitting a Response to this IFB, Bidder agrees that its Response will remain a firm and 
+binding offer for 240 days, as stated in the HHS Solicitation Affirmations (Exhibit A). 
+Bidder may extend the time for which its Response will be firm and binding and include the 
+extended period in the Response . 
+6.4 Costs Incurred 
+Bidder understands that issuance of this IFB or retention of responses in no way constitutes a 
+commitment by HHSC to award a Contract. HHSC accepts no obligations for cost s incurred in 
+preparing and submitting a response, including, but not limited to, preparing for or 
+participating in a vendor conference or site visit.  
+Responses shall be submitted at the sole expense of the Bidder. All responses shall be prepared 
+simply and economically, providing a straightforward, concise delineation of the Bidder’s 
+capabilities to satisfy the requirements of this IFB. 
+6.5 Changes, Modifications and Cancellation 
+HHSC reserves the right to change, amend, or modify this IFB prior to the Response Deadline 
+indicated in the Procurement Schedule (cover page  of this IFB). Changes, amendments, and 
+modifications will be processed through one or more Addendum. The notification for any 
+Addendum will be processed in accordance with Section 6.8. 
+HHSC reserves the right to cancel this IFB at any time. The notice of cancellation will be in 
+accordance with Section 6.8. 
+6.6 Ambiguity, Conflict, Discrepancy 
+Bidders must notify the Sole Point of Contact, Section 6.1, of any ambiguity, conflict, 
+discrepancy, exclusionary specification, omission, or other error in the IFB in the manner and by 
+the deadline for submitting questions.  
+If Bidder fails to properly and timely notify the Sole Point of Contact, Section 6.1, of any 
+ambiguity, conflict, discrepancy, exclusionary specification, omission or other error in the IFB, 
+the Bidder, whether awarded a contract or not:  
+a) shall have waived any claim of error or ambiguity in the IFB and any resulting contract, 
+b) shall not contest the interpretation by HHSC of such provision(s), and
+
+[page 10]
+PCS 137 - SERVICES 
+Version 2.10 Page 10 of 42 Revised 03/18/2026 
+c) shall not be entitled to additional compensation, relief, or time by reason of ambiguity, 
+conflict, discrepancy, exclusionary specification, omission, or other error or its later 
+correction. 
+6.7 IFB Questions or Clarifications 
+HHSC will allow questions and requests for clarification regarding this IFB if submitted by e-mail 
+to the Sole Point of Contact, Section 6.1, by the deadline established in the Procurement 
+Schedule (cover page of this IFB) or deadlines established in subsequent Addenda. Responses to 
+questions or other written requests for clarification will not be provided individually to 
+requestors but will be consolidated in one or more Addenda.  
+HHSC reserves the right to amend the answers to questions or clarifications prior to the 
+Response Deadline (cover page of this IFB) through a new Addendum. The notification will be 
+processed in accordance with Section 6.8 (Notification of Addenda or Cancellation) . 
+6.7.1 Submission of Questions or Clarifications 
+All questions and requests for clarification must be submitted by e -mail and include the 
+following information: 
+a) IFB Number and Title of IFB (cover page of this IFB) must be included in the e -mail 
+subject line and in the e-mail body; 
+b) Section or Paragraph number from this IFB; 
+c) Page Number of this IFB; 
+d) Exhibit name, Section or Paragraph, page number from the Exhibit ; 
+e) Language, Topic, Section Heading being questioned  or requested for clarification; 
+f) Requestor Contact Information must be included in the body of the e -mail. 
+Questions or requests for clarification received after the deadline set in the Procurement 
+Schedule (cover page of this IFB), or deadlines established in subsequent Addenda, may be 
+reviewed by HHSC but will not be answered.  
+6.8 Notification of Addenda or Cancellation 
+6.8.1 Addenda Notification 
+All addenda will be posted to the ESBD. It is the responsibility of each potential Bidder to 
+monitor the ESBD for any Addenda affecting this IFB. Failure to check the ESBD will in no way 
+release any potential Bidder or awarded Contractor from the requirements of posted Addenda. 
+No HHS Agency will be responsible or liable in any regard for the failure of any Bidder or 
+awarded Contractor to stay informed of all postings to the ESBD. If the Bidder fails to monitor
+
+[page 11]
+PCS 137 - SERVICES 
+Version 2.10 Page 11 of 42 Revised 03/18/2026 
+the ESBD for any changes or modifications to this IFB, such failure will not relieve the Bidder or 
+Contractor of its obligation to fulfill the requirements as posted.  
+Bidder must acknowledge receipt of any addenda by signing and returning SOLICITATION 
+ADDENDUM ACKNOWLEDGEMENT FORM posted to the ESBD with your solicitation response in 
+accordance with the submission options outlined in the  solicitation. 
+6.8.2 Cancellation Notification 
+HHSC reserves the right to cancel this IFB at any time. Notice of the cancellation will be posted 
+on the ESBD. Bidders are responsible for monitoring the ESBD frequently for notices regarding 
+this IFB. 
+7 Scope of Work (SOW) 
+7.1 Scope of Services to be Performed 
+The required services to be provided are armed security guard services at 1716 Parkway Dr 
+Lubbock, TX 79403. 
+Armed Security Guard:  
+a) Security Guards must be licensed to carry a firearm according to state regulations and 
+have at least one (1) year of documented experience in the security industry. 
+Documentation of experience must be supplied to HHSC for each Security Guard 
+assigned to a post. Any new personnel must also supply satisfactory documentation of 
+experience prior to their initial assignment to a post.  
+b) The Security Guard should be fluent in English and able to communicate clearly both 
+verbally and in writing.  
+c) No Security Guard shall be paid for overtime duty or for days that the offices are closed 
+for official State holidays. It will be the responsibility of the awarded contractor to 
+ensure each officer is relieved and rotated appropriately to negate overtime.  
+d) Security Guards will report on time, in uniform at all times while on duty, oriented to 
+security duties, properly instructed, supervised and with completed background checks.  
+A copy of the background check must be provided to HHSC prior to the security guard 
+starting.  
+e) The Security Guard shall report to the appointed HHSC authorized representative for 
+each site assigned. Names and phone numbers of each security guard will be provided 
+by the Contractor’s contract manager.  
+f) The Security Guard will limit telephone calls to emergency and official business use only. 
+If using a state agency phone, collect and long -distance calls are not permitted. Misuse 
+of state agency phones could lead to termination of the contract. Use of sta te agency 
+computers, copiers or any other state -owned equipment is not permitted. Guards will 
+not occupy a private office with agency facilities or engage in lengthy personal
+
+[page 12]
+PCS 137 - SERVICES 
+Version 2.10 Page 12 of 42 Revised 03/18/2026 
+conversations or other activities other than providing continuous security services as 
+specified herein. Security Guards are only permitted to use personal cell phones on 
+breaks or while at lunch. 
+g) Security guard shall be given a thirty-minute (30) minute lunch to be taken at different 
+times each day between the hours of 11:30am to 1:30pm. The Security Guard shall 
+notify HHSC prior to leaving post for lunch.  
+h) Security guard, after informing appropriate staff, may take a fifteen (15) minute break 
+during the first half of their shift and a fifteen (15) minute break during the last half of 
+their shift. Guard will take breaks while on the premises, after notifying the authorized 
+HHSC representative at location.  
+i) The Security Guard shall make rounds of the premises randomly and as requested by 
+the HHSC authorized representative. When not conducting rounds of the premises, the 
+Security Guard will remain at the designated security station located within or near the 
+office lobby area. The Security Guard will notify the HHSC authorized representative 
+should it become necessary to leave the security station for reasons other than 
+conducting rounds or responding to a security emergency.  The Security Guard shall 
+notify HHSC prior to leaving post. 
+j) The Security Guard shall at no time leave the designated premises while on assigned 
+duty without an approved replacement being present.  
+k) The Security Guard shall address any person who is continuously loud or boisterous in 
+an office to refrain from such action or escort those individuals from the premises. In 
+the event of a conflict between an HHSC employee and a client, the Security Guard shall 
+make his/her presence known and render assistance to include contacting the 
+authorities. The Security Guard shall notify HHSC when the authorities are called and 
+document the incident in detail in the incident report.  
+l) The Security Guard will check identification of all persons entering the building during 
+and after "normal” office hours when deemed appropriate by the HHSC authorized 
+representative. Any person without an employee identification badge must sign in and 
+out and will be issued a visitor’s badge before entering a restricted area. The Security 
+Guard will permit only authorized persons to enter restricted areas of the premises.  
+m) The Security Guard will not engage in conversations with clients and/or employees and 
+will not give any policy/office procedures information to clients. Security guard will refer 
+questions from clients to the receptionist.  
+n) No Security Guard shall perform office work or any other work pertaining to HHSC other 
+than those services for which the Security Guard has been contracted to perform.  
+o) The Security Guard will check all interior areas of leased space before going off duty to 
+ascertain if any staff and/or clients remain in the building. The guard will then check all 
+exterior doors to be sure the building is locked and secure. If a guard’s shift is completed 
+prior to the office closing, the guard will check all areas before leaving the premises and 
+report any areas of concern to the HHSC authorized representative.
+
+[page 13]
+PCS 137 - SERVICES 
+Version 2.10 Page 13 of 42 Revised 03/18/2026 
+p) The Security Guard must be thoroughly familiar with the operation and control of all 
+building life safety systems such as but not limited to fire alarms, building life safety 
+system, telephone system, and access and intrusion alarm systems. Security Guard shall 
+follow the policy set forth by the HHSC authorized representative. Required documents 
+will be provided to the awarded vendor on first day of work.  
+q) The Security Guard shall be available to escort HHSC employees to their cars if a security 
+risk exists.  
+r) The Security Guard will prevent employees and visitors of HHSC from harassment, 
+incursion, or any criminal activity by unauthorized persons while on HHSC premises.  
+s) All security guards shall be thoroughly familiar with Health and Human Services 
+Commission building security. Special attention shall be given to the procedures for 
+afterhours building access and emergency procedures for fires and bomb threats, 
+including the Office Emergency Action Plan (OEAP). The OEAP plan is available at each 
+HHSC office. Guards will become familiar with all emergency phone numbers and facility 
+evacuation plans.  
+t) The Security Guard will report any unusual incidents, hazardous conditions, or 
+emergencies to the appropriate authority i.e. City Police Dept., City Fire Dept., and HHSC 
+authorized representative.  
+u) The Security Guard will not be asked to perform duties other than that of providing 
+guard service as outlined in the SOW.  
+v) Awarded Contractor shall furnish all labor, tools, transportation, equipment, materials, 
+and supplies, as necessary. Awarded contractor shall be responsible for supervision, 
+clean up and disposal, and must have all applicable permits, licenses, and insurance 
+coverage. 
+7.1.1 Service Location(s)  
+HHS, at its sole discretion, with a 30 days’ advance written notice, reserves the right to change, 
+consolidate, delete or add service locations.  
+a) Location(s) for Services 
+1716 Parkway Dr 
+Lubbock, TX 79403 
+HHS Region No. 01 
+The Map (PDF) of the HHS Regions may be accessed at:   
+https://hhs.texas.gov/sites/default/files/documents/about -hhs/hhs-regional-map.pdf 
+b) Changes to service location(s) include but are not limited to: new office space within 
+facility, office closure, consolidation of multiple offices increasing or decreasing square 
+footage, expansion of an office into multiple offices, and relocation of office.
+
+[page 14]
+PCS 137 - SERVICES 
+Version 2.10 Page 14 of 42 Revised 03/18/2026 
+7.1.2 Performance Schedule 
+Contractor shall perform contracted services, including any minor adjustment call -back services, 
+Monday through Friday between the hours of 8 :00 a.m. and 5:00 p.m. (Central Time). 
+Contractor shall not interfere with normal flow of HHS Agency business at the service location.  
+Contractor shall respond to all service calls within four (4) hours of HHS Agency request, unless 
+the Response Deadline is extended by the HHS Agency Contract Manager. 
+ 
+Region 1 Security Guards 
+Office 
+Armed/ 
+Unarmed 
+Number 
+of Guards 
+Daily Working Hours                   
+Monday-Friday 
+Daily 
+Hours 
+Workweek 
+Hours 
+Lubbock Armed 1 8:00 am - 5:00 pm 8 40 
+ 
+7.1.3 Services Outside Regular Business Hours 
+Any services performed outside of regular business hours (8 a.m. to 5 p.m Central Time) must 
+be requested and/or approved in writing by the HHS Agency Contract Manager and must be 
+invoiced at the rate stated for Outside Regular Business Hours stated  in Exhibit C – Pricing 
+Sheet.  
+Services performed outside of the regular service hours without prior approval, will be at 
+Contractor’s own risk and will be billed at the established Regular Business Hours service rate 
+stated in Exhibit C – Pricing Sheet 
+Emergencies: The HHS Agency reserves the right to declare any necessary work within the 
+Scope of Services to be an emergency during regular service hours or outside regular service 
+hours, and will request emergency services in writing. Contractor shall respond on-site to a 
+request for emergency services within one (1) hour of notification and continue work until the 
+services requested are complete to the satisfaction of the HHS Agency. 
+7.1.4 State Holidays 
+The state holidays observed are maintained by the State Auditor’s Office and may be accessed 
+at: https://hr.sao.texas.gov/Holidays . HHS Agency does not require services to be performed on 
+the “All agencies closed” holidays and any exception will be provided in writing to the 
+Contractor. HHS Agency requires services to be performed for “Optional Holidays” or “Skeleton 
+Crew Required” holidays.  
+To fulfill the required services, as applicable, the Contractor may perform the services on a 
+holiday observed by HHS at NO additional expense to the HHS Agency.  
+Authorized services perform ed by Contractor on a state holiday will be invoiced at the Contract 
+rate for Outside Regular Hours.
+
+[page 15]
+PCS 137 - SERVICES 
+Version 2.10 Page 15 of 42 Revised 03/18/2026 
+7.1.5 Minimum Experience and Qualifications 
+These minimum requirements apply to the Contractor and Contractor’s personnel and any 
+Subcontractor and Subcontractor’s personnel.  
+Bidder shall submit documentation of experience and qualifications with Response , if 
+requested in Exhibit C– Pricing Sheet. 
+a) The Bidder shall have relevant experience required for the performance of the services 
+as outlined in this IFB. The minimum experience required is three (3) years. 
+b) The Bidder’s personnel to be assigned to perform the services must be fully trained and, 
+at minimum, have one (1) year relevant experience.  
+c) Required Licensure and Accreditation  
+1. Contractor Security Guard shall have the State Licensure and Accreditation for 
+armed security guards. 
+2. Security Guard shall have license to carry.  
+d) All Contractor or Subcontractor personnel assigned to perform the services must be at 
+least 18 years of age. 
+e) The Bidder must provide a minimum of three (3) verifiable references for current or 
+previous contracts of the same size and for similar or same services within the last five 
+(5) years in Exhibit D – Bidder Reference Form  and return with Response. 
+7.1.6 HHS Agency Responsibilities 
+a) The HHS Agency will provide reasonable access to the facility(s) and property where 
+services are to be performed.  
+b) The HHS Agency will provide keys or electronic door access cards in sufficient number 
+for the Contractor key personnel assigned to perform the services. In no case shall the 
+Contractor or Subcontractors make duplicates of any issued keys or access cards. The 
+Contractor may be required to reimburse the HHS Agency for replacement costs for any 
+lost keys or access cards or for those not returned at the expiration of the Contract.  
+c) The HHS Agency will provide secure storage space for Contractor supplies, etc.  
+7.1.7 Contractor Responsibilities  
+The Contractor(s) is solely responsible for the performance of all services and requirements 
+referenced in Section 7.1, Scope of Work and this IFB . 
+Contractor will not be relieved of its obligations for any nonperformance by its employees or 
+Subcontractor(s).
+
+[page 16]
+PCS 137 - SERVICES 
+Version 2.10 Page 16 of 42 Revised 03/18/2026 
+a) The Contractor shall furnish all labor, tools, transportation, equipment, materials, and 
+supplies, as necessary, to perform the services and/or provide the goods, as required.  
+b) The Contractor shall be responsible for supervision  of its employees and Subcontractor 
+employees, together with clean up and proper disposal of any site work waste.  
+c) Contractor must submit monthly timesheet reports of hours security guard were on 
+duty on appropriate forms provided by HHSC, in a timely manner.  
+d) The Contractor Security Guard shall prepare and provide reports for any typical 
+incidents or suspicious activity.  The reports must be submitted to HHSC within twenty-
+four (24) hours of the incident or suspicious activity occurring.  The report shall be a 
+comprehensive accurate account of details related to the reported incident. 
+e) The Security Guard must submit to the Authorized HHSC representative a monthly 
+timesheet of on duty hours.  Forms will be furnished by the HHSC.  Time sheet for 
+security guard must be signed by security guard and HHSC representative at the end of 
+each month and submitted with monthly invoice to the designated regional email.  
+f) The Contractor Security Guard shall prepare and provide reports for any atypical 
+incidents or suspicious activity.  
+g) The Security Guard must submit to the Authorized representative a weekly report of on 
+duty hours. Forms will be furnished by the Agency. Time sheet for security guard must 
+be signed by security guard and Office manager at the end of each month and faxed to  
+HHSC Financial Services.  
+h)  The Contractor shall comply with all federal, state and local laws, statutes, ordinances, 
+rules and regulations, and the orders and decrees of any court or administrative bodies 
+or tribunals in any matter affecting the performance of the Contract including , if 
+applicable, workers’ compensation laws, minimum and maximum salary and wage 
+statutes and regulations, and licensing laws and regulations . 
+i) Training for Contractor Employees:   
+All Contractor employees, and Subcontractor’s employees, if applicable, assigned to 
+perform the services must be trained and experienced in the type of work to be 
+performed. The Contractor shall provide adequate training to all personnel assigned to 
+perform the services on the roles, responsibilities, and technical aspects of the work.  
+The Contractor shall only provide and allow trained and qualified personnel to perform 
+the required services under the Contract.  
+The Contractor is required to provide current copies of the completed training(s) and of 
+the license or accreditation certificate related to the training upon request by the HHS 
+Agency Contract Manager. This requirement also applies to Subcontractor(s) and  
+Subcontractor’s personnel who may be used in the performance of services.
+
+[page 17]
+PCS 137 - SERVICES 
+Version 2.10 Page 17 of 42 Revised 03/18/2026 
+7.1.8 Independent Contractor 
+It is understood and agreed by the HHS Agency and the Contractor that the Contractor is 
+retained as an independent Contractor and in no event shall any employee hired by the 
+Contractor be considered an employee of the State.  
+a) The Contractor shall not allow any visitors, spouses, children or other relatives of the 
+Contractor’s or Subcontractor’s employees to be on state property in connection with 
+the Contract during working hours.  
+b) The Contractor shall be responsible for all employment taxes and other payroll 
+withholding for its employees.  
+c) The Contractor shall be responsible and liable for the safety and health of its personnel 
+while they are performing work for an HHS agency and while on the HHS Agency 
+premises. 
+d) The Contractor shall be responsible for verifying that all of its employees assigned to 
+perform services under the Contract are in compliance with all requirements of the 
+Immigration Reform and Control Act of 1986, Public Law 99 -603, which became 
+effective November 6, 1986, and any subsequent amendments.  
+e) The Contractor shall utilize the U.S. Department of Homeland Security’s E -Verify system 
+during the term of the contract to determine eligibility of (A) all persons employed by 
+the Contractor to perform duties within Texas; and (B) all persons, including 
+subcontractors, assigned by the Contractor to perform work pursuant to the contract 
+within the United States of America.  
+f) The Contractor and the assigned Contractor employees or the Contractor’s 
+Subcontractor and Subcontractor employees assigned to perform the services must 
+have all applicable permits, licenses, accreditations, and insurance coverage.  
+7.1.9 Contractor Equipment 
+The Contractor shall be responsible for the security, maintenance, loss or damage to its 
+equipment or its Subcontractor’s equipment while on HHS Agency premises.  
+HHS Agency will NOT be responsible for damage to or loss of the Contractor’s or 
+Subcontractor’s equipment.  
+7.1.10 Background Check for Personnel 
+The Contractor or an independent third party may need to conduct comprehensive, statewide 
+Texas Department of Public Safety (DPS) criminal and sex offender background checks on all 
+Contractor personnel (e.g., permanent and temporary personnel and/or Subcontractor and 
+Subcontractor personnel) who will be assigned  to perform the services under the Contract.  
+The Contractor shall be responsible for all background check expenses.
+
+[page 18]
+PCS 137 - SERVICES 
+Version 2.10 Page 18 of 42 Revised 03/18/2026 
+The background checks must be conducted prior to any Contractor or Subcontractor 
+personnel arriving on state property and beginning the required Contract services.  
+Supporting documentation confirming the completion of the background checks is subject to 
+review upon request by the HHS Agency. Failure to produce the requested documentation, as 
+with any violation of the Contract, constitutes grounds for termination of the Contract with 
+cause. 
+The background checks shall include, but not be limited to , Social Security Number Verification . 
+Statewide criminal and sex offender records shall include, but not be limited to, all Texas 
+counties and out-of-state counties based on the current and previous addresses of the key 
+personnel for the last seven years.  
+Personnel with sex offender, child or adult abuse, or fraud convictions shall not be allowed to 
+provide Contract services and shall not be allowed access to HHS Agency property, facilities, or 
+documents in connection with the Contract.  
+Assigned personnel with misdemeanor convictions must receive prior approval by the HHS 
+Agency before being allowed to work under this Contract.  
+7.1.11 Absenteeism and Vacation 
+The Contractor shall provide substitutes for any of its employees or Subcontractor’s employees 
+providing services at the HHS facility who may be absent for any reason. The Contractor shall 
+provide relief personnel as necessary and/or work overtime at no cost to the HHS Agency, to 
+ensure that the requirements of this Contract are performed and accomplished as required.  
+7.1.12 Telephone Service 
+The Contractor shall have an active telephone service answered during normal business hours. 
+Normal business hours are between 8 a.m. and 5 p.m. Monday through Friday, unless 
+otherwise stated in the IFB.  
+7.1.13 24-Hour Contact 
+The Contractor must provide the HHS Agency Contract Manager with 24 -hour contact 
+information for a minimum of two (2) Contractor personnel so the HHS Agency may 
+communicate urgent performance issues that require immediate correction or any other issues 
+that may occur. The Contractor’ s 24-hour contact must always be available. Any urgent 
+performance issues requiring immediate correction will be followed up in writing by the HHS 
+Agency Contract Manager. 
+7.1.14 Contractor and Contractor Personnel Conduct 
+All personnel employed by the Contractor to fulfill the requirements and terms and conditions 
+of the Contract remain under the Contractor’s sole direction and control.
+
+[page 19]
+PCS 137 - SERVICES 
+Version 2.10 Page 19 of 42 Revised 03/18/2026 
+The following applies to the Contractor, Contractor employees, and, if applicable, the 
+Contractor’s Subcontractor and Subcontractor’s employees.  
+7.1.14.1 Performance Compliance 
+While performing the services, all Contractor and Subcontractor personnel must comply with all 
+applicable state rules, regulations, and HHS Agency’s requests regarding personal and 
+professional conduct applicable to the services being provided as well as t he service locations. 
+All personnel must always conduct themselves in a businesslike and professional manner.  
+If the HHS Agency determines that an employee of the Contractor or Subcontractor is not 
+conducting himself or herself in accordance with the conduct standards under this Contract, the 
+HHS Agency may provide written notice to the Contractor. Upon receipt of  such notice, 
+Contractor must promptly investigate the matter and take appropriate action that may include:  
+a) Removing the employee from the project;  
+b) Providing the HHS Agency with written notice of such removal; and  
+c) Providing the HHS Agency with the information for the replacement employee, who 
+must be qualified and trained, within the timeline designated by the HHS Agency.  
+7.1.14.2 Contractor Supervisor(s) and Performance Monitoring 
+The Contractor shall provide competent supervisor(s ) if the service location is at an HHS Agency 
+facility. A Supervisor may be considered a roving Supervisor to monitor more than one location 
+with approval from the HHS Agency Contract Manager. 
+All supervisors must be able to communicate in English verbally and in writing. The supervisor 
+shall be knowledgeable of the Statement of Work (SOW) and requirements of the Contract.  
+The Contractor and the supervisors shall continuously monitor and maintain awareness, by 
+personal inspection, of the quality and completeness of the work being performed. The 
+Contractor and supervisor may be requested and required to inspect the HHS Agency  facility 
+with the HHS Agency Contract Manager or designee.  
+7.1.14.3 Personnel Removal and Replacement 
+a) Removal 
+The HHS Agency may request removal for cause of any Contractor or Subcontractor 
+employee assigned to the Contract, including but not limited to:  
+1. poor or unacceptable work performance,  
+2. theft, 
+3. abusive language or behavior, or  
+4. improper attire, in accordance with the terms and conditions of t he Contract.
+
+[page 20]
+PCS 137 - SERVICES 
+Version 2.10 Page 20 of 42 Revised 03/18/2026 
+Occurrences of this type may be cause for termination of the Contract.  
+b) Replacement 
+Replacement of Contractor or Subcontractor personnel will be subject to HHS Agency 
+review and approval. At the request of the HHS Agency, the Contractor must replace any 
+Contractor or Subcontractor personnel who are not adequately performing the required 
+services or who are unable to work effectively with the HHS Agency Contract Manager or 
+other HHS staff. The Contractor shall provide replacement personnel who have the required 
+qualifications and training as outlined in this IFB and resulting Contract. The Contractor and 
+HHS Agency Contract Manager will work together in the event of any such required 
+replacement to prevent disruption in the services or performance schedule and will 
+mutually agree upon the timeline for the replacement.  
+7.1.14.4 Intoxicants and Illegal Drugs Prohibited 
+The use or possession of any kind of intoxicants or illegal drugs by Contractor (or any of its 
+Subcontractors) employees while on duty at HHS Agency premises, including the building and 
+grounds, is prohibited. At the sole discretion of the HHS Agency, non -compliance with this 
+requirement may result in termination of the Contract.  
+7.1.14.5 Smoking Prohibited 
+All HHS Agency facilities are nonsmoking buildings. Contractor’s and Subcontractor’s 
+employees are prohibited from smoking in all non -designated areas. 
+7.1.14.6 Contractor Uniforms and Identification 
+All Contractor and Subcontractor employees are required to wear company uniforms and 
+identifying badges while providing services in or delivering to HHS Agency premises.  
+Uniforms may be company shirts or T -shirts, smocks, and pants or shorts. The Contractor shall 
+contact the HHS Agency Contract Manager to request approval for the use of other apparel.  
+The Contractor’s or Subcontractor’s uniform apparel must be of one standard color or design.  
+The Contractor’s or Subcontractor’s on -site managers or supervisors may wear a distinguishing 
+style of uniform but should strive to maintain a company “standard color” to aid in 
+identification. 
+All Contractor and Subcontractor personnel must prominently display their company 
+identification badges or the company name and employee’s name (first and/or last) must be on 
+their shirt, T-shirt or smock.
+
+[page 21]
+PCS 137 - SERVICES 
+Version 2.10 Page 21 of 42 Revised 03/18/2026 
+8 HUB Subcontracting Plan (HSP) Requirements  
+The Comptroller of Public Accounts (CPA), Statewide Procurement Division (SPD) administers 
+the Historically Underutilized Business (HUB) Program in accordance with Chapter 2161, Texas 
+Government Code, and Title 34,TAC Part 1, Chapter 20, Subchapter D, Division 1   Rules §20.281 
+to §20.298, . The HUB Program rules may also be accessed at: 
+https://comptroller.texas.gov/purchasing/vendor/hub/ . 
+It is the policy of HHSC to promote and encourage contracting and subcontracting opportunities 
+with State of Texas-certified Historically Underutilized Businesses (HUBs). Information regarding 
+the HHSC Policy on Using HUBs may be accessed at: https://hhs.texas.gov/doing -business-
+hhs/contracting-hhs/historically-underutilized-business-opportunities-program. 
+8.1 HUB Subcontracting Plan (HSP)  
+Although submission of the HSP is not required, if Bidders identify subcontracting opportunities 
+or have a need to subcontract to fulfill any portion of an awarded Contract, Bidders are 
+encouraged to submit, with their Proposal, a properly completed HSP.  
+To obtain more information regarding the HSP, contact the HUB Program Office. Provide the IFB 
+number and title (cover page of this IFB). 
+• Phone: 512-406-2570 or  
+• E-mail: HHSCHUB@hhs.texas.gov  
+9 Pricing Information 
+9.1 Pricing Structure 
+Prices offered, as part of the Bidder’s response, must be firm, fixed prices for the life of the 
+Contract. 
+The pricing must be submitted only using Exhibit C - Pricing Sheet based on the description and 
+the unit of measure(s) provided for each line item. The unit prices must include all IFB 
+requirements, including, but not limited to, labor, equipment, materials, supplies and all related 
+expenses. 
+9.2 Price Adjustments 
+Contractors are required to immediately implement any price decrease that become available 
+during the Contract term. Contractor must notify the designated HHSC Contract Manager in 
+writing so that a Purchase Order Change Notice or Contract Amendment may be processed. The 
+Contractor will be provided the HHS Agency Contract Manager contact information upon 
+award.
+
+[page 22]
+PCS 137 - SERVICES 
+Version 2.10 Page 22 of 42 Revised 03/18/2026 
+9.2.1 Price Adjustment Index 
+Price adjustments are not automatic. Prices only may be adjusted at the sole discretion of 
+HHSC. 
+HHSC may permit price adjustments when correlated with the index as specified below 
+and as published by the Bureau of Labor Statistics (BLS), Region VI, Washington, DC 
+20212. 
+BLS Website: https://data.bls.gov/cgi -bin/srgate 
+CPI-W Urban Wage Earners and Clerical Workers – Series ID: CWURR0000AA0 : 
+https://data.bls.gov/timeseries/CWUR0000AA0  
+CPI-U All Urban Consumers – Series ID: CUUR0000AA0  
+https://data.bls.gov/timeseries/CUUR0000AA0  
+When using the most recent monthly information from the index, the following applies:  
+A = Index from the month of the Response Deadline of this IFB, OR 
+The effective date/month of the last approved price increase or renewal option 
+exercised, whichever is later.  
+B = Current or latest baseline index  
+The allowable percent change must be calculated as follows:  
+B-A ÷ A x 100% = Percent of allowable price increase or decrease  
+Failure by the Contractor to calculate this formula and provide any supporting documentation 
+will not be considered a properly submitted price increase request  and will result in rejection of 
+the price increase request. 
+The Contractor may offer price decreases in excess of the allowable percent change at any time 
+during the term of the Contract.  
+9.2.2 Price Adjustment Requests 
+The Contractor must provide, in writing to the HHS Agency Contract Manager, a request for a 
+price adjustment. The adjustment request must use the index and formula identified in Section 
+9.2.1 (Price Adjustment Index). Only contracts with renewals are eligible for CPI increases  and 
+must be completed prior to the start of the renewal period. 
+Contractor must provide supporting documentation to justify any price  adjustment. Any 
+request submitted that fails to use the formula above for calculating a price adjustment will not 
+be considered a complete, properly submitted request  and will be rejected. Additionally, any 
+request submitted that does not include supporting documentation will not be considered a 
+complete, properly submitted price adjustment request  and will be rejected.
+
+[page 23]
+PCS 137 - SERVICES 
+Version 2.10 Page 23 of 42 Revised 03/18/2026 
+The HHS Agency reserves the right to accept or reject the request for a price adjustment. The 
+Contractor will receive written notification, through a Purchase Order Change Notice or 
+Contract Amendment, from the HHS Agency Contract Manager documenting action taken, to 
+include effective dates, for any adjustments approved.  
+9.2.3 Discounts 
+If Contractor at any time during the term of the Contract provides a discount on the final 
+contract costs, Contractor will notify HHSC in writing at least ten (10) calendar days prior to the 
+effective date of the discount. HHSC will generate a Purchase Ord er Change Notice or other 
+Contract Amendment and send a revised Purchase Order or amended Contract to Contractor. 
+9.2.4 Federal Minimum Wage Adjustments 
+Contractor may request a price adjustment based on an increase in the Federal Minimum Wage 
+Rate, published by the U.S. Department of Labor (USDOL), if applicable.  
+The request must be submitted to the HHS Agency Contract Manager in writing and include 
+supporting documentation from the USDOL reflecting the increase and the effective date of the 
+increase. HHSC reserves the right to accept or reject the request for an increase.  
+The effective date for an increase, if approved, will be based on the date of approval by the HHS 
+Agency. Retroactive increases will not be allowed or approved if the USDOL effective date is 
+prior to the date the written request is received by HHSC. Notifi cation of an approved increase 
+in the Contract rate will be provided through a Purchase Order Change Notice or Contract 
+Amendment from the HHS Agency Contract Manager to include the new unit price and 
+effective date for the increase. 
+10 Changes to The Contract 
+Following award, additional services or changes, within the scope, or parameters of this IFB,  will 
+be added/removed via Purchase Order Change Notice (POCN) or Contract Amendment  
+approved by the HHS Agency and the Contractor.  
+11 Contract Term 
+11.1 Term of Contract 
+The awarded Contract will be effective on the date the Contract is issued and will expire based 
+on the schedule for delivery of services as outlined in this IFB or by the date or delivery days 
+after receipt of order (ARO) provided by the Bidder.
+
+[page 24]
+PCS 137 - SERVICES 
+Version 2.10 Page 24 of 42 Revised 03/18/2026 
+11.2 Initial Contract Term:  
+Any contract resulting from this IFB will begin September 1, 2026, and expire August 31, 2027. 
+11.3 Renewal Option(s) 
+HHSC, at its sole discretion, may renew the Contract for up to two (2) one (1)-year renewal 
+options. 
+Renewal 1 Option: 9/1/2027 to 8/31/2028  
+Renewal 2 Option: 9/1/2028 to 8/31/2029  
+Such renewal(s), if exercised, shall be subject to all the requirements  and terms and conditions 
+of the Contract. 
+11.4 Extension Option 
+The HHS Agency, at its sole option and subject to availability of funding, may extend the term of 
+the Purchase Order or other Contract beyond the initial term and all exercised renewal periods 
+for up to one (1) year as necessary to ensure continuity of service, to process a new IFB, to 
+secure a new contract, for purposes of transition to a new Contractor, or as otherwise 
+determined by the HHS Agency. 
+This extension, if exercised, will require the Contractor to continue performing services in 
+accordance with the Purchase Order Change Notice (POCN) or other Contract Amendment, 
+Contract requirements and all terms and conditions.  
+12 Contract Administration/ Purchase Order Administration  
+12.1 Contract Manager/Program Lead 
+An HHS Agency Contract Manager or Program Lead will be designated, and the contact 
+information will be provided to the Contractor.  
+After award of any Contract resulting from this IFB, all communications related to the Contract 
+and requests for changes to the Contract will be processed through the designated HHS Agency 
+Contract Manager. 
+12.2 Performed Services Monitoring 
+a) The HHS Agency Contract Manager or designee will monitor all work performed by 
+Contractor and shall regularly communicate with the Contractor to address questions, 
+concerns or progress.
+
+[page 25]
+PCS 137 - SERVICES 
+Version 2.10 Page 25 of 42 Revised 03/18/2026 
+b) It is important that the Contractor performs all duties and requirements as stated. 
+Failure to do so may result in termination of the Contract.  
+c) All services and deliverables must meet or exceed the required levels of performance 
+specified in this IFB. 
+d) Contractor will be notified by the HHS Agency Contract Manager or designee in writing 
+to correct any service or portion of a service. The Contractor shall take immediate action 
+to correct the service or portion of a service at no additional cost to the HHS  Agency. 
+The Contractor shall notify the HHS Agency Contract Manager or designee upon 
+completion for HHS Agency inspection and acceptance, as applicable.  
+12.3 Performance Reporting 
+The HHS Agency Contract Manager is required to report vendor performance for purchases 
+over $25,000 through the Texas Comptroller of Public Accounts (CPA) Vendor Performance 
+Tracking System (VPTS). The VPTS reporting is required throughout the life of a contract and not 
+just at its conclusion. HHSC PCS, at its sole discretion, may submit reports in the VPTS on 
+Contracts under $25,000. The VPTS information and report  search may be accessed at: 
+https://www.txsmartbuy.gov/vpts  
+Performance Notification – Non-Material Deficiency 
+The HHS Agency may notify Contractor in writing of specific areas of the Contractor’s 
+performance that fail to meet performance expectations, standards, or schedules, but that, in 
+the determination of the HHS Agency, do not result in a material deficiency or delay in the 
+implementation or operation of the services.  
+12.4 Contractor Response to Notification of Non-Material Deficiency 
+The Contractor shall, within three (3) business days (or another date approved by the HHS 
+Agency) of receipt of written notice of a non -material deficiency, provide the HHS Agency 
+Contract Manager a written response that:  
+a) Explains the reasons for the deficiency, the Contractor’s plan to address or cure the 
+deficiency, and when the deficiency will be cured . 
+The Contractor’s noncompliance or failure to timely correct the deficiency may result in delayed 
+payment or non-payment as determined by the HHS Agency.  
+12.5 Corrective Action Plan (The Plan) 
+At its discretion, the HHS Agency may require the Contractor to submit a detailed written 
+Corrective Action Plan and include how the Contractor will correct or resolve a performance 
+issue, deficiency, or a breach of this Contract.
+
+[page 26]
+PCS 137 - SERVICES 
+Version 2.10 Page 26 of 42 Revised 03/18/2026 
+The Plan, at a minimum, must include, but is not limited to:  
+a) A detailed explanation of the reasons for the cited deficiency;  
+b) The Contractor’s assessment or diagnosis of the cause; and  
+c) A specific proposal to cure or resolve the deficiency  to include a timeline for 
+implementation. 
+The Plan must be submitted by the deadline set forth in the HHS Agency’s request.  
+The Plan is subject to HHS Agency  approval. 
+12.6 Performance Issues 
+The Contractor shall be required to correct all performance issues reported by the HHS Agency 
+Contract Manager within 48 business hours. The Contractor shall provide a written report 
+detailing the performance issue(s) and resolution. The HHS Agency’s Contract Manager will 
+report/discuss performance deficiencies with the Contractor and seek to achieve resolution of 
+the issues. 
+12.7 Public Information Act – Bidder Requirements Regarding Disclosure 
+Proposals and contracts are subject to the Texas Public Information Act (PIA), Texas 
+Government Code Chapter 552, and may be released to the public upon request. The HHS 
+Agency also is required to post certain contracts and IFB responses on its public website and to 
+provide such information to the Legislative Budget Board for posting on its website.  
+If Bidder asserts that information provided in its IFB Response is exempt from disclosure under 
+the PIA, Bidder must: 
+a) Mark Original Proposal 
+1. Mark the Original Proposal, on the top of the front page, with the words “CONTAINS 
+CONFIDENTIAL INFORMATION” in large, bold, capitalized letters (the size of, or 
+equivalent to, 12-point Times New Roman font or larger); and  
+2. Identify, adjacent to each portion of the IFB Response, that Bidder claims is exempt 
+from public disclosure, the claimed exemption from disclosure (NOTE: no redactions 
+are to be made in the Original IFB Response). 
+b) Certify in Original IFB Response - HHS Solicitation Affirmations (attached as Exhibit A 
+to this IFB)  
+Certify, in the designated section of the HHS Solicitation Affirmations, Bidder’s 
+confidential information assertion and the filing of its Public Information Act Copy; and
+
+[page 27]
+PCS 137 - SERVICES 
+Version 2.10 Page 27 of 42 Revised 03/18/2026 
+c) Submit Public Information Act Copy of Response 
+1. Submit a separate “Public Information Act Copy” of the Original Response (in 
+addition to the original and all copies otherwise required under the provisions of 
+this IFB). The Public Information Act Copy must meet the following requirements:  
+2. The copy must be clearly marked as “ PUBLIC INFORMATION ACT COPY ” on the 
+front page in large, bold, capitalized letters (the size of, or equivalent to, 12 -point 
+Times New Roman font or larger);  
+3. Each portion Bidder claims is exempt from public disclosure must be redacted 
+(blacked out); and  
+4. Bidder must identify, adjacent to each redaction, the claimed exemption from 
+disclosure. Each identification provided as required in Subsection (c) of this 
+section must be identical to those set forth in the Original Response as required in 
+Subsection (a)(2), above. The only difference in required markings and 
+information between the Original Response and the “Public Information Act 
+Copy” of the response will be redactions - which can only be included in the 
+“Public Information Act Copy.” There must be no r edactions in the Original 
+Response. 
+By submitting a response to this IFB, Bidder agrees that, if Bidder does not mark the Original 
+IFB Response, provide the required certification in Exhibit A: HHS Solicitation Affirmations, 
+and submit the Public Information Act Copy, Bidder’s IFB Response will be considered to be 
+public information that may be released to the public without notice to the Bidder  in any 
+manner including, but not limited to, in accordance with the Public Information Act, posted 
+on the HHS Agency’s public website, and posted on the Legislative Budget Board’s public 
+website. 
+If any or all Bidders submit partial, but not complete, information suggesting inclusion of 
+confidential information and fail to comply with the requirements set forth in this section, 
+HHSC, in its sole discretion, reserves the right to (1) disqualify all Bidders that fail to fully 
+comply with the requirements set forth in this section, or (2) to offer all Bidders that fail to fully 
+comply with the requirements set forth in this section additional time to comply.  
+Bidder should not submit a Public Information Act Copy indicating that the entire proposal is 
+exempt from disclosure. Merely making a blanket claim that the entire proposal is protected 
+from disclosure because it contains any amount of confidential, propri etary, trade secret, or 
+privileged information is not acceptable, and may make the entire IFB Response subject to 
+release under the PIA. 
+IFB Responses should not be marked or asserted as copyrighted material. If Bidder asserts a 
+copyright to any portion of its proposal, by submitting a proposal, Bidder agrees to 
+reproduction and posting on public websites by the State of Texas, including HHSC and all other 
+state agencies, without cost or liability.
+
+[page 28]
+PCS 137 - SERVICES 
+Version 2.10 Page 28 of 42 Revised 03/18/2026 
+HHSC will strictly adhere to the requirements of the PIA regarding the disclosure of public 
+information. As a result, by participating in this IFB process, Bidder acknowledges that all 
+information, documentation, and other materials submitted in the Response to this IFB may be 
+subject to public disclosure under the PIA. HHSC does not have authority to agree that any 
+information submitted will not be subject to disclosure. Disclosure is governed by the PIA and 
+by rulings of the Office of the Texas Attorney G eneral. Bidders are advised to consult with their 
+legal counsel concerning disclosure issues resulting from this process and to take precautions to 
+safeguard trade secrets and proprietary or otherwise confidential information. HHSC assumes 
+no obligation or responsibility relating to the disclosure or nondisclosure of information 
+submitted by Bidders. 
+For more information concerning the types of information that may be withheld under the PIA 
+or questions about the PIA, refer to the most current Public Information Act Handbook 
+published by the Office of the Texas Attorney General or contact the attorney general’s Open 
+Government Hotline at (512) 478-OPEN (6736) or toll -free at (877) 673-6839 (877-OPEN TEX). 
+To access and download the current Public Information Act Handbook , visit the attorney 
+general’s website at https://www.texasattorneygeneral.gov/open -government/members -pub 
+12.8 Bidder Waiver – Intellectual Property 
+SUBMISSION OF ANY DOCUMENT TO ANY HHS AGENCY IN RESPONSE TO THIS IFB 
+CONSTITUTES AN IRREVOCABLE WAIVER AND AGREEMENT BY THE SUBMITTING PARTY TO 
+FULLY INDEMNIFY THE STATE OF TEXAS AND THE HHS AGENCY FROM ANY CLAIM OF 
+INFRINGEMENT REGARDING THE INTELLECTUAL PROPERTY RIGHTS OF THE SUBMITTING 
+PARTY OR ANY THIRD PARTY FOR ANY MATERIALS SUBMITTED TO HHS BY THE SUBMITTING 
+PARTY. 
+13 Invoicing and Payment 
+HHS System Agency will make contract p ayments in accordance with Chapter 2251 of the Texas 
+Government Code, commonly known as the Texas Prompt Payment Act. Chapter 2251 govern s 
+remittance of payment and contractor remedies for late payment and non -payment. 
+13.1 Bill-to Address  
+The Contract or Purchase Order will include the appropriate bill -to address for the submission 
+of invoices to any HHS Agency requesting services.  
+13.2 Invoice Information 
+Invoices submitted to the HHS Agency must include the Contract or Purchase Order number 
+and must describe the work completed, in detail, for which payment is requested. The detail of 
+the work completed must comply with the Scope of Work and Pricing Sheet (see Exhibit C).
+
+[page 29]
+PCS 137 - SERVICES 
+Version 2.10 Page 29 of 42 Revised 03/18/2026 
+13.3 Payment  
+a) Payment will be made by the HHS Agency in accordance with the pricing provided on 
+Exhibit C- Pricing Sheet. The pricing is considered all-inclusive, and no other pricing may 
+be provided on an invoice. 
+b) The HHS Agency must acknowledge that the services have been satisfactorily performed 
+and products received, if applicable, which are included on an invoice prior to approving 
+the invoice for payment. 
+c) Any additional expenses incurred by the Contractor are the responsibility of the 
+Contractor and will not be paid by the HHS Agency.  
+d) The HHS Agency will not pay any per diem, travel, hotel, equipment, phone calls, paper, 
+reproduction services, office space, or other incidental expenses related to performing 
+the services required by the Contract.  
+13.4 Invoice Submission  
+a) Contractor must submit invoices for services performed  on a monthly basis or as 
+otherwise indicated on the purchase order.  
+b) Separate invoices must be submitted for each service performed or deliverable, as 
+applicable. 
+c) Failure to submit an accurate and valid invoice with all required information may result 
+in delay of payment. 
+13.5 Disputed Invoice(s) 
+In accordance with Title 34 Texas Administrative Code, Rule §20.487(b),  the HHS Agency will 
+immediately return disputed invoices to the Contractor but in no event later than the 21st day 
+after the HHS Agency receives the invoice. The HHS Agency reserves the right to dispute any 
+portion of an invoice and will attempt to resolv e the dispute with the Contractor in good faith. 
+The HHS Agency shall not be required to pay any disputed portion of an invoice until the 
+dispute is resolved. Notwithstanding any such dispute, the Contractor must continue to 
+perform the services and/or pro duce deliverables in compliance with the terms of the Contract. 
+Pending resolution of a dispute, the HHS Agency will continue to process payments for 
+undisputed amounts and invoices to the Contractor.  
+14 Insurance Requirements  
+Contractor may be required to submit bond documentation and current certificates of 
+insurance or other proof acceptable to the HHS Agency at the time of notification of a potential 
+award and such proof must be received by the HHS Agency Contract Manager prior to
+
+[page 30]
+PCS 137 - SERVICES 
+Version 2.10 Page 30 of 42 Revised 03/18/2026 
+execution by the HHS Agency of any contract.  The HHS Agency, in its sole discretion, may 
+request additional evidence of insurance or bonds coverage as deemed necessary.  
+The HHS Agency may designate a deadline for submission of proof of required insurance or 
+bonds. Failure to timely submit acceptable proof may result in the HHS Agency’s revocation of 
+the award. 
+Contractor shall maintain the required insurance during the initial Contract term and any 
+renewal or extension period exercised. Contractor shall be responsible for ensuring its 
+subcontractors are in compliance with all applicable insurance and bond requir ements. 
+a) Contractor shall carry insurance in the types and amounts indicated for the duration of 
+the Contract. The insurance shall be evidenced by delivery to HHS of certificates of 
+insurance executed by the insurer or its authorized agent stating coverages, limits , 
+expiration dates and compliance with all applicable required provisions. Upon request, 
+HHS, and/or its agents, shall be entitled to receive , without expense, copies of the 
+policies and all endorsements.  
+b) Contractor shall update all expired policies prior to submission for monthly payment. 
+Failure to update policies may be reason for withholding of payment until renewal is 
+provided to HHS.    
+c) Contractor shall provide and maintain all insurance coverage with the minimum 
+amounts described throughout the life of the Contract.  
+d) Failure to maintain insurance coverage, as required, may be grounds for suspension of 
+work for cause, termination of contract, or other remedies. 
+e) Contractor shall deliver to HHS true and complete copies of certificates and 
+corresponding policy endorsements within 10 days following award. 
+f) Failure of HHS to demand such certificates or other evidence of Contractor’s full 
+compliance with these insurance requirements or failure of HHS to identify a deficiency 
+in compliance from the evidence provided shall not be construed as a waiver of 
+Contractor’s obligation to maintain such insurance.  
+g) The insurance and insurance limits required herein shall not be deemed as a limitation 
+on Contractor’s liability under the indemnities granted to HHS in the Contract.  
+h) The insurance coverage and limits established below shall not be interpreted as any 
+representation or warranty that the insurance coverage and limits necessarily will be 
+adequate to protect Contractor.  
+i) Coverage shall be written on an occurrence basis by companies authorized and 
+admitted to do business in the State of Texas and rated A or better by A.M. Best 
+Company or similar rating company or otherwise acceptable to HHS . 
+j) This insurance shall not be canceled, materially changed, or non -renewed except after 
+thirty (30) days’ written notice has been given to HHS.
+
+[page 31]
+PCS 137 - SERVICES 
+Version 2.10 Page 31 of 42 Revised 03/18/2026 
+k) It is agreed that Contractor’s insurance shall be deemed primary with respect to any 
+insurance or self-insurance carried by HHS for liability arising out of operations under 
+the Contract. The Health and Human Services Commission, its officials, directors, 
+employees, representatives, and volunteers shall be added as additional insureds as 
+respects operations and activities of, or on behalf of the named insured performed 
+under Contract with HHS. The additional insured status must cover completed 
+operations as well. This is not applicable to workers’ compensation policies.  
+l) A waiver of subrogation in favor of the Health and Human Services Commission shall be 
+provided in all policies. 
+m) Without limiting any of the other obligations or liabilities of Contractor, Contractor shall 
+require each Subcontractor performing work under the Contract to maintain , at 
+Subcontractor’s own expense, during the term of the Contract, the same stipulated 
+minimum insurance including the required provisions and additional policy conditions as 
+shown above.  
+n) As an alternative, Contractor may include its Subcontractors as additional insureds on its 
+own coverage as prescribed under these requirements. Contractor’s certificate of 
+insurance shall note in such event that Subcontractors are included as additional 
+insureds and that Contractor agrees to provide workers’ compensation for 
+Subcontractors and their employees. Contractor shall obtain and monitor the 
+certificates of insurance from each Subcontractor in order to assure compliance with the 
+insurance requirements. Contractor must retain the certificates of insurance for the 
+duration of the Contract plus seven (7) years and shall have the responsibility of 
+enforcing these insurance requirements among its Subcontractors. Owner shall be 
+entitled, upon request and without expense, to receive copies of these certificates.  
+14.1 Specific Insurance Requirements 
+For the full term of the Contract, including the original Contract term and all periods of renewal 
+and all additional extensions, Contractor and its Subcontractors, if any, shall obtain and 
+maintain all insurance coverage as set forth below. Contractor sha ll be responsible for ensuring 
+its Subcontractors' compliance with all requirements.  
+14.1.1 Workers’ Compensation and Employer’s Liability 
+Insurance with limits as required by the Texas Workers’ Compensation Act, with the policy 
+endorsed to provide a waiver of subrogation in favor of the Health and Human Services 
+Commission, employer’s liability insurance of not less than:  
+a) Employer’s Liability: Each Accident $1,000,000  
+b) Disease: Each Employee $1,000,000  
+c) Disease: Policy Limit $1,000,000  
+Workers’ compensation insurance coverage must be provided for all workers at all tier levels 
+and meet the statutory requirements of the Texas Labor Code.
+
+[page 32]
+PCS 137 - SERVICES 
+Version 2.10 Page 32 of 42 Revised 03/18/2026 
+14.1.2 Commercial General Liability 
+Including premises, operations, independent Contractor’s liability, products and completed 
+operations and contractual liability, covering, but not limited to, the liability assumed under the 
+indemnification provisions of this Contract, fully insuring Contr actor’s liability for bodily injury 
+(including death) and property damage with a minimum limit of:  
+a) $1,000,000 per occurrence;  
+b) $2,000,000 general aggregate;  
+c) $5,000 Medical Expense each person;  
+d) $1,000,000 Personal Injury and Advertising Liability;  
+e) $2,000,000 products and completed operations aggregate;  
+f) $50,000 Damage to Premises Rented to You; and  
+g) Coverage shall be on an “occurrence” basis.  
+The term “You” as referenced in the subsection above, means the Contractor .  
+14.1.3 Commercial Automobile Liability 
+Covering owned, hired, and non -owned vehicles, with a minimum combined single limit for 
+bodily injury (including death) and property damage of $1,000,000 per accident. No aggregate 
+shall be permitted for this type of coverage . 
+14.1.4 Professional Liability Insurance.  
+Contractor shall obtain, pay for and maintain professional liability errors and omissions 
+insurance during the Contract term, insuring Contractor for an amount of not less than 
+$1,000,000. 
+14.1.5 Umbrella Liability Insurance 
+Contractor shall obtain, pay for and maintain umbrella liability insurance during the Contract 
+term, insuring Contractor for not less than $1,000,000 that provides coverage at least as broad 
+as and applies in excess and follows form of the primary liability coverages required 
+hereinabove. 
+The policy shall provide “drop down” coverage where underlying primary insurance coverage   
+limits are insufficient or exhausted . 
+14.2 Alternative Insurability 
+Notwithstanding the preceding, the HHS Agency reserves the right to consider reasonable 
+alternative methods of insuring the Contract in lieu of the insurance policies customarily 
+required. It will be the Contractor's responsibility to recommend to the HHS Agency alternative 
+methods of insuring the Contract. Any alternatives proposed by Contractor should be
+
+[page 33]
+PCS 137 - SERVICES 
+Version 2.10 Page 33 of 42 Revised 03/18/2026 
+accompanied by a detailed explanation regarding Contractor's inability to obtain the required 
+insurance and/or bonds. The HHS Agency shall be the sole and final judge as to the adequacy of 
+any substitute form of insurance coverage.  
+15 Screening of Responses 
+Neither issuance of this IFB nor retention of Responses constitutes a commitment on the part 
+of HHSC to award a Contract. HHSC reserves the right to reject any or all Responses and to 
+cancel this IFB if HHSC, in its sole discretion, considers it to be in the best interests of HHSC to 
+do so. 
+Retention of Responses by HHSC confers no legal rights upon any Bidder.  
+HHSC reserves the right to select qualified Bidders to this IFB with or without discussion of the 
+Response with Bidders. 
+15.1 Administrative Screening 
+An administrative screening of Responses timely received will be conducted by HHSC PCS to 
+determine which Responses meet all IFB minimum requirements and are deemed responsive 
+and qualified for further consideration and evaluation.  
+Appendix A – Submission Instructions and Response Checklist  will be used to conduct the 
+screening process. 
+HHSC reserves the right to ask questions or request clarification from any Bidder at any time 
+during the screening process. 
+15.2 Irregularities 
+HHSC reserves the right to waive irregularities in a Response. An irregularity is an omission or 
+error that, in HHSC’s determination if waived or modified when screening Responses, would not 
+give a Bidder an unfair advantage over other Bidders or result in a material change in the 
+Response or IFB requirements. 
+HHSC, at its sole discretion, may give a Bidder the opportunity to submit missing information or 
+make corrections. The missing information or corrections must be emailed to the Sole Point of 
+Contact, Section 6.1 (Sole Point of Contact and Communications)  by the deadline set by HHSC. 
+Failure to respond before the deadline may result in HHSC’s rejecting the Response and the 
+Bidder not being considered for award.  
+Note: Any disqualifying factor set forth in this IFB does not constitute an irregularity (e.g., 
+Submission of Exhibit A HHS Solicitation Affirmations, which must be completed, signed and 
+submitted with the IFB Response) and will not be waived.
+
+[page 34]
+PCS 137 - SERVICES 
+Version 2.10 Page 34 of 42 Revised 03/18/2026 
+16 Evaluation 
+16.1 Evaluation of Responses  
+It is understood that all Responses will become a part of HHSC PCS’ official procurement files 
+and will be available for public inspection in accordance with the Texas Public Information Act  
+after Contract award or the procurement has been cancelled . 
+HHSC reserves the right to conduct studies and other investigations as necessary to evaluate 
+any Response. 
+16.2 Conformance with State Law for Evaluation 
+Responses shall be evaluated in accordance with Title 10, Subtitle D, Chapter 2155, Sections 
+2155.074, 2155.075(a), and 2155.144; and Chapter 2156, Section 2156.007, Texas Government 
+Code; and Chapter 2157, Section 2157.003. 
+Sections 2155.074, 2156.007, and 2157.003 provide the Best Value Standard for the purchase 
+of goods or services and for the award, which includes consideration of the purchase price and 
+whether the Bidder meets all requirements of this IFB. 
+16.3 Specific Evaluation Criteria  
+HHSC shall not be obligated to select the Bidder with the lowest price but shall make an award 
+to the Bidder who provides the best value to the State of Texas.  
+All Responses will be evaluated according to the following criteria:  
+a) Bidder meeting or exceeding the requirements and specifications in accordance with 
+this IFB; 
+b) Bidder’s ability to meet performance delivery requirements; and 
+c) Price. 
+16.3.1 Required Pricing  
+The Pricing Sheet, Exhibit C, identifies the pricing requested and required for services and 
+related products, if applicable, outlined in this IFB. The pricing is significant in the overall 
+evaluation of the Responses. HHSC PCS is not obligated to select the lowest priced Response. 
+The pricing will be evaluated across all Bidders to determine the Response with the lowest price 
+per line item or lowest total for all line items  on Exhibit C – Pricing Sheet. 
+The award will be made to the Bidder whose Response offers the best value to the State based 
+on all factors considered, including price.
+
+[page 35]
+PCS 137 - SERVICES 
+Version 2.10 Page 35 of 42 Revised 03/18/2026 
+16.3.2 Verification of Past Vendor Performance 
+By submitting a Response, the Bidder generally releases from liability and waives all claims 
+against any party providing information about the Bidder at the request of HHSC.  
+Bidders may be rejected as a result of unsatisfactory past performance under any contract(s) as 
+reflected in vendor performance reports, reference checks, or other sources.  
+The Bidder’s past performance may be considered in the evaluation process and prior to 
+making an award determination.  
+Reasons for which a Bidder may be denied a contract include, but are not limited to:  
+a) Bidder has unfavorable reports or grade less than a “C” on the CPA Vendor Performance 
+Tracking System (VPTS),  
+OR,  
+b) Bidder is currently under a corrective action plan through HHSC, OR,  
+c) Bidder has had repeated, negative vendor performance reports for the same reason, 
+OR, 
+d) Bidder has a record of repeated non -responsiveness to vendor performance issues, OR,  
+e) Bidder has contracts or purchase orders that have been cancelled in the previous 12 
+months for non-performance or sub-standard performance.  
+In addition, HHSC may examine other sources of vendor performance , which may include 
+information provided by any governmental entity, whether an agency or political subdivision of 
+the State of Texas, another state, or the federal government.  
+The performance information may include, but is not limited to:  
+a) Notices of termination, 
+b) Cure notices, 
+c) Assessments of liquidated damages,  
+d) Litigation, 
+e) Audit reports, and 
+f) Non-renewals of contracts.  
+Further, HHSC, at its sole discretion, may initiate investigations or examinations of vendor 
+performance based upon media reports. Any negative findings, as determined by HHSC in its 
+sole discretion, may result in HHSC’s removing the Bidder from further co nsideration for award.
+
+[page 36]
+PCS 137 - SERVICES 
+Version 2.10 Page 36 of 42 Revised 03/18/2026 
+16.3.3 Ability to Perform 
+Evaluation will be based upon Bidder’s demonstrated experience and ability to provide services 
+and related goods. The evaluation may also consider the Bidder’s demonstrated financial 
+capability, financial solvency, and capacity to fulfil the requirements of this IFB. 
+17 Award 
+All awards are contingent upon approval of the HHSC Executive Commissioner or designee.  
+HHSC, at its sole discretion, reserves the right to make a single  award or multiple awards to 
+achieve the best value for the state.  
+18 Standards of Conduct for Vendors  
+Pursuant to Title 1  Texas Administrative Code (TAC), Part 15, Chapter 391, Subchapter D, Rule 
+§391.405(a), contractors, respondents, and vendors interested in working with HHS are 
+required to implement standards of conduct to apply to all matters involving, or related to, 
+those solicitations and contract(s) between themselves and HHS. These standards must adh ere 
+to ethics requirements adopted in rule, in addition to any ethics policy, or code of ethics 
+approved by the HHSC Executive Commissioner and must be at least as restrictive as those 
+applicable to HHS personnel in the applicable ethics law and policy pro visions.  
+The standards of conduct must include the ten standards of ethical conduct set forth in Section 
+I of the HHS Ethics Policy and requirements to comply with ethical standards set forth in federal 
+and state law (including, but not limited to, Title 1 TAC, Part 15, Chapter 391, Subchapter D).  
+The standards of conduct, together with the responsibilities and restrictions incorporated 
+herein, also apply to subcontractors of contractors, respondents and vendors.  
+Standards of conduct of any contractor, respondent or vendor may be reviewed and/or audited 
+by the State Auditor and HHSC. Additionally, pursuant to Title 1 TAC, Part 15, Chapter 391, 
+Subchapter D, Rule §391.405(a) , HHS may examine a respondent's standards of conduct in the 
+evaluation of a bid, offer, proposal, quote, or other applicable expression of interest in a 
+proposed purchase of goods or services.  
+Any vendor or contractor that violates a provision of Title 1 TAC, Part 15, Chapter 391, 
+Subchapter D  may be barred from receiving future contracts or have an existing contract 
+canceled. Additionally, HHSC may report the vendor's actions to the Comptroller of Public 
+Accounts for statewide debarment, or law enforcement.  
+19 Disclosure of Interested Parties  
+Subject to certain specified exceptions, Texas Government Code Section 2252.908,  Disclosure 
+of Interested Parties, applies to a contract of a state agency that has a value of at least $1 
+million or a contract that requires an action or vote by the governing body of the agency before 
+the contract may be signed or a Purchase Order can b e issued. One of the requirements of
+
+[page 37]
+PCS 137 - SERVICES 
+Version 2.10 Page 37 of 42 Revised 03/18/2026 
+Section 2252.908 is that a business entity (defined as “any entity recognized by law through 
+which business is conducted, including a sole proprietorship, partnership, or corporation”) must 
+submit a Form 1295, Certificate of Interested Parties, to the stat e agency at the time the 
+business entity is notified it is a potential awardee or at the time the business entity submits 
+the signed contract to the agency.  
+Bidder represents and warrants that, if selected for award of a contract as a result of this IFB, 
+Bidder shall submit to HHSC the signed Certificate of Interested Parties processed online 
+through the Texas Ethics Commission (TEC ) prior to contract award.  
+Information regarding the online process for completing Form 1295  is available at: 
+https://www.ethics.state.tx.us/whatsnew/elf_info_form1295.htm.  
+For further information: 
+Reference Section 2252.908 of the Texas Government Code  which can be accessed at: 
+https://statutes.capitol.texas.gov/Docs/GV/htm/GV.2252.htm #2252.908. 
+Title 1, Chapter 46, Disclosure of Interested Parties of the Texas Administrative Code which can be 
+accessed at: https://texas-sos.appianportalsgov.com/rules -and-
+meetings?chapter=46&interface=VIEW_TAC&part=2&title=1 . 
+If the potential awardee does not timely submit a completed, certified, and signed TEC Form 
+1295 to HHSC, HHSC is prohibited by law from executing a contract, even if the potential 
+awardee is otherwise eligible for award.  
+20 Protest Procedures 
+Texas Administrative Code, Title 1, Part 15, Chapter 391, Subchapter C provides a formal 
+protest procedure to be used by any Bidder who is allegedly aggrieved in connection with the 
+IFB, evaluation, or award of a contract by HHSC.
+
+[page 38]
+PCS 137 - SERVICES 
+Version 2.10 Page 38 of 42 Revised 03/18/2026 
+Appendix A – Submission Instructions and Response Checklist  
+Before submitting a Response to this IFB, read the ENTIRE IFB including all exhibits, 
+attachments, forms, etc. Failure to read any part of this IFB will not relieve the Bidder from any 
+submission requirements or a Contractor of its contractual obligations.  
+Each Bidder submits a Response at its own risk and is solely responsible for ensuring its 
+Response is submitted in accordance with all IFB requirements, including, but not limited to, 
+instructions in this Appendix, proper labeling, sufficient postage, or delivery fees, and ensuring 
+timely receipt by HHSC. 
+In no event will HHSC be responsible or liable for any delivery delays or errors. Responses 
+must be received by HHSC by the Response Deadline as identified in the Procurement 
+Schedule on the cover page of this IFB. 
+Each Response must include all required information/documents for this IFB, but also may 
+contain additional information considered pertinent by Bidder. HHSC reserves the right to 
+reject any or all responses. All responses become the property of HHSC and subject to the 
+Public Information Act (PIA).  
+Failure to comply with these instructions or the submission requirements may result in 
+disqualification of the Response. 
+SUBMISSION REQUIREMENTS  
+Responses submitted by facsimile, or any other method not specified in this IFB, will NOT be 
+accepted or considered. See Exhibit E- HHS Online Bid Room Information and Exhibit E-1 PCS 
+Map. 
+1. E-Mail Submission 
+The Bidder is solely responsible for ensuring that the electronic Response is complete and 
+submitted to, and RECEIVED by, HHSC before the Response Deadline identified in the 
+Procurement Schedule (cover page of this IFB) or deadline established in subsequent Addenda. 
+HHSC is not responsible for lost, misdirected or late Responses. Late Responses will be 
+disqualified. 
+The Response, including all documentation required by this IFB and this Appendix, must be sent 
+in its entirety in one or more e-mails as warranted by the size of each attachment.  
+Responses sent by e-mail must be sent to: pcsbids@hhs.texas.gov. 
+a) E-mail Subject Line 
+The e-mail subject line must contain the IFB number, title as indicated on the cover page of 
+this IFB and number of e-mails if more than one (e.g., 1 of #, etc.).
+
+[page 39]
+PCS 137 - SERVICES 
+Version 2.10 Page 39 of 42 Revised 03/18/2026 
+b) Body of E-mail 
+The body of each e-mail must include the following information:  
+• Bidder’s name 
+• Contact Name for Response  
+• Phone number for Response Contact  
+• IFB number from cover page  of this IFB 
+• Purchaser Name (Sole Point of Contact and Communications, Section 6.1). 
+HHSC takes no responsibility for e -mailed Responses that are captured, blocked, filtered, 
+quarantined, or otherwise prevented from reaching the proper destination server by any 
+HHSC anti-virus or other security software.  HHSC will not be held responsible for any 
+Response that is mishandled prior to receipt by HHSC PCS.  
+c) Additional Information Regarding Electronic Submission by E -Mail 
+All documents should be submitted in Microsoft Office® formats (Word® and Excel®, as 
+applicable) or in a form that may be read by Microsoft Office® software. Any documents 
+with signatures shall be submitted as an Adobe® portable document format ( .pdf) file. HHSC 
+is not responsible for documents that cannot be read or converted. Unreadable Responses 
+may be, in HHSC’s sole discretion, rejected as nonresponsive. Files must be attachments to 
+the email. Links and access given to file storage accounts are not per mitted. 
+Be aware Internet Service Providers may limit file sizes on outgoing emails; therefore, it is 
+recommended Responses not contain graphics, pictures, letterheads, etc., which consume a 
+lot of space. These typically include *.tif/*.tiff, *.gif, & *.bmp file e xtensions, but may use 
+others, as well. HHSC’s firewall virus protection runs at all times, so during times of new 
+active virus alerts, incoming traffic may be delayed while virus software scans emails with 
+attachments. Attachments may not exceed 25 MB  due to HHSC email file size requirements.  
+2. HHS Online Bid Room  
+Responses may be submitted through the HHS Online Bid Room. See Exhibit E – Online Bid 
+Room for information regarding the two -part registration process required prior to 
+submitting a Response. 
+HHSC will not be held responsible for any Response that is mishandled prior to receipt by HHSC 
+PCS. 
+The Bidder is solely responsible for ensuring that the Response is complete and submitted to, 
+and RECEIVED by, HHSC before the Response Deadline identified in the Procurement Schedule 
+(cover page of this IFB) or deadline established in subsequent Addenda. HHSC is not responsible 
+for lost, misdirected or late Responses, or technical difficulties preventing submission through 
+the Online Bid Room. Late Responses will be disqualified.
+
+[page 40]
+PCS 137 - SERVICES 
+Version 2.10 Page 40 of 42 Revised 03/18/2026 
+The Response, including all documentation required by this IFB and this Appendix, must be 
+submitted in its entirety.  
+3. Hand Delivery or Overnight/Express/Priority Mail delivery of USB Drive 
+The Bidder is solely responsible for ensuring that the Response is complete and submitted to 
+and RECEIVED by HHSC before the Response Deadline identified in the Procurement Schedule 
+(cover page of this IFB) or deadline established in subsequent Addenda. HHSC is not responsible 
+for lost, misdirected or late Responses. Late Responses will be disqualified.  
+All documents should be submitted on a single USB drive and must be in Microsoft office® 
+formats (Word® and Excel®, as applicable) or in a form that may be read by Microsoft office® 
+software. Any documents with signatures shall be submitted as an Adobe® portable document 
+format (pdf) file. HHSC is not responsible for docum ents that cannot be read or converted. 
+Unreadable Responses may be, in HHSC’s sole discretion, rejected as nonresponsive.  
+The Response must include all documentation required by this IFB and this Appendix. 
+a) Submit one (1) USB drive of the complete Response package – hard copy Responses will 
+not be accepted. 
+b) The USB drive must be enclosed in properly documented and sealed envelope or sealed 
+carton. 
+c) The envelope or carton must be properly labeled, on the face or top of each, with the 
+following: 
+1. Bidder’s name 
+2. Contact Name for Response  
+3. Phone number for Response Contact  
+4. IFB number from the cover page of this IFB 
+5. HHSC PCS Purchaser Name (Sole Point of Contact  and Communications, Section 6.1). 
+d) The address for hand delivery : 
+Click here for driving instructions to PCS . 
+See Exhibit E-1- PCS Map 
+Health and Human Services Commission  
+Attn: Bid Room Coordinator 
+Procurement and Contracting Services Building  
+1100 W 49th St. MC: 2020 
+Austin, TX 78756
+
+[page 41]
+PCS 137 - SERVICES 
+Version 2.10 Page 41 of 42 Revised 03/18/2026 
+The address for Overnight/Express/Priority Mail delivery is: 
+Health and Human Services Commission  
+Attn: Bid Room Coordinator 
+Tower Building Room 108 
+1100 W 49th St. MC: 2020 
+Austin, TX 78756 
+It is the Respondent’s sole responsibility to ensure that packaging is sufficient to prevent 
+damage to contents. HHSC will not be responsible or liable for any damage, and damaged IFB 
+Responses will not be considered at HHSC’s sole discretion.  
+HHSC will not be held responsible for any IFB Response that is mishandled prior to receipt by 
+HHSC PCS. It is the Respondent’s sole responsibility to mark appropriately and deliver the IFB 
+Response to HHSC PCS by the specified date and time. HHSC will not be responsible for late 
+delivery, inappropriately identified documents, or other submission errors that may lead to 
+disqualification or nonreceipt of the Respondent’s IFB Response. 
+4. CHECKLIST FOR SUBMISSION OF RESPONSE  
+This checklist is included to provide assistance in submitting a complete and accurate Response 
+to this IFB. 
+Failure to submit the following with the Response WILL disqualify the Bidder from further 
+consideration for evaluation or award.  
+ Exhibit A - HHS Solicitation Affirmations (Pages 1-14), completed and signed  
+ Exhibit C - Pricing Sheet, completed 
+Failure to submit the following with the Response MAY disqualify a Bidder. HHSC will review all 
+Responses received and will determine if any or all Responses which do not include the 
+complete, signed (if applicable) copies of Addenda or requested information and 
+documentation will be disqualified or whether additional time will be permitted for submission 
+of the incomplete or missing documentation. If additional time will be permitted, Bidders will 
+be notified in writing to provide the missing documentation  by a specified deadline. Failure by 
+Bidder to submit the requested documentation by that deadline WILL result in disqualification.  
+ Exhibit D – Bidder Reference and Contractor Qualifications  Form, completed 
+ Provide any other information Bidder believes is pertinent  to demonstrate the Bidder’s 
+financial capability, financial solvency, and capacity to fulfill the requirements of this IFB. 
+ Addendum Acknowledgement Form(s), if applicable 
+ Public Information Act Copy of Response, if applicable . Reference Section 12.7 Public 
+Information Act – Bidder Requirements Regarding Disclosure
+
+[page 42]
+PCS 137 - SERVICES 
+Version 2.10 Page 42 of 42 Revised 03/18/2026 
+ Exhibit F – Form 4109 Application for Texas Identification Number, if applicable. 
+Complete and return if no prior business has been done with HHS or information has 
+changed. Form 4109 is not required for bid submission to be compliant.   
+ Provide copy of Required License and Accreditation

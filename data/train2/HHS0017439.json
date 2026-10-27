@@ -1,0 +1,1805 @@
+{
+  "rfp_id": "HHS0017439",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Questions or Clarifications Submission Deadline July 10, 2026, at 5:00 PM",
+      "section_ref": "Procurement Schedule",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-07-10",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "Responses to Questions or Clarifications - Addendum posted on the ESBD July 14, 2026",
+      "section_ref": "Procurement Schedule",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-07-14",
+      "page": 1
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "Response Deadline: Responses to this IFB must be received July 22, 2026, 10:30 AM",
+      "section_ref": "Procurement Schedule",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-22",
+      "page": 1
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "Anticipated Contract Start Date September 1, 2026",
+      "section_ref": "Procurement Schedule",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-09-01",
+      "page": 1
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "Procurement Schedule - All Times are Central Time Reference Section 2 for further information IFB Date Posted to ESBD June 26, 2026 Questions or Clarifications Submission Deadline July 10, 2026, at 5:00 PM Responses to Questions or Clarifications - Addendum posted on the ESBD July 14, 2026 Response Deadline:",
+      "section_ref": "Cover",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-10",
+      "page": 1
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "The required training must cover all aspects of 2 CFR Part 200 (located at https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200), including the most recent updates. The successful Bidder shall deliver training through two modalities: Webcast Training and Live Onsite Training at HHSC facilities.",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "To be considered for award, Bidders must submit a comprehensive Response which includes all required information and documentation as outlined in this IFB to ensure the Bidder meets all requirements, possesses the required experience and qualifications, and has the capacity to provide the services described in this IFB. See Appendix A, Submission Instructions and Response Checklist.",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "Bidders should NOT submit exceptions to this IFB which could result in disqualification of a Response. No changes to a Response can be made after the submission deadline.",
+      "section_ref": "1.3",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "No assumptions should be included in the Response. The inclusion of assumptions could result in disqualification of a Response.",
+      "section_ref": "1.3",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "Services shall be provided to HHSC and the Department of State Health Services (DSHS) staff.",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "The successful Bidder shall deliver training through two modalities:",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "Instead, a Bidder should advance assumptions and seek",
+      "section_ref": "1.3",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 4
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "Responses must be received by HHSC prior to the Response Deadline as indicated in the Procurement Schedule. Every Bidder is solely responsible for ensuring its Response is received by HHSC before the Response Deadline in accordance with all requirements regarding submission.",
+      "section_ref": "2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "By submitting a Response, the Bidder represents and warrants that the individual submitting the Response, inclusive of the documents made part of the Response, is authorized to sign on behalf of the Bidder, and to bind the Bidder under any Contract that may result from this IFB.",
+      "section_ref": "2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "Bidders may withdraw or amend their Responses at any time prior to the Response Deadline by e-mailing the point of contact listed in Section 6.1 (Sole Point of Contact and Communications).",
+      "section_ref": "3",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "The e-mail subject line for withdrawal or response amendment should contain the IFB number as indicated on the cover page of this IFB.",
+      "section_ref": "3",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "HHSC is not responsible for lost, misdirected or late Responses.",
+      "section_ref": "2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "HHSC is not responsible for lost or misdirected e-mails.",
+      "section_ref": "3",
+      "type": "info",
+      "category": "form",
+      "due_date": null,
+      "page": 5
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Bidders shall NOT use the e-mail address above for submission of a Response to this IFB. See Appendix A for submission requirements.",
+      "section_ref": "6.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "Bidders shall direct all communications, including questions or clarifications relating to this IFB, by e-mail to the HHSC PCS Sole Point of Contact named in Section 6.1 (Sole Point of Contact and Communications); communications by phone will not be accepted except for purposes such as instructing a potential Respondent through an IT system or website referenced in this Solicitation.",
+      "section_ref": "6.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "All other communications between a Bidder and HHS agency staff concerning this IFB are prohibited. In no instance is a Bidder to discuss cost information regarding this IFB with the HHSC PCS Sole Point of Contact or any other HHS staff. Failure to comply with these requirements may result in disqualification of the Response.",
+      "section_ref": "6.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "All other communications between a Bidder and HHS agency staff concerning this IFB are prohibited.",
+      "section_ref": "1100",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 8
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "By submitting a Response to this IFB, Bidder agrees that its Response will remain a firm and binding offer for 240 days, as stated in the HHS Solicitation Affirmations (Exhibit A).",
+      "section_ref": "6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 9
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "All responses shall be prepared simply and economically, providing a straightforward, concise delineation of the Bidder's capabilities to satisfy the requirements of this IFB.",
+      "section_ref": "6.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 9
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "Bidders must notify the Sole Point of Contact, Section 6.1, of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the IFB in the manner and by the deadline for submitting questions.",
+      "section_ref": "6.6",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 9
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "Responses shall be submitted at the sole expense of the Bidder.",
+      "section_ref": "6.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 9
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "HHSC will allow questions and requests for clarification regarding this IFB if submitted by e-mail to the Sole Point of Contact, Section 6.1, by the deadline established in the Procurement Schedule (cover page of this IFB) or deadlines established in subsequent Addenda.",
+      "section_ref": "6.7",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "All questions and requests for clarification must be submitted by e-mail and include the following information: a) IFB Number and Title of IFB (cover page of this IFB) must be included in the e-mail subject line and in the e-mail body; b) Section or Paragraph number from this IFB; c) Page Number of this IFB; d) Exhibit name, Section or Paragraph, page number from the Exhibit; e) Language, Topic, Section Heading being questioned or requested for clarification; f) Requestor Contact Information must be included in the body of the e-mail.",
+      "section_ref": "6.7.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "It is the responsibility of each potential Bidder to monitor the ESBD for any Addenda affecting this IFB. Failure to check the ESBD will in no way release any potential Bidder or awarded Contractor from the requirements of posted Addenda.",
+      "section_ref": "6.8.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "PCS 137 - SERVICES c) shall not be entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction.",
+      "section_ref": "6.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "Bidder must acknowledge receipt of any addenda by signing and returning SOLICITATION ADDENDUM ACKNOWLEDGEMENT FORM posted to the ESBD with your solicitation response in accordance with the submission options outlined in the solicitation.",
+      "section_ref": "6.8.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "The Contractor shall train and provide ongoing support to HHSC and DSHS staff with a focus on the compliance and applicability of the Uniform Guidance 2 CFR Part 200. The Contractor shall be responsible for monitoring and incorporating any revisions to 2 CFR Part 200, Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "The Contractor shall provide instructor-led training presentation(s) delivered via Onsite Training as well as Webcast Training. The Contractor shall be solely responsible for the hosting, maintenance, and operation of a dedicated website (the 'Registration Site') for the express purpose of capturing, managing, and tracking all training registrations.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "Each participant will receive twelve (12) contact hours of federal grant management training upon completion.",
+      "section_ref": "7.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "Contractor shall provide online access to training and course materials after completion of the training(s) to HHSC and DSHS staff for additional support. Electronic versions of supporting course materials, in a searchable pdf format, must be provided for each attendee. The participants must have access to an electronic version of a reference handbook available for download or email. The Contractor shall be available to provide technical assistance.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "Training Content and Materials. Contractor shall provide the training agenda and materials to HHSC's point of contact fourteen (14) Business Days before the scheduled onsite and the scheduled web-based to distribute the training information to participants. Any requested edits must be re-reviewed by HHSC's point of contact.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Changes to Training Content and Materials. Contractor must update all relevant training presentation materials and agendas and resubmit them to HHSC's designated point of contact for review and approval no later than five (5) Business Days after identification of the change prior to the trainings.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Bidders are responsible for monitoring the ESBD frequently for notices regarding this IFB.",
+      "section_ref": "6.8.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Electronic versions of supporting course materials, in a searchable pdf format, must be provided for each attendee.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "The participants must have access to an electronic version of a reference handbook available for download or email.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "The Contractor shall be available to provide technical assistance.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "Any requested edits must be re-reviewed by HHSC\u2019s point of contact.",
+      "section_ref": "7.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "The grant management training will consist of two (2) in-person trainings led by one to two instructors and two (2) webcast training sessions per year of the Contract.",
+      "section_ref": "7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "Onsite training for up to 200 participants: Training will be held at 4601 W. Guadalupe Austin, Texas, 78751, or alternate nearby location, for two (2) days from 9:00 a.m. to 4:00 p.m. with one (1) hour for lunch each day.",
+      "section_ref": "7.1 a)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Live Webcast Training (Virtual) for up to 100 participants per session: The Live Webcast Training will be exactly like the onsite training, except it will be held virtually. Attendees will have twenty-four seven (24/7) access to register on the Contractor website for training and videos, and participants will gain access to the online resource center, guides, templates, checklists, and more, all designed to help manage federal grants.",
+      "section_ref": "7.1 b)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "Training materials will include: 1. Changes in the Administrative Requirements and Cost Principles contained in 2 CFR Part 200; 2. Getting started with federal award; 3. Monitoring and reporting requirements for federal funding; 4. Procurement standards; 5. Property management standards.",
+      "section_ref": "7.1 c)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "Types of Trainings Videos shall include: 1. Closing out awards; 2. Direct costs and indirect costs; 3. Grant Management - It Takes Village; 4. Surviving the Single Audit; 5. E-mentoring.",
+      "section_ref": "7.1 d)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "HHSC will coordinate with Contractor if alternate location will be required and will provide advance notice.",
+      "section_ref": "7.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "Contractor shall perform contracted services, including any minor adjustment call-back services, Monday through Friday between the hours of 8 a.m. and 5 p.m. (Central Time). Contractor shall not interfere with normal flow of HHS Agency business at the service location.",
+      "section_ref": "7.1.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "Contractor shall respond to all service calls within four (4) hours of HHS Agency request, unless the Response Deadline is extended by the HHS Agency Contract Manager.",
+      "section_ref": "7.1.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "Any services performed outside of regular business hours (8 a.m. to 5 p.m. Central Time) must be requested and/or approved in writing by the HHS Agency Contract Manager and must be invoiced at the rate stated for Outside Regular Business Hours stated in Exhibit C \u2013 Pricing Sheet.",
+      "section_ref": "7.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "Contractor shall respond on-site to a request for emergency services within one (1) hour of notification and continue work until the services requested are complete to the satisfaction of the HHS Agency.",
+      "section_ref": "7.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "Bidder shall submit documentation of experience and qualifications with Response, if requested in Exhibit C\u2013 Pricing Sheet.",
+      "section_ref": "7.1.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "The Bidder shall have relevant experience required for the performance of the services as outlined in this IFB. The minimum experience required is three (3) years.",
+      "section_ref": "7.1.5 a)",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "The Bidder's personnel to be assigned to perform the services must be fully trained and, at minimum, have one (1) year relevant experience.",
+      "section_ref": "7.1.5 b)",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "Bidder's personnel must have demonstrated expertise in leading trainings for Uniform Guidance 2 CFR Part 200 Uniform Guidance 2 CFR Part 200.",
+      "section_ref": "7.1.5 b)1.",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "All training content developed and delivered by Bidder's personnel must possess extensive experience in federal grant management and who have worked directly with state agencies",
+      "section_ref": "7.1.5 b)2.",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "All Contractor or Subcontractor personnel assigned to perform the services must be at least 18 years of age and meet the requirements of this Contract.",
+      "section_ref": "7.1.5 c)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "The Bidder must provide a minimum of three (3) verifiable references for current or previous contracts of the same size and for similar or same services within the last two (2) years in Exhibit D \u2013 Bidder Reference Form and return with Response.",
+      "section_ref": "7.1.5 d)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "The Contractor shall furnish all labor, tools, transportation, equipment, materials, and supplies, as necessary, to perform the services and/or provide the goods, as required.",
+      "section_ref": "7.1.7 a)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "The Contractor shall be responsible for supervision of its employees and Subcontractor employees, together with clean up and proper disposal of any site work waste.",
+      "section_ref": "7.1.7 b)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "The Contractor shall provide comprehensive federal grant compliance training services to HHSC and DSHS staff focusing on the compliance and understanding of the Uniform Guidance 2 CF Part 200.",
+      "section_ref": "7.1.7 d)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "The Contractor shall establish and maintain an online registration platform for the purpose of tracking all training registrations.",
+      "section_ref": "7.1.7 e)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "The Contractor shall provide copies of registration and proof of completion for each HHSC and DSHS attendee, upon HHSC or DSHS request.",
+      "section_ref": "7.1.7 f)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "The Contractor shall supply training agendas and materials for participants, including participant guide and additional reference materials available for participant download.",
+      "section_ref": "7.1.7 g)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "The Contractor shall only provide trained and qualified personnel to perform the required services under the Contract. Within ten (10) Business Days of contract execution, the Contractor required to provide current copies of the personnels' completed training(s) and license or accreditation certificate related to the training to the HHS Agency Contract Manager.",
+      "section_ref": "7.1.7 h)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "7.1.7 Contractor Responsibilities The Contractor(s) is solely responsible for the performance of all services and requirements referenced in Section 7.1, Scope of Work and this IFB .",
+      "section_ref": "7.1.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "Contractor will not be relieved of its obligations for any nonperformance by its employees or Subcontractor(s). a) The Contractor shall furnish all labor, tools, transportation, equipment, materials, and supplies, as necessary, to perform the services and/or provide the goods, as required. b) The Contractor shall be responsible for supervision of its employees and Subcontractor employees, together with clean up and proper disposal of any site work waste. c) Contractor will not be relieved of its obligations for any nonperformance by its employees or Subcontractor(s). d) The Contractor shall provide comprehensive federal grant compliance training services to HHSC and DSHS staff focusing on the compliance and understanding of the Uniform Guidance 2 CF Part 200. e) The Contractor shall establish and maintain an online registration platform for the purpose of tracking all training registrations. f) The Contractor shall provide copies of registration and proof of completion for each HHSC and DSHS attendee, upon HHSC or DSHS request. g) The Contractor shall supply training agendas and materials for participants, including participant guide and additional reference materials available for participant download. h) The Contractor shall only provide trained and qualified personnel to perform the required services under the Contract.",
+      "section_ref": "7.1.7",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "The Contractor shall comply with all federal, state and local laws, statutes, ordinances, rules and regulations, and the orders and decrees of any court or administrative bodies or tribunals in any matter affecting the performance of the Contract including, if applicable, workers' compensation laws, minimum and maximum salary and wage statutes and regulations, and licensing laws and regulations.",
+      "section_ref": "7.1.7 i)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "All Contractor employees, and Subcontractor's employees, if applicable, assigned to perform the services must be trained and experienced in the type of work to be performed. The Contractor shall provide adequate training to all personnel assigned to perform the services on the roles, responsibilities, and technical aspects of the work.",
+      "section_ref": "7.1.7 j)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "The Contractor shall not allow any visitors, spouses, children or other relatives of the Contractor's or Subcontractor's employees to be on state property in connection with the Contract during working hours.",
+      "section_ref": "7.1.8 a)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "The Contractor shall be responsible for all employment taxes and other payroll withholding for its employees.",
+      "section_ref": "7.1.8 b)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "The Contractor shall be responsible and liable for the safety and health of its personnel while they are performing work for an HHS agency and while on the HHS Agency premises.",
+      "section_ref": "7.1.8 c)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "The Contractor shall be responsible for verifying that all of its employees assigned to perform services under the Contract are in compliance with all requirements of the Immigration Reform and Control Act of 1986, Public Law 99-603, which became effective November 6, 1986, and any subsequent amendments.",
+      "section_ref": "7.1.8 d)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "7.1.8 Independent Contractor It is understood and agreed by the HHS Agency and the Contractor that the Contractor is retained as an independent Contractor and in no event shall any employee hired by the Contractor be considered an employee of the State. a) The Contractor shall not allow any visitors, spouses, children or other relatives of the Contractor\u2019s or Subcontractor\u2019s employees to be on state property in connection with the Contract during working hours. b) The Contractor shall be responsible for all employment taxes and other payroll withholding for its employees. c) The Contractor shall be responsible and liable for the safety and health of its personnel while they are performing work for an HHS agency and while on the HHS Agency premises. d) The Contractor shall be responsible for verifying that all of its employees assigned to perform services under the Contract are in compliance with all requirements of the Immigration Reform and Control Act of 1986, Public Law 99 -603, which became effective November 6, 1986, and any subsequent amendments.",
+      "section_ref": "7.1.8",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "The Contractor shall utilize the U.S. Department of Homeland Security's E-Verify system during the term of the contract to determine eligibility of (A) all persons employed by the Contractor to perform duties within Texas; and (B) all persons, including subcontractors, assigned by the Contractor to perform work pursuant to the contract within the United States of America.",
+      "section_ref": "7.1.8 e)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "The Contractor and the assigned Contractor employees or the Contractor's Subcontractor and Subcontractor employees assigned to perform the services must have all applicable permits, licenses, accreditations, and insurance coverage.",
+      "section_ref": "7.1.8 f)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "The Contractor shall be responsible for the security, maintenance, loss or damage to its equipment or its Subcontractor's equipment while on HHS Agency premises.",
+      "section_ref": "7.1.9",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "The Contractor shall provide substitutes for any of its employees or Subcontractor's employees providing services at the HHS facility who may be absent for any reason. The Contractor shall provide relief personnel as necessary and/or work overtime at no cost to the HHS Agency, to ensure that the requirements of this Contract are performed and accomplished as required.",
+      "section_ref": "7.1.10",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "The Contractor shall have an active telephone service answered during normal business hours. Normal business hours are between 8 a.m. and 5 p.m. Monday through Friday, unless otherwise stated in the IFB.",
+      "section_ref": "7.1.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "The Contractor must provide the HHS Agency Contract Manager with 24-hour contact information for a minimum of two (2) Contractor personnel so the HHS Agency may communicate urgent performance issues that require immediate correction or any other issues that may occur. The Contractor's 24-hour contact must always be available.",
+      "section_ref": "7.1.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "7.1.11 Telephone Service The Contractor shall have an active telephone service answered during normal business hours.",
+      "section_ref": "7.1.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "The Contractor\u2019 s 24-hour contact must always be available.",
+      "section_ref": "7.1.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-084",
+      "verbatim_text": "While performing the services, all Contractor and Subcontractor personnel must comply with all applicable state rules, regulations, and HHS Agency's requests regarding personal and professional conduct applicable to the services being provided as well as the service locations. All personnel must always conduct themselves in a businesslike and professional manner.",
+      "section_ref": "7.1.13.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-085",
+      "verbatim_text": "The Contractor shall provide competent supervisor(s) if the service location is at an HHS Agency facility.",
+      "section_ref": "7.1.13.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-086",
+      "verbatim_text": "All supervisors must be able to communicate in English verbally and in writing. The supervisor shall be knowledgeable of the Statement of Work (SOW) and requirements of the Contract.",
+      "section_ref": "7.1.13.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-087",
+      "verbatim_text": "The Contractor and the supervisors shall continuously monitor and maintain awareness, by personal inspection, of the quality and completeness of the work being performed.",
+      "section_ref": "7.1.13.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-088",
+      "verbatim_text": "All personnel must always conduct themselves in a businesslike and professional manner.",
+      "section_ref": "7.1.13.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-089",
+      "verbatim_text": "Upon receipt of such notice, Contractor must promptly investigate the matter and take appropriate action that may include: a) Removing the employee from the project; b) Providing the HHS Agency with written notice of such removal; and c) Providing the HHS Agency with the information for the replacement employee, who must be qualified and trained, within the timeline designated by the HHS Agency.",
+      "section_ref": "7.1.13.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-090",
+      "verbatim_text": "At the request of the HHS Agency, the Contractor must replace any Contractor or Subcontractor personnel who are not adequately performing the required services or who are unable to work effectively with the HHS Agency Contract Manager or other HHS staff. The Contractor shall provide replacement personnel who have the required qualifications and training as outlined in this IFB and resulting Contract.",
+      "section_ref": "7.1.13.3 b)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-091",
+      "verbatim_text": "The use or possession of any kind of intoxicants or illegal drugs by Contractor (or any of its Subcontractors) employees while on duty at HHS Agency premises, including the building and grounds, is prohibited.",
+      "section_ref": "7.1.13.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-092",
+      "verbatim_text": "All HHS Agency facilities are nonsmoking buildings. Contractor's and Subcontractor's employees are prohibited from smoking in all non-designated areas.",
+      "section_ref": "7.1.13.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-093",
+      "verbatim_text": "All Contractor and Subcontractor employees are required to wear company uniforms and identifying badges while providing services in or delivering to HHS Agency premises.",
+      "section_ref": "7.1.13.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-094",
+      "verbatim_text": "All Contractor and Subcontractor personnel must prominently display their company identification badges or the company name and employee's name (first and/or last) must be on their shirt, T-shirt or smock.",
+      "section_ref": "7.1.13.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-095",
+      "verbatim_text": "The Contractor shall contact the HHS Agency Contract Manager to request approval for the use of other apparel.",
+      "section_ref": "7.1.13.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-096",
+      "verbatim_text": "The Contractor\u2019s or Subcontractor\u2019s uniform apparel must be of one standard color or design.",
+      "section_ref": "7.1.13.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-097",
+      "verbatim_text": "The Contractor\u2019s or Subcontractor\u2019s on -site managers or supervisors may wear a distinguishing style of uniform but should strive to maintain a company \u201cstandard color\u201d to aid in identification.",
+      "section_ref": "7.1.13.6",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-098",
+      "verbatim_text": "Although submission of the HSP is not required, if Bidders identify subcontracting opportunities or have a need to subcontract to fulfill any portion of an awarded Contract, Bidders are encouraged to submit, with their Proposal, a properly completed HSP.",
+      "section_ref": "8.1",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-099",
+      "verbatim_text": "Prices offered, as part of the Bidder's response, must be firm, fixed prices for the life of the Contract.",
+      "section_ref": "9.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-100",
+      "verbatim_text": "The pricing must be submitted only using Exhibit C - Pricing Sheet based on the description and the unit of measure(s) provided for each line item. The unit prices must include all IFB requirements, including, but not limited to, labor, equipment, materials, supplies and all related expenses.",
+      "section_ref": "9.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-101",
+      "verbatim_text": "Contractors are required to immediately implement any price decrease that become available during the Contract term. Contractor must notify the designated HHSC Contract Manager in writing so that a Purchase Order Change Notice or Contract Amendment may be processed.",
+      "section_ref": "9.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-102",
+      "verbatim_text": "9.2.2 Price Adjustment Requests The Contractor must provide, in writing to the HHS Agency Contract Manager, a request for a price adjustment.",
+      "section_ref": "9.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-103",
+      "verbatim_text": "The adjustment request must use the index and formula identified in Section 9.2.1 (Price Adjustment Index).",
+      "section_ref": "9.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-104",
+      "verbatim_text": "Only contracts with renewals are eligible for CPI increases and must be completed prior to the start of the renewal period.",
+      "section_ref": "9.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-105",
+      "verbatim_text": "Contractor must provide supporting documentation to justify any price adjustment.",
+      "section_ref": "9.2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-106",
+      "verbatim_text": "If Contractor at any time during the term of the Contract provides a discount on the final contract costs, Contractor will notify HHSC in writing at least ten (10) calendar days prior to the effective date of the discount.",
+      "section_ref": "9.2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-107",
+      "verbatim_text": "The request must be submitted to the HHS Agency Contract Manager in writing and include supporting documentation from the USDOL reflecting the increase and the effective date of the increase.",
+      "section_ref": "9.2.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-108",
+      "verbatim_text": "Any contract resulting from this IFB will begin September 1, 2026, and expire August 31, 2027.",
+      "section_ref": "11.2",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-09-01",
+      "page": 23
+    },
+    {
+      "id": "R-109",
+      "verbatim_text": "September 1, 2027, to August 31, 2028 Such renewal(s), if exercised, shall be subject to all the requirements and terms and conditions of the Contract.",
+      "section_ref": "11.3",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2027-09-01",
+      "page": 23
+    },
+    {
+      "id": "R-110",
+      "verbatim_text": "12.2 Performed Services Monitoring a) The HHS Agency Contract Manager or designee will monitor all work performed by Contractor and shall regularly communicate with the Contractor to address questions, concerns or progress. b) It is important that the Contractor performs all duties and requirements as stated.",
+      "section_ref": "12.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-111",
+      "verbatim_text": "The Contractor shall, within three (3) business days (or another date approved by the HHS Agency) of receipt of written notice of a non-material deficiency, provide the HHS Agency Contract Manager a written response that: a) Explains the reasons for the deficiency, the Contractor's plan to address or cure the deficiency, and when the deficiency will be cured.",
+      "section_ref": "12.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-112",
+      "verbatim_text": "PCS 137 - SERVICES c) All services and deliverables must meet or exceed the required levels of performance specified in this IFB. d) Contractor will be notified by the HHS Agency Contract Manager or designee in writing to correct any service or portion of a service.",
+      "section_ref": "12.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-113",
+      "verbatim_text": "The Contractor shall take immediate action to correct the service or portion of a service at no additional cost to the HHS Agency.",
+      "section_ref": "12.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-114",
+      "verbatim_text": "The Contractor shall notify the HHS Agency Contract Manager or designee upon completion for HHS Agency inspection and acceptance, as applicable.",
+      "section_ref": "12.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-115",
+      "verbatim_text": "12.3 Performance Reporting The HHS Agency Contract Manager is required to report vendor performance for purchases over $25,000 through the Texas Comptroller of Public Accounts (CPA) Vendor Performance Tracking System (VPTS).",
+      "section_ref": "12.3",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-116",
+      "verbatim_text": "The Plan, at a minimum, must include, but is not limited to: a) A detailed explanation of the reasons for the cited deficiency; b) The Contractor\u2019s assessment or diagnosis of the cause; and",
+      "section_ref": "12.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-117",
+      "verbatim_text": "The Plan must be submitted by the deadline set forth in the HHS Agency's request.",
+      "section_ref": "12.5",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-118",
+      "verbatim_text": "The Contractor shall be required to correct all performance issues reported by the HHS Agency Contract Manager within 48 business hours. The Contractor shall provide a written report detailing the performance issue(s) and resolution.",
+      "section_ref": "12.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-119",
+      "verbatim_text": "If Bidder asserts that information provided in its IFB Response is exempt from disclosure under the PIA, Bidder must: a) Mark the Original Proposal, on the top of the front page, with the words \"CONTAINS CONFIDENTIAL INFORMATION\" in large, bold, capitalized letters (the size of, or equivalent to, 12-point Times New Roman font or larger); and Identify, adjacent to each portion of the IFB Response, that Bidder claims is exempt from public disclosure, the claimed exemption from disclosure.",
+      "section_ref": "12.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-120",
+      "verbatim_text": "Certify, in the designated section of the HHS Solicitation Affirmations, Bidder's confidential information assertion and the filing of its Public Information Act Copy; and Submit a separate \"Public Information Act Copy\" of the Original Response.",
+      "section_ref": "12.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-121",
+      "verbatim_text": "12.7 Public Information Act \u2013 Bidder Requirements Regarding Disclosure Proposals and contracts are subject to the Texas Public Information Act (PIA), Texas Government Code Chapter 552, and may be released to the public upon request. The HHS Agency also is required to post certain contracts and IFB responses on its public website and to provide such information to the Legislative Budget Board for posting on its website.",
+      "section_ref": "12.7",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-122",
+      "verbatim_text": "If Bidder asserts that information provided in its IFB Response is exempt from disclosure under the PIA, Bidder must: a) Mark Original Proposal 1.",
+      "section_ref": "12.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 25
+    },
+    {
+      "id": "R-123",
+      "verbatim_text": "The copy must be clearly marked as \"PUBLIC INFORMATION ACT COPY\" on the front page in large, bold, capitalized letters; Each portion Bidder claims is exempt from public disclosure must be redacted (blacked out); and Bidder must identify, adjacent to each redaction, the claimed exemption from disclosure.",
+      "section_ref": "12.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-124",
+      "verbatim_text": "Bidder should not submit a Public Information Act Copy indicating that the entire proposal is exempt from disclosure.",
+      "section_ref": "12.7",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-125",
+      "verbatim_text": "IFB Responses should not be marked or asserted as copyrighted material.",
+      "section_ref": "12.7",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-126",
+      "verbatim_text": "Each portion Bidder claims is exempt from public disclosure must be redacted (blacked out); and",
+      "section_ref": "12.7",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-127",
+      "verbatim_text": "Bidder must identify, adjacent to each redaction, the claimed exemption from disclosure.",
+      "section_ref": "4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-128",
+      "verbatim_text": "Each identification provided as required in Subsection (c) of this section must be identical to those set forth in the Original Response as required in Subsection (a)(2), above.",
+      "section_ref": "4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-129",
+      "verbatim_text": "The only difference in required markings and information between the Original Response and the \u201cPublic Information Act Copy\u201d of the response will be redactions - which can only be included in the \u201cPublic Information Act Copy.\u201d There must be no redactions in the Original Response.",
+      "section_ref": "4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-130",
+      "verbatim_text": "If Bidder asserts a copyright to any portion of its proposal, by submitting a proposal, Bidder agrees to reproduction and posting on public websites by the State of Texas, including HHSC and all other state agencies, without cost or liability.",
+      "section_ref": "4",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-131",
+      "verbatim_text": "Invoices submitted to the HHS Agency must include the Contract or Purchase Order number and must describe the work completed, in detail, for which payment is requested. The detail of the work completed must comply with the Scope of Work and Pricing Sheet (see Exhibit C).",
+      "section_ref": "13.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-132",
+      "verbatim_text": "Contractor must submit invoices for services performed on a monthly basis or as otherwise indicated on the purchase order to CFO_PC@hhs.texas.gov and HHSC_AP@hhs.texas.gov within ten (10) business days following the performance of services.",
+      "section_ref": "13.4 a)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-133",
+      "verbatim_text": "Separate invoices must be submitted for each service performed or deliverable, as applicable.",
+      "section_ref": "13.4 b)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-134",
+      "verbatim_text": "Each invoice submitted must contain the following elements: 1. Contract name and number; 2. The Purchase Order number; 3. Contractor name and taxpayer identification number; 4. The month the Services were provided; 5. The total amount of the current bill only; 6. Training participation list for the session performed; and, 7. Any other information as may be requested by HHS.",
+      "section_ref": "13.4 c)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-135",
+      "verbatim_text": "PCS 137 - SERVICES b) The HHS Agency must acknowledge that the services have been satisfactorily performed and products received, if applicable, which are included on an invoice prior to approving the invoice for payment. c) Any additional expenses incurred by the Contractor are the responsibility of the Contractor and will not be paid by the HHS Agency. d) The HHS Agency will not pay any per diem, travel, hotel, equipment, phone calls, paper, reproduction services, office space, or other incidental expenses related to performing the services required by the Contract.",
+      "section_ref": "13.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-136",
+      "verbatim_text": "The HHS Agency shall not be required to pay any disputed portion of an invoice until the dispute is resolved.",
+      "section_ref": "13.5",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-137",
+      "verbatim_text": "Notwithstanding any such dispute, the Contractor must continue to perform the services and/or pro duce deliverables in compliance with the terms of the Contract.",
+      "section_ref": "13.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-138",
+      "verbatim_text": "Contractor may be required to submit bond documentation and current certificates of insurance or other proof acceptable to the HHS Agency at the time of notification of a potential award and such proof must be received by the HHS Agency Contract Manager prior to execution by the HHS Agency of any contract.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-139",
+      "verbatim_text": "Contractor shall maintain the required insurance during the initial Contract term and any renewal or extension period exercised. Contractor shall be responsible for ensuring its subcontractors are in compliance with all applicable insurance and bond requirements.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-140",
+      "verbatim_text": "Contractor shall carry insurance in the types and amounts indicated for the duration of the Contract. The insurance shall be evidenced by delivery to HHS of certificates of insurance executed by the insurer or its authorized agent stating coverages, limits, expiration dates and compliance with all applicable required provisions.",
+      "section_ref": "14 a)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-141",
+      "verbatim_text": "Contractor shall deliver to HHS true and complete copies of certificates and corresponding policy endorsements within 10 days following award.",
+      "section_ref": "14 e)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-142",
+      "verbatim_text": "Upon request, HHS, and/or its agents, shall be entitled to receive , without expense, copies of the policies and all endorsements. b) Contractor shall update all expired policies prior to submission for monthly payment.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-143",
+      "verbatim_text": "Failure to update policies may be reason for withholding of payment until renewal is provided to HHS. c) Contractor shall provide and maintain all insurance coverage with the minimum amounts described throughout the life of the Contract. d) Failure to maintain insurance coverage, as required, may be grounds for suspension of work for cause, termination of contract, or other remedies. e) Contractor shall deliver to HHS true and complete copies of certificates and corresponding policy endorsements within 10 days following award. f) Failure of HHS to demand such certificates or other evidence of Contractor\u2019s full compliance with these insurance requirements or failure of HHS to identify a deficiency in compliance from the evidence provided shall not be construed as a waiver of Contractor\u2019s obligation to maintain such insurance. g) The insurance and insurance limits required herein shall not be deemed as a limitation on Contractor\u2019s liability under the indemnities granted to HHS in the Contract.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-144",
+      "verbatim_text": "The Health and Human Services Commission, its officials, directors, employees, representatives, and volunteers shall be added as additional insureds as respects operations and activities of, or on behalf of the named insured performed under Contract with HHS. The additional insured status must cover completed operations as well.",
+      "section_ref": "14 k)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-145",
+      "verbatim_text": "A waiver of subrogation in favor of the Health and Human Services Commission shall be provided in all policies.",
+      "section_ref": "14 l)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-146",
+      "verbatim_text": "Contractor must retain the certificates of insurance for the duration of the Contract plus seven (7) years and shall have the responsibility of enforcing these insurance requirements among its Subcontractors.",
+      "section_ref": "14 n)",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-147",
+      "verbatim_text": "PCS 137 - SERVICES h) The insurance coverage and limits established below shall not be interpreted as any representation or warranty that the insurance coverage and limits necessarily will be adequate to protect Contractor. i) Coverage shall be written on an occurrence basis by companies authorized and admitted to do business in the State of Texas and rated A or better by A.M. Best Company or similar rating company or otherwise acceptable to HHS . j) This insurance shall not be canceled, materially changed, or non -renewed except after thirty (30) days\u2019 written notice has been given to HHS. k) It is agreed that Contractor\u2019s insurance shall be deemed primary with respect to any insurance or self-insurance carried by HHS for liability arising out of operations under the Contract.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-148",
+      "verbatim_text": "The additional insured status must cover completed operations as well.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-149",
+      "verbatim_text": "This is not applicable to workers\u2019 compensation policies. l) A waiver of subrogation in favor of the Health and Human Services Commission shall be provided in all policies. m) Without limiting any of the other obligations or liabilities of Contractor, Contractor shall require each Subcontractor performing work under the Contract to maintain , at Subcontractor\u2019s own expense, during the term of the Contract, the same stipulated minimum insurance including the required provisions and additional policy conditions as shown above. n) As an alternative, Contractor may include its Subcontractors as additional insureds on its own coverage as prescribed under these requirements.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-150",
+      "verbatim_text": "Contractor\u2019s certificate of insurance shall note in such event that Subcontractors are included as additional insureds and that Contractor agrees to provide workers\u2019 compensation for Subcontractors and their employees.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-151",
+      "verbatim_text": "Contractor shall obtain and monitor the certificates of insurance from each Subcontractor in order to assure compliance with the insurance requirements.",
+      "section_ref": "14",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-152",
+      "verbatim_text": "Owner shall be entitled, upon request and without expense, to receive copies of these certificates.",
+      "section_ref": "14",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-153",
+      "verbatim_text": "14.1 Specific Insurance Requirements For the full term of the Contract, including the original Contract term and all periods of renewal and all additional extensions, Contractor and its Subcontractors, if any, shall obtain and maintain all insurance coverage as set forth below.",
+      "section_ref": "14.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-154",
+      "verbatim_text": "Contractor sha ll be responsible for ensuring its Subcontractors' compliance with all requirements.",
+      "section_ref": "14.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-155",
+      "verbatim_text": "Workers' Compensation and Employer's Liability Insurance with limits as required by the Texas Workers' Compensation Act, with the policy endorsed to provide a waiver of subrogation in favor of the Health and Human Services Commission, employer's liability insurance of not less than: a) Employer's Liability: Each Accident $1,000,000; b) Disease: Each Employee $1,000,000; c) Disease: Policy Limit $1,000,000.",
+      "section_ref": "14.1.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-156",
+      "verbatim_text": "Commercial General Liability ... fully insuring Contractor's liability for bodily injury (including death) and property damage with a minimum limit of: a) $1,000,000 per occurrence; b) $2,000,000 general aggregate; c) $5,000 Medical Expense each person; d) $1,000,000 Personal Injury and Advertising Liability; e) $2,000,000 products and completed operations aggregate; f) $50,000 Damage to Premises Rented to You; and g) Coverage shall be on an \"occurrence\" basis.",
+      "section_ref": "14.1.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-157",
+      "verbatim_text": "Commercial Automobile Liability Covering owned, hired, and non-owned vehicles, with a minimum combined single limit for bodily injury (including death) and property damage of $1,000,000 per accident. No aggregate shall be permitted for this type of coverage.",
+      "section_ref": "14.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-158",
+      "verbatim_text": "Contractor shall obtain, pay for and maintain professional liability errors and omissions insurance during the Contract term, insuring Contractor for an amount of not less than $1,000,000.",
+      "section_ref": "14.1.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-159",
+      "verbatim_text": "Policy Limit $1,000,000 Workers\u2019 compensation insurance coverage must be provided for all workers at all tier levels and meet the statutory requirements of the Texas Labor Code.",
+      "section_ref": "14.1.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-160",
+      "verbatim_text": "No aggregate shall be permitted for this type of coverage . 14.1.4 Professional Liability Insurance.",
+      "section_ref": "14.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-161",
+      "verbatim_text": "Contractor shall obtain, pay for and maintain umbrella liability insurance during the Contract term, insuring Contractor for not less than $1,000,000 that provides coverage at least as broad as and applies in excess and follows form of the primary liability coverages required hereinabove.",
+      "section_ref": "14.1.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-162",
+      "verbatim_text": "The policy shall provide \u201cdrop down\u201d coverage where underlying primary insurance coverage limits are insufficient or exhausted .",
+      "section_ref": "14.1.5",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-163",
+      "verbatim_text": "Any alternatives proposed by Contractor should be accompanied by a detailed explanation regarding Contractor's inability to obtain the required insurance and/or bonds.",
+      "section_ref": "14.2",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-164",
+      "verbatim_text": "The HHS Agency shall be the sole an d final judge as to the adequacy of any substitute form of insurance coverage.",
+      "section_ref": "14.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-165",
+      "verbatim_text": "Responses shall be evaluated in accordance with Title 10, Subtitle D, Chapter 2155, Sections 2155.074, 2155.075(a), and 2155.144; and Chapter 2156, Section 2156.007, Texas Government Code; and Chapter 2157, Section 2157.003.",
+      "section_ref": "16.2",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-166",
+      "verbatim_text": "Any disqualifying factor set forth in this IFB does not constitute an irregularity (e.g., Submission of Exhibit A HHS Solicitation Affirmations, which must be completed, signed and submitted with the IFB Response) and will not be waived.",
+      "section_ref": "15.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-167",
+      "verbatim_text": "16.3 Specific Evaluation Criteria HHSC shall not be obligated to select the Bidder with the lowest price but shall make an award to the Bidder who provides the best value to the State of Texas.",
+      "section_ref": "16.3",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-168",
+      "verbatim_text": "All Responses will be evaluated according to the following criteria: a) Bidder meeting or exceeding the requirements and specifications in accordance with this IFB; b) Bidder's ability to meet performance delivery requirements; and c) Price.",
+      "section_ref": "16.3",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-169",
+      "verbatim_text": "The pricing will be evaluated across all Bidders to determine the Response with the lowest price per line item or lowest total for all line items on Exhibit C \u2013 Pricing Sheet. The award will be made to the Bidder whose Response offers the best value to the State based on all factors considered, including price.",
+      "section_ref": "16.3.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-170",
+      "verbatim_text": "Bidders may be rejected as a result of unsatisfactory past performance under any contract(s) as reflected in vendor performance reports, reference checks, or other sources.",
+      "section_ref": "16.3.2",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-171",
+      "verbatim_text": "Evaluation will be based upon Bidder's demonstrated experience and ability to provide services and related goods. The evaluation may also consider the Bidder's demonstrated financial capability, financial solvency, and capacity to fulfil the requirements of this IFB.",
+      "section_ref": "16.3.3",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-172",
+      "verbatim_text": "Pursuant to Title 1 Texas Administrative Code (TAC), Part 15, Chapter 391, Subchapter D, Rule \u00a7391.405(a), contractors, respondents, and vendors interested in working with HHS are required to implement standards of conduct to apply to all matters involving, or related to, those solicitations and contract(s) between themselves and HHS.",
+      "section_ref": "18",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-173",
+      "verbatim_text": "These standards must adh ere to ethics requirements adopted in rule, in addition to any ethics policy, or code of ethics approved by the HHSC Executive Commissioner and must be at least as restrictive as those applicable to HHS personnel in the applicable ethics law and policy pro visions.",
+      "section_ref": "18",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-174",
+      "verbatim_text": "The standards of conduct must include the ten standards of ethical conduct set forth in Section I of the HHS Ethics Policy and requirements to comply with ethical standards set forth in federal and state law (including, but not limited to, Title 1 TAC, Part 15, Chapter 391, Subchapter D).",
+      "section_ref": "18",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-175",
+      "verbatim_text": "Bidder represents and warrants that, if selected for award of a contract as a result of this IFB, Bidder shall submit to HHSC the signed Certificate of Interested Parties processed online through the Texas Ethics Commission (TEC) prior to contract award.",
+      "section_ref": "19",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-176",
+      "verbatim_text": "If the potential awardee does not timely submit a completed, certified, and signed TEC Form 1295 to HHSC, HHSC is prohibited by law from executing a contract, even if the potential awardee is otherwise eligible for award.",
+      "section_ref": "19",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-177",
+      "verbatim_text": "One of the requirements of Section 2252.908 is that a business entity (defined as \u201cany entity recognized by law through which business is conducted, including a sole proprietorship, partnership, or corporation\u201d) must submit a Form 1295, Certifica te of Interested Parties, to the state agency at the time the business entity is notified it is a potential awardee or at the time the business entity submits the signed contract to the agency.",
+      "section_ref": "19",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-178",
+      "verbatim_text": "Before submitting a Response to this IFB, read the ENTIRE IFB including all exhibits, attachments, forms, etc. Failure to read any part of this IFB will not relieve the Bidder from any submission requirements or a Contractor of its contractual obligations.",
+      "section_ref": "Appendix A",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-179",
+      "verbatim_text": "Responses submitted by facsimile, or any other method not specified in this IFB, will NOT be accepted or considered.",
+      "section_ref": "Appendix A",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-180",
+      "verbatim_text": "Responses sent by e-mail must be sent to: pcsbids@hhs.texas.gov.",
+      "section_ref": "Appendix A.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-181",
+      "verbatim_text": "The e-mail subject line must contain the IFB number, title as indicated on the cover page of this IFB and number of e-mails if more than one (e.g., 1 of #, etc.).",
+      "section_ref": "Appendix A.1 a)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-182",
+      "verbatim_text": "Each Bidder submits a Response at its own risk and is solely responsible for ensuring its Response is submitted in accordance with all IFB requirements, including, but not limited to, instructions in this Appendix, proper labeling, sufficient postage, or delivery fees, and ensuring timely receipt by HHSC.",
+      "section_ref": "20",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-183",
+      "verbatim_text": "Each Response must include all required information/documents for this IFB, but also may contain additional information considered pertinent by Bidder.",
+      "section_ref": "20",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-184",
+      "verbatim_text": "The Response, including all documentation required by this IFB and this Appendix, must be sent in its entirety in one or more e-mails as warranted by the size of each attachment.",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-185",
+      "verbatim_text": "The body of each e-mail must include the following information: Bidder's name; Contact Name for Response; Phone number for Response Contact; IFB number from cover page of this IFB; Purchaser Name (Sole Point of Contact and Communications, Section 6.1).",
+      "section_ref": "Appendix A.1 b)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-186",
+      "verbatim_text": "All documents should be submitted in Microsoft Office\u00ae formats (Word\u00ae and Excel\u00ae, as applicable) or in a form that may be read by Microsoft Office\u00ae software. Any documents with signatures shall be submitted as an Adobe\u00ae portable document format (.pdf) file. Files must be attachments to the email. Links and access given to file storage accounts are not permitted.",
+      "section_ref": "Appendix A.1 c)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-187",
+      "verbatim_text": "Attachments may not exceed 25 MB due to HHSC email file size requirements.",
+      "section_ref": "Appendix A.1 c)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-188",
+      "verbatim_text": "Any documents with signatures shall be submitted as an Adobe\u00ae portable document format ( .pdf) file.",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-189",
+      "verbatim_text": "Files must be attachments to the email.",
+      "section_ref": "1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 38
+    },
+    {
+      "id": "R-190",
+      "verbatim_text": "Submit one (1) USB drive of the complete Response package \u2013 hard copy Responses will not be accepted. The USB drive must be enclosed in properly documented and sealed envelope or sealed carton.",
+      "section_ref": "Appendix A.3 a)-b)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-191",
+      "verbatim_text": "The envelope or carton must be properly labeled, on the face or top of each, with the following: 1. Bidder's name; 2. Contact Name for Response; 3. Phone number for Response Contact; 4. IFB number from the cover page of this IFB; 5. HHSC PCS Purchaser Name (Sole Point of Contact and Communications, Section 6.1).",
+      "section_ref": "Appendix A.3 c)",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-192",
+      "verbatim_text": "PCS 137 - SERVICES The Response, including all documentation required by this IFB and this Appendix, must be submitted in its entirety.",
+      "section_ref": "2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-193",
+      "verbatim_text": "Any documents with signatures shall be submitted as an Adobe\u00ae portable document format (pdf) file.",
+      "section_ref": "3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-194",
+      "verbatim_text": "Failure to submit the following with the Response WILL disqualify the Bidder from further consideration for evaluation or award. Exhibit A - HHS Solicitation Affirmations (Pages 1-14), completed and signed",
+      "section_ref": "Appendix A.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-195",
+      "verbatim_text": "Failure to submit the following with the Response WILL disqualify the Bidder from further consideration for evaluation or award. Exhibit C - Pricing Sheet, completed",
+      "section_ref": "Appendix A.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-196",
+      "verbatim_text": "Exhibit D \u2013 Bidder Reference and Contractor Qualifications Form, completed",
+      "section_ref": "Appendix A.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-197",
+      "verbatim_text": "Provide any other information Bidder believes is pertinent to demonstrate the Bidder's financial capability, financial solvency, and capacity to fulfill the requirements of this IFB.",
+      "section_ref": "Appendix A.4",
+      "type": "should",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-198",
+      "verbatim_text": "Addendum Acknowledgement Form(s), if applicable",
+      "section_ref": "Appendix A.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-199",
+      "verbatim_text": "Public Information Act Copy of Response, if applicable. Reference Section 12.7 Public Information Act \u2013 Bidder Requirements Regarding Disclosure",
+      "section_ref": "Appendix A.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-200",
+      "verbatim_text": "Exhibit F \u2013 Form 4109 Application for Texas Identification Number, if applicable. Complete and return if no prior business has been done with HHS or information has changed. Form 4109 is not required for bid submission to be compliant.",
+      "section_ref": "Appendix A.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    }
+  ]
+}

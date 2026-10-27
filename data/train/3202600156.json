@@ -1,0 +1,842 @@
+{
+  "rfp_id": "3202600156",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Responses Due: November 10, 2026, by 10:00 a.m. CST",
+      "section_ref": "Cover",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-11-10",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "Applicants must meet all requirements and specifications outlined herein to be eligible to provide Diabetes Self-Management services.",
+      "section_ref": "Article I",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 10
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "Providers must be knowledgeable about their responsibilities, the service requirements, and TWC policies applicable to them.",
+      "section_ref": "2.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "Providers must adhere to the current VR-SFP Manual when providing services to VR Customers.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "An Applicant applying for a contract must comply with the following VR-SFP Manual chapters in addition to the OE SOW.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "Before any services are provided, the service provider director must approve the VR3455, Provider Staff Information Form, completed by staff such as a trainer and aides, and submit the approved form to the provider's assigned contract manager and assigned regional program specialist.",
+      "section_ref": "2.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "A diabetes educator must have the following criteria: at least one year of paid experience or two years of documented voluntary experience providing diabetes education as an essential function of the job or responsibilities while holding a current, active, unrestricted license in Texas as one of the following:",
+      "section_ref": "2.4.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 14
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "15 hours of continuing education units (CEUs) within the 12 months immediately preceding the application for contract and/or the submission of the individual VR3455, Provider Staff Information Form as outlined in VR-SFP Manual, 7.2.2; and",
+      "section_ref": "2.4.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "Completed the Texas Confidence Builders as outlined in VR-SFP Manual, 7.2.3.",
+      "section_ref": "2.4.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "The diabetes educator must maintain the qualifications in VR-SFP Manual,7.2.1 and maintain continuing education units (CEUs) in diabetes self-management education topics from an agency approved by the diabetes educator's licensing or certifying body.",
+      "section_ref": "2.4.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "The CEUs may not include the Texas Confidence Builder training.",
+      "section_ref": "2.4.2",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "All diabetes educators must attend and participate in the VR Texas Confidence Builder Training. This 14-hour training is completed before a contract is awarded or before services are provided by the diabetes educator, and the training must be retaken every two years.",
+      "section_ref": "2.4.3",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "A diabetes self-management assessment is the diabetes educator's evaluation of a customer's ability to manage the diabetes. The assessment must gather information about the customers:",
+      "section_ref": "2.5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "The diabetes self-management assessment may be provided remotely only with a VR director approved VR3472, Contracted Service Modification Request, which is provided as Attachment 8 to this solicitation.",
+      "section_ref": "2.5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "It is recommended that the diabetes educator use adaptive equipment and disposable supplies for demonstration during the assessment.",
+      "section_ref": "2.5.1",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "The diabetes self-management assessment provider begins services once a signed VR service authorization and a VR5000, Referral for Provider Services form (Attachment 10), completed by the VR counselor, or the Independent Living Services for Older Individuals Who Are Blind (ILS-OIB) worker, have been received.",
+      "section_ref": "2.5.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "The initial diabetes self-management assessment must not exceed two hours and must be held for each customer individually.",
+      "section_ref": "2.5.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "The provider must discuss additional hours with the VR counselor or the ILS-OIB worker and the VR diabetes program specialist.",
+      "section_ref": "2.5.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Diabetes educators must use the talking blood-glucose meter recommended by the VR state office diabetes program specialist to:",
+      "section_ref": "2.5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "If the diabetes educator recommends using a different type of talking meter, the VR diabetes program specialist must authorize the purchase before the equipment is purchased, and skills training occurs.",
+      "section_ref": "2.5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "The assessment report must be submitted to VR within 35 days of completion of the assessment.",
+      "section_ref": "2.5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "An initial behavior change goal must be set at the initial assessment. This is the customer's goal and action plan.",
+      "section_ref": "2.5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "If the diabetes educator cannot schedule the visit with the customer to initiate the assessment within three calendar weeks, then the educator must notify the VR counselor by email, paper mail, or fax.",
+      "section_ref": "2.5.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "All forms must be completed in their entirety for the provider to be paid.",
+      "section_ref": "2.5.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "The initial diabetes skills training may be provided remotely only with a VR3472, Contracted Service Modification Request for Blind and Visually Impaired Services approved by the VR director before services begin.",
+      "section_ref": "2.6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "The diabetes educator must divide all diabetes skills training into one to two-hour segments to ensure that the segments do not fatigue the customer and consequently reduce the benefit of the skills training.",
+      "section_ref": "2.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "If a segment is less than two hours, the provider must document on the VR2884, in the Observations and Comments section, how this meets the customer's individual needs.",
+      "section_ref": "2.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 26
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "If the customer is unable to participate in skills training on diabetes self-management because of his or her health, the diabetes educator must inform the VR counselor by email, paper mail, or fax within three business days. The diabetes educator must document such notification in the customer's file.",
+      "section_ref": "2.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 27
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "Service providers must document each two-hour skills training session provided to each customer using VR2884, Diabetes Self-Management Educator Notes.",
+      "section_ref": "2.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "All required documentation must be submitted within 35 calendar days of the date that the service is provided, including initial assessment, skills training, and post-training assessment.",
+      "section_ref": "2.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "If the diabetes self-management education services include providing the customer with a talking blood-glucose meter or other diabetes equipment, the diabetes educator must: coordinate receipt of the equipment with the local field office that purchased the service; submit a VR2889, Diabetes Self-Management Education Services Adaptive Diabetes Equipment Receipt; deliver the equipment or supplies to the customer; have the customer sign the VR2889 to acknowledge receipt of equipment or supplies; fill out the manufacturer's warranty card by mail or online; and document on VR2889 that the warranty card has been submitted.",
+      "section_ref": "2.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 28
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "The diabetes educator conducts post-training assessments no sooner than 30 calendar days after the skills training is complete.",
+      "section_ref": "2.7.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "The post-training assessment must be completed for all customers 30 days after the last training session.",
+      "section_ref": "2.7.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "To document the one-hour post-training assessment, the diabetes educator completes the: VR2900, Diabetes Self-Management Education Post-Training Assessment; and VR2901, Diabetes Pre- and Post-Assessment.",
+      "section_ref": "2.7.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 29
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "The following documentation must be submitted within 35 calendar days of completion of the post-training assessment: Initial assessment; Skills training; Post-training assessment.",
+      "section_ref": "2.7.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 30
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "VR-SFP Manual, Chapter 3 Basic Standards requires each Provider to run background checks on each Provider staff member who will interact with any VR Customer.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 31
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Background checks must be completed by the Provider before the Provider staff interacts with any VR Customer.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 32
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Contractors must maintain a record of all background checks conducted, including a screenshot or printed copy from the Texas DPS name-based search and from the National Public Sex offender registry if no results are found.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Contractors must also complete the Background Checks Attestation and Release Form for all staff, which includes: The staff person's first name and last name; Type of background search conducted; Date background search was conducted; If the search returns a conviction; Date the national public sex offender website search was conducted; and If the search returned a result.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "Contractors must maintain the Background Checks Attestation and Release Form and background check records on file for a minimum of 7-years.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 33
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "Any contractor staff member who has a conviction listed on the Convictions Barring Vendor Staff from Performing Services for TWC list must not have any interactions with TWC-VR customers.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "A background check is only valid for 3 years. An updated background check must be obtained no later than the 3-year anniversary date of the original background check, or the contractor must remove the employee from interacting with VR customers on and after the date the background check expires.",
+      "section_ref": "2.10",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 34
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "However, if a Provider (or Provider's staff or Provider's subcontractors) do transport a VR Customer in the Provider's vehicle or Provider's staff personal vehicle, they must meet the minimum liability requirements of the Texas Department of Insurance.",
+      "section_ref": "2.11",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "The Provider must maintain current proof of insurance for any Provider staff who transports VR Customers. When Provider staff transports VR Customers in personal vehicles, the Provider staff must submit to VR proof of auto liability insurance as required by the Texas Department of Insurance with Form VR3455.",
+      "section_ref": "2.11",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "Verification statements on Form VR3455 must be signed by the Provider staff represented on the form and the Provider's Director appointed by the legal authorized representative.",
+      "section_ref": "2.11",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "Each Provider/Entity must have a Director who meets the qualification as stated in the VR-SFP Manual, Chapter 3 Basic Standards.",
+      "section_ref": "2.12",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "The Provider's/Entity's legally authorized representative must appoint Director(s) using Form VR3441A.",
+      "section_ref": "2.12",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "The Provider's/Entity's Director must also have a VR 3455 included in the Application.",
+      "section_ref": "2.12",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 35
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "For any service selected by the Applicant on VR3441B, the Applicant must have at least one (1) person who meets the qualifications to provide the service(s) as described in Article II Scope of Work.",
+      "section_ref": "2.13",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "Each Provider staff must have VR3455 with the supporting documentation (resumes, transcripts, proof of insurance, and credentials) included in the Application.",
+      "section_ref": "2.13",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "After contract award, a VR3455 with supporting documentation must be submitted for each person who will be providing services under the Contract. Each Provider must submit Form VR3455 and the supporting evidence that the staff member meets the required qualifications within 30 days of: hiring new staff member; making a significant change to a staff member's job duties...; changing staff qualifications and/or credentials; or terminating a staff member.",
+      "section_ref": "2.13",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 36
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "Applicant is required to sign and return all Addenda related to the Open Enrollment.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 37
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "Applicant must submit their Application to TWC within the open enrollment period in accordance with Schedule of Events shown above, or as changed via a notification of an Addendum posted to the ESBD.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-11-10",
+      "page": 37
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "All supporting documentation must be collated directly behind its corresponding form.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "Duplicate forms must not be submitted.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "Form 1 Execution of Application. Name convention for submission: APPLICANT Name_Execution of Application",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 39
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "Complete the Form VR1020, TWC Substitute W-9 and Direct Deposit.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "Complete Form VR1305, Child Support Certification. Form VR1305 must be signed by the entity's legal authorized representative.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 40
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "Complete Form VR3443, TWC VR Standards for Provider Certification. Form VR3443 must be signed by the entity's legally authorized representative.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "Complete the Form VR3444, Conflict of Interest Certification. Form VR3444 must be signed by the entity's legally authorized representative.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "Applicants with or without insurance must complete the form VR3445, Provider Insurance Verification. When the Applicant has insurance, a current and accurate certificate of insurance from the Association for Cooperative Operations Research and Development (ACORD) or its equivalent must be attached to Form VR3445.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "Complete the Form VR3441A Entity Headquarters Information Management Team to record the Applicant's management team information.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 41
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "Complete Form VR3441B, Entity Headquarters Information- Part B-Services form to describe the Applicant's staff experience and to indicate what services the Applicant is applying for to gain a contract.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "Form VR3441C must be completed by all Applicants to record the counties where the Applicant is able to provide services with the staff currently hired.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 42
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "Form VR3442A must be completed by the Applicant to indicate if the Applicant has a physical location. The VR3442A form must be submitted even if the Provider does not have a physical location.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "Form VR3442B must be completed for each physical location the entity has. If the entity does not have any physical locations, the Form VR3442B is not required.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 43
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "Complete a Form VR3455, Provider Staff Information and attach required supporting documentation (resumes, transcripts, proof of insurance, and credentials) to demonstrate the staff person, including the Director, meets the required qualifications as stated in the VR-SFP Manual.",
+      "section_ref": "3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "All requests, questions, or other communication about this OE must be submitted through the TWC Procurement Portal and will be directed to the Sole Point of Contact below: Meghan Osborn, CTCD",
+      "section_ref": "3.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "Except as provided in Section 3.5 Sole Point of Contact, a potential Applicant and Applicant that has submitted an Application is prohibited from any communication with TWC regarding the OE.",
+      "section_ref": "3.5.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 44
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "Applicants are required to acknowledge the Addenda by returning the signed Acknowledgment of Addenda with the Application/Enrollment Packet. Failure to do so does not absolve an Applicant from the requirements contained within any Addenda.",
+      "section_ref": "3.6",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "Applications must be received by TWC as prescribed no later than date and time specified in Section 3.2 Schedule of Events.",
+      "section_ref": "4.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-11-10",
+      "page": 45
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "Applicants must fully and completely address all requirements described in this OE. Incomplete or partial Applications will not be considered.",
+      "section_ref": "4.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 45
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "TWC has implemented the eProcurement platform referred to as the TWC Procurement Portal. Applicants must upload all documentation indicated to the TWC Procurement Portal link on the \"Open Opportunities\" tab.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "Submissions by any other method will not be accepted.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "To respond to this OE, Applicants must register through the TWC Procurement Portal website.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 46
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "Applicants must contact the Sole Point of Contact prior to the deadline if there are issues with using the TWC Procurement Portal and an alternative submission method may be required. Failure to contact the Sole Point of Contact well before the deadline to make alternative arrangements will disqualify any subsequent Application submission.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "Hard copies received will not be accepted or reviewed.",
+      "section_ref": "4.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-078",
+      "verbatim_text": "All forms listed below must be completed in their entirety and uploaded to your Application as a separate document in Portable Document Format (PDF).",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-079",
+      "verbatim_text": "Do not submit encrypted or password protected materials or TWC may eliminate such Applications from consideration for contract award.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 47
+    },
+    {
+      "id": "R-080",
+      "verbatim_text": "All content added to forms must be typed and cannot be handwritten. Signatures can be either handwritten or electronic and not editable.",
+      "section_ref": "4.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-081",
+      "verbatim_text": "Applications shall be binding for a period of one hundred eighty (180) days after the Application due date.",
+      "section_ref": "4.6",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 48
+    },
+    {
+      "id": "R-082",
+      "verbatim_text": "Applicant must be set up in the Texas franchise tax system prior to Contract award if applicable.",
+      "section_ref": "4.7",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-083",
+      "verbatim_text": "Applicants must notify the Sole Point of Contact listed in Section 3.5, of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the OE.",
+      "section_ref": "4.8",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 49
+    },
+    {
+      "id": "R-084",
+      "verbatim_text": "TWC will automatically disqualify any Application that does not include one of more of the completed and signed (as applicable) documents.",
+      "section_ref": "5.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-085",
+      "verbatim_text": "Applications received after the deadline specified in Section 3.2 Schedule of Events will be rejected and will not be evaluated or considered for acceptance.",
+      "section_ref": "5.1",
+      "type": "info",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-086",
+      "verbatim_text": "To be considered responsive, the Applicant must complete and submit all required forms in accordance with Section 3.4 Attachments and Forms.",
+      "section_ref": "5.2",
+      "type": "shall",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-087",
+      "verbatim_text": "Disqualification of an application can occur when an Applicant fails to: submit requested corrections or additional documentation within fourteen (14) days unless another timeframe is specified by TWC.",
+      "section_ref": "5.2",
+      "type": "shall",
+      "category": "evaluation",
+      "due_date": null,
+      "page": 51
+    },
+    {
+      "id": "R-088",
+      "verbatim_text": "If Applicant asserts that information provided in its Application is exempt from disclosure under the Texas Public Information Act, Applicant must mark and submit two separate, searchable Portable Document Format (PDF) copies (Original Application and \"Public Information Act Copy,\" including attachments, of the Original Application) as identified below.",
+      "section_ref": "5.3.1",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 52
+    },
+    {
+      "id": "R-089",
+      "verbatim_text": "Within five (5) Business Days from Contract execution, if the Provider is asserting that certain information in the application is exempt from public disclosure, the Provider must submit a \"Public Information Act Copy\" of the Original Executed Contract (in addition to the Original Executed Contract) to the TWC Contract Manager by email.",
+      "section_ref": "5.3.2",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 54
+    },
+    {
+      "id": "R-090",
+      "verbatim_text": "Participation in a post-award orientation will be required before any services related to the awarded Contract can be performed.",
+      "section_ref": "6.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 55
+    },
+    {
+      "id": "R-091",
+      "verbatim_text": "Providers must maintain insurance as described in VR-SFP Manual, Chapter 3 Basic Standards when insurance requirements are applicable.",
+      "section_ref": "6.9",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 58
+    },
+    {
+      "id": "R-092",
+      "verbatim_text": "During the term of the Contract or any extension or renewal thereof, the Provider shall notify TWC in writing of any substantial change in the ownership or control of the Provider as soon as possible, but no later than thirty (30) days prior to its occurrence.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 60
+    },
+    {
+      "id": "R-093",
+      "verbatim_text": "Provider must also notify TWC in writing of any change in financial condition as soon as possible, but no later than ten (10) days after its occurrence.",
+      "section_ref": "6.12",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 60
+    }
+  ]
+}

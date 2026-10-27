@@ -1,0 +1,698 @@
+{
+  "rfp_id": "HHS0015558v2",
+  "requirements": [
+    {
+      "id": "R-001",
+      "verbatim_text": "Responses Due: August 26, 2026 by 10:30 a.m. Central Time",
+      "section_ref": "Cover",
+      "type": "info",
+      "category": "deadline",
+      "due_date": "2026-08-26",
+      "page": 1
+    },
+    {
+      "id": "R-002",
+      "verbatim_text": "Prior to award of the Contract, Respondent must obtain TX-RAMP Level 2 certification.",
+      "section_ref": "1.1",
+      "type": "shall",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 6
+    },
+    {
+      "id": "R-003",
+      "verbatim_text": "TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement.",
+      "section_ref": "1.1",
+      "type": "info",
+      "category": "eligibility",
+      "due_date": null,
+      "page": 6
+    },
+    {
+      "id": "R-004",
+      "verbatim_text": "Commencing on the Effective Date and during the Contract Term, Contractor must provide Services that comply with TX-RAMP Certification Level 2.",
+      "section_ref": "2.1.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-005",
+      "verbatim_text": "Contractor acknowledges that TX-RAMP Provisional Status does not satisfy the TX-RAMP Certification Level 2 requirement.",
+      "section_ref": "2.1.1",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-006",
+      "verbatim_text": "The Contractor shall comply with Exhibit N, Requirements Traceability Matrix, that provides a detailed Requirements Traceability Matrix (RTM) that defines and organizes all required Services and technical requirements to be fulfilled by the Contractor.",
+      "section_ref": "2.1.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-007",
+      "verbatim_text": "Non-compliance or failure to meet performance measures may result in enforcement of liquidated damages or other contractual remedies.",
+      "section_ref": "2.1.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 11
+    },
+    {
+      "id": "R-008",
+      "verbatim_text": "The Contractor, for no additional compensation, shall conduct on an annual basis a Disaster Recovery test to assess the effectiveness of the Contractor\u2019s Disaster Recovery Plan.",
+      "section_ref": "2.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-009",
+      "verbatim_text": "On or before the ninetieth (90th) Calendar Day following each Disaster Recovery test, Contractor will provide DSHS, with a written summary report detailing the results of the Disaster Recovery test.",
+      "section_ref": "2.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-010",
+      "verbatim_text": "Upon DSHS\u2019s written request, Contractor shall make Contractor personnel available to discuss with DSHS the results of the Disaster Recovery test.",
+      "section_ref": "2.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-011",
+      "verbatim_text": "Contractor shall use commercially reasonable efforts to resolve issues identified during the Disaster Recovery test",
+      "section_ref": "2.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-012",
+      "verbatim_text": "for each unsuccessful test, Contractor shall conduct an additional Disaster Recovery test in a timely manner to validate the successful implementation of Contractor\u2019s remediation activities.",
+      "section_ref": "2.1.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-013",
+      "verbatim_text": "The Contractor shall submit an invoice to DSHS in a format consistent with the line-item descriptions of Exhibit M, Cost Proposal.",
+      "section_ref": "2.1.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-014",
+      "verbatim_text": "Each invoice submitted must identify: a. The purchase order number; b. HHSC\u2019s Contract number; c. The time period (e.g., month); and d. Line-item description for Service or Deliverable.",
+      "section_ref": "2.1.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-015",
+      "verbatim_text": "Failure to submit required supporting documentation with the invoice may result in return of invoices and delay of payment.",
+      "section_ref": "2.1.4",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-016",
+      "verbatim_text": "Invoices shall be sent to: Health and Human Services Commission Attn: Invoice \u2013 HHSC MC2065 4601 W. Guadalupe St. Austin, TX 78751 Fax: (512) 206-4854 E-mail: IT_invoicing@hhs.texas.gov",
+      "section_ref": "2.1.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 12
+    },
+    {
+      "id": "R-017",
+      "verbatim_text": "By entering into a Contract with DSHS as a result of this Solicitation, Respondent agrees to be bound by the terms of the Data Use Agreement (DUA), attached as Exhibit D.",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-018",
+      "verbatim_text": "Respondents must complete and return with their Solicitation Response Exhibit D-1, Attachment 2 to the DUA, Security and Privacy Inquiry (SPI).",
+      "section_ref": "2.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 13
+    },
+    {
+      "id": "R-019",
+      "verbatim_text": "Respondents must submit their Solicitation Responses to HHSC in accordance with the due date and time indicated in this Schedule of Events or as changed via an Addendum posted to the ESBD.",
+      "section_ref": "3.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-08-26",
+      "page": 15
+    },
+    {
+      "id": "R-020",
+      "verbatim_text": "NOTE: All dates are tentative and HHSC reserves the right to modify these dates at any time.",
+      "section_ref": "3.1",
+      "type": "info",
+      "category": "deadline",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-021",
+      "verbatim_text": "Each Respondent is responsible for checking the ESBD and Procurement Forecast for updates.",
+      "section_ref": "3.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-022",
+      "verbatim_text": "By submitting a Solicitation Response, Respondent represents and warrants that any individual submitting the Solicitation Response and any related documents on behalf of the Respondent is authorized to do so and to bind the Respondent under any Contract that may result from this Solicitation.",
+      "section_ref": "3.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 15
+    },
+    {
+      "id": "R-023",
+      "verbatim_text": "Respondent must notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation in the manner and by the deadline described in Section 3.3.4 (Solicitation Questions).",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-024",
+      "verbatim_text": "Respondent submits a Solicitation Response at its own risk.",
+      "section_ref": "3.2",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-025",
+      "verbatim_text": "If Respondent fails to properly and timely notify the Sole Point of Contact (Section 3.3.1) of any ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error in the Solicitation, Respondent, whether awarded a Contract or not: a. Waives any claim of error or ambiguity in the Solicitation and any resulting Contract;",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-026",
+      "verbatim_text": "b. Must not contest the interpretation by HHSC of such provision(s);",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-027",
+      "verbatim_text": "c. Is not entitled to additional compensation, relief, or time by reason of ambiguity, conflict, discrepancy, exclusionary specification, omission, or other error or its later correction.",
+      "section_ref": "3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 16
+    },
+    {
+      "id": "R-028",
+      "verbatim_text": "All requests, questions, or other communication about this Solicitation shall be made in writing to HHSC PCS, addressed to the person listed below (Sole Point of Contact).",
+      "section_ref": "3.3.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-029",
+      "verbatim_text": "Respondents seeking to contact the Sole Point of Contact should do so via e-mail in order to receive updated contact information.",
+      "section_ref": "3.3.1",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-030",
+      "verbatim_text": "Except as provided in Section 3.3.1 (Sole Point of Contact) and Section 3.3.3 (Exception to Sole Point of Contact), potential Respondents and Respondents are prohibited from any communication with HHSC regarding the Solicitation.",
+      "section_ref": "3.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-031",
+      "verbatim_text": "Respondent shall rely only on written statements issued by or through HHSC designated staff as provided by Section 3.3 (Inquiries).",
+      "section_ref": "3.3.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 17
+    },
+    {
+      "id": "R-032",
+      "verbatim_text": "Respondents are required to ensure that communications have been authorized by the Sole Point of Contact before engaging in such communication.",
+      "section_ref": "3.3.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-033",
+      "verbatim_text": "Questions must be submitted by e-mail to the Sole Point of Contact (Section 3.3.1) by the deadline established in Section 3.1 (Schedule of Events).",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-07-24",
+      "page": 18
+    },
+    {
+      "id": "R-034",
+      "verbatim_text": "It is the Respondent's responsibility to check the ESBD.",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-035",
+      "verbatim_text": "a. All questions and requests for clarification must include the following information: 1. Solicitation number; 2. Solicitation package reference (page number, section, and exhibit or attachment, if applicable; 3. Question topic (e.g., \u201cSchedule of Events,\u201d or \u201cExhibit M \u2013 Cost Proposal\u201d); and 4. Question for HHSC.",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-036",
+      "verbatim_text": "b. Requestor contact information below must be included in the body of the e-mail and submitted with the question(s): 1. Company name; 2. Company representative name; 3. Phone number; and 4. E-Mail address.",
+      "section_ref": "3.3.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 18
+    },
+    {
+      "id": "R-037",
+      "verbatim_text": "Attendance is optional but highly recommended.",
+      "section_ref": "3.4.1",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-038",
+      "verbatim_text": "Attendees to virtual pre-proposal conferences are required to send an email to the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), advising of participation in the pre-proposal conference.",
+      "section_ref": "3.4.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-039",
+      "verbatim_text": "Attendees must provide their name, phone number, and name of the company they are representing regardless of whether the pre-proposal conference is in-person or virtual.",
+      "section_ref": "3.4.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-040",
+      "verbatim_text": "People with disabilities who wish to attend the meeting and require auxiliary aids or services should contact the Sole Point of Contact identified in Section 3.3.1 (Sole Point of Contact), at least seventy-two (72) hours before the meeting in order to have reasonable accommodations made by HHSC.",
+      "section_ref": "3.4.2",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 19
+    },
+    {
+      "id": "R-041",
+      "verbatim_text": "Conversations with HHSC or DSHS program area staff before or after the pre-proposal conference are prohibited.",
+      "section_ref": "3.4.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 20
+    },
+    {
+      "id": "R-042",
+      "verbatim_text": "Respondent shall prepare a Solicitation Response that clearly and concisely represents its qualifications and capabilities.",
+      "section_ref": "3.5.1",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-043",
+      "verbatim_text": "Respondent should focus on the instructions and requirements of the Solicitation.",
+      "section_ref": "3.5.1",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-044",
+      "verbatim_text": "The narrative/technical proposal should not exceed eighty (80) pages",
+      "section_ref": "3.5.2",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-045",
+      "verbatim_text": "The narrative/technical proposal should be formatted for 8 \u00bd\" x 11\" paper with 1-inch margins and typed in Times New Roman, 12-point font.",
+      "section_ref": "3.5.2",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-046",
+      "verbatim_text": "If complete responses cannot be provided without referencing supporting documentation, such documentation must be provided with the Solicitation Response, with specific reference made to the file, page, section, and/or paragraph where the supporting information can be found.",
+      "section_ref": "3.5.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 21
+    },
+    {
+      "id": "R-047",
+      "verbatim_text": "Respondents are highly encouraged, in lieu of including exceptions in their Solicitation Responses, to address all issues that might be advanced by way of exception by submitting such issues as questions or requests for clarification pursuant to Section 3.3.4 (Solicitation Questions).",
+      "section_ref": "3.5.4",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-048",
+      "verbatim_text": "If a Respondent includes exceptions in its Solicitation Response, Respondent is required to use the Exceptions Form included as Exhibit E to this Solicitation and provide all information requested on the form.",
+      "section_ref": "3.5.4",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-049",
+      "verbatim_text": "Respondent must identify on the Assumptions Form, Exhibit F any business, economic, legal, programmatic, or practical assumptions that underlie the Respondent\u2019s response to the Solicitation.",
+      "section_ref": "3.5.5",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-050",
+      "verbatim_text": "A Solicitation Response should be responsive to the Solicitation as worded and without any assumption that any or all terms, conditions, or provisions of the Solicitation will be negotiated.",
+      "section_ref": "3.5.6",
+      "type": "should",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 22
+    },
+    {
+      "id": "R-051",
+      "verbatim_text": "Solicitation Responses must be received at the address in Section 3.6.4 (Labeling and Delivery for USB Submission and Other Materials) and time-stamped by HHSC PCS no later than the date and time specified in Section 3.1 (Schedule of Events).",
+      "section_ref": "3.6.1",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-08-26",
+      "page": 23
+    },
+    {
+      "id": "R-052",
+      "verbatim_text": "Submission Option #1: Respondent shall submit two (2) USB drives\u2014one (1) labeled \u201cOriginal Proposal\u201d and one (1) labeled \u201cCopy\u201d\u2014containing the following documents:",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-053",
+      "verbatim_text": "Each USB must contain one file named \u201cOriginal\u201d that contains the Respondent\u2019s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit.",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-054",
+      "verbatim_text": "If applicable in accordance with Section 8.1.5, (Public Information Act \u2013 Respondent Requirement Regarding Disclosure), each USB must contain one (1) file named \u201cPublic Information Act Copy\u201d that contains the Respondent\u2019s entire Solicitation Response, including all exhibits and attachments, in searchable PDF.",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-055",
+      "verbatim_text": "In accordance with Section 7.1, (Cost Proposal), each USB must contain one (1) file named \u201cCost Proposal\u201d that contains the Respondent\u2019s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016).",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-056",
+      "verbatim_text": "In accordance with Section 6.8, (Subcontracting Plan), each USB must contain one (1) file named \u201cSubcontracting Plan\u201d in searchable PDF, that contains the Respondent\u2019s Subcontracting Plan and all supporting documentation.",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-057",
+      "verbatim_text": "c. Submission Option #2: Respondent shall submit the following through the Online Bid Room utilizing the procedures in Exhibit J, HHS Online Bid Room Information:",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-058",
+      "verbatim_text": "One (1) file named \u201cOriginal\u201d that contains the Respondent\u2019s entire Solicitation Response (except the cost proposal and Subcontracting Plan) in searchable portable document format (PDF), unless otherwise specified for a particular attachment or exhibit.",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-059",
+      "verbatim_text": "If applicable in accordance with Section 8.1.5, (Public Information Act \u2013 Respondent Requirements Regarding Disclosure), one (1) file named \u201cPublic Information Act Copy\u201d that contains the Respondent\u2019s entire Solicitation Response, including all exhibits and attachments, in searchable PDF.",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-060",
+      "verbatim_text": "In accordance with Section 7.1, (Cost Proposal), one (1) file named \u201cCost Proposal\u201d that contains the Respondent\u2019s cost proposal in Excel format with active formulas (compatible with Microsoft Office 2016).",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-061",
+      "verbatim_text": "In accordance with Section 6.8, (Subcontracting Plan), one (1) file named \u201cSubcontracting Plan\u201d in searchable PDF, that contains the Respondent\u2019s Subcontracting Plan and all supporting documentation.",
+      "section_ref": "3.6.2",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 23
+    },
+    {
+      "id": "R-062",
+      "verbatim_text": "Solicitation Consideration and Award Consideration Documents, reference Section 1.2 (Definitions) must be submitted by the deadline for Solicitation Response submissions, reference Section 3.1 (Schedule of Events).",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deadline",
+      "due_date": "2026-08-26",
+      "page": 24
+    },
+    {
+      "id": "R-063",
+      "verbatim_text": "The Solicitation Response must be submitted using one of the approved methods identified in Section 3.6, (Solicitation Response Submission and Delivery).",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-064",
+      "verbatim_text": "Where searchable PDF files are required, submission of non-searchable (image only) PDF files may result in disqualification from further consideration for Contract award.",
+      "section_ref": "3.6.3",
+      "type": "info",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-065",
+      "verbatim_text": "1. Narrative Proposal (Section 5.1) SC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-066",
+      "verbatim_text": "2. Technical Proposal (Section 5.2) SC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-067",
+      "verbatim_text": "3. Company Information (Section 6.1) SC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-068",
+      "verbatim_text": "4. Franchise Tax Information (Section 6.2) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-069",
+      "verbatim_text": "5. References (Section 6.3) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-070",
+      "verbatim_text": "6. Major Subcontractor Information (Section 6.4) SC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-071",
+      "verbatim_text": "7. HHS Solicitation Affirmations (Section 6.5, Exhibit A) SC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-072",
+      "verbatim_text": "8. Assurances \u2013 Non-Construction Programs (if applicable) (Section 6.5, Exhibit G) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-073",
+      "verbatim_text": "9. Certification Regarding Lobbying (if applicable) (Section 6.5, Exhibit H) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-074",
+      "verbatim_text": "10. HHS Federal Funding Accountability and Transparency Act (FFATA) Certification Form Section 6.5, Exhibit K) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-075",
+      "verbatim_text": "11. Exceptions (if applicable) (Section 3.5.4, Exhibit E) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-076",
+      "verbatim_text": "12. Assumptions (if applicable) (Section 3.5.5, Exhibit F) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "form",
+      "due_date": null,
+      "page": 24
+    },
+    {
+      "id": "R-077",
+      "verbatim_text": "13. Other Reports (Section 6.6) AC ____",
+      "section_ref": "3.6.3",
+      "type": "shall",
+      "category": "deliverable",
+      "due_date": null,
+      "page": 24
+    }
+  ]
+}

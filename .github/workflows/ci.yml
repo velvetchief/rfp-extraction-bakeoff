@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pytest
+      # No TYPESAFE_API_KEY here on purpose: the suite must never call Jev or spend money.
+      - run: python -m pytest evals -q
+      - uses: astral-sh/ruff-action@v3
+        with:
+          args: check --isolated --select E,F,W,B --line-length 120 .
